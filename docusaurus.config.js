@@ -2,7 +2,7 @@ module.exports = {
   title: 'qmBase - Docs',
   tagline: 'Product Guide',
   url: 'https://qmbase.github.io',
-  baseUrl: '/docs',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png',
