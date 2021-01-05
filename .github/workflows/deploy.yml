@@ -10,6 +10,9 @@ on:
       - ".github/workflows/deploy.yml"
       - "website/**"
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
