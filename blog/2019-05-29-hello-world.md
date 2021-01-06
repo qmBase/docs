@@ -3,7 +3,7 @@ slug: hello-world
 title: Hello
 author: Philipp Pähler
 author_title: Maintainer of Docusaurus
-author_image_url: /static/img/paehler_round.png
+author_image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
 tags: [hello, docusaurus]
 ---
 
