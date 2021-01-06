@@ -8,6 +8,7 @@ module.exports = {
   favicon: 'https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png',
   organizationName: 'qmBase', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+  plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
     navbar: {
       title: '',
@@ -78,6 +79,11 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} qmBase GmbH Built with Docusaurus.`,
+    },
+    gtag: {
+      trackingID: 'UA-141789564-1',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
     },
   },
   presets: [
