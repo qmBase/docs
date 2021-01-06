@@ -2,24 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qmbase.github.io/blog</id>
     <title>qmBase - Docs Blog</title>
-    <updated>2020-01-04T00:00:00.000Z</updated>
+    <updated>2021-01-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qmbase.github.io/blog"/>
     <subtitle>qmBase - Docs Blog</subtitle>
     <icon>https://qmbase.github.io/https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png</icon>
     <entry>
+        <title type="html"><![CDATA[Roadmap Update 2021 Q1]]></title>
+        <id>Roadmap Update 2021 Q1</id>
+        <link href="https://qmbase.github.io/docs/blog/2021/01/06/roadmap-update-2020-q1"/>
+        <updated>2021-01-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Version 1.1.142]]></title>
         <id>version-1-1-142</id>
         <link href="https://qmbase.github.io/docs/blog/version-1-1-142"/>
-        <updated>2020-01-04T00:00:00.000Z</updated>
+        <updated>2021-01-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Risiken & Chancen]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>welcome</id>
-        <link href="https://qmbase.github.io/docs/blog/welcome"/>
-        <updated>2019-05-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello]]></title>
