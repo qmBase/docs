@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'qmBase Docs',
+      title: '',
       logo: {
         alt: 'qmBase Docs',
         src: 'https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/navbarLogo.png',
@@ -19,7 +19,7 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Product Guide',
+          label: 'Dokumentation',
           position: 'left',
         },
         {to: 'blog', label: 'Changelog', position: 'left'},
