@@ -8,7 +8,6 @@ module.exports = {
   favicon: 'https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png',
   organizationName: 'qmBase', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
-  plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
     navbar: {
       title: '',
