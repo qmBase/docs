@@ -6,6 +6,23 @@ image: https://www.qmbase.com/wp-content/uploads/2020/01/Bild1-1200x589.jpg
 tags: [roadmap]
 ---
 
-Blog features are powered by the blog plugin. Simply add files to the `blog` directory. It supports tags as well!
+Auch in 2021 werden wir qmBase weiterentwickeln und die Features verbessern, die Ihnen ihre tägliche Arbeit erleichtern.
+Bisher haben wir unsere Roadmap halbjährlich aktualisiert. Hier werden wir jetzt auf eine quartalsweise Planung wechseln, um hier einen konkreteren Ausblick geben zu können, wie wir qmBase weiterentwickeln.
 
-Delete the whole directory if you don't want the blog features. As simple as that!
+<!--truncate-->
+
+Folgende Themen werden wir in diesem Quartal aufgreifen.
+
+- **Audit Trail**: Weitere Optimierungen im Bereich des Audit Trails
+- **Bessere Dokumentation**: Ausbau unseres FAQ und Hilfe Bereichs, um mehr Hilfe zur Selbsthilfe zu ermöglichen.
+- **Sicherheit & Zugriff**: Kundenindividuelle Einbindung von Zwei-Faktor-Authentifizierung. Differenziertere Rollen & Zugriffsberechtigungen innerhalb der Software. Behalten Sie einfacher den Überblick, wer in welche Bereiche Einblick hat.
+- **Kalenderintegration**: Bessere Verknüpfung mit Kalendern. Übertragen Sie alle relevanten Ereignisse in qmBase in einen Internet Kalender, den Sie dann z.B. mit Outlook abonnieren können und somit leichter in Ihren alltäglichen Workflow einbinden können.
+- **Talentmanager**: Verknüpfung der Bereiche Aufgabe & Qualifikationen und Schulungsmanagement in einer einheitlichen App, die vermutlich den Namen Talentmanager bekommen wird.
+
+## Bessere Dokumentation
+
+## Sicherheit & Zugriff
+
+## Kalenderintegration
+
+## Talentmanager
