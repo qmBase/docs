@@ -13,11 +13,12 @@ Bisher haben wir unsere Roadmap halbjährlich aktualisiert. Hier werden wir jetz
 
 Folgende Themen werden wir in diesem Quartal aufgreifen.
 
-- **Audit Trail**: Weitere Optimierungen im Bereich des Audit Trails
+- **Talentmanager**: Verknüpfung der Bereiche Aufgabe & Qualifikationen und Schulungsmanagement in einer einheitlichen App, die vermutlich den Namen Talentmanager bekommen wird. Detailliertere Definition von Anforderungen an Qualifikationen z.B. durch Formulare oder Dokumente.
 - **Bessere Dokumentation**: Ausbau unseres FAQ und Hilfe Bereichs, um mehr Hilfe zur Selbsthilfe zu ermöglichen.
 - **Sicherheit & Zugriff**: Kundenindividuelle Einbindung von Zwei-Faktor-Authentifizierung. Differenziertere Rollen & Zugriffsberechtigungen innerhalb der Software. Behalten Sie einfacher den Überblick, wer in welche Bereiche Einblick hat.
+- **Dashboards & Reportings**: Detailliertere Auswertemöglichkeiten, indem die Filter der normalen Übersichtstabellen übernommen werden.
 - **Kalenderintegration**: Bessere Verknüpfung mit Kalendern. Übertragen Sie alle relevanten Ereignisse in qmBase in einen Internet Kalender, den Sie dann z.B. mit Outlook abonnieren können und somit leichter in Ihren alltäglichen Workflow einbinden können.
-- **Talentmanager**: Verknüpfung der Bereiche Aufgabe & Qualifikationen und Schulungsmanagement in einer einheitlichen App, die vermutlich den Namen Talentmanager bekommen wird.
+- **Audit Trail**: Weitere Optimierungen im Bereich des Audit Trails
 
 ## Bessere Dokumentation
 
