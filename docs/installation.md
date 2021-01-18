@@ -5,7 +5,7 @@ sidebar_label: Installation
 slug: /installation
 ---
 
-## How to install qmBase on local Windows server
+## Install on Windows
 
 Prerequisites
 
@@ -72,3 +72,21 @@ Change the appSettings.Production.json file
   }
 }
 ```
+
+## Install on Linux
+
+Possible but not documented
+
+## Breaking Changes
+
+## Tools Frameworks we use
+
+qmBase builds upon modern and popular technologies.
+For our backend we use
+
+- ASP.NET 5.0
+
+For our frontend we use
+
+- React
+- Code is written in TypeScript
