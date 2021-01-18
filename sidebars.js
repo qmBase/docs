@@ -1,8 +1,8 @@
 module.exports = {
   someSidebar: {
-    "Getting started": ['doc1', 'doc2', 'doc3'],
-    Apps: ['mdx'],
+    Apps: ["admin","idea-management"],
     FAQs:["faqs/smartViews","faqs/supported-browsers"],
-    "On Premises":["installation"]
+    "On Premises":["installation"],
+    // "Getting started": ['doc1', 'doc2', 'doc3',"mdx"],
   },
 };

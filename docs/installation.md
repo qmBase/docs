@@ -5,7 +5,7 @@ sidebar_label: Installation
 slug: /installation
 ---
 
-## How to install qmBase on local the server
+## How to install qmBase on local Windows server
 
 Prerequisites
 
@@ -13,9 +13,12 @@ Prerequisites
 - Windows 10 Pro or higher
 - APS.NET Core Hosting Bundle 5.0.x
 - IIS Webserver V 10
+- SSL Certificate Public or self signed
 - Hardware requirements
   - min 4 GB Ram
   - min 10 GB HDD
+
+Steps to install or update
 
 1. Download the latest qmBase version from [here](https://support.qmbase.com/downloads/). You will get the credentials via mail after you have signed the contract.
 2. Extract the ZIP file to the folder where the IIS is located.

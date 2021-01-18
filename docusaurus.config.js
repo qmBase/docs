@@ -84,6 +84,11 @@ module.exports = {
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
     },
+    announcementBar: {
+      id: 'supportus',
+      content:
+        '⭐️ If you like qmBase, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/qmbase/docs">GitHub</a>! ⭐️',
+    },
   },
   presets: [
     [
