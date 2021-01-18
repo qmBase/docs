@@ -23,6 +23,7 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Changelog', position: 'left'},
+        {to: 'blog/2021/01/06/roadmap-update-2020-q1', label: 'Roadmap', position: 'left'},
         {
           href: 'https://support.qmbase.com/account/findworkspace',
           label: 'Login',
@@ -38,8 +39,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'General',
+              to: 'docs/general',
             },
             {
               label: 'Second Doc',
@@ -51,29 +52,29 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/qmbase/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/qmbase',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/qmbase',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Legal',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Imprint',
+              href: 'https://www.qmbase.com/impressum/',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Data Privacy',
+              href: 'https://www.qmbase.com/datenschutz/',
             },
           ],
         },
