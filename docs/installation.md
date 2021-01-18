@@ -79,7 +79,7 @@ Possible but not documented
 
 ## Breaking Changes
 
-## Tools Frameworks we use
+## Tools & Frameworks we use
 
 qmBase builds upon modern and popular technologies.
 For our backend we use

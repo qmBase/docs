@@ -23,11 +23,12 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Changelog', position: 'left'},
-        // {
-        //   href: 'https://github.com/facebook/docusaurus',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+        {
+          href: 'https://support.qmbase.com/account/findworkspace',
+          label: 'Login',
+          position: 'right',
+          className:"button button--warning navbarBtn"
+        },
       ],
     },
     footer: {

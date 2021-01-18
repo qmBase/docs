@@ -4,12 +4,13 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
+import { appData } from "../data/appData";
+import { AppInfo } from "../models/appInfo";
 import styles from "./styles.module.css";
-
 const features = [
   {
     title: "Tutorials - Einfach loslegen",
-    imageUrl: "img/undraw_docusaurus_mountain.svg",
+    imageUrl: "img/undraw_teaching.svg",
     description: (
       <>
         Finden Sie hier Tutorials, die Ihnen den Einstieg in die Software
@@ -19,7 +20,7 @@ const features = [
   },
   {
     title: "FAQ - Antworten auf häufige Fragen",
-    imageUrl: "img/undraw_docusaurus_tree.svg",
+    imageUrl: "img/undraw_Questions.svg",
     description: (
       <>
         Finden Sie hier antworten auf häufig gestellte Fragen.{" "}
@@ -28,12 +29,12 @@ const features = [
     ),
   },
   {
-    title: "Roadmap",
-    imageUrl: "img/undraw_docusaurus_react.svg",
+    title: "Roadmap & Changelog",
+    imageUrl: "img/undraw_navigator.svg",
     description: (
       <>
-        Ausblick auf unsere zukünftigen Entwicklungen.{" "}
-        <Link to="/blog">Link</Link>
+        Ausblick auf unsere zukünftigen Entwicklungen und Veröffentlichung der
+        neuesten Verbesserungen und Änderungen. <Link to="/blog">Link</Link>
       </>
     ),
   },
@@ -50,6 +51,28 @@ function Feature({ imageUrl, title, description }) {
       )}
       <h3>{title}</h3>
       <p>{description}</p>
+    </div>
+  );
+}
+
+function FeatureCard({ icon, title, description, url }: AppInfo) {
+  // const imgUrl = useBaseUrl(imageUrl);
+  return (
+    <div className={clsx("col col--4")}>
+      <div className="card shadow--md">
+        <div className="card__body text--center">
+          {icon}
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </div>
+        <div className="card__footer">
+          <div className="button-group button-group--block">
+            <Link className="button button--secondary" to={useBaseUrl(url)}>
+              Mehr erfahren
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
@@ -86,6 +109,20 @@ function Home() {
               <div className="row">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+        <div className="text--center">
+          <h2>Apps</h2>
+        </div>
+        {appData && appData.length > 0 && (
+          <section className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {appData.map((props, idx) => (
+                  <FeatureCard key={idx} {...props} />
                 ))}
               </div>
             </div>

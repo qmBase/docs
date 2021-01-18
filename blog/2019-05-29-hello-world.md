@@ -2,7 +2,7 @@
 slug: hello-world
 title: Hello
 author: Philipp Pähler
-author_title: Maintainer of Docusaurus
+author_title: Maintainer of qmBase
 author_image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
 tags: [hello, docusaurus]
 ---
