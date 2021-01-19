@@ -25,7 +25,7 @@ Folgende Themen werden wir in diesem Quartal aufgreifen.
 
 **Update 19.01.2021** Aktuelle Antwortzeiten hinzugefügt.
 
-Die Arbeit mit qmBase soll Spaß machen und leicht von der Hand gehen. Damit wir Sie nicht in Ihrem Arbeitsalltag aufhalten, ist es entscheidend, dass qmBase schnell und ohne unnötig lang Ladezeiten funktioniert. Performance ist also ein wichtiges Feature. Hierzu werden wir in diesem Quartal eine Optimierungen vornehmen dazu zählt:
+Die Arbeit mit qmBase soll Spaß machen und leicht von der Hand gehen. Damit wir Sie nicht in Ihrem Arbeitsalltag aufhalten, ist es entscheidend, dass qmBase schnell und ohne unnötig lang Ladezeiten funktioniert. Performance ist also ein wichtiges Feature. Hierzu werden wir in diesem Quartal einige Optimierungen vornehmen dazu zählt:
 
 1. Einsatz von Leistungsstärkerer Hardware ✔️
 2. Update unsere Server Frameworks auf ASP.NET 5 ✔️
