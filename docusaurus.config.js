@@ -78,7 +78,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} qmBase GmbH Built with Docusaurus.`,
     },
     gtag: {
-      trackingID: 'UA-141789564-1',
+      trackingID: 'UA-75841800-1',
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
     },
