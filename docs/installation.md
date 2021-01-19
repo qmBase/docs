@@ -75,7 +75,7 @@ Change the appSettings.Production.json file
 
 ## Install on Linux
 
-Possible but not documented
+Possible but not yet documented
 
 ## Breaking Changes
 

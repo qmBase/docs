@@ -30,15 +30,15 @@ Die Arbeit mit qmBase soll Spaß machen und leicht von der Hand gehen. Damit wir
 1. Einsatz von Leistungsstärkerer Hardware ✔️
 2. Update unsere Server Frameworks auf ASP.NET 5 ✔️
 
-Unser **Ziel** ist es, bei den Server Antwortzeiten Zeiten in den Bereich von ~200ms im 95 Perzentil zu kommen. D.h. dass 95% der Serveranfragen schneller als in 200ms erfolgen.
+Unser **Ziel** ist es, bei den Server Antwortzeiten Zeiten in den Bereich von ~200ms im 95. Perzentil zu kommen. D.h., dass 95% der Serveranfragen schneller als in 200ms erfolgen.
 
-| Datum      | 95th Percentile (ms) | Ø (ms) | 50th Percentile (ms) | 99th Percentile (ms) |
-| ---------- | -------------------- | ------ | -------------------- | -------------------- |
-| 2020-12-04 | 442                  |        |                      |                      |
-| 2020-12-11 | 497                  |        |                      |                      |
-| 2020-12-18 | 414                  |        |                      |                      |
-| 2021-01-15 | 216                  |        |                      |                      |
-| 2021-01-19 | 213                  | 82     | 13                   | 1293                 |
+| Datum      | 95. Perzentile (ms) | Ø (ms) | 50. Perzentile (ms) | 99. Perzentile (ms) |
+| ---------- | ------------------- | ------ | ------------------- | ------------------- |
+| 2020-12-04 | 442                 |        |                     |                     |
+| 2020-12-11 | 497                 |        |                     |                     |
+| 2020-12-18 | 414                 |        |                     |                     |
+| 2021-01-15 | 216                 |        |                     |                     |
+| 2021-01-19 | 213                 | 82     | 13                  | 1293                |
 
 ## Bessere Dokumentation
 
@@ -47,7 +47,7 @@ Somit haben Sie z.B. auch die Möglichkeit auf die Hilfe zuzugreifen, wenn Sie e
 
 ## Sicherheit & Zugriff
 
-Kundenindividuelle Einbindung von Zwei-Faktor-Authentifizierung. Differenziertere Rollen & Zugriffsberechtigungen innerhalb der Software. Behalten Sie einfacher den Überblick, wer in welche Bereiche Einblick hat. Unser Ziel ist es hier für alle grundsätzlichen Objekte (Schulungen, Maßnahmen etc.), die in qmBase existieren, Funktionen bereizustellen, die die Freigabe eines einzelnen Objekts ermöglichen.
+Kundenindividuelle Einbindung von Zwei-Faktor-Authentifizierung. Differenziertere Rollen & Zugriffsberechtigungen innerhalb der Software. Behalten Sie einfacher den Überblick, wer in welche Bereiche Einblick hat. Unser Ziel ist es hier für alle grundsätzlichen Objekte (Schulungen, Maßnahmen etc.), die in qmBase existieren, es zu ermöglichen, die Freigabe einzeln festzulegen.
 
 ## Kalenderintegration
 
@@ -63,4 +63,4 @@ Verknüpfung der Bereiche Aufgabe & Qualifikationen und Schulungsmanagement in e
 
 ## Audit Trail
 
-Weitere Optimierungen im Bereich des Audit Trails.
+Weitere Optimierungen im Bereich des Audit Trails. Mit dem Audittrail ermöglichen wir Ihnen das einfache Nachhalten von Änderungen. Wird der Status einer Maßnahme z.B. von Offen auf Erledigt gesetzt, wird ein kurzer Eintrag im Audit Trail erstellt, um so Änderungen nachvollziehbar zu machen.

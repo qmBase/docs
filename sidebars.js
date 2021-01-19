@@ -1,9 +1,9 @@
 module.exports = {
   someSidebar: {
-    General:["general"],
-    Apps: ["admin","idea-management"],
+    "Los geht's":["general"],
+    Apps: ["admin","idea-management","projects-and-tasks"],
     FAQs:["faqs/smartViews","faqs/supported-browsers"],
     "Technical Documentation (en)":["installation"],
-    "Getting started": ['doc1', 'doc2', 'doc3',"mdx"],
+    "Templates": ['doc1', 'doc2', 'doc3',"mdx"],
   },
 };

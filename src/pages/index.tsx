@@ -23,7 +23,7 @@ const features = [
     imageUrl: "img/undraw_Questions.svg",
     description: (
       <>
-        Finden Sie hier antworten auf häufig gestellte Fragen.{" "}
+        Finden Sie hier Antworten auf häufig gestellte Fragen.{" "}
         <Link to="/docs">Link</Link>
       </>
     ),
@@ -58,7 +58,7 @@ function Feature({ imageUrl, title, description }) {
 function FeatureCard({ icon, title, description, url }: AppInfo) {
   // const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx("col col--4")}>
+    <div className={clsx("col col--4 padding-vert--md")}>
       <div className="card shadow--md">
         <div className="card__body text--center">
           {icon}
@@ -85,6 +85,13 @@ function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
+      <div className="container padding-vert--lg text--center">
+        <div className="alert alert--info" role="alert">
+          <p>🚧 🚨 🚧</p>
+          Willkommen auf unserer neuen Dokumentationsseite. Diese Seite befindet
+          sich noch im Aufbau.
+        </div>
+      </div>
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -95,7 +102,7 @@ function Home() {
                 "button button--outline button--secondary button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("docs/")}
+              to={useBaseUrl("docs/general")}
             >
               Get Started
             </Link>
@@ -103,14 +110,6 @@ function Home() {
         </div>
       </header>
       <main>
-        <div className="container padding-vert--lg text--center">
-          <div className="alert alert--info" role="alert">
-            <p>🚧 🚨 🚧</p>
-            Willkommen auf unserer neuen Dokumentationsseite. Diese Seite
-            befindet sich noch im Aufbau.
-          </div>
-        </div>
-
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
@@ -123,7 +122,7 @@ function Home() {
           </section>
         )}
         <div className="text--center">
-          <h2>Apps</h2>
+          <h1 className="text--primary">Apps</h1>
         </div>
         {appData && appData.length > 0 && (
           <section className={styles.features}>

@@ -1,5 +1,10 @@
 import React from "react";
-import { FaChalkboardTeacher, FaRegLightbulb, FaUserMd } from "react-icons/fa";
+import {
+  FaChalkboardTeacher,
+  FaRegLightbulb,
+  FaTasks,
+  FaUserMd,
+} from "react-icons/fa";
 import { AppInfo } from "../models/appInfo";
 
 export const appData: AppInfo[] = [
@@ -20,5 +25,11 @@ export const appData: AppInfo[] = [
     title: "Talent Manager",
     description: "",
     url: "docs/talent-manager",
+  },
+  {
+    icon: <FaTasks size="5rem" />,
+    title: "Projekte & Maßanhmen",
+    description: "",
+    url: "docs/projects-and-tasks",
   },
 ];

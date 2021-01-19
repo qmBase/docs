@@ -94,6 +94,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          showLastUpdateTime: true,
           // Please change this to your repo.
           editUrl:
             'https://github.com/qmBase/docs/tree/master/',
