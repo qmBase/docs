@@ -103,6 +103,14 @@ function Home() {
         </div>
       </header>
       <main>
+        <div className="container padding-vert--lg text--center">
+          <div className="alert alert--info" role="alert">
+            <p>🚧 🚨 🚧</p>
+            Willkommen auf unserer neuen Dokumentationsseite. Diese Seite
+            befindet sich noch im Aufbau.
+          </div>
+        </div>
+
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">

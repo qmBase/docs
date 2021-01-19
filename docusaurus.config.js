@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: '',
+      title: 'qmBase',
       logo: {
         alt: 'qmBase Docs',
         src: 'https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/navbarLogo.png',
@@ -23,7 +23,7 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Changelog', position: 'left'},
-        {to: 'blog/2021/01/06/roadmap-update-2020-q1', label: 'Roadmap', position: 'left'},
+        {to: 'blog/2021/01/06/roadmap-update-2021-q1', label: 'Roadmap', position: 'left'},
         {
           href: 'https://support.qmbase.com/account/findworkspace',
           label: 'Login',
@@ -39,12 +39,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'General',
+              label: 'Allgemein',
               to: 'docs/general',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
             },
           ],
         },
