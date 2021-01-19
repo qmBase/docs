@@ -14,7 +14,7 @@ jobs:
         run: |
           yarn install
           yarn run build
-
+        if: github.ref == 'refs/heads/master'
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
