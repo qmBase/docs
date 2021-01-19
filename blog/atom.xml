@@ -10,21 +10,21 @@
     <entry>
         <title type="html"><![CDATA[Roadmap Update 2021 Q1]]></title>
         <id>Roadmap Update 2021 Q1</id>
-        <link href="https://qmbase.github.io/docs/blog/2021/01/06/roadmap-update-2021-q1"/>
+        <link href="https://qmbase.github.io/blog/2021/01/06/roadmap-update-2021-q1"/>
         <updated>2021-01-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Auch in diesem Jahr, 2021, werden wir qmBase dynamisch weiterentwickeln und die Features verbessern, die Ihnen ihre tägliche Arbeit erleichtern.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Version 1.1.142]]></title>
         <id>version-1-1-142</id>
-        <link href="https://qmbase.github.io/docs/blog/version-1-1-142"/>
+        <link href="https://qmbase.github.io/blog/version-1-1-142"/>
         <updated>2021-01-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Risiken & Chancen]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello]]></title>
         <id>hello-world</id>
-        <link href="https://qmbase.github.io/docs/blog/hello-world"/>
+        <link href="https://qmbase.github.io/blog/hello-world"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></summary>
     </entry>
