@@ -3,7 +3,7 @@ title: Roadmap Update 2021 Q1
 author: Philipp Pähler
 author_image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
 image: https://www.qmbase.com/wp-content/uploads/2020/01/Bild1-1200x589.jpg
-tags: [roadmap]
+tags: [Roadmap]
 ---
 
 Auch in diesem Jahr, 2021, werden wir qmBase dynamisch weiterentwickeln und die Features verbessern, die Ihnen ihre tägliche Arbeit erleichtern.
