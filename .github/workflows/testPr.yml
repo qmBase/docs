@@ -1,9 +1,8 @@
 name: Build and Test for Pull Requests
 on:
   push:
-    branches:
-      - /refs/heads/*
-      - !master
+    branches-ignore:
+      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
