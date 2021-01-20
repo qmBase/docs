@@ -101,6 +101,11 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
+          feedOptions: {
+            type: 'all',
+            description:"Stay up to date with the latest qmBase changes",
+            copyright: `Copyright © ${new Date().getFullYear()} qmBase GmbH`,
+          },
           // Please change this to your repo.
           editUrl:
             'https://github.com/qmBase/docs/tree/master/',
