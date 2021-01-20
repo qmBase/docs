@@ -4,8 +4,8 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
+import FeatureCard from "../components/featureCard";
 import { appData } from "../data/appData";
-import { AppInfo } from "../models/appInfo";
 import styles from "./styles.module.css";
 const features = [
   {
@@ -55,28 +55,6 @@ function Feature({ imageUrl, title, description }) {
   );
 }
 
-function FeatureCard({ icon, title, description, url }: AppInfo) {
-  // const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={clsx("col col--4 padding-vert--md")}>
-      <div className="card shadow--md">
-        <div className="card__body text--center">
-          {icon}
-          <h3>{title}</h3>
-          <p>{description}</p>
-        </div>
-        <div className="card__footer">
-          <div className="button-group button-group--block">
-            <Link className="button button--secondary" to={useBaseUrl(url)}>
-              Mehr erfahren
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -122,7 +100,7 @@ function Home() {
           </section>
         )}
         <div className="text--center">
-          <h1 className="text--primary">Apps</h1>
+          <h1 className="text--primary">Tutorials für die einzelnen Apps</h1>
         </div>
         {appData && appData.length > 0 && (
           <section className={styles.features}>
