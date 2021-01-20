@@ -17,7 +17,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/general',
           activeBasePath: 'docs',
           label: 'Dokumentation',
           position: 'left',
@@ -42,6 +42,24 @@ module.exports = {
               label: 'Allgemein',
               to: 'docs/general',
             },
+            {
+              label: 'FAQ',
+              to: 'docs/faqs/smart-views',
+            },
+          ],
+        },
+        
+        {
+          title: 'qmBase',
+          items: [
+            {
+              label: 'qmBase.com',
+              href:"https://qmbase.com",
+            },
+            {
+              label: 'Login',
+              href: 'https://support.qmbase.com/account/findworkspace',
+            },
           ],
         },
         {
@@ -61,21 +79,8 @@ module.exports = {
             },
           ],
         },
-        {
-          title: 'Legal',
-          items: [
-            {
-              label: 'Imprint',
-              href: 'https://www.qmbase.com/impressum/',
-            },
-            {
-              label: 'Data Privacy',
-              href: 'https://www.qmbase.com/datenschutz/',
-            },
-          ],
-        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} qmBase GmbH Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} qmBase GmbH Built with Docusaurus.<br/><a href="https://www.qmbase.com/impressum/">Impressum</a> | <a href="https://www.qmbase.com/datenschutz/">Data Privacy</a>`,
     },
     gtag: {
       trackingID: 'UA-75841800-1',
