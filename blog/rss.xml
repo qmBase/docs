@@ -3,10 +3,18 @@
     <channel>
         <title>qmBase - Docs Blog</title>
         <link>https://qmbase.github.io/blog</link>
-        <description>qmBase - Docs Blog</description>
-        <lastBuildDate>Wed, 06 Jan 2021 00:00:00 GMT</lastBuildDate>
+        <description>Stay up to date with the latest qmBase changes</description>
+        <lastBuildDate>Fri, 08 Jan 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <copyright>Copyright © 2021 qmBase GmbH</copyright>
+        <item>
+            <title><![CDATA[Version 1.1.143]]></title>
+            <link>https://qmbase.github.io/blog/Version-1_1_143</link>
+            <guid>Version-1_1_143</guid>
+            <pubDate>Fri, 08 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Blog]]></description>
+        </item>
         <item>
             <title><![CDATA[Roadmap Update 2021 Q1]]></title>
             <link>https://qmbase.github.io/blog/2021/01/06/roadmap-update-2021-q1</link>

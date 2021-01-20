@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{73:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Roadmap Update 2021 Q1","permalink":"/blog/2021/01/06/roadmap-update-2021-q1"},{"title":"Version 1.1.142","permalink":"/blog/version-1-1-142"},{"title":"Hello","permalink":"/blog/hello-world"}]}')}}]);

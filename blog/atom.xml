@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qmbase.github.io/blog</id>
     <title>qmBase - Docs Blog</title>
-    <updated>2021-01-06T00:00:00.000Z</updated>
+    <updated>2021-01-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qmbase.github.io/blog"/>
-    <subtitle>qmBase - Docs Blog</subtitle>
+    <subtitle>Stay up to date with the latest qmBase changes</subtitle>
     <icon>https://qmbase.github.io/https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png</icon>
+    <rights>Copyright © 2021 qmBase GmbH</rights>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.143]]></title>
+        <id>Version-1_1_143</id>
+        <link href="https://qmbase.github.io/blog/Version-1_1_143"/>
+        <updated>2021-01-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Roadmap Update 2021 Q1]]></title>
         <id>Roadmap Update 2021 Q1</id>
