@@ -11,10 +11,13 @@ Bisher haben wir unsere Roadmap halbjährlich aktualisiert. Hier werden wir jetz
 
 <!--truncate-->
 
+_Update 22.01.2021_
+Die Zusammenführung der Apps Schulungen und Aufgaben & Qualificationen in der App Talentmanager werden wir im 2. Quartal aufgreifen. Im Ausgleich dafür ist die Verbesserung des Zielmanagements in die Roadmap aufgenommen worden.
+
 Folgende Themen werden wir in diesem Quartal aufgreifen.
 
 - **Verbesserung der Performance** 🔧
-- **Talentmanager**
+- **Zielmanagement**
 - **Bessere Dokumentation**
 - **Sicherheit & Zugriff**
 - **Dashboards & Reportings**
@@ -57,9 +60,9 @@ Bessere Verknüpfung mit Kalendern. Übertragen Sie alle relevanten Ereignisse i
 
 Detailliertere Auswertungsmöglichkeiten, indem die Filter der normalen Übersichtstabellen übernommen werden. Derzeit gibt es in den meisten Bereichen nur die Möglichkeit nach voreingestellten Zeitintervallen zu filtern. Durch die neuen Filter wird es hier dann wesentlich flexiblere Möglichkeiten geben.
 
-## Talentmanager
+## Zielmanagement
 
-Verknüpfung der Bereiche Aufgabe & Qualifikationen und Schulungsmanagement in einer einheitlichen App, die vermutlich den Namen Talentmanager bekommen wird. Detailliertere Definition von Anforderungen an Qualifikationen z.B. durch Formulare oder Dokumente.
+Bisher kann der Zielfortschritt nur als % Wert erfasst werden. Dies erfordert unnötig kompliziertes Umrechnen bei der Benutzung der Software. An diese Stelle soll eine flexiblere Erfassung der Fortschritte kommen. Somit können dann auch einfach absolute Werte wie bspw. Anzahl der Neukunden erfasst werden.
 
 ## Audit Trail
 

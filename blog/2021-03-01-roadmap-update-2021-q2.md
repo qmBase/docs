@@ -9,3 +9,7 @@ draft: true
 
 - Workflows
 - General Notificationsystem
+
+## Talentmanager
+
+Verknüpfung der Bereiche Aufgabe & Qualifikationen und Schulungsmanagement in einer einheitlichen App, die vermutlich den Namen Talentmanager bekommen wird. Detailliertere Definition von Anforderungen an Qualifikationen z.B. durch Formulare oder Dokumente.
