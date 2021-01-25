@@ -8,4 +8,4 @@ tags: [hola, docusaurus]
 ---
 Organisationen können Mitarbeiter zugeordnet werden.
 
-<hr> Element wird wieder dargestellt.
+ Element wird wieder dargestellt.
