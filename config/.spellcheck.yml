@@ -2,7 +2,7 @@ matrix:
   - name: Markdown
     aspell:
       lang: de
-      d: deutsch
+      d: german8
     dictionary:
       encoding: utf-8
     pipeline:
