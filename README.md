@@ -35,3 +35,9 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 ## Colors
 
 - Primary: #65ace0
+
+## Static Assets
+
+### Screenshots
+
+The screenshots are automatically generated via Cypress. You can see the full list of screenshots [here](https://qmbaseadminlinux.azurewebsites.net/) under the gallery section
