@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-89
 slug: /faqs/89
 title: Annahme der Idee und erste fachliche Prüfung - Annahme- und Gutachtenphase
 tags: []

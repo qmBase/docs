@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-18
 slug: /faqs/18
 title: Meine Idee wurde abgelehnt, wo kann ich sehen warum das so ist
 tags: [Ideenmanagement]

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-93
 slug: /faqs/93
 title: Wie gut funktioniert mein Ideenmanagement
 tags: []

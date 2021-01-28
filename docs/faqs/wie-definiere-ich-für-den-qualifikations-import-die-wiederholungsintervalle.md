@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-81
 slug: /faqs/81
 title: Wie definiere ich für den Qualifikations-Import die Wiederholungsintervalle
 tags: [Datenimport,Aufgaben & Qualifikationen]

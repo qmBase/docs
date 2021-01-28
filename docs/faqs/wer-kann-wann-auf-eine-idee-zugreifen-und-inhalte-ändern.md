@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-88
 slug: /faqs/88
 title: Wer kann wann auf eine Idee zugreifen und Inhalte ändern
 tags: []

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-10
 slug: /faqs/10
 title: Wieso kann ich Mitarbeitern keine Abteilung bzw. Position zuordnen, obwohl ich Abteilungen bereits erstellt habe
 tags: [Rollenprofil,Mitarbeiter]

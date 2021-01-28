@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-3
 slug: /faqs/3
 title: Kann ich Kostenarten selbst definieren
 tags: [Instandhaltung,Reklamationsmanagement]

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-40
 slug: /faqs/40
 title: Wer kann Dokumente und Artikel freigeben
 tags: [Dokumentenmanagement,Wiki,Blog]

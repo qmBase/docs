@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-95
 slug: /faqs/95
 title: Was sind Verknüpfungskategorien
 tags: []

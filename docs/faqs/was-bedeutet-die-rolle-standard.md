@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-57
 slug: /faqs/57
 title: Was bedeutet die Rolle Standard
 tags: []

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-112
 slug: /faqs/112
 title: Der qmBase Bot
 tags: []

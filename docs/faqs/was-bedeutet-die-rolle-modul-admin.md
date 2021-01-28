@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-58
 slug: /faqs/58
 title: Was bedeutet die Rolle Modul Admin
 tags: []

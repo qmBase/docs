@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-72
 slug: /faqs/72
 title: Wie kann ich externe Personen, die keine Mitarbeiter sind, zu Schulungen einladen
 tags: [Schulungsmanagement]

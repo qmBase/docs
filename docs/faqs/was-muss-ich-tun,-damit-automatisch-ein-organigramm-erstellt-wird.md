@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-79
 slug: /faqs/79
 title: Was muss ich tun, damit automatisch ein Organigramm erstellt wird
 tags: [Rollenprofil,Mitarbeiter]

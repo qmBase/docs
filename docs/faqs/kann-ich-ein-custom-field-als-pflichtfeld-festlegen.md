@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-103
 slug: /faqs/103
 title: Kann ich ein Custom Field als Pflichtfeld festlegen
 tags: []

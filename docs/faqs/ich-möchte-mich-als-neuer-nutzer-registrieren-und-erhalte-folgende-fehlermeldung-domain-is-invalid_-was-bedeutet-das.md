@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-9
 slug: /faqs/9
 title: Ich möchte mich als neuer Nutzer registrieren und erhalte folgende Fehlermeldung Domain is invalid. Was bedeutet das
 tags: [Allgemein,Anmeldung]

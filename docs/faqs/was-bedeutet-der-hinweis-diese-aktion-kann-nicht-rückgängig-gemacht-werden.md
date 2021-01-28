@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-37
 slug: /faqs/37
 title: Was bedeutet der Hinweis Diese Aktion kann nicht rückgängig gemacht werden
 tags: [Allgemein]

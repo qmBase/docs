@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-76
 slug: /faqs/76
 title: Wie kann ich meinen Kalender verknüpfen
 tags: []

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-116
 slug: /faqs/116
 title: Import von Organisationen, Kunden, Lieferanten und Kontakte
 tags: []

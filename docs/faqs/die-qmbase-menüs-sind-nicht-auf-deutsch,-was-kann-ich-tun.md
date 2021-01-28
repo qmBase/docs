@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-23
 slug: /faqs/23
 title: Die qmBase Menüs sind nicht auf deutsch, was kann ich tun
 tags: [Allgemein,Sprache]

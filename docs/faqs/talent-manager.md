@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-109
 slug: /faqs/109
 title: Talent Manager
 tags: []

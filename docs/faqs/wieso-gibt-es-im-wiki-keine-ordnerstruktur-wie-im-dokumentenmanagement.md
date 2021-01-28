@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-28
 slug: /faqs/28
 title: Wieso gibt es im Wiki keine Ordnerstruktur wie im Dokumentenmanagement
 tags: [Wiki,Schlagworte]

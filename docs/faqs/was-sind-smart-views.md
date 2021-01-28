@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-6
 slug: /faqs/6
 title: Was sind Smart Views
 tags: [Projekte & Maßnahme,Aufgaben & Qualifikationen]

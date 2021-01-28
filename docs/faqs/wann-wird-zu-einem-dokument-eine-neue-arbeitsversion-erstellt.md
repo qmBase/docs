@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-70
 slug: /faqs/70
 title: Wann wird zu einem Dokument eine neue Arbeitsversion erstellt
 tags: [Dokumentenmanagement,Wiki,Blog]

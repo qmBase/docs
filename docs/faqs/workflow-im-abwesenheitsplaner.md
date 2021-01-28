@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-100
 slug: /faqs/100
 title: Workflow im Abwesenheitsplaner
 tags: []

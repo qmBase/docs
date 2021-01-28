@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-114
 slug: /faqs/114
 title: Wie lange werden alte Revision archiviert
 tags: [Dokumentenmanagement,Wiki,Blog]

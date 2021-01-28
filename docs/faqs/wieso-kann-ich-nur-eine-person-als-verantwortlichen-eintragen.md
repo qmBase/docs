@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-66
 slug: /faqs/66
 title: Wieso kann ich nur eine Person als Verantwortlichen eintragen
 tags: [Allgemein,Projekte & Maßnahme]

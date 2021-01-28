@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-7
 slug: /faqs/7
 title: Wie passe ich Dokumente und Artikel im Dokumentenmanagement, Wiki und Blog an
 tags: [Dokumentenmanagement,Wiki,Blog]

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-27
 slug: /faqs/27
 title: Wie kann ich Texte zu späteren Weiterbearbeitug zwischenspeichern
 tags: [Ideenmanagement,Dokumentenmanagement,Wiki,Blog]

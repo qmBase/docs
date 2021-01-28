@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-48
 slug: /faqs/48
 title: Wie kann ich die Anzahl der Schulungsteilnehmer begrenzen
 tags: [Schulungsmanagement]

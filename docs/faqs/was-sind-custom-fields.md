@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-80
 slug: /faqs/80
 title: Was sind Custom Fields
 tags: [Schulungsmanagement,Risiken & Chancen,Auditmanagement,Reklamationsmanagement]

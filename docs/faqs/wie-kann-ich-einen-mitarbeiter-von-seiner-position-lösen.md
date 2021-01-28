@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-125
 slug: /faqs/125
 title: Wie kann ich einen Mitarbeiter von seiner Position lösen
 tags: []

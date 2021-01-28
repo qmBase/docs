@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-123
 slug: /faqs/123
 title: Wie können Formulare mit Schulungen verknüpft werden
 tags: []

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-43
 slug: /faqs/43
 title: Wie kann ich einstellen, dass ein Dokument aktiv per Klick zur Kenntnis genommen werden muss und nicht nur per Aufruf des Dokuments
 tags: [Dokumentenmanagement]

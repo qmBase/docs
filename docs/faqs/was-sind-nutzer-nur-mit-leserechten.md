@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-60
 slug: /faqs/60
 title: Was sind Nutzer nur mit Leserechten
 tags: []

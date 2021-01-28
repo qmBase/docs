@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-47
 slug: /faqs/47
 title: Wie können Mitarbeiter sich selbst zu Schulungen anmelden
 tags: [Schulungsmanagement]

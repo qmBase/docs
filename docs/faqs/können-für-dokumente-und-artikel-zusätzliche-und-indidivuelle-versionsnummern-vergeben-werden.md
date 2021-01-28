@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-33
 slug: /faqs/33
 title: Können für Dokumente und Artikel zusätzliche und indidivuelle Versionsnummern vergeben werden
 tags: [Dokumentenmanagement,Wiki,Blog]

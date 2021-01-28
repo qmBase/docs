@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-44
 slug: /faqs/44
 title: Wie bekomme ich große Datenmengen in qmBase - der Import
 tags: [Allgemein,Datenimport]

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-65
 slug: /faqs/65
 title: Was ist der Unterschied zwischen Mitarbeitern und Nutzern
 tags: [Nutzer,Mitarbeiter]

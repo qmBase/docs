@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-110
 slug: /faqs/110
 title: Was sind Aufgaben
 tags: []

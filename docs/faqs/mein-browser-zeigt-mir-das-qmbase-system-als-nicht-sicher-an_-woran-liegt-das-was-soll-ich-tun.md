@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-52
 slug: /faqs/52
 title: Mein Browser zeigt mir das qmBase-System als nicht sicher an. Woran liegt das Was soll ich tun
 tags: [Allgemein,Anmeldung,Support,Sicherheit,Testsystem]

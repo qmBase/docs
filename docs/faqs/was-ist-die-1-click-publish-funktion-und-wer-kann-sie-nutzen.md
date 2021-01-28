@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-8
 slug: /faqs/8
 title: Was ist die 1-Click-Publish Funktion und wer kann sie nutzen
 tags: [Dokumentenmanagement,Wiki,Blog]

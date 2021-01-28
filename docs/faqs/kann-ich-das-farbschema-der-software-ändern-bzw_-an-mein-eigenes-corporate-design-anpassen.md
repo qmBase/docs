@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-31
 slug: /faqs/31
 title: Kann ich das Farbschema der Software ändern bzw. an mein eigenes Corporate Design anpassen
 tags: [Allgemein,Farbschema,Corporate Design]

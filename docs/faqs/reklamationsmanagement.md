@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-118
 slug: /faqs/118
 title: Reklamationsmanagement
 tags: []

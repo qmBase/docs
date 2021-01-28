@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-87
 slug: /faqs/87
 title: Rollen im Ideenmanagement
 tags: []

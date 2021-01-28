@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-98
 slug: /faqs/98
 title: Wer hat Zugriff auf welche Abwesenheitsanträge
 tags: []

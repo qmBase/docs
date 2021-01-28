@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-101
 slug: /faqs/101
 title: Einstellungen im Abwesenheitsplaner
 tags: []

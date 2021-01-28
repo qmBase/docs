@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-54
 slug: /faqs/54
 title: Ein Mitarbeiter und Nutzer hat das Unternehmen verlassen – was ist zu tun
 tags: []

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-42
 slug: /faqs/42
 title: Kann ich in Textfeldern auch klickbare Links einfügen
 tags: [Allgemein,Dokumentenmanagement,Wiki,Blog]

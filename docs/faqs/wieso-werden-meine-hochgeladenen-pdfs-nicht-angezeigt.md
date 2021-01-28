@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-12
 slug: /faqs/12
 title: Wieso werden meine hochgeladenen PDFs nicht angezeigt
 tags: [Dokumentenmanagement,Wiki,Blog]

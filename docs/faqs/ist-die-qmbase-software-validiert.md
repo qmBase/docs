@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-74
 slug: /faqs/74
 title: Ist die qmBase Software validiert
 tags: [Allgemein]

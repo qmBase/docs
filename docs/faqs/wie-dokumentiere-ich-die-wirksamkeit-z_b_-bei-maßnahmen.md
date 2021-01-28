@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-115
 slug: /faqs/115
 title: Wie dokumentiere ich die Wirksamkeit z.B. bei Maßnahmen
 tags: []
