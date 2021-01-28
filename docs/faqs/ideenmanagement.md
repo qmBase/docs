@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-85
 slug: /faqs/85
 title: Ideenmanagement
 tags: []

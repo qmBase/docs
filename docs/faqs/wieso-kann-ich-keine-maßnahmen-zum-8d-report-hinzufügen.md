@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-25
 slug: /faqs/25
 title: Wieso kann ich keine Maßnahmen zum 8D-Report hinzufügen
 tags: [Reklamationsmanagement,8D-Report]

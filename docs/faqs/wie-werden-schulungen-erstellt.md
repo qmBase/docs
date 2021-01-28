@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-69
 slug: /faqs/69
 title: Wie werden Schulungen erstellt
 tags: [Schulungsmanagement]

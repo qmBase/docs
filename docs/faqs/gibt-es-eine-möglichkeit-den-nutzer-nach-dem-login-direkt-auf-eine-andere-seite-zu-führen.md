@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-32
 slug: /faqs/32
 title: Gibt es eine Möglichkeit den Nutzer nach dem Login direkt auf eine andere Seite zu führen
 tags: [Allgemein,Startseite]

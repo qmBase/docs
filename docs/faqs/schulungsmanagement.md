@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-122
 slug: /faqs/122
 title: Schulungsmanagement
 tags: []

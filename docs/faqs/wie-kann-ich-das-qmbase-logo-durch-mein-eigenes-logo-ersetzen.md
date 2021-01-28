@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-30
 slug: /faqs/30
 title: Wie kann ich das qmBase-Logo durch mein eigenes Logo ersetzen
 tags: [Allgemein,Logo,Drucken,Corporate Design]

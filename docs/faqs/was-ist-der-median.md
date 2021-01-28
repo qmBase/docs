@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-5
 slug: /faqs/5
 title: Was ist der Median
 tags: [Qualitätsmonitor,Reklamationsmanagement]

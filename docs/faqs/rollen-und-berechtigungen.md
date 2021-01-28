@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-56
 slug: /faqs/56
 title: Rollen und Berechtigungen
 tags: []

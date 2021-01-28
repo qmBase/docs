@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-50
 slug: /faqs/50
 title: Wie kann ich eine Person zu einem Team hinzufügen
 tags: [Funktionen & Qualifikationen,Rollenprofil,Mitarbeiter]

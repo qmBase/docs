@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-11
 slug: /faqs/11
 title: Wie erstelle ich ein Anforderungsprofil für die Mitarbeiter und deren Qualifikationen
 tags: [Funktionen & Qualifikationen,Rollenprofil,Mitarbeiter]

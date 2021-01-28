@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-26
 slug: /faqs/26
 title: Was bedeutet der Menüpunkt Schicken Sie uns Feedback
 tags: [Allgemein,Support]

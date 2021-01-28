@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-67
 slug: /faqs/67
 title: Wie können Qualifikationen auf Teilnehmer einer Schulung übertragen werden
 tags: [Schulungsmanagement,Aufgaben & Qualifikationen]

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-124
 slug: /faqs/124
 title: Wie werden Smart Views erstellt
 tags: []

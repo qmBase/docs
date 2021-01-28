@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-55
 slug: /faqs/55
 title: Ich habe versehentlich den falschen Nutzer Account gelöscht. Wie kann ich das rückgängig machen
 tags: []

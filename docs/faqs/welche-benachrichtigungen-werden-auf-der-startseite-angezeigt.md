@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-107
 slug: /faqs/107
 title: Welche Benachrichtigungen werden auf der Startseite angezeigt
 tags: []

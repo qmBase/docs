@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-22
 slug: /faqs/22
 title: Was mache ich, wenn mir die FAQs nicht geholfen haben
 tags: [Allgemein,Support]

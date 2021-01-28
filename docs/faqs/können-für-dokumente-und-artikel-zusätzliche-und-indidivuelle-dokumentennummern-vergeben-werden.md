@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-34
 slug: /faqs/34
 title: Können für Dokumente und Artikel zusätzliche und indidivuelle Dokumentennummern vergeben werden
 tags: [Dokumentenmanagement,Wiki,Blog]

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-71
 slug: /faqs/71
 title: Wie finde ich Fehlerursachen Wofür brauche ich Fehlerketten
 tags: [Fehlermanagement]

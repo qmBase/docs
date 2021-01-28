@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-63
 slug: /faqs/63
 title: Wie vergebe ich Schlagworte
 tags: [Schlagworte]

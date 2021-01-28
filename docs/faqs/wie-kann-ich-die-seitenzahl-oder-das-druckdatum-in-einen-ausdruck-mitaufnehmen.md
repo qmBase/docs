@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-38
 slug: /faqs/38
 title: Wie kann ich die Seitenzahl oder das Druckdatum in einen Ausdruck mitaufnehmen
 tags: [Dokumentenmanagement,Wiki,Blog,Drucken]

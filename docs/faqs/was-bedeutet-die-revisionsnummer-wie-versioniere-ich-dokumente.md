@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-68
 slug: /faqs/68
 title: Was bedeutet die Revisionsnummer Wie versioniere ich Dokumente
 tags: []

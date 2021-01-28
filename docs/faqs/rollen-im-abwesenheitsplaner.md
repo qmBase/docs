@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-99
 slug: /faqs/99
 title: Rollen im Abwesenheitsplaner
 tags: []

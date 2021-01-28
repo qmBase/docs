@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-113
 slug: /faqs/113
 title: Was zählt als Ansicht
 tags: []

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-36
 slug: /faqs/36
 title: Wie kann ich einen zurückgezogenes Dokument oder Artikel wieder veröffentlichen
 tags: [Dokumentenmanagement,Wiki,Blog]

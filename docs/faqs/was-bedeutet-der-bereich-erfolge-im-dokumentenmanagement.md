@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-53
 slug: /faqs/53
 title: Was bedeutet der Bereich Erfolge im Dokumentenmanagement
 tags: [Dokumentenmanagement]

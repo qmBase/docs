@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-61
 slug: /faqs/61
 title: Ich habe ein Dokument zurückgezogen und finde es nicht wieder. Wo ist es
 tags: [Dokumentenmanagement,Wiki,Blog]

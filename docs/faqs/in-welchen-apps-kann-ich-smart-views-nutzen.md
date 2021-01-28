@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-104
 slug: /faqs/104
 title: In welchen Apps kann ich Smart Views nutzen
 tags: []

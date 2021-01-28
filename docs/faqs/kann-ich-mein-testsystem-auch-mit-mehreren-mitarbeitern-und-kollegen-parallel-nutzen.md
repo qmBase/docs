@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-64
 slug: /faqs/64
 title: Kann ich mein Testsystem auch mit mehreren Mitarbeitern und Kollegen parallel nutzen
 tags: [Testsystem,Nutzer]

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-46
 slug: /faqs/46
 title: Der Datenimport mit der CSV-Vorlage funktioniert nicht. Woran kann das liegen
 tags: [Allgemein,Datenimport]

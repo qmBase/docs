@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-24
 slug: /faqs/24
 title: Das Datumsformat stimmt nicht (MMTTJJJJ statt TT.MM.JJJJ ), was kann ich tun
 tags: [Allgemein,Sprache]

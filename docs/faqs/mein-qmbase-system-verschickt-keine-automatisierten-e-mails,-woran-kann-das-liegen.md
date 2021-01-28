@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-39
 slug: /faqs/39
 title: Mein qmBase-System verschickt keine automatisierten E-Mails, woran kann das liegen
 tags: [Allgemein,E-Mails]

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-105
 slug: /faqs/105
 title: Wie wird qmBase entwicklet
 tags: []

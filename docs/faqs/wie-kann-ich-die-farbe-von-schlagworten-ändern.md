@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-15
 slug: /faqs/15
 title: Wie kann ich die Farbe von Schlagworten ändern
 tags: [Allgemein,Schlagworte]

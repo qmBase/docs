@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-86
 slug: /faqs/86
 title: Wie erfasse ich eine Idee
 tags: []

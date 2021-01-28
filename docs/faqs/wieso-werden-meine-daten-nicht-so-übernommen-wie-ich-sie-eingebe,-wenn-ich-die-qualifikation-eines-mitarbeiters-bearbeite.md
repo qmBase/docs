@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-51
 slug: /faqs/51
 title: Wieso werden meine Daten nicht so übernommen wie ich sie eingebe, wenn ich die Qualifikation eines Mitarbeiters bearbeite
 tags: [Funktionen & Qualifikationen,Rollenprofil,Mitarbeiter]

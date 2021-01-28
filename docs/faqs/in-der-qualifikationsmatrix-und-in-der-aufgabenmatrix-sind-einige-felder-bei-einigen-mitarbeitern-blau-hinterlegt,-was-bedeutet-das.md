@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-49
 slug: /faqs/49
 title: In der Qualifikationsmatrix und in der Aufgabenmatrix sind einige Felder bei einigen Mitarbeitern blau hinterlegt, was bedeutet das
 tags: [Funktionen & Qualifikationen,Rollenprofil]

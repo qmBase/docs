@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-96
 slug: /faqs/96
 title: Was sind externe IDs
 tags: []

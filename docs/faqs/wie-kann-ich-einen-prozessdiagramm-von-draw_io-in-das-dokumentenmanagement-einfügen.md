@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-108
 slug: /faqs/108
 title: Wie kann ich einen Prozessdiagramm von Draw.io in das Dokumentenmanagement einfügen
 tags: []

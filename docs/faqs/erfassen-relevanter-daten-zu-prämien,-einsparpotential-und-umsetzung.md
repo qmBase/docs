@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-90
 slug: /faqs/90
 title: Erfassen relevanter Daten zu Prämien, Einsparpotential und Umsetzung
 tags: []

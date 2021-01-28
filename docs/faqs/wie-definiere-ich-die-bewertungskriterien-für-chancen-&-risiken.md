@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-94
 slug: /faqs/94
 title: Wie definiere ich die Bewertungskriterien für Chancen & Risiken
 tags: [Risiken & Chancen]

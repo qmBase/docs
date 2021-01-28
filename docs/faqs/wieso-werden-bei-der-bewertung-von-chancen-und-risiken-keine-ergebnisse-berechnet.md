@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-16
 slug: /faqs/16
 title: Wieso werden bei der Bewertung von Chancen und Risiken keine Ergebnisse berechnet
 tags: [Risiken & Chancen]

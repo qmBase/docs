@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-106
 slug: /faqs/106
 title: Wie schränke ich den Zugriff auf Custom Fields ein
 tags: []

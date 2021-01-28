@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-120
 slug: /faqs/120
 title: Bearbeiten und Abschließen von Reklamationen
 tags: []

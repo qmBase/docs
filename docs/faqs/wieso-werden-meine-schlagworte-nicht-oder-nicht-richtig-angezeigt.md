@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-13
 slug: /faqs/13
 title: Wieso werden meine Schlagworte nicht oder nicht richtig angezeigt
 tags: [Allgemein,Schlagworte]

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-92
 slug: /faqs/92
 title: Wann werden Benachrichtigungen verschickt, wenn Ideen bearbeitet werden
 tags: []

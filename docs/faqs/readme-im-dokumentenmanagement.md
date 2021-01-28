@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-83
 slug: /faqs/83
 title: Readme im Dokumentenmanagement
 tags: [Dokumentenmanagement]

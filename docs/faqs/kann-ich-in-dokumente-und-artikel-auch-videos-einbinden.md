@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-41
 slug: /faqs/41
 title: Kann ich in Dokumente und Artikel auch Videos einbinden
 tags: [Dokumentenmanagement,Wiki,Blog,Videos]

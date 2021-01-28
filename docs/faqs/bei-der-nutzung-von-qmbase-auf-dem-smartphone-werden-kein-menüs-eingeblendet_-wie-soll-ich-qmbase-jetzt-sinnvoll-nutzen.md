@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-19
 slug: /faqs/19
 title: Bei der Nutzung von qmBase auf dem Smartphone werden kein Menüs eingeblendet. Wie soll ich qmBase jetzt sinnvoll nutzen
 tags: [Allgemein]

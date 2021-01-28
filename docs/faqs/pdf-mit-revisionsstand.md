@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-84
 slug: /faqs/84
 title: PDF mit Revisionsstand
 tags: [Dokumentenmanagement]

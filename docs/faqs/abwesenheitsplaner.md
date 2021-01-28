@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-97
 slug: /faqs/97
 title: Abwesenheitsplaner
 tags: []

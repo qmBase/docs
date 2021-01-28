@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-82
 slug: /faqs/82
 title: Wie exportiere ich eine Tabelle
 tags: [Allgemein]

@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-102
 slug: /faqs/102
 title: In welchen Apps kann ich Custom Fields nutzen
 tags: []

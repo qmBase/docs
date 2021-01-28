@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-45
 slug: /faqs/45
 title: Wieso werden bei der Bewertung von Chancen und Risiken falsche Ergebnisse berechnet
 tags: [Risiken & Chancen]

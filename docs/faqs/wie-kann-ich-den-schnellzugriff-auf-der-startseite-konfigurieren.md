@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-14
 slug: /faqs/14
 title: Wie kann ich den Schnellzugriff auf der Startseite konfigurieren
 tags: [Allgemein,Startseite]

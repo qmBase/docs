@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-17
 slug: /faqs/17
 title: Was mache ich, wenn ich bei einer Idee einen Mitwirkenden eintragen möchte, der nicht in der Auswahlliste verohanden ist, weil es sich zum Beispiel um einen externe Person handelt
 tags: [Ideenmanagement]

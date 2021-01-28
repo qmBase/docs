@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-20
 slug: /faqs/20
 title: Wie kann ich Wiederholungsintervalle an meine Bedürfnisse anpassen
 tags: [Allgemein,Risiken & Chancen,Auditmanagement,Instandhaltung,Funktionen & Qualifikationen,Wiederholungsintervall,Ziel- & Kennzahlenmanagement]

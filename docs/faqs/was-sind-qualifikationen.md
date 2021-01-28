@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-111
 slug: /faqs/111
 title: Was sind Qualifikationen
 tags: []

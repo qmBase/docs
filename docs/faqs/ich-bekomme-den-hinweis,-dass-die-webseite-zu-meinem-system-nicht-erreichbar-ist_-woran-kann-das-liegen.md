@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-4
 slug: /faqs/4
 title: Ich bekomme den Hinweis, dass die Webseite zu meinem System nicht erreichbar ist. Woran kann das liegen
 tags: [Allgemein,Anmeldung]

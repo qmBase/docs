@@ -1,5 +1,5 @@
 ---
-id: smartViews
+id: faq-29
 slug: /faqs/29
 title: Wieso muss ich mein Passwort nicht erneut eingeben wenn ich qmBase aufrufe
 tags: [Allgemein,Sicherheit]
