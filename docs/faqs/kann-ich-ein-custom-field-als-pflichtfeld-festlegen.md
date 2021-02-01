@@ -2,7 +2,6 @@
 id: faq-103
 slug: /faqs/103
 title: Kann ich ein Custom Field als Pflichtfeld festlegen
-tags: []
 ---
 Ja, Custom Fields können auch als Pflichtfelder definiert werden.
 

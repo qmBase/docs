@@ -2,7 +2,6 @@
 id: faq-76
 slug: /faqs/76
 title: Wie kann ich meinen Kalender verknüpfen
-tags: []
 ---
 Damit Sie alle Ihre Termine zentral an einem Ort haben, können Sie alle anstehenden Ereignisse aus qmBase in Ihren persönlichen Kalender (z.B. Outlook) integrieren.
 

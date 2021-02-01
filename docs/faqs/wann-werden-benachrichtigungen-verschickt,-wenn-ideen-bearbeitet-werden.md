@@ -2,7 +2,6 @@
 id: faq-92
 slug: /faqs/92
 title: Wann werden Benachrichtigungen verschickt, wenn Ideen bearbeitet werden
-tags: []
 ---
 Damit eine verzögerungsfreie Umsetzung der Idee sichergestellt wird, werden bei der Bearbeitung der Idee Benachrichtigungen an die Personen verschickt, die für die Bearbeitung verantwortlich sind. Benachrichtigungen werden bei folgenden Ereignissen verschickt.
 

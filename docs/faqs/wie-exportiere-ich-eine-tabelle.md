@@ -2,7 +2,8 @@
 id: faq-82
 slug: /faqs/82
 title: Wie exportiere ich eine Tabelle
-tags: [Allgemein]
+keywords:
+ - Allgemein
 ---
 Sie können die meisten Tabellen in qmBase als CSV-Datei exportieren:
 

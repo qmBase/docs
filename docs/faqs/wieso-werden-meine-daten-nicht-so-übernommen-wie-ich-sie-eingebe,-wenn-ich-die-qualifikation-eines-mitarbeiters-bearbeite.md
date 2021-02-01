@@ -2,7 +2,10 @@
 id: faq-51
 slug: /faqs/51
 title: Wieso werden meine Daten nicht so übernommen wie ich sie eingebe, wenn ich die Qualifikation eines Mitarbeiters bearbeite
-tags: [Funktionen & Qualifikationen,Rollenprofil,Mitarbeiter]
+keywords:
+ - Funktionen & Qualifikationen
+ - Rollenprofil
+ - Mitarbeiter
 ---
 Wenn auf der Detailseite eines Mitarbeites dessen Qualifikationen bearbeitet werden erscheint manchmal nicht das Ergebnis mit dem man gerechnet hätte. Es kann zum Beispiel sein, dass nicht das Bearbeitungsdatum oder der Erfüllungsgrad der Qualifikation dargestellt wird, wie es eingetragen wurde. 
 

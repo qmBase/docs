@@ -2,7 +2,6 @@
 id: faq-121
 slug: /faqs/121
 title: Was ist der 8D-Report Wie wird ein 8D-Report erstellt
-tags: []
 ---
 ## Was ist der 8D-Report
 

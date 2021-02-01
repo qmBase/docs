@@ -2,7 +2,9 @@
 id: faq-22
 slug: /faqs/22
 title: Was mache ich, wenn mir die FAQs nicht geholfen haben
-tags: [Allgemein,Support]
+keywords:
+ - Allgemein
+ - Support
 ---
 Wenn Sie in den FAQs keine Lösung für Ihr Problem finden, dann nehmen Sie bitte Kontakt zu unserem Support auf. Dazu bestehen drei einfache Möglichkeiten:
 

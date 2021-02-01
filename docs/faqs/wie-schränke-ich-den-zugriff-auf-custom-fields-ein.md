@@ -2,7 +2,6 @@
 id: faq-106
 slug: /faqs/106
 title: Wie schränke ich den Zugriff auf Custom Fields ein
-tags: []
 ---
 Mit Custom Fieds können Sie die qmBase Prozesse stärker individualisieren und an Ihr Unternehmen anpassen. Ein wichtiger Punkt bei dieser Anpassung kann z.B. der Zugriff auf Custom Fields nur für spezieller Nutzer sein. Z.B. kann es bei Reklamationen gewünscht sein, dass alle Reklamationen einmal duch den Betriebsleiter zur freigegeben werden sollen. Diese Anforderung können Sie umsetzen, indem Sie das Ändern des Custom Fields an eine spezielle Rolle knüpfen.
 

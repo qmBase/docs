@@ -2,7 +2,9 @@
 id: faq-32
 slug: /faqs/32
 title: Gibt es eine Möglichkeit den Nutzer nach dem Login direkt auf eine andere Seite zu führen
-tags: [Allgemein,Startseite]
+keywords:
+ - Allgemein
+ - Startseite
 ---
 Nein, der Nutzer wird nach dem Login bewusst immer direkt auf seine individuelle Startseite geführt. Dort erhält der Nutzer direkt auf einen Blick einen Überblick über die für ihn relevanten Informationen. Dies bezeichnen wir als nutzerzentrierten Ansatz.
 

@@ -2,7 +2,6 @@
 id: faq-112
 slug: /faqs/112
 title: Der qmBase Bot
-tags: []
 ---
 Der qmBase Bot ist Ihre Hilfe für Ihre tägliche Arbeit. Basierend auf Ihren Daten überprüft der Bot im Hintergrund für Sie, welche Schritte Sie ergreifen sollten, um einen größeren Nutzen aus qmBase zu ziehen und potentielle Fehler in Ihren Daten zu eliminieren.
 

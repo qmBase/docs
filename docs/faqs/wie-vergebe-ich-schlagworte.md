@@ -2,7 +2,8 @@
 id: faq-63
 slug: /faqs/63
 title: Wie vergebe ich Schlagworte
-tags: [Schlagworte]
+keywords:
+ - Schlagworte
 ---
 Beinahe alle erfassten Informationen lassen sich mittels Schlagworten gruppieren und kategorisieren. Das Zuordnen der Schlagworte ist über die Detailsansichten zu den einzelnen Einträgen möglich. In den älteren Bereichen der Software erfolgt dies über das Kontextmenü neben dem Stift zum Bearbeiten einer Information.
 

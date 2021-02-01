@@ -2,7 +2,6 @@
 id: faq-107
 slug: /faqs/107
 title: Welche Benachrichtigungen werden auf der Startseite angezeigt
-tags: []
 ---
 Auf der Startseite werden Ihnen zahlreiche Benachrichtigungen angezeigt. Hier finden Sie eine Auflistung der Benachrichtigungen mit einer kurzen Erklärung was diese bedeuten.
 

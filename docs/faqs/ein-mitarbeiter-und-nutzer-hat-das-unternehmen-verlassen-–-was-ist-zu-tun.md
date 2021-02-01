@@ -2,7 +2,6 @@
 id: faq-54
 slug: /faqs/54
 title: Ein Mitarbeiter und Nutzer hat das Unternehmen verlassen – was ist zu tun
-tags: []
 ---
 Innerhalb von qmBase werden die Nutzer und Mitarbeiter getrennt voneinander erfasst. Wenn ein Mitarbeiter, der gleichzeitig Nutzer der Software ist, das Unternehmen verlassen hat, sind zwei Dinge zu tun:
 

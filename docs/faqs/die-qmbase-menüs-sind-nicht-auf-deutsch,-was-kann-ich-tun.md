@@ -2,7 +2,9 @@
 id: faq-23
 slug: /faqs/23
 title: Die qmBase Menüs sind nicht auf deutsch, was kann ich tun
-tags: [Allgemein,Sprache]
+keywords:
+ - Allgemein
+ - Sprache
 ---
 Wenn Sie die Sprache des Systems umstellen wollen, dann glingt dies am schnellsten über das **?**-Menü in der Kopfzeile. Dort finden Sie den Menüpunkt *Language*, dieser führt Sie direkt an die Stelle in ihrem Nutzerprofil wo Sie die Sprache umstellen können.
 

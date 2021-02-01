@@ -2,7 +2,10 @@
 id: faq-73
 slug: /faqs/73
 title: Wie funktioniert die Veröffentlichung von Dokumenten Wer gibt ein Dokument frei Was bedeutet Freigabe
-tags: [Dokumentenmanagement,Wiki,Blog]
+keywords:
+ - Dokumentenmanagement
+ - Wiki
+ - Blog
 ---
 Diese Beschreibung gilt für die Module Blog, Dokumentenmanagement und WIKI:
 

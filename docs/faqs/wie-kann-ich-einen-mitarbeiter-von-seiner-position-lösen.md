@@ -2,7 +2,6 @@
 id: faq-125
 slug: /faqs/125
 title: Wie kann ich einen Mitarbeiter von seiner Position lösen
-tags: []
 ---
 Klicken Sie auf der Mitarbeiterseite in der Karte "Zugeordnete Position" auf den Button mit den 3 Punkten.
 

@@ -2,7 +2,8 @@
 id: faq-94
 slug: /faqs/94
 title: Wie definiere ich die Bewertungskriterien für Chancen & Risiken
-tags: [Risiken & Chancen]
+keywords:
+ - Risiken & Chancen
 ---
 Für jede Chancen- bzw. Risikokategorie können individuelle Bewertungskriterien definiert werden. Dies erfolgt in den Einstellungen zu der jeweiligen Kategorie.
 

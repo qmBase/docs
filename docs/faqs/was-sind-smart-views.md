@@ -2,7 +2,9 @@
 id: faq-6
 slug: /faqs/6
 title: Was sind Smart Views
-tags: [Projekte & Maßnahme,Aufgaben & Qualifikationen]
+keywords:
+ - Projekte & Maßnahme
+ - Aufgaben & Qualifikationen
 ---
 Smart Views helfen Ihnen und Ihrem Team die Übersicht in wachsenden Listen von z.B. Projekten und Maßnahmen zu behalten. Mittels der Smart Views lassen sich individuelle Filter definieren, die die gesamte Liste auf Basis Ihrer Kriterien herunterfiltern.
 

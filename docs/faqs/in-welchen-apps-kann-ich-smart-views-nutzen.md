@@ -2,7 +2,6 @@
 id: faq-104
 slug: /faqs/104
 title: In welchen Apps kann ich Smart Views nutzen
-tags: []
 ---
 Smart Views sind derzeit schon in vielen Apps verfügbar. Zukünftig werden Smart Views auch in weiteren Apps verfügbar sein. In der nachfolgenden Tabelle ist die Umsetzung von Smart Views in den verschiedenen Apps dargestellt.
 

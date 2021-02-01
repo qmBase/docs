@@ -2,7 +2,6 @@
 id: faq-105
 slug: /faqs/105
 title: Wie wird qmBase entwicklet
-tags: []
 ---
 Von Zeit zu Zeit erhalten wir Anfragen dazu, wie wir qmBase entwickeln und welche Technologien und Tools wir einsetzen. Diese Fragen beantworten wir gerne. Insbesondere als Entwicklungsteam freuen wir über dieses Interesse. Im nachfolgenden wollen in einigen zentralen Punkten erklären, wie unser Entwicklungsprozess abläuft. Für Rückfragen hierzu und weitere Details stehen wir gerne zur Verfügung.
 

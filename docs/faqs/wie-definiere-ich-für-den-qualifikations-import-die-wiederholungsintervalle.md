@@ -2,7 +2,9 @@
 id: faq-81
 slug: /faqs/81
 title: Wie definiere ich für den Qualifikations-Import die Wiederholungsintervalle
-tags: [Datenimport,Aufgaben & Qualifikationen]
+keywords:
+ - Datenimport
+ - Aufgaben & Qualifikationen
 ---
 ***TimeInterval*** gibt die Einheit an, in der die Zeit gemessen wird:
 

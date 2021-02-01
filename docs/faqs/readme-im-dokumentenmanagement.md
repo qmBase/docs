@@ -2,7 +2,8 @@
 id: faq-83
 slug: /faqs/83
 title: Readme im Dokumentenmanagement
-tags: [Dokumentenmanagement]
+keywords:
+ - Dokumentenmanagement
 ---
 **Einzelne Ordner im Dokumentenmanagement können mit einem README Dokument versehen werden, um den anderen Nutzern einen Überlick darüber zu geben, was sich in diesem Ordner befindet. Hier kann z.B. erklärt werden, wie Vorlagen verwendet werden sollen.**
 

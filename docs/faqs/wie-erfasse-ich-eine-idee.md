@@ -2,7 +2,6 @@
 id: faq-86
 slug: /faqs/86
 title: Wie erfasse ich eine Idee
-tags: []
 ---
 Um Ihre erste Idee zu erfassen, benötigen Sie nur wenige Klicks. Starten Sie die App [Ideenmanagement](https://support.qmbase.com/Account/findworkspace?returnUrl=/ideamanagement). Klicken Sie auf “+ Neu” und erfassen Sie Ihre Idee. Zur einheitlichen Struktierung des Erfassens der Ideen werden Ihnen während des Erfassens einige einfache Fragen gestellt.
 

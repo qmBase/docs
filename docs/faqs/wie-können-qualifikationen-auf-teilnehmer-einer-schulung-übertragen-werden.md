@@ -2,7 +2,9 @@
 id: faq-67
 slug: /faqs/67
 title: Wie können Qualifikationen auf Teilnehmer einer Schulung übertragen werden
-tags: [Schulungsmanagement,Aufgaben & Qualifikationen]
+keywords:
+ - Schulungsmanagement
+ - Aufgaben & Qualifikationen
 ---
 Qualifikationen können auf Teilnehmer einer Schulung übertragen werden, wenn folgende Bedingungen erfüllt sind:
 

@@ -2,7 +2,11 @@
 id: faq-80
 slug: /faqs/80
 title: Was sind Custom Fields
-tags: [Schulungsmanagement,Risiken & Chancen,Auditmanagement,Reklamationsmanagement]
+keywords:
+ - Schulungsmanagement
+ - Risiken & Chancen
+ - Auditmanagement
+ - Reklamationsmanagement
 ---
 Custom Fields bieten die Möglichkeit vorhandene Formulare vollständig auf eigene Bedürfnisse anzupassen. Hierzu besteht in ausgewählten Apps die Möglichkeit Custom Fields zu erstellen.
 

@@ -2,7 +2,8 @@
 id: faq-74
 slug: /faqs/74
 title: Ist die qmBase Software validiert
-tags: [Allgemein]
+keywords:
+ - Allgemein
 ---
 Nach dem vorherrschenden Verständnis zur Softwarevalidierung liegt die Validierung von Software im Verantwortungsbereich des Anwenders. Die Softwarevalidierung ist somit für jeden Anwender ein individueller Prozess in dem die Eignung der Software auf Basis eines vorgesehenen Einsatzzweckes und Anforderungsprofils geprüft wird.
 

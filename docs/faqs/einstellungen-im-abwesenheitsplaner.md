@@ -2,7 +2,6 @@
 id: faq-101
 slug: /faqs/101
 title: Einstellungen im Abwesenheitsplaner
-tags: []
 ---
 **Abwesenheitsarten**: Unter Einstellungen -> Mitarbeiter -> Abwesenheitsarten können die Verschiedenen Abwesenheitsarten festlegen.
 

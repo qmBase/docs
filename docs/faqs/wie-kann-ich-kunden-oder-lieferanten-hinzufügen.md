@@ -2,7 +2,11 @@
 id: faq-35
 slug: /faqs/35
 title: Wie kann ich Kunden oder Lieferanten hinzufügen
-tags: [CRM,Kundenzufriedenheitsanalyse,Lieferantenbewertung,Kontakte]
+keywords:
+ - CRM
+ - Kundenzufriedenheitsanalyse
+ - Lieferantenbewertung
+ - Kontakte
 ---
 
 

@@ -2,7 +2,6 @@
 id: faq-98
 slug: /faqs/98
 title: Wer hat Zugriff auf welche Abwesenheitsanträge
-tags: []
 ---
 Der Antrag durchläuft von der Erstellung bis zur Genehmigung verschiedene Statuse. Diese Bestimmen die Zugriffsmöglichkeiten auf den Abwesenheitsantrag.
 
