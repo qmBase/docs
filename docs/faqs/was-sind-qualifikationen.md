@@ -2,7 +2,6 @@
 id: faq-111
 slug: /faqs/111
 title: Was sind Qualifikationen
-tags: []
 ---
 Qualifikationen sind Fach- oder Sozialkompetenzen, die die Eignung einer Person für eine bestimmte Aufgabe beschreiben.
 

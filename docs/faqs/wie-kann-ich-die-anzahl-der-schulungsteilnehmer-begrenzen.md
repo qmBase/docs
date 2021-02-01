@@ -2,7 +2,8 @@
 id: faq-48
 slug: /faqs/48
 title: Wie kann ich die Anzahl der Schulungsteilnehmer begrenzen
-tags: [Schulungsmanagement]
+keywords:
+ - Schulungsmanagement
 ---
 Wenn Sie über *Schulungsmanagement -> Neu* eine neue Schulung planen, dann finden Sie in dem Formular das Feld *Maximale Anzahl Teilnehmer,* dort können Sie die Anzahl der Teilnhemer begrenzen. Wenn Sie das Feld leer lassen, dann ist die Anzahl der Schulungsteilnehmer unbegrenzt. 
 

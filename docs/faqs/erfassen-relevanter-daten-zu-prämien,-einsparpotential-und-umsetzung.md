@@ -2,7 +2,6 @@
 id: faq-90
 slug: /faqs/90
 title: Erfassen relevanter Daten zu Prämien, Einsparpotential und Umsetzung
-tags: []
 ---
 Als Ideenmanager ist es Ihre Aufgabe relevante Daten zu erfassen, die den Erfolg der Idee beschreiben. Wir unterscheiden hier drei quantifizierbare Werte.
 

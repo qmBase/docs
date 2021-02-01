@@ -2,7 +2,10 @@
 id: faq-34
 slug: /faqs/34
 title: Können für Dokumente und Artikel zusätzliche und indidivuelle Dokumentennummern vergeben werden
-tags: [Dokumentenmanagement,Wiki,Blog]
+keywords:
+ - Dokumentenmanagement
+ - Wiki
+ - Blog
 ---
 qmBase vergibt automatisch an jedes Dokument und jeden Artikel eine eindeutige Identifikationsnummer (ID). Wenn Sie das Dokument aufgerufen haben können Sie diese ID der Adresszeile des Browsers entnehmen. 
 

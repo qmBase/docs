@@ -2,7 +2,6 @@
 id: faq-123
 slug: /faqs/123
 title: Wie können Formulare mit Schulungen verknüpft werden
-tags: []
 ---
 Mit dem Verknüpfen von Formularen und Schulungen, können Sie unterschiedliche Ziele erreichen:
 

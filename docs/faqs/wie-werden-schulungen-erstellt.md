@@ -2,7 +2,8 @@
 id: faq-69
 slug: /faqs/69
 title: Wie werden Schulungen erstellt
-tags: [Schulungsmanagement]
+keywords:
+ - Schulungsmanagement
 ---
 Wählen Sie aus der Navigationsleiste den Eintrag "Ressourcen" -> "Schulungsmanagement"
 

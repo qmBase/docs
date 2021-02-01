@@ -2,7 +2,8 @@
 id: faq-72
 slug: /faqs/72
 title: Wie kann ich externe Personen, die keine Mitarbeiter sind, zu Schulungen einladen
-tags: [Schulungsmanagement]
+keywords:
+ - Schulungsmanagement
 ---
 Externe Personen, die nicht als Mitarbeiter des Unternehmens markiert sind, können auch als Teilnehmer zu Schulungen hinzugefügt werden. Ob diese dann auch z.B. E-Mail Benachrichtigungen erhalten, hängt davon ab, ob die entsprechenden Personen über einen qmBase Account verfügen.
 

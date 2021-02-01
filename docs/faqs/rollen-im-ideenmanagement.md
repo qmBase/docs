@@ -2,7 +2,6 @@
 id: faq-87
 slug: /faqs/87
 title: Rollen im Ideenmanagement
-tags: []
 ---
 **Ersteller:** Person, die die Idee erstellt hat
 

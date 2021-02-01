@@ -2,7 +2,6 @@
 id: faq-89
 slug: /faqs/89
 title: Annahme der Idee und erste fachliche Prüfung - Annahme- und Gutachtenphase
-tags: []
 ---
 Wenn Sie als Ideenkoordinator innerhalb Ihrer Organisation festgelegt sind, liegt es an Ihnen die erste fachliche Prüfung der Idee vorzunehmen.
 

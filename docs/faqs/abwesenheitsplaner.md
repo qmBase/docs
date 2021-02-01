@@ -2,7 +2,6 @@
 id: faq-97
 slug: /faqs/97
 title: Abwesenheitsplaner
-tags: []
 ---
 ![](https://caqadmin.blob.core.windows.net/faqs/97-images/b3ee39c7-274f-4ee8-8fdb-a64aa2410e4e-mceclip0.png)
 

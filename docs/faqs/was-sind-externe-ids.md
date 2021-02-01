@@ -2,7 +2,6 @@
 id: faq-96
 slug: /faqs/96
 title: Was sind externe IDs
-tags: []
 ---
 Externe IDs dienen dazu unser System mit anderen Systemen zu synchronisieren. Wenn Sie z.B. bereits ein ERP System im Einsatz haben, ist die Wahrscheinlichkeit groß, dass ihre Mitarbeiter alle eine Personalnummer oder eine Mitarbeiternummer in Ihrem bisherigen System haben. Diese Nummer können Sie unter dem Punkt externe ID eintragen.
 

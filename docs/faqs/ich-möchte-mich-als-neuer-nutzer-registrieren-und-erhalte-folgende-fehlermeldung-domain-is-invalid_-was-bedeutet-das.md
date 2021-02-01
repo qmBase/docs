@@ -2,7 +2,9 @@
 id: faq-9
 slug: /faqs/9
 title: Ich möchte mich als neuer Nutzer registrieren und erhalte folgende Fehlermeldung Domain is invalid. Was bedeutet das
-tags: [Allgemein,Anmeldung]
+keywords:
+ - Allgemein
+ - Anmeldung
 ---
 Sie erhalten diese Fehlermeldung, wenn Sie versuchen sich mit einer E-Mail-Adresse anzumelden, dessen Domain für das System nicht zugelassen ist. Versuchen Sie es mit einer anderen E-Mail-Adresse oder bitten Sie einen Administrator die Domain ihrer E-Mail-Adresse im Admin-Bereich unter *Admin -> Nutzer -> Erlaubte Domains* in die Liste der erlaubten Domains einzutragen. 
 

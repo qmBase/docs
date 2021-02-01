@@ -2,7 +2,6 @@
 id: faq-88
 slug: /faqs/88
 title: Wer kann wann auf eine Idee zugreifen und Inhalte ändern
-tags: []
 ---
 Von der Erstellung der Idee bis zur finalen Umsetzung durchläuft die Idee verschiedene Schritte und ändert ihren Status. Verbunden mit den Statusänderungen haben verschiedenen Personen Zugriff auf die Idee. Die einzelnen Möglichkeiten werden im Folgenden darstellt:
 

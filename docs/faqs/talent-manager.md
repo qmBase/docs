@@ -2,7 +2,6 @@
 id: faq-109
 slug: /faqs/109
 title: Talent Manager
-tags: []
 ---
 > *Die App Talent Manager wird der zukünftige zentrale Anlaufpunkt für alle Themen, die Anforderungen, Qualifikationen und Mitarbeiter betreffen. Auch wenn sich der Talent Manager noch im Aufbau befindet, so sind die einzelnen Funktionen in den bisher einzelnen Apps ****Schulungen**** und ****Aufgaben und Qualifikationen**** schon verfügbar.*
 

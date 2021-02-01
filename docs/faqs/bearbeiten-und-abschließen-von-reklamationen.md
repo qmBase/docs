@@ -2,7 +2,6 @@
 id: faq-120
 slug: /faqs/120
 title: Bearbeiten und Abschließen von Reklamationen
-tags: []
 ---
 Bevor Sie erfasste Reklamationen beenden, sollten Sie die Reklamationen bearbeiten, um einen möglichst großen Nutzen daraus zu ziehen.
 

@@ -2,7 +2,6 @@
 id: faq-116
 slug: /faqs/116
 title: Import von Organisationen, Kunden, Lieferanten und Kontakte
-tags: []
 ---
 Organisation lassen sich leicht importieren. Zusätzlich kann beim Import direkt ein Ansprechpartner hinterlegt werden. Im Folgenden Ein Beispiel Datensatz:
 

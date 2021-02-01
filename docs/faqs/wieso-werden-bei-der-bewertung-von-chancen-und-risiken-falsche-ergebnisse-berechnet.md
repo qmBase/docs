@@ -2,7 +2,8 @@
 id: faq-45
 slug: /faqs/45
 title: Wieso werden bei der Bewertung von Chancen und Risiken falsche Ergebnisse berechnet
-tags: [Risiken & Chancen]
+keywords:
+ - Risiken & Chancen
 ---
 Sie haben die notwendigen Variablen definiert und die Formel zu Berechnung der Risikowerte erstellt, aber die Ergebnisse die berechnet werden sind falsch?
 

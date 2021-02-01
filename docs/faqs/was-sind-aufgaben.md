@@ -2,7 +2,6 @@
 id: faq-110
 slug: /faqs/110
 title: Was sind Aufgaben
-tags: []
 ---
 Aufgaben sind die Tätigkeiten in Ihrer Organisation, die regelmäßig zu erledigen sind und bei denen es notwendig ist festzulegen, wer diese ausführen soll.
 

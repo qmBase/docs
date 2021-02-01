@@ -2,7 +2,9 @@
 id: faq-29
 slug: /faqs/29
 title: Wieso muss ich mein Passwort nicht erneut eingeben wenn ich qmBase aufrufe
-tags: [Allgemein,Sicherheit]
+keywords:
+ - Allgemein
+ - Sicherheit
 ---
 Wenn Sie sich bei qmBase anmelden wird ein Cookie gesetzt, um Sie als legitimen Nutzer zu identifizieren. Dieser Cookie läuft jedoch nach wenigen Minuten ab. Während der aktiven Nutzung von qmBase wird dieser Cookie automatisch regelmäßig aktualisiert, so dass sich das Ablaufdatum des Cookies nach hinten verschiebt. So können Sie qmBase auch über einen längeren Zeitraum nutzen von z.B. mehren Stunden nutzen ohne sich regelmäßig neu anmelden zu müssen. 
 

@@ -2,7 +2,11 @@
 id: faq-27
 slug: /faqs/27
 title: Wie kann ich Texte zu späteren Weiterbearbeitug zwischenspeichern
-tags: [Ideenmanagement,Dokumentenmanagement,Wiki,Blog]
+keywords:
+ - Ideenmanagement
+ - Dokumentenmanagement
+ - Wiki
+ - Blog
 ---
 An vielen Stellen in qmBase gibt es die Möglichkeit längere Texte zu erstellen, z.B. im Dokumentenmanagement, im Wiki, im Blog oder auch im Ideenmanagement bei der Beschreibung eines Verbesserungsvorschlages.
 

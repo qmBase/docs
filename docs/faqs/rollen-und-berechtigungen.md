@@ -2,7 +2,6 @@
 id: faq-56
 slug: /faqs/56
 title: Rollen und Berechtigungen
-tags: []
 ---
 Sie können jedem Nutzer individuelle Zugriffsrechte auf die Plattform geben. Somit können Sie sicherstellen, dass nicht jeder alles sehen kann. Die Vergabe der Rollen und Berechtigungen erfolgt über:
 

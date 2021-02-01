@@ -2,7 +2,6 @@
 id: faq-119
 slug: /faqs/119
 title: Wie werden Reklamationen erfasst
-tags: []
 ---
 Reklamationen erfassen Sie in wenigen Schritten.
 

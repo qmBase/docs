@@ -2,7 +2,6 @@
 id: faq-99
 slug: /faqs/99
 title: Rollen im Abwesenheitsplaner
-tags: []
 ---
 **Ersteller:** Person, die den Antrag einreicht. Ein Antrag kann entweder für sich selbst oder für einen Dritte erstellt werden.
 
