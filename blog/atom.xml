@@ -10,8 +10,8 @@
     <rights>Copyright © 2021 qmBase GmbH</rights>
     <entry>
         <title type="html"><![CDATA[Version 1.1.143]]></title>
-        <id>Version-1_1_143</id>
-        <link href="https://qmbase.github.io/blog/Version-1_1_143"/>
+        <id>version-1_1_143</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_143"/>
         <updated>2021-01-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog]]></summary>
     </entry>
@@ -30,10 +30,906 @@
         <summary type="html"><![CDATA[Risiken & Chancen]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Version 1.1.142]]></title>
+        <id>version-1_1_142</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_142"/>
+        <updated>2021-01-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Risiken & Chancen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.141]]></title>
+        <id>version-1_1_141</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_141"/>
+        <updated>2020-12-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Instandhaltung - wichtige Änderung]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.140]]></title>
+        <id>version-1_1_140</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_140"/>
+        <updated>2020-12-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Allgemein]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.139]]></title>
+        <id>version-1_1_139</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_139"/>
+        <updated>2020-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Formulare]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.138]]></title>
+        <id>version-1_1_138</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_138"/>
+        <updated>2020-11-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Formulare]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.137]]></title>
+        <id>version-1_1_137</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_137"/>
+        <updated>2020-11-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Allgmein]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.136]]></title>
+        <id>version-1_1_136</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_136"/>
+        <updated>2020-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Allgemein]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.135]]></title>
+        <id>version-1_1_135</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_135"/>
+        <updated>2020-10-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Zielmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.134]]></title>
+        <id>version-1_1_134</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_134"/>
+        <updated>2020-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Allgemein - App Startseiten]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.133]]></title>
+        <id>version-1_1_133</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_133"/>
+        <updated>2020-09-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Der qmBase Bot]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.132]]></title>
+        <id>version-1_1_132</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_132"/>
+        <updated>2020-09-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Allgemein]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.131]]></title>
+        <id>version-1_1_131</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_131"/>
+        <updated>2020-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Formulare]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.130]]></title>
+        <id>version-1_1_130</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_130"/>
+        <updated>2020-08-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Anmeldung und Registrierung]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Roadmap 2020 2. Halbjahr]]></title>
+        <id>roadmap-2020-2_-halbjahr</id>
+        <link href="https://qmbase.github.io/blog/roadmap-2020-2_-halbjahr"/>
+        <updated>2020-07-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Update 1: 21.10.2020 - Die erledigten Aufgaben wurden mit einem ✔️ und die gerade in Bearbeitung befindlichen Aufgaben mit einem 🔧 versehen.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.129]]></title>
+        <id>version-1_1_129</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_129"/>
+        <updated>2020-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Abwesenheitsplaner]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.128]]></title>
+        <id>version-1_1_128</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_128"/>
+        <updated>2020-07-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Allgemein]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.127]]></title>
+        <id>version-1_1_127</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_127"/>
+        <updated>2020-06-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ideenmanagement - Modernisierung]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.126]]></title>
+        <id>version-1_1_126</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_126"/>
+        <updated>2020-06-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dashboard & Reportings]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.125]]></title>
+        <id>version-1_1_125</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_125"/>
+        <updated>2020-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dokumentenmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.124]]></title>
+        <id>version-1_1_124</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_124"/>
+        <updated>2020-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Allgemein]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.123]]></title>
+        <id>version-1_1_123</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_123"/>
+        <updated>2020-05-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mitarbeiter]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.122]]></title>
+        <id>version-1_1_122</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_122"/>
+        <updated>2020-05-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hilfe & FAQs]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.121]]></title>
+        <id>version-1_1_121</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_121"/>
+        <updated>2020-04-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Allgemein]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.120]]></title>
+        <id>version-1_1_120</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_120"/>
+        <updated>2020-04-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ankündigung]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.119]]></title>
+        <id>version-1_1_119</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_119"/>
+        <updated>2020-04-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Instandhaltung]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.118]]></title>
+        <id>version-1_1_118</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_118"/>
+        <updated>2020-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Zielmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.117]]></title>
+        <id>version-1_1_117</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_117"/>
+        <updated>2020-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dashboard & Reportings]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.116]]></title>
+        <id>version-1_1_116</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_116"/>
+        <updated>2020-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mitarbeiter]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.115]]></title>
+        <id>version-1_1_115</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_115"/>
+        <updated>2020-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Auditmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.114]]></title>
+        <id>version-1_1_114</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_114"/>
+        <updated>2020-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aufgaben & Qualifikationen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.113]]></title>
+        <id>version-1_1_113</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_113"/>
+        <updated>2020-02-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Schulungsmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.112]]></title>
+        <id>version-1_1_112</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_112"/>
+        <updated>2020-02-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dashboards & Reportings]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.111]]></title>
+        <id>version-1_1_111</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_111"/>
+        <updated>2020-02-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aufgaben & Qualifikationen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Roadmap 2020 1. HJ]]></title>
+        <id>roadmap-2020-1_-hj</id>
+        <link href="https://qmbase.github.io/blog/roadmap-2020-1_-hj"/>
+        <updated>2020-01-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Update 3: 16.07.2020 - Abschluss Roadmap 1. HJ neue Roadmap wird veröffentlicht.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.110]]></title>
+        <id>version-1_1_110</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_110"/>
+        <updated>2020-01-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Reklamationen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.109]]></title>
+        <id>version-1_1_109</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_109"/>
+        <updated>2020-01-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Startseite]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.108]]></title>
+        <id>version-1_1_108</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_108"/>
+        <updated>2020-01-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Einstellungen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.107]]></title>
+        <id>version-1_1_107</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_107"/>
+        <updated>2019-12-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dashboards & Reportings]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.106]]></title>
+        <id>version-1_1_106</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_106"/>
+        <updated>2019-12-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Reklamationsmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.105]]></title>
+        <id>version-1_1_105</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_105"/>
+        <updated>2019-11-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Reklamationsmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.104]]></title>
+        <id>version-1_1_104</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_104"/>
+        <updated>2019-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Reklamationsmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.103]]></title>
+        <id>version-1_1_103</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_103"/>
+        <updated>2019-10-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Schulungsmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.102]]></title>
+        <id>version-1_1_102</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_102"/>
+        <updated>2019-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Audits]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.101]]></title>
+        <id>version-1_1_101</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_101"/>
+        <updated>2019-10-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Redesign der Startseite]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.100]]></title>
+        <id>version-1_1_100</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_100"/>
+        <updated>2019-10-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dokumentenmanagement, Blog und Wiki]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.99]]></title>
+        <id>version-1_1_99</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_99"/>
+        <updated>2019-09-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Projekte & Maßnahmen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.98]]></title>
+        <id>version-1_1_98</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_98"/>
+        <updated>2019-09-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Schulungsmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.97]]></title>
+        <id>version-1_1_97</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_97"/>
+        <updated>2019-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mitarbeiter]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.96]]></title>
+        <id>version-1_1_96</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_96"/>
+        <updated>2019-08-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Qualitäsmonitor]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.95]]></title>
+        <id>version-1_1_95</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_95"/>
+        <updated>2019-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dokumentemenmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.94]]></title>
+        <id>version-1_1_94</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_94"/>
+        <updated>2019-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Funktionen & Qualifikationen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.93]]></title>
+        <id>version-1_1_93</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_93"/>
+        <updated>2019-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Benachrichtigungen - Verpassen Sie keine wichtigen Ereignisse]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.92]]></title>
+        <id>version-1_1_92</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_92"/>
+        <updated>2019-07-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kunden- & Lieferantenbewertungen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.91]]></title>
+        <id>version-1_1_91</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_91"/>
+        <updated>2019-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Allgemein]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.90]]></title>
+        <id>version-1_1_90</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_90"/>
+        <updated>2019-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Funktionen & Qualifikationen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.89]]></title>
+        <id>version-1_1_89</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_89"/>
+        <updated>2019-06-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Einstellungen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.88]]></title>
+        <id>version-1_1_88</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_88"/>
+        <updated>2019-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kontakte]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.87]]></title>
+        <id>version-1_1_87</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_87"/>
+        <updated>2019-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Funktionen & Qualifikationen]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Hello]]></title>
         <id>hello-world</id>
         <link href="https://qmbase.github.io/blog/hello-world"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.86]]></title>
+        <id>version-1_1_86</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_86"/>
+        <updated>2019-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dokumentenmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.85]]></title>
+        <id>version-1_1_85</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_85"/>
+        <updated>2019-05-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Admin / Import]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.84]]></title>
+        <id>version-1_1_84</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_84"/>
+        <updated>2019-05-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dokumentenmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.83]]></title>
+        <id>version-1_1_83</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_83"/>
+        <updated>2019-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Funktionen & Qualifikationen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.82]]></title>
+        <id>version-1_1_82</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_82"/>
+        <updated>2019-04-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Funktionen und Qualifikationen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.81]]></title>
+        <id>version-1_1_81</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_81"/>
+        <updated>2019-03-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dokumentenmanagement, Blog und Wiki]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.80]]></title>
+        <id>version-1_1_80</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_80"/>
+        <updated>2019-03-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dokumentenmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.79]]></title>
+        <id>version-1_1_79</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_79"/>
+        <updated>2019-02-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Auditmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.78]]></title>
+        <id>version-1_1_78</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_78"/>
+        <updated>2019-01-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Funktionen & Qualifikationen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.77]]></title>
+        <id>version-1_1_77</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_77"/>
+        <updated>2019-01-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Allgemein]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.76]]></title>
+        <id>version-1_1_76</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_76"/>
+        <updated>2018-12-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Allgemein]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.75]]></title>
+        <id>version-1_1_75</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_75"/>
+        <updated>2018-12-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Allgemein]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.74]]></title>
+        <id>version-1_1_74</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_74"/>
+        <updated>2018-11-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dokumentenmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.73]]></title>
+        <id>version-1_1_73</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_73"/>
+        <updated>2018-10-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Allgemein]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.72]]></title>
+        <id>version-1_1_72</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_72"/>
+        <updated>2018-10-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Reklamationsmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.71]]></title>
+        <id>version-1_1_71</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_71"/>
+        <updated>2018-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.70]]></title>
+        <id>version-1_1_70</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_70"/>
+        <updated>2018-09-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verändert]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.69]]></title>
+        <id>version-1_1_69</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_69"/>
+        <updated>2018-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verändert]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.68]]></title>
+        <id>version-1_1_68</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_68"/>
+        <updated>2018-08-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Die merklichste Veränderung in dieser Version betrifft das Design. Alle Module sind inzwischen in den meisten Ansichten auf das neue Design umgestellt. Die jetzt noch fehlenden Bereiche werden mit den kommenden Updates nachgereicht.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.67]]></title>
+        <id>version-1_1_67</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_67"/>
+        <updated>2018-07-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.66]]></title>
+        <id>version-1_1_66</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_66"/>
+        <updated>2018-07-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verändert]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.65]]></title>
+        <id>version-1_1_65</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_65"/>
+        <updated>2018-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verändert]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.64]]></title>
+        <id>version-1_1_64</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_64"/>
+        <updated>2018-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.63]]></title>
+        <id>version-1_1_63</id>
+        <link href="https://qmbase.github.io/blog/version-1_1_63"/>
+        <updated>2018-05-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verändert]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.62]]></title>
+        <id>version-1_0_1_62</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_62"/>
+        <updated>2018-04-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ankündigung]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.61]]></title>
+        <id>version-1_0_1_61</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_61"/>
+        <updated>2018-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verändert]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.60]]></title>
+        <id>version-1_0_1_60</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_60"/>
+        <updated>2018-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.59]]></title>
+        <id>version-1_0_1_59</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_59"/>
+        <updated>2018-02-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verändert]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.58]]></title>
+        <id>version-1_0_1_58</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_58"/>
+        <updated>2018-01-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Das qmBase Entwicklungsteam meldet sich mit der Version 1.0.1.58 zurück aus der Weihnachtspause. Das erstellen dieser Version hat etwas länger gedauert als üblich, beinhaltet dafür aber auch überdurchschnittlich viele Änderungen, die im Folgenden Erwähnung finden.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.57]]></title>
+        <id>version-1_0_1_57</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_57"/>
+        <updated>2017-12-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.56]]></title>
+        <id>version-1_0_1_56</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_56"/>
+        <updated>2017-12-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.55]]></title>
+        <id>version-1_0_1_55</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_55"/>
+        <updated>2017-11-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.54]]></title>
+        <id>version-1_0_1_54</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_54"/>
+        <updated>2017-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.53]]></title>
+        <id>version-1_0_1_53</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_53"/>
+        <updated>2017-10-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verändert]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.52]]></title>
+        <id>version-1_0_1_52</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_52"/>
+        <updated>2017-10-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neben den gewohnten Funktionserweiterungen und Fehlerbehebungen haben wir uns im vergangen Entwicklungsabschnitt intensiv an Kernkompomenten der Software gearbeitet und hier generelle Verbesserungen erreicht. Diese werden deutlich durch eine deutlich reduzierte Größe der Software (-18%). Dies führt zu:]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.51]]></title>
+        <id>version-1_0_1_51</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_51"/>
+        <updated>2017-10-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.50]]></title>
+        <id>version-1_0_1_50</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_50"/>
+        <updated>2017-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.49]]></title>
+        <id>version-1_0_1_49</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_49"/>
+        <updated>2017-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.48]]></title>
+        <id>version-1_0_1_48</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_48"/>
+        <updated>2017-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.47]]></title>
+        <id>version-1_0_1_47</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_47"/>
+        <updated>2017-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.46]]></title>
+        <id>version-1_0_1_46</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_46"/>
+        <updated>2017-07-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.45]]></title>
+        <id>version-1_0_1_45</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_45"/>
+        <updated>2017-07-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.44]]></title>
+        <id>version-1_0_1_44</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_44"/>
+        <updated>2017-06-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.43]]></title>
+        <id>version-1_0_1_43</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_43"/>
+        <updated>2017-06-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.42]]></title>
+        <id>version-1_0_1_42</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_42"/>
+        <updated>2017-06-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.41]]></title>
+        <id>version-1_0_1_41</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_41"/>
+        <updated>2017-05-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.40]]></title>
+        <id>version-1_0_1_40</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_40"/>
+        <updated>2017-05-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.39]]></title>
+        <id>version-1_0_1_39</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_39"/>
+        <updated>2017-05-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.37]]></title>
+        <id>version-1_0_1_37</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_37"/>
+        <updated>2017-04-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verändert]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.35]]></title>
+        <id>version-1_0_1_35</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_35"/>
+        <updated>2017-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.30]]></title>
+        <id>version-1_0_1_30</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_30"/>
+        <updated>2017-04-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.29]]></title>
+        <id>version-1_0_1_29</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_29"/>
+        <updated>2017-03-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.25]]></title>
+        <id>version-1_0_1_25</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_25"/>
+        <updated>2017-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hinzugefügt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.22]]></title>
+        <id>version-1_0_1_22</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_22"/>
+        <updated>2017-02-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verbesserung]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.01.21]]></title>
+        <id>version-1_01_21</id>
+        <link href="https://qmbase.github.io/blog/version-1_01_21"/>
+        <updated>2017-02-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neu]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.20]]></title>
+        <id>version-1_0_1_20</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_20"/>
+        <updated>2017-01-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verbesserungen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.19]]></title>
+        <id>version-1_0_1_19</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_19"/>
+        <updated>2017-01-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verbesserungen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.17]]></title>
+        <id>version-1_0_1_17</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_17"/>
+        <updated>2017-01-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verbesserungen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.16]]></title>
+        <id>version-1_0_1_16</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_16"/>
+        <updated>2017-01-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verbesserungen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.10]]></title>
+        <id>version-1_0_1_10</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_10"/>
+        <updated>2016-12-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Erweiterungen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.9]]></title>
+        <id>version-1_0_1_9</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_9"/>
+        <updated>2016-12-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verbesserungen & Fehlerbehungen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.0.1.8]]></title>
+        <id>version-1_0_1_8</id>
+        <link href="https://qmbase.github.io/blog/version-1_0_1_8"/>
+        <updated>2016-12-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verbesserungen & Fehlerbehebungen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Verbesserungen 1.0.1.7]]></title>
+        <id>verbesserungen-1_0_1_7</id>
+        <link href="https://qmbase.github.io/blog/verbesserungen-1_0_1_7"/>
+        <updated>2016-12-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verbesserungen & Fehlerbehebungen]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Verbesserung Ideenmanagement]]></title>
+        <id>verbesserung-ideenmanagement</id>
+        <link href="https://qmbase.github.io/blog/verbesserung-ideenmanagement"/>
+        <updated>2016-12-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verbesserungen und Fehlerbehebungen im Ideenmanagement]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Modul Kontakte & Verschiedenes]]></title>
+        <id>modul-kontakte-&amp;-verschiedenes</id>
+        <link href="https://qmbase.github.io/blog/modul-kontakte-&amp;-verschiedenes"/>
+        <updated>2016-05-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Organisationen können Mitarbeiter zugeordnet werden.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Instandhaltung & Einstellungen]]></title>
+        <id>instandhaltung-&amp;-einstellungen</id>
+        <link href="https://qmbase.github.io/blog/instandhaltung-&amp;-einstellungen"/>
+        <updated>2016-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Einstellungen der Instandhaltung funktionsfähig]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Instandhaltung]]></title>
+        <id>instandhaltung</id>
+        <link href="https://qmbase.github.io/blog/instandhaltung"/>
+        <updated>2016-05-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Erste Funktionen im Bereich Instandhaltung vorhanden]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anzeige Release Notes]]></title>
+        <id>anzeige-release-notes</id>
+        <link href="https://qmbase.github.io/blog/anzeige-release-notes"/>
+        <updated>2016-05-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Die Anzahl der ungelesenen Release Notes (Was ist neu?) wird jetzt zusätzlich durch die Anzahl der ungelesenen Einträge hervorgehoben.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dokumentenmanagement überarbeitet]]></title>
+        <id>dokumentenmanagement-überarbeitet</id>
+        <link href="https://qmbase.github.io/blog/dokumentenmanagement-überarbeitet"/>
+        <updated>2016-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dokumentenmanagement grundlegenden überarbeitet folgende Funktionen sind weitgehend fertig:]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Verbesserungen werden jetzt direkt in der Core Version dargestellt.]]></title>
+        <id>verbesserungen-werden-jetzt-direkt-in-der-core-version-dargestellt_</id>
+        <link href="https://qmbase.github.io/blog/verbesserungen-werden-jetzt-direkt-in-der-core-version-dargestellt_"/>
+        <updated>2016-04-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Veröffentlichung Release Notes]]></summary>
     </entry>
 </feed>

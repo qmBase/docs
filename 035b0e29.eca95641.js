@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{80:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"qualitatsmonitor","name":"qualit\xe4tsmonitor","count":4,"permalink":"/blog/tags/qualitatsmonitor"}')}}]);

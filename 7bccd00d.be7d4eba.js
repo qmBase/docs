@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[280],{349:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"allgemein-app-startseiten","name":"allgemein - app startseiten","count":1,"permalink":"/blog/tags/allgemein-app-startseiten"}')}}]);

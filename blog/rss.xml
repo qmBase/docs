@@ -10,8 +10,8 @@
         <copyright>Copyright © 2021 qmBase GmbH</copyright>
         <item>
             <title><![CDATA[Version 1.1.143]]></title>
-            <link>https://qmbase.github.io/blog/Version-1_1_143</link>
-            <guid>Version-1_1_143</guid>
+            <link>https://qmbase.github.io/blog/version-1_1_143</link>
+            <guid>version-1_1_143</guid>
             <pubDate>Fri, 08 Jan 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Blog]]></description>
         </item>
@@ -30,11 +30,907 @@
             <description><![CDATA[Risiken & Chancen]]></description>
         </item>
         <item>
+            <title><![CDATA[Version 1.1.142]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_142</link>
+            <guid>version-1_1_142</guid>
+            <pubDate>Sun, 03 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Risiken & Chancen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.141]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_141</link>
+            <guid>version-1_1_141</guid>
+            <pubDate>Tue, 22 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Instandhaltung - wichtige Änderung]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.140]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_140</link>
+            <guid>version-1_1_140</guid>
+            <pubDate>Sun, 13 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allgemein]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.139]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_139</link>
+            <guid>version-1_1_139</guid>
+            <pubDate>Mon, 23 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Formulare]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.138]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_138</link>
+            <guid>version-1_1_138</guid>
+            <pubDate>Tue, 17 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Formulare]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.137]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_137</link>
+            <guid>version-1_1_137</guid>
+            <pubDate>Mon, 02 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allgmein]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.136]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_136</link>
+            <guid>version-1_1_136</guid>
+            <pubDate>Mon, 19 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allgemein]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.135]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_135</link>
+            <guid>version-1_1_135</guid>
+            <pubDate>Thu, 08 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Zielmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.134]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_134</link>
+            <guid>version-1_1_134</guid>
+            <pubDate>Fri, 25 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allgemein - App Startseiten]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.133]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_133</link>
+            <guid>version-1_1_133</guid>
+            <pubDate>Thu, 17 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Der qmBase Bot]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.132]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_132</link>
+            <guid>version-1_1_132</guid>
+            <pubDate>Wed, 02 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allgemein]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.131]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_131</link>
+            <guid>version-1_1_131</guid>
+            <pubDate>Mon, 17 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Formulare]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.130]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_130</link>
+            <guid>version-1_1_130</guid>
+            <pubDate>Wed, 05 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anmeldung und Registrierung]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Roadmap 2020 2. Halbjahr]]></title>
+            <link>https://qmbase.github.io/blog/roadmap-2020-2_-halbjahr</link>
+            <guid>roadmap-2020-2_-halbjahr</guid>
+            <pubDate>Thu, 23 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Update 1: 21.10.2020 - Die erledigten Aufgaben wurden mit einem ✔️ und die gerade in Bearbeitung befindlichen Aufgaben mit einem 🔧 versehen.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.129]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_129</link>
+            <guid>version-1_1_129</guid>
+            <pubDate>Wed, 22 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Abwesenheitsplaner]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.128]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_128</link>
+            <guid>version-1_1_128</guid>
+            <pubDate>Fri, 17 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allgemein]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.127]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_127</link>
+            <guid>version-1_1_127</guid>
+            <pubDate>Mon, 22 Jun 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ideenmanagement - Modernisierung]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.126]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_126</link>
+            <guid>version-1_1_126</guid>
+            <pubDate>Mon, 15 Jun 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dashboard & Reportings]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.125]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_125</link>
+            <guid>version-1_1_125</guid>
+            <pubDate>Thu, 04 Jun 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dokumentenmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.124]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_124</link>
+            <guid>version-1_1_124</guid>
+            <pubDate>Wed, 20 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allgemein]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.123]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_123</link>
+            <guid>version-1_1_123</guid>
+            <pubDate>Sat, 09 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mitarbeiter]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.122]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_122</link>
+            <guid>version-1_1_122</guid>
+            <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hilfe & FAQs]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.121]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_121</link>
+            <guid>version-1_1_121</guid>
+            <pubDate>Tue, 28 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allgemein]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.120]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_120</link>
+            <guid>version-1_1_120</guid>
+            <pubDate>Thu, 23 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ankündigung]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.119]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_119</link>
+            <guid>version-1_1_119</guid>
+            <pubDate>Sun, 19 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Instandhaltung]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.118]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_118</link>
+            <guid>version-1_1_118</guid>
+            <pubDate>Fri, 03 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Zielmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.117]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_117</link>
+            <guid>version-1_1_117</guid>
+            <pubDate>Mon, 30 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dashboard & Reportings]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.116]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_116</link>
+            <guid>version-1_1_116</guid>
+            <pubDate>Tue, 24 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mitarbeiter]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.115]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_115</link>
+            <guid>version-1_1_115</guid>
+            <pubDate>Thu, 12 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Auditmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.114]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_114</link>
+            <guid>version-1_1_114</guid>
+            <pubDate>Tue, 18 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Aufgaben & Qualifikationen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.113]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_113</link>
+            <guid>version-1_1_113</guid>
+            <pubDate>Tue, 11 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Schulungsmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.112]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_112</link>
+            <guid>version-1_1_112</guid>
+            <pubDate>Sun, 09 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dashboards & Reportings]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.111]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_111</link>
+            <guid>version-1_1_111</guid>
+            <pubDate>Thu, 06 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Aufgaben & Qualifikationen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Roadmap 2020 1. HJ]]></title>
+            <link>https://qmbase.github.io/blog/roadmap-2020-1_-hj</link>
+            <guid>roadmap-2020-1_-hj</guid>
+            <pubDate>Thu, 23 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Update 3: 16.07.2020 - Abschluss Roadmap 1. HJ neue Roadmap wird veröffentlicht.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.110]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_110</link>
+            <guid>version-1_1_110</guid>
+            <pubDate>Thu, 23 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Reklamationen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.109]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_109</link>
+            <guid>version-1_1_109</guid>
+            <pubDate>Tue, 07 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Startseite]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.108]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_108</link>
+            <guid>version-1_1_108</guid>
+            <pubDate>Thu, 02 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Einstellungen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.107]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_107</link>
+            <guid>version-1_1_107</guid>
+            <pubDate>Thu, 19 Dec 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dashboards & Reportings]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.106]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_106</link>
+            <guid>version-1_1_106</guid>
+            <pubDate>Thu, 05 Dec 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Reklamationsmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.105]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_105</link>
+            <guid>version-1_1_105</guid>
+            <pubDate>Thu, 21 Nov 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Reklamationsmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.104]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_104</link>
+            <guid>version-1_1_104</guid>
+            <pubDate>Tue, 05 Nov 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Reklamationsmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.103]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_103</link>
+            <guid>version-1_1_103</guid>
+            <pubDate>Fri, 25 Oct 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Schulungsmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.102]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_102</link>
+            <guid>version-1_1_102</guid>
+            <pubDate>Sat, 19 Oct 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Audits]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.101]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_101</link>
+            <guid>version-1_1_101</guid>
+            <pubDate>Wed, 16 Oct 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Redesign der Startseite]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.100]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_100</link>
+            <guid>version-1_1_100</guid>
+            <pubDate>Mon, 07 Oct 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dokumentenmanagement, Blog und Wiki]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.99]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_99</link>
+            <guid>version-1_1_99</guid>
+            <pubDate>Mon, 23 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Projekte & Maßnahmen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.98]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_98</link>
+            <guid>version-1_1_98</guid>
+            <pubDate>Wed, 11 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Schulungsmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.97]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_97</link>
+            <guid>version-1_1_97</guid>
+            <pubDate>Fri, 06 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mitarbeiter]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.96]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_96</link>
+            <guid>version-1_1_96</guid>
+            <pubDate>Thu, 29 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Qualitäsmonitor]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.95]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_95</link>
+            <guid>version-1_1_95</guid>
+            <pubDate>Sun, 18 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dokumentemenmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.94]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_94</link>
+            <guid>version-1_1_94</guid>
+            <pubDate>Tue, 13 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Funktionen & Qualifikationen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.93]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_93</link>
+            <guid>version-1_1_93</guid>
+            <pubDate>Thu, 01 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Benachrichtigungen - Verpassen Sie keine wichtigen Ereignisse]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.92]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_92</link>
+            <guid>version-1_1_92</guid>
+            <pubDate>Wed, 17 Jul 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kunden- & Lieferantenbewertungen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.91]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_91</link>
+            <guid>version-1_1_91</guid>
+            <pubDate>Mon, 15 Jul 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allgemein]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.90]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_90</link>
+            <guid>version-1_1_90</guid>
+            <pubDate>Mon, 01 Jul 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Funktionen & Qualifikationen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.89]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_89</link>
+            <guid>version-1_1_89</guid>
+            <pubDate>Thu, 27 Jun 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Einstellungen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.88]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_88</link>
+            <guid>version-1_1_88</guid>
+            <pubDate>Sun, 16 Jun 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kontakte]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.87]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_87</link>
+            <guid>version-1_1_87</guid>
+            <pubDate>Mon, 03 Jun 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Funktionen & Qualifikationen]]></description>
+        </item>
+        <item>
             <title><![CDATA[Hello]]></title>
             <link>https://qmbase.github.io/blog/hello-world</link>
             <guid>hello-world</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.86]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_86</link>
+            <guid>version-1_1_86</guid>
+            <pubDate>Thu, 23 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dokumentenmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.85]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_85</link>
+            <guid>version-1_1_85</guid>
+            <pubDate>Fri, 17 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Admin / Import]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.84]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_84</link>
+            <guid>version-1_1_84</guid>
+            <pubDate>Thu, 09 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dokumentenmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.83]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_83</link>
+            <guid>version-1_1_83</guid>
+            <pubDate>Mon, 06 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Funktionen & Qualifikationen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.82]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_82</link>
+            <guid>version-1_1_82</guid>
+            <pubDate>Tue, 09 Apr 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Funktionen und Qualifikationen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.81]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_81</link>
+            <guid>version-1_1_81</guid>
+            <pubDate>Mon, 25 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dokumentenmanagement, Blog und Wiki]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.80]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_80</link>
+            <guid>version-1_1_80</guid>
+            <pubDate>Sat, 09 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dokumentenmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.79]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_79</link>
+            <guid>version-1_1_79</guid>
+            <pubDate>Tue, 19 Feb 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Auditmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.78]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_78</link>
+            <guid>version-1_1_78</guid>
+            <pubDate>Wed, 30 Jan 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Funktionen & Qualifikationen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.77]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_77</link>
+            <guid>version-1_1_77</guid>
+            <pubDate>Tue, 15 Jan 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allgemein]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.76]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_76</link>
+            <guid>version-1_1_76</guid>
+            <pubDate>Tue, 18 Dec 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allgemein]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.75]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_75</link>
+            <guid>version-1_1_75</guid>
+            <pubDate>Mon, 03 Dec 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allgemein]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.74]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_74</link>
+            <guid>version-1_1_74</guid>
+            <pubDate>Mon, 19 Nov 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dokumentenmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.73]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_73</link>
+            <guid>version-1_1_73</guid>
+            <pubDate>Thu, 25 Oct 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Allgemein]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.72]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_72</link>
+            <guid>version-1_1_72</guid>
+            <pubDate>Tue, 09 Oct 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Reklamationsmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.71]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_71</link>
+            <guid>version-1_1_71</guid>
+            <pubDate>Thu, 27 Sep 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.70]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_70</link>
+            <guid>version-1_1_70</guid>
+            <pubDate>Fri, 14 Sep 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verändert]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.69]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_69</link>
+            <guid>version-1_1_69</guid>
+            <pubDate>Fri, 17 Aug 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verändert]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.68]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_68</link>
+            <guid>version-1_1_68</guid>
+            <pubDate>Thu, 02 Aug 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Die merklichste Veränderung in dieser Version betrifft das Design. Alle Module sind inzwischen in den meisten Ansichten auf das neue Design umgestellt. Die jetzt noch fehlenden Bereiche werden mit den kommenden Updates nachgereicht.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.67]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_67</link>
+            <guid>version-1_1_67</guid>
+            <pubDate>Mon, 16 Jul 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.66]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_66</link>
+            <guid>version-1_1_66</guid>
+            <pubDate>Sun, 08 Jul 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verändert]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.65]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_65</link>
+            <guid>version-1_1_65</guid>
+            <pubDate>Thu, 14 Jun 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verändert]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.64]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_64</link>
+            <guid>version-1_1_64</guid>
+            <pubDate>Wed, 06 Jun 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.63]]></title>
+            <link>https://qmbase.github.io/blog/version-1_1_63</link>
+            <guid>version-1_1_63</guid>
+            <pubDate>Fri, 11 May 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verändert]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.62]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_62</link>
+            <guid>version-1_0_1_62</guid>
+            <pubDate>Mon, 30 Apr 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ankündigung]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.61]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_61</link>
+            <guid>version-1_0_1_61</guid>
+            <pubDate>Wed, 21 Mar 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verändert]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.60]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_60</link>
+            <guid>version-1_0_1_60</guid>
+            <pubDate>Mon, 12 Mar 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.59]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_59</link>
+            <guid>version-1_0_1_59</guid>
+            <pubDate>Wed, 07 Feb 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verändert]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.58]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_58</link>
+            <guid>version-1_0_1_58</guid>
+            <pubDate>Mon, 15 Jan 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Das qmBase Entwicklungsteam meldet sich mit der Version 1.0.1.58 zurück aus der Weihnachtspause. Das erstellen dieser Version hat etwas länger gedauert als üblich, beinhaltet dafür aber auch überdurchschnittlich viele Änderungen, die im Folgenden Erwähnung finden.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.57]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_57</link>
+            <guid>version-1_0_1_57</guid>
+            <pubDate>Thu, 21 Dec 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.56]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_56</link>
+            <guid>version-1_0_1_56</guid>
+            <pubDate>Tue, 12 Dec 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.55]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_55</link>
+            <guid>version-1_0_1_55</guid>
+            <pubDate>Sat, 25 Nov 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.54]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_54</link>
+            <guid>version-1_0_1_54</guid>
+            <pubDate>Wed, 15 Nov 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.53]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_53</link>
+            <guid>version-1_0_1_53</guid>
+            <pubDate>Mon, 30 Oct 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verändert]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.52]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_52</link>
+            <guid>version-1_0_1_52</guid>
+            <pubDate>Wed, 18 Oct 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Neben den gewohnten Funktionserweiterungen und Fehlerbehebungen haben wir uns im vergangen Entwicklungsabschnitt intensiv an Kernkompomenten der Software gearbeitet und hier generelle Verbesserungen erreicht. Diese werden deutlich durch eine deutlich reduzierte Größe der Software (-18%). Dies führt zu:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.51]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_51</link>
+            <guid>version-1_0_1_51</guid>
+            <pubDate>Tue, 03 Oct 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.50]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_50</link>
+            <guid>version-1_0_1_50</guid>
+            <pubDate>Mon, 25 Sep 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.49]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_49</link>
+            <guid>version-1_0_1_49</guid>
+            <pubDate>Wed, 06 Sep 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.48]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_48</link>
+            <guid>version-1_0_1_48</guid>
+            <pubDate>Thu, 24 Aug 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.47]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_47</link>
+            <guid>version-1_0_1_47</guid>
+            <pubDate>Fri, 11 Aug 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.46]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_46</link>
+            <guid>version-1_0_1_46</guid>
+            <pubDate>Tue, 18 Jul 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.45]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_45</link>
+            <guid>version-1_0_1_45</guid>
+            <pubDate>Tue, 11 Jul 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.44]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_44</link>
+            <guid>version-1_0_1_44</guid>
+            <pubDate>Tue, 27 Jun 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.43]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_43</link>
+            <guid>version-1_0_1_43</guid>
+            <pubDate>Wed, 21 Jun 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.42]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_42</link>
+            <guid>version-1_0_1_42</guid>
+            <pubDate>Mon, 12 Jun 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.41]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_41</link>
+            <guid>version-1_0_1_41</guid>
+            <pubDate>Wed, 24 May 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.40]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_40</link>
+            <guid>version-1_0_1_40</guid>
+            <pubDate>Sun, 14 May 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.39]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_39</link>
+            <guid>version-1_0_1_39</guid>
+            <pubDate>Thu, 04 May 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.37]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_37</link>
+            <guid>version-1_0_1_37</guid>
+            <pubDate>Tue, 25 Apr 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verändert]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.35]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_35</link>
+            <guid>version-1_0_1_35</guid>
+            <pubDate>Tue, 18 Apr 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.30]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_30</link>
+            <guid>version-1_0_1_30</guid>
+            <pubDate>Fri, 07 Apr 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.29]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_29</link>
+            <guid>version-1_0_1_29</guid>
+            <pubDate>Wed, 29 Mar 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.25]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_25</link>
+            <guid>version-1_0_1_25</guid>
+            <pubDate>Mon, 06 Mar 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hinzugefügt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.22]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_22</link>
+            <guid>version-1_0_1_22</guid>
+            <pubDate>Tue, 14 Feb 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verbesserung]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.01.21]]></title>
+            <link>https://qmbase.github.io/blog/version-1_01_21</link>
+            <guid>version-1_01_21</guid>
+            <pubDate>Mon, 13 Feb 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Neu]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.20]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_20</link>
+            <guid>version-1_0_1_20</guid>
+            <pubDate>Thu, 19 Jan 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verbesserungen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.19]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_19</link>
+            <guid>version-1_0_1_19</guid>
+            <pubDate>Mon, 16 Jan 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verbesserungen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.17]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_17</link>
+            <guid>version-1_0_1_17</guid>
+            <pubDate>Sat, 07 Jan 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verbesserungen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.16]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_16</link>
+            <guid>version-1_0_1_16</guid>
+            <pubDate>Wed, 04 Jan 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verbesserungen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.10]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_10</link>
+            <guid>version-1_0_1_10</guid>
+            <pubDate>Wed, 14 Dec 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Erweiterungen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.9]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_9</link>
+            <guid>version-1_0_1_9</guid>
+            <pubDate>Sun, 11 Dec 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verbesserungen & Fehlerbehungen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1.8]]></title>
+            <link>https://qmbase.github.io/blog/version-1_0_1_8</link>
+            <guid>version-1_0_1_8</guid>
+            <pubDate>Thu, 08 Dec 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verbesserungen & Fehlerbehebungen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Verbesserungen 1.0.1.7]]></title>
+            <link>https://qmbase.github.io/blog/verbesserungen-1_0_1_7</link>
+            <guid>verbesserungen-1_0_1_7</guid>
+            <pubDate>Wed, 07 Dec 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verbesserungen & Fehlerbehebungen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Verbesserung Ideenmanagement]]></title>
+            <link>https://qmbase.github.io/blog/verbesserung-ideenmanagement</link>
+            <guid>verbesserung-ideenmanagement</guid>
+            <pubDate>Tue, 06 Dec 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Verbesserungen und Fehlerbehebungen im Ideenmanagement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Modul Kontakte & Verschiedenes]]></title>
+            <link>https://qmbase.github.io/blog/modul-kontakte-&amp;-verschiedenes</link>
+            <guid>modul-kontakte-&amp;-verschiedenes</guid>
+            <pubDate>Mon, 09 May 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Organisationen können Mitarbeiter zugeordnet werden.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Instandhaltung & Einstellungen]]></title>
+            <link>https://qmbase.github.io/blog/instandhaltung-&amp;-einstellungen</link>
+            <guid>instandhaltung-&amp;-einstellungen</guid>
+            <pubDate>Fri, 06 May 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Einstellungen der Instandhaltung funktionsfähig]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Instandhaltung]]></title>
+            <link>https://qmbase.github.io/blog/instandhaltung</link>
+            <guid>instandhaltung</guid>
+            <pubDate>Thu, 05 May 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Erste Funktionen im Bereich Instandhaltung vorhanden]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Anzeige Release Notes]]></title>
+            <link>https://qmbase.github.io/blog/anzeige-release-notes</link>
+            <guid>anzeige-release-notes</guid>
+            <pubDate>Tue, 03 May 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Die Anzahl der ungelesenen Release Notes (Was ist neu?) wird jetzt zusätzlich durch die Anzahl der ungelesenen Einträge hervorgehoben.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dokumentenmanagement überarbeitet]]></title>
+            <link>https://qmbase.github.io/blog/dokumentenmanagement-überarbeitet</link>
+            <guid>dokumentenmanagement-überarbeitet</guid>
+            <pubDate>Mon, 02 May 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dokumentenmanagement grundlegenden überarbeitet folgende Funktionen sind weitgehend fertig:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Verbesserungen werden jetzt direkt in der Core Version dargestellt.]]></title>
+            <link>https://qmbase.github.io/blog/verbesserungen-werden-jetzt-direkt-in-der-core-version-dargestellt_</link>
+            <guid>verbesserungen-werden-jetzt-direkt-in-der-core-version-dargestellt_</guid>
+            <pubDate>Thu, 28 Apr 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Veröffentlichung Release Notes]]></description>
         </item>
     </channel>
 </rss>
