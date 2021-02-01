@@ -1,6 +1,12 @@
 # Website
 
+This website is the documentation for [qmBase](https://qmbase.com).
+
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+
+## Prerequisites
+
+Download and install VS Code clone this repository and follow the instructions
 
 ## Installation
 
@@ -38,6 +44,19 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ## Static Assets
 
+### Icons
+
+Icons we use can be found at [react-icons](https://react-icons.github.io/react-icons/icons?name=bs)
+
 ### Screenshots
 
-The screenshots are automatically generated via Cypress. You can see the full list of screenshots [here](https://qmbaseadminlinux.azurewebsites.net/) under the gallery section
+The screenshots are automatically generated via Cypress. You can see the full list of screenshots [here](https://qmbaseadminlinux.azurewebsites.net/) under the gallery section.
+If you require more screenshots please file a new [issue](https://github.com/qmBase/docs/issues/new/choose).
+
+## Templates for docs
+
+The template for app documentation can be found in [/docs/tutorial-template](https://github.com/qmBase/docs/blob/master/docs/tutorial-template.mdx).
+If the document you write is incomplete please write
+
+TODO:
+What is missing
