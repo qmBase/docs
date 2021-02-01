@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    "Los geht's": ["getting-started", "general", "common-features"],
+    "Los geht's": ["getting-started", "general", "common-features", "feedback"],
     Account: ["account-register", "account-login"],
     Apps: [
       "admin",
