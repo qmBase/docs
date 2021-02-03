@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: qmBase/spellcheck-github-actions@master
+    - uses: qmBase/spellcheck-github-actions@v0.1-beta
       name: Spellcheck
       with:
         config_path: config/.spellcheck.yml # put path to configuration file here
