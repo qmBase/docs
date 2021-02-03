@@ -21,7 +21,9 @@ const features = [
   },
   {
     title: (
-      <Link to="/faqs/smart-views">FAQ - Antworten auf häufige Fragen</Link>
+      <Link to="/docs/faqs/smart-views">
+        FAQ - Antworten auf häufige Fragen
+      </Link>
     ),
     imageUrl: "img/undraw_Questions.svg",
     description: <>Finden Sie hier Antworten auf häufig gestellte Fragen. </>,
