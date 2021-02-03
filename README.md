@@ -53,6 +53,8 @@ Icons we use can be found at [react-icons](https://react-icons.github.io/react-i
 The screenshots are automatically generated via Cypress. You can see the full list of screenshots [here](https://qmbaseadminlinux.azurewebsites.net/) under the gallery section.
 If you require more screenshots please file a new [issue](https://github.com/qmBase/docs/issues/new/choose).
 
+Path of screenshots equals path in app.
+
 ## Templates for docs
 
 The template for app documentation can be found in [/docs/tutorial-template](https://github.com/qmBase/docs/blob/master/docs/tutorial-template.mdx).

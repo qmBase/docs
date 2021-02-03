@@ -4,37 +4,43 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
+import { FaRss } from "react-icons/fa";
 import FeatureCard from "../components/featureCard";
 import { appData } from "../data/appData";
 import styles from "./styles.module.css";
 const features = [
   {
-    title: "Tutorials - Einfach loslegen",
+    title: <Link to="/docs/getting-started">Tutorials - Einfach loslegen</Link>,
     imageUrl: "img/undraw_teaching.svg",
     description: (
       <>
         Finden Sie hier Tutorials, die Ihnen den Einstieg in die Software
-        erleichtern. <Link to="/docs">Link</Link>
+        erleichtern. Starten Sie innerhalb von 5 Minuten.
       </>
     ),
   },
   {
-    title: "FAQ - Antworten auf häufige Fragen",
+    title: (
+      <Link to="/faqs/smart-views">FAQ - Antworten auf häufige Fragen</Link>
+    ),
     imageUrl: "img/undraw_Questions.svg",
-    description: (
-      <>
-        Finden Sie hier Antworten auf häufig gestellte Fragen.{" "}
-        <Link to="/docs">Link</Link>
-      </>
-    ),
+    description: <>Finden Sie hier Antworten auf häufig gestellte Fragen. </>,
   },
   {
-    title: "Roadmap & Changelog",
+    title: (
+      <>
+        <Link to="/blog">Roadmap & Changelog</Link>
+      </>
+    ),
     imageUrl: "img/undraw_navigator.svg",
     description: (
       <>
         Ausblick auf unsere zukünftigen Entwicklungen und Veröffentlichung der
-        neuesten Verbesserungen und Änderungen. <Link to="/blog">Link</Link>
+        neuesten Verbesserungen und Änderungen. Verpassen Sie keine Updates und
+        abonnieren Sie unseren{" "}
+        <a href={"/blog/atom.xml"}>
+          <FaRss /> Feed
+        </a>
       </>
     ),
   },
@@ -80,9 +86,9 @@ function Home() {
                 "button button--outline button--secondary button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("docs/general")}
+              to={useBaseUrl("docs/getting-started")}
             >
-              Get Started
+              Los geht's
             </Link>
           </div>
         </div>
