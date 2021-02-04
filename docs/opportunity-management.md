@@ -28,7 +28,7 @@ Beim Erstellen können Sie folgende Werte festlegen:
 | <code>Verantwortlicher</code>| Name            | Name des Verantwortlichen für dieses Risiko/ die Chance    |
 | <code>Beschreibung</code>    |Text (optional)  | Geben Sie Ihrem Team mehr Informationen über den Sachverhalt|
 
-Danach werden Sie auf die Detailansicht zu diesem Risiko oder dieser Chance weitergeleitet und können weitere Parameter ändern oder hinzufügen. Fügen Sie zum Beispiel [Maßnahmen](projects-and-tasks.md), [Ziele](goals.md) oder [Customs fields](TODO: INSERT LINK) hinzu, um optimale Transparenz für Ihr Unternehmen und einen Überblick für Ihre Mitarbeiter zu schaffen. 
+Danach werden Sie auf die Detailansicht zu diesem Risiko oder dieser Chance weitergeleitet und können weitere Parameter ändern oder hinzufügen. Fügen Sie zum Beispiel [Maßnahmen](projects-and-tasks.md), [Ziele](goals.md) oder [Customs fields] (TODO: INSERT LINK) hinzu, um optimale Transparenz für Ihr Unternehmen und einen Überblick für Ihre Mitarbeiter zu schaffen. 
 
 | Parameter                    | Typ             | Beschreibung                                               |
 | ---------------------------  | --------------- | ---------------------------------------------------------- |
@@ -58,7 +58,7 @@ Möchten Sie Parameter ändern, fahren Sie mit dem Cursor über das betreffende 
 Für jede Chancen- bzw. Risikokategorie können individuelle Bewertungskriterien definiert werden. Dies erfolgt in den Einstellungen zu der jeweiligen Kategorie.
 Dazu definiere Sie zunächst Variablen anhand derer Sie Ihre Chancen/ Risiken bewerten möchten:  
 
-![SCREENSHOT] (TODO: INSERT SCREENSHOT https://caqadmin.blob.core.windows.net/faqs/0-images/783eaf58-031b-4bc0-b0dd-926f2c8c04a7-mceclip0.png)
+![SCREENSHOT] (TODO: INSERT SCREENSHOT FROM THE QUESTION IN THE CURRENT FAQ)
 
 In unserem Beispiel werden die Risiken anhand folgender Parameter bewertet:
 * Eintrittswahrscheinlichkeit (Auf einer Skala von 1 bis 10)
@@ -66,12 +66,12 @@ In unserem Beispiel werden die Risiken anhand folgender Parameter bewertet:
 * Bedeutung des Risikos (Auf einer Skala von 1 bis 10)
 Im nächsten Schritt definieren wir eine Formel mit der sich aus den Variablen eine [Risikoprioritätzahl (RPZ)](https://www.qmbase.com/fmea-fehlermoeglichkeits-und-einfluss-analyse/) ermittelt.
 
-![SCREENSHOT] (TODO: INSERT SCREENSHOT https://caqadmin.blob.core.windows.net/faqs/0-images/2bd2c719-cd26-45f1-a998-df1d27a2788d-mceclip2.png)
+![SCREENSHOT] (TODO: INSERT SCREENSHOT FROM THE QUESTION IN THE CURRENT FAQ)
 
 In unserem Beispiel multiplizieren wir die einzelnen Variablen miteinander. 
 Wird ein Risiko mit der entsprechenden Kategorie bewertet, werden Sie aufgefordert für jede von ihnen definierte Variable auf der von Ihnen festgelegten Skala zu bewerten. Als Ergebnis wird automatisch die Risikoprioritätzahl ermittelt.
 
-![SCREENSHOT] (TODO: INSERT SCREENSHOT https://caqadmin.blob.core.windows.net/faqs/0-images/f01f9746-3617-47b9-b00d-1d1eb68e00b9-mceclip1.png)
+![SCREENSHOT] (TODO: INSERT SCREENSHOT FROM THE QUESTION IN THE CURRENT FAQ)
 
 ### Wieso werden bei der Bewertung von Chancen und Risiken keine Ergebnisse berechnet?
 
