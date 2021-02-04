@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[424],{492:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"benachrichtigungen-verpassen-sie-keine-wichtigen-ereignisse","name":"benachrichtigungen - verpassen sie keine wichtigen ereignisse","count":1,"permalink":"/blog/tags/benachrichtigungen-verpassen-sie-keine-wichtigen-ereignisse"}')}}]);

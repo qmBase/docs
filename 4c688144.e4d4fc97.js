@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[180],{248:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"veroffentlichung-release-notes","name":"ver\xf6ffentlichung release notes","count":1,"permalink":"/blog/tags/veroffentlichung-release-notes"}')}}]);
