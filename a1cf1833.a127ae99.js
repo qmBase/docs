@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[352],{421:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"8-d-reporte","name":"8d-reporte","count":1,"permalink":"/blog/tags/8-d-reporte"}')}}]);

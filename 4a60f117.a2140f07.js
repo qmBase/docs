@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[173],{241:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"projekte-massnahmen","name":"projekte & ma\xdfnahmen","count":12,"permalink":"/blog/tags/projekte-massnahmen"}')}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[526],{593:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"reklamationsmanagement","name":"reklamationsmanagement","count":13,"permalink":"/blog/tags/reklamationsmanagement"}')}}]);
