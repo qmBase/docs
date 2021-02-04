@@ -11,7 +11,7 @@ Von einem Artikel auf einen anderen zu verlinken ist überhaupt kein Problem.
 
 Wollen Sie in innerhalb er gleichen App (z.B. im Dokumentenmanagement) aus einem Artikel auf einen anderen verlinken, dann tippen Sie einfach folgendes in Ihrem Artikel ein:
 
-<code>$doc:Titel des Artikels</code> 
+<code>$doc:*Titel des Artikels*</code> 
 
 Sobald Sie beginnen den Titel des Artikels einzugeben werden alle Artikel durchsucht und es werden Ihnen passende Artikel vorgeschlagen. Wählen Sie den richtigen Artikel aus und der Link dorthin wird automatisch eingefügt.
 
