@@ -1,6 +1,6 @@
 ---
 id: create-article
-title: Wie werden Artikel im Dokumentenmanagement, Wiki und Blog erstell?
+title: Wie werden Artikel im Dokumentenmanagement, Wiki und Blog erstellt?
 ---
 
 Die Erstellung von Artikeln erfolgt im [Dokumentenmanagement](document-management.md), [Wiki](wiki.md) und [Blog](blog.md) analog.
