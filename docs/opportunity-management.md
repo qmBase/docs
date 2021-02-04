@@ -64,7 +64,7 @@ In unserem Beispiel werden die Risiken anhand folgender Parameter bewertet:
 * Eintrittswahrscheinlichkeit (Auf einer Skala von 1 bis 10)
 * Entdeckungswahrscheinlichkeit (Auf einer Skala von 1 bis 10)
 * Bedeutung des Risikos (Auf einer Skala von 1 bis 10)
-Im nächsten Schritt definieren wir eine Formel mit der sich aus den Variablen eine Risikoprioritätzahl (RPZ) ermittelt.
+Im nächsten Schritt definieren wir eine Formel mit der sich aus den Variablen eine [Risikoprioritätzahl (RPZ)](https://www.qmbase.com/fmea-fehlermoeglichkeits-und-einfluss-analyse/) ermittelt.
 
 ![SCREENSHOT] (TODO: INSERT SCREENSHOT https://caqadmin.blob.core.windows.net/faqs/0-images/2bd2c719-cd26-45f1-a998-df1d27a2788d-mceclip2.png)
 
@@ -84,6 +84,6 @@ Eine Ursache dafür kann die Benennung der Variablen sein. Wenn Sie zum Beispiel
  
 ### Wo finde ich Auswertungen meiner Risiken & Chancen?
 
-Die Auswertungen der Risiken & Chancen, sowie anderer Apps, finden Sie in der App Dashboard & Reportings. Das FAQ zu der App Dashboard & Reportings finden Sie [hier](dashboard.md). 
+Die Auswertungen der Risiken & Chancen, sowie anderer Apps, finden Sie in der App Dashboard & Reportings. Das FAQ zu der App Dashboard & Reportings finden Sie [hier](dashboard.md).
 
 
