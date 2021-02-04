@@ -1,6 +1,6 @@
 ---
 id: roles-document-management
-title: Roles in document management
+title: Welche beteiligten Personen und Rollen gibt es im Dokumentenmanagement, Wiki und Blog?
 ---
 
 Die beteiligten Personen und Rollen sind im [Dokumentenmanagement](document-management.md), [Wiki](wiki.md) und [Blog](blog.md) identisch:
