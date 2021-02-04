@@ -1,6 +1,6 @@
 ---
 id: linking-articles
-title: Linking Articles
+title: Wie können Artikel im Dokumentenmanagement, Wiki und Blog miteinander verlinkt werden?
 ---
 
 import {
