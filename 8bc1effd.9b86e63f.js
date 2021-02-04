@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[317],{386:function(n){n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"blog-und-wiki","name":"blog und wiki","count":3,"permalink":"/blog/tags/blog-und-wiki"}')}}]);
