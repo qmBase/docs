@@ -4,7 +4,7 @@ title: Auditmanagement
 ---
 TODO IMPORT REACT ICONS 
 
-#Auditmanagement Startseite 
+# Auditmanagement Startseite 
 Dies ist die Startseite des Auditmanagements mit den Buttons auf linken Seitenleiste navigieren Sie sich durch das Auditmanagement.
 
 | Parameter                 | Typ             | Beschreibung                                               |
@@ -16,7 +16,7 @@ Dies ist die Startseite des Auditmanagements mit den Buttons auf linken Seitenle
 
 ![t](https://caqadmin.blob.core.windows.net/public-screenshots/All Integration Specs/Audits.png)
 
-##Wie erstelle ich ein Audit?
+## Wie erstelle ich ein Audit?
 Mit dieser Funktion erstellen Sie Audits. Auf der linken Seitenleiste klicken Sie auf den Button <code>Neu</code> und werden auf die Maske zum Erstellen eines Audits weitergeleitet. Nachdem Sie dort die wichtigsten Informationen zu dem betreffenden Audit eingetragen haben speichern Sie das neue Audit ab. 
 
 | Parameter                    | Typ             | Beschreibung                                               |
@@ -41,24 +41,24 @@ Danach werden Sie auf die Detailansicht zu diesem Audit weitergeleitet und könn
 | <code>Schlagworte</code>     | Text            | Schlagworte bieten Ihnen die Möglichkeit Audits einem oder mehreren Themenfeldern zuzuordnen oder zu priorisieren|
 | <code>Offen/In Bearbeitung</code>| Button          | Setzen Sie den Bearbeitungsstand des Audits nach Ihren Präferenzen|
 
-###Auswirkungen und Aktionen im Hintergrund(TODO)
+### Auswirkungen und Aktionen im Hintergrund(TODO)
 
 Beim Erstellen eines Audits wird der Verantwortliche per E-Mail benachrichtigt. Wenn Sie selbst der Verantwortliche sind, bekommen Sie keine E-Mail.
 Sobald Teilnehmer zu einem Audit hinzugefügt werden, werden Sie per E-Mail benachrichtigt.
 
-###Beispiel 
+### Beispiel 
 
 Herr Müller möchte ein Audit erstellen. Nachdem er sich bei qmBase angemeldet hat, ruft er die App Auditmanagement auf. Er wählt in der Seitenleiste den Button <code>Neu</code> aus. Anschließend wählt er die Kategorie seines Audits **Vertrieb** aus und trägt alle wichtigen Eckdaten ein. Nachdem er auf **Speichern** geklickt hat, wird er zur Detailansicht weitergeleitet. Auf dieser Seite hat er die Möglichkeit weitere Daten einzutragen. Außerdem kann Herr Müller einzelne Felder editieren, falls er Daten fehlerhaft eingetragen hat. Herr Müller hat nun die Möglichkeiten Maßnahmen und Ziele mit dem Audit zu Verknüpfen und Dokumente an das Audit anzuhängen. Mit jedem Audit sehen Sie direkt welche Maßnahmen aus diesem Audit resultieren und wie deren Bearbeitungsstand ist. Für alle Maßnahmen wird eine eindeutige Verantwortlichkeit sowie eine Frist für die Fertigstellung definiert. Herr Müller kann nun Teilnehmer zu dem Audit einladen und fügt alle Personen hinzu, die bei diesem Audit zugegen sein sollen. Die Teilnehmer werden anschließend per E-Mail benachrichtigt. 
 
-###Wie kann ich Änderungen an den Werten vornehmen? 
+### Wie kann ich Änderungen an den Werten vornehmen? 
 
 Möchten Sie Parameter ändern, fahren Sie mit dem Cursor über das betreffende Feld und klicken sie auf das <code>Stift</code> Icon. Anschließend können Sie den Parameter bearbeiten.
 
-###Wie erstelle ich eine Auditmatrix? (TODO)
+### Wie erstelle ich eine Auditmatrix? (TODO)
 
-###Wie erstelle ich einen Auditkatalog?(TODO)
+### Wie erstelle ich einen Auditkatalog?(TODO)
 
-###Wo finde ich Auswertungen meiner Audits?
+### Wo finde ich Auswertungen meiner Audits?
 Die Auswertungen der Audits, sowie anderer Apps, finden Sie in der App Dashboard & Reportings. Das FAQ zu der App Dashboard & Reportings finden Sie [hier](dashboard.md). 
 
 
