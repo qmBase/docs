@@ -31,7 +31,7 @@ TODO INSERT SCREENSHOT DASHBOARD
 
 
 ## Kosten 
-Unter dem Button <code>Kosten</code> finden Sie einen Überblick über alle [Kosten](costs.md) aus Ihrem Unternehmen. Die Grafiken werden automatisch ausgewertet und beziehen sich auf die Daten, die Sie in qmBase hinterlegt haben. 
+Unter dem Button <code>Kosten</code> finden Sie einen Überblick über alle [Kosten] (costs.md) aus Ihrem Unternehmen. Die Grafiken werden automatisch ausgewertet und beziehen sich auf die Daten, die Sie in qmBase hinterlegt haben. 
 
 ## Auditmanagement 
 Unter dem Button <code>Auditmanagement</code>  finden Sie einen Überblick über alle [Audits](audit-management.md) aus Ihrem Unternehmen. Die Grafiken werden automatisch ausgewertet und beziehen sich auf die Daten, die Sie in qmBase hinterlegt haben. Mit den Dropdown Listen können Sie verschiedene Zeitpunkte wählen, um Vergleiche durchzuführen. 
