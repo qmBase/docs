@@ -5,7 +5,7 @@ title: Risiken & Chancen
 TODO IMPORT REACT ICONS
 
 # Startseite der App Risiken und Chancen
-Dies ist die Startseite der App Risiken und Chancen mit den Buttons auf linken Seitenleiste navigieren Sie sich durch das Risiko & Chancen Management. Außerdem können Sie über die Startseite des Risiko & Chancen Managements direkt auf das globale Dashboard zurückgreifen um zu dem [Dashboard und Reportings] (dashboard.md) der Risiken & Chancen zu gelangen. Unter <code>Mein Dashboard </code> sehen die Risiken & Chancen für die Sie als verantwortliche Person zuständig sind. 
+Dies ist die Startseite der App Risiken und Chancen mit den Buttons auf linken Seitenleiste navigieren Sie sich durch das Risiko & Chancen Management. Außerdem können Sie über die Startseite des Risiko & Chancen Managements direkt auf das globale Dashboard zurückgreifen um zu dem [Dashboard und Reportings](dashboard.md) der Risiken & Chancen zu gelangen. Unter <code>Mein Dashboard </code> sehen die Risiken & Chancen für die Sie als verantwortliche Person zuständig sind. 
 | Parameter                    | Typ             | Beschreibung                                               |
 | ---------------------------  | --------------- | ---------------------------------------------------------- |
 | <code>Neu</code>             | Button          | Hier kommen Sie zur Seite zum Erstellen von neuen Risiken/Chancen|
@@ -17,7 +17,7 @@ Dies ist die Startseite der App Risiken und Chancen mit den Buttons auf linken S
 ![t](https://caqadmin.blob.core.windows.net/public-screenshots/AllIntegrationSpecs/QualityMonitor/Opportunities.png)
 
 ## Wie erstelle ich ein neues Risiko/ eine neue Chance?
-Mit dieser Funktion erstellen Sie Risiken/Chancen auf der linken Seitenleiste klicken Sie auf den Button <code>Neu</code> und werden auf die Maske zum Erstellen von Risiken & Chancen  weitergeleitet. Nachdem Sie dort die wichtigsten Informationen zu dem betreffenden Risiko oder der Chance eingetragen haben, klicken Sie auf: speichern.
+Mit dieser Funktion erstellen Sie Risiken/Chancen auf der linken Seitenleiste klicken Sie auf den Button <code>Neu</code> und werden auf die Maske zum Erstellen von Risiken & Chancen weitergeleitet. Nachdem Sie dort die wichtigsten Informationen zu dem betreffenden Risiko oder der Chance eingetragen haben, klicken Sie auf: speichern.
 Beim Erstellen können Sie folgende Werte festlegen:
 
 | Parameter                    | Typ             | Beschreibung                                               |
@@ -28,7 +28,7 @@ Beim Erstellen können Sie folgende Werte festlegen:
 | <code>Verantwortlicher</code>| Name            | Name des Verantwortlichen für dieses Risiko/ die Chance    |
 | <code>Beschreibung</code>    |Text (optional)  | Geben Sie Ihrem Team mehr Informationen über den Sachverhalt|
 
-Danach werden Sie auf die Detailansicht zu diesem Risiko oder dieser Chance weitergeleitet und können weitere Parameter ändern oder hinzufügen. Fügen Sie zum Beispiel [Maßnahmen] (projects-and-tasks.md), [Ziele] (goals.md) oder [Customs fields](TODO: INSERT LINK) hinzu, um optimale Transparenz für Ihr Unternehmen und einen Überblick für Ihre Mitarbeiter zu schaffen. 
+Danach werden Sie auf die Detailansicht zu diesem Risiko oder dieser Chance weitergeleitet und können weitere Parameter ändern oder hinzufügen. Fügen Sie zum Beispiel [Maßnahmen](projects-and-tasks.md), [Ziele](goals.md) oder [Customs fields](TODO: INSERT LINK) hinzu, um optimale Transparenz für Ihr Unternehmen und einen Überblick für Ihre Mitarbeiter zu schaffen. 
 
 | Parameter                    | Typ             | Beschreibung                                               |
 | ---------------------------  | --------------- | ---------------------------------------------------------- |
