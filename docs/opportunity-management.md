@@ -32,11 +32,11 @@ Danach werden Sie auf die Detailansicht zu diesem Risiko oder dieser Chance weit
 
 | Parameter                    | Typ             | Beschreibung                                               |
 | ---------------------------  | --------------- | ---------------------------------------------------------- |
-| <code>Bewertung</code>       | Text            | Erstellen Sie ein Bewertungskriterium für Ihre Chance oder Ihr Risiko.|
-| <code>Custom Fields</code>   | Button          | Unter Customs Fields können Sie zusätzliche Faktoren zu ihrem Risiko zuordnen.             |
-| <code>Maßnahme </code>       | Button          | Verknüpfen Sie das Risiko mit den zugehörigen Maßnahmen um den Schaden zu verringern.|
+| <code>Bewertung</code>       | Text            | Erstellen Sie ein Bewertungskriterium für Ihre Chance oder Ihr Risiko|
+| <code>Custom Fields</code>   | Button          | Unter Customs Fields können Sie zusätzliche Faktoren zu ihrem Risiko zuordnen|
+| <code>Maßnahme </code>       | Button          | Verknüpfen Sie das Risiko mit den zugehörigen Maßnahmen um den Schaden zu verringern|
 | <code>Anhänge</code>         | Name            | Fügen Sie Dateien hinzu, die für dieses Risiko notwendig sind|
-| <code>Schlagworte</code>     |Text (optional)  | Schlagworte bieten Ihnen die Möglichkeit dem Risiko einem oder mehreren Themenfeldern zuzuordnen oder zu priorisieren.|
+| <code>Schlagworte</code>     |Text (optional)  | Schlagworte bieten Ihnen die Möglichkeit dem Risiko einem oder mehreren Themenfeldern zuzuordnen oder zu priorisieren|
 | <code>Offen/In Bearbeitung</code>| Button      | Setzen Sie den Bearbeitungsstand des Risikos/der Chance nach Ihren Präferenzen|
 
 ### Auswirkungen und Aktionen im Hintergrund (TODO)
