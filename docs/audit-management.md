@@ -28,7 +28,7 @@ Mit dieser Funktion erstellen Sie Audits. Auf der linken Seitenleiste klicken Si
 | <code>Verantwortlicher</code>| Name             | Wer ist für dieses Audit verantwortlich?                   |
 
 
-Danach werden Sie auf die Detailansicht zu diesem Audit weitergeleitet und können weitere Parameter ändern oder hinzufügen. Fügen Sie zum Beispiel [Maßnahmen] (projects-and-tasks.md), [Ziele] (goal-management.md) oder [Customs fields](TODO: INSERT LINK) hinzu, um optimale Transparenz für Ihr Unternehmen und einen Überblick für Ihre Mitarbeiter zu schaffen. 
+Danach werden Sie auf die Detailansicht zu diesem Audit weitergeleitet und können weitere Parameter ändern oder hinzufügen. Fügen Sie zum Beispiel [Maßnahmen](projects-and-tasks.md), [Ziele](goal-management.md) oder [Customs fields] (TODO: INSERT LINK) hinzu, um optimale Transparenz für Ihr Unternehmen und einen Überblick für Ihre Mitarbeiter zu schaffen. 
 
 | Parameter                    | Typ             | Beschreibung                                               |
 | ---------------------------  | --------------- | ---------------------------------------------------------- |
@@ -41,7 +41,7 @@ Danach werden Sie auf die Detailansicht zu diesem Audit weitergeleitet und könn
 | <code>Schlagworte</code>     | Text            | Schlagworte bieten Ihnen die Möglichkeit Audits einem oder mehreren Themenfeldern zuzuordnen oder zu priorisieren|
 | <code>Offen/In Bearbeitung</code>| Button          | Setzen Sie den Bearbeitungsstand des Audits nach Ihren Präferenzen|
 
-### Auswirkungen und Aktionen im Hintergrund(TODO)
+### Auswirkungen und Aktionen im Hintergrund (TODO)
 
 Beim Erstellen eines Audits wird der Verantwortliche per E-Mail benachrichtigt. Wenn Sie selbst der Verantwortliche sind, bekommen Sie keine E-Mail.
 Sobald Teilnehmer zu einem Audit hinzugefügt werden, werden Sie per E-Mail benachrichtigt.
