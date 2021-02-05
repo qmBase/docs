@@ -7,7 +7,7 @@ module.exports = {
       "common-features",
       "feedback",
     ],
-    Account: ["account-register", "account-login"],
+    Account: ["account-register", "account-login", "profile"],
     Apps: [
       "admin",
       "audit-management",
