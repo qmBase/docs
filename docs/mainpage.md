@@ -43,14 +43,14 @@ In der Suchleiste können Sie Suchbegriffe für Apps eingeben, um direkt zu den 
 Daneben finden Sie das Icon <code>Glocke</code>, hier befinden sich Benachrichtigungen für Apps. 
 Diese erhalten Sie zum Beispiel, wenn Sie zu einer Schulung eingeladen wurde, Sie als Verantwortlicher eingetragen wurden oder ähnliches. 
 
-Über das Icon <code>Zahnrad</code> haben Sie einen Schnellzugriff zu den Einstellungen Ihres [Profils](profile.md) oder wenn Sie Admin sind, zu dem Bereich [Admin](admin.md). 
+Über das Icon <code>Zahnrad</code> haben Sie einen Schnellzugriff zu den Einstellungen Ihres [Profils](TODO INSERT LINK) oder wenn Sie Admin sind, zu dem Bereich [Admin](admin.mdx). 
 
 Mit dem letzten Icon, dem <code>Fragezeichen</code> können Sie auf Hilfe zur qmBase Software zurückgreifen. 
 In der Liste können Sie zwischen den Optionen **Hilfe & Kontakt**, **geführte Tour starten**, **Schicken Sie und Feedback** und **Software Aktualisierungen** wählen. 
 Über **Hilfe und Kontakt** können Sie den Support kontaktieren oder selbst nach Lösungen für Ihr Problem suchen. 
 Mit der Auswahl der Taste **Geführte Tour starten**, wird eine Tour durch die qmBase Software gestartet, diese können Sie mit einem Klick starten, falls Sie noch einmal in Kürze die wichtigsten Informationen über die Startseite oder ausgewählte Apps erhalten wollen. 
 
-Am Ende der Navigationsleiste finden Sie Ihren Namen, wenn Sie auf ihren Namen klicken, können Sie die [Profileinstellungen](profile.md) auswählen und Änderungen an Ihrem Profil vornehmen. 
+Am Ende der Navigationsleiste finden Sie Ihren Namen, wenn Sie auf ihren Namen klicken, können Sie die [Profileinstellungen](TODO INSERT LINK) auswählen und Änderungen an Ihrem Profil vornehmen. 
 Um sich abzumelden, klicken Sie auf das Icon <code>Abmelden</code>.
 
 ## Willkommen bei qmBase
@@ -78,8 +78,8 @@ Indem Sie zu dem Tab **Anstehende Aufgaben und Aktivitäten** auswählen, gelang
 | <code>Abwesenheitsplaner</code>  | Button    | Hier gelangen Sie zum Abwesenheitsplaner                         |
 
 ## Linke Seitenleiste
-In der Seitenleiste befinden sich die Menüpunkte der aktuell ausgewählten App. Auf der Startseite können hier zum Beispiel Links für einen Schnellzugriff festgelegt werden. Um den Schnellzugriff zu editieren, müssen Sie [Adminrechte](admin.md) besitzen oder Ihren Admin um die Änderung der Schnellzugriffe bitten. Unter dem Punkt **What’s new** werden Sie auf die neue Seite der Softwareaktualisierungen weitergeleitet. 
+In der Seitenleiste befinden sich die Menüpunkte der aktuell ausgewählten App. Auf der Startseite können hier zum Beispiel Links für einen Schnellzugriff festgelegt werden. Um den Schnellzugriff zu editieren, müssen Sie [Adminrechte](admin.mdx) besitzen oder Ihren Admin um die Änderung der Schnellzugriffe bitten. Unter dem Punkt **What’s new** werden Sie auf die neue Seite der Softwareaktualisierungen weitergeleitet. 
 
 ### Warum kann ich auf einige Apps nicht zugreifen?
-Ob Sie auf eine App zugreifen können, hängt davon ab, ob Sie Admin sind oder nicht. Der Zugriff auf Apps wie Aufgaben und Qualifikationen oder den Abwesenheitsplaner ist Personen mit Administratoren-Rechten vorbehalten. Mehr Informationen dazu erhalten Sie [hier](admin.md)
+Ob Sie auf eine App zugreifen können, hängt davon ab, ob Sie Admin sind oder nicht. Der Zugriff auf Apps wie Aufgaben und Qualifikationen oder den Abwesenheitsplaner ist Personen mit Administratoren-Rechten vorbehalten. Mehr Informationen dazu erhalten Sie [hier](admin.mdx)
 
