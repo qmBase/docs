@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[328],{397:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"ideenmanagement","name":"ideenmanagement","count":3,"permalink":"/blog/tags/ideenmanagement"}')}}]);
