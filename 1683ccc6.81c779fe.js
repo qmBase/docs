@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[62],{128:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"hilfe-kontakt","name":"hilfe & kontakt","count":1,"permalink":"/blog/tags/hilfe-kontakt"}')}}]);
