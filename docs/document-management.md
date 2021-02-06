@@ -15,7 +15,7 @@ import {
 Mit dem Dokumentenmanagement verwalten Sie ganz einfach und unkompliziert die Dokumente (im Folgenden: Artikel) Ihres Unternehmens. Alle Dokumente durchlaufen einen Prozess zur Freigabe und Versionierung,  z.B. Verfahrensanweisungen und Prozessbeschreibungen. Die Mitarbeiter werden automatisch über neue Dokumentenversionen informiert und alte Versionen werden automatisch archiviert. So stellen Sie sicher, dass Ihre Mitarbeiter immer mit den aktuellsten Dokumentenversionen arbeiten. Gleichzeitig erfüllen Sie Anforderung gängiger Managementsysteme (z.B. ISO 9001) zur Dokumentenlenkung. Mithilfe von Schlagworten können alle Dokumente unabhängig von der Ordnerstruktur strukturiert werden. 
 
 ## Beteiligte Personen und Rollen
-Die beteiligten Personen und Rollen sind im [Dokumentenmanagement](document-management), [Wiki](wiki) und [Blog](blog) identisch und werden [hier](faqs/roles-in-document-management) zentral beschrieben.
+Die beteiligten Personen und Rollen sind im [Dokumentenmanagement](document-management), [Wiki](wiki) und [Blog](blog) identisch und werden [hier](faqs/roles-document-management) zentral beschrieben.
 
 ## Wie wird ein Ordner erstellt?
 Im Dokumentenmanagement können beliebige Ordnerstrukturen aufgebaut werden. In den Ordnern werden die Artikel des Dokumentenmanagements abgelegt.
