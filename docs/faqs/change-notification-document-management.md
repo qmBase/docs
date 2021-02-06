@@ -1,5 +1,5 @@
 ---
-id: change notification document management
+id: change-notification-document-management
 title: Wie werden Mitarbeiter automatisch über Änderungen in Artikeln informiert?
 ---
 
