@@ -34,7 +34,7 @@ Freigabe, Versionierung und Veröffentlichung von Artikeln erfolgen im [Dokument
 Änderungsbenachrichtigungen und die Nachverfolgung der Kenntnisnahme der Änderung erfolgen im [Dokumentenmanagement](document-management), [Wiki](wiki) und [Blog](blog) analog und werden [hier](faqs/change-notification-document-management) zentral beschrieben. 
 
 ## Wie werden Schlagworte für Artikel vergeben?
-Die Vergabe von Schlagworten erfolgt im [Dokumentenmanagement](document-management), [Wiki](wiki) und [Blog](blog) analog und wird [hier](faqs/wie-vergebe-ich-schlagworte) zentral beschrieben.
+Die Vergabe von Schlagworten erfolgt im [Dokumentenmanagement](document-management), [Wiki](wiki) und [Blog](blog) analog und wird [hier](/docs/faqs/68) zentral beschrieben.
 
 ## Wie werden Artikel miteinander verlinkt?
 Die Verlinkung von Artikeln erfolgt im [Dokumentenmanagement](document-management), [Wiki](wiki) und [Blog](blog) analog und wird [hier](faqs/linking-articles) zentral beschrieben.
