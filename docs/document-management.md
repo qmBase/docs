@@ -53,7 +53,7 @@ Eine README hilft dabei, damit sich jeder sofort zu Recht findet und keine Frage
 
 *   Wie können Nutzer dazu beitragen den Inhalt zu verbessern
 
-Sobald Sie ein Dokument mit dem Namen README innerhalb eines Ordners oder im Stammverzeichnis (<code>BsFillHouseFill</code>)  platziert haben, wird das Dokument unterhalb der Ordneransicht dargestellt. qmBase erkennt diese Dateien automatisch und es ist keinerlei weitere Aktion erforderlich. Sollten sich mehrer README Dokument innerhalb eines Ordners befinden, so wird nur das erste dieser Dokumente verwendet. Sie können somit eine einfache Navigation innerhalb beliebiger Unterbereiche des Dokumentenmanagements ermöglichen.
+Sobald Sie ein Dokument mit dem Namen README innerhalb eines Ordners oder im Stammverzeichnis (<code>FaHome</code>)  platziert haben, wird das Dokument unterhalb der Ordneransicht dargestellt. qmBase erkennt diese Dateien automatisch und es ist keinerlei weitere Aktion erforderlich. Sollten sich mehrer README Dokument innerhalb eines Ordners befinden, so wird nur das erste dieser Dokumente verwendet. Sie können somit eine einfache Navigation innerhalb beliebiger Unterbereiche des Dokumentenmanagements ermöglichen.
 
 ![](https://caqadmin.blob.core.windows.net/faqs/83-images/mceclip0.png)
 
