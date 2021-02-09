@@ -3,7 +3,7 @@ id: document-management
 title: Dokumentenmanagement
 ---
 import {
-  BsFillHouseFill,
+  FaHome,
   FaCaretDown,
   FaInfo,
   FaPlus,
