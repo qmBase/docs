@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[69],{135:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"abwenseheitsplanner","name":"abwenseheitsplanner","count":1,"permalink":"/blog/tags/abwenseheitsplanner"}')}}]);
