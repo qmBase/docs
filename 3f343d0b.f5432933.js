@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[144],{212:function(n){n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"risiken-chancen","name":"risiken & chancen","count":6,"permalink":"/blog/tags/risiken-chancen"}')}}]);
