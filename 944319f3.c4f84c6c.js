@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[333],{402:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"software-onboarding","name":"software onboarding","count":1,"permalink":"/blog/tags/software-onboarding"}')}}]);

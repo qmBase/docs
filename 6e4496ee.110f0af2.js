@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[240],{309:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"fehlermanagement","name":"fehlermanagement","count":3,"permalink":"/blog/tags/fehlermanagement"}')}}]);

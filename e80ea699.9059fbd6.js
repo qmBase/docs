@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[486],{553:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"ideenmanagement-modernisierung","name":"ideenmanagement - modernisierung","count":1,"permalink":"/blog/tags/ideenmanagement-modernisierung"}')}}]);
