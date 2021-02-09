@@ -114,9 +114,11 @@ function Home() {
           <section className={styles.features}>
             <div className="container">
               <div className="row">
-                {appData.map((props, idx) => (
-                  <FeatureCard key={idx} {...props} />
-                ))}
+                {appData
+                  .sort((a, b) => a.title.localeCompare(b.title))
+                  .map((props, idx) => (
+                    <FeatureCard key={idx} {...props} />
+                  ))}
               </div>
             </div>
           </section>
