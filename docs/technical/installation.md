@@ -2,7 +2,7 @@
 id: installation
 title: Installation
 sidebar_label: Installation
-slug: /installation
+slug: /technical/installation
 ---
 
 ## Install on Windows
