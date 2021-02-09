@@ -7,7 +7,7 @@ Dies ist die Seite Profil, hier sind die Informationen des qmBase Nutzers hinter
 Sie haben die Möglichkeit Ihre Accountinformationen, also Nutzernamen und Passwort zu ändern.
 Mit den Buttons auf linken Seitenleiste navigieren Sie sich durch die App.
 
-TODO INSERT SCREENSHOT PROFILE
+![](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Profil/Profil/MyProfil.png)
 
 | Parameter                   | Typ    | Beschreibung                                                                                                                                               |
 | --------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |

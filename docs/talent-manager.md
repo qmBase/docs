@@ -4,6 +4,8 @@ title: Talent Manager (Schulungen & Qualifikationen)
 slug: /talent-manager
 ---
 
+![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Trainings.png)
+
 > Die App Talent Manager wird der zukünftige zentrale Anlaufpunkt für alle Themen, die Anforderungen, Qualifikationen und Mitarbeiter betreffen. Auch wenn sich der Talent Manager noch im Aufbau befindet, so sind die einzelnen Funktionen in den bisher einzelnen Apps **Schulungen** und **Aufgaben und Qualifikationen** schon verfügbar.
 
 Mit der App Talent Manager erreichen Sie folgende Ziele
