@@ -72,6 +72,6 @@ Jeder Kontakt wird auf einer Skala von 0-100% bewertet. Ein Kommentarfeld erlaub
 
 Sobald die Bewertung erstellt wurde, wird sie auch auch in der Übersicht der Bewertungen dargesellt. Die Tabbellenspallte ***ID*** führt zu der Detaiansicht der Bewertung. Dort kann die Bewertung bearbeitet werden und es können weitere Dokumente angefügt werden. 
 
-Eine Übersicht über alle Bewertungen aller Kontakte erreichen Sie über den Menüpunkt <code></FaStarHalfAlt></code>. Über den Button <code><FaPlus/></code> können Sie dort ebenfalls Bewertungen erfassen. In diesem Fall müssen aber zusätzlich den zu bewertenden Kontakt auswählen. 
+Eine Übersicht über alle Bewertungen aller Kontakte erreichen Sie über den Menüpunkt <code><FaStarHalfAlt/></code>. Über den Button <code><FaPlus/></code> können Sie dort ebenfalls Bewertungen erfassen. In diesem Fall müssen aber zusätzlich den zu bewertenden Kontakt auswählen. 
 
-Die Menüpunkte <code><FaChessKing/> Kundenbewertung</code> und <code><FaShippingFast Lieferantenbewertungen/></code> zeigen jeweils nur die Bewertungen für Kunden bzw. Lieferanten.
+Die Menüpunkte <code><FaChessKing/> Kundenbewertung</code> und <code><FaShippingFast/> Lieferantenbewertungen</code> zeigen jeweils nur die Bewertungen für Kunden bzw. Lieferanten.
