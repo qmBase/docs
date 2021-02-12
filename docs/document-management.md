@@ -20,7 +20,7 @@ Die beteiligten Personen und Rollen sind im [Dokumentenmanagement](document-mana
 ## Wie wird ein Ordner erstellt?
 Im Dokumentenmanagement können beliebige Ordnerstrukturen aufgebaut werden. In den Ordnern werden die Artikel des Dokumentenmanagements abgelegt.
 
-Über den Button <code>Neu</code> kann entweder ein neuer Ordner oder ein neuer Artikel erstellt werden. Vergeben Sie den gewünschten Namen für den Ordner und speichern Sie. Der Ordner wird an der Stelle im Ordnerverzeichnis erstellt, an der Sie sich zum Zeitpunkt der Erstellung befinden.
+Über den Button <code><FaPlus/> Neu</code> kann entweder ein neuer Ordner oder ein neuer Artikel erstellt werden. Vergeben Sie den gewünschten Namen für den Ordner und speichern Sie. Der Ordner wird an der Stelle im Ordnerverzeichnis erstellt, an der Sie sich zum Zeitpunkt der Erstellung befinden.
 
 ## Wie wird ein Artikel erstellt?
 Die Erstellung von Artikeln erfolgt im [Dokumentenmanagement](document-management), [Wiki](wiki) und [Blog](blog) analog und wird [hier](faqs/create-article) zentral beschrieben.
