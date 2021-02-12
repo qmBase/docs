@@ -11,7 +11,7 @@ Prerequisites
 
 - MS SQL 2019 Database
 - Windows 10 Pro or higher
-- APS.NET Core Hosting Bundle 5.0.x
+- ASP.NET Core Hosting Bundle 5.0.x
 - IIS Webserver V 10
 - SSL Certificate Public or self signed
 - Hardware requirements
