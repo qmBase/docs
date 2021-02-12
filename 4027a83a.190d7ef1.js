@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[139],{207:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"abwesenheitsplaner","name":"abwesenheitsplaner","count":5,"permalink":"/blog/tags/abwesenheitsplaner"}')}}]);
