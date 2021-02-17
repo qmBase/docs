@@ -70,7 +70,7 @@ Indem Sie zu dem Tab **Anstehende Aufgaben und Aktivitäten** auswählen, gelang
 | --------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------ |
 | <code>Reklamationsmanagement</code>     | Button | Hier gelangen Sie zu dem Reklamationsmanagement                                                                          |
 | <code>Ideenmanagement</code>            | Button | Hier finden Sie die App Ideenmanagement                                                                                  |
-| <code>Dokumentenmanageme</code>         | Button | Hier gelangen Sie zum Dokumentenmanagement                                                                               |
+| <code>Dokumentenmanagemet</code>        | Button | Hier gelangen Sie zum Dokumentenmanagement                                                                               |
 | <code>Produkte</code>                   | Button | Hier gelangen Sie zur App Produkte.                                                                                      |
 | <code>Wiki</code>                       | Button | Hier finden Sie die Einträge in der App Wiki                                                                             |
 | <code>Instandhaltung</code>             | Button | Hier gelangen Sie zur App Instandhaltung                                                                                 |

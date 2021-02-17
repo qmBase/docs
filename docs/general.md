@@ -29,12 +29,12 @@ Wenn z.B. eine Person in der Rolle des Ideenkoordinators gesucht wird, wird folg
 
 Bei der folgende Konstellation aus Nutzern und Gruppen ergibt sich
 
-| Nutzer  | Rolle(n)         | Gruppe Dortmund | Gruppe Hawai | Gruppe New York |
-| ------- | ---------------- | --------------- | ------------ | --------------- |
-| Müller  | Admin            | x               |              |                 |
-| Meier   | Ideenkoordinator |                 | x            |                 |
-| Schmidt | Nutzer           | x               |              |                 |
-| Schulze | Nutzer           |                 | x            | x               |
+| Nutzer  | Rolle(n)         | Gruppe Dortmund | Gruppe Hawaii | Gruppe New York |
+| ------- | ---------------- | --------------- | ------------- | --------------- |
+| Müller  | Admin            | x               |               |                 |
+| Meier   | Ideenkoordinator |                 | x             |                 |
+| Schmidt | Nutzer           | x               |               |                 |
+| Schulze | Nutzer           |                 | x             | x               |
 
 - Wenn Nutzer Schmidt einen Ideenkoordinator sucht, erhält er als Auswahlmöglichkeiten Nutzer Müller.
 - Wenn Nutzer Schulze einen Ideenkoordinator sucht, erhält er als Auswahlmöglichkeiten Nutzer Meier.

@@ -53,7 +53,7 @@ Haben alle Freigeber den Antrag genehmigt kann der Antrag insgesamt freigeben we
 
 ## Zugriff im Abwenseheitsplaner
 
-Der Antrag durchläuft von der Erstellung bis zur Genehmigung verschiedene Statuse. Diese Bestimmen die Zugriffsmöglichkeiten auf den Abwesenheitsantrag.
+Der Antrag durchläuft von der Erstellung bis zur Genehmigung verschiedene Status Möglichkeiten. Diese Bestimmen die Zugriffsmöglichkeiten auf den Abwesenheitsantrag.
 
 - **Zugriff auf Antrag:**
 

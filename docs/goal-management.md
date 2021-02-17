@@ -31,13 +31,13 @@ Mit dieser Funktion erstellen Sie Ziele für Ihr Unternehmen. Auf der linken Sei
 | <code>Einheit</code>        | Menge           | Bezieht sich auf das jeweilige Ziel. Hierbei kann es sich um Stückzahlen, Zeiten, Umsatz oder ähnliches handeln |
 | <code>Richtung</code>       | Liste           | Bestimmt, ob der aktuelle Wert gleich bleiben, erhöht der verringert werden soll                                |
 
-Danach werden Sie auf die Detailansicht zu diesem Ziel weitergeleitet und können weitere Parameter ändern oder hinzufügen. Fügen Sie zum Beispiel [Maßnahmen] (projects-and-tasks.md), Ziele oder [Customs fields](TODO: INSERT LINK) hinzu, um optimale Transparenz für Ihr Unternehmen und einen Überblick für Ihre Mitarbeiter zu schaffen.
+Danach werden Sie auf die Detailansicht zu diesem Ziel weitergeleitet und können weitere Parameter ändern oder hinzufügen. Fügen Sie zum Beispiel [Maßnahmen] (projects-and-tasks.md), Ziele oder [Custom Fields](TODO: INSERT LINK) hinzu, um optimale Transparenz für Ihr Unternehmen und einen Überblick für Ihre Mitarbeiter zu schaffen.
 
 | Parameter                                        | Typ             | Beschreibung                                                                                   |
 | ------------------------------------------------ | --------------- | ---------------------------------------------------------------------------------------------- |
 | <code>Verantwortlicher</code>                    | Name            | Person, die für das Ziel verantwortlich ist                                                    |
 | <code>Fortschritt</code>                         | Menge           | Fortschritt des Ziels                                                                          |
-| <code>Custom Fields</code>                       | Button          | Unter Customs Fields können Sie zusätzliche Faktoren zu ihrem Ziel zuordnen                    |
+| <code>Custom Fields</code>                       | Button          | Unter Custom Fields können Sie zusätzliche Faktoren zu ihrem Ziel zuordnen                     |
 | <code>Maßnahme</code>                            | Button          | Verknüpfen Sie das Ziel mit den zugehörigen Maßnahmen, die nötig sind um das Ziel zu erreichen |
 | <code>Anhänge</code>                             | Name            | Fügen Sie Dateien hinzu, die für dieses Risiko notwendig sind                                  |
 | <code>Schlagworte</code>                         | Text (optional) | Schlagworte bieten Ihnen die Möglichkeit das Ziel einem oder mehreren Themenfeldern zuzuordnen |

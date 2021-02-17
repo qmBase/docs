@@ -79,7 +79,7 @@ Erläuterung der Formularfelder:
   - Beschreibung – Detailliertere Beschreibung der Schulung
   - Wirksamkeit durch Teilnehmer beurteilbar – Teilnehmer können durchgeführte Schulungen bewerten
   - Teilnehmer können sich selbst anmelden – Wenn Schulungen im Voraus geplant werden, kann es so eingestellt werden, dass sich die Teilnehmer selbst einladen können
-  - Maximale Anzahl Teilnehmer – Ist die Anzahl der Teilnehmer begrent z.B. aus Platzgründen
+  - Maximale Anzahl Teilnehmer – Ist die Anzahl der Teilnehmer begrenzt z.B. aus Platzgründen
 
 ### Bearbeiten von Schulungen
 
@@ -87,11 +87,11 @@ Erläuterung der Formularfelder:
 
 #### Wie können Mitarbeiter sich selbst zu Schulungen anmelden
 
-Um Mitarbeitern die Möglichkeit zu geben, sich selbst zu Schulungen anzumelden müssen die entsprechenden Schulungstermine zunächst ganz regulär über _Schulungsmangement -> Neu_ erstellt werden. In dem Formular zur Erstellung der Schulungen findet sich die Checkbox _Teilnehmer können sich selbst anmelden._ Wird diese Checkbox markiert, dann können die Mitarbeiter die Schulungen unter _Schulungsmanagement -> Katalog_ finden und sich selbst zu der Schulung anmelden.
+Um Mitarbeitern die Möglichkeit zu geben, sich selbst zu Schulungen anzumelden müssen die entsprechenden Schulungstermine zunächst ganz regulär über _Schulungsmanagement -> Neu_ erstellt werden. In dem Formular zur Erstellung der Schulungen findet sich die Checkbox _Teilnehmer können sich selbst anmelden._ Wird diese Checkbox markiert, dann können die Mitarbeiter die Schulungen unter _Schulungsmanagement -> Katalog_ finden und sich selbst zu der Schulung anmelden.
 
 #### Wie kann ich die Anzahl der Schulungsteilnehmer begrenzen
 
-Wenn Sie über _Schulungsmanagement -> Neu_ eine neue Schulung planen, dann finden Sie in dem Formular das Feld _Maximale Anzahl Teilnehmer,_ dort können Sie die Anzahl der Teilnhemer begrenzen. Wenn Sie das Feld leer lassen, dann ist die Anzahl der Schulungsteilnehmer unbegrenzt.
+Wenn Sie über _Schulungsmanagement -> Neu_ eine neue Schulung planen, dann finden Sie in dem Formular das Feld _Maximale Anzahl Teilnehmer,_ dort können Sie die Anzahl der Teilnehmer begrenzen. Wenn Sie das Feld leer lassen, dann ist die Anzahl der Schulungsteilnehmer unbegrenzt.
 
 Die Anzahl der Schulungsteilnehmer zu begrenzen macht vorallem dann Sinn, wenn die Mitarbeiter die Möglichkeit haben sich selbst zu der Schulung anzumelden.
 
@@ -110,8 +110,8 @@ Mit dem Verknüpfen von Formularen und Schulungen, können Sie unterschiedliche 
 
 - Lernstandskontrollen
 - Schulungsevaluation
-- Wiksamkeitsprüfungen
-- Orgnisatorische Koordination
+- Wirksamkeitprüfungen
+- Organisatorische Koordination
 
 :::note Beispiel für die Verwendung von Formularen
 Die geplante Schulung dauert den ganzen Tag und Sie möchten die Teilnehmer mittags verköstigen. Dabei möchten Sie Rücksicht auf Vegetarier nehmen.
@@ -142,7 +142,7 @@ Klicken Sie auf den Button "Formular hinzufügen" und wählen Sie das gewünscht
 
 Wenn Sie möchten, dass die Möglichkeit des Ausfüllens von Formularen an bestimmte Bedingungen geknüpft ist, können Sie das nach dem Verknüpfen des Formulars festlegen. In unserem Beispiel möchten wir erreichen, dass das Formular nur in der Planungsphase ausgefüllt werden kann, damit wir für das Mittagessen entsprechend frühzeitig einkaufen können. Daher legen wir fest, dass das Formular nur ausgefüllt werden kann, so lange der Status der Schulung als "Offen" festgelegt ist.
 
-Sobald der Status der Schulung nicht mehr offen ist, wird der Button zum Ausfüllen des Formulares deaktiviert.
+Sobald der Status der Schulung nicht mehr offen ist, wird der Button zum Ausfüllen des Formulars deaktiviert.
 
 ###### Antworten einsehen
 
@@ -152,9 +152,9 @@ Unter der Registerkarte Antworten haben Sie die Möglichkeit die ausgefüllten F
 
 Schulungsteilnehmer können lediglich Formulare ausfüllen. D.h. als Teilnehmer sehen Sie direkt die verknüpften Formulare und können über einen Klick auf den Button "Formular ausfüllen" starten.
 
-Ihre abgeschickten beantworteten Formulare können Sie unter der Regsisterkarte Antworten einsehen.
+Ihre abgeschickten beantworteten Formulare können Sie unter der Registerkarte Antworten einsehen.
 
-Sollte das Ausfüllen des Formulares an bestimmte Bediungen genküpft sein, z.B. den Status der Schulung, ist der Button deaktiviert und es erscheint eine kurze Information neben dem Button.
+Sollte das Ausfüllen des Formulars an bestimmte Bedingungen genknüpft sein, z.B. den Status der Schulung, ist der Button deaktiviert und es erscheint eine kurze Information neben dem Button.
 
 - Maßnahmen
 - Qualifikationen
