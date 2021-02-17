@@ -16,12 +16,46 @@ Um das Ausfüllen mit Daten aus Ihrer Software zu ermöglichen, muss das Schlagw
 
 Folgende Platzhalter können verwendet und ersetzt werden:
 
-| Platzhalter                        | Ursprung                                     |
-| ---------------------------------- | -------------------------------------------- |
-| organisation                       | Firma aus Admin Startseite                   |
-| {{organisation.title}}             | Name der Firma                               |
-| managingDirector                   | Geschäftsführer aus Admin Startseite         |
-| {{managingDirector.fullName}}      | Vor- und Nachname GF                         |
-| {{today}}                          | Aktuelles Datum                              |
-| dataProtectionOfficer              | Datenschutzbeauftragter aus Admin Startseite |
-| {{dataProtectionOfficer.fullName}} | Vor- und Nachname DSB                        |
+| Platzhalter                         | Ursprung                                                |
+| ----------------------------------- | ------------------------------------------------------- |
+| organisation                        | Firma aus Admin Startseite                              |
+| {{organisation.title}}              | Name der Firma                                          |
+| {{organisation[0].addresses.line1}} | Erste Zeile der Anschrift der Firma                     |
+| managingDirector                    | Geschäftsführer aus Admin Startseite Typ: Person        |
+| {{managingDirector.fullName}}       | Vor- und Nachname GF                                    |
+| {{managingDirector.email}}          | E-Mail GF                                               |
+| {{today}}                           | Aktuelles Datum                                         |
+| dataProtectionOfficer               | Datenschutzbeauftragter aus Admin Startseite Typ:Person |
+| {{dataProtectionOfficer.fullName}}  | Vor- und Nachname DSB                                   |
+
+Organisationen und Personen verfügen zusätzlich noch über Listen von verknüpften Adressen. Im einfachsten Fall ist es einfach die primäre Adresse.
+Um die erste Adresse einer Liste (Array) von verknüpften Adressen zu erhalten wird diese Notation benötigt **organisation.address[0][addressproperty]**
+
+#### Personen Eigenschaften
+
+```jsx
+interface Person {
+  firstName: string;
+  lastName: string;
+  fullName: string;
+  telephones: Telephone[];
+  addresses: Address[];
+}
+```
+
+```jsx
+interface Telephone {
+  number: string;
+}
+```
+
+#### Adress Eigenschaften
+
+| Eigenschaft | Beispiel         |
+| ----------- | ---------------- |
+| line1       | Feldstraße 61-63 |
+| line2       | Postfach xy      |
+| line3       | Hinterhaus       |
+| zipCode     | 44141            |
+| city        | Dortmund         |
+| country     | Dortmund         |
