@@ -19,6 +19,7 @@ module.exports = {
           "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/navbarLogo.png",
       },
       items: [
+        { to: "tutorials", label: "Tutorials", position: "left" },
         {
           to: "docs/general",
           activeBasePath: "docs",

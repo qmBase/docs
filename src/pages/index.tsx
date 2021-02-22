@@ -5,8 +5,6 @@ import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
 import { FaRss } from "react-icons/fa";
-import FeatureCard from "../components/featureCard";
-import { appData } from "../data/appData";
 import styles from "./styles.module.css";
 const features = [
   {
@@ -43,6 +41,28 @@ const features = [
         <a href={"/blog/atom.xml"}>
           <FaRss /> Feed
         </a>
+      </>
+    ),
+  },
+  {
+    title: <>qmBase als White Label Lösung</>,
+    imageUrl: "img/undraw_font.svg",
+    description: (
+      <>
+        qmBase ist auch der Motor einiger White Label Lösungen. Die
+        Informationen auf dieser Seite sind auch für die White Label Lösungen
+        gültig. Zu den Lösungen gehören unter anderem:
+        <ul>
+          <li>
+            <Link to="/docs/docupro">DocuPro</Link>
+          </li>
+          <li>
+            <a href="https://carenavigator.de/">DSGVO protect</a>
+          </li>
+          <li>
+            <a href="https://imsbase.de">imsBase</a>
+          </li>
+        </ul>
       </>
     ),
   },
@@ -103,22 +123,6 @@ function Home() {
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}
-              </div>
-            </div>
-          </section>
-        )}
-        <div className="text--center">
-          <h1 className="text--primary">Tutorials für die einzelnen Apps</h1>
-        </div>
-        {appData && appData.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {appData
-                  .sort((a, b) => a.title.localeCompare(b.title))
-                  .map((props, idx) => (
-                    <FeatureCard key={idx} {...props} />
-                  ))}
               </div>
             </div>
           </section>
