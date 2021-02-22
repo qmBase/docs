@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[466],{536:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"der-qm-base-bot","name":"der qmbase bot","count":1,"permalink":"/blog/tags/der-qm-base-bot"}')}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[173],{243:function(n){n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"dokumentenemanagement-und-wiki","name":"dokumentenemanagement und wiki","count":1,"permalink":"/blog/tags/dokumentenemanagement-und-wiki"}')}}]);
