@@ -7,8 +7,13 @@ tags: [roadmap]
 draft: true
 ---
 
-- Workflows
 - General Notificationsystem
+
+## Workflows
+
+## Schlagworte
+
+Pflichtauswahl aus eingschränktem Pool nach Eintragerstellung.
 
 ## Talentmanager
 
