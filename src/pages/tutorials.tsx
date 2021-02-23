@@ -12,7 +12,7 @@ function Tutorials() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Mit unseren Tutorials stellen wir Ihnen Informationen und Anleitungen zu unseren Apps zur Verfügung. Mit unseren Schritt für Schritt Anleitungen sind Sie perfekt für die Nutzung von qmBase vorbereitet. 🚀"
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
