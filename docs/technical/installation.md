@@ -7,7 +7,9 @@ slug: /technical/installation
 
 ## Install on Windows
 
-Prerequisites
+qmBase can be installed on Windows.
+
+### Prerequisites
 
 - MS SQL 2019 Database
 - Windows 10 Pro or higher
@@ -18,7 +20,7 @@ Prerequisites
   - min 4 GB Ram
   - min 10 GB HDD
 
-Steps to install or update
+### Steps to install or update
 
 1. Download the latest qmBase version from [here](https://support.qmbase.com/downloads/). You will get the credentials via mail after you have signed the contract.
 2. Extract the ZIP file to the folder where the IIS is located.
@@ -67,7 +69,7 @@ Change the appSettings.Production.json file
   },
   "AppSettings": {
     "MultiTenantContext": true,
-    "StorageType": "FileSystem", //"FileSystem" or "AzureBlobStorage"
+    "StorageType": "FileSystem", //"FileSystem" | "AzureBlobStorage"
     "PhysicalFileProviderRootPath": "D:\\qmbase\\uploads"
   }
 }
@@ -78,6 +80,13 @@ Change the appSettings.Production.json file
 Possible but not yet documented
 
 ## Breaking Changes
+
+### Deployment Status
+
+|            | Status                                                                                                                                               |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Build      | [![Build status](https://dev.azure.com/caqio/PBD/_apis/build/status/qmBase%20Master)](https://dev.azure.com/caqio/PBD/_build/latest?definitionId=24) |
+| Deployment | ![](https://vsrm.dev.azure.com/caqio/_apis/public/Release/badge/40d1313e-3385-464b-a9ed-3cce1c2d470e/3/16)                                           |
 
 ## Tools & Frameworks we use
 

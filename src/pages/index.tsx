@@ -54,7 +54,7 @@ const features = [
         gültig. Zu den Lösungen gehören unter anderem:
         <ul>
           <li>
-            <Link to="/docs/docupro">DocuPro</Link>
+            <Link to="https://jowecon.de/docupro/">DocuPro</Link>
           </li>
           <li>
             <a href="https://carenavigator.de/">DSGVO protect</a>
