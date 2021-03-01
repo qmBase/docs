@@ -20,13 +20,29 @@ qmBase can be installed on Windows.
   - min 4 GB Ram
   - min 10 GB HDD
 
-### Steps to install or update
+#### Recommended Folder Structure
+
+- D:\qmbase\
+  - builds\ -> Save old builds here if you need to roll back an update
+  - uploads\\{CustomerId}\ -> Save user generated uploads here
+  - app\ -> Save the app data here
+
+:::note
+Use a dedidacted partition (D:\\) to store the data.
+:::
+
+### How to install?
 
 1. Download the latest qmBase version from [here](https://support.qmbase.com/downloads/). You will get the credentials via mail after you have signed the contract.
 2. Extract the ZIP file to the folder where the IIS is located.
 3. Run the latest database migrations. The SQL scripts will be provided on the download page as well. You will need to create 2 databases.
 4. qmBase requires a SSL connection. So you have to configure the IIS to use either a self signed certificate or use a regular certificate.
 5. Configure qmBase and start running.
+
+### How to update?
+
+1. Delete all files in <code>app</code> folder except **web.config** and **appSettings.Production.json**.
+2. Extract the zip file from the update and copy all files except **web.config** and **appSettings.Production.json** to the <code>app</code> folder.
 
 ## Configure qmBase
 

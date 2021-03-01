@@ -3,7 +3,7 @@ id: getting-started
 title: Erste Schritte
 ---
 
-Mit qmBase zu starten dauert nicht länger als 5 Minuten.
+Um mit qmBase zu starten, brauchen Sie nicht länger als 5 Minuten.
 
 1. Test Account aktivieren
 2. Bestätigungsmail abwarten und Anweisungen folgen
