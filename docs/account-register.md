@@ -49,4 +49,14 @@ Bitte gehen Sie wie folgt vor:
 
 #### Email 'max@mustermann.com' is already taken.
 
-Diese Fehlermeldung erhalten Sie, wenn bereits ein Account mit Ihrer E-Mail Adresse angelegt wurde.
+Diese Fehlermeldung erhalten Sie, wenn bereits ein Account mit Ihrer E-Mail Adresse angelegt wurde. Sie können daher keinen neuen Account anlegen.
+
+#### Welche Passwort Anforderungen gibt es?
+
+Für einen sicheren Zugang werden an das Passwort Mindestanforderungen gestellt. Diese sind derzeit wie folgt.
+
+- Minium: 8 Zeichen
+- Großbuchstaben (A)
+- Kleinbuchstaben (a)
+- Sonderzeichen (!)
+- Zahl (1)
