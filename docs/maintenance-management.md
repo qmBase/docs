@@ -43,7 +43,7 @@ In unserer Vorlage müssen Sie folgende Spalten ausfüllen.
 Download: [Etiketten_qmBase_qr.xlsx](./assets/Etiketten_qmBase_qr.xlsx)
 
 - Anzeigename: Lesbarer Text, der zusätzlich zum QR Code angezeigt wird
-- Id: qmBase Identifikationsnummer des Gegenstands
+- ID: qmBase Identifikationsnummer des Gegenstands
 - HostName: Name Ihrer qmBase Instanz z.B. https://meinFirma.qmbase.com
 - Path: Unverändert lassen
 
