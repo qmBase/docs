@@ -53,7 +53,12 @@ Wenn Sie Tabelle aus dem vorherigen Schritt erstellt haben, können Sie sich hie
 
 Download: [Etiketten_qmBase_qr.docx](./assets/Etiketten_qmBase_qr.docx)
 
-In unsere Vorlage verwenden wir Etiketten der Größe 45x45mm. Diese Größe reicht in der Regel aus, damit die Etiketten problemlos von Ihrer Kamera erkannt werden können. Für andere Größen und Etiketten Formen können Sie entweder unsere Vorlage anpassen oder mit dem Word Serienbrief Assistenten mit wenigen Klicks Ihre eigene Vorlage designen.
+Für Ihren eigenen Seriebrief können Sie folgende Feldfunktioinen verwenden:
+
+- QR Code: <code>DISPLAYBARCODE MERGEFIELD Url QR \q 3 \s 5</code>
+- Anzeigename: <code>MERGEFIELD Anzeigename</code>
+
+In unsere Vorlage verwenden wir Etiketten der Größe 45x45mm. Diese Größe reicht in der Regel aus, damit die Etiketten problemlos von Ihrer Kamera erkannt werden können. Für andere Größen und Etiketten Formen können Sie entweder unsere Vorlage anpassen oder mit dem Word Serienbrief Assistenten mit wenigen Klicks Ihre eigene Vorlage designen. Mehr Informationen zur Erstellungen von Serienbriefen finden Sie [hier](https://www.google.de/search?q=office+serienbrief+erstellen).
 
 ### Etikettieren Sie Ihre Gegenstände
 
