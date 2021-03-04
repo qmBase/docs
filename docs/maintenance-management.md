@@ -29,12 +29,11 @@ Wie Sie das in drei einfach Schritten schaffen stellen wir Ihnen hier vor.
 
 1. Exportieren Sie die Gegenstände, die Sie etikettieren möchten
 2. Nutzen Sie unsere Excel Vorlage, um die Links zu erzeugen
-3. Drucken Sie Ihre Etiketten als Serienbrief
-4. Etikettieren Sie Ihre Gegenstände
+3. Drucken Sie Ihre Etiketten als Serienbrief und etikettieren Sie Ihre Gegenstände
 
 ### Exportieren Sie die Gegenstände
 
-Wählen Sie die Gegenstände aus, die Sie Etikettieren möchten. Anschließend können Sie diese Gegenstände aus qmBase exportieren.
+Wählen Sie die Gegenstände aus, die Sie etikettieren möchten. Anschließend können Sie diese Gegenstände aus qmBase exportieren.
 
 ### Nutzen Sie unsere Excel Vorlage zur Erzeugung der Links
 
@@ -44,7 +43,7 @@ Download: [Etiketten_qmBase_qr.xlsx](./assets/Etiketten_qmBase_qr.xlsx)
 
 - Anzeigename: Lesbarer Text, der zusätzlich zum QR Code angezeigt wird
 - ID: qmBase Identifikationsnummer des Gegenstands
-- HostName: Name Ihrer qmBase Instanz z.B. https://meinFirma.qmbase.com
+- HostName: Name Ihrer qmBase Instanz z.B. https://meineFirma.qmbase.com
 - Path: Unverändert lassen
 
 ### Drucken Sie die Etiketten als Serienbrief
