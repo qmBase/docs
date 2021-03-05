@@ -10,11 +10,67 @@ title: Instandhaltung
 
 ## Erfassen von Inventargegenständen
 
+Um neue Inventargegenstände zu erfassen klicken Sie auf den Button <code>Neu</code> über der Tabelle mit den bestehenden Inventargegenständen. Jeder Inventargegenstand kann mit den folgenden Funktionen erfasst werden:
+
+| Parameter                 | Typ             | Beschreibung                                               |
+| ------------------------- | --------------- | ---------------------------------------------------------- |
+| <code>Kategorie</code>        | Auswahl            | Für eine Bessere Ordnung wird jeder Inventargegenstand einer Kategorie zugeordnet. Die Kategorien werden in den Einstellungen zum Instandhaltungsmanagement erstellt.|
+| <code>Hersteller</code> | Text  |Hersteller des Inventarggegenstands|
+| <code>Modell</code>        |Text | Modell des Inventarggegenstands|
+|<code>Inventarnummer</code>|Text |Inventarnmmer des Inventargegenstands|
+|<code>Seriennummer</code>|Text |Seriennummer des Inventargegenstands|
+|<code>Beschreibung</code>|Text|Platz für weitere Informationen über den Inventargegenstand |
+|<code>Funktionsfähig</code>|Auswahl |Funktionsfähigkeit des Inventargegenstands|
+|<code>Status</code>|Auswahl Status des Inventargegenstands. Die unterschiedlichen Status werden in den Einstellungen zum Instandhaltungsmanagement erstellt.|
+|Standort|Auswahl|Standort des Inventargegenstands|
+
+
+Zusätzlich können weitere Inventragegenstände als Anlage zusammengefasst werden.
+
+
+## Inventarprüfungen
+
+Jeder Inventargegenstand kann unterschiedlichen Inventarprüfungen unterliegen. Um das System möglichst flexibel zu gestalten werden die unterschiedlichen Inventarprüfungen unabhängig vom Inventargegenstand konfiguriert. Jedem Inventargegenstand können dann individuell die einzelnen Prüfungstypen zugeordnet werden.  
+
+
+### Erstellung von Inventarprüfungen
+
+Die einzelnen Inventarprüfungen werden in den Einstellungen mit folgenden Eigenschaften erstellt. 
+
+| Parameter                 | Typ             | Beschreibung                                               |
+| ------------------------- | --------------- | ---------------------------------------------------------- |
+| <code>Titel</code>        |Text            | Bezeichnung der Inventarpüfung|
+| <code>Wiederkehrend</code>|Auswahl          |Muss diese Prüfung regelmäßig wiederholt werden?|
+|<code>Intervall</code>|Zahl + Auswahl| Das Wiederholungsintervall, sofern die Prüfung regelmäßig wiederholt werden muss|
+|<code>Vorwarnzeit</code>|Zahl + Auswahl| Zeitraum zur Warnung für anstehenden Wiederholungen von Prüfungen| 
+|<code>Beschreibung</code>|Text|Platz für weitere Informationen über der Inventarprüfung|
+|<code>Custom Fields</code>|Text|Custom Fields dienen zur Erstellung indvidueller Felder zur Informationserfassung|
+
+### Verknüpfen und Erfassen von Inventarprüfungen
+
+Unterliegt ein Inventargegenstand einer bestimmten Inventarprüfung, muss der Inventargegenstand mit dieser Prüfung verknüpft werden. Dazu wird der Inventargegnstand aufgerufen und in der Karte ***Prüfungsstatus*** über den Button <code>Neu</code> mit der Prüfung verknüpft. Alle Inventarprüfungen denen der Inventargegenstand unterliegt werden tabellarisch aufgelistet.  
+
+Über den jeweiligen Button <code>Neu</code> das ein tatsächliches Prüfungsereignis erfasst werden. Jede Prüfung wird mit folgenden Eigenschaften erfasst:
+
+| Parameter                 | Typ             | Beschreibung                                               |
+| ------------------------- | --------------- | ---------------------------------------------------------- |
+| <code>Erledigt</code>        |Datum            | Datum der Duchführung der Prüfung|
+| <code>Prüfung OK?</code>|Auswahl          |War die Prüfung erfolgreich?|
+|<code>Kosten</code>|Zahl| Welche Kosten sind mit der Prüfung enstanden?|
+|<code>Erledigt von</code>|Auswahl| Wer hat die Prüfung durchgeführt?| 
+|<code>Beschreibung</code>|Text|Platz für weitere Informationen über das prüfungsereignis|
+|<code>Custom Fields</code>|Text|Individuelle Felder zur Informationserfassung|
+
+Nach dem Speichern der Prüfung werden alle erfassten Daten noch mal dargestellt und es können zusätzlich Dateien angehängt werden, zum Besipiel externe Prüfungsberichte. 
+
+Auf Basis des Prüfungsdatums und dem Wiederholungsintervall für die Invetarprüfung errechnet sich automatisch die Frist für die erneute Durchfrührung der Prüfung. 
+
+Eine Übersicht über alle anstehenden und durchgeführten Invertprüfungen sind links über die Seitennavigation über die Menüpunkte <code>Anstehende Prüfungen</code> und <code>Durchgeführte Prüfungen</code> erreichbar erreichbar.  
+
+## Reparaturen
 TODO
 
-## Verknüpfen und Erfassen von Prüfungen
 
-TODO
 
 ## QR Code Etiketten erstellen zur einfachen digitalen Erfassung von Prüfungen
 
