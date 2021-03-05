@@ -49,6 +49,20 @@ Danach werden Sie auf die Detailansicht zu diesem Ziel weitergeleitet und könne
 
 Beim Erstellen eines Ziels können Sie Verantwortliche für dieses Ziel ernennen. Diese Mitarbeiter erhalten eine E-Mail, sobald Sie zu Verantwortlichen ernannt werden.
 
+## Wie erfasse ich den Fortschritt für ein Ziel
+
+In dem Bereich Fortschritt lassen sich jeweils die aktuellen Wert hinterlegen. Hier können %-Werte hinterlegt werden. Unsere Ziel hierbei ist es, Ziele vergleichbar zu machen, so dass man mehrere Ziele anhand des Fortschritts Werts miteinander vergleichen kann.
+
+Beispiel: Umsatzsteigerung
+
+- Startwert: 0€
+- Ziel: 100€
+- Aktueller Wert: 50€
+
+Daraus folgt aktueller Fortschritt entspricht 50%.
+
+Über den Button Details anzeigen lassen sich dann die verschiedenen Werte im zeitlichen Verlauf anzeigen.
+
 ### Beispiel
 
 Herr Müller möchte ein Ziel erstellen. Nachdem er sich bei qmBase angemeldet hat, ruft er die App Zielmanagement auf. Er wählt in der Seitenleiste den Button <code>Neu</code> aus. Anschließend trägt er den Titel des Ziels und alle wichtigen Eckdaten ein. Nachdem er auf **Speichern** geklickt hat, wird er zur Detailansicht weitergeleitet. Auf dieser Seite hat er die Möglichkeit weitere Daten einzutragen. Außerdem kann Herr Müller einzelne Felder editieren, falls er Daten fehlerhaft eingetragen hat.
