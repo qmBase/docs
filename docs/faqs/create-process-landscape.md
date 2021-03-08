@@ -3,7 +3,6 @@ id: create-process-landscape
 title: Wie kann eine Prozesslandschaft im Dokumentenmanagement erstellt werden?
 ---
 
-Prozesslandschaft erstellen
 Der einfachste Weg zur Erstellung einer Prozesslandschaft sieht wie folgt aus: 
 
 1. Tabelle erstellen
