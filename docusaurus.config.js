@@ -2,7 +2,7 @@ module.exports = {
   title: "qmBase - Docs",
   tagline:
     "Hier finden Sie die qmBase-Dokumentation und Tutorials für Einsteiger und Experten",
-  url: "https://qmbase.github.io",
+  url: "https://help.qmbase.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
