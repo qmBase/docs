@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[53],{122:function(n){n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"dokumentenmanagement","name":"dokumentenmanagement","count":20,"permalink":"/blog/tags/dokumentenmanagement"}')}}]);

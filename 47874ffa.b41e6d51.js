@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[154],{224:function(n){n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"instandhaltungsmanagement","name":"instandhaltungsmanagement","count":2,"permalink":"/blog/tags/instandhaltungsmanagement"}')}}]);

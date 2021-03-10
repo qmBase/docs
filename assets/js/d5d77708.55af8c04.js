@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[434],{506:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"aufgaben-qualifikationen","name":"aufgaben & qualifikationen","count":9,"permalink":"/blog/tags/aufgaben-qualifikationen"}')}}]);
