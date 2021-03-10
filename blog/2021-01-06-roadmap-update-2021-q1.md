@@ -18,11 +18,11 @@ Folgende Themen werden wir in diesem Quartal aufgreifen.
 
 - **Verbesserung der Performance** 🔧
 - **Zielmanagement**
-- **Bessere Dokumentation**
+- **Bessere Dokumentation** ✔️
 - **Sicherheit & Zugriff**
 - **Dashboards & Reportings**
 - **Kalenderintegration**
-- **Audit Trail**
+- **Audit Trail** 🔧
 
 ## Verbesserung der Performance 🔧
 
@@ -30,7 +30,7 @@ Folgende Themen werden wir in diesem Quartal aufgreifen.
 
 Die Arbeit mit qmBase soll Spaß machen und leicht von der Hand gehen. Damit wir Sie nicht in Ihrem Arbeitsalltag aufhalten, ist es entscheidend, dass qmBase schnell und ohne unnötig lang Ladezeiten funktioniert. Performance ist also ein wichtiges Feature. Hierzu werden wir in diesem Quartal einige Optimierungen vornehmen dazu zählt:
 
-1. Einsatz von Leistungsstärkerer Hardware ✔️
+1. Einsatz von leistungsstärkerer Hardware ✔️
 2. Update unsere Server Frameworks auf ASP.NET 5 ✔️
 
 Unser **Ziel** ist es, bei den Server Antwortzeiten Zeiten in den Bereich von ~200ms im 95. Perzentil zu kommen. D.h., dass 95% der Serveranfragen schneller als in 200ms erfolgen.
@@ -42,6 +42,7 @@ Unser **Ziel** ist es, bei den Server Antwortzeiten Zeiten in den Bereich von ~2
 | 2020-12-18 | 414                 |        |                     |                     |
 | 2021-01-15 | 216                 |        |                     |                     |
 | 2021-01-19 | 213                 | 82     | 13                  | 1293                |
+| 2021-03-10 | 374                 | 124    | 14                  | 2233                |
 
 ## Bessere Dokumentation
 
