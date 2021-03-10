@@ -4,8 +4,8 @@
   <ShortName>qmBase - Docs</ShortName>
   <Description>Search qmBase - Docs</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://qmbase.github.io/https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png</Image>
-  <Url type="text/html" method="get" template="https://qmbase.github.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://qmbase.github.io/opensearch.xml" />
-  <moz:SearchForm>https://qmbase.github.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://help.qmbase.com/https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png</Image>
+  <Url type="text/html" method="get" template="https://help.qmbase.com/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://help.qmbase.com/opensearch.xml" />
+  <moz:SearchForm>https://help.qmbase.com/</moz:SearchForm>
 </OpenSearchDescription>
