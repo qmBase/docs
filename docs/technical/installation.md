@@ -88,6 +88,8 @@ Change the appSettings.Production.json file
 
 ### How to update?
 
+We are improving qmBase continuously. That means that we are releasing multiple Updates per Day. So if you are experiencing any bugs you can always try to download the latest release.
+
 1. Delete all files in <code>app</code> folder except **web.config** and **appSettings.Production.json**.
 2. Extract the zip file from the update and copy all files except **web.config** and **appSettings.Production.json** to the <code>app</code> folder.
 

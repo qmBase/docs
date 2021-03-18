@@ -30,6 +30,7 @@ module.exports = {
     FAQs: [
       "faqs/smartViews",
       "faqs/supported-browsers",
+      "faqs/change-notification-document-management",
       "faqs/faq-1",
       "faqs/faq-2",
       "faqs/faq-3",
