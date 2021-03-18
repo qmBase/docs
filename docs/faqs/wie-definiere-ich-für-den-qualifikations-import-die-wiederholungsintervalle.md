@@ -26,7 +26,7 @@ keywords:
 
 TimeInterval = 0, TimerIntervallValue = 2 würde bedeuten, dass die Qualifikation eine Gültigkeit von 2 Jahren hat.
 
-Das Feld ***SurveillanceIntervalTimeSpan* **erfasst die Informationen gemäß [https://de.wikipedia.org/wiki/ISO_8601](https://intern.qmbase.com/_KnowledgeBase/ISO%208601)
+Das Feld ***SurveillanceIntervalTimeSpan* **erfasst die Informationen gemäß [https://de.wikipedia.org/wiki/ISO_8601](https://de.wikipedia.org/wiki/ISO_8601)
 
 Eine Gültigkeit von zwei Jahren wird wie folgt vorgegeben: **P2Y**
 
