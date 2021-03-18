@@ -39,12 +39,7 @@ Use a dedidacted partition (D:\\) to store the data.
 4. qmBase requires a SSL connection. So you have to configure the IIS to use either a self signed certificate or use a regular certificate.
 5. Configure qmBase and start running.
 
-### How to update?
-
-1. Delete all files in <code>app</code> folder except **web.config** and **appSettings.Production.json**.
-2. Extract the zip file from the update and copy all files except **web.config** and **appSettings.Production.json** to the <code>app</code> folder.
-
-## Configure qmBase
+#### Configure qmBase
 
 To configure qmBase you have take actions in 2 different places.
 
@@ -90,6 +85,15 @@ Change the appSettings.Production.json file
   }
 }
 ```
+
+### How to update?
+
+1. Delete all files in <code>app</code> folder except **web.config** and **appSettings.Production.json**.
+2. Extract the zip file from the update and copy all files except **web.config** and **appSettings.Production.json** to the <code>app</code> folder.
+
+#### qmBase.Installer
+
+Alternatively you can use the qmBase.Installer.exe. If you use the default configuration you can do 9 out of 10 updates automatically. Please note that the qmBase.Installer is part of the Enterprise subscription.
 
 ## Install on Linux
 
