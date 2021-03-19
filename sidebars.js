@@ -110,7 +110,6 @@ module.exports = {
       "faqs/faq-96",
       "faqs/faq-102",
       "faqs/faq-103",
-      "faqs/faq-104",
       "faqs/faq-106",
       "faqs/faq-107",
       "faqs/faq-108",
@@ -120,7 +119,6 @@ module.exports = {
       "faqs/faq-115",
       "faqs/faq-116",
       "faqs/faq-117",
-      "faqs/faq-124",
       "faqs/faq-125",
     ],
     "Technical Documentation": [
