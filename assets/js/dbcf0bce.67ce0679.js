@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[447],{519:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"auditmanagment","name":"auditmanagment","count":1,"permalink":"/blog/tags/auditmanagment"}')}}]);

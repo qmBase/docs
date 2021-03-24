@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[483],{555:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"redesign-der-startseite","name":"redesign der startseite","count":1,"permalink":"/blog/tags/redesign-der-startseite"}')}}]);
