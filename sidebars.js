@@ -6,6 +6,7 @@ module.exports = {
       "general",
       "common-features",
       "feedback",
+      "benachrichtigungen",
     ],
     Account: ["account-register", "account-login", "profile"],
     Apps: [

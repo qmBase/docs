@@ -1,0 +1,82 @@
+---
+id: benachrichtigungen
+title: Benachrichtigungen
+---
+
+:::info
+Dieses Dokument befindet sich noch im Aufbau
+:::
+
+Innerhalb von qmBase werden bei vielen Ereignissen Benachrichtungen ausgelöst, so dass Personen, die informiert bleiben sollten, dies auch tun. Die Benachrichtungen werden pro Ereignis als E-Mail erstellt.
+Die Benachrichtigungen bestehen somit aus:
+
+- Betreff
+- Inhalt
+
+Jede Benachrichtigung wird zeitgleich nur an eine Person verschickt.
+
+## Allgemeine Benachrichtigungen
+
+Benachrichtigungen für Ereignisse, die an verschiedenen Stellen der Software auftreten werden im folgenden Beschrieben:
+
+| Aktion             | Empfänger                    | Beschreibung |
+| ------------------ | ---------------------------- | ------------ |
+| Kommentar erstellt | Verantwortlicher / Ersteller |
+| Datei angefügt     | Verantwortlicher / Ersteller |
+
+## Design der Benachrichtigungen
+
+Der Aufbau des Betreffs ist wie folgt: **Schweregrad** > **App** > **Zweck** > **#{ID} {Titel des zu Grunde liegenden Elements}**. Im Inhalt der Nachricht werden, falls notwendig, weitere Details beschrieben und ein Link zu dem zu Grunde liegenden Eintrag hinterlegt.
+
+| Variable    | Beispiel                                                                              |
+| ----------- | ------------------------------------------------------------------------------------- |
+| Schweregrad | Info, Handlung erforderlich                                                           |
+| App         | Name der App z.B. Ideenmanagement                                                     |
+| Zweck       | Was soll durch die Benachrichtigung erreicht werden z.B. Idee muss freigegeben werden |
+
+### Beispiel Aufbau der E-Mail Benachrichtigung
+
+<hr />
+
+**Betreff:** [Handlung erforderlich] > Ideenmanagement > Freigabe angefragt > #{ID} {Titel der Idee}
+
+Inhalt
+
+#### \#{ID} {Titel der Idee}
+
+<table>
+  <thead></thead>
+  <tbody>
+    <tr>
+      <td>Schweregrad</td>
+      <td>Info</td>
+    </tr>
+    <tr>
+      <td>App</td>
+      <td>Ideenmanagement</td>
+    </tr>
+    <tr>
+      <td>Zweck der Benachrichtigung</td>
+      <td>Idee eingangen</td>
+    </tr>
+  </tbody>
+</table>
+
+if action required
+
+<button className="button button--primary" disabled>
+  Primary CTA
+</button>
+
+if info
+
+<button className="button button--link" disabled>
+  Primary CTA
+</button>
+<br />
+
+**Warum bekommen Sie diese Nachricht?:** {Begründung}
+
+Weiterführende Beschreibung...
+
+<hr />

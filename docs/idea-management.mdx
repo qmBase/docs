@@ -161,17 +161,22 @@ Neben dem Zugriff auf Ideen wird das Vergeben von Schlagworten und das Verwalten
 
 ## Wann werden Benachrichtigungen verschickt, wenn Ideen bearbeitet werden
 
-| Ereignis                    | Empfänger                                                  |
-| --------------------------- | ---------------------------------------------------------- |
+| Ereignis                    | Empfänger                                                  | Besonderheit                                               |
+| --------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
 | Idee wird abgeschickt       | Ideenkoordinator                                           |
 | Idee zurück zum Absender    | Ersteller der Idee                                         |
-| Idee angenommen             | Ersteller der Idee und Ideenmanager                        |
+| Idee angenommen             | Ersteller der Idee <br/> Ideenmanager                      |
+| Wechsel Ideenkoordinator    | Benachichtigung an neuen Koordinator                       | Idee muss bereits abgeschickt sein                         |
+| Wechsel Ideemanager         | Benachichtigung neuer Ideenmanager                         | Idee muss bereis angenommen sein                           |
 | Gutachtenphase gestartet    | Ersteller der Idee                                         |
-| Gutachter hinzugefügt       | Gutachter                                                  |
+| Gutachter hinzugefügt       | Gutachter                                                  | Checkbox beim Verknüpfungsdialog darf nicht abgewählt sein |
 | Gutachten beantwortet       | Ideenmanager                                               |
+| Gutachten veröffentlicht    | Ersteller der Idee                                         |
 | Gutachtenphase geschlossen  | Gutachter, die nicht geantwortet haben; Ersteller der Idee |
 | Änderung Bearbeitungsstatus | Ersteller der Idee                                         |
 | Idee abgeschlossen          | Ersteller der Idee                                         |
+
+Allgemeine Benachrichtigungen, die auch in anderen Apps verschickt werden finden Sie im Abschnitt über [Benachrichtigungen](benachrichtigungen)
 
 ## Wie gut funktioniert mein Ideenmanagement?
 
