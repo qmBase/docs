@@ -21,4 +21,4 @@ No, since they have disengaged from being employees, they will not get informed 
 
 ### What about the employees who left the company, do they still receive notifications about the changes on the previous articles?
 
-The answer to the question depends on whether the employee has already reviewed the article revision in a particular amount of time or not. If the employee reviewed the article revision then his data will be preserved as a historical log of events done on articles. However, if he has never reviewed the article revision then he will be detached from the reviewer list.
+The answer to the question depends on whether the employee has already reviewed the article revision in a particular amount of time or not. If the employee reviewed the article revision then his data will be preserved as a historical log of events done on articles. However, if he has never reviewed the article revision then he will be detached from the reviewer list once the revision is published.
