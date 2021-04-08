@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[72],{144:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"kunden-lieferantenbewertung","name":"kunden- / lieferantenbewertung","count":1,"permalink":"/blog/tags/kunden-lieferantenbewertung"}')}}]);
