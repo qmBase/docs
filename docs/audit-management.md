@@ -65,3 +65,7 @@ Möchten Sie Parameter ändern, fahren Sie mit dem Cursor über das betreffende 
 ### Wo finde ich Auswertungen meiner Audits?
 
 Die Auswertungen der Audits, sowie anderer Apps, finden Sie in der App Dashboard & Reportings. Das FAQ zu der App Dashboard & Reportings finden Sie [hier](dashboard.md).
+
+### Gemeinsame Funktionalitäten
+
+- [Rollen & Berechtigungen](/docs/faqs/56)

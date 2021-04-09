@@ -1,6 +1,0 @@
----
-id: faq-59
-slug: /faqs/59
-title: Was bedeutet die Rolle Einstellungen
----
-Durch den Zugriff auf die Einstellungen können Nutzer alle zu dem Modul gehörigen Einstellungen verändern.
