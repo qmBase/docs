@@ -1,0 +1,5 @@
+{
+  "default": true,
+  "MD033": { "allowed_elements": ["code"] },
+  "MD013": false
+}

@@ -36,14 +36,21 @@ Danach werden Sie auf die Detailansicht zu diesem Audit weitergeleitet und könn
 
 | Parameter                         | Typ              | Beschreibung                                                                                                           |
 | --------------------------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| <code>Maßnahmen</code>            | Text             | Fügen Sie Maßnahmen hinzu, die im Zusammenhang mit diesem Audit durchzuführen sind (Verbesserungen)                    |
-| <code>Ziele</code>                | Text             | Fügen Sie Ziele hinzu, die durch dieses Audit erreicht werden sollen                                                   |
 | <code>Zeit und Ort</code>         | Datum/Text       | Informationen über den Termin des Audits und den Ort der Durchführung                                                  |
 | <code>Anhänge</code>              | Datei (optional) | Fügen Sie Dateien hinzu, die für dieses Audit notwendig sind                                                           |
 | <code>Verantwortlicher</code>     | Name             | Wer ist für dieses Audit verantwortlich?                                                                               |
 | <code>Customfieds</code>          | Text             | Mit Customfields können Sie zusätzliche Informationen wie das Auditergebnis und dokumentierte Informationen hinzufügen |
 | <code>Schlagworte</code>          | Text             | Schlagworte bieten Ihnen die Möglichkeit Audits einem oder mehreren Themenfeldern zuzuordnen oder zu priorisieren      |
 | <code>Offen/In Bearbeitung</code> | Button           | Setzen Sie den Bearbeitungsstand des Audits nach Ihren Präferenzen                                                     |
+
+### Verknüpfungsmöglichkeiten für Audits
+
+| Objekt                  | Beschreibugn und Zweck                                                                              |
+| ----------------------- | --------------------------------------------------------------------------------------------------- |
+| <code>Maßnahmen</code>  | Fügen Sie Maßnahmen hinzu, die im Zusammenhang mit diesem Audit durchzuführen sind (Verbesserungen) |
+| <code>Ziele</code>      | Fügen Sie Ziele hinzu, die durch dieses Audit erreicht werden sollen                                |
+| <code>Teilnehmer</code> | Fügen Sie Teilnehmer zu einem Audit hinzu und halten Sie die Anwesenheit nach                       |
+| <code>Formulare</code>  | Formulare lassen sich verknüpfen, um hier z.B. Audit Fragebögen oder ähnliches zu hinterlegen       |
 
 ### Auswirkungen und Aktionen im Hintergrund (TODO)
 
