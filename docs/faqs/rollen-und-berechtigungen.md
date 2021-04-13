@@ -46,7 +46,7 @@ Administratoren haben Zugriff auf alle Funktionen und unterliegen keinen Einschr
 Wenn diese Zugriffssteuerungen auf App Ebene nicht ausreichen, haben Sie zusätzlich die Möglichkeit eine Zugriffssteuerung auf der Ebene der einzelnen Einträge vorzunehmen.
 
 :::info
-Diese Funtion befindet sich noch inter Vorschau und ist nicht vollständig umgesetzt. Weitere Punkte, die noch umgesetzt werden müssen, finden Sie am Ende dieses Abschnitts.
+Diese Funtion befindet sich noch in der Vorschau und ist nicht vollständig umgesetzt. Weitere Punkte, die noch umgesetzt werden müssen, finden Sie am Ende dieses Abschnitts.
 :::
 
 Diese Funktion ist in folgenden Apps von qmBase verfügbar:
