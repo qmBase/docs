@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[411],{481:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"aufageben-qualifikationen","name":"aufageben & qualifikationen","count":1,"permalink":"/blog/tags/aufageben-qualifikationen"}')}}]);
