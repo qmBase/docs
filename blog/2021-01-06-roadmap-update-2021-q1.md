@@ -11,20 +11,27 @@ Bisher haben wir unsere Roadmap halbjährlich aktualisiert. Hier werden wir jetz
 
 <!--truncate-->
 
+_Update 21.04.2021_
+
+Das erste Quartal 2021 ist inzwischen deutlich vorbei. Alle Punkte unserer Roadmap haben wir leider nicht abarbeiten können. Die offenen Punkte finden sich zum überwiegenden Teil auf der Roadmap für das nächste Quartal wieder.
+
+- Sicherheit & Zugriff: Wir in ersten Bereichen unserer Software detailliertere Zugriffsberechtigungen implementiert und testen diese gerade in ersten Kundenprojekten bevor ein größerer Rollout stattfindet. Weitere Informationen finden Sie [hier](/docs/faqs/56/#feingliedrigerer-zugriff).
+- Audit Trail: Die grundlegenden Arbeiten an unserem Audit Trail sind abgeschlosssen. D.h. dass Funktionalität des Audit Trails fertigestellt ist. Dies bedeutet aber nicht zwingendermaßen, dass jedes Event innerhalb der Software mit einem Audit Trail Eintrag verbunden ist. Hier wollen wir zukünftig eine bessere Übersicht bieten, welche Ereignisse wir protokollieren.
+
 _Update 22.01.2021_
 Die Zusammenführung der Apps Schulungen und Aufgaben & Qualificationen in der App Talentmanager werden wir im 2. Quartal aufgreifen. Im Ausgleich dafür ist die Verbesserung des Zielmanagements in die Roadmap aufgenommen worden.
 
 Folgende Themen werden wir in diesem Quartal aufgreifen.
 
-- **Verbesserung der Performance** 🔧
+- **Verbesserung der Performance** ✔️
 - **Zielmanagement**
 - **Bessere Dokumentation** ✔️
-- **Sicherheit & Zugriff**
+- **Sicherheit & Zugriff** 🔧
 - **Dashboards & Reportings**
 - **Kalenderintegration**
-- **Audit Trail** 🔧
+- **Audit Trail** ✔️
 
-## Verbesserung der Performance 🔧
+## Verbesserung der Performance
 
 **Update 19.01.2021** Aktuelle Antwortzeiten hinzugefügt.
 
