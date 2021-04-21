@@ -13,7 +13,7 @@ Mit jedem vierteljährlichen Blog-Update stellen wir Ihnen eine Liste der Verbes
 
 ## E-Mail Benachrichtigungen und Notifications
 
-Unsere E-Mail Benachrichtigungen sind manchmal zu kompliziert und nicht auf den ersten Blick verständlich. Das Ziel muss es sein, dass man mit einem Blick die Frage beantworten kann, was will qmBase mir dieser E-Mail sagen. Daher werden wir sowohl Inhalt als auch Formatierung einiger Benachritigungen anpassen, um dieses Ziel schneller zu erreichen.
+Unsere E-Mail Benachrichtigungen sind manchmal zu kompliziert und nicht auf den ersten Blick verständlich. Das Ziel muss es sein, dass man mit einem Blick die Frage beantworten kann, was will qmBase mir dieser E-Mail sagen. Daher werden wir sowohl Inhalt als auch Formatierung einiger Benachrichtigungen anpassen, um dieses Ziel schneller zu erreichen.
 
 ## Zielmanagement
 
