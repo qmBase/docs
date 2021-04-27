@@ -25,18 +25,18 @@ Sie können sich einen Workflow als ein einfaches regelbasiertes Programm innerh
 Ein Workflow besteht aus folgenden Eigenschaften:
 
 - Auslöser
-- Bediungen
+- Bedingungen
 - Auszuführende Aktion
 
   Beispiele für Workflows können z.B. sein:
 
-- Schicke eine Mail an die Qualitätssicherungsabteilunge, wenn eine neue Reklamation erfasst wurde
+- Schicke eine Mail an die Qualitätssicherungsabteilung, wenn eine neue Reklamation erfasst wurde
 - Blockiere das Ändern des Status einer Reklamation, wenn ein festgelegtes Custom Field nicht ausgefüllt wurde.
 
 ## Templates & Vorlagen
 
 Die Angst vor einem weißen Blatt Papier hält viele Menschen vom Schreiben ab. Das Problem beobachten wir auch in qmBase. Das Problem tritt z.B. auf bei der Erfassung einer Reklamation. Regelmäßig erhalten wir Anfragen nach dem Muster: "Was soll ich denn jetzt hier alles aufschreiben?"
-Um dieses Problem zu lösen führen wir eine Template Funktion ein. Was damit möglich sein soll, wollen wir im folgenden wieder am Beispiel der Reklamationen erklären.
+Um dieses Problem zu lösen, führen wir eine Template-Funktion ein. Was damit möglich sein soll, wollen wir im folgenden wieder am Beispiel der Reklamationen erklären.
 
 1. Sie können beliebig viele Templates festlegen, um verschiedene Anwendungsfälle abzubilden:
    - Template für interne Reklamationen
@@ -47,7 +47,7 @@ Um dieses Problem zu lösen führen wir eine Template Funktion ein. Was damit m�
 ## Schlagworte
 
 Bessere Verwaltung der Schlagworte. Zukünftig sollen Schlagworte fest vordefiniert werden können, um Wildwuchs zu verhindern. Zusätzlich sollen Schlagworte einzelnen Apps als Pflichtauswahl zugeordnet werden können.
-Ein Anwendungsfall hierfür ist beispielsweise, dass festgelegt wird, dass ein Schlagwort aus dem Pool "Prio1", "Prio2", "Prio3" zwingend mit einer Maßnahmen verbunden werden soll.
+Ein Anwendungsfall hierfür ist beispielsweise, dass festgelegt wird, dass ein Schlagwort aus dem Pool "Prio1", "Prio2", "Prio3" zwingend mit einer Maßnahme verbunden werden soll.
 
 ## Talentmanager
 
