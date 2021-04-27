@@ -6,17 +6,29 @@ slug: /general
 
 Hier finden Sie allgemeine Informationen, die für alle Apps gültig sind.
 
-# Suchen von Daten
+## Informationen finden
 
-Informationen & Tipps, die Ihnen dabei helfen schnell die richtigen Daten zu finden.
+Das Auffinden Ihrer Daten war noch nie so einfach. Alles beginnt, wenn Sie einen Filter hinzufügen. Sie können den Link in der Adressleiste verwenden, um die Ergebnisse mit jedem in Ihrem Team zu teilen. Tabellen unterstützen Sie mit den folgenden Funktionen.
 
-## Wie funktionieren unsere Filter
+### Tabellen
 
-TODO Beispiel für filter
+Tabellen und Filter sind alle nach einem einheitlichen Schema aufgebaut und beinhalten ähnliche Funktionen.
 
-## Suchen von Personen
+![Example Table Gif with filters and columns toggle](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/basicTableFunctions.gif)
 
-### Suchen von Personen in bestimmter Rolle z.B. in Dropdowns
+- **Standardeinstellungen**: Wir verwenden sinnvolle Voreinstellungen, um nur relevante Daten anzuzeigen. Zum Beispiel filtern wir Daten heraus, die bereits als erledigt markiert wurden.
+- **Suchfeld**: Verwenden Sie das Suchfeld in der oberen rechten Ecke, um nach Daten zu suchen, die innerhalb der Tabelle sichtbar sind.
+- **Daten filtern**: Verwenden Sie die Filter-Schaltfläche, um die in der Tabelle angezeigten Ergebnisse einzugrenzen.
+- **Mehr Informationen anzeigen**: Verwenden Sie das Kebab-Menü, um das Aussehen der Tabelle anzupassen. Zeigen Sie mehr Spalten an oder exportieren Sie Daten, wenn diese Funktion verfügbar ist.
+
+#### Filter
+
+Mit Filtern lassen sich große Datenmengen einfach auf die Informationen herunterbrechen, die Sie suchen. Alle Filter, die Sie aktivieren werden bei uns über UND Verknüpfungen miteinander verbunden. Wenn Sie also z.B. Maßnahmen nach dem Status "Offen" und der Verantwortlichen Person "Max Mustermann" filtern, werden Ihnen allle Maßnahmen angezeigt die **beide** Bedingungen erfüllen.
+Sie können beliebig viele Filter kombinieren. Um die Filter nicht jedes Mal neu zu erstellen, können Sie die Filter in vielen Bereichen auch direkt als [Smart View](/docs/faqs/smart-views) abspeichern.
+
+### Suchen von Personen
+
+#### Suchen von Personen in bestimmter Rolle z.B. in Dropdowns
 
 Sollen Personen in einer bestimmten Rolle gesucht werden wird im Hintergrund eine folgende Logik befolgt.
 Wenn z.B. eine Person in der Rolle des Ideenkoordinators gesucht wird, wird folgendes Schema durchlaufen:
@@ -25,7 +37,7 @@ Wenn z.B. eine Person in der Rolle des Ideenkoordinators gesucht wird, wird folg
 2. Wenn keine Personen gefunden wurden, zeige alle Admins in meiner Gruppe
 3. Wenn keine Admins in meiner Gruppe gefunden werden, zeige alle Admins
 
-#### Beispiel
+##### Beispiel
 
 Bei der folgende Konstellation aus Nutzern und Gruppen ergibt sich
 
