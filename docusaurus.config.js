@@ -28,7 +28,7 @@ module.exports = {
         },
         { to: "blog", label: "Changelog", position: "left" },
         {
-          to: "blog/2021/01/06/roadmap-update-2021-q1",
+          to: "blog/2021/04/01/roadmap-update-2021-q2",
           label: "Roadmap",
           position: "left",
         },
