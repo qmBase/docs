@@ -3,8 +3,7 @@ title: Roadmap Update 2021 Q2
 author: Philipp Pähler
 author_image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
 image: https://www.qmbase.com/wp-content/uploads/2020/01/Bild1-1200x589.jpg
-tags: [roadmap]
-draft: true
+tags: [Roadmap]
 ---
 
 Mit jedem vierteljährlichen Blog-Update stellen wir Ihnen eine Liste der Verbesserungen vor, die wir in qmBase vornehmen. Unser Ziel ist es eine transparente Entwicklung darzustellen, so dass Sie wissen, auf welche Änderungen Sie sich einstellen können.
@@ -39,7 +38,7 @@ Ein Workflow besteht aus folgenden Eigenschaften:
 Die Angst vor einem weißen Blatt Papier hält viele Menschen vom Schreiben ab. Das Problem beobachten wir auch in qmBase. Das Problem tritt z.B. auf bei der Erfassung einer Reklamation. Regelmäßig erhalten wir Anfragen nach dem Muster: "Was soll ich denn jetzt hier alles aufschreiben?"
 Um dieses Problem zu lösen führen wir eine Template Funktion ein. Was damit möglich sein soll, wollen wir im folgenden wieder am Beispiel der Reklamationen erklären.
 
-1. Sie können beliebig viele Templates festlegen, um verschiede Anwendungsfälle abzubilden:
+1. Sie können beliebig viele Templates festlegen, um verschiedene Anwendungsfälle abzubilden:
    - Template für interne Reklamationen
    - Template für externe Reklamationen
 2. Wenn der Nutzer jetzt eine neue Reklamation erfassen möchte, erscheint zu Beginn ein Auswahldialog, wo das Template ausgewählt werden kann.
