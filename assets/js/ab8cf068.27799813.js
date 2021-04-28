@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[355],{427:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"dashboards-reportings","name":"dashboards & reportings","count":3,"permalink":"/blog/tags/dashboards-reportings"}')}}]);
