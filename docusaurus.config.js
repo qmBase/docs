@@ -12,7 +12,7 @@ module.exports = {
   projectName: "docs", // Usually your repo name.
   i18n: {
     defaultLocale: "de",
-    locales: ["en", "de"],
+    locales: ["de"],
   },
   themeConfig: {
     navbar: {
