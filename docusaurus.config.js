@@ -10,6 +10,10 @@ module.exports = {
     "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png",
   organizationName: "qmBase", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
+  i18n: {
+    defaultLocale: "de",
+    locales: ["en", "de"],
+  },
   themeConfig: {
     navbar: {
       title: "",

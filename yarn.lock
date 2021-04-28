@@ -1566,7 +1566,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/core@npm:2.0.0-alpha.ffe8b6106, @docusaurus/core@npm:^2.0.0-alpha.73":
+"@docusaurus/core@npm:2.0.0-alpha.ffe8b6106, @docusaurus/core@npm:^2.0.0-alpha.74":
   version: 2.0.0-alpha.ffe8b6106
   resolution: "@docusaurus/core@npm:2.0.0-alpha.ffe8b6106"
   dependencies:
@@ -1697,7 +1697,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/module-type-aliases@npm:^2.0.0-alpha.73":
+"@docusaurus/module-type-aliases@npm:^2.0.0-alpha.74":
   version: 2.0.0-alpha.ffe8b6106
   resolution: "@docusaurus/module-type-aliases@npm:2.0.0-alpha.ffe8b6106"
   checksum: e1cb71f0f8833b4bc28a974af56dfab1e39c7a23a6a9a38ccf7294caad83549bcf31c62183b10bd042984ab82591b286b0024222ccad9455daedb53b89eae217
@@ -1838,7 +1838,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/preset-classic@npm:^2.0.0-alpha.73":
+"@docusaurus/preset-classic@npm:^2.0.0-alpha.74":
   version: 2.0.0-alpha.ffe8b6106
   resolution: "@docusaurus/preset-classic@npm:2.0.0-alpha.ffe8b6106"
   dependencies:
@@ -2366,16 +2366,16 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 15.0.0
-  resolution: "@types/node@npm:15.0.0"
-  checksum: 9d3ced65feb73444056941cc7bcbbc4885b60fb22ba3c38e1ad26c96909dd914e1d87fa4c22a5dbada8588606c56116bbd6d42569e87513866919b801e314d2e
+  version: 15.0.1
+  resolution: "@types/node@npm:15.0.1"
+  checksum: 4e4fb69394efb224272ad7c6b6dc16a381b97e46a8f3c21d33fec51ef13a4d635f571b446d127eae333ea6a763f304b787f4b3f73e24e1f3b05a21b481900dfb
   languageName: node
   linkType: hard
 
 "@types/node@npm:^14.14.28":
-  version: 14.14.42
-  resolution: "@types/node@npm:14.14.42"
-  checksum: a9803d904badfd32fd2efe6efc40e5838a44dc0cb8b415762f890308581167a74f5d8f3e4074720d81490aad6a86ad130661cd9ecb79591aad9b5ee41fca7ad2
+  version: 14.14.43
+  resolution: "@types/node@npm:14.14.43"
+  checksum: b7a9e6df7c2a6f90e783bfe6ef358cc2c3ff4e1dfcea56b83349cd3feefd02a9b6fa54b443983694b4398a06257d871c947abeae03bd0d39fd71981161d61765
   languageName: node
   linkType: hard
 
@@ -3846,9 +3846,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30000981, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001125, caniuse-lite@npm:^1.0.30001196, caniuse-lite@npm:^1.0.30001214":
-  version: 1.0.30001218
-  resolution: "caniuse-lite@npm:1.0.30001218"
-  checksum: ba15b4757ce19422ec444da2a4783e809286666fffabeb593f4d66840849028365a5c63475383332358aff20ef38693db65685710f5a138922bcf9f6bff9c6d7
+  version: 1.0.30001219
+  resolution: "caniuse-lite@npm:1.0.30001219"
+  checksum: 0a45591af1ffdd86b5c67534adceeb792b088418aa32912249a5609f32d2ded35254d8b300775b43b4d9d9b81d2d40f1e8e1c4aeebe6c69ed549bc52b41f2b30
   languageName: node
   linkType: hard
 
@@ -5325,9 +5325,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.3.564, electron-to-chromium@npm:^1.3.719":
-  version: 1.3.722
-  resolution: "electron-to-chromium@npm:1.3.722"
-  checksum: cd44a7bb5e173adb4d0042b91b9094f20709a8c2e64bdfb29c6aa5651d79a999fd8b6204dc9d381f9852abdcb736f377b581b75225c59817392cc4f9d9f637f7
+  version: 1.3.723
+  resolution: "electron-to-chromium@npm:1.3.723"
+  checksum: 81e835b5185921ce37998087410e89cc9d4dcf99b600b2b555233c4ec6d689d11d1aaa298602d78de0c40d3c6c335a879dc44ce585063fb4d90bd84111dd89cb
   languageName: node
   linkType: hard
 
@@ -9712,9 +9712,9 @@ fsevents@~2.3.1:
   version: 0.0.0-use.local
   resolution: "pbd-docs@workspace:."
   dependencies:
-    "@docusaurus/core": ^2.0.0-alpha.73
-    "@docusaurus/module-type-aliases": ^2.0.0-alpha.73
-    "@docusaurus/preset-classic": ^2.0.0-alpha.73
+    "@docusaurus/core": ^2.0.0-alpha.74
+    "@docusaurus/module-type-aliases": ^2.0.0-alpha.74
+    "@docusaurus/preset-classic": ^2.0.0-alpha.74
     "@mdx-js/react": ^1.6.22
     "@tsconfig/docusaurus": ^1.0.2
     "@types/react": ^17.0.4

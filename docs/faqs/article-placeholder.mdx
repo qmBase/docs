@@ -1,0 +1,64 @@
+---
+id: article-placeholder
+title: Platzhalter in Dokumenten
+---
+
+## Platzhalter
+
+:::info Preview Feature nicht überall verfügbar
+:::
+
+:::note Bitte exakte Schreibweise (Groß-/Kleinschreibung) beachten
+:::
+
+Einzelne Dokumente können als Vorlagen erstellt werden. Diese Vorlagen können genutzt werden, um automatische Reports zu erstellen.
+Um das Ausfüllen mit Daten aus Ihrer Software zu ermöglichen, muss das Schlagwort <code>`_dynamicContent`</code> verknüpft werden. Platzhalter werden gefunden, in dem die Variable in <code>{{variable}}</code> in doppelt geschweiften Klammern verwendet wird.
+
+Das Ersetzen von Platzhaltern nutzt die [Handlebars](https://handlebarsjs.com/) Templating Sprache. Somit können auch komplexe Aufgaben, wie das rendern von Listen umgesetzt werden.
+
+Folgende Platzhalter können verwendet und ersetzt werden:
+
+| Platzhalter                          | Ursprung                                                |
+| ------------------------------------ | ------------------------------------------------------- |
+| organisation                         | Firma aus Admin Startseite                              |
+| {{organisation.title}}               | Name der Firma                                          |
+| {{organisation.addresses.[0].line1}} | Erste Zeile der Anschrift der Firma                     |
+| managingDirector                     | Geschäftsführer aus Admin Startseite Typ: Person        |
+| {{managingDirector.fullName}}        | Vor- und Nachname GF                                    |
+| {{managingDirector.email}}           | E-Mail GF                                               |
+| {{today}}                            | Aktuelles Datum                                         |
+| dataProtectionOfficer                | Datenschutzbeauftragter aus Admin Startseite Typ:Person |
+| {{dataProtectionOfficer.fullName}}   | Vor- und Nachname DSB                                   |
+| {{dataProtectionOfficer.email}}      | E-Mail DSB                                              |
+
+Organisationen und Personen verfügen zusätzlich noch über Listen von verknüpften Adressen. Im einfachsten Fall ist es einfach die primäre Adresse.
+Um die erste Adresse einer Liste (Array) von verknüpften Adressen zu erhalten wird diese Notation benötigt **organisation.addresses.[0].[addressproperty]**
+
+#### Personen Eigenschaften
+
+```jsx
+interface Person {
+  firstName: string;
+  lastName: string;
+  fullName: string;
+  telephones: Telephone[];
+  addresses: Address[];
+}
+```
+
+```jsx
+interface Telephone {
+  number: string;
+}
+```
+
+#### Adress Eigenschaften
+
+| Eigenschaft | Beispiel         |
+| ----------- | ---------------- |
+| line1       | Feldstraße 61-63 |
+| line2       | Postfach xy      |
+| line3       | Hinterhaus       |
+| zipCode     | 44141            |
+| city        | Dortmund         |
+| country     | Deutschland      |
