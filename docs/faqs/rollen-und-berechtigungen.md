@@ -51,14 +51,14 @@ Diese Funtion befindet sich noch in der Vorschau und ist nicht vollständig umge
 
 Diese Funktion ist in folgenden Apps von qmBase verfügbar:
 
-| App                              | Status |
-| -------------------------------- | ------ |
-| Audits                           | 🔧     |
-| Schulungen                       | 🔧     |
-| Formulare                        | 🔧     |
-| Dokumentenmanagement, WIKI, Blog | ⏳     |
+| App                              | Status | Weitere Details                                          |
+| -------------------------------- | ------ | -------------------------------------------------------- |
+| Audits                           | 🔧     | Sichtbarkeit in Tabellen und Detailansicht eingeschränkt |
+| Schulungen                       | 🔧     | Sichtbarkeit in Detailsansicht eingeschränkt             |
+| Formulare                        | 🔧     | Sichtbarkeit in Detailsansicht eingeschränkt             |
+| Dokumentenmanagement, WIKI, Blog | ⏳     | In Arbeit                                                |
 
-Die Steuerung des Zugriffs kann durch den folgende Personen erfolgen:
+Die Steuerung des Zugriffs kann durch die folgenden Personen erfolgen:
 
 - Verantwortlicher
 - Owner
@@ -82,11 +82,11 @@ Bitte beachten Sie hierbei, dass es sich nur um den Zugriff auf einen einzelnen 
 
 Wenn Sie den Zugriff für einzelne Nutzer festgelegt haben, können Sie zusätzlich noch festlegen, welcher Art dieser Zugriff sein soll. Wir unterscheiden derzeit:
 
-##### Lesend
+##### Lesen
 
-Nutzer kann Eintrag aufrufen
+Nutzer kann Eintrag aufrufen und kopieren. Zusätzlich kann der Nutzer Kommentare und Dateien hinzufügen.
 
-##### Schreibend
+##### Schreiben
 
 Nutzer kann alles aus lesend und Eintrag editieren
 
