@@ -266,9 +266,7 @@ Sollte das Ausfüllen des Formulars an bestimmte Bedingungen genknüpft sein, z.
 ##### generate certificates for training attendees
 
 Training participants can have the possibilty to download certificates that are related to the training they participate. The certificate can be created as an article in document management module. To achieve the dynamic representation of the certificates a placeholders can be added to the content of the article. The place holder can be added between the curly braces
-{{ }} as follows:
-
-<code>{{attendee.firstName}} {{attendee.lastName}} hat an der {{training.title}}</code>
+{{ }}
 
 ##### Link trainings with certificates
 
