@@ -262,3 +262,23 @@ Sollte das Ausfüllen des Formulars an bestimmte Bedingungen genknüpft sein, z.
 - Maßnahmen
 - Qualifikationen
 - Teilnehmer
+
+##### generate certificates for training attendees
+
+Training participants can have the possibilty to download certificates that are related to the training they participate. The certificate can be created as an article in document management module. To achieve the dynamic representation of the certificates a placeholders can be added to the content of the article. The place holder can be added between the curly braces
+{{ }} as follows:
+
+<code>{{attendee.firstName}} {{attendee.lastName}} hat an der {{training.title}}</code>
+
+##### Link trainings with certificates
+
+Click on the "Add certificate" button and select the article you want. As soon as you have linked the article, it will be shown to every participant to print out.
+
+##### Restrict the ability to print out linked certificates
+
+If you want the ability to print certificates to be tied to certain conditions, you can specify this after the certificate has been linked. You can select the certificate(s) you want to connect and then click on set connection type. A new popup modal will be displayed and you can determine who can download the certificate and in which status the printing can be available.
+As soon as the status of the training is not the one you have setted , the button for filling out the form will be deactivated.
+
+##### Printing out the connected certificates for the training
+
+By clicking on the print button, it navigates to a page that have a list of the attendees related to the training, you should select whoever could generate his certificate. After selection and by clicking on the print button the certificates will be generated in page breaks after each other and the print window will be displayed.
