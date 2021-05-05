@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[402],{474:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"zielmanagement","name":"zielmanagement","count":9,"permalink":"/blog/tags/zielmanagement"}')}}]);
