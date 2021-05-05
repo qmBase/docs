@@ -23,6 +23,7 @@ module.exports = {
       "projects-and-tasks",
       "claim-management",
       "opportunity-management",
+      "products",
       "talent-manager",
       "wiki",
       "goal-management",
