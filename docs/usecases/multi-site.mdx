@@ -1,0 +1,39 @@
+---
+id: multi-site
+title: Mehrere Standorte - Ideenmanagement
+
+slug: /usescases/multi-site
+---
+
+import Mermaid from "@theme/mermaid";
+
+qmBase lässt sich auch in großen Organisationen mit mehreren Standorten nutzen. Wie Sie hier optimale Ergebnisse erzielen und was am besten konfiguriert wird, zeigen wir Ihnen hier am Beispiel des Ideenmanagements.
+
+1. Für die Standorte legen wir unter Admin > Berechtigungen > Gruppen eine Gruppe pro Standort an.
+2. Die vorhanden Nutzer werden den Gruppen zugeordnet.
+3. Für unserer Beispiel wählen wir die Konfiguration wie in der folgenden Tabelle sichtbar.
+4. Die erstellten Gruppen sollten am besten als <code>Selbst einchecken</code> markiert werden. Damit werden neue Nutzer dazu aufgefordert sich einer Gruppe zuzuordnen und sind sofort richtig eingeordnet.
+
+| Nutzer  | Rolle(n)         | Gruppe Dortmund | Gruppe Hawaii | Gruppe New York |
+| ------- | ---------------- | --------------- | ------------- | --------------- |
+| Müller  | Admin            | x               |               |                 |
+| Meier   | Ideenkoordinator |                 | x             |                 |
+| Schmidt | Nutzer           | x               |               |                 |
+| Schulze | Nutzer           |                 | x             | x               |
+
+#### Zur Erinnerung: Prozess und Ablauf Ideenmanagement
+
+<Mermaid
+  chart={`graph TD
+    A[Idee erstellen oder überarbeiten] --> B[Ideenkoordinator auswählen];
+    B --> C[Idee abschicken];
+    C --> D{Annahme durch Koordinator?};
+    D -- Ja --> E[Bearbeitung durch Manager / Owner];
+    D -- Nein --> A;
+    E --> F{Optionale Gutachtenphase};
+    F -- Gutachten angefordert --> F2[Warten auf Reaktion der Gutachter];
+    F2 --> G;
+    F -- Keine Gutachten --> G[Abschluss der Gutachtenphase];
+    G --> H[Umsetzungsphase];
+    H --> I[Abschluss der Idee];`}
+/>

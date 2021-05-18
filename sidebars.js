@@ -8,7 +8,12 @@ module.exports = {
       "feedback",
       "benachrichtigungen",
     ],
-    Account: ["account-register", "account-login", "profile"],
+    Account: [
+      "account-register",
+      "account-login",
+      "profile",
+      "account-externalLogin",
+    ],
     Apps: [
       "admin",
       "absence-planner",
@@ -117,6 +122,7 @@ module.exports = {
       "faqs/faq-117",
       "faqs/faq-125",
     ],
+    "Best Practices": ["usecases/multi-site"],
     "Technical Documentation": [
       "technical/wie-wird-qmbase-entwickelt",
       "technical/installation",

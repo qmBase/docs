@@ -54,9 +54,12 @@ Diese Funktion ist in folgenden Apps von qmBase verfügbar:
 | App                              | Status | Weitere Details                                          |
 | -------------------------------- | ------ | -------------------------------------------------------- |
 | Audits                           | 🔧     | Sichtbarkeit in Tabellen und Detailansicht eingeschränkt |
-| Schulungen                       | 🔧     | Sichtbarkeit in Detailsansicht eingeschränkt             |
+| Schulungen                       | 🔧     | Sichtbarkeit in Tabellen Detailsansicht eingeschränkt    |
 | Formulare                        | 🔧     | Sichtbarkeit in Detailsansicht eingeschränkt             |
 | Dokumentenmanagement, WIKI, Blog | ⏳     | In Arbeit                                                |
+| Reklamationen                    | 🕖     | Noch nicht angefangen                                    |
+| Maßnahmen                        | 🕖     | Noch nicht angefangen                                    |
+| Ziele                            | 🕖     | Noch nicht angefangen                                    |
 
 Die Steuerung des Zugriffs kann durch die folgenden Personen erfolgen:
 
