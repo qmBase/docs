@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[55579],{38858:function(n){"use strict";n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"ankundigung","name":"ank\xfcndigung","count":2,"permalink":"/blog/tags/ankundigung"}')}}]);

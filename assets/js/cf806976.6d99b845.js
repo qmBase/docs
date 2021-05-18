@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[76408],{56465:function(l){"use strict";l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"allgmein","name":"allgmein","count":3,"permalink":"/blog/tags/allgmein"}')}}]);

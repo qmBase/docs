@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[10125],{3257:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"technische-veranderungen","name":"technische ver\xe4nderungen","count":1,"permalink":"/blog/tags/technische-veranderungen"}')}}]);

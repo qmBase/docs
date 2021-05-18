@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[29702],{7875:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"veroffentlichung-release-notes","name":"ver\xf6ffentlichung release notes","count":1,"permalink":"/blog/tags/veroffentlichung-release-notes"}')}}]);

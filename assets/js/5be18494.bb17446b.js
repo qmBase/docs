@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[38183],{82258:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"massnahmen","name":"ma\xdfnahmen","count":1,"permalink":"/blog/tags/massnahmen"}')}}]);

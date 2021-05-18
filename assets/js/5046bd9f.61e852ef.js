@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[89274],{95291:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"dokumentenemanagement-und-wiki","name":"dokumentenemanagement und wiki","count":1,"permalink":"/blog/tags/dokumentenemanagement-und-wiki"}')}}]);
