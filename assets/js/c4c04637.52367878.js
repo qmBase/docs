@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[46719],{94021:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"zielmanagement","name":"zielmanagement","count":10,"permalink":"/blog/tags/zielmanagement"}')}}]);

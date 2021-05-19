@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[20697],{26327:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"formulare","name":"formulare","count":11,"permalink":"/blog/tags/formulare"}')}}]);

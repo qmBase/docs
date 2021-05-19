@@ -4,10 +4,17 @@
         <title>qmBase - Docs Blog</title>
         <link>https://help.qmbase.com/blog</link>
         <description>Stay up to date with the latest qmBase changes</description>
-        <lastBuildDate>Tue, 27 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 May 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2021 qmBase GmbH</copyright>
+        <item>
+            <title><![CDATA[Version 1.1.150]]></title>
+            <link>https://help.qmbase.com/blog/version-1_1_150</link>
+            <guid>version-1_1_150</guid>
+            <pubDate>Wed, 19 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dieser Release beinhaltet einige Fehlerbehebungen und Detailverbesserungen.]]></description>
+        </item>
         <item>
             <title><![CDATA[Version 1.1.149]]></title>
             <link>https://help.qmbase.com/blog/version-1_1_149</link>
