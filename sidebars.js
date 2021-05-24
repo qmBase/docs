@@ -9,10 +9,10 @@ module.exports = {
       "benachrichtigungen",
     ],
     Account: [
-      "account-register",
-      "account-login",
-      "profile",
-      "account-externalLogin",
+      "account/account-register",
+      "account/account-login",
+      "account/profile",
+      "account/account-externalLogin",
     ],
     Apps: [
       "admin",

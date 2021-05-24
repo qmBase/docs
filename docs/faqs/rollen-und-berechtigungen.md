@@ -98,3 +98,5 @@ Nutzer kann alles aus lesend und Eintrag editieren
 - Filter für private Einträge in Listen
 - Zugriffe basierend auf Gruppen
 - Zugriffe basierend auf individuellen Rollen
+- Sichtbarkeit der Einträge aus Verknüpfungen. Wenn Sie z.B. ein privates Audit erstellt haben ist es trotzdem für alle Personen sichtbar, die Zugriff auf eine verknüpfte Maßnahme haben. Der Klick auf das Audit funktioniert allerdings nicht.
+- Kommentare auf den App Startseiten sind unbeeinflusst von eventuellen Sichtbarkeitseinstellugen
