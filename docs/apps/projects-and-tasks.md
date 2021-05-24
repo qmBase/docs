@@ -1,7 +1,6 @@
 ---
 id: projects-and-tasks
 title: Projekte & Maßnahmen
-slug: /projects-and-tasks
 ---
 
 ![Docusaurus with Keytar](/img/undraw_Scrum_board.svg)

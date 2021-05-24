@@ -1,7 +1,6 @@
 ---
 id: talent-manager
 title: Schulungen & Qualifikationen (Talent Manager)
-slug: /talent-manager
 ---
 
 ![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Trainings.png)

@@ -82,7 +82,7 @@ Mittels eines einfach Dropdowns kann hier festgelgt werden, wie die Reklamation 
 
 **Custom Fields**
 
-[Link](faqs/80)
+[Link](/docs/faqs/80)
 
 **Kosten / Zeit**
 

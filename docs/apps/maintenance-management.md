@@ -39,7 +39,7 @@ Wählen Sie die Gegenstände aus, die Sie etikettieren möchten. Anschließend k
 
 In unserer Vorlage müssen Sie folgende Spalten ausfüllen.
 
-Download: [Etiketten_qmBase_qr.xlsx](./assets/Etiketten_qmBase_qr.xlsx)
+Download: [Etiketten_qmBase_qr.xlsx](./../assets/Etiketten_qmBase_qr.xlsx)
 
 - Anzeigename: Lesbarer Text, der zusätzlich zum QR Code angezeigt wird
 - ID: qmBase Identifikationsnummer des Gegenstands
@@ -50,7 +50,7 @@ Download: [Etiketten_qmBase_qr.xlsx](./assets/Etiketten_qmBase_qr.xlsx)
 
 Wenn Sie Tabelle aus dem vorherigen Schritt erstellt haben, können Sie sich hier den Serienbrief als Vorlage herunterladen. Achtung: Word meldet beim Öffnen der Datei einen beschädigten Datensatz. Dies kann aber durch einen Klick auf Wiederherstellen behoben werden.
 
-Download: [Etiketten_qmBase_qr.docx](./assets/Etiketten_qmBase_qr.docx)
+Download: [Etiketten_qmBase_qr.docx](./../assets/Etiketten_qmBase_qr.docx)
 
 Für Ihren eigenen Seriebrief können Sie folgende Feldfunktioinen verwenden:
 

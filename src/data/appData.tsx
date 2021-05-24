@@ -28,7 +28,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Abwesenheitsplaner",
     description: "",
-    url: "docs/absence-planner",
+    url: "docs/apps/absence-planner",
     app: PbdModuleString.AbsencePlanner,
   },
   {
@@ -40,7 +40,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Auditmanagement",
     description: "",
-    url: "docs/audit-management",
+    url: "docs/apps/audit-management",
     app: PbdModuleString.AuditManagement,
   },
 
@@ -53,7 +53,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Blog",
     description: "",
-    url: "docs/blog",
+    url: "docs/apps/blog",
     app: PbdModuleString.Blog,
   },
   {
@@ -65,7 +65,7 @@ export const appData: AppInfo[] = [
     ),
     title: "CRM",
     description: "",
-    url: "docs/crm",
+    url: "docs/apps/crm",
     app: PbdModuleString.Crm,
   },
   {
@@ -77,7 +77,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Dokumentenmanagement",
     description: "",
-    url: "docs/document-management",
+    url: "docs/apps/document-management",
     app: PbdModuleString.DocumentManagement,
   },
   {
@@ -89,7 +89,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Formulare",
     description: "",
-    url: "docs/forms",
+    url: "docs/apps/forms",
     app: PbdModuleString.CustomForms,
   },
   {
@@ -101,7 +101,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Ideenmanagement",
     description: "",
-    url: "docs/idea-management",
+    url: "docs/apps/idea-management",
     app: PbdModuleString.IdeaManagement,
   },
   {
@@ -113,7 +113,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Instandhaltung",
     description: "",
-    url: "docs/projects-and-tasks",
+    url: "docs/apps/projects-and-tasks",
     app: PbdModuleString.MaintenanceManagement,
   },
   {
@@ -125,7 +125,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Mitarbeiter",
     description: "",
-    url: "docs/employees",
+    url: "docs/apps/employees",
     app: PbdModuleString.Employees,
   },
   {
@@ -137,7 +137,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Projekte & Maßanhmen",
     description: "",
-    url: "docs/projects-and-tasks",
+    url: "docs/apps/projects-and-tasks",
     app: PbdModuleString.ProjectAndTaskManagement,
   },
   {
@@ -149,7 +149,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Reklamationsmanagement",
     description: "",
-    url: "docs/claim-management",
+    url: "docs/apps/claim-management",
     app: PbdModuleString.ClaimManagement,
   },
   {
@@ -161,7 +161,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Risiken & Chance",
     description: "",
-    url: "docs/opportunity-management",
+    url: "docs/apps/opportunity-management",
     app: PbdModuleString.OpportunityManagement,
   },
 
@@ -174,7 +174,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Talent Manager",
     description: "",
-    url: "docs/talent-manager",
+    url: "docs/apps/talent-manager",
     app: PbdModuleString.TrainingManagement,
   },
   {
@@ -186,7 +186,7 @@ export const appData: AppInfo[] = [
     ),
     title: "WIKI",
     description: "",
-    url: "docs/wiki",
+    url: "docs/apps/wiki",
     app: PbdModuleString.KnowledgeBase,
   },
   {
@@ -198,7 +198,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Zielmanagement",
     description: "",
-    url: "docs/goal-management",
+    url: "docs/apps/goal-management",
     app: PbdModuleString.GoalManagement,
   },
 ];

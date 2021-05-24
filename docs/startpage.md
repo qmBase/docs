@@ -22,27 +22,27 @@ Neben dem qmBase Logo finden Sie die Navigationsleiste, über diese gelangen Sie
 Die Apps sind nach Kategorien sortiert. Klicken Sie auf den Pfeil neben dem Stichwort um die Liste der einzelnen Apps auszuklappen.
 
 - Organisation
-  - [Ideenmanagement](idea-management.mdx)
-  - [Dokumentenmanagement](document-management.md)
-  - [Blog](blog.md)
+  - [Ideenmanagement](apps/idea-management)
+  - [Dokumentenmanagement](apps/document-management)
+  - [Blog](apps/blog.md)
   - [Wiki](TODO INSERT LINK)
   - [Formulare](TODO INSERT LINK)
 - Ressourcen
   - [Produkte](TODO INSERT LINK)
-  - [Instandhaltung](maintenance-management.md)
-  - [Mitarbeiter](employees.md)
+  - [Instandhaltung](apps/maintenance-management.md)
+  - [Mitarbeiter](apps/employees.md)
   - [Schulungsmanagement](TODO INSERT LINK)
   - [Aufgaben & Qualifikationen] (TODO INSERT LINK)
   - [Abwesenheitsplaner] (TODO INSERT LINK)
 - Qualitätssteuerung
-  - [Reklamationsmanagement](claim-management.md)
-  - [Auditmanagement](audit-management.md)
+  - [Reklamationsmanagement](apps/claim-management.md)
+  - [Auditmanagement](apps/audit-management.md)
   - [Fehlermanagement](TODO INSERT LINK)
-  - [Projekte & Maßnahmen](projects-and-tasks.md)
-  - [Risiken & Chancen](opportunity-management.md)
-  - [Zielmanagement](goal-management.md)
-- [CRM](crm.md)
-- [Dashboard & Reportings](dashboard.md)
+  - [Projekte & Maßnahmen](apps/projects-and-tasks)
+  - [Risiken & Chancen](apps/opportunity-management.md)
+  - [Zielmanagement](apps/goal-management.md)
+- [CRM](apps/crm.md)
+- [Dashboard & Reportings](apps/dashboard.md)
 
 ### Suchleiste, Icons und Profil
 
@@ -50,7 +50,7 @@ In der Suchleiste können Sie Suchbegriffe für Apps eingeben, um direkt zu den 
 Daneben finden Sie das Icon <code>Glocke</code>, hier befinden sich Benachrichtigungen für Apps.
 Diese erhalten Sie zum Beispiel, wenn Sie zu einer Schulung eingeladen wurde, Sie als Verantwortlicher eingetragen wurden oder ähnliches.
 
-Über das Icon <code>Zahnrad</code> haben Sie einen Schnellzugriff zu den Einstellungen Ihres [Profils](TODO INSERT LINK) oder wenn Sie Admin sind, zu dem Bereich [Admin](admin.mdx).
+Über das Icon <code>Zahnrad</code> haben Sie einen Schnellzugriff zu den Einstellungen Ihres [Profils](TODO INSERT LINK) oder wenn Sie Admin sind, zu dem Bereich [Admin](apps/admin.mdx).
 
 Mit dem letzten Icon, dem <code>Fragezeichen</code> können Sie auf Hilfe zur qmBase Software zurückgreifen.
 In der Liste können Sie zwischen den Optionen **Hilfe & Kontakt**, **geführte Tour starten**, **Schicken Sie und Feedback** und **Software Aktualisierungen** wählen.
@@ -87,8 +87,8 @@ Indem Sie zu dem Tab **Anstehende Aufgaben und Aktivitäten** auswählen, gelang
 
 ## Linke Seitenleiste
 
-In der Seitenleiste befinden sich die Menüpunkte der aktuell ausgewählten App. Auf der Startseite können hier zum Beispiel Links für einen Schnellzugriff festgelegt werden. Um den Schnellzugriff zu editieren, müssen Sie [Adminrechte](admin.mdx) besitzen oder Ihren Admin um die Änderung der Schnellzugriffe bitten. Unter dem Punkt **What’s new** werden Sie auf die neue Seite der Softwareaktualisierungen weitergeleitet.
+In der Seitenleiste befinden sich die Menüpunkte der aktuell ausgewählten App. Auf der Startseite können hier zum Beispiel Links für einen Schnellzugriff festgelegt werden. Um den Schnellzugriff zu editieren, müssen Sie [Adminrechte](apps/admin.mdx) besitzen oder Ihren Admin um die Änderung der Schnellzugriffe bitten. Unter dem Punkt **What’s new** werden Sie auf die neue Seite der Softwareaktualisierungen weitergeleitet.
 
 ### Warum kann ich auf einige Apps nicht zugreifen?
 
-Ob Sie auf eine App zugreifen können, hängt davon ab, ob Sie Admin sind oder nicht. Der Zugriff auf Apps wie Aufgaben und Qualifikationen oder den Abwesenheitsplaner ist Personen mit Administratoren-Rechten vorbehalten. Mehr Informationen dazu erhalten Sie [hier](admin.mdx)
+Ob Sie auf eine App zugreifen können, hängt davon ab, ob Sie Admin sind oder nicht. Der Zugriff auf Apps wie Aufgaben und Qualifikationen oder den Abwesenheitsplaner ist Personen mit Administratoren-Rechten vorbehalten. Mehr Informationen dazu erhalten Sie [hier](apps/admin.mdx)
