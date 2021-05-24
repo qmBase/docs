@@ -7,6 +7,8 @@ Um mit der Nutzung von qmBase zu starten, benötigen Sie einen Account. Den Acco
 
 _https://meineFirma.qmbase.com_
 
+![register](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-05-24_register.png)
+
 #### Auf Registrierseite wechseln
 
 Wenn Sie nicht angemeldet sind landen Sie auf dem Formular zur Anmeldung. Am unteren Rand dieses Formulares gibt es einen Link mit dem Sie zur Registrierung kommen <code>Registrieren Sie sich als neuer Nutzer!</code>

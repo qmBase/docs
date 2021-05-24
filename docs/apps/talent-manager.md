@@ -1,6 +1,6 @@
 ---
 id: talent-manager
-title: Talent Manager (Schulungen & Qualifikationen)
+title: Schulungen & Qualifikationen (Talent Manager)
 slug: /talent-manager
 ---
 
