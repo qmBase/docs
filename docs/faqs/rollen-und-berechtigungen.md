@@ -51,15 +51,15 @@ Diese Funtion befindet sich noch in der Vorschau und ist nicht vollständig umge
 
 Diese Funktion ist in folgenden Apps von qmBase verfügbar:
 
-| App                              | Status | Weitere Details                                          |
-| -------------------------------- | ------ | -------------------------------------------------------- |
-| Audits                           | 🔧     | Sichtbarkeit in Tabellen und Detailansicht eingeschränkt |
-| Schulungen                       | 🔧     | Sichtbarkeit in Tabellen Detailsansicht eingeschränkt    |
-| Formulare                        | 🔧     | Sichtbarkeit in Detailsansicht eingeschränkt             |
-| Dokumentenmanagement, WIKI, Blog | ⏳     | In Arbeit                                                |
-| Reklamationen                    | 🕖     | Noch nicht angefangen                                    |
-| Maßnahmen                        | 🕖     | Noch nicht angefangen                                    |
-| Ziele                            | 🕖     | Noch nicht angefangen                                    |
+| App                              | Status | Weitere Details                                           |
+| -------------------------------- | ------ | --------------------------------------------------------- |
+| Audits                           | 🔧     | Sichtbarkeit in Tabellen und Detailansicht eingeschränkt  |
+| Schulungen                       | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
+| Formulare                        | 🔧     | Sichtbarkeit in Detailsansicht eingeschränkt              |
+| Dokumentenmanagement, WIKI, Blog | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
+| Reklamationen                    | 🕖     | Noch nicht angefangen                                     |
+| Maßnahmen                        | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
+| Ziele                            | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
 
 Die Steuerung des Zugriffs kann durch die folgenden Personen erfolgen:
 
