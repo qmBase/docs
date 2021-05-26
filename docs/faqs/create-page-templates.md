@@ -10,7 +10,7 @@ Jetzt geben Sie alle Parameter für Ihre Vorlage ein. Geben Sie Ihrer Vorlage ei
 Wenn Sie alle Informationen eingetragen haben, speichern Sie die Vorlage ab. Bei Bedarf kann die Vorlage im Nachhinein noch angepasst oder korrigiert werden. 
 
 ## Wie nutze ich kann ich die Vorlage für Reklamationen nutzen? 
-Um auf Vorlagen zurückzugreifen, öffnen Sie die App [Reklamationsmanagement]( /docs/faqs/claim-management.md). Hierfür klicken Sie auf den Reiter Qualitätssteuerung und anschließend auf den ersten Punkt der Liste [Reklamationsmanagement]( /docs/faqs/claim-management.md). Sie befinden sich nun auf der Startseite des Reklamationsmanagements. Klicken Sie auf den Button <code>Eine neue Reklamation erstellen</code>. Jetzt wählen Sie die Vorlage aus, die für Ihre Reklamation genutzt werden soll und klicken auf den grünen Button <code>Los gehts</code>. 
+Um auf Vorlagen zurückzugreifen, öffnen Sie die App [Reklamationsmanagement](/docs/faqs/claim-management.md). Hierfür klicken Sie auf den Reiter Qualitätssteuerung und anschließend auf den ersten Punkt der Liste [Reklamationsmanagement](/docs/faqs/claim-management.md). Sie befinden sich nun auf der Startseite des Reklamationsmanagements. Klicken Sie auf den Button <code>Eine neue Reklamation erstellen</code>. Jetzt wählen Sie die Vorlage aus, die für Ihre Reklamation genutzt werden soll und klicken auf den grünen Button <code>Los gehts</code>. 
 
 > Sollte es noch keine passende Vorlage für die Reklamation geben, können Sie auf den Link unterhalb der Vorlagen klicken und die Reklamation ohne Vorlage erfassen. 
 
