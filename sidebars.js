@@ -121,6 +121,7 @@ module.exports = {
       "faqs/import-qualifications",
       "faqs/faq-117",
       "faqs/faq-125",
+      "faqs/create-page-templates",
     ],
     "Best Practices": ["usecases/multi-site"],
     "Technical Documentation": [
