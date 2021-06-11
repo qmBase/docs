@@ -11,6 +11,11 @@ Mit jedem vierteljährlichen Blog-Update stellen wir Ihnen eine Liste der Verbes
 
 <!--truncate-->
 
+## Allgmein
+
+- Globale Suche (von SH)
+- Alle Tabellen Verknüpfungsicons, wie bei Qualifikationen und Schulungen
+
 ## Formulare <-> Maßnahmen
 
 Verknüpfung Formular(antowrten) Maßnahmen mit Bezug auf Fragen

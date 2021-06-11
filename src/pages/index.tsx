@@ -91,13 +91,6 @@ function Home() {
       title={`Startseite`}
       description="Willkommen beim qmBase Support. ✔ Hier finden Sie Hilfe, Neuigkeiten und Tutorials rund um die Apps und Funktionen von qmBase. Abonnieren Sie unseren RSS Feed um immer auf dem neusten Stand zu bleiben und nutzen Sie unsere Tutorials bei Fragen zu einzelnen Apps."
     >
-      <div className="container padding-vert--lg text--center">
-        <div className="alert alert--info" role="alert">
-          <p>🚧 🚨 🚧</p>
-          Willkommen auf unserer neuen Dokumentationsseite. Diese Seite befindet
-          sich noch im Aufbau.
-        </div>
-      </div>
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>

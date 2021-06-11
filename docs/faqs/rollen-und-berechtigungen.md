@@ -57,7 +57,7 @@ Diese Funktion ist in folgenden Apps von qmBase verfügbar:
 | Schulungen                       | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
 | Formulare                        | 🔧     | Sichtbarkeit in Detailsansicht eingeschränkt              |
 | Dokumentenmanagement, WIKI, Blog | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
-| Reklamationen                    | 🕖     | Noch nicht angefangen                                     |
+| Reklamationen                    | 🔧     | Sichtbarkeit in Detailsansicht eingeschränkt              |
 | Maßnahmen                        | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
 | Ziele                            | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
 
