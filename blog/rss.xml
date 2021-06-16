@@ -4,10 +4,17 @@
         <title>qmBase - Docs Blog</title>
         <link>https://help.qmbase.com/blog</link>
         <description>Stay up to date with the latest qmBase changes</description>
-        <lastBuildDate>Fri, 11 Jun 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Jun 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2021 qmBase GmbH</copyright>
+        <item>
+            <title><![CDATA[Version 1.1.152]]></title>
+            <link>https://help.qmbase.com/blog/2021/06/16/Version-1_1_152</link>
+            <guid>Version 1.1.152</guid>
+            <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dieses Update vereinheitlicht ist erster Linie die Funktionen vieler Tabellen innerhalb der Software. Wir haben in zahlreichen Tabellen Exportfunktionen und Smart Views hinzugefügt.]]></description>
+        </item>
         <item>
             <title><![CDATA[Version 1.1.151]]></title>
             <link>https://help.qmbase.com/blog/2021/06/11/Version-1_1_151</link>
