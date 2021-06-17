@@ -47,3 +47,17 @@ Wenn Sie Ihr Passwort vergessen haben, können Sie einfach ihr Passwort zurücks
 #### Kann die Verknüpfung von Account und Person nachträglich geändert werden?
 
 Nein, das ist aus Sicherheitsgründen nicht möglich. Sollte es dennoch erforderlich sein, sprechen Sie uns in diesem Fall bitte an.
+
+## Login with 2FA
+
+By using two factor authentication an additional layer of security will be provided for your account. Microsoft says that users who enable multi-factor authentication (MFA) for their accounts will end up blocking 99.9% of automated attacks.The recommendation stands not only for Microsoft accounts but also for any other profile, on any other website or online service.
+
+### How it works
+
+Beside the normal process of signning in with the user name and password, a new layer of security will be added by using a Time-based One-time password alogirthm (TOTP). An authenticator app will be downloaded to your mobile phone, will generate 6 to 8 digits of code and the user has to enter it after confirming their user name and password.
+
+### Where to activate it
+
+From the user profile settings. New section is added to the right of your profile page. Simply click on "Add authenticator app", there will be a descriptive guidance for how to download the two-factor authenticator app to your mobile phone. After downloading, you have to scan the given QR code and enter the number generated from your mobile app to confirm the activation process.
+
+When you login in to your account, you have to enter the username and a password. Then, instead of immediately gaining access, you have to insert the code which the authenticator app provides.
