@@ -41,7 +41,14 @@ Sie können festlegen, dass Nutzer nur Leserechte haben sollen. Damit werden all
 
 ### Erlaubte Domains
 
-Um den Zugriff einzuschränken, können Sie hier festlegen mit welchen E-Mail Domains sich neue Nutzer anmelden können. Tragen Sie z.B. @firma.de ein, damit sich max.mustermann@firma.de als neuer Nutzer registrieren kann.
+Um den Zugriff für die Registrierung neuer Nutzer einzuschränken, können Sie hier festlegen mit welchen E-Mail Schemata sich neue Nutzer anmelden können.
+Konkret wird überprüft, ob die **Endung** eines neuen Nutzernames (E-Mail Adresse) in der Liste der erlaubten Domains auftaucht.
+
+#### Beispiele
+
+- Tragen Sie z.B. <code>@firma.de</code> ein, damit sich max.mustermann@firma.de als neuer Nutzer registrieren kann.
+- Wenn Sie z.B. nur <code>.de</code> eingeben kann sich mustermann@gmx.de und mustermann@firma.de registrieren.
+- Wenn Sie z.B. <code>'max.mustermann@firma.de'</code> eintragen kann sich max.mustermann@firma.de registrieren. Es könnte sich jedoch auch minimax.mustermann@firma.de registrieren, da nur die enden überprüft werden und mini somit in diesem Fall ignoriert wird.
 
 > Nicht sinnvoll ist hier das Hinterlegen von öffentlichen E-Mail Domains z.B. @gmail.com.
 
