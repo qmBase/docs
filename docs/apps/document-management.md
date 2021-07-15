@@ -43,3 +43,10 @@ Sobald Sie ein Dokument mit dem Namen README innerhalb eines Ordners oder im Sta
 ![](https://caqadmin.blob.core.windows.net/faqs/83-images/mceclip0.png)
 
 Sie können die README Funktion auch als Admin unter Admin -> Konfiguration -> Dokumentmanagement deaktivieren.
+
+## Link Prüfung
+
+Im Bereich Link Prüfung können Sie automatisch überprüfen, ob die Links innerhalb eines Dokuments noch auf gültige Dokumente verweisen. Links, die überprüft werden, müssen auf ein anderes Dokument im Dokumentenmanagement verweisen.
+Als nicht gültige Dokumente gelten gelöschte oder zurückgezogene Dokumente.
+
+![linkValidator](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-07-15%20105026_linkValidator.png)
