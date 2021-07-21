@@ -10,7 +10,7 @@ Mit jedem vierteljährlichen Blog-Update stellen wir Ihnen eine Liste der Verbes
 
 <!--truncate-->
 
-## E-Mail Benachrichtigungen und Notifications
+## E-Mail Benachrichtigungen und Notifications ✔
 
 Unsere E-Mail Benachrichtigungen sind manchmal zu kompliziert und nicht auf den ersten Blick verständlich. Das Ziel muss es sein, dass man mit einem Blick die Frage beantworten kann, was will qmBase mir dieser E-Mail sagen. Daher werden wir sowohl Inhalt als auch Formatierung einiger Benachrichtigungen anpassen, um dieses Ziel schneller zu erreichen.
 
@@ -33,7 +33,7 @@ Ein Workflow besteht aus folgenden Eigenschaften:
 - Schicke eine Mail an die Qualitätssicherungsabteilung, wenn eine neue Reklamation erfasst wurde
 - Blockiere das Ändern des Status einer Reklamation, wenn ein festgelegtes Custom Field nicht ausgefüllt wurde.
 
-## Templates & Vorlagen
+## Templates & Vorlagen ✔
 
 Die Angst vor einem weißen Blatt Papier hält viele Menschen vom Schreiben ab. Das Problem beobachten wir auch in qmBase. Das Problem tritt z.B. auf bei der Erfassung einer Reklamation. Regelmäßig erhalten wir Anfragen nach dem Muster: "Was soll ich denn jetzt hier alles aufschreiben?"
 Um dieses Problem zu lösen, führen wir eine Template-Funktion ein. Was damit möglich sein soll, wollen wir im folgenden wieder am Beispiel der Reklamationen erklären.
@@ -44,7 +44,7 @@ Um dieses Problem zu lösen, führen wir eine Template-Funktion ein. Was damit m
 2. Wenn der Nutzer jetzt eine neue Reklamation erfassen möchte, erscheint zu Beginn ein Auswahldialog, wo das Template ausgewählt werden kann.
 3. Nach Auswahl eines Templates kann das Beschreibungsfeld der Reklamation schon vorausgefüllt sein, mit den Informationen, die man erfassen möchte.
 
-## Schlagworte
+## Schlagworte ✔
 
 Bessere Verwaltung der Schlagworte. Zukünftig sollen Schlagworte fest vordefiniert werden können, um Wildwuchs zu verhindern. Zusätzlich sollen Schlagworte einzelnen Apps als Pflichtauswahl zugeordnet werden können.
 Ein Anwendungsfall hierfür ist beispielsweise, dass festgelegt wird, dass ein Schlagwort aus dem Pool "Prio1", "Prio2", "Prio3" zwingend mit einer Maßnahme verbunden werden soll.
