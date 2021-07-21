@@ -26,16 +26,6 @@ Das Suchfeld in der Navigationsleiste soll eine stärkere Bedeutung bekommen. De
 
 In einer weiteren Ausbaustufe werde hierüber dann auch von Ihnen erstellte Inhalte durchsuchbar werden.
 
-### Follow Me ⭐
-
-Unter diesem Begriff verbirgt sich eine Funktion, die es ermöglichen soll leichter den Überblick zu behalten und die Dinge zu verfolgen, die für Sie interessant sind. Das könnte z.B. der Bearbeitungsstatus einer bestimmten Reklamation sein, die Sie zwar nicht selbst bearbeiten aber für Sie trotzdem von Interesse ist. Dafür wird es möglich sein einzelne Informationen als Favoriten zu markieren, um diese Ereignisse dadurch im Blick zu behalten und über Änderungen informiert zu werden.
-
-> Alle Tabellen Verknüpfungsicons, wie bei Qualifikationen und Schulungen
-
-## Formulare <-> Maßnahmen
-
-> Verknüpfung Formular(antowrten) Maßnahmen mit Bezug auf Fragen
-
 ## Dokumentenmanagement
 
 Verknüpfung von Dokumenten mit Fristen: Im betrieblichen Alltag kann es erforderlich sein, dass Dokumente mit Fristen versehen werden müssen, um diese regelmäßig zu überprüfen. Hierfür wollen wir eine spezielle Funktion zur Dokumentenprüfung erstellen.
@@ -53,7 +43,7 @@ Derzeit läuft diese Anmeldung noch in einer letzten Testphase, so dass dieser P
 
 ### Feingliedrieger Zugriff
 
-Legen Sie für einzelnen Maßnahmen, Dokumente, Schulungen etc. fest wer auf diese zugreifen und wer diese bearbeiten kann. (Weitere Erklärungen)[http://localhost:3000/docs/faqs/56/#feingliedrigerer-zugriff]
+Legen Sie für einzelnen Maßnahmen, Dokumente, Schulungen etc. fest wer auf diese zugreifen und wer diese bearbeiten kann. (Weitere Erklärungen)[/docs/faqs/56/#feingliedrigerer-zugriff]
 
 ## Verbesserung der Performance
 
@@ -80,10 +70,6 @@ Unser **Ziel** ist es, bei den Server Antwortzeiten Zeiten in den Bereich von ~2
 ## Altlasten
 
 Einige Punkte der alten Roadmap konnten wir bisher noch nicht oder nur teilweise umsetzen. Diese sind allerdings immer noch geplant und bestehen aus folgenden Punkten.
-
-### Zielmanagement 🏁
-
-Bisher kann der Zielfortschritt nur als % Wert erfasst werden. Dies erfordert unnötig kompliziertes Umrechnen bei der Benutzung der Software. An diese Stelle soll eine flexiblere Erfassung der Fortschritte kommen. Somit können dann auch einfach absolute Werte wie bspw. Anzahl der Neukunden erfasst werden.
 
 ### Workflows & Automatisierung 🤖
 
