@@ -29,9 +29,9 @@ module.exports = {
           label: "Dokumentation",
           position: "left",
         },
-        { to: "Blog", label: "Changelog", position: "left" },
+        { to: "blog", label: "Changelog", position: "left" },
         {
-          to: "Roadmap",
+          to: "roadmap",
           label: "Roadmap",
           position: "left",
         },
