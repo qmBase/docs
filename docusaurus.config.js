@@ -19,8 +19,7 @@ module.exports = {
       title: "",
       logo: {
         alt: "qmBase Docs",
-        src:
-          "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/navbarLogo.png",
+        src: "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/navbarLogo.png",
       },
       items: [
         { to: "tutorials", label: "Tutorials", position: "left" },
@@ -30,9 +29,9 @@ module.exports = {
           label: "Dokumentation",
           position: "left",
         },
-        { to: "blog", label: "Changelog", position: "left" },
+        { to: "Blog", label: "Changelog", position: "left" },
         {
-          to: "blog/2021/04/01/roadmap-update-2021-q2",
+          to: "Roadmap",
           label: "Roadmap",
           position: "left",
         },
@@ -140,6 +139,26 @@ module.exports = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+      },
+    ],
+  ],
+  plugins: [
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: "roadmap",
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: "Roadmap",
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: "./roadmap",
       },
     ],
   ],
