@@ -1,22 +1,45 @@
 ---
-title: 🚀 Roadmap Update 2021 Q3
+title: 📣 Roadmap Update 2021 Q3
 author: Philipp Pähler
 author_image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
 image: /img/blog/roadmap.jpg
 tags: [Roadmap]
-draft: true
 ---
 
+Auch im Herbst diesen Jahres erwarten Sie wieder spannende Erweiterungen und Verbesserungen bei qmBase.
 Mit jedem vierteljährlichen Blog-Update stellen wir Ihnen eine Liste der Verbesserungen vor, die wir in qmBase vornehmen wollen. Unser Ziel ist es eine transparente Entwicklung darzustellen, so dass Sie wissen, auf welche Änderungen Sie sich einstellen können.
 Der wichtigste Input für unsere Planung ist dabei **Ihr** Feedback.
 
-> Wir möchten ihnen an dieser Stelle für alle Tickets danken, die Sie erstellen. 💐🙏
+<!--truncate-->
+
+> Wir möchten ihnen an dieser Stelle für alle Tickets danken, die Sie erstellen. 👍
 
 Dieses Feedback hilft uns zu verstehen, wie Sie qmBase und nutzen und was wir tun können, um Sie in Ihrer täglichen Arbeit zu unterstützen und Ihnen das Leben zu erleichtern.
 
 Da wir ihr Feedback laufend in unsere Entwicklung einbinden ist unsere Roadmap auch kein statisches Dokument und kann daher im Laufe der Zeit angepasst werden.
 
-<!--truncate-->
+## Noch immer auf unserer Roadmap
+
+Einige Punkte der alten Roadmap konnten wir bisher noch nicht oder nur teilweise umsetzen. Diese sind allerdings immer noch geplant und bestehen aus folgenden Punkten.
+
+### Workflows & Automatisierung 🤖
+
+Wiederkehrende Aufgaben manuell zu erledigen ist eine monotone Aufgabe und fehleranfällig. Hier setzen wir mit unserer Funktion **Workflows** an, um solche Abläufe zu vereinfachen.
+Sie können sich einen Workflow als ein einfaches regelbasiertes Programm innerhalb von qmBase vorstellen.
+Ein Workflow besteht aus folgenden Eigenschaften:
+
+- Auslöser
+- Bedingungen
+- Auszuführende Aktion
+
+> Beispiele für Workflows sind z.B.:
+>
+> - Schicke eine Mail an die Qualitätssicherungsabteilung, wenn eine neue Reklamation erfasst wurde
+> - Blockiere das Ändern des Status einer Reklamation, wenn ein festgelegtes Custom Field nicht ausgefüllt wurde.
+
+### Talentmanager 🤡
+
+Verknüpfung der Bereiche Aufgabe & Qualifikationen und Schulungsmanagement in einer einheitlichen App, die vermutlich den Namen Talentmanager bekommen wird. Detailliertere Definition von Anforderungen an Qualifikationen z.B. durch Formulare oder Dokumente.
 
 ## Allgemein
 
@@ -45,7 +68,7 @@ Derzeit läuft diese Anmeldung noch in einer letzten Testphase, so dass dieser P
 
 Legen Sie für einzelne Maßnahmen, Dokumente, Schulungen etc. fest wer auf diese zugreifen und wer diese bearbeiten kann. (Weitere Erklärungen)[/docs/faqs/56/#feingliedrigerer-zugriff]
 
-## Verbesserung der Performance
+## Verbesserung der Performance 🏎
 
 Wie bereits zu Beginn des Jahres werden wir in diesem Quartal erneut in die Performance unserer Software investieren. Hierbei sehen wir zwei wesentliche Angriffspunkte:
 
@@ -66,26 +89,3 @@ Unser **Ziel** ist es, bei den Server Antwortzeiten, Zeiten in den Bereich von ~
 | 2021-03-19 | 399                 | 147    | 15                  | 2710                |
 | 2021-06-11 | 696                 | 215    | 16                  | 2975                |
 | 2021-07-19 | 402                 | 151    | 14                  | 2153                |
-
-## Altlasten
-
-Einige Punkte der alten Roadmap konnten wir bisher noch nicht oder nur teilweise umsetzen. Diese sind allerdings immer noch geplant und bestehen aus folgenden Punkten.
-
-### Workflows & Automatisierung 🤖
-
-Wiederkehrende Aufgaben manuell zu erledigen ist eine monotone Aufgabe und fehleranfällig. Hier setzen wir mit unserer Funktion **Workflows** an, um solche Abläufe zu vereinfachen.
-Sie können sich einen Workflow als ein einfaches regelbasiertes Programm innerhalb von qmBase vorstellen.
-Ein Workflow besteht aus folgenden Eigenschaften:
-
-- Auslöser
-- Bedingungen
-- Auszuführende Aktion
-
-  Beispiele für Workflows sind z.B.:
-
-- Schicke eine Mail an die Qualitätssicherungsabteilung, wenn eine neue Reklamation erfasst wurde
-- Blockiere das Ändern des Status einer Reklamation, wenn ein festgelegtes Custom Field nicht ausgefüllt wurde.
-
-### Talentmanager 🤡
-
-Verknüpfung der Bereiche Aufgabe & Qualifikationen und Schulungsmanagement in einer einheitlichen App, die vermutlich den Namen Talentmanager bekommen wird. Detailliertere Definition von Anforderungen an Qualifikationen z.B. durch Formulare oder Dokumente.
