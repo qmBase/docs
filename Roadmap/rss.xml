@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>qmBase - Docs Blog</title>
+        <link>https://help.qmbase.com/Roadmap</link>
+        <description>qmBase - Docs Blog</description>
+        <lastBuildDate>Thu, 01 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Roadmap Update 2021 Q2]]></title>
+            <link>https://help.qmbase.com/Roadmap/2021/04/01/roadmap-update-2021-q2</link>
+            <guid>Roadmap Update 2021 Q2</guid>
+            <pubDate>Thu, 01 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mit jedem vierteljährlichen Blog-Update stellen wir Ihnen eine Liste der Verbesserungen vor, die wir in qmBase vornehmen. Unser Ziel ist es eine transparente Entwicklung darzustellen, so dass Sie wissen, auf welche Änderungen Sie sich einstellen können.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Roadmap Update 2021 Q1]]></title>
+            <link>https://help.qmbase.com/Roadmap/2021/01/06/roadmap-update-2021-q1</link>
+            <guid>Roadmap Update 2021 Q1</guid>
+            <pubDate>Wed, 06 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Auch in diesem Jahr, 2021, werden wir qmBase dynamisch weiterentwickeln und die Features verbessern, die Ihnen ihre tägliche Arbeit erleichtern.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Roadmap 2020 2. Halbjahr]]></title>
+            <link>https://help.qmbase.com/Roadmap/2020/07/23/roadmap-2020-2_-halbjahr</link>
+            <guid>Roadmap 2020 2. Halbjahr</guid>
+            <pubDate>Thu, 23 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Update 1: 21.10.2020 - Die erledigten Aufgaben wurden mit einem ✔️ und die gerade in Bearbeitung befindlichen Aufgaben mit einem 🔧 versehen.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Roadmap 2020 1. HJ]]></title>
+            <link>https://help.qmbase.com/Roadmap/2020/01/23/roadmap-2020-1_-hj</link>
+            <guid>Roadmap 2020 1. HJ</guid>
+            <pubDate>Thu, 23 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Update 3: 16.07.2020 - Abschluss Roadmap 1. HJ neue Roadmap wird veröffentlicht.]]></description>
+        </item>
+    </channel>
+</rss>
