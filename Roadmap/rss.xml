@@ -4,9 +4,16 @@
         <title>qmBase - Docs Blog</title>
         <link>https://help.qmbase.com/Roadmap</link>
         <description>qmBase - Docs Blog</description>
-        <lastBuildDate>Thu, 01 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Jul 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[📣 Roadmap Update 2021 Q3]]></title>
+            <link>https://help.qmbase.com/Roadmap/2021/07/01/roadmap-update-2021-q3</link>
+            <guid>📣 Roadmap Update 2021 Q3</guid>
+            <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Auch im Herbst diesen Jahres erwarten Sie wieder spannende Erweiterungen und Verbesserungen bei qmBase.]]></description>
+        </item>
         <item>
             <title><![CDATA[Roadmap Update 2021 Q2]]></title>
             <link>https://help.qmbase.com/Roadmap/2021/04/01/roadmap-update-2021-q2</link>
