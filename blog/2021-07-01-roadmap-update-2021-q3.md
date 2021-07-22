@@ -18,13 +18,13 @@ Da wir ihr Feedback laufend in unsere Entwicklung einbinden ist unsere Roadmap a
 
 <!--truncate-->
 
-## Allgmein
+## Allgemein
 
 ### Globale Suche 🔍
 
 Das Suchfeld in der Navigationsleiste soll eine stärkere Bedeutung bekommen. Derzeit lassen sich über dieses Feld lediglich einzelne Apps suchen und dahin navigieren. Zukünftig wird es möglich sein, über dieses Suchfeld direkt einzelne Funktionen zu erreichen, wie z.B. das Erstellen einer neuen Maßnahme. Zusätzlich sollen auch die verschiedenen Einstellungen hierüber erreichbar sein.
 
-In einer weiteren Ausbaustufe werde hierüber dann auch von Ihnen erstellte Inhalte durchsuchbar werden.
+In einer weiteren Ausbaustufe werden hierüber dann auch von Ihnen erstellte Inhalte durchsuchbar sein.
 
 ## Dokumentenmanagement
 
@@ -38,12 +38,12 @@ In den letzten Monaten haben wir den Login mit Hilfe von externen Login Provider
 
 ### Zwei-Faktor-Authentifizierung
 
-Während der gerade genannte Punkt vor allem auch einen großen Komfortgewinn bringt, liegt uns die Sicherheit Ihrer Daten natürlich sehr am Herzen. Aus diesem Grund wird in diesem Quartal für alle Kunden der Login mittels Zwei-Faktor-Authentifizierung zur Verfügung stehen.
+Während der gerade genannte Punkt vor allem auch einen großen Komfortgewinn bringt, liegt uns die Sicherheit Ihrer Daten natürlich sehr am Herzen. Aus diesem Grund wird in diesem Quartal der Login mittels Zwei-Faktor-Authentifizierung für alle Kunden zur Verfügung stehen.
 Derzeit läuft diese Anmeldung noch in einer letzten Testphase, so dass dieser Punkt zeitnah bei allen verfügbar sein sollte.
 
 ### Feingliedrieger Zugriff
 
-Legen Sie für einzelnen Maßnahmen, Dokumente, Schulungen etc. fest wer auf diese zugreifen und wer diese bearbeiten kann. (Weitere Erklärungen)[/docs/faqs/56/#feingliedrigerer-zugriff]
+Legen Sie für einzelne Maßnahmen, Dokumente, Schulungen etc. fest wer auf diese zugreifen und wer diese bearbeiten kann. (Weitere Erklärungen)[/docs/faqs/56/#feingliedrigerer-zugriff]
 
 ## Verbesserung der Performance
 
@@ -57,7 +57,7 @@ Wie bereits zu Beginn des Jahres werden wir in diesem Quartal erneut in die Perf
 
 2. Messbare Performance
 
-Unser **Ziel** ist es, bei den Server Antwortzeiten Zeiten in den Bereich von ~200ms im 95. Perzentil zu kommen. D.h., dass 95% der Serveranfragen schneller als in 200ms erfolgen. Zu Beginne des Jahres waren wir hier auf einem sehr guten Weg. Im weiteren Verlauf sind wir hier auf Grund komplexerer Funktionen wieder etwas zurückgefallen. Einen großen Teil dieser Verschlechterung konnten wir in der Zwischenzeit wieder aufholen. Aber auch hier werden wir weitere Optimierungen vornehmen.
+Unser **Ziel** ist es, bei den Server Antwortzeiten, Zeiten in den Bereich von ~200ms im 95. Perzentil zu kommen. D.h., dass 95% der Serveranfragen schneller als in 200ms erfolgen. Zu Beginn des Jahres waren wir hier auf einem sehr guten Weg. Im weiteren Verlauf sind wir hier auf Grund komplexerer Funktionen wieder etwas zurückgefallen. Einen großen Teil dieser Verschlechterung konnten wir in der Zwischenzeit wieder aufholen. Aber auch hier werden wir weitere Optimierungen vornehmen.
 
 | Datum      | 95. Perzentile (ms) | Ø (ms) | 50. Perzentile (ms) | 99. Perzentile (ms) |
 | ---------- | ------------------- | ------ | ------------------- | ------------------- |
