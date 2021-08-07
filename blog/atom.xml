@@ -2,12 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://help.qmbase.com/blog</id>
     <title>qmBase - Docs Blog</title>
-    <updated>2021-07-15T00:00:00.000Z</updated>
+    <updated>2021-08-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://help.qmbase.com/blog"/>
     <subtitle>Stay up to date with the latest qmBase changes</subtitle>
     <icon>https://help.qmbase.com/https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png</icon>
     <rights>Copyright © 2021 qmBase GmbH</rights>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.155]]></title>
+        <id>Version 1.1.155</id>
+        <link href="https://help.qmbase.com/blog/2021/08/07/Version-1_1_155"/>
+        <updated>2021-08-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Version 1.1.155 ist mit Fehlerbehebungen und Detailverbesserungen verfügbar.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Version 1.1.154]]></title>
         <id>Version 1.1.154</id>
