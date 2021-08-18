@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[4613],{14864:a=>{"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"reklamationsmanagement","name":"reklamationsmanagement","count":17,"permalink":"/blog/tags/reklamationsmanagement"}')}}]);

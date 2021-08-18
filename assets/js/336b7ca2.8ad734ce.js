@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[55131],{34936:s=>{"use strict";s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"formulare-custom-fields","name":"formulare & custom fields","count":1,"permalink":"/blog/tags/formulare-custom-fields"}')}}]);

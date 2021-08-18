@@ -1,1 +1,0 @@
-(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[59812],{30131:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"software-onboarding","name":"software onboarding","count":1,"permalink":"/blog/tags/software-onboarding"}')}}]);

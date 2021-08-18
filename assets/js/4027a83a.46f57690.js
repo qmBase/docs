@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[21819],{67020:e=>{"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"abwesenheitsplaner","name":"abwesenheitsplaner","count":7,"permalink":"/blog/tags/abwesenheitsplaner"}')}}]);

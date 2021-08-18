@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[22549],{53579:e=>{"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"kunden-lieferantenbewertungen","name":"kunden- & lieferantenbewertungen","count":1,"permalink":"/blog/tags/kunden-lieferantenbewertungen"}')}}]);
