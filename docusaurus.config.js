@@ -19,7 +19,7 @@ module.exports = {
       title: "",
       logo: {
         alt: "qmBase Docs",
-        src: "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/navbarLogo.png",
+        src: "https://qmbasesupport.blob.core.windows.net/public-icons/kroschke/ksi_logo_unter_40mm.png",
       },
       items: [
         { to: "tutorials", label: "Tutorials", position: "left" },
