@@ -5,7 +5,7 @@ title: Mehrere Standorte - Ideenmanagement
 slug: /usescases/multi-site
 ---
 
-import Mermaid from "@theme/mermaid";
+import IdeaProcess from "../../src/charts/IdeaProcess";
 
 qmBase lässt sich auch in großen Organisationen mit mehreren Standorten nutzen. Wie Sie hier optimale Ergebnisse erzielen und was am besten konfiguriert wird, zeigen wir Ihnen hier am Beispiel des Ideenmanagements.
 
@@ -23,17 +23,4 @@ qmBase lässt sich auch in großen Organisationen mit mehreren Standorten nutzen
 
 #### Zur Erinnerung: Prozess und Ablauf Ideenmanagement
 
-<Mermaid
-  chart={`graph TD
-    A[Idee erstellen oder überarbeiten] --> B[Ideenkoordinator auswählen];
-    B --> C[Idee abschicken];
-    C --> D{Annahme durch Koordinator?};
-    D -- Ja --> E[Bearbeitung durch Manager / Owner];
-    D -- Nein --> A;
-    E --> F{Optionale Gutachtenphase};
-    F -- Gutachten angefordert --> F2[Warten auf Reaktion der Gutachter];
-    F2 --> G;
-    F -- Keine Gutachten --> G[Abschluss der Gutachtenphase];
-    G --> H[Umsetzungsphase];
-    H --> I[Abschluss der Idee];`}
-/>
+<IdeaProcess />
