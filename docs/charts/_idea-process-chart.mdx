@@ -1,11 +1,7 @@
-import React from "react";
-import Mermaid from "../theme/mermaid";
+import Mermaid from "@theme/mermaid";
 
-const IdeaProcess: React.FC = () => {
-  return (
-    <React.Fragment>
-      <Mermaid
-        chart={`graph TD
+<Mermaid
+  chart={`graph TD
     A[Idee erstellen oder überarbeiten] --> B[Ideenkoordinator auswählen];
     B --> C[Idee abschicken];
     C --> D{Annahme durch Koordinator?};
@@ -17,8 +13,4 @@ const IdeaProcess: React.FC = () => {
     F -- Keine Gutachten --> G[Abschluss der Gutachtenphase];
     G --> H[Umsetzungsphase];
     H --> I[Abschluss der Idee];`}
-      />
-    </React.Fragment>
-  );
-};
-export default IdeaProcess;
+/>
