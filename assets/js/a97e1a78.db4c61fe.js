@@ -1,1 +1,0 @@
-(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[32516],{46588:s=>{"use strict";s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"app-suche","name":"app suche","count":1,"permalink":"/blog/tags/app-suche"}')}}]);

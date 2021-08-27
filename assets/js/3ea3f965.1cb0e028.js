@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[55705],{13019:a=>{"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/formulare-vorschaufunktion","name":"Formulare (Vorschaufunktion)","count":1,"permalink":"/blog/tags/formulare-vorschaufunktion"}')}}]);

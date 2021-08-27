@@ -13,6 +13,9 @@
         <link href="https://help.qmbase.com/Roadmap/2021/07/01/roadmap-update-2021-q3"/>
         <updated>2021-07-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Auch im Herbst diesen Jahres erwarten Sie wieder spannende Erweiterungen und Verbesserungen bei qmBase.]]></summary>
+        <author>
+            <name>Philipp Pähler</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Roadmap Update 2021 Q2]]></title>
@@ -20,6 +23,9 @@
         <link href="https://help.qmbase.com/Roadmap/2021/04/01/roadmap-update-2021-q2"/>
         <updated>2021-04-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Mit jedem vierteljährlichen Blog-Update stellen wir Ihnen eine Liste der Verbesserungen vor, die wir in qmBase vornehmen. Unser Ziel ist es eine transparente Entwicklung darzustellen, so dass Sie wissen, auf welche Änderungen Sie sich einstellen können.]]></summary>
+        <author>
+            <name>Philipp Pähler</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Roadmap Update 2021 Q1]]></title>
@@ -27,6 +33,9 @@
         <link href="https://help.qmbase.com/Roadmap/2021/01/06/roadmap-update-2021-q1"/>
         <updated>2021-01-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Auch in diesem Jahr, 2021, werden wir qmBase dynamisch weiterentwickeln und die Features verbessern, die Ihnen ihre tägliche Arbeit erleichtern.]]></summary>
+        <author>
+            <name>Philipp Pähler</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Roadmap 2020 2. Halbjahr]]></title>
@@ -34,6 +43,9 @@
         <link href="https://help.qmbase.com/Roadmap/2020/07/23/roadmap-2020-2_-halbjahr"/>
         <updated>2020-07-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Update 1: 21.10.2020 - Die erledigten Aufgaben wurden mit einem ✔️ und die gerade in Bearbeitung befindlichen Aufgaben mit einem 🔧 versehen.]]></summary>
+        <author>
+            <name>Philipp Pähler</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Roadmap 2020 1. HJ]]></title>
@@ -41,5 +53,8 @@
         <link href="https://help.qmbase.com/Roadmap/2020/01/23/roadmap-2020-1_-hj"/>
         <updated>2020-01-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Update 3: 16.07.2020 - Abschluss Roadmap 1. HJ neue Roadmap wird veröffentlicht.]]></summary>
+        <author>
+            <name>Philipp Pähler</name>
+        </author>
     </entry>
 </feed>

@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[83238],{81421:a=>{"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/instandhaltung","name":"Instandhaltung","count":10,"permalink":"/blog/tags/instandhaltung"}')}}]);

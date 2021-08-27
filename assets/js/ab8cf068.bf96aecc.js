@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[90830],{14992:s=>{"use strict";s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/dashboards-reportings","name":"Dashboards & Reportings","count":5,"permalink":"/blog/tags/dashboards-reportings"}')}}]);

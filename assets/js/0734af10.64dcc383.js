@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[35646],{33274:a=>{"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/auditmanagement","name":"Auditmanagement","count":14,"permalink":"/blog/tags/auditmanagement"}')}}]);

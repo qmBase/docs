@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[20673],{68632:a=>{"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/aufgaben-qualifikationen","name":"Aufgaben & Qualifikationen","count":12,"permalink":"/blog/tags/aufgaben-qualifikationen"}')}}]);
