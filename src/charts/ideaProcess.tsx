@@ -1,9 +1,7 @@
 import React from "react";
 import Mermaid from "../theme/mermaid";
 
-interface IProps {}
-
-const IdeaProcess: React.FC<IProps> = (props) => {
+const IdeaProcess: React.FC = () => {
   return (
     <React.Fragment>
       <Mermaid
