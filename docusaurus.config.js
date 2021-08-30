@@ -1,19 +1,18 @@
 /** @type {import('./src/models/whiteLabelConfig').WhiteLabelConfig} */
 const whiteLabel = {
-  productId: "qmBase",
-  vendorName: "qmBase",
-  vendorUrl: "https://qmBase.com/",
+  productId: "Kroschke",
+  vendorName: "Kroschke sign-international GmbH",
+  vendorUrl: "https://kroschke.com/",
+  imprintUrl: "https://kroschke.com/impressum.html",
+  dataPrivacyUrl: "https://kroschke.com/datenschutzerklaerung.html",
+  domain: "guard.kroschke.com",
+  primaryColor: "#00b7c6",
+  productDisplayName: "Kroschke Guard",
+  testAccountDurationAsDays: 28,
   iconUrl:
-    "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/navbarLogo.png",
+    "https://qmbasesupport.blob.core.windows.net/public-icons/kroschke/ksi_logo.png",
   faviconUrl:
-    "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png",
-  primaryColor: "#65ACE0",
-  secondaryColor: "#29375F",
-  imprintUrl: "https://qmbase.com/impressum/",
-  dataPrivacyUrl: "https://qmbase.com/datenschutz/",
-  productDisplayName: "qmBase",
-  testAccountDurationAsDays: 14,
-  domain: "qmbase.com",
+    "https://qmbasesupport.blob.core.windows.net/public-icons/kroschke/favicon.png",
   footerCommunity: {
     title: "Community",
     items: [
