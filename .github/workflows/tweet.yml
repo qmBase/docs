@@ -2,17 +2,21 @@ name: Send a Tweet
 on:
   workflow_dispatch:
     inputs:
-      tweetContent:
+      highlights:
+        description: "Beste neue Features"
+        reuired: true
+        default: "Neue Features ~100 Zeichen"
+      version:
         description: "Tweet content"
         reuired: true
-        default: "New Version released"
+        default: "1.1.157"
 jobs:
   tweet:
     runs-on: ubuntu-latest
     steps:
       - uses: ethomson/send-tweet-action@v1
         with:
-          status: "Hi, this is a test! ${{ github.event.inputs.tweetContent }}"
+          status: "Version ${{ github.event.inputs.version }}: ${{ github.event.inputs.highlights }}  Mehr:https://help.qmbase.com/blog"
           consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
           consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
