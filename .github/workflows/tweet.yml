@@ -7,7 +7,7 @@ on:
         reuired: true
         default: "Neue Features ~100 Zeichen"
       version:
-        description: "Tweet content"
+        description: "Version name"
         reuired: true
         default: "1.1.157"
 jobs:
