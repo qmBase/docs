@@ -1,14 +1,49 @@
+/** @type {import('./src/models/whiteLabelConfig').WhiteLabelConfig} */
+const whiteLabel = {
+  productId: "qmBase",
+  vendorName: "qmBase",
+  vendorUrl: "https://qmBase.com/",
+  iconUrl:
+    "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/navbarLogo.png",
+  faviconUrl:
+    "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png",
+  primaryColor: "#65ACE0",
+  secondaryColor: "#29375F",
+  imprintUrl: "https://qmbase.com/impressum/",
+  dataPrivacyUrl: "https://qmbase.com/datenschutz/",
+  productDisplayName: "qmBase",
+  testAccountDurationAsDays: 14,
+  domain: "qmbase.com",
+  footerCommunity: {
+    title: "Community",
+    items: [
+      {
+        label: "Instagram",
+        href: "https://www.instagram.com/qmbase/",
+      },
+      {
+        label: "Facebook",
+        href: "https://www.facebook.com/qmbase",
+      },
+      {
+        label: "Twitter",
+        href: "https://twitter.com/qmbase",
+      },
+    ],
+  },
+  thisUrl: "https://help.qmbase.com",
+  accountBaseUrl: "https://support.qmbase.com",
+};
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 const config = {
-  title: "qmBase - Docs",
-  tagline:
-    "Hier finden Sie die qmBase-Dokumentation und Tutorials für Einsteiger und Experten",
-  url: "https://help.qmbase.com",
+  title: `${whiteLabel.productDisplayName} - Docs`,
+  tagline: `Hier finden Sie die ${whiteLabel.productDisplayName}-Dokumentation und Tutorials für Einsteiger und Experten`,
+  url: whiteLabel.thisUrl,
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon:
-    "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png",
+  favicon: whiteLabel.faviconUrl,
   organizationName: "qmBase", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
   i18n: {
@@ -19,8 +54,8 @@ const config = {
     navbar: {
       title: "",
       logo: {
-        alt: "qmBase Docs",
-        src: "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/navbarLogo.png",
+        alt: "Navbar brand",
+        src: whiteLabel.iconUrl,
       },
       items: [
         { to: "tutorials", label: "Tutorials", position: "left" },
@@ -37,7 +72,7 @@ const config = {
           position: "left",
         },
         {
-          href: "https://support.qmbase.com/account/findworkspace",
+          href: `${whiteLabel.accountBaseUrl}/account/findworkspace`,
           label: "Login",
           position: "right",
           className: "button button--link navbarBtn",
@@ -71,34 +106,24 @@ const config = {
           title: "qmBase",
           items: [
             {
-              label: "qmBase.com",
-              href: "https://qmbase.com",
+              label: whiteLabel.domain,
+              href: `https://${whiteLabel.domain}`,
             },
             {
               label: "Login",
-              href: "https://support.qmbase.com/account/findworkspace",
+              href: `${whiteLabel.accountBaseUrl}/account/findworkspace`,
             },
           ],
         },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Instagram",
-              href: "https://www.instagram.com/qmbase/",
-            },
-            {
-              label: "Facebook",
-              href: "https://www.facebook.com/qmbase",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/qmbase",
-            },
-          ],
-        },
+        whiteLabel.footerCommunity,
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} qmBase GmbH Built with Docusaurus.<br/><a href="https://www.qmbase.com/impressum/">Impressum</a> | <a href="https://www.qmbase.com/datenschutz/">Data Privacy</a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} ${
+        whiteLabel.vendorName
+      } Built with Docusaurus.<br/><a href="${
+        whiteLabel.imprintUrl
+      }">Impressum</a> | <a href="${
+        whiteLabel.dataPrivacyUrl
+      }">Data Privacy</a>`,
     },
     gtag: {
       trackingID: "UA-75841800-1",
@@ -131,8 +156,10 @@ const config = {
           showReadingTime: true,
           feedOptions: {
             type: "all",
-            description: "Stay up to date with the latest qmBase changes",
-            copyright: `Copyright © ${new Date().getFullYear()} qmBase GmbH`,
+            description: `Stay up to date with the latest ${whiteLabel.productDisplayName} changes`,
+            copyright: `Copyright © ${new Date().getFullYear()} ${
+              whiteLabel.vendorName
+            }`,
           },
           // Please change this to your repo.
           editUrl: "https://github.com/qmBase/docs/tree/master/",
