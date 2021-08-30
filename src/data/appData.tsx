@@ -18,6 +18,23 @@ import {
 import { AppInfo } from "../models/appInfo";
 import { PbdModuleString } from "../models/pbdModuleString";
 
+const enabledApps: PbdModuleString[] = [
+  PbdModuleString.Admin,
+  PbdModuleString.MaintenanceManagement,
+  PbdModuleString.Employees,
+  PbdModuleString.Crm,
+  PbdModuleString.QualityMonitor,
+  PbdModuleString.Blog,
+];
+
+export const isAppEnabled = (dto: AppInfo) => {
+  if (enabledApps.length == 0) {
+    return true;
+  } else {
+    return enabledApps.includes(dto.app);
+  }
+};
+
 export const appData: AppInfo[] = [
   {
     icon: (

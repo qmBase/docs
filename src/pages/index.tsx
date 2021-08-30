@@ -44,28 +44,6 @@ const features = [
       </>
     ),
   },
-  {
-    title: <>qmBase als White Label Lösung</>,
-    imageUrl: "img/undraw_font.svg",
-    description: (
-      <>
-        qmBase ist auch der Motor einiger White Label Lösungen. Die
-        Informationen auf dieser Seite sind auch für die White Label Lösungen
-        gültig. Zu den Lösungen gehören unter anderem:
-        <ul>
-          <li>
-            <Link to="https://jowecon.de/docupro/">DocuPro</Link>
-          </li>
-          <li>
-            <a href="https://carenavigator.de/">DSGVO protect</a>
-          </li>
-          <li>
-            <a href="https://imsbase.de">imsBase</a>
-          </li>
-        </ul>
-      </>
-    ),
-  },
 ];
 
 function Feature({ imageUrl, title, description }) {

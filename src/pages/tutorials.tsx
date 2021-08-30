@@ -3,7 +3,7 @@ import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
 import FeatureCard from "../components/featureCard";
-import { appData } from "../data/appData";
+import { appData, isAppEnabled } from "../data/appData";
 import styles from "./styles.module.css";
 
 function Tutorials() {
@@ -28,6 +28,7 @@ function Tutorials() {
             <div className="container">
               <div className="row">
                 {appData
+                  .filter((x) => isAppEnabled(x))
                   .sort((a, b) => a.title.localeCompare(b.title))
                   .map((props, idx) => (
                     <FeatureCard key={idx} {...props} />

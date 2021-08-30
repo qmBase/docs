@@ -13,25 +13,9 @@ const whiteLabel = {
     "https://qmbasesupport.blob.core.windows.net/public-icons/kroschke/ksi_logo.png",
   faviconUrl:
     "https://qmbasesupport.blob.core.windows.net/public-icons/kroschke/favicon.png",
-  footerCommunity: {
-    title: "Community",
-    items: [
-      {
-        label: "Instagram",
-        href: "https://www.instagram.com/qmbase/",
-      },
-      {
-        label: "Facebook",
-        href: "https://www.facebook.com/qmbase",
-      },
-      {
-        label: "Twitter",
-        href: "https://twitter.com/qmbase",
-      },
-    ],
-  },
-  thisUrl: "https://help.qmbase.com",
-  accountBaseUrl: "https://support.qmbase.com",
+  footerCommunity: {},
+  thisUrl: "https://help.kroschke.guard.com",
+  accountBaseUrl: "https://app.kroschke.guard.com",
 };
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
