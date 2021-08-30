@@ -102,7 +102,7 @@ const config = {
         },
 
         {
-          title: "qmBase",
+          title: whiteLabel.productDisplayName,
           items: [
             {
               label: whiteLabel.domain,
