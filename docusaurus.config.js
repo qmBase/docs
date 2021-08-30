@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('@docusaurus/types').DocusaurusConfig} */
+const config = {
   title: "qmBase - Docs",
   tagline:
     "Hier finden Sie die qmBase-Dokumentation und Tutorials für Einsteiger und Experten",
@@ -163,3 +164,5 @@ module.exports = {
     ],
   ],
 };
+
+module.exports = config;
