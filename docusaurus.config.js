@@ -14,8 +14,8 @@ const whiteLabel = {
   faviconUrl:
     "https://qmbasesupport.blob.core.windows.net/public-icons/kroschke/favicon.png",
   footerCommunity: {},
-  thisUrl: "https://help.kroschke.guard.com",
-  accountBaseUrl: "https://app.kroschke.guard.com",
+  thisUrl: "https://help.guard.kroschke.com",
+  accountBaseUrl: "https://app.guard.kroschke.com",
 };
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
@@ -59,12 +59,6 @@ const config = {
           label: "Login",
           position: "right",
           className: "button button--link navbarBtn",
-        },
-        {
-          href: "https://www.qmbase.com/webinar-vereinbaren/",
-          label: "Jetzt Demo vereinbaren",
-          position: "right",
-          className: "button button--success navbarBtn",
         },
       ],
     },
