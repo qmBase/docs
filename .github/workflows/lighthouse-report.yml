@@ -6,15 +6,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v8
       - name: Audit URLs using Lighthouse
         id: lighthouse_audit
         uses: treosh/lighthouse-ci-action@v3
         with:
           urls: |
             https://help.qmbase.com/
-            https://qmbase.com/
-            https://qmbase.com/preise
+            https://app.qmbase.com/Signup/
+            https://www.qmbase.com/
+            https://www.qmbase.com/preise/
           configPath: ./.github/workflows/v2-lighthousesrc.json
           uploadArtifacts: true
           temporaryPublicStorage: true
