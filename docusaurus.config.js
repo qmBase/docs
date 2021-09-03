@@ -5,7 +5,7 @@ const whiteLabel = {
   vendorUrl: "https://kroschke.com/",
   imprintUrl: "https://kroschke.com/impressum.html",
   dataPrivacyUrl: "https://kroschke.com/datenschutzerklaerung.html",
-  domain: "guard.kroschke.com",
+  domain: "kroschke.com/guard",
   primaryColor: "#00b7c6",
   productDisplayName: "Kroschke Guard",
   testAccountDurationAsDays: 28,
@@ -49,11 +49,6 @@ const config = {
           position: "left",
         },
         { to: "blog", label: "Changelog", position: "left" },
-        {
-          to: "roadmap",
-          label: "Roadmap",
-          position: "left",
-        },
         {
           href: `${whiteLabel.accountBaseUrl}/account/findworkspace`,
           label: "Login",
