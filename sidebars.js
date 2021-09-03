@@ -16,7 +16,6 @@ module.exports = {
     ],
     Apps: [
       "apps/admin",
-      "apps/blog",
       "apps/crm",
       "apps/maintenance-management",
       "apps/employees",
