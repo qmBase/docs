@@ -24,7 +24,6 @@ const enabledApps: PbdModuleString[] = [
   PbdModuleString.Employees,
   PbdModuleString.Crm,
   PbdModuleString.QualityMonitor,
-  PbdModuleString.Blog,
 ];
 
 export const isAppEnabled = (dto: AppInfo) => {
