@@ -113,7 +113,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Instandhaltung",
     description: "",
-    url: "docs/apps/projects-and-tasks",
+    url: "docs/apps/maintenance-management",
     app: PbdModuleString.MaintenanceManagement,
   },
   {
