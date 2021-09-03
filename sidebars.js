@@ -108,11 +108,5 @@ module.exports = {
       "faqs/faq-125",
       "faqs/create-page-templates",
     ],
-    "Best Practices": ["usecases/multi-site"],
-    "Technical Documentation": [
-      "technical/wie-wird-qmbase-entwickelt",
-      "technical/installation",
-    ],
-    Intern: ["tutorial-template", "doc1", "doc2", "doc3", "mdx"],
   },
 };
