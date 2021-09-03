@@ -95,7 +95,7 @@ const config = {
         whiteLabel.imprintUrl
       }">Impressum</a> | <a href="${
         whiteLabel.dataPrivacyUrl
-      }">Data Privacy</a>`,
+      }">Datenschutz</a>`,
     },
     gtag: {
       trackingID: "UA-75841800-1",
