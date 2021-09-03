@@ -10,7 +10,7 @@ const whiteLabel = {
   productDisplayName: "Kroschke Guard",
   testAccountDurationAsDays: 28,
   iconUrl:
-    "https://qmbasesupport.blob.core.windows.net/public-icons/kroschke/ksi_logo.png",
+    "https://qmbasesupport.blob.core.windows.net/public-icons/kroschke/ksi_logo_unter_40mm.png",
   faviconUrl:
     "https://qmbasesupport.blob.core.windows.net/public-icons/kroschke/favicon.png",
   footerCommunity: {},
