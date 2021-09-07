@@ -3,32 +3,30 @@ id: dashboard
 title: Dashboard & Reportings
 ---
 
-TODO IMPORT REACT ICONS
-![](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/QualityMonitor.png)
+:::info Aktuelle Erwweiterungen und Verbesserungen dieser App finden Sie [hier](/blog/tags/dashboard-reportings)
+:::
 
-# Dashboard & Reportings Startseite
+Dies ist die Startseite von Dashboard & Reportings mit den Buttons auf linken Seitenleiste navigieren Sie sich durch die App. Das Dashboard und Reportings wertet für Sie automatisch alle Aktivitäten aus Ihren qmBase Apps aus. Alle relevanten Daten werden automatisch analysiert und aufbereitet. Es dient zur Überwachung und Kontrolle ebenso auch zur Analyse und Bewertung der Prozesse. So können Problemstellen aufgedeckt, vorgebeugt und verhindert werden.
 
-Dies ist die Startseite von Dashboard & Reportings mit den Buttons auf linken Seitenleiste navigieren Sie sich durch die App. Das Dahsboard und Reportings wertet für Sie automatisch alle Aktivitäten aus Ihren qmBase Apps aus. Alle relevanten Daten werden automatisch analysiert und aufbereitet. Es dient zur Überwachung und Kontrolle ebenso auch zur Analyse und Bewertung der Prozesse. So können Problemstellen aufgedeckt, vorgebeugt und verhindert werden.
+![Screenshot Dashboards & Reportings](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/QualityMonitor.png)
 
-TODO INSERT SCREENSHOT DASHBOARD
-
-| Parameter                         | Typ    | Beschreibung                                                                  |
-| --------------------------------- | ------ | ----------------------------------------------------------------------------- |
-| <code>Kosten</code>               | Button | Hier kommen Sie zur Seite der Auswertungen über die Kosten Ihres Unternehmens |
-| <code>Auditmanagement</code>      | Button | Hier kommen Sie zur Seite der Auswertungen der Audits in Ihrem Unternehmen    |
-| <code>Dokumentenmanagement</code> | Button | Hier kommen Sie zur Seite der Auswertungen über das Dokumentenmanagement      |
-| <code>Formulare</code>            | Button | Hier finden Sie Auswertungen über Ihre Formulare                              |
-| <code>Ideenmanagement</code>      | Button | Hier finden Sie Auswertungen über das Ideenmanagement                         |
-| <code>Instandhaltung</code>       | Button | Hier finden Sie Auswertungen über die App Instandhaltung                      |
-| <code>Kundenzufriedenheit</code>  | Button | Hier finden Sie Auswertungen über Ihre Kunden                                 |
-| <code>Lieferantenbewertung</code> | Button | Hier finden Sie Auswertungen über Ihre Lieferanten                            |
-| <code>Mitarbeiter</code>          | Button | Hier finden Sie Auswertungen über Ihre Mitarbeiter                            |
-| <code>Projekte & Maßnahmen</code> | Button | Hier finden Sie Auswertungen über die App Projekte und Maßnahmen              |
-| <code>Reklamationen</code>        | Button | Hier finden Sie Auswertungen zu dem Reklamationsmanagement                    |
-| <code>Risiken & Chancen</code>    | Button | Hier finden Sie Auswertungen zu den Risiken und Chancen                       |
-| <code>Schulungsmanagement</code>  | Button | Hier finden Sie Auswertungen Ihres Schulungsmanagements                       |
-| <code>Wiki</code>                 | Button | Hier finden Sie Auswertungen Ihrer Einträge in der App Wiki                   |
-| <code>Zielmanagement</code>       | Button | Hier finden Sie Auswertungen Ihres Zielmanagements                            |
+| Bereich                           | Beschreibung                                                                  |
+| --------------------------------- | ----------------------------------------------------------------------------- |
+| <code>Auditmanagement</code>      | Hier kommen Sie zur Seite der Auswertungen der Audits in Ihrem Unternehmen    |
+| <code>Dokumentenmanagement</code> | Hier kommen Sie zur Seite der Auswertungen über das Dokumentenmanagement      |
+| <code>Formulare</code>            | Hier finden Sie Auswertungen über Ihre Formulare                              |
+| <code>Ideenmanagement</code>      | Hier finden Sie Auswertungen über das Ideenmanagement                         |
+| <code>Instandhaltung</code>       | Hier finden Sie Auswertungen über die App Instandhaltung                      |
+| <code>Kosten</code>               | Hier kommen Sie zur Seite der Auswertungen über die Kosten Ihres Unternehmens |
+| <code>Kundenzufriedenheit</code>  | Hier finden Sie Auswertungen über Ihre Kunden                                 |
+| <code>Lieferantenbewertung</code> | Hier finden Sie Auswertungen über Ihre Lieferanten                            |
+| <code>Mitarbeiter</code>          | Hier finden Sie Auswertungen über Ihre Mitarbeiter                            |
+| <code>Projekte & Maßnahmen</code> | Hier finden Sie Auswertungen über die App Projekte und Maßnahmen              |
+| <code>Reklamationen</code>        | Hier finden Sie Auswertungen zu dem Reklamationsmanagement                    |
+| <code>Risiken & Chancen</code>    | Hier finden Sie Auswertungen zu den Risiken und Chancen                       |
+| <code>Schulungsmanagement</code>  | Hier finden Sie Auswertungen Ihres Schulungsmanagements                       |
+| <code>Wiki</code>                 | Hier finden Sie Auswertungen Ihrer Einträge in der App Wiki                   |
+| <code>Zielmanagement</code>       | Hier finden Sie Auswertungen Ihres Zielmanagements                            |
 
 ## Kosten
 
@@ -37,7 +35,7 @@ Unter dem Button <code>Kosten</code> finden Sie einen Überblick über alle [Kos
 ## Auditmanagement
 
 Unter dem Button <code>Auditmanagement</code> finden Sie einen Überblick über alle [Audits](audit-management.md) aus Ihrem Unternehmen. Die Grafiken werden automatisch ausgewertet und beziehen sich auf die Daten, die Sie in qmBase hinterlegt haben. Mit den Dropdown Listen können Sie verschiedene Zeitpunkte wählen, um Vergleiche durchzuführen.
-![](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/QualityMonitor/Audits.png)
+![Screenshot Dashboards & Reportings - Audits](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/QualityMonitor/Audits.png)
 
 ## Dokumentenmanagement
 
@@ -78,7 +76,7 @@ Unter dem Tab Projekte werden Ihnen Auswertungen über Projekte angezeigt. Sie s
 
 Unter dem Button <code>Reklamationsmanagement</code> finden Sie einen Überblick über die [Reklamationen](claim-management.md) Ihres Unternehmens. Die Grafiken werden automatisch ausgewertet und beziehen sich auf die Daten, die Sie in qmBase hinterlegt haben. Mit den Dropdown Listen können Sie verschiedene Zeitpunkte wählen, um Vergleiche durchzuführen. Sie sehen auf einem Blick, wie viele Reklamationen erstellt wurden, wie viele Gesamtkosten durch diese Reklamationen entstanden sind und wie viele Reklamationen noch nicht abgeschlossen wurden. Hier erfahren Sie außerdem, wie viel Zeit durchschnittlich für die Bearbeitung einer Reklamation investiert wurde, können den Status der Reklamation einsehen und können Informationen über die Reklamationstypen, die gerechtfertigten Reklamationen und die Verknüpfung von Reklamationen und Maßnahmen abrufen. Wenn Sie weiter nach unten scrollen, werden Tabellen mit den Verantwortlichen der Reklamationen, wer die Reklamation getätigt hat und Reklamationsursachen und verknüpfte Fehler angezeigt.
 Edit: Es wird eine Tabelle mit Überschrift Tage, die unerledigte Reklamationen offen sind aufgeführt: Diese Formulierung ist verwirrend und es wird nicht deutlich was damit gemeint ist. Ich habe ein Ticket erstellt und diese Tabelle nicht mit die Beschreibung reingenommen.
-![](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/QualityMonitor/Claims.png)
+![Screenshot Dashboards & Reportings - Claims](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/QualityMonitor/Claims.png)
 
 ## Risiken und Chancen
 
@@ -91,9 +89,9 @@ Unter dem Button <code>Schulungsmanagement</code> finden Sie einen Überblick ü
 ## Wiki
 
 Unter dem Button <code>Wiki</code> finden Sie einen Überblick über die [Wiki-Einträge](wiki.md) Ihres Unternehmens. Die Grafiken werden automatisch ausgewertet und beziehen sich auf die Daten, die Sie in qmBase hinterlegt haben. Mit den Dropdown Listen können Sie verschiedene Zeitpunkte wählen, um Vergleiche durchzuführen. Sie sehen auf einem Blick, wie viele Artikel erstellt wurden, wie viele Artikel von Ihnen erstellt wurden und wie viele Artikel in dem ausgewählten Zeitraum erstellt wurden. Außerdem werden die Verantwortlichen, die Gesamtansichten und die durchschnittlichen Aufrufe pro Artikel angezeigt und Kategorien der Schulungen ausgewertet. Wenn Sie weiter nach unten scrollen, wird eine Tabelle mit den Ansichten in einem bestimmten Zeitraum und Ansichten pro Person angezeigt.
-![](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/QualityMonitor/KnowledgeBase.png)
+![Screenshot Dashboards & Reportings - Wiki](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/QualityMonitor/KnowledgeBase.png)
 
 ## Zielmanagement
 
 Unter dem Button <code>Zielmanagement</code> finden Sie einen Überblick über die [Ziele](goal-management.md) Ihres Unternehmens. Die Grafiken werden automatisch ausgewertet und beziehen sich auf die Daten, die Sie in qmBase hinterlegt haben. Mit den Dropdown Listen können Sie verschiedene Zeitpunkte wählen, um Vergleiche durchzuführen. Sie sehen auf einem Blick, wie viele Ziele erstellt wurden, wie viele Ziele von Ihnen erstellt wurden und wie viele Ziele monatlich erledigt wurden. Außerdem werden die Verantwortlichen und der Status der Ziele angezeigt.
-![](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/QualityMonitor/Goals.png)
+![Screenshot Dashboards & Reportings - Goals](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/QualityMonitor/Goals.png)
