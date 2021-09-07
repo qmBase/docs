@@ -44,21 +44,6 @@ const features = [
       </>
     ),
   },
-  {
-    title: (
-      <>
-        <Link to="/roadmap">Roadmap</Link>
-      </>
-    ),
-    imageUrl: "img/undraw_right_direction.svg",
-    description: (
-      <>
-        Ausblick auf unsere zukünftigen Entwicklungen und Planungen. Unsere
-        Roadmap wird laufend aktualisiert und an aktuelle Anforderungen
-        angepasst.
-      </>
-    ),
-  },
 ];
 
 function Feature({ imageUrl, title, description }) {
