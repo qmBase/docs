@@ -22,11 +22,11 @@ In der App Reklamationsmanagement gibt es die folgenden Funktionen:
 
 Reklamationen erfassen Sie in wenigen Schritten.
 
-1.  Melden Sie sich in Ihrem qmBase Account an.
+1. Melden Sie sich in Ihrem qmBase Account an.
 
-2.  Suchen Sie in der App Suchleiste nach Reklamationsmanagement und wechseln Sie zu der App.
+2. Suchen Sie in der App Suchleiste nach Reklamationsmanagement und wechseln Sie zu der App.
 
-3.  Klick Sie auf den Button "Eine neue Reklamation erstellen"
+3. Klick Sie auf den Button "Eine neue Reklamation erstellen"
 
 ![](https://caqadmin.blob.core.windows.net/faqs/119-images/c596a7fb-9d31-4e32-9e2a-ff9e167fee97-mceclip0.png)
 
