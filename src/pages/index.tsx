@@ -29,18 +29,33 @@ const features = [
   {
     title: (
       <>
-        <Link to="/blog">Roadmap & Changelog</Link>
+        <Link to="/blog">Changelog</Link>
       </>
     ),
     imageUrl: "img/undraw_navigator.svg",
     description: (
       <>
-        Ausblick auf unsere zukünftigen Entwicklungen und Veröffentlichung der
-        neuesten Verbesserungen und Änderungen. Verpassen Sie keine Updates und
-        abonnieren Sie unseren{" "}
+        Veröffentlichung der neuesten Verbesserungen und Änderungen. Verpassen
+        Sie keine Updates und abonnieren Sie unseren{" "}
         <a href={"/blog/atom.xml"}>
           <FaRss /> Feed
         </a>
+        .
+      </>
+    ),
+  },
+  {
+    title: (
+      <>
+        <Link to="/roadmap">Roadmap</Link>
+      </>
+    ),
+    imageUrl: "img/undraw_right_direction.svg",
+    description: (
+      <>
+        Ausblick auf unsere zukünftigen Entwicklungen und Planungen. Unsere
+        Roadmap wird laufend aktualisiert und an aktuelle Anforderungen
+        angepasst.
       </>
     ),
   },
