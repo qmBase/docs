@@ -7,7 +7,7 @@ Dies ist die Seite Profil, hier sind die Informationen des qmBase Nutzers hinter
 Sie haben die Möglichkeit Ihre Accountinformationen, also Nutzernamen und Passwort zu ändern.
 Mit den Buttons auf linken Seitenleiste navigieren Sie sich durch die App.
 
-![](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Profile/MyProfile.png)
+![Screenshot Profile](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Profile/MyProfile.png)
 
 | Parameter                   | Typ    | Beschreibung                                                                                                                                               |
 | --------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -24,6 +24,16 @@ Nachdem Sie eine Sprache ausgewählt haben, werden Sie gebeten die Seite zu aktu
 
 > Ein Hinweis: Die Sprachen Englisch und Deutsch werden regelmäßig aktualisiert. Alle anderen Sprachen werden auf Nachfrage aktualisiert.
 
+### Die qmBase Menüs sind nicht auf deutsch, was kann ich tun?
+
+Wenn Sie die Sprache des Systems umstellen wollen, dann gelingt dies am schnellsten über das **?**-Menü in der Kopfzeile. Dort finden Sie den Menüpunkt _Language_, dieser führt Sie direkt an die Stelle in ihrem Nutzerprofil wo Sie die Sprache umstellen können.
+
+Sollte nur einzelne Begriffe innerhalb des qmBase-Menüs nicht in der richtigen Sprache sein, dann ist dies vermutlich auf fehlende Übersetzungen zurückzuführen. Um diese möglichst schnell zu beheben ist es hilfreich, wenn uns über das systeminterne Ticketsystem (_Verbesserung zur Website_) einen kurzen Hinweis geben. Vielen Dank!
+
+### Das Datumsformat stimmt nicht (MMTTJJJJ statt TT.MM.JJJJ ), was kann ich tun?
+
+Das Datumsformat ist abhängig von der eingestellten Sprache. Sie können Ihre Sprache umstellen unter _Profil -> Sprache_ oder _? -> Language_. Manchmal ist es notwendig die Sprache noch einmal aktiv einzustellen, da manche Browser Schwierigkeiten haben die Sprache automatisch zu erkennen.
+
 ## Wie ändere ich Nutzereinstellungen?
 
 Klicken Sie auf den Button <code>Einstellungen</code> um zu den Nutzereinstellungen zu gelangen. Hier können Sie allgemeine Einstellungen ändern, wie zum Beispiel das Farbschema der Software, die Icon Farben der Module und die Größe der Navigationsleiste.
@@ -37,5 +47,3 @@ Wählen Sie auf der linken Navigationsleiste den Button <code>Verbesserungen</co
 
 Klicken Sie auf den Button <code>Kalender</code> um zu Ihrem Kalender zu gelangen. In Ihrem Kalender sehen Sie den aktuellen Monat und Ihre Termine, die innerhalb der qmBase Software erstellt wurden. Hierbei kann es sich um Schulungen, Audits etc. handeln. Der aktuelle Tag ist farblich gekennzeichnet. Mit den Pfeiltasten können Sie sich in dem Kalender navigieren und vergangene oder zukünftige Monate ansehen. Links haben Sie die Möglichkeit den Kalender als iCal zu veröffentlichen, indem Sie den Regler betätigen.
 Die Veröffentlichung Ihrer Veranstaltungen als iCal ermöglicht es, diesen Kalender in Ihren privaten Kalender zu integrieren. Dadurch wird ein Link erzeugt, der öffentlich zugänglich ist.
-
-### Auswirkungen (TODO)
