@@ -8,19 +8,8 @@ module.exports = {
       "feedback",
       "benachrichtigungen",
     ],
-    Account: [
-      "account/account-register",
-      "account/account-login",
-      "account/profile",
-      "account/account-externalLogin",
-    ],
-    Apps: [
-      "apps/admin",
-      "apps/crm",
-      "apps/maintenance-management",
-      "apps/employees",
-      "apps/dashboard",
-    ],
+    Account: ["account/account-register", "account/account-login"],
+    Apps: ["apps/crm", "apps/maintenance-management"],
     FAQs: [
       "faqs/smartViews",
       "faqs/supported-browsers",

@@ -41,7 +41,6 @@ const config = {
         src: whiteLabel.iconUrl,
       },
       items: [
-        { to: "tutorials", label: "Tutorials", position: "left" },
         {
           to: "docs/general",
           activeBasePath: "docs",

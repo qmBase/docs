@@ -6,17 +6,8 @@ import clsx from "clsx";
 import React from "react";
 import { FaRss } from "react-icons/fa";
 import styles from "./styles.module.css";
+
 const features = [
-  {
-    title: <Link to="/docs/getting-started">Tutorials - Einfach loslegen</Link>,
-    imageUrl: "img/undraw_teaching.svg",
-    description: (
-      <>
-        Finden Sie hier Tutorials, die Ihnen den Einstieg in die Software
-        erleichtern. Starten Sie innerhalb von 5 Minuten.
-      </>
-    ),
-  },
   {
     title: (
       <Link to="/docs/faqs/smart-views">
