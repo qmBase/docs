@@ -4,6 +4,7 @@ title: Login / Anmeldung
 ---
 
 import ProductExampleUrl from "./../\_productExampleUrl.mdx";
+import SupportEmailLink from "./../\_supportEmailLink.mdx";
 
 Nachdem Sie sich registriert haben und Ihr Konto bestätigt haben, können Sie sich bei Ihrem qmBase Konto anmelden. Öffnen Sie dazu einfach Ihre qmBase Version in Ihrem Browser z.B.
 
@@ -54,7 +55,7 @@ Nein, das ist aus Sicherheitsgründen nicht möglich. Sollte es dennoch erforder
 
 :::info Geschlossene Beta Version
 
-Dieses Feature wurde neu entwickelt und befindet sich noch in einer Beta Testphase. Falls Sie Interesse daran haben, diese Funktion zu testen wenden Sie sich bitte an [support@qmbase.com](mailto:support@qmbase.com)
+Dieses Feature wurde neu entwickelt und befindet sich noch in einer Beta Testphase. Falls Sie Interesse daran haben, diese Funktion zu testen wenden Sie sich bitte an <SupportEmailLink/>
 
 :::
 
