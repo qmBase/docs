@@ -4,7 +4,6 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
-import { FaRss } from "react-icons/fa";
 import styles from "./styles.module.css";
 
 const features = [
@@ -25,14 +24,7 @@ const features = [
     ),
     imageUrl: "img/undraw_navigator.svg",
     description: (
-      <>
-        Veröffentlichung der neuesten Verbesserungen und Änderungen. Verpassen
-        Sie keine Updates und abonnieren Sie unseren{" "}
-        <a href={"/blog/atom.xml"}>
-          <FaRss /> Feed
-        </a>
-        .
-      </>
+      <>Veröffentlichung der neuesten Verbesserungen und Änderungen.</>
     ),
   },
 ];

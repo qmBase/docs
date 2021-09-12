@@ -5,8 +5,6 @@ module.exports = {
       "startpage",
       "general",
       "common-features",
-      "feedback",
-      "benachrichtigungen",
     ],
     Account: ["account/account-register", "account/account-login"],
     Apps: ["apps/crm", "apps/maintenance-management"],

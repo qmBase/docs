@@ -10,53 +10,6 @@ title: Instandhaltung
 
 Die App für das Instandhaltungsmanagement und zur Prüfmittelverwaltung unterstützt Sie in der Verwaltung Ihrer Inventargegenstände. Jedem Inventargegenstand können frei definierbare Inventarprüfungen mit den notwendigen Wiederholungsintervallen zugeordnet werden. Dadurch ergibt sich Ihr Wartungsplan ganz automatisch von selbst. Sämtliche Aktivitäten des Instandhaltungsmanagements und der Prüfmittelverwaltung automatisch ausgewertet und langfristig dokumentiert.
 
-## QR Code Etiketten erstellen zur einfachen digitalen Erfassung von Prüfungen
-
-Nachdem Sie Ihr Inventar in qmBase erfasst haben, stellt sich die Frage, wie Sie es schaffen möglichst einfach und nahtlos Prüfungen zu erfassen.
-Ein Ansatz hierfür ist das erstellen von Etiketten mit einem QR Code, so dass Sie Prüfungen einfach mit Ihrem Smartphone oder Tablet erfassen können.
-
-:::note Was benötigen Sie?
-qmBase, Excel, Word vorgefertigte Etiketten und einen Drucker
-:::
-
-Wie Sie das in drei einfach Schritten schaffen stellen wir Ihnen hier vor.
-
-1. Exportieren Sie die Gegenstände, die Sie etikettieren möchten
-2. Nutzen Sie unsere Excel Vorlage, um die Links zu erzeugen
-3. Drucken Sie Ihre Etiketten als Serienbrief und etikettieren Sie Ihre Gegenstände
-
-### Exportieren Sie die Gegenstände
-
-Wählen Sie die Gegenstände aus, die Sie etikettieren möchten. Anschließend können Sie diese Gegenstände aus qmBase exportieren.
-
-### Nutzen Sie unsere Excel Vorlage zur Erzeugung der Links
-
-In unserer Vorlage müssen Sie folgende Spalten ausfüllen.
-
-Download: [Etiketten_qmBase_qr.xlsx](./../assets/Etiketten_qmBase_qr.xlsx)
-
-- Anzeigename: Lesbarer Text, der zusätzlich zum QR Code angezeigt wird
-- ID: qmBase Identifikationsnummer des Gegenstands
-- HostName: Name Ihrer qmBase Instanz z.B. https://meineFirma.qmbase.com
-- Path: Unverändert lassen
-
-### Drucken Sie die Etiketten als Serienbrief
-
-Wenn Sie Tabelle aus dem vorherigen Schritt erstellt haben, können Sie sich hier den Serienbrief als Vorlage herunterladen. Achtung: Word meldet beim Öffnen der Datei einen beschädigten Datensatz. Dies kann aber durch einen Klick auf Wiederherstellen behoben werden.
-
-Download: [Etiketten_qmBase_qr.docx](./../assets/Etiketten_qmBase_qr.docx)
-
-Für Ihren eigenen Seriebrief können Sie folgende Feldfunktioinen verwenden:
-
-- QR Code: <code>DISPLAYBARCODE MERGEFIELD Url QR \q 3 \s 5</code>
-- Anzeigename: <code>MERGEFIELD Anzeigename</code>
-
-In unsere Vorlage verwenden wir Etiketten der Größe 45x45mm. Diese Größe reicht in der Regel aus, damit die Etiketten problemlos von Ihrer Kamera erkannt werden können. Für andere Größen und Etiketten Formen können Sie entweder unsere Vorlage anpassen oder mit dem Word Serienbrief Assistenten mit wenigen Klicks Ihre eigene Vorlage designen. Mehr Informationen zur Erstellungen von Serienbriefen finden Sie [hier](https://www.google.de/search?q=office+serienbrief+erstellen).
-
-### Etikettieren Sie Ihre Gegenstände
-
-Die Etiketten können jetzt mit der Serienbrief Funktion von Word gedruckt werden und auf Ihren Inventargegenständen verteilt werden. Danach können Sie die Etiketten einfach einscannen und sofort Prüfungen und Prüfdaten erfassen.
-
 ## FAQs Instandhaltung
 
 #### Welche Daten soll ich erfassen
