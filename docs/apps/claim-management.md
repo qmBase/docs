@@ -188,3 +188,13 @@ In der Vorauswahl finde Sie alle mit der Reklamation verknüpften Maßnahmen.
 #### D8 Würdigen der Teamleistung
 
 Die gemeinsame Anstrengung wird gewürdigt und die Erfahrungen ausgetauscht.
+
+### Reklamationsmanagement FAQs
+
+Hier finden Sie alle FAQs zum Reklamationsmanagement.
+
+#### Bei der Erfassung von Reklamationen kann ich die Menge und die Einheiten der reklamaierten Waren eintragen. Wie kann ich neue Einheiten zur Auswahl definieren?
+
+Die Einheiten für die Menge der reklamierten Waren lassen sich in den allgemeinen Einstellungen definieren:
+
+_Einstellungen -> Allgemein -> Einheiten_
