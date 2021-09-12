@@ -3,9 +3,11 @@ id: account-login
 title: Login / Anmeldung
 ---
 
-Nachdem Sie sich registriert haben und Ihr Konto bestätigt haben, können Sie sich bei Ihrem qmBase Konto anmelden. Öffenen Sie dazu einfach Ihre qmBase Version in Ihrem Browser z.B.
+import ProductExampleUrl from "./../\_productExampleUrl.mdx";
 
-_https://meineFirma.qmbase.com_
+Nachdem Sie sich registriert haben und Ihr Konto bestätigt haben, können Sie sich bei Ihrem qmBase Konto anmelden. Öffnen Sie dazu einfach Ihre qmBase Version in Ihrem Browser z.B.
+
+<ProductExampleUrl />
 
 und geben Sie Ihre Anmeldedaten ein.
 
@@ -15,7 +17,7 @@ und geben Sie Ihre Anmeldedaten ein.
 
 Nachdem Sie Ihren Account erstellt haben, können Sie sich bei qmBase anmelden. Bei Ihrer ersten Anmeldung werden Sie gefragt, wer Sie sind. Bisher kennen wir nur Ihren Nutzernamen (E-Mail Adresse) und Ihr Passwort. Damit Sie für die anderen Nutzer leichter zu erkennen sind, erstellen Sie jetzt Ihr persönlich Profil. Dies beinhaltet mindestens Ihren Namen. Daher werden Sie zunächst nach Ihrem Vor- und Nachnamen gefragt. Sollte bereits eine Person innerhalb von qmBase angelegt sein, die Ihre E-Mail Adresse hat, werden Sie dieser Person automatisch zugeordnet, so dass Sie Ihren Namen nicht angeben müssen.
 
-Wir verwenden aussließlich die E-Mail Adresse für einen Vergleich, weil eine E-Mail Adresse per Definition eindeutig sein muss und nicht mehrfach vorkommen kann.
+Wir verwenden ausschließlich die E-Mail Adresse für einen Vergleich, weil eine E-Mail Adresse per Definition eindeutig sein muss und nicht mehrfach vorkommen kann.
 
 ### Beispiel
 
@@ -60,7 +62,7 @@ Durch die Verwendung der Zwei-Faktor-Authentifizierung wird eine zusätzliche Si
 
 ### Wie funktioniert es?
 
-Neben der normalen Anmeldung mit Benutzernamen und Passwort wird eine neue Sicherheitsebene durch die Verwendung eines zeitbasierten Einmalpassworts (TOTP) hinzugefügt. Eine Authenticator-App wird auf Ihr Mobiltelefon heruntergeladen, generiert einen 6- bis 8-stelligen Code und der Benutzer muss diesen nach der Bestätigung seines Benutzernamens und Passworts zusätzlich eingeben.
+Neben der normalen Anmeldung mit Benutzernamen und Passwort wird eine neue Sicherheitsebene durch die Verwendung eines zeitbasierten Einmalpassworts (TOTP) hinzugefügt. Eine Authentikator-App wird auf Ihr Mobiltelefon heruntergeladen, generiert einen 6- bis 8-stelligen Code und der Benutzer muss diesen nach der Bestätigung seines Benutzernamens und Passworts zusätzlich eingeben.
 
 ### Wie kann es aktiviert werden?
 
