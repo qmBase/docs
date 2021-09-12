@@ -4,6 +4,12 @@ This website is the documentation for [qmBase](https://qmbase.com).
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
+## Status
+
+help.qmbase.com
+
+[![Build and Deploy](https://github.com/qmBase/docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/qmBase/docs/actions/workflows/deploy.yml)
+
 ## Prerequisites
 
 Download and install VS Code clone this repository and follow the instructions
