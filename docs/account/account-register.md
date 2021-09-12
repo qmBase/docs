@@ -3,9 +3,11 @@ id: account-register
 title: Registrieren
 ---
 
+import ProductExampleUrl from "./../\_productExampleUrl.mdx";
+
 Um mit der Nutzung von qmBase zu starten, benötigen Sie einen Account. Den Account legen Sie an, in dem Sie auf die Seite Ihrer qmBase Version gehen z.B.
 
-_https://meineFirma.qmbase.com_
+<ProductExampleUrl />
 
 ![register](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-05-24_register.png)
 
