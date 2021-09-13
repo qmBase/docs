@@ -4,8 +4,9 @@ title: Registrieren
 ---
 
 import ProductExampleUrl from "./../\_productExampleUrl.mdx";
+import ProductDisplayName from "./../\_productDisplayName.mdx";
 
-Um mit der Nutzung von qmBase zu starten, benötigen Sie einen Account. Den Account legen Sie an, in dem Sie auf die Seite Ihrer qmBase Version gehen z.B.
+Um mit der Nutzung von <ProductDisplayName/> zu starten, benötigen Sie einen Account. Den Account legen Sie an, in dem Sie auf die Seite Ihrer <ProductDisplayName/> Version gehen z.B.
 
 <ProductExampleUrl />
 

@@ -6,8 +6,12 @@ module.exports = {
       "general",
       "common-features",
     ],
-    Account: ["account/account-register", "account/account-login"],
-    Apps: ["apps/crm", "apps/maintenance-management"],
+    Account: [
+      "account/account-register",
+      "account/account-login",
+      "account/profile",
+    ],
+    Apps: ["apps/admin", "apps/maintenance-management"],
     FAQs: [
       "faqs/smartViews",
       "faqs/supported-browsers",

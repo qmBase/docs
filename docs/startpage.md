@@ -3,9 +3,10 @@ id: startpage
 title: Startseite
 ---
 
+import ProductDisplayName from "./\_productDisplayName.mdx";
 import { FaCaretDown, FaInfo, FaPlus, FaLink, FaList, FaStar, FaCog } from "react-icons/fa";
 
-Dies ist die Startseite von qmBase, dies ist die Seite, die Ihnen nach jedem Login Vorgang angezeigt wird. Über den Klick auf das qmBase Logo am oberen linken Bildschirmrand gelangen Sie immer auf diese Startseite, egal wo Sie sich gerade in der Software befinden.
+Dies ist die Startseite von <ProductDisplayName/>, dies ist die Seite, die Ihnen nach jedem Login Vorgang angezeigt wird. Über den Klick auf das <ProductDisplayName/> Logo am oberen linken Bildschirmrand gelangen Sie immer auf diese Startseite, egal wo Sie sich gerade in der Software befinden.
 
 > Tipp: Im Bereich **Admin** unter dem Punkt _Individualisierung_ können Sie auch Ihr eigenes Logo hochladen.
 
@@ -13,7 +14,7 @@ Dies ist die Startseite von qmBase, dies ist die Seite, die Ihnen nach jedem Log
 
 ## Navigationsleiste
 
-Neben dem qmBase Logo finden Sie die Navigationsleiste, über diese gelangen Sie zu einzelnen Apps, einer Suchleiste für Apps, Benachrichtigungen, Einstellungen, der Hilfe und Ihrem [Profil](account/profile).
+Neben dem <ProductDisplayName/> Logo finden Sie die Navigationsleiste, über diese gelangen Sie zu einzelnen Apps, einer Suchleiste für Apps, Benachrichtigungen, Einstellungen, der Hilfe und Ihrem [Profil](account/profile).
 
 ### Apps
 
@@ -25,10 +26,10 @@ In der Suchleiste können Sie Suchbegriffe für Apps eingeben, um direkt zu den 
 
 Über das Icon <FaCog/> haben Sie einen Schnellzugriff zu den Einstellungen Ihres [Profils](account/profile) oder wenn Sie Admin sind, zu dem Bereich [Admin](apps/admin.mdx).
 
-Mit dem letzten Icon, dem <code>Fragezeichen</code> können Sie auf Hilfe zur qmBase Software zurückgreifen.
+Mit dem letzten Icon, dem <code>Fragezeichen</code> können Sie auf Hilfe zur <ProductDisplayName/> Software zurückgreifen.
 In der Liste können Sie zwischen den Optionen **Hilfe & Kontakt**, **geführte Tour starten**, **Schicken Sie und Feedback** und **Software Aktualisierungen** wählen.
 Über **Hilfe und Kontakt** können Sie den Support kontaktieren oder selbst nach Lösungen für Ihr Problem suchen.
-Mit der Auswahl der Taste **Geführte Tour starten**, wird eine Tour durch die qmBase Software gestartet, diese können Sie mit einem Klick starten, falls Sie noch einmal in Kürze die wichtigsten Informationen über die Startseite oder ausgewählte Apps erhalten wollen.
+Mit der Auswahl der Taste **Geführte Tour starten**, wird eine Tour durch die <ProductDisplayName/> Software gestartet, diese können Sie mit einem Klick starten, falls Sie noch einmal in Kürze die wichtigsten Informationen über die Startseite oder ausgewählte Apps erhalten wollen.
 
 Am Ende der Navigationsleiste finden Sie Ihren Namen, wenn Sie auf ihren Namen klicken, können Sie die [Profileinstellungen](account/profile) auswählen und Änderungen an Ihrem Profil vornehmen.
 Um sich abzumelden, klicken Sie auf das Icon <code>Abmelden</code>.
@@ -37,9 +38,9 @@ Um sich abzumelden, klicken Sie auf das Icon <code>Abmelden</code>.
 
 In diesem Bereich sehen Sie die aktuellsten Beitrag aus der App Blog. Bei dem aktuellsten Beitrag handelt es sich um die zuletzt erstelle Revision alle Artikel aus der App Blog.
 
-## Willkommen bei qmBase - Der Hauptbereich
+## Willkommen bei <ProductDisplayName/> - Der Hauptbereich
 
-Auf der Startseite haben Sie neben der Auflistung in der Navigationsleiste, einen Überblick über die qmBase Apps.
+Auf der Startseite haben Sie neben der Auflistung in der Navigationsleiste, einen Überblick über die <ProductDisplayName/> Apps.
 Durch den modularen Aufbau der Software ist es möglich, dass einige Apps für Sie nicht verfügbar sind. Dies kann daran liegen, dass diese nicht Bestandteil Ihres Abonnements sind.
 Mit dem Button <FaPlus/> können Sie bei bestimmten Apps direkt einen neuen Eintrag erstellen z.B. eine neue Maßnahme. Das Icon <FaList/> daneben navigiert Sie zu der Übersicht der einzelnen Apps. Über die Suchleiste können Sie nach bestimmten Apps suchen.
 Mit dem <FaStar/> Icon können Sie einzelne Apps als Favoriten abspeichern. Favoriten tauchen dann als erstes oberhalb dieser Liste auf.
