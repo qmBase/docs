@@ -46,20 +46,25 @@ Administratoren haben Zugriff auf alle Funktionen und unterliegen keinen Einschr
 Wenn diese Zugriffssteuerungen auf App Ebene nicht ausreichen, haben Sie zusätzlich die Möglichkeit eine Zugriffssteuerung auf der Ebene der einzelnen Einträge vorzunehmen.
 
 :::info
-Diese Funtion befindet sich noch in der Vorschau und ist nicht vollständig umgesetzt. Weitere Punkte, die noch umgesetzt werden müssen, finden Sie am Ende dieses Abschnitts.
+Hierbei handelt es sich um ein neues Feature. Wir haben haben noch viele Erweiterungen zu dieser Funktion geplant. Diese finden Sie am Ende dieser Seite. Derzeit betreffen die Einschränkungen lediglich die **Sichtbarkeit** von Einträgen.
 :::
 
 Diese Funktion ist in folgenden Apps von qmBase verfügbar:
 
-| App                              | Status | Weitere Details                                           |
-| -------------------------------- | ------ | --------------------------------------------------------- |
-| Audits                           | 🔧     | Sichtbarkeit in Tabellen und Detailansicht eingeschränkt  |
-| Schulungen                       | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
-| Formulare                        | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
-| Dokumentenmanagement, WIKI, Blog | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
-| Reklamationen                    | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
-| Maßnahmen                        | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
-| Ziele                            | 🔧     | Sichtbarkeit in Tabellen und Detailsansicht eingeschränkt |
+| App                              | Index | Details |
+| -------------------------------- | ----- | ------- |
+| Audits                           | ✔     | ✔       |
+| Aufgaben & Qualifikationen       | ✔     | ✔       |
+| Schulungen                       | ✔     | ✔       |
+| Formulare                        | ✔     | ✔       |
+| Dokumentenmanagement, WIKI, Blog | ✔     | ✔       |
+| Reklamationen                    | ✔     | ✔       |
+| Maßnahmen                        | ✔     | ✔       |
+| Ziele                            | ✔     | ✔       |
+
+> Legende:<br/>
+> Index - Übersichtstabelle zur App;
+> Details - Detailsansicht des entsprechenden Eintrags
 
 Die Steuerung des Zugriffs kann durch die folgenden Personen erfolgen:
 
@@ -71,7 +76,7 @@ Um den Zugriff festzulegen, gehen Sie wie folgt vor:
 
 1. Klicken Sie auf den Eintrag z.B. ein Audit.
 2. Wählen Sie den Tab **<code><VscKey/> Zugriff</code>** aus.
-3. Makieren Sie den Eintrag als Privat.
+3. Markieren Sie den Eintrag als Privat.
 
 Ab diesem Zeitpunkt ist der Eintrag nur noch für die Personen sichtbar, die unter **Zugriff verwalten** bzw. in der Karte **Standardzugriff** aufgeführt sind.
 
@@ -80,6 +85,8 @@ Ab diesem Zeitpunkt ist der Eintrag nur noch für die Personen sichtbar, die unt
 In diesem Bereich haben Sie die Möglichkeit einzelnen Nutzern Zugriff zu einem privaten Eintrag zu erteilen. Mit dem Zugriff an dieser Stelle überschreiben Sie die Einstellungen, die über Rollen festgelegt wurden.
 
 Bitte beachten Sie hierbei, dass es sich nur um den Zugriff auf einen einzelnen Eintrag (z.B. Audit) handelt. Geben Sie einen Eintrag (z.B. Audit) aus einer App (z.B. Auditmanagement) für einen Nutzer frei, der sonst keinen Zugriff auf dieses App hat, bleibt der Zugriff auf den einzelnen Eintrag beschränkt.
+
+<!--
 
 #### Zugriff für einzelne Nutzer festlegen
 
@@ -92,11 +99,13 @@ Nutzer kann Eintrag aufrufen und kopieren. Zusätzlich kann der Nutzer Kommentar
 ##### Schreiben
 
 Nutzer kann alles aus lesend und Eintrag editieren
+-->
 
-### Todos & Roadmap
+### Todos & Roadmap für die Zugriffssteuerung
 
-- Filter für private Einträge in Listen
+- Änderungen des Zugriffs für mehrere Elemente in einem Schritt
 - Zugriffe basierend auf Gruppen
 - Zugriffe basierend auf individuellen Rollen
 - Sichtbarkeit der Einträge aus Verknüpfungen. Wenn Sie z.B. ein privates Audit erstellt haben ist es trotzdem für alle Personen sichtbar, die Zugriff auf eine verknüpfte Maßnahme haben. Der Klick auf das Audit funktioniert allerdings nicht.
 - Kommentare auf den App Startseiten sind unbeeinflusst von eventuellen Sichtbarkeitseinstellugen
+- Zugriffsarten festlegen lesend vs. schreibend
