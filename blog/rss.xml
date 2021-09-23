@@ -4,10 +4,17 @@
         <title>qmBase - Docs Blog</title>
         <link>https://help.qmbase.com/blog</link>
         <description>Stay up to date with the latest qmBase changes</description>
-        <lastBuildDate>Mon, 30 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Sep 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2021 qmBase</copyright>
+        <item>
+            <title><![CDATA[Version 1.1.158]]></title>
+            <link>https://help.qmbase.com/blog/2021/09/17/version-1_1_158</link>
+            <guid>Version 1.1.158</guid>
+            <pubDate>Fri, 17 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Version 1.1.158 ist verfügbar. Das Highlight dieser Version ist die allgemine Verfügbarkeit des Eingeschränkten Zugriffs auf einzelne Elemente in verschiedenen Apps.]]></description>
+        </item>
         <item>
             <title><![CDATA[Version 1.1.157]]></title>
             <link>https://help.qmbase.com/blog/2021/08/30/version-1_1_157</link>
