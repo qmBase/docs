@@ -1,0 +1,1 @@
+(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[92880],{10375:e=>{"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/dokumentenmanagement","name":"Dokumentenmanagement","count":30,"permalink":"/blog/tags/dokumentenmanagement"}')}}]);
