@@ -4,19 +4,23 @@ on:
     inputs:
       highlights:
         description: "Beste neue Features"
-        reuired: true
+        required: true
         default: "Neue Features ~100 Zeichen"
       version:
         description: "Version name"
-        reuired: true
+        required: true
         default: "1.1.157"
+      urlToBlogPost:
+        description: "Url to blog post"
+        required: true
+        default: "https://help.qmbase.com/blog/2021/10/01/version-1_1_159"
 jobs:
   tweet:
     runs-on: ubuntu-latest
     steps:
       - uses: ethomson/send-tweet-action@v1
         with:
-          status: "Version ${{ github.event.inputs.version }}: ${{ github.event.inputs.highlights }}  Mehr:https://help.qmbase.com/blog"
+          status: "Version ${{ github.event.inputs.version }}: ${{ github.event.inputs.highlights }}  Mehr:${{ github.event.inputs.urlToBlogPost}}"
           consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
           consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
