@@ -32,7 +32,7 @@ const whiteLabel = {
     ],
   },
   thisUrl: "https://help.qmbase.com",
-  accountBaseUrl: "https://support.qmbase.com",
+  accountBaseUrl: "https://app.qmbase.com",
 };
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
