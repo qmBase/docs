@@ -1847,10 +1847,10 @@
   resolved "https://registry.npmjs.org/@types/q/-/q-1.5.4.tgz"
   integrity sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==
 
-"@types/react-helmet@^6.1.3":
-  version "6.1.3"
-  resolved "https://registry.yarnpkg.com/@types/react-helmet/-/react-helmet-6.1.3.tgz#1a58b26a79e464c59d3f9cdd5b7ece485335937b"
-  integrity sha512-U4onVxaZxAp78KpXsfmyCIhLjsvJJ3goG3CYFOo+xW0cPYAz9oe5cBAUSAcN7l35OTbrFvu9TuE0YkcZMKGr4A==
+"@types/react-helmet@^6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@types/react-helmet/-/react-helmet-6.1.4.tgz#3e54a3eb37ba7fb34ffafc64f425be4e68df03b9"
+  integrity sha512-jyx50RNZXVaTGHY3MsoRPNpeiVk8b0XTPgD/O6KHF6COTDnG/+lRjPYvTK5nfWtR3xDOux0w6bHLAsaHo2ZLTA==
   dependencies:
     "@types/react" "*"
 
@@ -1871,16 +1871,7 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react@*":
-  version "17.0.11"
-  resolved "https://registry.npmjs.org/@types/react/-/react-17.0.11.tgz"
-  integrity sha512-yFRQbD+whVonItSk7ZzP/L+gPTJVBkL/7shLEF+i9GC/1cV3JmUxEQz6+9ylhUpWSDuqo1N9qEvqS6vTj4USUA==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@^17.0.29":
+"@types/react@*", "@types/react@^17.0.29":
   version "17.0.29"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.29.tgz#9535f3fc01a4981ce9cadcf0daa2593c0c2f2251"
   integrity sha512-HSenIfBEBZ70BLrrVhtEtHpqaP79waauPtA8XKlczTxL3hXrW/ElGNLTpD1TmqkykgGlOAK55+D3SmUHEirpFw==
