@@ -51,6 +51,11 @@ Wenn Sie Ihr Passwort vergessen haben, können Sie einfach ihr Passwort zurücks
 
 Nein, das ist aus Sicherheitsgründen nicht möglich. Sollte es dennoch erforderlich sein, sprechen Sie uns in diesem Fall bitte an.
 
+#### Wie ändere ich die E-Mail Adresse meines Accounts (E-Mail mit der ich mich anmelde)
+
+Das ändern Ihrer E-Mail Adresse können Sie in Ihrem Profil vornehmen. Gehen Sie dazu auf Profil > Account Sicherheit.
+Hier können Sie den Nutzernamen ändern und damit dann erreichen, dass Sie sich mit einer anderen E-Mail Adresse anmelden können.
+
 ## Zwei-Faktor-Authentifizierung
 
 :::info Geschlossene Beta Version
