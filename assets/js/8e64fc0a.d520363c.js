@@ -1,1 +1,0 @@
-(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[40460],{64834:e=>{"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/ideenmanagement","name":"Ideenmanagement","count":9,"permalink":"/blog/tags/ideenmanagement"}')}}]);
