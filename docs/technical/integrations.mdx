@@ -1,0 +1,117 @@
+---
+id: integrations
+title: Integrationen / Schnittstellen
+sidebar_label: Integrations / Schnittstellen
+slug: /technical/integrations
+---
+
+## Schnittstellen zu anderen Systemen
+
+Die Daten Ihrer Organisation werden möglicherweise in mehreren Software Systemen innerhalb Ihrer Organisation benötigt.
+Häufig gibt es bereits ein ERP-System, das als führendes System die Stammdaten verwaltet.
+Redundante Datenerfassung ist i.d.R. keine Lösung für dieses Herausforderung. Die Probleme liegen auf der Hand wie z.B.
+
+- Zeitintensiv durch mehrfache Arbeit
+- Fehleranfällig durch fehlerhafte Eingaben
+- Fehlende Synchronität der Daten durch verzögerte Dateneingabe.
+
+Zur Lösung dieser Herausforderung bieten wir Schnittstellen zu anderen Systemen an. Diese Schnittstellen lassen sich häufig schnell einrichten. Sprechen Sie uns darauf an, wir machen es möglich!
+
+:::info
+Dieses Dokument beschreibt lediglich Möglichkeiten und Ablauf der Synchronisierung. Synchronisierungen lassen sich nicht durch die Nutzer selbst einrichten.
+:::
+
+### Ablauf der Synchronisierung mit anderen Systemen
+
+Die Synchronisation mit anderen Systemen erfolgt für verschiedene Entitäten immer nach dem gleichen Schema. Es wird eine Update Frequenz definiert und dann können die Daten Synchronisiert werden.
+Der Erste Abgleich dauert meistens etwas länger da alle Daten übertragen werden. Die weiteren Aktualisierungen versuchen dann jeweils nur die Änderungen seit dem letzten Update abzufragen.
+Folgende grundsätzliche Regeln gelten für unsere Schnittstellen:
+
+- Beim Abgleich mit anderen Systemen werden in qmBase nur Daten **hinzugefügt**.
+- Es werden keine bestehenden Daten gelöscht.
+- Wir benötigen ein Identifikationsmerkmal (ID) für unsere Synchronisation. Diese ID wird dann in unserer Datenbank als Externe ID geführt, um diese dann im weiteren Verlauf für Updates zu nutzen.
+- Sollten in dem externen System doppelte IDs vorkommen schlägt die Synchronisation fehl.
+
+### Authentifizierung mit externen Systemen
+
+Die Authentifizierung mit externen Systemen kann entweder über besondere Query Parameter oder für festgelegte Header Werte, die während der Abfrage übermittelt werden erfolgen.
+
+### Wie oft sollten die Daten synchronisiert werden?
+
+Hier kommt es darauf an, wie häufig sich Ihre Stammdaten ändern. Üblicherweise sollte es aber ausreichen, wenn pro Schicht also etwa alle 8h ein Abgleich stattfindet. Dies schont die Ressourcen aller beteiligten Systeme.
+
+### Mögliche Daten für Schnittstellen
+
+Zusätzlich zu individuellen Lösungen bieten sich die folgenden Daten für eine Synchronisation an:
+
+- Organisationen
+- Mitarbeiter
+- Produkte
+- Aufträge
+- Kennzahlen und Kpis, die im Zielmanagement dargestellt werden können
+
+#### Beispiel - Schnittstelle für Organisationen
+
+Bei Organisation werden folgende Informationen übernommen.
+
+```csharp
+ public class Organisation
+    {
+        public Organisation();
+
+        public string OrganisationId { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public string ContactPerson { get; set; }
+        public bool IsSupplier { get; set; }
+        public bool IsCustomer { get; set; }
+        public string Telephone { get; set; }
+        public string Email { get; set; }
+        public string Url { get; set; }
+        public Address Address { get; set; }
+        public List<Person> ContactPersons { get; set; }
+    }
+```
+
+```csharp
+ public class Address
+    {
+        public Address();
+
+        public string CountryCode { get; set; }
+        public string Country { get; set; }
+        public string Street { get; set; }
+        public string StreetNumber { get; set; }
+        public string ZipCode { get; set; }
+        public string City { get; set; }
+    }
+```
+
+```csharp
+public class Person
+    {
+        public Person();
+
+        public string PersonId { get; set; }
+        public Gender Gender { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string Telephone { get; set; }
+    }
+```
+
+#### Schnittstelle für Produkte
+
+Bei Produkten werden folgende Informationen übernommen.
+
+```csharp
+public class Product
+    {
+        public Product();
+
+        public string ProductId { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+    }
+```
