@@ -127,6 +127,7 @@ module.exports = {
       "technical/wie-wird-qmbase-entwickelt",
       "technical/installation",
       "technical/integrations",
+      "technical/whitelabel",
     ],
     Intern: ["tutorial-template"],
   },
