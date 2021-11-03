@@ -52,13 +52,18 @@ Dafür wird es möglich sein einzelne Informationen als Favoriten zu markieren, 
 Ähnlich wie das **Follow Me** Feature sollen Reaktionen universell genutzt werden können.
 Das Feature Reaktionen wird es ermöglichen, dass mit einem Mausklick ein kurzes Feedback zu beispielsweise einer Maßnahme hinterlassen werden kann.
 Ziel ist es dadurch folgendes zu erreichen.
-Stärkere Emotionalisierung - wir möchten durch eine stärkere Emotionalisierung eine höhere Aktzeptanz und Nutzung unsere Software erreichen.
+Stärkere Emotionalisierung - wir möchten durch eine stärkere Emotionalisierung eine höhere Akzeptanz und Nutzung unsere Software erreichen.
 Einfache Dokumentation von Genehmigungs-Workflows. Erfragen Sie Reaktionen (Zustimmung / Ablehnung) bei Ihrem Vorgesetzten, und erzeugen Sie direkt nachvollziehbare Dokumentationen.
 Folgende Reaktionen sind unter anderem geplant:
 
 - Zustimmung
 - Ablehnung
 - Begeisterung
+
+## Backend / Technik
+
+In diesem Quartal werden wir unser Backend auf das aktuellste .Net Framework (Version 6) updaten. Von diesem Update versprechen wir uns einige Performance Optimierungen.
+Für Kunden unserer On-Premises Variante bedeutet das gleichzeitig auch einen reduzierten Ressourcen Verbrauch.
 
 ## Noch immer auf unserer Roadmap
 
