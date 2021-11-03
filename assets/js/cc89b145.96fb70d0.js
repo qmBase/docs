@@ -1,1 +1,0 @@
-(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[24024],{36324:e=>{"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/zugriffsberechtigungen","name":"Zugriffsberechtigungen","count":1,"permalink":"/blog/tags/zugriffsberechtigungen"}')}}]);

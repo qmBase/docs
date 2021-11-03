@@ -1,1 +1,0 @@
-(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[61976],{64173:a=>{"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/hilfe-kontakt","name":"Hilfe & Kontakt","count":1,"permalink":"/blog/tags/hilfe-kontakt"}')}}]);

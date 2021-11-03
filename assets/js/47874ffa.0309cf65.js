@@ -1,1 +1,0 @@
-(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[40691],{4399:a=>{"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/instandhaltungsmanagement","name":"Instandhaltungsmanagement","count":2,"permalink":"/blog/tags/instandhaltungsmanagement"}')}}]);

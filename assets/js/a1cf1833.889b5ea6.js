@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[95869],{34437:e=>{e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/8-d-reporte","name":"8D-Reporte","count":1,"permalink":"/blog/tags/8-d-reporte"}')}}]);

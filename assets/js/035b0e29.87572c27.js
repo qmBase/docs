@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[60157],{10955:s=>{s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/qualitatsmonitor","name":"Qualit\xe4tsmonitor","count":4,"permalink":"/blog/tags/qualitatsmonitor"}')}}]);

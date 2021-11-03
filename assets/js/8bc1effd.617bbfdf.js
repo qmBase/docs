@@ -1,1 +1,0 @@
-(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[40916],{51592:s=>{"use strict";s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/blog-und-wiki","name":"Blog und Wiki","count":3,"permalink":"/blog/tags/blog-und-wiki"}')}}]);

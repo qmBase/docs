@@ -25,9 +25,10 @@ Dafür wird es möglich sein einzelne Informationen als Favoriten zu markieren, 
 Über das Markieren von Favoriten über App Grenzen hinweg werden Sie eine bessere Möglichkeit haben, sich qmBase nach Ihren eigenen Vorstellungen zu konfigurieren.</p><h2>Reaktionen</h2><p>Ähnlich wie das <strong>Follow Me</strong> Feature sollen Reaktionen universell genutzt werden können.
 Das Feature Reaktionen wird es ermöglichen, dass mit einem Mausklick ein kurzes Feedback zu beispielsweise einer Maßnahme hinterlassen werden kann.
 Ziel ist es dadurch folgendes zu erreichen.
-Stärkere Emotionalisierung - wir möchten durch eine stärkere Emotionalisierung eine höhere Aktzeptanz und Nutzung unsere Software erreichen.
+Stärkere Emotionalisierung - wir möchten durch eine stärkere Emotionalisierung eine höhere Akzeptanz und Nutzung unsere Software erreichen.
 Einfache Dokumentation von Genehmigungs-Workflows. Erfragen Sie Reaktionen (Zustimmung / Ablehnung) bei Ihrem Vorgesetzten, und erzeugen Sie direkt nachvollziehbare Dokumentationen.
-Folgende Reaktionen sind unter anderem geplant:</p><ul><li>Zustimmung</li><li>Ablehnung</li><li>Begeisterung</li></ul><h2>Noch immer auf unserer Roadmap</h2><p>Einige Punkte der alten Roadmap konnten wir bisher noch nicht oder nur teilweise umsetzen.
+Folgende Reaktionen sind unter anderem geplant:</p><ul><li>Zustimmung</li><li>Ablehnung</li><li>Begeisterung</li></ul><h2>Backend / Technik</h2><p>In diesem Quartal werden wir unser Backend auf das aktuellste .Net Framework (Version 6) updaten. Von diesem Update versprechen wir uns einige Performance Optimierungen.
+Für Kunden unserer On-Premises Variante bedeutet das gleichzeitig auch einen reduzierten Ressourcen Verbrauch.</p><h2>Noch immer auf unserer Roadmap</h2><p>Einige Punkte der alten Roadmap konnten wir bisher noch nicht oder nur teilweise umsetzen.
 Diese sind allerdings immer noch geplant. Aus Kapazitätsgründen werden wir diese Themen allerdings erst im nächsten Jahr wieder angehen können.
 Hierbei handelt es sich um:</p><ul><li>Workflows &amp; Automatisierung</li><li>Talentmanager</li><li>Zielmanagement flexiblere Fortschrittserfassung</li></ul>]]></content:encoded>
         </item>

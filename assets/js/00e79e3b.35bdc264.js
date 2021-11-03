@@ -1,1 +1,0 @@
-(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[72403],{14222:e=>{"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/veranderung-der-modul-app-bezeichnung-und-struktur","name":"Ver\xe4nderung der Modul App Bezeichnung und Struktur","count":1,"permalink":"/blog/tags/veranderung-der-modul-app-bezeichnung-und-struktur"}')}}]);

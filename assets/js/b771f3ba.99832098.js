@@ -1,1 +1,0 @@
-(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[22830],{71967:s=>{"use strict";s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/schulungsmanagement","name":"Schulungsmanagement","count":23,"permalink":"/blog/tags/schulungsmanagement"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[66450],{75392:e=>{e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/dokumentenmanagement-der-graph","name":"Dokumentenmanagement - Der Graph","count":1,"permalink":"/blog/tags/dokumentenmanagement-der-graph"}')}}]);

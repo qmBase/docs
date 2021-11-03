@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[23030],{60922:e=>{e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/allgemein-app-startseiten","name":"Allgemein - App Startseiten","count":1,"permalink":"/blog/tags/allgemein-app-startseiten"}')}}]);

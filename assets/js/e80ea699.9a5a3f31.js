@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[52627],{7927:e=>{e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/ideenmanagement-modernisierung","name":"Ideenmanagement - Modernisierung","count":1,"permalink":"/blog/tags/ideenmanagement-modernisierung"}')}}]);
