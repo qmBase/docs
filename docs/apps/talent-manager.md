@@ -32,9 +32,9 @@ Der Talent Manager baut dabei auf der App **Mitarbeiter** auf.
 Aufgaben sind die Tätigkeiten in Ihrer Organisation, die regelmäßig zu erledigen sind und bei denen es notwendig ist festzulegen, wer diese ausführen soll.
 Legen Sie fest welche Aufgaben in Ihrer Organisation zu erledigen sind. Beispiele für typische Aufgaben sind:
 
-1.  Angebote erstellen
-2.  Rechnungen schreiben
-3.  Personalplanung
+1. Angebote erstellen
+2. Rechnungen schreiben
+3. Personalplanung
 
 > Tipp: Starten Sie mit den wichtigsten Aufgaben in Ihrem Unternehmen, die notwendig sind, um Ihre Kernprozesse zuverlässig auszuführen.
 
@@ -256,8 +256,18 @@ Schulungsteilnehmer können lediglich Formulare ausfüllen. D.h. als Teilnehmer 
 
 Ihre abgeschickten beantworteten Formulare können Sie unter der Registerkarte Antworten einsehen.
 
-Sollte das Ausfüllen des Formulars an bestimmte Bedingungen genknüpft sein, z.B. den Status der Schulung, ist der Button deaktiviert und es erscheint eine kurze Information neben dem Button.
+Sollte das Ausfüllen des Formulars an bestimmte Bedingungen geknüpft sein, z.B. den Status der Schulung, ist der Button deaktiviert und es erscheint eine kurze Information neben dem Button.
 
 - Maßnahmen
 - Qualifikationen
 - Teilnehmer
+
+### FAQ
+
+Hier finden Sie Fragen und Antworten für die Apps Schulungsmanagement und Aufgaben & Qualifikationen
+
+#### Wie gehe ich vor, wenn ich eine Schulung absagen möchte?
+
+Über den Button mit den drei Punkten oben rechts in der Teilnehmer Karte gibt es die Möglichkeit ein weiteres Menü zu öffnen.
+Hier können Sie dann alle Teilnehmer selektieren, die Sie benachrichtigen möchten.
+Mit dem Button Teilnehmer Benachrichtigen können Sie dann eine E-Mail Benachrichtigung an die ausgewählten Teilnehmer versenden.
