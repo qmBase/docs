@@ -14,7 +14,7 @@ Sie können jedem Nutzer individuelle Zugriffsrechte auf die Plattform geben. So
 
 [Angemeldet -> Admin -> Berechtigungen](https://support.qmbase.com/Account/findworkspace?returnUrl=/_admin/permissions)
 
-In der Regel gibt es für alle Module standardmäßig drei verschiedene Berechtigungen. Diese sind nachfolgend in Reihenfolge ihrer Fähigkeiten aufgeführt. Für weitere Details lesen Sie bitte den Eintrag zur entsprechenden Rolle:
+In den unterschiedlichen Apps gibt es teils unterschiedliche Konfigurationsmöglichkeiten für Berechtigungen. Die gängigen Konfigurationsmöglichkeiten sind nachfolgend aufgeführt. Für weitere Details lesen Sie bitte den Eintrag zur entsprechenden Rolle:
 
 ### Lesende Nutzer
 
@@ -32,6 +32,10 @@ Mit dem Standard Zugriff kann der Nutzer folgende Aktionen ausführen:
 ### Einstellungen
 
 Durch den Zugriff auf die Einstellungen können Nutzer alle zu dem Modul gehörigen Einstellungen verändern.
+
+### Freigeber
+
+Freigeber sind berechtigt Inhalte freizugeben, z.B. Dokumente oder Formulare. Diese Rolle ist nicht in jeder App verfügbar.
 
 ### Modul Administrator
 
