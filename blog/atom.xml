@@ -2,12 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://help.qmbase.com/blog</id>
     <title>qmBase - Docs Blog</title>
-    <updated>2021-10-21T00:00:00.000Z</updated>
+    <updated>2021-11-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://help.qmbase.com/blog"/>
     <subtitle>Stay up to date with the latest qmBase changes</subtitle>
     <icon>https://help.qmbase.com/https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png</icon>
     <rights>Copyright © 2021 qmBase</rights>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.161]]></title>
+        <id>Version 1.1.161</id>
+        <link href="https://help.qmbase.com/blog/2021/11/17/version-1_1_161"/>
+        <updated>2021-11-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dieser Release beinhaltet einige Fehlerbehebungen und Detailverbesserungen.]]></summary>
+        <content type="html"><![CDATA[<p>Dieser Release beinhaltet einige Fehlerbehebungen und Detailverbesserungen.</p><h2>Allgemein</h2><ul><li>Externe Login Provider: Wenn Sie externe Login Provider, wie z.B. Azure AD oder Google nutzen wurden Sie nicht auf die aufgerufene Seite weitergeleitet, wenn Sie nicht angemeldet waren. Dieser Fehler ist behoben.</li><li>Custom Fields in Tabellen werden besser formatiert. Dies betrifft z.B. Datumsangaben und Zahlen.</li></ul><h2>Abwesenheitsplaner</h2><p>Die Zugriffskontrolle gibt es jetzt auch im Abwesenheitsplaner.</p><h2>Auditmanagement</h2><p>In der Auditmatrix gibt es jetzt ein Zusammenfassungszeile, die anzeigt zu welchem Grad die dargestellten Anforderungen insgesamt erfüllt sind.</p><h2>CRM</h2><p>Bei mit Organisationen verknüpften Schulungen funktioniert das Filtern jetzt besser.</p><h2>Dashboards &amp; Reportings</h2><p>Es gibt eine zusätzliche Auswertung, die Reklamationen pro Organisation anzeigt.</p><h2>Einstellungen</h2><p>Beschreibungstexte in Einstellungen können jetzt fast alle mit unserem Texteditor formatiert werden.
+Vereinheitlichung der Tabellen im gesamten Bereich der Einstellungen.</p><h2>Instandhaltung</h2><p>Die Zugriffskontrolle gibt es jetzt auch in der Instandhaltung.</p><h2>Risiken &amp; Chancen</h2><p>Das Erstellen von Skalenabschnitten in den Kategorien ist jetzt auch für einzelne Punkte möglich.
+<strong>Beispiel</strong> Sie haben in der Bewertung die Variable <strong>Eintritt</strong> diese kann die Werte <code>0 = Tritt nicht ein</code> und <code>1= Tritt ein</code> annehmen.
+In diesem Fall können Sie diesen Werten jetzt direkt Beschreibungen zuordnen.</p><h2>WIKI &amp; Blog</h2><p>README Dokumente können jetzt auch im WIKI genutzt werden.</p><ul><li>Kommentare und Feedback deaktivierbar.</li><li>Beim Erstellen von neuen Revisionen werden jetzt die Anhänge der Ausgangsrevision übernommen.</li></ul>]]></content>
+        <author>
+            <name>Philipp Pähler</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Version 1.1.160]]></title>
         <id>Version 1.1.160</id>
