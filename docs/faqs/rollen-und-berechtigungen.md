@@ -53,11 +53,13 @@ Diese Funktion ist in folgenden Apps von qmBase verfügbar:
 
 | App                              | Index | Details |
 | -------------------------------- | ----- | ------- |
+| Abwesenheitsplaner               | ✔     | ✔       |
 | Audits                           | ✔     | ✔       |
 | Aufgaben & Qualifikationen       | ✔     | ✔       |
 | Schulungen                       | ✔     | ✔       |
 | Formulare                        | ✔     | ✔       |
 | Dokumentenmanagement, WIKI, Blog | ✔     | ✔       |
+| Instandhaltung                   | ✔     | ✔       |
 | Reklamationen                    | ✔     | ✔       |
 | Maßnahmen                        | ✔     | ✔       |
 | Ziele                            | ✔     | ✔       |
