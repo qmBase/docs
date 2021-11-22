@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[50578],{86313:s=>{s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/risiken-chancen","name":"Risiken & Chancen","count":11,"permalink":"/blog/tags/risiken-chancen"}')}}]);
