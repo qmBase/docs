@@ -3,19 +3,21 @@ id: profile
 title: Profil
 ---
 
+import ProductDisplayName from "./../\_productDisplayName.mdx";
+
 Dies ist die Seite Profil, hier sind die Informationen des qmBase Nutzers hinterlegt. Zu Ihrem Profil gelangen Sie, wenn Sie auf Ihren Namen oben rechts in der qmBase Software klicken. Anschließend wird ein Reiter ausgeklappt und Sie können Ihr Profil aufrufen, indem Sie auf Profileinstellungen klicken. In Ihrem Profil haben Sie einen Überblick auf Ihr Nutzerbild, dies können Ihre Initialen sein, optional können Sie auch ein eigenes Profilbild hochladen. Sie sehen, wann Ihr Profil erstellt wurde und wann es das letzte Mal aktualisiert wurde. Außerdem sind hier Ihre E-Mail-Adresse und Ihr Geburtstag hinterlegt. Darunter sind die Rollen des Nutzers aufgelistet.
 Sie haben die Möglichkeit Ihre Accountinformationen, also Nutzernamen und Passwort zu ändern.
 Mit den Buttons auf linken Seitenleiste navigieren Sie sich durch die App.
 
 ![Screenshot Profile](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Profile/MyProfile.png)
 
-| Parameter                   | Typ    | Beschreibung                                                                                                                                               |
-| --------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <code>Mein Profil</code>    | Button | Über diesen Button gelangen Sie zu der o.g. Profil Seite                                                                                                   |
-| <code>Language</code>       | Button | Hier können Sie die Sprache von qmBase ändern                                                                                                              |
-| <code>Einstellungen</code>  | Button | Hier können Sie visuelle Änderungen an dem Design der qmBase Software vornehmen                                                                            |
-| <code>Verbesserungen</code> | Button | Hier können Sie Verbesserungen einsehen, die eingereicht wurden                                                                                            |
-| <code>Kalender</code>       | Button | Hier finden Sie Ihren Kalender mit Terminen für Schulungen, Audits etc. Sie haben die Möglichkeit diesen Kalender in Ihren privaten Kalender zu integriere |
+| Eintrag in Seitenleiste     | Beschreibung                                                                                                                                               |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <code>Mein Profil</code>    | Über diesen Button gelangen Sie zu der o.g. Profil Seite                                                                                                   |
+| <code>Language</code>       | Hier können Sie die Sprache von qmBase ändern                                                                                                              |
+| <code>Einstellungen</code>  | Hier können Sie visuelle Änderungen an dem Design der qmBase Software vornehmen                                                                            |
+| <code>Verbesserungen</code> | Hier können Sie Verbesserungen einsehen, die eingereicht wurden                                                                                            |
+| <code>Kalender</code>       | Hier finden Sie Ihren Kalender mit Terminen für Schulungen, Audits etc. Sie haben die Möglichkeit diesen Kalender in Ihren privaten Kalender zu integriere |
 
 ## Language - Wie ändere ich die Sprache der Software?
 
@@ -43,7 +45,14 @@ Außerdem können Sie einstellen, wie Personennamen in qmBase angezeigt werden.
 
 Wählen Sie auf der linken Navigationsleiste den Button <code>Verbesserungen</code> aus. Nun wird eine Suchzeile angezeigt, in der Sie nach Verbesserungen suchen können. Mit der Auswahl der Kästchen **Erledigte anzeigen** und **Nur meine anzeigen**, können Sie entscheiden, ob bereits erledigte Verbesserungen angezeigt werden sollen und ob Sie nur die Verbesserungen sehen wollen, die Sie eingereicht haben oder auch die von anderen Nutzern.
 
-## Wie kann ich auf meinen Kalender zugreifen?
+## Wie kann ich meinen Kalender verknüpfen?
 
-Klicken Sie auf den Button <code>Kalender</code> um zu Ihrem Kalender zu gelangen. In Ihrem Kalender sehen Sie den aktuellen Monat und Ihre Termine, die innerhalb der qmBase Software erstellt wurden. Hierbei kann es sich um Schulungen, Audits etc. handeln. Der aktuelle Tag ist farblich gekennzeichnet. Mit den Pfeiltasten können Sie sich in dem Kalender navigieren und vergangene oder zukünftige Monate ansehen. Links haben Sie die Möglichkeit den Kalender als iCal zu veröffentlichen, indem Sie den Regler betätigen.
-Die Veröffentlichung Ihrer Veranstaltungen als iCal ermöglicht es, diesen Kalender in Ihren privaten Kalender zu integrieren. Dadurch wird ein Link erzeugt, der öffentlich zugänglich ist.
+Um Termine besser zu planen, können Sie Termine innerhalb von <ProductDisplayName/> auch in Ihren persönlichen Kalender (z.B. Outlook oder Google Calendar) anzeigen.
+
+Klicken Sie in Ihrem Profil auf Kalender. Aktivieren Sie dann den Kalender. Es erscheint ein Link zu einer iCal Datei.
+Diesen Link können Sie dann nutzen, um den <ProductDisplayName/> Kalender in Ihren bestehenden Kalender zu integrieren, indem Sie den Kalender abonnieren.
+
+Die Kalender Einträge enthalten einige Informationen zu dem Ereignis sowie einen Link, so dass Sie schnell auf das entsprechende Ereignis zugreifen können.
+Es werden Ereignisse der letzten Zeit und alle zukünftigen Ereignisse zur Verfügung gestellt.
+
+Bitte beachten Sie: Die Daten für diesen Kalender können aus technischen Gründen nur so abgespeichert werden, dass sie allgemein öffentlich zugänglich sind. Die enthaltenen Informationen können somit auch durch Dritte eingesehen werden, sofern sie über den entsprechenden Link verfügen. Sollte das ein Problem für Sie darstellen, können Sie den Kalender einfach wieder deaktivieren.
