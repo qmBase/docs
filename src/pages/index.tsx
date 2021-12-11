@@ -93,14 +93,13 @@ function Feature({ imageUrl, title, description }) {
         </div>
       )}
       <h3>{title}</h3>
-      <p>{description}</p>
+      <div>{description}</div>
     </div>
   );
 }
 
 function Home() {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`Startseite`}

@@ -94,19 +94,65 @@ Unser Beispiel Mitarbeiter <code>Lukas Guss</code> erfüllt die an ihn gestellte
 
 Daraus ergibt sich, dass sich die Eignung für die Aufgaben wie folgt berechnet:
 
-**Eignung für die Aufgabe Ersthelfer**
+#### Eignung für die Aufgabe Ersthelfer
 
 <code>Eignung Ersthelfer (A3) = 100% Q6 \* 0 (weil abgelaufen) => 0% Eignung</code>
 
-**Eignung für die Aufgabe Erstellen von Reportings**
+#### Eignung für die Aufgabe Erstellen von Reportings
 
 <code>Eignung Erstellen von Reportings (A1) = (50% Q1 + 100% Q2 + 100% Q3 + 100% Q4 + 100% Q5) / 5 (Anzahl der Qualifikationen) = 90 %</code>
 
-**Eignung für die Position Vertriebsassistenz**
+#### Eignung für die Position Vertriebsassistenz
 
 <code>Eignung Position Vertriebsassistenz (P1) = (100% Eignung Aufgabe Erstellen von Angeboten + 90% Aufgabe Erstellen von Reportings) / 2 (Anzahl Aufgaben) = 95%</code>
 
-TODO: Bild Q-Matrix mit Testdaten
+#### Individuelle Berechnung der Eignung mit Hilfe von Formeln
+
+:::info Das Berechnen von Eignung mittels Formeln ist derzeit noch nicht überall verfügbar.
+:::
+
+In einigen Fällen reicht unsere standardmäßige Berechnung der Eignung nicht aus. Für diesen Fall können individuelle Formeln festgelegt werden. Dies kann z.B. in folgenden Szenarien vorliegen:
+
+- Nur eine Teilmenge von mehreren Qualifikationen ist erforderlich
+- Eine Qualifikation wird nur teilweise benötigt
+
+Eine Teilmenge von Qualifikationen kann z.B. erforderlich sein, wenn Sie als Aufgabe **3G am Arbeitsplatz** einführen. Hierfür wird eine der folgenden Qualifikationen benötigt.
+
+- Geimpft
+- Genesen
+- Antigen Schnelltest
+- PCR Test
+
+Als Formel für diese Aufgabe muss dann folgendes festgelegt werden.
+
+<code>max(Geimpft,Genese,Antigen Schnelltest, PCR Test)</code>
+
+Mit dieser Formel wird die Eignung berechnet als das Maximum einer der genannten Qualifikationen in dem max() Ausdruck.
+Wenn also die Qualifikationen mit folgenden Werten vorhanden wären
+
+<code>max(0.1,0.2,0.3,0.4) = 0.4 => 40%</code>
+
+(Dezimal Komma durch Punkt ersetzt zur Lesbarkeit)
+
+Dass eine Qualifikation nur teilweise benötigt wird, könnte z.B. der Fall sein, wenn Sie die Aufgabe **Angebote erstellen** haben. Hierfür werden folgende Qualifikationen benötigt:
+
+- Excel Kenntnisse - aber nur teilweise (zu 50%), da es lediglich um einfache Berechnungen geht.
+- Verhandlungsgeschick - 100% der Qualifikation erforderlich, um das meiste herauszuholen.
+
+Die Formel für diesen Fall lautet:
+<code>(min("Excel Kenntnisse"/0,5,1)+Verhandlungsgeschick)/2</code>
+
+Wenn Sie jetzt einen Mitarbeiter haben, der Excel Kenntnisse zu 25% besitzt und Verhandlungsgeschick zu 100% besitzt, berechnet sich die Eignung als:
+
+<code>(min(0,25/0,5,1)+1)/2) = 0,75 => 75% Eignung</code>
+
+Damit unser Formeleditor die richtig arbeiten kann, müssen Sie für die einzelnen Qualifikationen Variablen verwenden.
+Die Variable setzt sich zusammen aus den Teilen <code>QualificationId\_</code> und dann der tatsächlichen ID der jeweiligen Qualifikation.
+Für die Qualifikation mit der ID 25 ergibt sich dann z.B. als Variable der Name <code>QualificationId_25</code>.
+
+### Erklärung der Darstellung der Qualifikationsmatrix
+
+![Qualifikationsmatrix](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-12-11%20143743_QualificationMatrix.png)
 
 Wie lässt sich mit diesem Wissen jetzt die Qualifikationsmatrix interpretieren? In der Qualifikationsmatrix gibt es verschiedene Darstellungen, die sich aus den vorhandenen Daten ergeben. Alle Möglichkeiten sind in der folgenden Tabelle aufgelistet.
 
