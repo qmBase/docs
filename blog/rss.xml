@@ -4,10 +4,22 @@
         <title>qmBase - Docs Blog</title>
         <link>https://help.qmbase.com/blog</link>
         <description>Stay up to date with the latest qmBase changes</description>
-        <lastBuildDate>Mon, 22 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2021 qmBase</copyright>
+        <item>
+            <title><![CDATA[Version 1.1.162]]></title>
+            <link>https://help.qmbase.com/blog/2021/12/18/version-1_1_162</link>
+            <guid>/2021/12/18/version-1_1_162</guid>
+            <pubDate>Sat, 18 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dieser Release beinhaltet einige Fehlerbehebungen und Detailverbesserungen.]]></description>
+            <content:encoded><![CDATA[<p>Dieser Release beinhaltet einige Fehlerbehebungen und Detailverbesserungen.</p><h2>Einstellungen</h2><p>Wir haben die Startseite der Einstellungen verbessert. Mit einer Suche kann jetzt hier sofort nach Einstellungen gesucht werden.
+Mann muss sich jetzt nicht mehr durch die einzelnen Apps durchklicken, um die relevanten Einstellungen zu finden.
+<img src="https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-12-18%20Settings_HomePage.png" alt="Startseite Einstellungen"/></p><p>Bei vielen Einstellungen gibt es jetzt eine Überprüfung, ob Einträge bereits vorhanden sind. Wenn Sie z.B. eine neue Qualifikation <strong>Powerpoint</strong> anlegen möchten, sehen Sie direkt, dass diese bereits existiert.
+Das bedeutet für Sie, dass Sie weniger Duplikate und damit eine bessere Datenqualität sicherstellen können.
+<img src="https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-12-18%20Setting_Duplicates.png" alt="Duplikate Check in Einstellungen"/></p><h2>Projekte &amp; Maßnahmen</h2><ul><li>Mehr Informationen im Audit Trail z.B. wurde ein Eintrag gelöscht oder wiederhergestellt. Veränderungen von Custom Fields werden zusätzlich gespeichert.</li></ul><h2>Zielmanagement</h2><ul><li>Suche nach Custom Fields ist jetzt möglich.</li><li>Zugriff auf Custom Fields kann über Rollen eingeschränkt werden.</li><li>Mehr Informationen im Audit Trail z.B. wurde ein Eintrag gelöscht oder wiederhergestellt. Veränderungen von Custom Fields werden zusätzlich gespeichert.</li></ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Version 1.1.161]]></title>
             <link>https://help.qmbase.com/blog/2021/11/22/version-1_1_161</link>

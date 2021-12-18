@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[57972],{20106:e=>{e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/einstellungen","name":"Einstellungen","count":7,"permalink":"/blog/tags/einstellungen"}')}}]);
