@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[64598],{22781:s=>{s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/wiki","name":"Wiki","count":15,"permalink":"/blog/tags/wiki"}')}}]);
