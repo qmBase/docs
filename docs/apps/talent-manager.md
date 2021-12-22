@@ -125,7 +125,7 @@ Eine Teilmenge von Qualifikationen kann z.B. erforderlich sein, wenn Sie als Auf
 
 Als Formel für diese Aufgabe muss dann folgendes festgelegt werden.
 
-<code>max(Geimpft,Genese,Antigen Schnelltest, PCR Test)</code>
+<code>max(Geimpft,Genesen,Antigen Schnelltest, PCR Test)</code>
 
 Mit dieser Formel wird die Eignung berechnet als das Maximum einer der genannten Qualifikationen in dem max() Ausdruck.
 Wenn also die Qualifikationen mit folgenden Werten vorhanden wären
