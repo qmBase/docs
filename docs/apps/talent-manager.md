@@ -3,6 +3,8 @@ id: talent-manager
 title: Schulungen & Qualifikationen (Talent Manager)
 ---
 
+import JobDescriptionRelation from "../charts/\_job-description-relation.mdx";
+
 ![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Trainings.png)
 
 > Die App Talent Manager wird der zukünftige zentrale Anlaufpunkt für alle Themen, die Anforderungen, Qualifikationen und Mitarbeiter betreffen. Auch wenn sich der Talent Manager noch im Aufbau befindet, so sind die einzelnen Funktionen in den bisher einzelnen Apps **Schulungen** und **Aufgaben und Qualifikationen** schon verfügbar.
@@ -26,6 +28,12 @@ Unser Talent Manager besteht aus 3 Bausteinen
 - Schulungen
 
 Der Talent Manager baut dabei auf der App **Mitarbeiter** auf.
+
+## Beziehung der einzelnen Informationen
+
+Zum besseren Verständnis der Beziehung der einzelnen Informationen, ist in dem folgenden Schaubild die Beziehung der einzelnen Information darstellt.
+
+<JobDescriptionRelation/>
 
 ## Aufgaben
 

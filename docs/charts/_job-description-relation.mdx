@@ -1,0 +1,11 @@
+import Mermaid from "@theme/mermaid";
+
+<Mermaid
+  chart={`graph TD
+    A[Positionen des Mitarbeiters] --> B[Aufgaben, die in dieser Position ausgeführt werden müssen];
+    B --> C[Qualifikationen notwendig für die Ausführung der Aufgabe];
+    C --> D[Abgleich mit vorhandenen Qualifikationen des Mitarbeiters];
+    M[Mitarbeiter] --> E[Mitarbeiter direkt manuell zugeordnete Aufgaben];
+    E --> C;
+    M --> A;`}
+/>
