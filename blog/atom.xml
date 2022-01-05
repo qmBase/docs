@@ -2,12 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://help.qmbase.com/blog</id>
     <title>qmBase - Docs Blog</title>
-    <updated>2021-12-18T00:00:00.000Z</updated>
+    <updated>2022-01-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://help.qmbase.com/blog"/>
     <subtitle>Stay up to date with the latest qmBase changes</subtitle>
     <icon>https://help.qmbase.com/https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png</icon>
-    <rights>Copyright © 2021 qmBase</rights>
+    <rights>Copyright © 2022 qmBase</rights>
+    <entry>
+        <title type="html"><![CDATA[Version 1.1.163]]></title>
+        <id>/2022/01/05/version-1_1_163</id>
+        <link href="https://help.qmbase.com/blog/2022/01/05/version-1_1_163"/>
+        <updated>2022-01-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wir wünschen allen ein frohes neues Jahr 2022 🎊! Auch in diesem Jahr haben wir wieder viele Neuerungen und Verbesserungen geplant. Mehr dazu erfahren Sie in kürze in unserer aktualisierten Roadmap.]]></summary>
+        <content type="html"><![CDATA[<p>Wir wünschen allen ein frohes neues Jahr 2022 🎊! Auch in diesem Jahr haben wir wieder viele Neuerungen und Verbesserungen geplant. Mehr dazu erfahren Sie in kürze in unserer aktualisierten Roadmap.
+Unsere neue Version beinhaltet eine Wiedervorlagefunktion für den Blog, Dokumentenmanagement und Wiki.</p><h2>Allgemein</h2><p>Wir haben unsere primäre Farbe geändert. Das blau entspricht jetzt der Farbe unseres Logos.</p><h2>Admin</h2><p>Bei Import von Daten werden leere Zeilen jetzt zuverlässiger ignoriert. Dies betrifft zum Beispiel auch leere Zeilen am Ende einer Import Datei.</p><h2>Blog, Dokumentenmanagement und Wiki</h2><p>Dokumente können jetzt mit einer Wiedervorlage Frist versehen werden.
+Mehr Informationen finden Sie <a href="/docs/faqs/article-shared#wiedervorlage-von-dokumenten---wie-stelle-ich-eine-regelm%C3%A4%C3%9Fige-%C3%BCberpr%C3%BCfung-von-dokumenten-sicher">hier</a>.</p><h2>Mitarbeiter</h2><p>Verbesserter Darstellung des Organigramms.</p><h2>Reklamationsmanagement</h2><p>Im 8D Report werden zusätzlich Bilder aus den Reklamation mit dargestellt.</p>]]></content>
+        <author>
+            <name>Philipp Pähler</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Version 1.1.162]]></title>
         <id>/2021/12/18/version-1_1_162</id>

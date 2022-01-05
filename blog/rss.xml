@@ -4,10 +4,20 @@
         <title>qmBase - Docs Blog</title>
         <link>https://help.qmbase.com/blog</link>
         <description>Stay up to date with the latest qmBase changes</description>
-        <lastBuildDate>Sat, 18 Dec 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Jan 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <copyright>Copyright © 2021 qmBase</copyright>
+        <copyright>Copyright © 2022 qmBase</copyright>
+        <item>
+            <title><![CDATA[Version 1.1.163]]></title>
+            <link>https://help.qmbase.com/blog/2022/01/05/version-1_1_163</link>
+            <guid>/2022/01/05/version-1_1_163</guid>
+            <pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Wir wünschen allen ein frohes neues Jahr 2022 🎊! Auch in diesem Jahr haben wir wieder viele Neuerungen und Verbesserungen geplant. Mehr dazu erfahren Sie in kürze in unserer aktualisierten Roadmap.]]></description>
+            <content:encoded><![CDATA[<p>Wir wünschen allen ein frohes neues Jahr 2022 🎊! Auch in diesem Jahr haben wir wieder viele Neuerungen und Verbesserungen geplant. Mehr dazu erfahren Sie in kürze in unserer aktualisierten Roadmap.
+Unsere neue Version beinhaltet eine Wiedervorlagefunktion für den Blog, Dokumentenmanagement und Wiki.</p><h2>Allgemein</h2><p>Wir haben unsere primäre Farbe geändert. Das blau entspricht jetzt der Farbe unseres Logos.</p><h2>Admin</h2><p>Bei Import von Daten werden leere Zeilen jetzt zuverlässiger ignoriert. Dies betrifft zum Beispiel auch leere Zeilen am Ende einer Import Datei.</p><h2>Blog, Dokumentenmanagement und Wiki</h2><p>Dokumente können jetzt mit einer Wiedervorlage Frist versehen werden.
+Mehr Informationen finden Sie <a href="/docs/faqs/article-shared#wiedervorlage-von-dokumenten---wie-stelle-ich-eine-regelm%C3%A4%C3%9Fige-%C3%BCberpr%C3%BCfung-von-dokumenten-sicher">hier</a>.</p><h2>Mitarbeiter</h2><p>Verbesserter Darstellung des Organigramms.</p><h2>Reklamationsmanagement</h2><p>Im 8D Report werden zusätzlich Bilder aus den Reklamation mit dargestellt.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Version 1.1.162]]></title>
             <link>https://help.qmbase.com/blog/2021/12/18/version-1_1_162</link>
