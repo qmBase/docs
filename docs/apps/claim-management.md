@@ -143,6 +143,8 @@ Die Mitglieder des Teams sollten über ausreichende Prozess- und Produktkenntnis
 
 In der Vorauswahl finden Sie hier alle Personen, die mit der zugrunde liegenden Reklamation verknüpft werden können. Hierbei handelt es sich um Ersteller und Verantwortliche der Reklamation sowie der verknüpften Maßnahmen und Fehler.
 
+:::info Das Team im 8D-Rpeort wird nicht frei konfiguriert. Es sind sind die Personen enthalten, die für die mit der Reklamation verknüpften Maßnahmen und Fehler verantwortlich sind. Weitere Personen können über das Beschreibunsgfeld hinzugefügt werden :::
+
 #### D2 Problembeschreibung
 
 Das Problem ist so genau wie möglich zu definieren, wobei der Kern des Problems herausgearbeitet und quantifiziert werden sollte.
