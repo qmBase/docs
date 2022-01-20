@@ -10,7 +10,7 @@ title: Abwesenheitsplaner
 
 Urlaubsverwaltung leicht gemacht: Diese App macht bei der Urlaubsplanung und Verwaltung Schluss mit aufwändiger Zettelwirtschaft und fehleranfälligen Excel-Listen. Ihre Mitarbeiter stellen Urlaubsanträge online und haben immer Zugriff auf ihr aktuelles Urlaubskonto. Automatisierte Freigabeprozesse und praktische Kalenderübersichten minimieren den Aufwand für Ihre Personalabteilung und schaffen mehr Transparenz für Ihre Mitarbeiter.
 
-> [Zur App gehen](https://support.qmbase.com/Account/findworkspace?returnUrl=/absenceplanner)
+> [Zur App gehen](https://app.qmbase.com/Account/findworkspace?returnUrl=/absenceplanner)
 
 ## Workflow
 

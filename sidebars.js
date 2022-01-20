@@ -78,7 +78,6 @@ module.exports = {
       "faqs/faq-51",
       "faqs/faq-52",
       "faqs/faq-53",
-      "faqs/faq-54",
       "faqs/faq-55",
       "faqs/faq-56",
       "faqs/faq-61",
