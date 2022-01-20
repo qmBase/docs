@@ -23,5 +23,6 @@ Innerhalb von qmBase werden die Nutzer und Mitarbeiter getrennt voneinander erfa
    Da es diesen Nutzer dann nicht mehr gibt, werden auch keine E-Mail Benachrichtigungen mehr an diese Person verschickt.
 
 2. Als Nutzer mit Zugriff auf das Modul [Personal](https://app.qmbase.com/Account/findworkspace?returnUrl=/employees) löschen Sie den Mitarbeiter. Der Mitarbeitereintrag wird dann in den Papierkorb verschoben.
+3. Abschließend muss überprüft werden, ob der ehemalige Mitarbeiter noch als Verantwortlicher für aktive Aufgaben festgelegt ist.
 
 Alle mit dem Mitarbeiter verknüpften Informationen, wie z.B. Maßnahmen oder Ideen bleiben erhalten. Der Mitarbeiter kann dann aber zukünftig nicht mehr als Verantwortlicher ausgewählt werden.
