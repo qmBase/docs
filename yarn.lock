@@ -2337,12 +2337,12 @@
     url-loader "^4.1.1"
     webpack "^5.61.0"
 
-"@docusaurus/module-type-aliases@2.0.0-beta.14":
-  version "2.0.0-beta.14"
-  resolved "https://registry.npmjs.org/@docusaurus/module-type-aliases/-/module-type-aliases-2.0.0-beta.14.tgz"
-  integrity sha512-jlSwYoRVeNxvmjbVil35mRVSXZdOmEM95Sph7NxC6IE/ceT1a8s4tpzI2xUMsGgSfLBldqhkXe+WSOYqUL7x3w==
+"@docusaurus/module-type-aliases@2.0.0-beta.15":
+  version "2.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.0.0-beta.15.tgz#6878fd073ac735388a00419a0af3170ba7e72318"
+  integrity sha512-RqAjt2Z9n4ttqVDbgdnzIPXoNzAsUPJzf8EKPeKw8KRiMToBBHkPgmWuwvLFcO7/ZA5w1/ODLMncx9j/ZcM1CQ==
   dependencies:
-    "@docusaurus/types" "2.0.0-beta.14"
+    "@docusaurus/types" "2.0.0-beta.15"
     "@types/react" "*"
     "@types/react-helmet" "*"
     "@types/react-router-config" "*"
@@ -2542,14 +2542,14 @@
     fs-extra "^10.0.0"
     tslib "^2.3.1"
 
-"@docusaurus/types@2.0.0-beta.14":
-  version "2.0.0-beta.14"
-  resolved "https://registry.npmjs.org/@docusaurus/types/-/types-2.0.0-beta.14.tgz"
-  integrity sha512-1mVrVI0crwZrnjJJeUJUfBrwKdPJVsvh3E0I4pRG9Bo9dfeT8j3bj/GgjaKX4VYRFkDfsVPEpMfrVWujiWr4qQ==
+"@docusaurus/types@2.0.0-beta.15":
+  version "2.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-beta.15.tgz#2f7b25a3686f46440204e7ad5490582a39878177"
+  integrity sha512-djeZe5aDyI4lgfdLkI86pLnliFJRB1CVkcP3iA+PqXaJ3Cp4piPeBX5tZtE+0vJt2JwNATZpkzzkKbFDq5MinQ==
   dependencies:
     commander "^5.1.0"
     joi "^17.4.2"
-    querystring "0.2.0"
+    querystring "0.2.1"
     utility-types "^3.10.0"
     webpack "^5.61.0"
     webpack-merge "^5.8.0"
@@ -2926,14 +2926,7 @@
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.3.tgz"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
-"@types/react-helmet@*":
-  version "6.1.4"
-  resolved "https://registry.npmjs.org/@types/react-helmet/-/react-helmet-6.1.4.tgz"
-  integrity sha512-jyx50RNZXVaTGHY3MsoRPNpeiVk8b0XTPgD/O6KHF6COTDnG/+lRjPYvTK5nfWtR3xDOux0w6bHLAsaHo2ZLTA==
-  dependencies:
-    "@types/react" "*"
-
-"@types/react-helmet@^6.1.5":
+"@types/react-helmet@*", "@types/react-helmet@^6.1.5":
   version "6.1.5"
   resolved "https://registry.npmjs.org/@types/react-helmet/-/react-helmet-6.1.5.tgz"
   integrity sha512-/ICuy7OHZxR0YCAZLNg9r7I9aijWUWvxaPR6uTuyxe8tAj5RL4Sw1+R6NhXUtOsarkGYPmaHdBDvuXh2DIN/uA==
@@ -2949,16 +2942,7 @@
     "@types/react" "*"
     "@types/react-router" "*"
 
-"@types/react-router-dom@*":
-  version "5.3.1"
-  resolved "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-5.3.1.tgz"
-  integrity sha512-UvyRy73318QI83haXlaMwmklHHzV9hjl3u71MmM6wYNu0hOVk9NLTa0vGukf8zXUqnwz4O06ig876YSPpeK28A==
-  dependencies:
-    "@types/history" "*"
-    "@types/react" "*"
-    "@types/react-router" "*"
-
-"@types/react-router-dom@^5.3.3":
+"@types/react-router-dom@*", "@types/react-router-dom@^5.3.3":
   version "5.3.3"
   resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.3.3.tgz#e9d6b4a66fcdbd651a5f106c2656a30088cc1e83"
   integrity sha512-kpqnYK4wcdm5UaWI3fLcELopqLrHgLqNsdpHauzlQktfkHL3npOSwtj1Uz9oKBAzs7lFtVkV8j83voAz2D8fhw==
@@ -2975,16 +2959,7 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react@*":
-  version "17.0.11"
-  resolved "https://registry.npmjs.org/@types/react/-/react-17.0.11.tgz"
-  integrity sha512-yFRQbD+whVonItSk7ZzP/L+gPTJVBkL/7shLEF+i9GC/1cV3JmUxEQz6+9ylhUpWSDuqo1N9qEvqS6vTj4USUA==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@^17.0.38":
+"@types/react@*", "@types/react@^17.0.38":
   version "17.0.38"
   resolved "https://registry.npmjs.org/@types/react/-/react-17.0.38.tgz"
   integrity sha512-SI92X1IA+FMnP3qM5m4QReluXzhcmovhZnLNm3pyeQlooi02qI7sLiepEYqT678uNiyc25XfCqxREFpy3W7YhQ==
@@ -8147,6 +8122,11 @@ querystring@0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz"
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
+
+querystring@0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.1.tgz#40d77615bb09d16902a85c3e38aa8b5ed761c2dd"
+  integrity sha512-wkvS7mL/JMugcup3/rMitHmd9ecIGd2lhFhK9N3UUQ450h66d1r3Y9nvXzQAW1Lq+wyx61k/1pfKS5KuKiyEbg==
 
 queue-microtask@^1.2.2:
   version "1.2.3"
