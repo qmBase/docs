@@ -131,7 +131,7 @@ const config = {
       appId: "LELAAR7MEU",
       apiKey: "1912b503149b94f953f6d20d46614dbd",
       indexName: "qmbase",
-      contextualSearch: true,
+      searchParameters: {},
     },
     // announcementBar: {
     //   id: "supportus",
