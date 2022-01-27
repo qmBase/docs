@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpbd_docs=self.webpackChunkpbd_docs||[]).push([[95202],{22153:e=>{e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/benachrichtigungen","name":"Benachrichtigungen","count":1,"permalink":"/blog/tags/benachrichtigungen"}')}}]);
