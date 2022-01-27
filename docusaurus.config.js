@@ -125,16 +125,13 @@ const config = {
         whiteLabel.dataPrivacyUrl
       }">Datenschutz</a>`,
     },
-    gtag: {
-      trackingID: "UA-75841800-1",
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
     algolia: {
       // This is a read-only, search-only key served directly by the front-end, managed by Algolia via their
       // free DocSearch program. The key is not sensitive. See https://docsearch.algolia.com/ for more details.
-      apiKey: "99381f4187b509ae47c20ddc7c68df91",
+      appId: "LELAAR7MEU",
+      apiKey: "1912b503149b94f953f6d20d46614dbd",
       indexName: "qmbase",
+      contextualSearch: true,
     },
     // announcementBar: {
     //   id: "supportus",
@@ -166,6 +163,11 @@ const config = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        gtag: {
+          trackingID: "UA-75841800-1",
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
         },
       },
     ],
