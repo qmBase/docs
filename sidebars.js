@@ -1,3 +1,6 @@
+// @ts-check
+
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 module.exports = {
   someSidebar: {
     "Los geht's": [
@@ -42,7 +45,6 @@ module.exports = {
       "faqs/faq-33",
       "faqs/faq-34",
       "faqs/faq-35",
-      "faqs/faq-36",
       "faqs/faq-37",
       "faqs/faq-38",
       "faqs/faq-39",
@@ -56,10 +58,8 @@ module.exports = {
       "faqs/faq-51",
       "faqs/faq-52",
       "faqs/faq-53",
-      "faqs/faq-54",
       "faqs/faq-55",
       "faqs/faq-56",
-      "faqs/faq-61",
       "faqs/faq-62",
       "faqs/faq-64",
       "faqs/faq-65",
@@ -70,7 +70,6 @@ module.exports = {
       "faqs/faq-73",
       "faqs/faq-74",
       "faqs/faq-75",
-      "faqs/faq-76",
       "faqs/faq-79",
       "faqs/faq-80",
       "faqs/faq-81",

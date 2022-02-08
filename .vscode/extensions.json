@@ -1,6 +1,10 @@
 {
-    "recommendations": [
-        "streetsidesoftware.code-spell-checker-german",
-        "davidanson.vscode-markdownlint"
-    ]
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker-german",
+    "davidanson.vscode-markdownlint",
+    "streetsidesoftware.code-spell-checker",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "fvclaus.sort-json-array"
+  ]
 }

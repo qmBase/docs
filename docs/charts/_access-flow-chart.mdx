@@ -1,0 +1,11 @@
+import Mermaid from "@theme/mermaid";
+
+<Mermaid
+  chart={`sequenceDiagram
+        1. Berechtigungen->>2. Zugriff App: Nutzer hat<br/> Zugriff App
+        2. Zugriff App->>3. Zugriff auf Element: Nutzer hat Zugriff<br/> auf einzelnes Element
+            3. Zugriff auf Element->>4. Zugriff auf Bereiche: Nutzer kann ganzes Element ändern
+            3. Zugriff auf Element->>4. Zugriff auf Bereiche: Nutzer kann Custom Fields ändern
+            3. Zugriff auf Element->>4. Zugriff auf Bereiche: Nutzer kann Fortschrittsbereich ändern
+            4. Zugriff auf Bereiche->>5.Zugriff auf Custom Fields: Custom Fields<br/> eingeschränkt bearbeitbar;`}
+/>
