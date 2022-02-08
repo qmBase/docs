@@ -11,13 +11,13 @@ Mit den Buttons auf linken Seitenleiste navigieren Sie sich durch die App.
 
 ![Screenshot Profile](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Profile/MyProfile.png)
 
-| Parameter                   | Typ    | Beschreibung                                                                                                                                               |
-| --------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <code>Mein Profil</code>    | Button | Über diesen Button gelangen Sie zu der o.g. Profil Seite                                                                                                   |
-| <code>Language</code>       | Button | Hier können Sie die Sprache von <ProductDisplayName/> ändern                                                                                               |
-| <code>Einstellungen</code>  | Button | Hier können Sie visuelle Änderungen an dem Design der <ProductDisplayName/> Software vornehmen                                                             |
-| <code>Verbesserungen</code> | Button | Hier können Sie Verbesserungen einsehen, die eingereicht wurden                                                                                            |
-| <code>Kalender</code>       | Button | Hier finden Sie Ihren Kalender mit Terminen für Schulungen, Audits etc. Sie haben die Möglichkeit diesen Kalender in Ihren privaten Kalender zu integriere |
+| Eintrag in Seitenleiste | Beschreibung                                                                                                                                                         |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mein Profil             | Über diesen Button gelangen Sie zu Ihrer Profil Seite                                                                                                                |
+| Language                | Ändern der angezeigten Sprache                                                                                                                                       |
+| Einstellungen           | Ändern von Einstellungen der Darstellung z.B. Farbe, Reihenfolge von Namen (Nachname, Vorname)                                                                       |
+| Verbesserungen          | Hier können Sie Verbesserungen einsehen, die eingereicht wurden                                                                                                      |
+| Kalender                | Hier finden Sie Ihren Kalender mit Terminen für Schulungen, Audits etc. Sie haben die Möglichkeit diesen Kalender in Ihren privaten per Ical Kalender zu integrieren |
 
 ## Language - Wie ändere ich die Sprache der Software?
 
