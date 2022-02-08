@@ -1,0 +1,27 @@
+import Mermaid from "@theme/mermaid";
+
+<Mermaid
+  chart={`graph TD
+    T --> G;
+    D --> F[Formulare];
+    F --> A;
+    F --> G;
+    subgraph Kern
+    CF[Aufgaben] --> Q;
+    end
+    subgraph Nachweis der Qualifikationen
+    Q(Qualifikationen) --> B[Schulungsteilnahmen];
+    Q --> D[Ausgefüllte Formulare];
+    Q --> A1[Anhänge Dateien, PDFs, Videos etc.];
+    Q --> E[Manuelle Zuordnung];
+    end
+    subgraph Unterstützung zum Qualifikationserwerb
+    Q --> G[Dokumente aus Dokumentenmanagement];
+    B --> T[Schulungen];
+    T --> A[Anhänge Dateien, PDFs, Videos etc.];
+    Q --> A;
+    end
+    DP[Positionen] --> CF;
+    M[Mitarbeiter] --> CF;
+    M[Mitarbeiter] --> DP;`}
+/>
