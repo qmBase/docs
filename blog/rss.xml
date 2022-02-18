@@ -4,10 +4,30 @@
         <title>qmBase - Docs Blog</title>
         <link>https://help.qmbase.com/blog</link>
         <description>Stay up to date with the latest qmBase changes</description>
-        <lastBuildDate>Wed, 26 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Feb 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2022 qmBase</copyright>
+        <item>
+            <title><![CDATA[Version 1.1.165]]></title>
+            <link>https://help.qmbase.com/blog/2022/02/18/version-1_1_165</link>
+            <guid>/2022/02/18/version-1_1_165</guid>
+            <pubDate>Fri, 18 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Diese Update beinhaltet Verbesserungen bei Tabellen, Uploads, Instandhaltung und Zielen.]]></description>
+            <content:encoded><![CDATA[<p>Diese Update beinhaltet Verbesserungen bei Tabellen, Uploads, Instandhaltung und Zielen.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="allgemein">Allgemein<a class="hash-link" href="#allgemein" title="Direkter Link zur Überschrift">​</a></h2><p>Mit diesem Update verbessern wir zwei zentrale Funktionen innerhalb unserer Software. Dies betrifft zum einen die Darstellung in <strong>Tabellen</strong> und zum anderen den <strong>Upload</strong> von Dateien.</p><h3 class="anchor anchorWithStickyNavbar_mojV" id="tabellen">Tabellen<a class="hash-link" href="#tabellen" title="Direkter Link zur Überschrift">​</a></h3><p>Wir haben das komplette Handling unserer Tabellen überarbeitet und vereinfacht.</p><ol><li><p>Bisher musste man z.B. zur Auswahl einer Zeile erst in den erweiterten Modus wechseln und dann noch mal separat den Auswahlmodus starten.
+Hier reicht es zukünftig den erweiterten Bearbeitungsmodus (drei Punkte rechts vom Filter) zu aktivieren.
+<img src="https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Recording%202022-02-18-tableHandling.gif" alt="tableGif"></p></li><li><p>Die Button zur Bearbeitung sind jetzt in zwei Blöcke aufgeteilt. Auf der rechten Seite befinden sich Button zur Konfiguration der Tabelle z.B. Darstellung der Spalten.
+Auf der linken Seite befinden sich die Button, die etwas mit der Bearbeitung der Daten zu tun haben so z.B. ein Löschbutton.
+Gleichzeitig werden die Bearbeitungsbutton jetzt automatisch gruppiert. So werden bei wenigen verfügbaren Aktionen Beschreibungstexte angezeigt.
+<img src="https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202022-02-18_advancedTableFewActions.png" alt="few"></p><p>Je mehr Aktionen verfügbar sind, desto stärker werden die Button dann komprimiert.
+<img src="https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202022-02-18_advancedTableMoreActions.png" alt="more"></p><p>Bei vielen verfügbaren Aktionen resultiert dies in einem Dropdown.
+<img src="https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202022-02-18_advancedTableAllActions.png" alt="all"></p></li></ol><h3 class="anchor anchorWithStickyNavbar_mojV" id="upload-von-dateien">Upload von Dateien<a class="hash-link" href="#upload-von-dateien" title="Direkter Link zur Überschrift">​</a></h3><p>Wir haben die Validierung und die dargestellte Rückmeldung beim Upload von Dateien verbessert. Dadurch wird besser erkennbar, wenn ein Upload nicht akzeptiert wird, weil z.B. der Dateityp falsch ist.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="instandhaltung">Instandhaltung<a class="hash-link" href="#instandhaltung" title="Direkter Link zur Überschrift">​</a></h2><p><strong>Batch-Aktionen</strong>: Es ist jetzt möglich bei mehreren Gegenständen in einem Schritt Daten zu aktualisieren. Folgende Aktionen sind derzeit möglich:</p><ul><li>Exportieren</li><li>Löschen</li><li>Ändern des Verantwortlichen</li><li>Hinzufügen von Prüftypen</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="zielmanagement">Zielmanagement<a class="hash-link" href="#zielmanagement" title="Direkter Link zur Überschrift">​</a></h2><p><strong>Batch-Aktionen</strong>: Im Zielmanagement können für mehrere Einträge in einem Schritt Zugriffsberechtigungen angelegt werden.
+Zusätzlich kann neben der einfachen Festlegung Öffentlich / Privat auch schon direkt festgelegt werden, auf welche Nutzer, Gruppen und Zugriffslevel sich die Einschränkung beziehen soll.
+<img src="https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202022-02-18-SetAccessBatchDetailsModal.png" alt="set access tab"></p>]]></content:encoded>
+            <category>Allgemein</category>
+            <category>Instandhaltung</category>
+            <category>Zielmanagement</category>
+        </item>
         <item>
             <title><![CDATA[Version 1.1.164]]></title>
             <link>https://help.qmbase.com/blog/2022/01/26/verions-1_1_164</link>
