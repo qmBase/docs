@@ -28,7 +28,8 @@ Im Dokumentenmanagement können beliebige Ordnerstrukturen aufgebaut werden. In 
 
 **Einzelne Ordner im Dokumentenmanagement können mit einem README Dokument versehen werden, um den anderen Nutzern einen Überblick darüber zu geben, was sich in diesem Ordner befindet. Hier kann z.B. erklärt werden, wie Vorlagen verwendet werden sollen.**
 
-Eine README hilft dabei, damit sich jeder sofort zu Recht findet und keine Fragen offen bleiben. Die README ist der Teil eines Ordners, der von Nutzern oft zuerst wahrgenommen wird. Typische Inhalte sind beispielsweise:
+Eine README hilft dabei, damit sich jeder sofort zu Recht findet und keine Fragen offen bleiben. Die README ist der Teil eines Ordners, der von Nutzern oft zuerst wahrgenommen wird.
+Typische Inhalte sind beispielsweise:
 
 - Wofür ist der Ordner gut
 
@@ -38,7 +39,9 @@ Eine README hilft dabei, damit sich jeder sofort zu Recht findet und keine Frage
 
 - Wie können Nutzer dazu beitragen den Inhalt zu verbessern
 
-Sobald Sie ein Dokument mit dem Namen README innerhalb eines Ordners oder im Stammverzeichnis (<code><FaHome/></code>) platziert haben, wird das Dokument unterhalb der Ordneransicht dargestellt. qmBase erkennt diese Dateien automatisch und es ist keinerlei weitere Aktion erforderlich. Sollten sich mehrere README Dokument innerhalb eines Ordners befinden, so wird nur das erste dieser Dokumente verwendet. Sie können somit eine einfache Navigation innerhalb beliebiger Unterbereiche des Dokumentenmanagements ermöglichen.
+Sobald Sie ein Dokument mit dem Namen README (Großschreibung beachten) innerhalb eines Ordners oder im Stammverzeichnis <FaHome/> platziert haben, wird das Dokument unterhalb der Ordneransicht dargestellt.
+qmBase erkennt diese Dateien automatisch und es ist keinerlei weitere Aktion erforderlich. Sollten sich mehrere README Dokument innerhalb eines Ordners befinden, so wird nur das erste dieser Dokumente verwendet.
+Sie können somit eine einfache Navigation innerhalb beliebiger Unterbereiche des Dokumentenmanagements ermöglichen.
 
 ![](https://caqadmin.blob.core.windows.net/faqs/83-images/mceclip0.png)
 
