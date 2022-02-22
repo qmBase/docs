@@ -1,5 +1,5 @@
 ---
-title: 🚀 Roadmap Update 2022 Q1
+title: 🚀 Roadmap Update Februar 2022 Q1
 author: Philipp Pähler
 author_image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
 image: /img/blog/roadmap.jpg
@@ -9,34 +9,88 @@ draft: true
 
 import TalentManager from "../../docs/charts/_talent-manager-entities.mdx";
 
-### Workflows & Automatisierung 🤖
+Nachdem unsere Roadmap Updates in der vergangen Zeit immer einen bestimmten Zeitraum abgebildet haben, wechseln wir jetzt zu einer anderen Strategie.
+Neben der kontinuierlichen Entwicklung einzelner kleinerer Funktionen und Fehlerbehebungen sollen jetzt hier an dieser Stelle immer die nächsten 1-2 größeren Themen angekündigt werden, an denen gearbeitet wird.
+Ziel ist es hierbei, diese innerhalb von 2-3 Monaten abzuschließen.
+Damit wollen wir eine bessere Planbarkeit für alle Nutzer schaffen und uns gleichzeitig eine größere Flexibilität offen halten,um auf sich ändernde Marktbedingungen reagieren zu können, ohne dabei bestehende Ankündigungen zurücknehmen zu müssen.
 
-Wiederkehrende Aufgaben manuell zu erledigen ist eine monotone Aufgabe und fehleranfällig.
-Hier setzen wir mit unserer Funktion **Workflows** an, um solche Abläufe zu vereinfachen.
-Sie können sich einen Workflow als ein einfaches regelbasiertes Programm innerhalb von qmBase vorstellen.
-Ein Workflow besteht aus folgenden Eigenschaften:
+## Rückblick 2021
 
-- Auslöser
-- Bedingungen
-- Auszuführende Aktion
+Im letzten Jahr haben wir unsere Software wieder substantiell verbessern können. Zu den größeren Themen zählen hierbei neben zahlreichen Detailverbesserungen
 
-> Beispiele für Workflows sind z.B.:
->
-> - Schicke eine Mail an die Qualitätssicherungsabteilung, wenn eine neue Reklamation erfasst wurde
-> - Blockiere das Ändern des Status einer Reklamation, wenn ein festgelegtes Custom Field nicht ausgefüllt wurde.
+- Zugriffskontrolle für einzelne Maßnahmen, Dokumente etc.
+- Neue Hilfe-Seite als zentraler Anlaufpunkt für unsere Dokumentation.
+- Automatisierte Management-Reviews
+- Verbesserter Vergleich von unterschiedlichen Dokumenten
+  Über das Jahr haben uns auch zahlreiche Verbesserungsvorschläge über unser Ticketsystem erreicht. Hier haben wir es geschafft in etwa gleich viele zu schließen wie neu angefallen sind.
 
-### Talentmanager 🤡
+![Tickets 2021](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202022-02-22_Tickets2021.png)
 
-<TalentManager />
+Neue Tickets (gelb): 548
+Geschlossene Tickets (grün): 545
 
-Verknüpfung der Bereiche Aufgabe & Qualifikationen und Schulungsmanagement in einer einheitlichen App, die vermutlich den Namen Talentmanager bekommen wird. Detailliertere Definition von Anforderungen an Qualifikationen z.B. durch Formulare oder Dokumente.
+## Ausblick
 
-## Formulare <-> Maßnahmen
+Im nächsten Abschnitt finden Sie die großen Themen, an denen wir in den nächsten Monaten arbeiten werden.
+Wir planen, dass wir diese Themen in etwa bis zum Anfang des Sommers umgesetzt haben werden.
 
-> Verknüpfung Formular(antworten) Maßnahmen mit Bezug auf Fragen
+### Talentmanager
 
-### Zielmanagement 🏁
+Der Hauptfokus in in der kommenden Zeit wird auf einer Verbesserung und Zusammenführung der Apps **Schulungsmanagement** und **Aufgaben & Qualifikationen** unter dem Titel **“Talent Manager”** liegen.
 
-Bisher kann der Zielfortschritt nur als % Wert erfasst werden. Dies erfordert unnötig kompliziertes Umrechnen bei der Benutzung der Software. An diese Stelle soll eine flexiblere Erfassung der Fortschritte kommen. Somit können dann auch einfach absolute Werte wie bspw. Anzahl der Neukunden erfasst werden.
+Derzeit sind diese Apps getrennt.
+Das führt nur zu unnötiger Irritation und Brüchen in der Bedienung. Mit unserer neu kombinierten App werden wir eine bessere Struktur und Benutzerführung etablieren.
+Ein weiterer Bestandteil sind größere Möglichkeiten zur Interaktion, so dass es sich lohnt mehr Mitarbeiter einzubinden und die Arbeit aufzuteilen.
 
-> Alle Tabellen Verknüpfungsicons, wie bei Qualifikationen und Schulungen
+Aktuell nutzen viele Kunden diese Apps mit einem sehr zentralistischen Ansatz.
+Das bedeutet z.B., dass wenige Mitarbeiter in der HR Abteilung die Schulungen und Qualifikationen für die Mitarbeiter des gesamten Unternehmens dokumentieren.
+Wir sind der Meinung, dass es besser ist mehr Mitarbeiter direkt einzubinden und wollen hierfür ganz neue Möglichkeiten schaffen.
+
+In unserer verbesserten Neuentwicklung wird zwei Bereichen innerhalb von qmBase eine größere Bedeutung beigemessen.
+Diese sind **Aufgaben** und **Qualifikationen**.
+Diese sollen, stärker als bisher, den Kern des neuen Talentmanagers bilden (s. Abbildung).
+Aufgaben stehen hierbei für das, was eine Organisation originär ausführen muss, um erfolgreich zu sein.
+Die Qualifikationen sind die notwendigen Bedingungen, um den Aufgaben gerecht zu werden.
+Die Nutzung der vollständigen App ist hierbei für eine Organisation auch immer mit einem gewissen Aufwand verbunden.
+Wir haben gelernt, dass nicht alle Organisationen dazu willens sind. Daher ergibt sich für uns auch ein weiteres Ziel dieser Restrukturierung.
+Wir möchten es besser ermöglichen, dass die einzelnen Bereiche auch unabhängig voneinander nutzbar sind.
+Dies soll auch eine schrittweise Implementierung innerhalb der eigenen Organisation ermöglichen, um den Start mit dieser App so einfach wie möglich zu gestalten.
+
+#### Neue Funktionen
+
+1. Planung von Schulungen basierend auf Qualifikationsbedarf: Beim planen von Schulungen oder der Auswahl der Teilnehmer fehlt derzeit eine einfache Verknüpfung zu notwendigen Qualifikationen.
+   Diese Verknüpfung wollen wir besser darstellen, so dass folgendes möglich ist:
+   - Planen von Schulungen für fehlende Qualifikationen innerhalb der Organisation
+   - Automatische Einladung von Teilnehmern, die einen Qualifikationsbedarf haben.
+2. Definition der Qualifikationsnachweise: Welche Voraussetzung sind notwendig, damit eine Qualifikation als vorhanden angesehen werden kann?
+   Wie weise ich als Mitarbeiter nach, dass ich über eine Qualifikation verfüge?
+   Zur Beantwortung dieser Fragen werden wir eine neue Funktion einführen, die es ermöglicht gefordert Nachweise zu definieren.
+   Folgende Nachweise sind von uns vorgesehen:
+   -Formulare (Automatische Auswertung für Wirksamkeitsprüfung): Ein ausgefülltes und also “Bestanden” gewertetes Formular dient als Nachweis ein Qualifikation.
+   - Manuell durch Nutzer selbst oder eingeschränkte Nutzer: Sie wollen nicht viel Zeit investieren oder haben Nachweise an einen anderen Ort bereits gespeichert. Ordnen Sie Qualifikationen einfach per Hand zu oder ermächtigen die Mitarbeiter im Rahmen ein Selbsteinschätzung das zu übernehmen.
+   - Schulungsteilnahme: Eine Qualifikation erfordert die Teilnahme an bestimmten Schulung(en).
+   - Dateiupload (Zertifikate, Führerscheine, Zeugnisse etc): Der Nachweis für eine Qualifikation kann über ein bestimmtes externes Dokument erbracht werden.
+   - Kenntnisnahme von Dokumenten (Selbstschulung)
+     - Per Aufruf: Es reicht ein Dokument anzuklicken
+     - Per Klick: Dokument muss aufgerufen werden und zusätzlich ein Button geklickt werden.
+     - Per Passwordeingabe: Der Nutzer muss sein Passwort zur Kenntnisnahme eingeben.
+     - Per Formular: Es muss ein Formular korrekt ausgefüllt werden.
+3. Zertifikate / Nachweise aus Schulungen als Dokumente erstellen: Zu jeder professionellen Schulung gehört ein Teilnahmezertifikat.
+   Um diesen Prozess zu automatisieren wird es möglich sein, über das Dokumentenmanagement Zertifikate zu erstellen.
+   Diese können dann durch die Teilnehmer einer Schulung angefordert und direkt personalisiert erzeugt werden, so dass dieses dann z.B. gedruckt oder anderweitig verwendet werden können.
+   Ebenso hat der Schulungsverantwortliche die Möglichkeit die Zertifikate für alle Teilnehmer zentral zu erzeugen.
+
+### Bessere Benachrichtigungen und Follow Me ⭐​
+
+Mit einer der letzten Versionen haben wir bereits automatische Erinnerungen und Zusammenfungsmails eingeführt.
+Diese werden wir weiter verfeinern und verbessern, so dass diese Benachrichtungen z.B. täglich statt wöchentlich erhalten können oder auch deaktivieren können.
+Unter diesem Begriff verbirgt sich eine Funktion, die es ermöglichen soll leichter den Überblick zu behalten und die Dinge zu verfolgen, die für Sie interessant sind.
+Das könnte z.B. der Bearbeitungsstatus einer bestimmten Reklamation sein, die Sie zwar nicht selbst bearbeiten aber für Sie trotzdem von Interesse ist.
+Dafür wird es möglich sein einzelne Informationen als Favoriten zu markieren, um diese Ereignisse dadurch im Blick zu behalten und über Änderungen informiert zu werden.
+Durch das Markieren von Favoriten über App Grenzen hinweg werden Sie eine bessere Möglichkeit haben, sich qmBase nach Ihren eigenen Vorstellungen zu konfigurieren.
+
+## Wir freuen uns auf Ihr Feedback
+
+Wir hoffen, dass Ihnen unser Ausblick gefällt! Wie immer sind wir an Ihrem Feedback interessiert.
+Was sind die Themen und Funktionen, die Ihnen am meisten am Herzen liegen? Nutzen Sie unsere Feedback Funktion innerhalb der Software, schreiben Sie uns eine E-Mail oder rufen Sie an.
+![Feedback Button](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202022-02-22_Feedbackbutton.png)
