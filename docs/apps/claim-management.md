@@ -200,3 +200,17 @@ Hier finden Sie alle FAQs zum Reklamationsmanagement.
 Die Einheiten für die Menge der reklamierten Waren lassen sich in den allgemeinen Einstellungen definieren:
 
 _Einstellungen -> Allgemein -> Einheiten_
+
+### FAQs
+
+In diesem Abschnitt finden Sie Antworten auf regelmäßige Fragen zum Reklamationsmanagement.
+
+#### Welche Warnungen und Hinweise werden im Reklamationsmanagement angezeigt?
+
+Wenn bei der Bearbeitung einer Reklamation Handlungsbedarf besteht, werden Hinweise, Warnungen und Fehler angezeigt.
+Warnungen auf der Detailseite lassen sich quittieren. Dieser Zustand wird jedoch nur für die aktuelle Session gespeichert.
+Das bedeutet, dass die Warnungen nach dem Neustart des Browsers erneut angezeigt werden.
+Warnungen:
+
+- Benötigte Custom Fields sind nicht ausgefüllt.
+- Optional vorhandene Frist ist überschritten.
