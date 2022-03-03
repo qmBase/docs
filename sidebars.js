@@ -38,6 +38,7 @@ module.exports = {
       "apps/dashboard",
     ],
     FAQs: [
+      "faqs/audit-trail",
       "faqs/smartViews",
       "faqs/supported-browsers",
       "faqs/article-shared",
