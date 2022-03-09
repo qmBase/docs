@@ -42,6 +42,7 @@ module.exports = {
       "faqs/smartViews",
       "faqs/supported-browsers",
       "faqs/article-shared",
+      "faqs/article-placeholder",
       "faqs/faq-2",
       "faqs/faq-3",
       "faqs/faq-4",

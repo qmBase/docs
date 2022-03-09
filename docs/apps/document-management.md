@@ -53,3 +53,8 @@ Im Bereich Link Prüfung können Sie automatisch überprüfen, ob die Links inne
 Als nicht gültige Dokumente gelten gelöschte oder zurückgezogene Dokumente.
 
 ![linkValidator](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-07-15%20105026_linkValidator.png)
+
+## Vorlagen
+
+Im Dokumentenmanagement gibt es zwei Arten von Vorlagen. Hierbei handelt es sich um die qmBase Vorlagen, die durch uns zur Verfügung gestellt werden und um Vorlagen, die Sie selbst erstellen können.
+Weitere Informationen darüber, wie Sie selbst Vorlagen erstellen erhalten Sie [hier](/docs/faqs/article-placeholder)

@@ -32,3 +32,13 @@ Ist ein Formular veröffentlicht, kann es auch ausgefüllt werden. Wählen Sie d
 
 Die Antworten zu Formularen finden Sie unter dem Menüpunkt <code>Ausgefüllte Formulare</code>.
 Alternativ können Sie über den Menüpunkt <code>Formulare verwalten</code> das gewünschte Formular auswählen und unter dem Tab <code>Antworten</code> die Formularantworten anzeigen lassen.
+
+### Wer kann ausgefüllte Formulare sehen?
+
+Der Zugriff auf ausgefüllte Formulare hängt von verschiedenen Kriterien ab, die in der nachfolgenden Tabelle dargestellt sind.
+
+| Einstellung                                             | Sichtbarkeit der Antworten                                                                         |
+| ------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Keine Einstellungen getroffen                           | Antworten sind nur sichtbar für den Ersteller, Verantwortlicher des Formulars, Module Admin, Admin |
+| Formulareinstellung: Antworten öffentlich sichtbar      | Antworten können durch alle Personen mit Zugriff auf die App eingesehen werden                     |
+| Formulareinstellung: Individuelle Zugriffseinstellungen | Dieser Bereich befindet sich noch in Entwicklung                                                   |
