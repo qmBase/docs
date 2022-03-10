@@ -127,6 +127,7 @@ module.exports = {
       "technical/installation",
       "technical/integrations",
       "technical/whitelabel",
+      "technical/backup",
     ],
     Intern: ["tutorial-template"],
   },
