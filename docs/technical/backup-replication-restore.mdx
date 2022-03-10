@@ -1,0 +1,18 @@
+---
+id: installation
+title: Backup and Restore
+sidebar_label: Backup
+slug: /technical/backup
+---
+
+qmBase uses Microsoft's database service (MS-SQL) to manage user data.
+We take regular snapshots of the database and save them securely so that we can restore them if this is needed.
+
+Learn more about Microsoft's database service [here](https://azure.microsoft.com/en-us/products/azure-sql/database/).
+
+Additionally qmBase uses Microsoft's Azure Blob Storage to store user binary data like files, images etc.
+Azure Storage always stores multiple copies of your data so that it is protected from planned and unplanned events, including transient hardware failures, network or power outages, and massive natural disasters.
+Redundancy ensures that your data meets its availability and durability targets even in the face of failures.
+Furthermore we have applied policies which prevent data from being accidentally deleted.
+
+Learn more about Microsoft's Blob Storage service [here](https://azure.microsoft.com/en-us/services/storage/blobs/).

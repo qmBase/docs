@@ -53,21 +53,21 @@ Insert this row in your multi tenant database
 ```sql
 INSERT INTO [yourDatabase].[dbo].[MultiTenants]
 (
-		,[DatabaseType]
-		,[Host]
-		,[ConnectionString]
-		,[StorageConnectionString]
-		,[Name]
-		,[CustomerId]
+  ,[DatabaseType]
+  ,[Host]
+  ,[ConnectionString]
+  ,[StorageConnectionString]
+  ,[Name]
+  ,[CustomerId]
 )
 VALUES
 (
-		,0
-		,pathToYour.qmbase
-		,SQL Connection string
-		,NULL
-		,yourCustomerName
-		,yourCustomerId
+  ,0
+  ,pathToYour.qmbase
+  ,SQL Connection string
+  ,NULL
+  ,yourCustomerName
+  ,yourCustomerId
 )
 ```
 
@@ -120,7 +120,7 @@ Possible but not yet documented
 qmBase builds upon modern and popular technologies.
 For our backend we use
 
-- ASP.NET 5.0
+- ASP.NET 6.0
 
 For our frontend we use
 
