@@ -36,7 +36,45 @@ Verwenden Sie das Kebab-Menü, um das Aussehen der Tabelle anzupassen. Zeigen Si
 
 ![Tabellen Filter](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/basicTableFunctions_sm.gif)
 
-### Kommentieren
+### Kommentare
+
+In allen Apps Informationen kommentiert werden. Die Kommentare beziehen sich dabei i.d.R. auf das Hauptobjekt der einzelnen App. Also z.b. im Reklamationsmanagement auf die einzelne Reklamation.
+Kommentare können genutzt werden, um gemeinsam kollaborativ zu arbeiten. Mit Hilfe der Kommentare können auch Personen die einen Eintrag sonst nicht bearbeiten können, Informationen hinzufügen und ergänzen.
+
+#### Bearbeiten von Kommentaren
+
+In einigen Apps können Sie Kommentare auch bearbeiten. Um Kommentare zu bearbeiten, muss eine der folgenden Bedingen erfüllt sein:
+
+| Aktion     | Bedingung                                            |
+| ---------- | ---------------------------------------------------- |
+| Löschen    | Nutzer muss Ersteller des Kommentars oder Admin sein |
+| Bearbeiten | Nutzer muss Ersteller des Kommentars sein            |
+
+#### Übersicht der Apps mit Kommentaren
+
+In der folgenden Tabelle finden Sie eine Übersicht aller Apps, in denen Sie Kommentare erfassen können.
+
+| App                        | Kommentare beziehen sich auf | Bearbeiten / Löschen |
+| -------------------------- | ---------------------------- | -------------------- |
+| Abwesenheitsplaner         | Abwesenheitsantrag           |
+| Auditmanagement            | Audits                       |
+| Aufgaben & Qualifikationen | <code>nicht vorhanden</code> |
+| Blog                       | Blogeintrag                  | ✔️                   |
+| CRM                        | Organisationen, Personen     |
+| Dokumenetenmanagement      | Dokument                     | ✔️                   |
+| Fehlermanagement           | Fehler                       |
+| Formulare                  | <code>nicht vorhanden</code> |
+| Ideenmanagement            | einzelne Idee                |
+| Instandhaltung             | Inventargegenstand           |
+| Mitarbeiter                | Person                       |
+| Produkte                   | Produkte                     |
+| Schulungsmanagement        | Schulungen                   |
+| Projekte & Maßnahmen       | Projekte, Maßnahmen          | ✔️                   |
+|                            | Maßnahmen                    | ✔️                   |
+| Reklamationsmanagement     | Reklamationen                | ✔️                   |
+| Risiken & Chancen          | Risiken, Chancen             |
+| Wiki                       | Wikieintrag                  | ✔️                   |
+| Zielmanagement             | Ziele                        |
 
 ### Schlagworte
 
