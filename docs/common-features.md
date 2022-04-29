@@ -93,3 +93,24 @@ Das Bearbeiten der Schlagworte ist unter Umständen an Berechtigungen zum Bearbe
 #### Wie kann ich die Farbe von Schlagworten ändern?
 
 In den Einstellungen unter _/Allgemein/Schlagworte_ kann die Hintergrundfarbe und die Schriftfarbe einzelner Schlagworte konfiguriert werden. Die Schlagworte erscheinen im System dann immer in den eingestellten Farben.
+
+### Angeheftete Einträge
+
+Pro App können bis zu **3** Einträge aus der App auf der jeweiligen Startseite angeheftet werden. Das Anheften erfordert die Rolle eine Modul Admins oder Admins.
+![Angeheftete Einträge auf App Startseite](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot2022-04-28_pinnedItemsRow.png)
+Für angeheftete Einträge, die für einzelne Nutzer nicht sichtbar sein sollen, werden Platzhalterkarten mit einer Fehlermeldung angezeigt.
+Einträge lassen sich aus den jeweiligen Detailsseiten z.B. einer Maßnahme heraus anheften.
+![Eintrag anheften](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot2022-04-28_pinnedItemsAction.png)
+Anheften von Einträgen ist derzeit in folgenden Apps möglich:
+
+- Blog
+- Dokumentenmanagement
+- Projekte & Maßnahmen
+- Wiki
+
+#### Was bringt das Anheften von Einträgen - Anwendungsfälle
+
+- Sensibilisieren Sie Ihre Kollegen für bestimmte Themen
+- Schnellere Bearbeitung einzelner Themen durch größere Aufmerksamkeit
+- Best Practices in in der Organisation etablieren
+- Ein ärgerlicher Fehler tritt immer wieder auf? Heften Sie eine bestimmte Reklamation auf der Startseite des Reklamationsmanagements an und erreichen Sie eine größere Aufmerksamkeit.
