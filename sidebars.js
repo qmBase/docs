@@ -126,7 +126,7 @@ module.exports = {
       "technical/integrations",
       "technical/whitelabel",
       "technical/backup",
+      "technical/on-prem-compare",
     ],
-    Intern: ["tutorial-template"],
   },
 };
