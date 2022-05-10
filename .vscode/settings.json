@@ -9,5 +9,13 @@
     "versioniert",
     "Versionierung"
   ],
-  "cSpell.language": ",de"
+  "cSpell.language": ",de",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "markdownlint.config": {
+    "default": true,
+    "MD013": { "line_length": 160 }
+  }
 }
