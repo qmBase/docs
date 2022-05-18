@@ -26,3 +26,7 @@ Innerhalb von qmBase werden die Nutzer und Mitarbeiter getrennt voneinander erfa
 3. Abschließend muss überprüft werden, ob der ehemalige Mitarbeiter noch als Verantwortlicher für aktive Aufgaben festgelegt ist.
 
 Alle mit dem Mitarbeiter verknüpften Informationen, wie z.B. Maßnahmen oder Ideen bleiben erhalten. Der Mitarbeiter kann dann aber zukünftig nicht mehr als Verantwortlicher ausgewählt werden.
+
+### Wie ändere ich die Darstellung von Namen von Personen und Mitarbeiter - Vorname Nachname vs. Nachname, Vorname
+
+In Ihrem Profil unter **Profileinstellungen > Einstellungen** kann eingestellt in welche Reihenfolge die Namen sortiert werden sollen.
