@@ -19,6 +19,7 @@ qmBase can be installed on Windows.
 - Hardware requirements
   - min 4 GB Ram
   - min 10 GB HDD
+- Internet access from the server validate subscriptions and user management
 
 #### Recommended Folder Structure
 
@@ -113,7 +114,7 @@ Possible but not yet documented
 |            | Status                                                                                                                                               |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Build      | [![Build status](https://dev.azure.com/caqio/PBD/_apis/build/status/qmBase%20Master)](https://dev.azure.com/caqio/PBD/_build/latest?definitionId=24) |
-| Deployment | ![](https://vsrm.dev.azure.com/caqio/_apis/public/Release/badge/40d1313e-3385-464b-a9ed-3cce1c2d470e/3/16)                                           |
+| Deployment | ![Deployment status](https://vsrm.dev.azure.com/caqio/_apis/public/Release/badge/40d1313e-3385-464b-a9ed-3cce1c2d470e/3/16)                                           |
 
 ## Tools & Frameworks we use
 
