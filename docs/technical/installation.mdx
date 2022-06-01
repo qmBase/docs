@@ -103,6 +103,22 @@ We are improving qmBase continuously. That means that we are releasing multiple 
 
 Alternatively you can use the qmBase.Installer.exe. If you use the default configuration you can do 9 out of 10 updates automatically. Please note that the qmBase.Installer is part of the Enterprise subscription.
 
+### Access to the internet
+
+Even On-Premises installation need access to the internet. Some specific connections are required for full functionality.
+The urls that need to be accessible are displayed in the table below. If endpoints are not available qmBase might work with limited functionality.
+The IP addresses might change over time.
+
+| Url                                           | IP-Address   | Purpose                                                       |
+| --------------------------------------------- | ------------ | ------------------------------------------------------------- |
+| https://qmadmin.qmbase.com                    | 20.50.2.7    | Subscription management, Ticket System                        |
+| https://qmbasestore.azurewebsites.net         | 13.69.68.47  | Access to qmBase Templates                                    |
+| https://qmbasesupport.blob.core.windows.net/  | n/a          | Access to qmBase Templates                                    |
+| https://qmbase-armfunctions.azurewebsites.net | 20.50.2.41   | Central user management                                       |
+| https://qmbasefunctions.azurewebsites.net     | 13.94.211.38 | Recurring weekly notifications and web calendar functionality |
+| https://api.sendgrid.com                      | n/a          | E-Mail notifications                                          |
+| https://caqadmin.blob.core.windows.net        | n/a          | Software Updates                                              |
+
 ## Install on Linux
 
 Possible but not yet documented
@@ -114,7 +130,7 @@ Possible but not yet documented
 |            | Status                                                                                                                                               |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Build      | [![Build status](https://dev.azure.com/caqio/PBD/_apis/build/status/qmBase%20Master)](https://dev.azure.com/caqio/PBD/_build/latest?definitionId=24) |
-| Deployment | ![Deployment status](https://vsrm.dev.azure.com/caqio/_apis/public/Release/badge/40d1313e-3385-464b-a9ed-3cce1c2d470e/3/16)                                           |
+| Deployment | ![Deployment status](https://vsrm.dev.azure.com/caqio/_apis/public/Release/badge/40d1313e-3385-464b-a9ed-3cce1c2d470e/3/16)                          |
 
 ## Tools & Frameworks we use
 
