@@ -96,6 +96,8 @@ Einen Auditbericht können Sie mit Hilfe des Dokumentenmanagements erstellen.
 Damit Sie Informationen, die Sie bereits im Audit erfasst haben wiederverwenden können, gibt es die **Auditbericht erstellen**. Je nach Konfiguration Ihres Audits erstellen Sie mit wenigen Klicks einen Bericht. Diesen können Sie dann basierend auf Ihren Auditerkenntnissen ausfüllen und an alle beteiligten Personen verteilen.
 ![Auditbericht Button](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/20220531-auditReport.gif)
 
+Für die Erstellung des Berichts müssen Auditanforderungen das betreffende Audit festgelegt werden. Zusätzlich müssen Sie über das Dokumentenmanagement verfügen.
+
 #### Aufbau des Berichts
 
 Der Bericht besteht aus einem einleitenden Text und eine Link zum Audit.
