@@ -14,7 +14,7 @@ Mit Hilfe dieser App können Sie Ihr unternehmensweites Auditmanagement vollstä
 
 ![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Audits.png)
 
-Dies ist die Startseite des Auditmanagements mit den Buttons auf linken Seitenleiste navigieren Sie sich durch das Auditmanagement. Um Ihr erstes Audit zu erstellen klicken Sie einfach auf der linken Seite auf den Button <code><FaPlus/> Neu</code>.
+Dies ist die Startseite des Auditmanagements mit den Buttons auf linken Seitenleiste navigieren Sie sich durch das Auditmanagement. Um Ihr erstes Audit zu erstellen klicken Sie einfach auf der linken Seite auf den Button <code><span><FaPlus/> Neu</span></code>.
 Zusätzlich kommen Sie von hier zu folgenden Bereichen:
 
 - **Audits**: Übersicht aller bestehenden Audits
@@ -89,6 +89,20 @@ Wenn wir uns jetzt die Auditmatrix anschauen und nach der Anforderungen ISO 9001
 In dieser Darstellung können Sie sehen, dass die Anforderung ISO 9001 aus drei Unteranforderungen besteht. Zwei Audits sind geplant oder durchgeführt, die mit der Anforderung zusammenhängen. Das Audit Geschäftsführung wurde bereits durchgeführt.
 Daher ist der Haken hier grün. Das Audit Vertriebsprozess wurde bisher noch nicht geplant. Daher sieht man hier einen roten Hinweis.
 In der Matrix selbst ist ein grauer Haken hinterlegt. Das bedeutet, dass diese Anforderung theoretisch erfüllt wäre, wenn das Audit tatsächlich im Zeitrraum durchgeführt wird.
+
+### Wie erstelle ich einen Auditbericht
+
+Einen Auditbericht können Sie mit Hilfe des Dokumentenmanagements erstellen.
+Damit Sie Informationen, die Sie bereits im Audit erfasst haben wiederverwenden können, gibt es die **Auditbericht erstellen**. Je nach Konfiguration Ihres Audits erstellen Sie mit wenigen Klicks einen Bericht. Diesen können Sie dann basierend auf Ihren Auditerkenntnissen ausfüllen und an alle beteiligten Personen verteilen.
+![Auditbericht Button](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/20220531-auditReport.gif)
+
+Für die Erstellung des Berichts müssen Auditanforderungen das betreffende Audit festgelegt werden. Zusätzlich müssen Sie über das Dokumentenmanagement verfügen.
+
+#### Aufbau des Berichts
+
+Der Bericht besteht aus einem einleitenden Text und eine Link zum Audit.
+Zusätzlich wird eine Tabelle mit den festgelegten Auditanforderungen erstellt.
+Die Daten hierzu stammen aus dem zugehörigen Audittypen und den verknüpften Auditanforderungen.
 
 ### Wo finde ich Auswertungen meiner Audits?
 
