@@ -1,0 +1,112 @@
+---
+id: security
+title: Security
+sidebar_label: Security
+slug: /technical/security
+---
+
+We understand the importance of the responsibility to protect customer data.
+The security and confidentiality of your information is fundamental to your and our success, so we take great care to protect it.
+We are committed to being transparent about our security practices and helping you understand our approach.
+So we want to be as clear and open as possible about the way we approach security.
+This document outlines our approach to security, availability, processing integrity, confidentiality and privacy.
+If you have other questions, please feel free to [contact us](mailto:support@qmbase.com).
+
+## Infrastructure Security
+
+### Production System
+
+The qmBase production environment is hosted at Microsoft Azure, one of the industry-leading service providers, on servers based in the EU (West-Europe).
+
+Customer data is processed and stored by Azure App Service, Storage Accounts, MS-SQL Databases and other services.
+Development happens on a system in a different environment than production.
+Microsoft Azure maintains several certifications for its data centers, including ISO 27001 compliance, PCI certification, and SOC reporting.
+For more information about its certification and compliance, visit the Microsoft Trust Center website.
+We implement strict internal authentication and access controls to limit administrative access to our production systems, internal support tools and customer data.
+All administrative access to our production systems requires two-factor authentication.
+Computer-level access restrictions are based on key-based authentication and use in-transit encryption to improve the confidentiality of data in transit.
+All traffic to and from the qmBase production system is encrypted.
+
+### Third-Party Vendors
+
+qmBase currently processes and stores customer information with providers that can be found in <!-- this [list](/docs/technical/subprocessors) --> the Data processing agreement (DPA).
+Please refer to their respective security policy for further details.
+
+## Data Security
+
+### Data in transit
+
+qmBase transmits data over public networks using SSL encryption. This includes data transmitted between all external parties and the qmBase service.
+qmBase supports the latest recommended standards to encrypt all traffic in transit, including use of TLS protocols and SHA256 with RSA encryption.
+
+### Data at Rest
+
+Data at rest in the qmBase production network is encrypted using FIPS 140-2 compliant encryption standards. This applies to all types of data at rest within our databases, file stores, database backups, etc.
+
+## Product Security
+
+### Role-based Access
+
+qmBase supports hierarchical group access controls and a set of different user roles to enable different access levels for users of one organization.
+
+### Authentication
+
+qmBase supports oAuth 2.0 authentication via
+
+- Google
+- Microsoft Azure Active Directory
+
+to authenticate users without requiring to enter additional login credentials.
+For password based authentication, a strong password is enforced following industry best practices.
+Additionally users can use a second factor via Time-based One-time Password (TOTP) for Multi-factor authentication (Mfa).
+
+### Passwords & Credentials
+
+Your password and oAuth tokens are encrypted and never stored in our database in a readable/unencrypted format. You are responsible for choosing a strong password and keeping it secret.
+qmBase encourages the usage of a password manager to generate strong passwords.
+
+## Availability
+
+We understand that you rely on our services. We're committed to making qmBase a highly-available service that you can count on.
+Our infrastructure runs on systems that are fault tolerant, for failures of individual servers or even entire data centers.
+Our team tests disaster-recovery measures regularly and staffs an around-the-clock on-call team to quickly resolve unexpected incidents.
+
+Customer data is stored redundantly in our hosting provider’s data centers, capable of high availability and automatic failover to ensure availability.
+We have backup and restoration procedures, which allow recovery from a major disaster. Customer data and our source code are automatically backed up regulary.
+The on-call team is alerted in case of a failure with this system. Backups are fully tested regularly to confirm that our processes and tools work as expected.
+For more information about backups please refer to the specific [document](/docs/technical/backup).
+
+## Confidentiality & Employee Access
+
+We strictly control our employees' access to data stored in our customer systems. We are committed to ensuring that customer data is not seen by anyone who should not have access to it.
+The operation of the qmBase services requires that some, selected and qualified employees have access to the systems which store and process customer data.
+For example, in order to diagnose a problem you are having with the services, we may need to access your customer data.
+Every access is being logged in our system and these employees are prohibited from using these permissions to view customer data unless it is necessary to do so.
+
+All of our employees and contractors are bound by our policies regarding customer data, working under NDAs, and we view these issues as the most important to our business.
+We enforce screen locks and full disk encryption on corporate computers. For more information, please see our Privacy Policy.
+
+All members of our team have received basic role-specific security awareness training, and each team member is required to acknowledge and sign a privacy statement informing them of their obligations under applicable law.
+
+## Other Security Topics
+
+### Optional Security features
+
+We also fullfill custom security requirements on request. This might include for example
+
+- On-Premises deployments.
+- Software deployment to other regions than our default.
+- Individual Backup and fail over strategies.
+
+For more information [contact us](mailto:support@qmbase.com).
+
+### Ongoing Efforts
+
+New features, functionality and product changes go through a security review process.
+Additionally, our code is tested and manually reviewed before deploying to production.
+In addition to our existing procedures, we are committed to implementing additional measures in the future, including external compliance certification.
+
+### Responsible Vulnerability Disclosure
+
+If you are a security expert or researcher and you believe that you have found a vulnerability in qmBase, we encourage you to notify us at [support@qmBase.com](mailto:support@qmbase.com).
+Please make an effort in good faith to protect our users' privacy and data. We look forward to working with you to resolve the issue as soon as possible and will award bug bounties if applicable.

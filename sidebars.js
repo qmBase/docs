@@ -127,6 +127,8 @@ module.exports = {
       "technical/whitelabel",
       "technical/backup",
       "technical/on-prem-compare",
+      "technical/security",
+      // "technical/subprocessors",
     ],
   },
 };
