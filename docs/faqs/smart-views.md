@@ -10,7 +10,7 @@ Smart Views helfen Ihnen und Ihrem Team die Übersicht in wachsenden Listen von 
 Typische Aufgaben, für die Smart Views geeignet sind, sind z.B:
 
 - Alle Aufgaben, die in Bearbeitung sind und für die die Mitarbeiter Müller, Meyer und Schmidt verantwortlich sind
-- Alle Maßnahmen mit Schlagwort ISO 9001 Rezertifizierung mit einem Erstelldatum ab dem 01.09.2017
+- Alle Maßnahmen mit Schlagwort ISO 9001 Rezertifizierung mit einem Erstellt ab dem 01.09.2017
 - Maßnahmen und Projekte, die im 2. Quartal 2017 abgeschlossen wurden.
 
 Smart Views lassen sich nur für den eigenen Gebrauch als private Smart Views erstellen. Alternativ können Smart Views auch mit allen Nutzern der Software geteilt werden. Das Bearbeiten und Löschen der Smart View bleibt dem Ersteller vorbehalten.
@@ -22,6 +22,7 @@ Smart Views sind derzeit schon in vielen Apps verfügbar. Zukünftig werden Smar
 | App                        | Status       |
 | -------------------------- | ------------ |
 | Ideenmanagement            | ✔️ vorhanden |
+| Abwesenheitsplaner         | ✔️ vorhanden |
 | Aufgaben & Qualifikationen | ✔️ vorhanden |
 | Projekte & Maßnahmen       | ✔️ vorhanden |
 | Inventargegenstände        | ✔️ vorhanden |
@@ -36,11 +37,11 @@ Zum Erstellen von Smart Views gehen Sie wie folgt vor:
 
 1. Einen Filter einstellen
 
-![](https://caqadmin.blob.core.windows.net/faqs/124/5de5e6c1-0db8-4a80-bba8-c1e6421a8994-images-mceclip0.png)
+![Filter einstellen](https://caqadmin.blob.core.windows.net/faqs/124/5de5e6c1-0db8-4a80-bba8-c1e6421a8994-images-mceclip0.png)
 
 2. Ausgeählten Filter als Smart View abspeichern
 
-![](https://caqadmin.blob.core.windows.net/faqs/124/891c1ae1-5946-4493-8e07-461597a6afab-images-mceclip1.png)
+![Filter speichern](https://caqadmin.blob.core.windows.net/faqs/124/891c1ae1-5946-4493-8e07-461597a6afab-images-mceclip1.png)
 
 ### Wer kann Smart Views bearbeiten?
 
