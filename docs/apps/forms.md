@@ -5,12 +5,13 @@ title: Formulare
 
 ![Forms page screenshot](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Forms.png)
 
-Mit qmBase Formularen können Sie Umfragen, Quizze und Formulare erstellen. Andere Personen können diese direkt über einen beliebigen Webbrowser oder ein mobiles Gerät ausfüllen bzw. beantworten. Die Ergebnisse sind in Echtzeit verfügbar. Integrierte Analysen bieten die Möglichkeit Antworten und Ergebnisse direkt in qmBase auszuwerten auszuwerten. Für weiterführende  Analysen oder Benotungen können alle Daten auch exportiert werden.
+Mit qmBase Formularen können Sie Umfragen, Quizze und Formulare erstellen. Andere Personen können diese direkt über einen beliebigen Webbrowser oder ein mobiles Gerät ausfüllen bzw. beantworten. Die Ergebnisse sind in Echtzeit verfügbar. Integrierte Analysen bieten die Möglichkeit Antworten und Ergebnisse direkt in qmBase auszuwerten auszuwerten. Für weiterführende Analysen oder Benotungen können alle Daten auch exportiert werden.
 
 Die qmBase Formulare dienen einer regelmäßigen und standardisierten Informationserfassung.
 Ein einmal erstelltes Formular kann beliebig oft ausgefüllt werden. Jedes Formular kann dabei als individuelle Gruppierung von [Custom Fields](/docs/faqs/80/) verstanden werden.
 
 ## Wer kann die Formulare verwenden
+
 qmBase Formulare sind bei allen Kunden verfügbar, die diese App in ihrem Abonnement enthalten haben.
 
 ## Wie wird ein Formular erstellt?
@@ -37,11 +38,11 @@ Alternativ können Sie über den Menüpunkt <code>Formulare verwalten</code> das
 
 Der Zugriff auf ausgefüllte Formulare hängt von verschiedenen Kriterien ab, die in der nachfolgenden Tabelle dargestellt sind.
 
-| Einstellung                                             | Sichtbarkeit der Antworten                                                                         |
-| ------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Einstellung                                             | Sichtbarkeit der Antworten                                                                            |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | Keine Einstellungen getroffen                           | Antworten sind nur sichtbar für den Ersteller, Verantwortlicher des Formulars, Module Admim und Admin |
-| Formulareinstellung: Antworten öffentlich sichtbar      | Antworten können durch alle Personen mit Zugriff auf die App eingesehen werden                     |
-| Formulareinstellung: Individuelle Zugriffseinstellungen | Dieser Bereich befindet sich noch in Entwicklung                                                   |
+| Formulareinstellung: Antworten öffentlich sichtbar      | Antworten können durch alle Personen mit Zugriff auf die App eingesehen werden                        |
+| Formulareinstellung: Individuelle Zugriffseinstellungen | Dieser Bereich befindet sich noch in Entwicklung                                                      |
 
 :::info Die Quiz Funktion ist derzeit nur als Private Vorschaufunktion verfügbar und für Sie möglicherweise noch nicht erreichbar.
 :::
@@ -85,3 +86,5 @@ Nachdem Sie erste Antworten erhalten haben, können Sie diese überprüfen und b
 3. Klicken Sie auf den Button **Jetzt bewerten**. Wenn Sie Ihre Ergebnisse später korrigieren möchten, können Sie dies über das Kontextmenü (3 Punkte) auf dieser Seite erledigen.
 4. Überprüfen Sie alle Fragen und vergeben Sie Punkte pro Antwort.
 5. Wählen Sie **Ergebnis veröffentlichen**, um den Einreicher über die sein Ergebnis zu informieren. Andernfalls ist das Ergebnis nicht sichtbar.
+
+Das Bewerten der Antworten ist dem Formularverantwortlichen sowie den Admins im Bereich Formulare vorenthalten.
