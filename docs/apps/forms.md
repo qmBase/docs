@@ -5,13 +5,12 @@ title: Formulare
 
 ![Forms page screenshot](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Forms.png)
 
-Mit qmBase Formularen können Sie Umfragen, Quizze und Formulare erstellen, andere Personen dazu einladen, über einen beliebigen Webbrowser oder ein mobiles Gerät darauf zu antworten, die Ergebnisse in Echtzeit sehen, wenn sie übermittelt werden, integrierte Analysen verwenden, um Antworten auszuwerten, und die Ergebnisse für zusätzliche Analysen oder Benotungen exportieren.
+Mit qmBase Formularen können Sie Umfragen, Quizze und Formulare erstellen. Andere Personen können diese direkt über einen beliebigen Webbrowser oder ein mobiles Gerät ausfüllen bzw. beantworten. Die Ergebnisse sind in Echtzeit verfügbar. Integrierte Analysen bieten die Möglichkeit Antworten und Ergebnisse direkt in qmBase auszuwerten auszuwerten. Für weiterführende  Analysen oder Benotungen können alle Daten auch exportiert werden.
 
-Formulare dienen einer regelmäßigen und standardisierten Informationserfassung.
-Ein einmal erstelltes Formular kann beliebig oft ausgefüllt werden Jedes Formular kann dabei als individuelle Gruppierung von [Custom Fields](/docs/faqs/80/) verstanden werden.
+Die qmBase Formulare dienen einer regelmäßigen und standardisierten Informationserfassung.
+Ein einmal erstelltes Formular kann beliebig oft ausgefüllt werden. Jedes Formular kann dabei als individuelle Gruppierung von [Custom Fields](/docs/faqs/80/) verstanden werden.
 
 ## Wer kann die Formulare verwenden
-
 qmBase Formulare sind bei allen Kunden verfügbar, die diese App in ihrem Abonnement enthalten haben.
 
 ## Wie wird ein Formular erstellt?
@@ -22,13 +21,8 @@ qmBase Formulare sind bei allen Kunden verfügbar, die diese App in ihrem Abonne
 2. Über den Button <code>Neues Feld hinzufügen</code> können Sie beliebig viele Formularfelder erstellen. Die Formularfelder entsprechen in Ihren Eigenschaften und Datentypen denen von Custom Fields.
    [Hier erfahren Sie mehr über die unterschiedlichen Datentypen in Custom Fields.](/docs/faqs/80/)
 
-:::info
-Beachten Sie, dass es zur einer Beschädigung von Daten kommen kann, wenn Sie die Datentypen eines Formularfeldes zu einem späteren Zeitpunkt ändern.
-Beispiel: Sie erstellen ein Textfeld. Nachdem Sie bereits zahlreiche Antworten zu diesem Formularfeld erfasst haben ändern Sie den Datentyp dieses Feldes zu einem Datumsfeld.
-:::
-
-3. Veröffentlichen Sie das Formular. Wenn Sie das Formular mit allen gewünschten Formularfelder erstellt haben, veröffentlichen Sie das Formular über den Button <code>Veröffentlichen</code>.
-   Um ein Formular zu veröffentlichen, müssen Sie in der Rolle <code>Freigeber</code> oder <code>Administrator</code> sein.
+3. Bevor Sie ein Formualr nutzen können, müssen Sie es erst veröffentlichen. Wenn Sie das Formular mit allen gewünschten Formularfelder erstellt haben, veröffentlichen Sie das Formular über den Button <code>Veröffentlichen</code>.
+   Um ein Formular veröffentlichen zu können, müssen Sie in der Rolle <code>Freigeber</code> oder <code>Administrator</code> sein.
 
 ## Wie wird ein Formular ausgefüllt?
 
@@ -45,7 +39,7 @@ Der Zugriff auf ausgefüllte Formulare hängt von verschiedenen Kriterien ab, di
 
 | Einstellung                                             | Sichtbarkeit der Antworten                                                                         |
 | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| Keine Einstellungen getroffen                           | Antworten sind nur sichtbar für den Ersteller, Verantwortlicher des Formulars, Module Admin, Admin |
+| Keine Einstellungen getroffen                           | Antworten sind nur sichtbar für den Ersteller, Verantwortlicher des Formulars, Module Admim und Admin |
 | Formulareinstellung: Antworten öffentlich sichtbar      | Antworten können durch alle Personen mit Zugriff auf die App eingesehen werden                     |
 | Formulareinstellung: Individuelle Zugriffseinstellungen | Dieser Bereich befindet sich noch in Entwicklung                                                   |
 
@@ -71,13 +65,13 @@ Formulare können als Quiz erstellt werden. Ein Quiz kann als Prüfung genutzt w
 ### Bewertung eines Ausgefüllten Quiz
 
 Um ein ausgefülltes Formular zu bewerten, müssen Sie zunächst den Bewertungsrahmen festlegen.
-Dazu editieren Sie das Formular und geben an, wie viel Prozent der maximal erreichbaren Punkte notwendig sind und das Quiz zu bestehen.
+Dazu editieren Sie das Formular und geben an, wie viel Prozent der maximal erreichbaren Punkte notwendig sind um das Quiz zu bestehen.
 
 :::note
 Sind in dem Formular 10 Punkte erreichbar und 8 Punkte ausreichend, um das Quiz zu bestehen, geben Sie z.B. **80%** an.
 :::
 
-### Senden Sie das Quiz an andere Personen und Sammeln Sie antworten
+### Senden Sie das Quiz an andere Personen und sammeln Sie antworten
 
 Über den Tab **Ausstehende Antworten** können Sie das Quiz an andere Personen versenden und diese zur Bearbeitung einladen.
 Alternativ können Sie das Quiz auch einfach so zur Verfügung stellen, so dass es durch alle Kollegen mit Zugriff auf die App **Formulare** ausgefüllt werden kann.
@@ -90,4 +84,4 @@ Nachdem Sie erste Antworten erhalten haben, können Sie diese überprüfen und b
 2. Wechseln Sie zum Tab antworten und wählen Sie eine der vorhanden Antworten aus.
 3. Klicken Sie auf den Button **Jetzt bewerten**. Wenn Sie Ihre Ergebnisse später korrigieren möchten, können Sie dies über das Kontextmenü (3 Punkte) auf dieser Seite erledigen.
 4. Überprüfen Sie alle Fragen und vergeben Sie Punkte pro Antwort.
-5. Wählen Sie **Ergebnis veröffentlichen**, um den Einreicher über die sein Ergebnis zu informieren. Andernfalls ist das Ergebnis noch nicht sichtbar.
+5. Wählen Sie **Ergebnis veröffentlichen**, um den Einreicher über die sein Ergebnis zu informieren. Andernfalls ist das Ergebnis nicht sichtbar.
