@@ -5,7 +5,10 @@ title: Formulare
 
 ![Forms page screenshot](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Forms.png)
 
-Mit qmBase Formularen können Sie Umfragen, Quizze und Formulare erstellen. Andere Personen können diese direkt über einen beliebigen Webbrowser oder ein mobiles Gerät ausfüllen bzw. beantworten. Die Ergebnisse sind in Echtzeit verfügbar. Integrierte Analysen bieten die Möglichkeit Antworten und Ergebnisse direkt in qmBase auszuwerten auszuwerten. Für weiterführende Analysen oder Benotungen können alle Daten auch exportiert werden.
+Mit qmBase Formularen können Sie Umfragen, Quizze und Formulare erstellen.
+Andere Personen können diese direkt über einen beliebigen Webbrowser oder ein mobiles Gerät ausfüllen bzw. beantworten. Die Ergebnisse sind in Echtzeit verfügbar.
+Integrierte Analysen bieten die Möglichkeit Antworten und Ergebnisse direkt in qmBase auszuwerten auszuwerten.
+Für weiterführende Analysen oder Benotungen können alle Daten auch exportiert werden.
 
 Die qmBase Formulare dienen einer regelmäßigen und standardisierten Informationserfassung.
 Ein einmal erstelltes Formular kann beliebig oft ausgefüllt werden. Jedes Formular kann dabei als individuelle Gruppierung von [Custom Fields](/docs/faqs/80/) verstanden werden.
@@ -16,13 +19,16 @@ qmBase Formulare sind bei allen Kunden verfügbar, die diese App in ihrem Abonne
 
 ## Wie wird ein Formular erstellt?
 
-1. Unter dem Punkt <code>Einstellungen</code> finden Sie eine tabellarische Darstellung aller verfügbaren Formulare. Klicken Sie auf <code>Neu</code>, um ein neues Formular zu erstellen.
+1. Unter dem Punkt <code>Einstellungen</code> finden Sie eine tabellarische Darstellung aller verfügbaren Formulare.
+   Klicken Sie auf <code>Neu</code>, um ein neues Formular zu erstellen.
    Geben Sie dem Formular einen Titel und hinterlegen Sie optional eine Beschreibung.
 
-2. Über den Button <code>Neues Feld hinzufügen</code> können Sie beliebig viele Formularfelder erstellen. Die Formularfelder entsprechen in Ihren Eigenschaften und Datentypen denen von Custom Fields.
+2. Über den Button <code>Neues Feld hinzufügen</code> können Sie beliebig viele Formularfelder erstellen.
+   Die Formularfelder entsprechen in Ihren Eigenschaften und Datentypen denen von Custom Fields.
    [Hier erfahren Sie mehr über die unterschiedlichen Datentypen in Custom Fields.](/docs/faqs/80/)
 
-3. Bevor Sie ein Formualr nutzen können, müssen Sie es erst veröffentlichen. Wenn Sie das Formular mit allen gewünschten Formularfelder erstellt haben, veröffentlichen Sie das Formular über den Button <code>Veröffentlichen</code>.
+3. Bevor Sie ein Formualr nutzen können, müssen Sie es erst veröffentlichen.
+   Wenn Sie das Formular mit allen gewünschten Formularfelder erstellt haben, veröffentlichen Sie das Formular über den Button <code>Veröffentlichen</code>.
    Um ein Formular veröffentlichen zu können, müssen Sie in der Rolle <code>Freigeber</code> oder <code>Administrator</code> sein.
 
 ## Wie wird ein Formular ausgefüllt?
