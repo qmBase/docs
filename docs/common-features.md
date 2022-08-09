@@ -105,6 +105,7 @@ Anheften von Einträgen ist derzeit in folgenden Apps möglich:
 
 - Blog
 - Dokumentenmanagement
+- Formulare
 - Projekte & Maßnahmen
 - Wiki
 
