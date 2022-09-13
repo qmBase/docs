@@ -1,6 +1,6 @@
 {
   "name": "pbd-docs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -42,6 +42,6 @@
     "typescript": "^4.8.3"
   },
   "engines": {
-    "node": ">=17"
+    "node": ">=18"
   }
 }
