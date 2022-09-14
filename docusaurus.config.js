@@ -35,7 +35,7 @@ const whiteLabel = {
   accountBaseUrl: "https://app.qmbase.com",
 };
 
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
+/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: `${whiteLabel.productDisplayName} - Docs`,
   tagline: `Hier finden Sie die ${whiteLabel.productDisplayName}-Dokumentation und Tutorials für Einsteiger und Experten`,
