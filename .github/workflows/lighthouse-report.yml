@@ -2,8 +2,14 @@ name: V2 Lighthouse Report
 
 on: [workflow_dispatch]
 
+permissions:
+  contents: read
+
 jobs:
-  build:
+  lighthouse-report:
+    permissions:
+      pull-requests: write # for marocchino/sticky-pull-request-comment
+    name: Lighthouse Report
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
