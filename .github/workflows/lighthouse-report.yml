@@ -2,14 +2,8 @@ name: V2 Lighthouse Report
 
 on: [workflow_dispatch]
 
-permissions:
-  contents: read
-
 jobs:
-  lighthouse-report:
-    permissions:
-      pull-requests: write # for marocchino/sticky-pull-request-comment
-    name: Lighthouse Report
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -35,7 +29,8 @@ jobs:
           script: |
             const results = ${{ steps.lighthouse_audit.outputs.manifest }}
             const links = ${{ steps.lighthouse_audit.outputs.links }}
-            const createLighthouseReport = (await import(`../../admin/scripts/formatLighthouseReport.js`)).default;
+            const importedFile= await import(`${process.env.GITHUB_WORKSPACE}/admin/scripts/formatLighthouseReport.js`);
+            const createLighthouseReport = importedFile.default;
             const comment = createLighthouseReport({ results, links });
             core.setOutput("comment", comment);
       - name: Add Lighthouse stats as comment
