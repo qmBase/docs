@@ -2,6 +2,8 @@ name: qmBase - Azure Static Web Apps CI/CD
 
 on:
   push:
+    paths-ignore:
+      - "!.github/**"
     branches:
       - master
   pull_request:
