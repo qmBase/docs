@@ -33,6 +33,7 @@ module.exports = {
       "apps/opportunity-management",
       "apps/products",
       "apps/talent-manager",
+      "apps/training-management",
       "apps/wiki",
       "apps/goal-management",
       "apps/dashboard",
