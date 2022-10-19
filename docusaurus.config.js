@@ -29,6 +29,10 @@ const whiteLabel = {
         label: "Twitter",
         href: "https://twitter.com/qmbase",
       },
+      {
+        label: "Linkedin",
+        href: "https://www.linkedin.com/company/qmbase",
+      },
     ],
   },
   thisUrl: "https://help.qmbase.com",
@@ -37,8 +41,8 @@ const whiteLabel = {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: `${whiteLabel.productDisplayName} - Docs`,
-  tagline: `Hier finden Sie die ${whiteLabel.productDisplayName}-Dokumentation und Tutorials für Einsteiger und Experten`,
+  title: `${whiteLabel.productDisplayName} - Hilfe`,
+  tagline: `Hier finden Sie die Anleitungen, Hilfestellungen und Fragen und Antworten für Einsteiger und Experten`,
   url: whiteLabel.thisUrl,
   baseUrl: "/",
   onBrokenLinks: "throw",
