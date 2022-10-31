@@ -13,7 +13,7 @@
     "test": "mdspell -r ./blog/**/*.md ./docs**/*.md"
   },
   "dependencies": {
-    "@docusaurus/core": "2.1.0",
+    "@docusaurus/core": "2.2.0",
     "@docusaurus/preset-classic": "2.1.0",
     "clsx": "^1.2.1",
     "mermaid": "^9.1.7",
