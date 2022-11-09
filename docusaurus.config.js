@@ -1,5 +1,8 @@
+//@ts-check
+
 /** @type {import('./src/models/whiteLabelConfig').WhiteLabelConfig} */
 const whiteLabel = {
+  title: "qmBase - Hilfe",
   productId: "qmBase",
   vendorName: "qmBase",
   vendorUrl: "https://qmBase.com/",
