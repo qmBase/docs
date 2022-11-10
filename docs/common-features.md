@@ -56,23 +56,23 @@ In der folgenden Tabelle finden Sie eine Übersicht aller Apps, in denen Sie Kom
 
 | App                        | Kommentare beziehen sich auf | Bearbeiten / Löschen | Antworten auf Kommentare |
 | -------------------------- | ---------------------------- | -------------------- | ------------------------ |
-| Abwesenheitsplaner         | Abwesenheitsantrag           |
-| Auditmanagement            | Audits                       |
-| Aufgaben & Qualifikationen | <code>nicht vorhanden</code> |
+| Abwesenheitsplaner         | Abwesenheitsantrag           |                      |
+| Auditmanagement            | Audits                       |                      |
+| Aufgaben & Qualifikationen | <code>nicht vorhanden</code> |                      |
 | Blog                       | Blogeintrag                  | ✔️                   |
-| CRM                        | Organisationen, Personen     |
+| CRM                        | Organisationen, Personen     |                      |
 | Dokumenetenmanagement      | Dokument                     | ✔️                   |
-| Fehlermanagement           | Fehler                       |
-| Formulare                  | <code>nicht vorhanden</code> |
+| Fehlermanagement           | Fehler                       |                      |
+| Formulare                  | <code>nicht vorhanden</code> |                      |
 | Ideenmanagement            | einzelne Idee                | ✔️                   |
-| Instandhaltung             | Inventargegenstand           |
-| Mitarbeiter                | Person                       |
-| Produkte                   | Produkte                     |
-| Schulungsmanagement        | Schulungen                   |
+| Instandhaltung             | Inventargegenstand           | ✔️                   |
+| Mitarbeiter                | Person                       |                      |
+| Produkte                   | Produkte                     |                      |
+| Schulungsmanagement        | Schulungen                   |                      |
 | Projekte & Maßnahmen       | Projekte, Maßnahmen          | ✔️                   |
 |                            | Maßnahmen                    | ✔️                   |
 | Reklamationsmanagement     | Reklamationen                | ✔️                   | ✔️                       |
-| Risiken & Chancen          | Risiken, Chancen             |
+| Risiken & Chancen          | Risiken, Chancen             |                      |
 | Wiki                       | Wikieintrag                  | ✔️                   |
 | Zielmanagement             | Ziele                        | ✔️                   |
 
