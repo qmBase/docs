@@ -54,27 +54,27 @@ In einigen Apps können Sie Kommentare auch bearbeiten. Um Kommentare zu bearbei
 
 In der folgenden Tabelle finden Sie eine Übersicht aller Apps, in denen Sie Kommentare erfassen können.
 
-| App                        | Kommentare beziehen sich auf | Bearbeiten / Löschen |
-| -------------------------- | ---------------------------- | -------------------- |
-| Abwesenheitsplaner         | Abwesenheitsantrag           |
-| Auditmanagement            | Audits                       |
-| Aufgaben & Qualifikationen | <code>nicht vorhanden</code> |
+| App                        | Kommentare beziehen sich auf | Bearbeiten / Löschen | Antworten auf Kommentare |
+| -------------------------- | ---------------------------- | -------------------- | ------------------------ |
+| Abwesenheitsplaner         | Abwesenheitsantrag           |                      |
+| Auditmanagement            | Audits                       |                      |
+| Aufgaben & Qualifikationen | <code>nicht vorhanden</code> |                      |
 | Blog                       | Blogeintrag                  | ✔️                   |
-| CRM                        | Organisationen, Personen     |
+| CRM                        | Organisationen, Personen     |                      |
 | Dokumenetenmanagement      | Dokument                     | ✔️                   |
-| Fehlermanagement           | Fehler                       |
-| Formulare                  | <code>nicht vorhanden</code> |
-| Ideenmanagement            | einzelne Idee                |
-| Instandhaltung             | Inventargegenstand           |
-| Mitarbeiter                | Person                       |
-| Produkte                   | Produkte                     |
-| Schulungsmanagement        | Schulungen                   |
+| Fehlermanagement           | Fehler                       |                      |
+| Formulare                  | <code>nicht vorhanden</code> |                      |
+| Ideenmanagement            | einzelne Idee                | ✔️                   |
+| Instandhaltung             | Inventargegenstand           | ✔️                   |
+| Mitarbeiter                | Person                       |                      |
+| Produkte                   | Produkte                     |                      |
+| Schulungsmanagement        | Schulungen                   |                      |
 | Projekte & Maßnahmen       | Projekte, Maßnahmen          | ✔️                   |
 |                            | Maßnahmen                    | ✔️                   |
-| Reklamationsmanagement     | Reklamationen                | ✔️                   |
-| Risiken & Chancen          | Risiken, Chancen             |
+| Reklamationsmanagement     | Reklamationen                | ✔️                   | ✔️                       |
+| Risiken & Chancen          | Risiken, Chancen             |                      |
 | Wiki                       | Wikieintrag                  | ✔️                   |
-| Zielmanagement             | Ziele                        |
+| Zielmanagement             | Ziele                        | ✔️                   |
 
 ### Schlagworte
 
