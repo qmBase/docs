@@ -8,7 +8,7 @@ This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern 
 
 help.qmbase.com
 
-[![Build and Deploy](https://github.com/qmBase/docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/qmBase/docs/actions/workflows/deploy.yml)
+[![qmBase - Azure Static Web Apps CI/CD](https://github.com/qmBase/docs/actions/workflows/azure-static-web-apps-wonderful-beach-0098df603.yml/badge.svg)](https://github.com/qmBase/docs/actions/workflows/azure-static-web-apps-wonderful-beach-0098df603.yml)
 
 ## Prerequisites
 
