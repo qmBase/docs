@@ -3,7 +3,7 @@ id: blog
 title: Blog
 ---
 
-![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Blogs.png)
+![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Blog.png)
 Der Blog ist das schwarze Brett von qmBase. Hier erfolgen aktuelle Bekanntmachungen und Erinnerungen. Die Artikel des Blogs werden dem Nutzer direkt nach dem Login auf der qmBase Startseite eingeblendet.
 
 ## Grundlegende Funktionen zum Bearbeiten der Dokumente
