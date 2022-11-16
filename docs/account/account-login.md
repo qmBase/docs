@@ -32,10 +32,12 @@ Folgende Personen sind bereits in qmBase gespeichert.
 #### Beispiel mit vorhandener Person
 
 Angenommen Sie sind Max Mustermann mit der E-Mail Adresse max.mustermann@qmbase.com. Nach der Registrierung wird ihr Account bei der ersten Anmeldung direkt mit der Person (ID: 1) verknüpft.
+![Verknüpfung mit bestehendem Profil](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/2022-11-16_ConnectAccount.png)
 
 #### Beispiel ohne vorhandene Person
 
 Angenommen Sie sind Maxima Musterfrau mit der E-Mail Adresse maxima.musterfrau@qmbase.com. Hier wird Ihr Account **nicht** automatisch mit einer Person verknüpft. Auch wenn es hier möglicherweise naheliegend wäre, dass die Person mit der ID:2 zu verknüpfen wäre, können wir hier automatisch keinen Zusammenhang herstellen, da wir den Vergleich ausschließlich auf Basis der E-Mail Adresse vornehmen.
+![Neues Profil erstellen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/2022-11-16-createAccount.png)
 
 ### Lösungen für Probleme bei der Anmeldung
 
