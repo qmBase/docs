@@ -30,3 +30,13 @@ Alle mit dem Mitarbeiter verknüpften Informationen, wie z.B. Maßnahmen oder Id
 ### Wie ändere ich die Darstellung von Namen von Personen und Mitarbeiter - Vorname Nachname vs. Nachname, Vorname
 
 In Ihrem Profil unter **Profileinstellungen > Einstellungen** kann eingestellt in welche Reihenfolge die Namen sortiert werden sollen.
+
+### E-Mail Adresse bereits in Verwendung, was ist zu tun?
+
+Wenn beim Erstellen oder ändern eines Mitarbeiterprofils die Fehlermeldung **Email max@mustermann.de is already in use.** auftritt, liegt das daran, dass jede Email Adresse nur einem Profil zugeordnet werden kann.
+An folgenden Stellen kann bereits ein Mitarbeiter vorhanden sein:
+
+- App Mitarbeiter
+- App Crm -> Kontakte -> Nur Personen anzeigen.
+
+Bitte überprüfen Sie jeweils auch den Papierkorb, da für den Abgleich auch gelöschte Personen mit einbezogen werden.
