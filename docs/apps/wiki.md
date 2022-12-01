@@ -3,7 +3,7 @@ id: wiki
 title: WIKI
 ---
 
-![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/KnowledgeBase/KnowledgeBase.png)
+![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/KnowledgeBase.png)
 
 Mit dem WIKI bieten Sie Ihren Mitarbeitern eine Plattform, um spezielles Wissen zu teilen und gemeinsam an der Dokumentation des Wissens zu arbeiten. Alle Artikel durchlaufen einen Prozess zur Freigabe und Versionierung. Die Mitarbeiter werden automatisch über neue Artikelversionen informiert und alte Versionen werden automatisch archiviert.
 

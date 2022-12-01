@@ -1,0 +1,57 @@
+---
+title: Version 1.1.182
+authors:
+  name: Philipp Pähler
+  title: qmBase Development Team
+  image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
+image: https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/2022-11-18-ageDistributionMedian.png
+tags:
+  [
+    Allgemein,
+    Crm,
+    Dashboards & Reportings,
+    Formulare,
+    Projekte & Maßnahmen,
+    Zielmanagement,
+  ]
+---
+
+Dieses Update macht es leichter exportierte Daten in Excel weiter zu bearbeiten. Zusätzlich zeigen wir in einigen Diagrammen jetzt mehr Informationen an, wie z.B. Durchschnittswerte.
+
+<!--truncate-->
+
+## Allgemein
+
+- Wir haben unsere Exporte überarbeitet und das Datumsformat angepasst. In der Vergangenheit wurden Daten als ISO 8601 kompatibler Text ausgegeben.
+  EXCEL verarbeitet diesen Text aber nicht immer korrekt.
+  Das Datum wird daher zukünftig ohne ms und Zeitzone ausgegeben. Dies führt zu einer besseren Trefferquote beim Erkennen des Datums durch Excel.
+
+## Aufgaben & Qualifikationen
+
+- Es ist jetzt auch möglich durchgeführte Qualifikationen aus dem Qualifikationsverlauf der einzelnen Person zu löschen oder zu exportieren.
+
+## Crm
+
+- Verlinkungen zwischen Personen in der App Crm und Mitarbeitern korrigiert.
+
+## Dashboards & Reportings
+
+- Einige Diagramme, die Verteilungen anzeigen, beinhalten jetzt auch Durchschnittswerte und Median Werte
+  ![Median Chart](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/2022-11-18-ageDistributionMedian.png)
+
+- Diagramme zur Verteilung von Adressen z.B. in der Instandhaltung oder im Bereich CRM sind jetzt interaktiver. Es kann auch in die einzelnen Kuchenstücke geklickt werden, um mehr Daten anzuzeigen.
+  ![Addressenverteilung Charts](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/2022-11-24_addressDistribution.png)
+
+## Formulare
+
+- Ist ein Auswahlfeld ein Mehrfachauswahl Feld, werden mehrere ausgewählte Werte jetzt auch in den Auswertungen berücksichtigt.
+- Die Farben in den Diagrammen der Auswertungen sind jetzt für die ersten 20 Optionen keine Zufallsfarben mehr. Damit sehen die Diagramme nicht mehr bei jedem Aufruf unterschiedlich aus.
+
+## Projekte & Maßnahmen
+
+- Es ist jetzt zusätzlich möglich Maßnahmen nach verknüpften Unterstützern zu durchsuchen.
+
+## Zielmanagement
+
+Zusätzlich zum Verlauf wird jetzt auch der Zielwert, sofern er eine Zahl ist, mit im Fortschrittsdiagramm dargestellt.
+![Zielfortschritt mit Zielwert](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/2022-11-18-goalProgressWithTarget.png)
