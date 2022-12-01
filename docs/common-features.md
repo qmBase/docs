@@ -39,9 +39,9 @@ Verwenden Sie die Filter-Schaltfläche, um die in der Tabelle angezeigten Ergebn
 Verwenden Sie das Kebab-Menü, um die erweiterten Tabellenoptionen zu öffnen.
 Hier finden Sie weitere Möglichkeiten, um Daten in den Tabellen zu bearbeiten oder zu exportieren, wenn diese Funktionen verfügbar sind.
 
-##### Sichtbarkeit von Spalten
+##### <FaColumns/> Sichtbarkeit von Spalten
 
-Klicken Sie auf den Button Sichtbarkeit der Spalten ändern <FaColumns/>. Hier können Sie zusätzliche Spalten ein- oder ausblenden. 
+Klicken Sie auf den Button **Sichtbarkeit der Spalten ändern**. Hier können Sie zusätzliche Spalten ein- oder ausblenden. 
 **Achtung** Sie können auch alle Spalten ausblenden, dann wird keine Tabelle angezeigt.
 
 ### Kommentare
