@@ -37,14 +37,12 @@ Verwenden Sie die Filter-Schaltfläche, um die in der Tabelle angezeigten Ergebn
 #### <FaEllipsisV/> Erweiterte Tabellenoptionen
 
 Verwenden Sie das Kebab-Menü, um die erweiterten Tabellenoptionen zu öffnen.
-Hier finden Sie weitere Möglichkeiten, um Daten in den Tabellen zu bearbeiten.
+Hier finden Sie weitere Möglichkeiten, um Daten in den Tabellen zu bearbeiten oder zu exportieren, wenn diese Funktionen verfügbar sind.
 
 ##### Sichtbarkeit von Spalten
 
-Zeigen Sie mehr Spalten an oder exportieren Sie Daten, wenn diese Funktion verfügbar ist.
 Klicken Sie auf den Button Sichtbarkeit der Spalten ändern <FaColumns/>. Hier können Sie zusätzliche Spalten ein- oder ausblenden. 
 **Achtung** Sie können auch alle Spalten ausblenden, dann wird keine Tabelle angezeigt.
-
 
 ### Kommentare
 
