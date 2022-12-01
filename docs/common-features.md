@@ -7,7 +7,8 @@ import {
 FaCog,
 FaFilter,
 FaSearch,
-FaEllipsisV
+FaEllipsisV,
+FaColumns
 } from "react-icons/fa";
 
 In diesem Dokument sind alle Funktionen zusammengefasst, die sich die verschiedenen Apps teilen. Wenn Sie dieses Dokument gelesen haben, haben Sie einen guten Überblick über die wichtigsten Funktionen.
@@ -16,7 +17,10 @@ In diesem Dokument sind alle Funktionen zusammengefasst, die sich die verschiede
 
 ### Tabellen
 
-Das Auffinden Ihrer Daten war noch nie so einfach. Alles beginnt, wenn Sie einen Filter hinzufügen. Sie können den Link in der Adressleiste verwenden, um die Ergebnisse mit jedem in Ihrem Team zu teilen. Tabellen unterstützen Sie mit den folgenden Funktionen.
+Das Auffinden Ihrer Daten war noch nie so einfach. Alles beginnt, wenn Sie einen Filter hinzufügen.
+Sie können den Link in der Adressleiste verwenden, um die Ergebnisse mit jedem in Ihrem Team zu teilen. Tabellen unterstützen Sie mit den folgenden Funktionen.
+
+![Tabellen Filter](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/basicTableFunctions_sm.gif)
 
 #### <FaCog/> Standardeinstellungen
 
@@ -30,11 +34,17 @@ Verwenden Sie das Suchfeld in der oberen rechten Ecke, um nach Daten zu suchen, 
 
 Verwenden Sie die Filter-Schaltfläche, um die in der Tabelle angezeigten Ergebnisse einzugrenzen.
 
-#### <FaEllipsisV/> Mehr Informationen anzeigen
+#### <FaEllipsisV/> Erweiterte Tabellenoptionen
 
-Verwenden Sie das Kebab-Menü, um das Aussehen der Tabelle anzupassen. Zeigen Sie mehr Spalten an oder exportieren Sie Daten, wenn diese Funktion verfügbar ist.
+Verwenden Sie das Kebab-Menü, um die erweiterten Tabellenoptionen zu öffnen.
+Hier finden Sie weitere Möglichkeiten, um Daten in den Tabellen zu bearbeiten.
 
-![Tabellen Filter](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/basicTableFunctions_sm.gif)
+##### Sichtbarkeit von Spalten
+
+Zeigen Sie mehr Spalten an oder exportieren Sie Daten, wenn diese Funktion verfügbar ist.
+Klicken Sie auf den Button Sichtbarkeit der Spalten ändern <FaColumns/>. Hier können Sie zusätzliche Spalten ein- oder ausblenden. 
+**Achtung** Sie können auch alle Spalten ausblenden, dann wird keine Tabelle angezeigt.
+
 
 ### Kommentare
 
