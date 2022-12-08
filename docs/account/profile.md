@@ -61,6 +61,12 @@ Um Termine besser zu planen, können Sie Termine innerhalb von <ProductDisplayNa
 Klicken Sie in Ihrem Profil auf Kalender. Aktivieren Sie dann den Kalender. Es erscheint ein Link zu einer iCal Datei.
 Diesen Link können Sie dann nutzen, um den <ProductDisplayName/> Kalender in Ihren bestehenden Kalender zu integrieren, indem Sie den Kalender abonnieren.
 
+Wenn Sie über einen Google Kalender verfügen, dann können Sie den Kalender wie folgt abonnieren:
+[Link Google Support](https://support.google.com/calendar/answer/37100?hl=de&co=GENIE.Platform%3DDesktop)
+
+Wenn Sie über einen Outlook Kalender verfügen, dann können Sie den Kalender wie folgt abonnieren:
+[Link Microsoft Support](https://support.microsoft.com/de-de/office/importieren-oder-abonnieren-eines-kalenders-in-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c)
+
 Die Kalender Einträge enthalten einige Informationen zu dem Ereignis sowie einen Link, so dass Sie schnell auf das entsprechende Ereignis zugreifen können.
 Es werden Ereignisse der letzten Zeit und alle zukünftigen Ereignisse zur Verfügung gestellt.
 
