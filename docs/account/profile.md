@@ -5,7 +5,16 @@ title: Profil
 
 import ProductDisplayName from "./../\_productDisplayName.mdx";
 
-Dies ist die Seite Profil, hier sind die Informationen des qmBase Nutzers hinterlegt. Zu Ihrem Profil gelangen Sie, wenn Sie auf Ihren Namen oben rechts in der qmBase Software klicken. Anschließend wird ein Reiter ausgeklappt und Sie können Ihr Profil aufrufen, indem Sie auf Profileinstellungen klicken. In Ihrem Profil haben Sie einen Überblick auf Ihr Nutzerbild, dies können Ihre Initialen sein, optional können Sie auch ein eigenes Profilbild hochladen. Sie sehen, wann Ihr Profil erstellt wurde und wann es das letzte Mal aktualisiert wurde. Außerdem sind hier Ihre E-Mail-Adresse und Ihr Geburtstag hinterlegt. Darunter sind die Rollen des Nutzers aufgelistet.
+Zu ihrem Profil gelangen Sie, indem Sie auf ihren Namen in der oberen rechten Ecke klicken und anschließend auf den Eintrag Profil klicken.
+![Link zum Profil](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/2022-12-08-LinkToProfile.jpg)
+
+Dies ist die Seite Profil, hier sind die Informationen des qmBase Nutzers hinterlegt.
+Zu Ihrem Profil gelangen Sie, wenn Sie auf Ihren Namen oben rechts in der qmBase Software klicken.
+Anschließend wird ein Reiter ausgeklappt und Sie können Ihr Profil aufrufen, indem Sie auf Profileinstellungen klicken.
+In Ihrem Profil haben Sie einen Überblick auf Ihr Nutzerbild, dies können Ihre Initialen sein, optional können Sie auch ein eigenes Profilbild hochladen.
+Sie sehen, wann Ihr Profil erstellt wurde und wann es das letzte Mal aktualisiert wurde.
+Außerdem sind hier Ihre E-Mail-Adresse und Ihr Geburtstag hinterlegt.
+Darunter sind die Rollen des Nutzers aufgelistet.
 Sie haben die Möglichkeit Ihre Accountinformationen, also Nutzernamen und Passwort zu ändern.
 Mit den Buttons auf linken Seitenleiste navigieren Sie sich durch die App.
 
