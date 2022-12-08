@@ -41,7 +41,7 @@ Hier finden Sie weitere Möglichkeiten, um Daten in den Tabellen zu bearbeiten o
 
 ##### <FaColumns/> Sichtbarkeit von Spalten
 
-Klicken Sie auf den Button **Sichtbarkeit der Spalten ändern**. Hier können Sie zusätzliche Spalten ein- oder ausblenden. 
+Klicken Sie auf den Button **Sichtbarkeit der Spalten ändern**. Hier können Sie zusätzliche Spalten ein- oder ausblenden.
 **Achtung** Sie können auch alle Spalten ausblenden, dann wird keine Tabelle angezeigt.
 
 ### Kommentare
@@ -75,7 +75,7 @@ In der folgenden Tabelle finden Sie eine Übersicht aller Apps, in denen Sie Kom
 | Ideenmanagement            | einzelne Idee                | ✔️                   |
 | Instandhaltung             | Inventargegenstand           | ✔️                   |
 | Mitarbeiter                | Person                       |                      |
-| Produkte                   | Produkte                     |                      |
+| Produkte                   | Produkte                     | ✔️                   |
 | Schulungsmanagement        | Schulungen                   |                      |
 | Projekte & Maßnahmen       | Projekte, Maßnahmen          | ✔️                   |
 |                            | Maßnahmen                    | ✔️                   |
