@@ -85,7 +85,7 @@ Eine Authentikator-App wird auf Ihr Mobiltelefon heruntergeladen, generiert eine
 
 ### Wie kann es aktiviert werden?
 
-Wechseln Sie zu **Profil > Account** Sicherheit. Klicken Sie einfach auf "Authentifikator-App hinzufügen". 
+Wechseln Sie zu **Profil > Account Sicherheit**. Klicken Sie einfach auf "Authentifikator-App hinzufügen". 
 Bitte folgen Sie den Anweisungen, wie Sie die Zwei-Faktor-Authentifikator-App auf Ihr Mobiltelefon herunterladen. 
 Nach dem Download müssen Sie den angegebenen QR-Code scannen und die von Ihrer Handy-App generierte Nummer eingeben, um den Aktivierungsvorgang zu bestätigen.
 
