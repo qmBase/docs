@@ -74,4 +74,10 @@ Neben der normalen Anmeldung mit Benutzernamen und Passwort wird eine neue Siche
 
 ### Wie kann es aktiviert werden?
 
-Wechseln Sie zu Profil > Account Sicherheit. Klicken Sie einfach auf "Authentifikator-App hinzufügen". Bitte folgen Sie den Anweisungen, wie Sie die Zwei-Faktor-Authentifikator-App auf Ihr Mobiltelefon herunterladen. Nach dem Download müssen Sie den angegebenen QR-Code scannen und die von Ihrer Handy-App generierte Nummer eingeben, um den Aktivierungsvorgang zu bestätigen.
+Wechseln Sie zu **Profil > Account** Sicherheit. Klicken Sie einfach auf "Authentifikator-App hinzufügen". Bitte folgen Sie den Anweisungen, wie Sie die Zwei-Faktor-Authentifikator-App auf Ihr Mobiltelefon herunterladen. Nach dem Download müssen Sie den angegebenen QR-Code scannen und die von Ihrer Handy-App generierte Nummer eingeben, um den Aktivierungsvorgang zu bestätigen.
+
+### Was mache ich bei Problemen
+
+Sollten Sie sich nicht mehr anmelden können, weil z.B. auf Ihre Authentikator-App auf dem Mobiltelefon keinen Zugriff mehr haben, haben Sie zwei Möglichkeiten.
+Sie können entweder die Recovery Codes zur Anmeldung nutzen. Auf diese können aus Ihrem Profil zugreifen. 
+Alternativ können Sie Ihren Administrator bitten Ihre 2FA zu deaktivieren. Diese ist möglich unter **Admin > Nutzer > Nutzerprofil > Aktionen**.
