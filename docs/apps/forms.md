@@ -44,9 +44,11 @@ Alternativ können Sie über den Menüpunkt <code>Formulare verwalten</code> das
 
 Der Zugriff auf ausgefüllte Formulare hängt von verschiedenen Kriterien ab, die in der nachfolgenden Tabelle dargestellt sind.
 
+![Screenshot Formulare](https://user-images.githubusercontent.com/111962882/207841361-80600256-007d-4518-b0a5-a200c587b0a0.png)
+
 | Einstellung                                             | Sichtbarkeit der Antworten                                                                            |
 | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Keine Einstellungen getroffen                           | Antworten sind nur sichtbar für den Ersteller, Verantwortlicher des Formulars, Module Admim und Admin |
+| Keine Einstellungen getroffen                           | Antworten sind nur sichtbar für den Ersteller, Verantwortlicher des Formulars, Module Admin und Admin |
 | Formulareinstellung: Antworten öffentlich sichtbar      | Antworten können durch alle Personen mit Zugriff auf die App eingesehen werden                        |
 | Formulareinstellung: Individuelle Zugriffseinstellungen | Dieser Bereich befindet sich noch in Entwicklung                                                      |
 
