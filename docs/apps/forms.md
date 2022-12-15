@@ -44,7 +44,7 @@ Alternativ können Sie über den Menüpunkt <code>Formulare verwalten</code> das
 
 Der Zugriff auf ausgefüllte Formulare hängt von verschiedenen Kriterien ab, die in der nachfolgenden Tabelle dargestellt sind.
 
-![Screenshot Formulare](https://user-images.githubusercontent.com/111962882/207841361-80600256-007d-4518-b0a5-a200c587b0a0.png)
+![Screenshot Formulare](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/ScreenshotFormulare.png)
 
 | Einstellung                                             | Sichtbarkeit der Antworten                                                                            |
 | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
