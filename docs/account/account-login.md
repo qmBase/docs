@@ -62,7 +62,8 @@ Hier können Sie den Nutzernamen ändern und damit dann erreichen, dass Sie sich
 
 :::info Geschlossene Beta Version
 
-Dieses Feature wurde neu entwickelt und befindet sich noch in einer Beta Testphase. Falls Sie Interesse daran haben, diese Funktion zu testen wenden Sie sich bitte an <SupportEmailLink/>
+Dieses Feature wurde neu entwickelt und befindet sich noch in einer Beta Testphase. Falls Sie Interesse daran haben, diese Funktion zu testen wenden Sie sich bitte an <SupportEmailLink/>.
+Die 2FA ist derzeit nicht kompatibel mit dem Login über einen externen Login Provider, wie z.B. das Active Directory.
 
 :::
 
