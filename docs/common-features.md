@@ -102,6 +102,35 @@ Das Bearbeiten der Schlagworte ist unter Umständen an Berechtigungen zum Bearbe
 
 In den Einstellungen unter _/Allgemein/Schlagworte_ kann die Hintergrundfarbe und die Schriftfarbe einzelner Schlagworte konfiguriert werden. Die Schlagworte erscheinen im System dann immer in den eingestellten Farben.
 
+#### In welchen Apps und Bereichen kann ich Schlagworte verwenden?
+
+Schlagworte lassen sich in fast allen Bereichen der Software verwenden. In der folgenden Liste sind alle Objekte dargestellt, die sich mit Schlagworten verknüpfen lassen.
+
+| Objekt              | Info                       |
+| ------------------- | -------------------------- |
+| Audits              |                            |
+| Ordner              | Nicht öffentlich verfügbar |
+| Risiken & Chancen   |
+| Dokumente           |
+| Blog-Beiträge       |
+| Wiki-Beiträge       |
+| Ziele               |
+| Maßnahmen           |
+| Projekte            |
+| Schulungen          |
+| Ideenmanagement     |
+| Inventargegenstände |
+| Reklamationen       |
+| Fehler              |
+| Personen            |
+| Produkte            |
+| Organisationen      |
+| Aufgaben            |
+| Qualifikationen     |
+| Formulare           |
+| Kosten              |
+| Anhänge (Dateien)   | Nicht öffentlich verfügbar |
+
 ### Angeheftete Einträge
 
 Pro App können bis zu **3** Einträge aus der App auf der jeweiligen Startseite angeheftet werden. Das Anheften erfordert die Rolle eine Modul Admins oder Admins.
