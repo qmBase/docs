@@ -44,9 +44,11 @@ Alternativ können Sie über den Menüpunkt <code>Formulare verwalten</code> das
 
 Der Zugriff auf ausgefüllte Formulare hängt von verschiedenen Kriterien ab, die in der nachfolgenden Tabelle dargestellt sind.
 
+![Screenshot Formulare](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/ScreenshotFormulare.png)
+
 | Einstellung                                             | Sichtbarkeit der Antworten                                                                            |
 | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Keine Einstellungen getroffen                           | Antworten sind nur sichtbar für den Ersteller, Verantwortlicher des Formulars, Module Admim und Admin |
+| Keine Einstellungen getroffen                           | Antworten sind nur sichtbar für den Ersteller, Verantwortlicher des Formulars, Module Admin und Admin |
 | Formulareinstellung: Antworten öffentlich sichtbar      | Antworten können durch alle Personen mit Zugriff auf die App eingesehen werden                        |
 | Formulareinstellung: Individuelle Zugriffseinstellungen | Dieser Bereich befindet sich noch in Entwicklung                                                      |
 
