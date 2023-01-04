@@ -1,0 +1,54 @@
+---
+title: Version 1.1.183
+authors:
+  name: Philipp Pähler
+  title: qmBase Development Team
+  image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
+image: https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/2022-11-18-ageDistributionMedian.png
+tags: [Allgemein, Auditmanagement, Produkte, Schulungsmanagement]
+draft: true
+---
+
+Das qmBase Entwicklungsteam wünscht Ihnen ein frohes Jahr 2023 🥳.
+Auch in diesem Jahr sind wir wieder motiviert qmBase für Sie zur besten Software für Ihre Managementsystem zu machen.
+Zum Start in das neue Jahr haben wir ein großes Backend Update unseres Frameworks auf .NET 7 durchgeführt.
+Zusätzlich haben wir verbesserte Schnittstellen zu Ihren ERP-Systemen implementiert.
+
+<!--truncate-->
+
+## Allgemein
+
+Wir haben unser Backend auf die aktuellste Version des .NET Frameworks geupdated.
+Wenn Sie eine On-Premises Version von nutzen, aktualisieren Sie bitte das installierte Framework auf Ihrem Server.
+Der Download für die das aktuellste Framework steht [hier](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) (Hosting Bunlde auswählen) zur Verfügung.
+Das bedeutet für Sie, dass qmBase noch flüssiger läuft. Sollten Sie die On-Premises Version nutzen, können Sie eine geringere Ressourcen Auslastung beobachten.
+
+**On-Premises User bitte beachten** dieses Update beinhaltet eine notwendige Änderung an den **Verbindungszeichenfolge** für die Datebankverbindungen.
+Sofern kein SQL Server mit einem gültigen Zertifikat vorhanden ist, muss explizit ein Encrypt=False der Verbindungszeichenfolge hinzugefügt werden.
+Dies betrifft in der Regel zwei Stellen in Ihrer Konfiguration.
+
+1. appsettings.Production.json ConnectionStrings:MultiTenantConnection
+2. In der Datenbank für die Konfiguration Ihrer Instanz (multi-tenant) bitte die Spalte ConnectString anpassen.
+
+Weitere Informationen zu dieser Änderung finden Sie [hier](https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-7.0/breaking-changes#encrypt-defaults-to-true-for-sql-server-connections).
+
+**Verbesserte Schnittstellen:** Die Synchronisation mit Schnittstellen z.B. externen ERP Systemen ist jetzt resilienter.
+Dies bedeutet, dass auf evtl. auftretende Fehler besser reagiert wird und dadurch nicht mehr ganze Synchronisationsdurchläufe abgebrochen werden.
+
+**Dateiupload** beim Upload von Dateien stellt der Filepicker jetzt direkt alle akzeptierten Uploads (Dateitypen) dar und verteilt diese nicht mehr auf unterschiedliche Kategorien.
+
+## Auditmanagement
+
+Beim Ausdruck der Teilnehmerliste wird jetzt die externe Mitarbeiternummer mit dargestellt, sofern diese unter Admin > Konfiguration > Mitarbeiter aktiviert wurde.
+
+## Instandhaltungsmanagement
+
+Beim Export der Gegenstände werden die Custom Fields jetzt in einzelnen Spalten dargestellt.
+
+## Schulungsmanagement
+
+Beim Ausdruck der Teilnehmerliste wird jetzt die Mitarbeiternummer mit dargestellt.
+
+## Produkte
+
+Löschen und Bearbeiten von Kommentaren jetzt auch in der Produkte App möglich.
