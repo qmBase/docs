@@ -41,7 +41,7 @@ Hier finden Sie weitere Möglichkeiten, um Daten in den Tabellen zu bearbeiten o
 
 ##### <FaColumns/> Sichtbarkeit von Spalten
 
-Klicken Sie auf den Button **Sichtbarkeit der Spalten ändern**. Hier können Sie zusätzliche Spalten ein- oder ausblenden. 
+Klicken Sie auf den Button **Sichtbarkeit der Spalten ändern**. Hier können Sie zusätzliche Spalten ein- oder ausblenden.
 **Achtung** Sie können auch alle Spalten ausblenden, dann wird keine Tabelle angezeigt.
 
 ### Kommentare
@@ -75,7 +75,7 @@ In der folgenden Tabelle finden Sie eine Übersicht aller Apps, in denen Sie Kom
 | Ideenmanagement            | einzelne Idee                | ✔️                   |
 | Instandhaltung             | Inventargegenstand           | ✔️                   |
 | Mitarbeiter                | Person                       |                      |
-| Produkte                   | Produkte                     |                      |
+| Produkte                   | Produkte                     | ✔️                   |
 | Schulungsmanagement        | Schulungen                   |                      |
 | Projekte & Maßnahmen       | Projekte, Maßnahmen          | ✔️                   |
 |                            | Maßnahmen                    | ✔️                   |
@@ -101,6 +101,35 @@ Das Bearbeiten der Schlagworte ist unter Umständen an Berechtigungen zum Bearbe
 #### Wie kann ich die Farbe von Schlagworten ändern?
 
 In den Einstellungen unter _/Allgemein/Schlagworte_ kann die Hintergrundfarbe und die Schriftfarbe einzelner Schlagworte konfiguriert werden. Die Schlagworte erscheinen im System dann immer in den eingestellten Farben.
+
+#### In welchen Apps und Bereichen kann ich Schlagworte verwenden?
+
+Schlagworte lassen sich in fast allen Bereichen der Software verwenden. In der folgenden Liste sind alle Objekte dargestellt, die sich mit Schlagworten verknüpfen lassen.
+
+| Objekt              | Info                       |
+| ------------------- | -------------------------- |
+| Audits              |                            |
+| Ordner              | Nicht öffentlich verfügbar |
+| Risiken & Chancen   |
+| Dokumente           |
+| Blog-Beiträge       |
+| Wiki-Beiträge       |
+| Ziele               |
+| Maßnahmen           |
+| Projekte            |
+| Schulungen          |
+| Ideenmanagement     |
+| Inventargegenstände |
+| Reklamationen       |
+| Fehler              |
+| Personen            |
+| Produkte            |
+| Organisationen      |
+| Aufgaben            |
+| Qualifikationen     |
+| Formulare           |
+| Kosten              |
+| Anhänge (Dateien)   | Nicht öffentlich verfügbar |
 
 ### Angeheftete Einträge
 

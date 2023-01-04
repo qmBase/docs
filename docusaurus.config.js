@@ -61,7 +61,7 @@ const config = {
     navbar: {
       title: "",
       logo: {
-        alt: "Navbar brand",
+        alt: "qmBase Logo",
         src: whiteLabel.iconUrl,
       },
       items: [
