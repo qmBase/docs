@@ -1,6 +1,6 @@
 {
+  "files": ["blog/**", "docs/**", "roadmap/**"],
   "language": "de-de",
-  "files": ["blog/**, docs/**, roadmap/**"],
   "dictionaries": ["project-words"],
   "dictionaryDefinitions": [
     {
@@ -8,5 +8,6 @@
       "path": "./project-words.txt",
       "noSuggest": true
     }
-  ]
+  ],
+  "caseSensitive": false
 }
