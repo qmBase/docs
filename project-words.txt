@@ -1,4 +1,3 @@
-qmBase
 Pähler
 author
 authors
@@ -65,7 +64,6 @@ responsible
 Adress
 claims
 keywords
-ver├ñnderungssichere
 surveillance
 Seitemen├╝
 bzgl
@@ -1110,7 +1108,6 @@ xmlܒ
 lۼتh
 sbgٮ
 verknüpfung
-veränderungssichere
 Seitemenü
 Validierungsmaßnahmen
 Ausgeählten
@@ -1124,3 +1121,4 @@ What’s
 Synchronität
 zwingendermaßen
 vorausgefüllt
+veränderungssichere
