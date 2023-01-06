@@ -3,7 +3,7 @@ id: faq-95
 slug: /faqs/95
 title: Was sind Verknüpfungskategorien
 ---
-In qmBase lassen sich verschiedenen Informationen miteinander verknüpfen. Diese Verknüpfung sagt aber zunächst nicths über einen kausalen Zusammenhang (Ursache und Wirkung) aus. Um diese Information mit zu erfassen können unter den Einstellungen -> Allgemein -> Verknüpfungskategorien erstellt werden. Beispiele für Kategorien sind:
+In qmBase lassen sich verschiedenen Informationen miteinander verknüpfen. Diese Verknüpfung sagt aber zunächst nichts über einen kausalen Zusammenhang (Ursache und Wirkung) aus. Um diese Information mit zu erfassen können unter den Einstellungen -> Allgemein -> Verknüpfungskategorien erstellt werden. Beispiele für Kategorien sind:
 
 *   Korrektur
 

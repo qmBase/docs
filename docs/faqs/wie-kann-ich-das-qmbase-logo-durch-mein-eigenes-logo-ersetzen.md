@@ -8,4 +8,4 @@ keywords:
  - Drucken
  - Corporate Design
 ---
-Das Logo in der Kopfzeile sowie das Logo auf den Druckansichten kann unter *Admin -> Inidividualisierung -> Logo* bzw. *Admin -> Inidividualisierung -> Drucklogo* ausgetauscht werden. 
+Das Logo in der Kopfzeile sowie das Logo auf den Druckansichten kann unter *Admin -> Individualisierung -> Logo* bzw. *Admin -> Individualisierung -> Drucklogo* ausgetauscht werden.

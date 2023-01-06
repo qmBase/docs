@@ -7,7 +7,7 @@ keywords:
   - Allgemein
 ---
 
-Räume müssen immer einer konkreten Adresse zugeordenet werden. Adressen können in den allgemeinen Einstellungen bearbeitet werden:
+Räume müssen immer einer konkreten Adresse zugeordnet werden. Adressen können in den allgemeinen Einstellungen bearbeitet werden:
 
 Einstellungen -> Allgemein -> Ort
 

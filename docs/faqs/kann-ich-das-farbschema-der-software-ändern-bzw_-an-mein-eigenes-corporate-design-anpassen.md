@@ -7,4 +7,4 @@ keywords:
  - Farbschema
  - Corporate Design
 ---
-Jeder Nutzer hat die Möglichkeit unter *Angemeldet -> Profil -> Themes* aus vorgegebenen Farbschemata auszuwählen. Individuelle Anpassungen zum Beispiel an ein spiezielles Corporate Design sind nur auf Anfrage möglich. 
+Jeder Nutzer hat die Möglichkeit unter *Angemeldet -> Profil -> Themes* aus vorgegebenen Farbschemata auszuwählen. Individuelle Anpassungen zum Beispiel an ein spezielles Corporate Design sind nur auf Anfrage möglich. 

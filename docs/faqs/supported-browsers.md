@@ -6,7 +6,7 @@ slug: /faqs/supported-browsers
 ---
 
 Die Nutzung von qmBase ist unabhängig von der von Ihnen eingesetzten Hardware. Ob PC, Mac, Smartphone oder Tablet, Sie können qmBase nutzen, wenn sie über ein internetfähiges Endgerät verfügen.
-Damit alle Services fehlerfrei dargestellt werden können, sollte die aktuelle Verson Ihres Browsers nutzen. Folgende Browser werden unterstützt:
+Damit alle Services fehlerfrei dargestellt werden können, sollte die aktuelle Version Ihres Browsers nutzen. Folgende Browser werden unterstützt:
 
 ### In welchen Apps kann ich Smart Views nutzen?
 

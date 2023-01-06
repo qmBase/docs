@@ -7,7 +7,7 @@ keywords:
 ---
 Zur Erfassung von Soll-Qualifikationen gibt es zwei Möglichkeiten:
 
-1.  Der Weg über Positionen und Stellebeschreibungen.
+1.  Der Weg über Positionen und Stellenbeschreibungen.
 
 2.  Das direkte Zuweisen von Aufgaben zu Personen.
 
