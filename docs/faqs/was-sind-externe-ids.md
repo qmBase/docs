@@ -11,7 +11,7 @@ Im Bereich *Admin -> Konfiguration -> Mitarbeiter* haben Sie zusätzlich die Mö
 
 *   Soll dieses Feld als Pflichtfeld dargestellt werden
 
-*   Anzeigname für dieses Feld z.B. Mitarbeiternummer anstelle von externer ID.
+*   Anzeigename für dieses Feld z.B. Mitarbeiternummer anstelle von externer ID.
 
 Externe IDs gibt es derzeit für folgende Bereiche:
 

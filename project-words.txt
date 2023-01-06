@@ -115,8 +115,6 @@ fehlerverursachende
 Second
 Datumspicker
 systeminternen
-
-Anzeigname
 Hour
 nicths
 Verkn├╝pfungskategorien
