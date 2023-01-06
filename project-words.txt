@@ -137,7 +137,6 @@ Punycode
 Interval
 Recurring
 Responsible
-Ausge├ñhlten
 Sichtbarkeitseinstellugen
 Browserkonfiguration
 Lageparameter
@@ -1087,7 +1086,6 @@ lۼتh
 sbgٮ
 verknüpfung
 Validierungsmaßnahmen
-Ausgeählten
 Verknüpfungskategorien
 verknüpfungen
 Inventarprüfung
