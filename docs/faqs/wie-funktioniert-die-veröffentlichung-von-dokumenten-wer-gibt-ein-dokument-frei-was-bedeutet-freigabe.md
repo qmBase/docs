@@ -17,7 +17,7 @@ Hierzu sind drei Schritte notwendig:
 
 2.  Freigebende Personen auswählen, diese werden dann per E-Mail über diese Aufgabe benachrichtigt
 
-3.  Freigabe abtwarten; Sie werden per E-Mail informiert, wenn alle Personen der Freigabe zugestimmt haben
+3.  Freigabe abwarten; Sie werden per E-Mail informiert, wenn alle Personen der Freigabe zugestimmt haben
 
 4.  Dokument veröffentlichen
 
