@@ -116,7 +116,6 @@ Second
 Datumspicker
 systeminternen
 Hour
-nicths
 Verkn├╝pfungskategorien
 Inidividualisierung
 Fieds
