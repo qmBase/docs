@@ -68,7 +68,6 @@ surveillance
 bzgl
 landscape
 gear
-Kenntnisgenommen
 ideas
 opportunities
 supplier
