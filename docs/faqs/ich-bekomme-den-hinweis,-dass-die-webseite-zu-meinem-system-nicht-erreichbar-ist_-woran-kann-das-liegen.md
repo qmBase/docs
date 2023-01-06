@@ -8,4 +8,4 @@ keywords:
 ---
 Möglicherweise haben Sie in Ihrem Browser vor der Internetadresse ein "www." eigegeben. Die Eingabe der Internetadresse sollte grundsätzlich ohne das "www." erfolgen.
 
-Sollte das nicht geholfen haben, dann nehmen Sie bitte Kontak zu uns (support@qmbase.com / +49 (0)231 952 035 88)
+Sollte das nicht geholfen haben, dann nehmen Sie bitte Kontakt zu uns (support@qmbase.com / +49 (0)231 952 035 88)
