@@ -1,7 +1,7 @@
 ---
 id: faq-27
 slug: /faqs/27
-title: Wie kann ich Texte zu späteren Weiterbearbeitug zwischenspeichern
+title: Wie kann ich Texte zu späteren Weiterbearbeitung zwischenspeichern
 keywords:
  - Ideenmanagement
  - Dokumentenmanagement
