@@ -137,7 +137,6 @@ Punycode
 Interval
 Recurring
 Responsible
-spiezielles
 Verson
 Ausge├ñhlten
 Sichtbarkeitseinstellugen
