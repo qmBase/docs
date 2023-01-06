@@ -137,7 +137,7 @@ Punycode
 Interval
 Recurring
 Responsible
-Sichtbarkeitseinstellugen
+Sichtbarkeitseinstellungen
 Browserkonfiguration
 Lageparameter
 versioniere
