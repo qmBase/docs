@@ -119,7 +119,6 @@ Hour
 Verkn├╝pfungskategorien
 Inventarpr├╝fung
 Inkognitomodus
-Stellebeschreibungen
 Weiterbearbeitug
 Inlineframe
 Draw
