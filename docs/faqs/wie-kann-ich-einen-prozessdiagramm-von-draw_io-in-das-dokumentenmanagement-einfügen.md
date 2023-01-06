@@ -17,7 +17,7 @@ Die Einbindung des Diagramms erfolgt über einen [Inlineframe oder auch Iframe](
 
 **Binden Sie den Iframe in einem Dokument im Dokumentenmanagement ein:**
 
-1.  Rufen Sie das gewünschte Dokument auf und öffenen Sie den Texteditor
+1.  Rufen Sie das gewünschte Dokument auf und öffnen Sie den Texteditor
 
 2.  Wählen Sie im Menü *Werkzeuge-> Quelltext*
 
