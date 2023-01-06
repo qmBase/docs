@@ -119,7 +119,6 @@ Hour
 Verkn├╝pfungskategorien
 Inventarpr├╝fung
 Inkognitomodus
-H├ñcken
 Stellebeschreibungen
 Weiterbearbeitug
 Inlineframe
@@ -1103,7 +1102,6 @@ Verknüpfungskategorien
 verknüpfungen
 öffenen
 Inventarprüfung
-Häcken
 What’s
 Synchronität
 zwingendermaßen
