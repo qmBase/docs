@@ -65,7 +65,6 @@ Adress
 claims
 keywords
 surveillance
-Seitemen├╝
 bzgl
 landscape
 gear
@@ -1108,7 +1107,6 @@ xmlܒ
 lۼتh
 sbgٮ
 verknüpfung
-Seitemenü
 Validierungsmaßnahmen
 Ausgeählten
 Verknüpfungskategorien
