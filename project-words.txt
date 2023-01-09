@@ -534,7 +534,6 @@ Qualifikationmatrix
 Detailsansicht
 gescrollt
 Organigrammdarstellung
-Qualifikationsstattus
 Dokumentemenmanagement
 Einr├ñgen
 angehangen
