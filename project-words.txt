@@ -530,7 +530,6 @@ Abteilungsdashboard
 herauszoomen
 strukturen
 Verbesserungsvorschlagsfunktion
-Problemem
 Qualifikationmatrix
 Detailsansicht
 gescrollt
