@@ -143,7 +143,6 @@ Browserkonfiguration
 Lageparameter
 versioniere
 klickbare
-umegehend
 sure
 keep
 wraps
