@@ -542,7 +542,6 @@ Lieferantenbewertungen
 Evtl
 Reklamationsmanagements
 Wirksamkeitspr├╝fung
-Dashbaords
 Skalenabschnitten
 Frameworks
 Wiedervorlagefunktion
