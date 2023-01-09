@@ -64,7 +64,7 @@ In den letzten Monaten haben wir den Login mit Hilfe von externen Login Provider
 Während der gerade genannte Punkt vor allem auch einen großen Komfortgewinn bringt, liegt uns die Sicherheit Ihrer Daten natürlich sehr am Herzen. Aus diesem Grund wird in diesem Quartal der Login mittels Zwei-Faktor-Authentifizierung für alle Kunden zur Verfügung stehen.
 Derzeit läuft diese Anmeldung noch in einer letzten Testphase, so dass dieser Punkt zeitnah bei allen verfügbar sein sollte.
 
-### Feingliedrieger Zugriff
+### Feingliedriger Zugriff
 
 Legen Sie für einzelne Maßnahmen, Dokumente, Schulungen etc. fest wer auf diese zugreifen und wer diese bearbeiten kann. [Mehr Informationen finden Sie hier.](/docs/faqs/56/#feingliedriger-zugriff)
 
