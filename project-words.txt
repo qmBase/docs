@@ -552,7 +552,6 @@ Einreicher
 Multifaktor
 Durchsuchbarkeit
 Framework
-Qualfikationen
 dymo
 Dokumentenmanagemnet
 Schnellzugriffelement
