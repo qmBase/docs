@@ -142,7 +142,6 @@ Sichtbarkeitseinstellungen
 Browserkonfiguration
 Lageparameter
 versioniere
-indidivuelle
 klickbare
 Produktivvsystem
 Lesenrechte
