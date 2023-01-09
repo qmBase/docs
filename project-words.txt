@@ -143,7 +143,6 @@ Browserkonfiguration
 Lageparameter
 versioniere
 klickbare
-Lesenrechte
 Dokumentemanagement
 umegehend
 sure
