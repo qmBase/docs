@@ -3,7 +3,7 @@
   "version": "0.2",
   "gitignoreRoot": ".",
   "useGitignore": true,
-  // TODO: I think this setting has no effect
+  // White-List of Files/Paths to be checked
   "files": ["blog/**", "docs/**", "roadmap/**"],
   // language - current active spelling language
   "language": "de-DE",
@@ -32,7 +32,5 @@
     "package-lock.json",
     "project-words.txt",
     "src/**"
-  ],
-  // TODO: Do we really need this.
-  "caseSensitive": false
+  ]
 }

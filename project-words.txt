@@ -17,6 +17,7 @@ Heatmap
 Heatmaps
 Reporting
 Reportings
+reportings
 Modules
 Auditmanagement
 About
