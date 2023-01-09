@@ -541,7 +541,6 @@ Instandhaltungsdetails
 Lieferantenbewertungen
 Evtl
 Reklamationsmanagements
-Abwesenheitplaner
 Wirksamkeitspr├╝fung
 Dashbaords
 Skalenabschnitten
