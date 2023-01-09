@@ -533,7 +533,6 @@ Verbesserungsvorschlagsfunktion
 Qualifikationmatrix
 Detailsansicht
 gescrollt
-Ideenmanamgement
 Organigrammdarstellung
 Qualifikationsstattus
 Dokumentemenmanagement
