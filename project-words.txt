@@ -143,7 +143,6 @@ Browserkonfiguration
 Lageparameter
 versioniere
 klickbare
-Produktivvsystem
 Lesenrechte
 Dokumentemanagement
 umegehend
