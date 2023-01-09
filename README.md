@@ -12,7 +12,7 @@ help.qmbase.com
 
 ## Prerequisites
 
-Download and install VS Code clone this repository and follow the instructions
+Download and install VS Code clone this repository and follow the instructions.
 
 ## Installation
 

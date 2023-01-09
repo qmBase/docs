@@ -1,0 +1,38 @@
+{
+  // Version of the setting file.  Always 0.2
+  "version": "0.2",
+  "gitignoreRoot": ".",
+  "useGitignore": true,
+  // TODO: I think this setting has no effect
+  "files": ["blog/**", "docs/**", "roadmap/**"],
+  // language - current active spelling language
+  "language": "de-DE",
+  "import": ["@cspell/dict-de-de/cspell-ext.json"],
+  "dictionaries": [
+    "css",
+    "html",
+    "fonts",
+    "typescript",
+    "softwareTerms",
+    "companies",
+    "lorem-ipsum",
+    "project-words"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "project-words",
+      "path": "./project-words.txt",
+      "noSuggest": true
+    }
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    "static/**",
+    "package.json",
+    "package-lock.json",
+    "project-words.txt",
+    "src/**"
+  ],
+  // TODO: Do we really need this.
+  "caseSensitive": false
+}
