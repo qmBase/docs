@@ -518,7 +518,6 @@ Relationship
 Auditmatrix
 Avatare
 Ma├ƒnahmenpl├ñne
-Inventargegest├ñnde
 Fristenfunktion
 Kommentarinhalt
 Zirkelbeziehungen
@@ -1021,7 +1020,6 @@ Verknüpfungstabellen
 Einrägen
 Überblich
 Auditübersicht
-Inventargegestände
 Nutzerübesicht
 Maßnahmenpläne
 Verknüpfungskarten
