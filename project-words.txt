@@ -511,7 +511,6 @@ Telemetriedaten
 Inventarstatus
 Auditdetailseite
 Auditmanagment
-Verknp├╝pfung
 fehlertolleranter
 Individualisierbarkeit
 Audit├╝bersicht
@@ -1030,7 +1029,6 @@ Verknüpfungstabellen
 Einrägen
 Überblich
 Auditübersicht
-Verknpüpfung
 Inventargegestände
 Nutzerübesicht
 Maßnahmenpläne
