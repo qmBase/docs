@@ -336,7 +336,6 @@ Visual
 Gutachtenbereich
 Buildnummer
 versionieren
-Resourcen
 whitelabel
 holders
 endeavour
