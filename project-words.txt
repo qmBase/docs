@@ -515,7 +515,6 @@ fehlertolleranter
 Individualisierbarkeit
 Audit├╝bersicht
 Relationship
-Skallierbarkeit
 Aufageben
 Nutzter
 insbesonder
