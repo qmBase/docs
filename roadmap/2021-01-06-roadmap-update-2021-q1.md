@@ -19,7 +19,7 @@ Das erste Quartal 2021 ist inzwischen deutlich vorbei. Alle Punkte unserer Roadm
 - Audit Trail: Die grundlegenden Arbeiten an unserem Audit Trail sind abgeschlossen. D.h. dass Funktionalität des Audit Trails fertigestellt ist. Dies bedeutet aber nicht zwingendermaßen, dass jedes Event innerhalb der Software mit einem Audit Trail Eintrag verbunden ist. Hier wollen wir zukünftig eine bessere Übersicht bieten, welche Ereignisse wir protokollieren.
 
 _Update 22.01.2021_
-Die Zusammenführung der Apps Schulungen und Aufgaben & Qualificationen in der App Talentmanager werden wir im 2. Quartal aufgreifen. Im Ausgleich dafür ist die Verbesserung des Zielmanagements in die Roadmap aufgenommen worden.
+Die Zusammenführung der Apps Schulungen und Aufgaben & Qualifikationen in der App Talentmanager werden wir im 2. Quartal aufgreifen. Im Ausgleich dafür ist die Verbesserung des Zielmanagements in die Roadmap aufgenommen worden.
 
 Folgende Themen werden wir in diesem Quartal aufgreifen.
 

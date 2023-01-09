@@ -355,7 +355,6 @@ Talentmanager
 zwingenderma├ƒen
 Prio
 vorausgef├╝llt
-Qualificationen
 Vulnerability
 reviewed
 manually
