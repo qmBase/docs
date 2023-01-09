@@ -142,7 +142,6 @@ Sichtbarkeitseinstellungen
 Browserkonfiguration
 Lageparameter
 versioniere
-Zertfikaten
 indidivuelle
 klickbare
 Produktivvsystem
