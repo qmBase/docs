@@ -536,7 +536,6 @@ gescrollt
 Organigrammdarstellung
 Dokumentemenmanagement
 angehangen
-├£berblich
 Layoutoptimierung
 Instandhaltungsdetails
 Lieferantenbewertungen
@@ -1008,7 +1007,6 @@ einträge
 Bestätitung
 Durchgeführtdatum
 Verknüpfungstabellen
-Überblich
 Auditübersicht
 Maßnahmenpläne
 Verknüpfungskarten
