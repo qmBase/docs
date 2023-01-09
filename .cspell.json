@@ -6,7 +6,7 @@
   // TODO: I think this setting has no effect
   "files": ["blog/**", "docs/**", "roadmap/**"],
   // language - current active spelling language
-  "language": "de-de",
+  "language": "de-DE",
   "import": ["@cspell/dict-de-de/cspell-ext.json"],
   "dictionaries": [
     "css",
@@ -30,7 +30,9 @@
     "static/**",
     "package.json",
     "package-lock.json",
-    "project-words.txt"
+    "project-words.txt",
+    "src/**"
   ],
+  // TODO: Do we really need this.
   "caseSensitive": false
 }
