@@ -35,7 +35,7 @@ Ein Workflow besteht aus folgenden Eigenschaften.
 | ------------ | --------------------------------------------------------------------------------- |
 | Titel        | Titel des Workflows                                                               |
 | Beschreibung | Beschreibung des Workflows, welchen Zweck soll der Workflow erfüllen.             |
-| Bedigungen   | Liste von Bedingungen, damit der Workflow ausgelöst wird.                         |
+| Bedingungen   | Liste von Bedingungen, damit der Workflow ausgelöst wird.                         |
 | Aktionen     | List von Aktionen, die ausgelöst werden sollen, wenn der Workflow aktiviert wird. |
 
 ## Geplante Änderungen
