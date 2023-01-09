@@ -528,7 +528,6 @@ Responsive
 evtl
 Abteilungsdashboard
 herauszoomen
-allgmeine
 strukturen
 Verbesserungsvorschlagsfunktion
 Problemem
