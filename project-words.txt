@@ -629,7 +629,6 @@ Lesendauer
 Risikokateogrien
 dar├╝berhinaus
 Gutachtenphase
-Qualifikatioen
 Linkerkennung
 Versionierung
 Enfall
