@@ -631,7 +631,6 @@ dar├╝berhinaus
 Gutachtenphase
 Linkerkennung
 Versionierung
-Kommtar
 Registrierungsprozess
 klickbarer
 qmbase
