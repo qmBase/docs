@@ -573,7 +573,6 @@ anzeigbare
 Detailsdarstellung
 Benachrichtigungsfunktion
 Reklamations├╝bersicht
-Suchkritierien
 Dokumtens
 Navigationleiste
 Benachrichtungsfunktion
