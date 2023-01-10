@@ -581,7 +581,6 @@ Revisionsst├ñnde
 Fortschritsbalken
 Dar├╝berhinaus
 erm├Âglich
-k├Ânnne
 Rezertifizierung
 herunterfiltern
 Erstelldatum
@@ -934,7 +933,6 @@ auzuwählenden
 Qualitäsmonitor
 Reklamationsübersicht
 Revisionsstände
-könnne
 Darüberhinaus
 ermöglich
 Fehlermöglichkeits
