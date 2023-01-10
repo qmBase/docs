@@ -626,7 +626,6 @@ Inventargegenst├ñnde
 Chancenkategorien
 Zielerreichungsberechnung
 Lesendauer
-vorraussichtlichen
 Datein
 Risikokateogrien
 Riskomanagmenet
