@@ -571,7 +571,6 @@ Kommentarfeed
 Verkn├╝pfungskarten
 anzeigbare
 Pr├╝funintervall
-solllen
 auzuf├╝llen
 allgmein
 Detailsdarstellung
