@@ -594,7 +594,7 @@ instandhaltung
 verbesserungen
 verbesserung
 Lieferantenbewertung
-vorgefiltet
+vorgefiltert
 Fehlerbehungen
 mehrer
 Reklamationsmanagemnet
