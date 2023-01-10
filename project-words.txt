@@ -586,9 +586,7 @@ k├Ânnne
 Rezertifizierung
 herunterfiltern
 Erstelldatum
-Pronzentwerte
 Adminbereich
-k├Ânnnen
 Inventarpr├╝fungen
 Audittypen
 Passwortanforderugen
@@ -928,7 +926,6 @@ hochgelanden
 technical
 fertigestellt
 Informatione
-könnnen
 Inventarprüfungen
 Inventargegenständen
 Prüf
