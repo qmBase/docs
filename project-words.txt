@@ -599,7 +599,6 @@ Reklamationsmanagemnet
 Instandhaltungsmanagement
 auzuw├ñhlenden
 Reklamationtypen
-Qualit├ñsmonitor
 Ma├ƒnhamen
 Auditbewertung
 Pr├╝f
@@ -926,7 +925,6 @@ Prüf
 Verbesserungvorschlägen
 Maßnhamen
 auzuwählenden
-Qualitäsmonitor
 Reklamationsübersicht
 Revisionsstände
 Darüberhinaus
