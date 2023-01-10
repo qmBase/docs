@@ -573,7 +573,6 @@ anzeigbare
 Detailsdarstellung
 Benachrichtigungsfunktion
 Reklamations├╝bersicht
-Benachrichtungsfunktion
 Auditanforderungen
 Auditmatrizen
 Benachrichtigungsemails
