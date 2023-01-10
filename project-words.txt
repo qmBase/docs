@@ -577,7 +577,6 @@ Benachrichtungsfunktion
 Integregrieren
 Auditanforderungen
 Auditmatrizen
-abonieren
 Benachrichtigungsemails
 bspw
 Reklamationsmanagment
