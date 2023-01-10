@@ -621,7 +621,6 @@ eintr├ñge
 Ma├ƒnahmenfilter
 Auditplans
 Audittermine
-Auffinbarkeit
 Premise
 Inventargegenst├ñnde
 gundlegende
