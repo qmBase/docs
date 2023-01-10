@@ -570,9 +570,6 @@ Revisionsstand
 Kommentarfeed
 Verkn├╝pfungskarten
 anzeigbare
-Pr├╝funintervall
-auzuf├╝llen
-allgmein
 Detailsdarstellung
 Auditbericht
 Benachrichtigungsfunktion
