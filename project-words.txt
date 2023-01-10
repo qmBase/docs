@@ -623,7 +623,6 @@ Auditplans
 Audittermine
 Premise
 Inventargegenst├ñnde
-gundlegende
 einzelen
 Updpates
 Chancenkategorien
