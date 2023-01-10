@@ -14,9 +14,9 @@ Derzeit sind das:
 
 Im folgenden sind Anwendungsfälle beschrieben, für die eine Verknüpfung sind macht.
 
-### Verknüpfung mit Reklmationen
+### Verknüpfung mit Reklamationen
 
-Verknüpfen Sie Produkte mit Reklmationen, um nachzuhalten, bei welche Produkten regelmäßig Reklamationen auftauchen.
+Verknüpfen Sie Produkte mit Reklamationen, um nachzuhalten, bei welche Produkten regelmäßig Reklamationen auftauchen.
 
 ### Verknüpfung mit Fehlern
 
