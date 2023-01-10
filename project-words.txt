@@ -570,7 +570,6 @@ Revisionsstand
 Kommentarfeed
 Verkn├╝pfungskarten
 anzeigbare
-Veralaufs
 Pr├╝funintervall
 solllen
 auzuf├╝llen
