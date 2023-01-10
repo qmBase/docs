@@ -571,9 +571,7 @@ Kommentarfeed
 Verkn├╝pfungskarten
 anzeigbare
 Detailsdarstellung
-Auditbericht
 Benachrichtigungsfunktion
-Benachrichtungen
 Reklamations├╝bersicht
 Suchkritierien
 Dokumtens
