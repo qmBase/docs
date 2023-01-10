@@ -605,7 +605,6 @@ Pr├╝f
 Inventargegenst├ñnden
 Teamauswahl
 Fehlerm├Âglichkeits
-Erstanmledung
 Eingabtypen
 Versio
 pflichtm├ñ├ƒig
