@@ -570,7 +570,6 @@ Revisionsstand
 Kommentarfeed
 Verkn├╝pfungskarten
 anzeigbare
-Abwenseheitsplaner
 Veralaufs
 Pr├╝funintervall
 solllen

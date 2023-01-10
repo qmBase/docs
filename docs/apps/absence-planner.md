@@ -43,7 +43,7 @@ Ist nur eine Person zur Freigabe notwendig, erfolgt dieser Schritt automatisch.
 Hat noch niemand den Antrag genehmigt oder abgelehnt, können Sie den Antrag beliebig bearbeiten oder auch löschen. Wurde der Antrag bereits freigegeben, kann die Freigabe entweder durch den Admin rückgängig gemacht werden oder Antragsteller kann den Antrag wieder zurückziehen. In diesem Fall bleibt der Antrag mit dem Status zurückgezogen im System.
 :::
 
-## Rollen im Abwenseheitsplaner
+## Rollen im Abwesenheitsplaner
 
 **Ersteller:** Person, die den Antrag einreicht. Ein Antrag kann entweder für sich selbst oder für einen Dritte erstellt werden.
 
@@ -55,7 +55,7 @@ Hat noch niemand den Antrag genehmigt oder abgelehnt, können Sie den Antrag bel
 
 **Admin:** Personen in der Rolle Modul-Admin oder Admin
 
-## Zugriff im Abwenseheitsplaner
+## Zugriff im Abwesenheitsplaner
 
 Der Antrag durchläuft von der Erstellung bis zur Genehmigung verschiedene Status Möglichkeiten. Diese Bestimmen die Zugriffsmöglichkeiten auf den Abwesenheitsantrag.
 
