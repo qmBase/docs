@@ -566,7 +566,6 @@ Verkn├╝pfungs
 auditbericht
 Audittrail
 Ma├ƒnahmenmanagement
-vertantwortlich
 Revisionsstand
 Kommentarfeed
 Verkn├╝pfungskarten
