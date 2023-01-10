@@ -25,7 +25,7 @@ Wenn innerhalb von qmBase eine Aktion ausgelöst wird (z.B. das Ändern des Stat
 2. Für jeden Workflow werden **alle** Bedingungen ausgewertet.
 3. Wenn alle Bedingungen erfüllt werden, werden die Aktionen des Workflows ausgeführt.
 
-D.h. also im Umkehrschluss, dass sobald eine Bedingung nicht zutrifft wird der ganze Workflow nicht ausgeführt. Sind für eine Aktion mehrer Workflows vorhanden kann es also sein, dass einzelne Workflows ausgeführt werden. Es müssen jedoch nicht notwendigerweise alle Workflows ausgeführt werden.
+D.h. also im Umkehrschluss, dass sobald eine Bedingung nicht zutrifft wird der ganze Workflow nicht ausgeführt. Sind für eine Aktion mehrere Workflows vorhanden kann es also sein, dass einzelne Workflows ausgeführt werden. Es müssen jedoch nicht notwendigerweise alle Workflows ausgeführt werden.
 
 ## Bestandteile eines Workflows
 
