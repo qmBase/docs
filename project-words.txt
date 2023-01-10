@@ -596,7 +596,6 @@ verbesserung
 Lieferantenbewertung
 vorgefiltert
 Reklamationsmanagemnet
-akutell
 Instandhaltungsmanagement
 auzuw├ñhlenden
 Reklamationtypen
