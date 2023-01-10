@@ -579,7 +579,6 @@ Auditmatrizen
 Benachrichtigungsemails
 bspw
 Revisionsst├ñnde
-Kernkompomenten
 Fortschritsbalken
 Dar├╝berhinaus
 erm├Âglich
