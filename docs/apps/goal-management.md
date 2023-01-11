@@ -7,7 +7,7 @@ title: Zielmanagement
 
 # Zielmanagement Startseite
 
-Dies ist die Startseite des Zielmanagements mit den Buttons auf linken Seitenleiste navigieren Sie sich durch das Zielmanagement. Außerdem können Sie über die Startseite des Zielmanagements direkt auf globale Ziele zurückgreifen um zu dem [Dashboard und Reportings] (dashboard.md) der Ziele zu gelangen. Unter <code>Mein Dashboard </code>sehen die Ziele für die Sie als verantwortliche Person zuständig sind.
+Dies ist die Startseite des Zielmanagements mit den Buttons auf linken Seitenleiste navigieren Sie sich durch das Zielmanagement. Außerdem können Sie über die Startseite des Zielmanagements direkt auf globale Ziele zurückgreifen um zu dem [Dashboard und Reportings] (dashboard.mdx) der Ziele zu gelangen. Unter <code>Mein Dashboard </code>sehen die Ziele für die Sie als verantwortliche Person zuständig sind.
 
 | Parameter                | Typ    | Beschreibung                                               |
 | ------------------------ | ------ | ---------------------------------------------------------- |
@@ -77,4 +77,4 @@ Möchten Sie Parameter ändern, fahren Sie mit dem Cursor über das betreffende 
 
 ### Wo finde ich Auswertungen meiner Ziele?
 
-Die Auswertungen der Ziele, sowie anderer Apps, finden Sie in der App Dashboard & Reportings. Die FAQ zu der App Dashboard & Reportings finden Sie [hier](dashboard.md).
+Die Auswertungen der Ziele, sowie anderer Apps, finden Sie in der App Dashboard & Reportings. Die FAQ zu der App Dashboard & Reportings finden Sie [hier](dashboard.mdx).

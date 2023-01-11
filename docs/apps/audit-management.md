@@ -106,7 +106,7 @@ Die Daten hierzu stammen aus dem zugehörigen Audittypen und den verknüpften Au
 
 ### Wo finde ich Auswertungen meiner Audits?
 
-Die Auswertungen der Audits, sowie anderer Apps, finden Sie in der App Dashboard & Reportings. Das FAQ zu der App Dashboard & Reportings finden Sie [hier](dashboard.md).
+Die Auswertungen der Audits, sowie anderer Apps, finden Sie in der App Dashboard & Reportings. Das FAQ zu der App Dashboard & Reportings finden Sie [hier](dashboard.mdx).
 
 ### Gemeinsame Funktionalitäten
 
