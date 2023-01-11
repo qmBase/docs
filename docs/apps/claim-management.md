@@ -123,7 +123,7 @@ Ausgangspunkt eines 8D-Reports ist also immer eine Reklamation. Das heißt, um e
 
 ![](https://caqadmin.blob.core.windows.net/faqs/121-images/6e2f34ce-e3d6-4cd4-a6c6-c1cc69927670-mceclip0.png)
 
-In der folgenden Übersicht sehe Sie alle 8D-Reporte, die zu der bestehende Reklmation bisher erstellt wurden und Sie können auch neue 8D-Reporte erstellen.
+In der folgenden Übersicht sehe Sie alle 8D-Reporte, die zu der bestehende Reklamation bisher erstellt wurden und Sie können auch neue 8D-Reporte erstellen.
 
 ![](https://caqadmin.blob.core.windows.net/faqs/121-images/d84db111-4fbd-466c-b182-4ef6df1ab97e-mceclip1.png)
 

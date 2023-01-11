@@ -802,7 +802,6 @@ correct
 about
 distinction
 Reklamationursachen
-Reklmation
 Verbesserungsbem├╝hungen
 DMAIC
 festgelgt
