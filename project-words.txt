@@ -804,7 +804,6 @@ distinction
 Reklamationursachen
 Verbesserungsbem├╝hungen
 DMAIC
-Zeitrraum
 Stragie
 Auditanforderung
 Auditerkenntnissen
