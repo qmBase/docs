@@ -845,7 +845,6 @@ Downloadvorlagen
 Gender
 Lieferantendaten
 technical
-fertigestellt
 Informatione
 Inventarprüfungen
 Inventargegenständen
