@@ -747,7 +747,6 @@ Mermaid
 common
 mermaid
 Genehmiger
-Erwweiterungen
 planner
 Nutzernames
 gmail
