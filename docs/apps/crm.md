@@ -73,7 +73,7 @@ Jeder Kontakt in qmBase kann bewertet werden. Dabei kann es sich um Kunden- oder
 
 Jeder Kontakt wird auf einer Skala von 0-100% bewertet. Ein Kommentarfeld erlaubt die Erfassung zusätzlicher Informationen.
 
-Sobald die Bewertung erstellt wurde, wird sie auch auch in der Übersicht der Bewertungen dargesellt. Die Tabbellenspalte **_ID_** führt zu der Detailansicht der Bewertung. Dort kann die Bewertung bearbeitet werden und es können weitere Dokumente angefügt werden.
+Sobald die Bewertung erstellt wurde, wird sie auch auch in der Übersicht der Bewertungen dargesellt. Die Tabellenspalte **_ID_** führt zu der Detailansicht der Bewertung. Dort kann die Bewertung bearbeitet werden und es können weitere Dokumente angefügt werden.
 
 Eine Übersicht über alle Bewertungen aller Kontakte erreichen Sie über den Menüpunkt <code><FaStarHalfAlt/></code>. Über den Button <code><FaPlus/></code> können Sie dort ebenfalls Bewertungen erfassen. In diesem Fall müssen aber zusätzlich den zu bewertenden Kontakt auswählen.
 
