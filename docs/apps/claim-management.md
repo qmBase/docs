@@ -78,7 +78,7 @@ Dieses Feld ist dafür gedacht, um zu dokumentieren, ob es sich bei der Reklamat
 
 **Wie wurde die Reklamation geklärt?**
 
-Mittels eines einfach Dropdowns kann hier festgelgt werden, wie die Reklamation final gegenüber dem Reklamierenden geklärt wurde.
+Mittels eines einfach Dropdowns kann hier festgelegt werden, wie die Reklamation final gegenüber dem Reklamierenden geklärt wurde.
 
 **Custom Fields**
 
