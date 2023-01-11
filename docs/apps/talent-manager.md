@@ -87,7 +87,7 @@ Für die Positionen ergeben sich folgende Anforderungen (A = Aufgaben, Q = Quali
     - Powerpoint Kenntnisse (Q3)
     - Word Kenntnisse (Q4)
     - Excel Kenntnisse (Q5)
-- Arbeitssicherheitsbauftragter (P2)
+- Arbeitssicherheitsbeauftragter (P2)
   - Ersthelfer (A3)
     - Ersthelfer (Q6)
 
