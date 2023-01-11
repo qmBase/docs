@@ -639,7 +639,7 @@ Benachrichtungsmails
 zur├╝gesetzt
 Versionierungsstrategie
 Startsetie
-Schellzugrifffunktion
+Schnellzugrifffunktion
 generiete
 Teilausgef├╝llter
 faktenbasierte
