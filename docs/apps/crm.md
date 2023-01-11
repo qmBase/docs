@@ -13,7 +13,7 @@ FaShippingFast,
 
 ![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Crm.png)
 
-Das CRM ist die zentrale Kontaktverwaltung innerhalb von qmBase. Weitere Apps wie das [Reklmationsmanagement](claim-management) oder das [Projekt- & Maßnahmenmanagement](projects-and-tasks) greifen auf diese Kontakte zu. Kontakte werden als Organisationen mit einer beliebigen Anzahl an Personen erfasst. Die Kontakte können als Kunden oder Lieferanten klassifiziert werden. Zu den Kontakten können entsprechend Kundenbewertungen oder Lieferantenbewertungen hinterlegt werden.
+Das CRM ist die zentrale Kontaktverwaltung innerhalb von qmBase. Weitere Apps wie das [Reklamationsmanagement](claim-management) oder das [Projekt- & Maßnahmenmanagement](projects-and-tasks) greifen auf diese Kontakte zu. Kontakte werden als Organisationen mit einer beliebigen Anzahl an Personen erfasst. Die Kontakte können als Kunden oder Lieferanten klassifiziert werden. Zu den Kontakten können entsprechend Kundenbewertungen oder Lieferantenbewertungen hinterlegt werden.
 
 # Kontakte anlegen
 
@@ -21,7 +21,7 @@ In der Navigationsleiste auf der linken Seite wird über den Menüpunkt <code><F
 
 ## Zusätzliche Informationen zu Organisationen
 
-Nachdem eine Organistion erstellt wurde können weitere Informationen dazu erfasst werden. Folgende Felder stehen insgesamt zur Verfugung:
+Nachdem eine Organisation erstellt wurde können weitere Informationen dazu erfasst werden. Folgende Felder stehen insgesamt zur Verfugung:
 
 | Parameter                                    | Typ      | Beschreibung                                                              |
 | -------------------------------------------- | -------- | ------------------------------------------------------------------------- |
@@ -73,7 +73,7 @@ Jeder Kontakt in qmBase kann bewertet werden. Dabei kann es sich um Kunden- oder
 
 Jeder Kontakt wird auf einer Skala von 0-100% bewertet. Ein Kommentarfeld erlaubt die Erfassung zusätzlicher Informationen.
 
-Sobald die Bewertung erstellt wurde, wird sie auch auch in der Übersicht der Bewertungen dargesellt. Die Tabbellenspalte **_ID_** führt zu der Detailansicht der Bewertung. Dort kann die Bewertung bearbeitet werden und es können weitere Dokumente angefügt werden.
+Sobald die Bewertung erstellt wurde, wird sie auch auch in der Übersicht der Bewertungen dargestellt. Die Tabellenspalte **_ID_** führt zu der Detailansicht der Bewertung. Dort kann die Bewertung bearbeitet werden und es können weitere Dokumente angefügt werden.
 
 Eine Übersicht über alle Bewertungen aller Kontakte erreichen Sie über den Menüpunkt <code><FaStarHalfAlt/></code>. Über den Button <code><FaPlus/></code> können Sie dort ebenfalls Bewertungen erfassen. In diesem Fall müssen aber zusätzlich den zu bewertenden Kontakt auswählen.
 

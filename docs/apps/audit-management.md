@@ -77,7 +77,7 @@ Als Auditanforderung wird **ISO 9001** festgelegt. Untergeordnete Anforderungen 
 
 Audittypen sind in unserem Beispiel
 
-- Oberste Leitung (Geschäftsführung und Stragie)
+- Oberste Leitung (Geschäftsführung und Strategie)
   - Verknüpfte Anforderung **5.2 Politik**
 - Vertriebsprozess
   - Verknüpfte Anforderung **5.3 Rollen, Verantwortlichkeiten und Befugnisse in der Organisation**
@@ -88,7 +88,7 @@ Wenn wir uns jetzt die Auditmatrix anschauen und nach der Anforderungen ISO 9001
 
 In dieser Darstellung können Sie sehen, dass die Anforderung ISO 9001 aus drei Unteranforderungen besteht. Zwei Audits sind geplant oder durchgeführt, die mit der Anforderung zusammenhängen. Das Audit Geschäftsführung wurde bereits durchgeführt.
 Daher ist der Haken hier grün. Das Audit Vertriebsprozess wurde bisher noch nicht geplant. Daher sieht man hier einen roten Hinweis.
-In der Matrix selbst ist ein grauer Haken hinterlegt. Das bedeutet, dass diese Anforderung theoretisch erfüllt wäre, wenn das Audit tatsächlich im Zeitrraum durchgeführt wird.
+In der Matrix selbst ist ein grauer Haken hinterlegt. Das bedeutet, dass diese Anforderung theoretisch erfüllt wäre, wenn das Audit tatsächlich im Zeitraum durchgeführt wird.
 
 ### Wie erstelle ich einen Auditbericht
 

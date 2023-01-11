@@ -48,7 +48,7 @@ Wir unterscheiden bei qmBase drei verschiedene Reklamationstypen.
 
 - **Intern** - Ein Problem fällt intern auf, dass bearbeitet werden sollte
 
-- **Lieferant** - Sie haben eine Reklamation bei einem Ihrer Lieferanten festgetellt und möchten diese erfassen
+- **Lieferant** - Sie haben eine Reklamation bei einem Ihrer Lieferanten festgestellt und möchten diese erfassen
 
 **Beschreibung**
 
@@ -78,7 +78,7 @@ Dieses Feld ist dafür gedacht, um zu dokumentieren, ob es sich bei der Reklamat
 
 **Wie wurde die Reklamation geklärt?**
 
-Mittels eines einfach Dropdowns kann hier festgelgt werden, wie die Reklamation final gegenüber dem Reklamierenden geklärt wurde.
+Mittels eines einfach Dropdowns kann hier festgelegt werden, wie die Reklamation final gegenüber dem Reklamierenden geklärt wurde.
 
 **Custom Fields**
 
@@ -98,7 +98,7 @@ In der rechten Spalte der Detailsdarstellung der Reklamation haben Sie die Mögl
 
 - Fehler - Erstellen Sie Fehler und verknüpfen Sie diese, um dadurch z.B. Reklamationursachen und Häufungen zu identifizieren
 
-- Produkte - Verknüpfen Sie Produkte, die Sie Ressorcen > Produkte angelegt haben, um nachvollhziehbar zu machen, welche Produkte besondert fehleranfällig sind.
+- Produkte - Verknüpfen Sie Produkte, die Sie Ressourcen > Produkte angelegt haben, um nachvollziehbar zu machen, welche Produkte besonders fehleranfällig sind.
 
 ## Erstellen von 8D-Reporten aus Reklamationen
 
@@ -123,7 +123,7 @@ Ausgangspunkt eines 8D-Reports ist also immer eine Reklamation. Das heißt, um e
 
 ![](https://caqadmin.blob.core.windows.net/faqs/121-images/6e2f34ce-e3d6-4cd4-a6c6-c1cc69927670-mceclip0.png)
 
-In der folgenden Übersicht sehe Sie alle 8D-Reporte, die zu der bestehende Reklmation bisher erstellt wurden und Sie können auch neue 8D-Reporte erstellen.
+In der folgenden Übersicht sehe Sie alle 8D-Reporte, die zu der bestehende Reklamation bisher erstellt wurden und Sie können auch neue 8D-Reporte erstellen.
 
 ![](https://caqadmin.blob.core.windows.net/faqs/121-images/d84db111-4fbd-466c-b182-4ef6df1ab97e-mceclip1.png)
 
@@ -143,7 +143,7 @@ Die Mitglieder des Teams sollten über ausreichende Prozess- und Produktkenntnis
 
 In der Vorauswahl finden Sie hier alle Personen, die mit der zugrunde liegenden Reklamation verknüpft werden können. Hierbei handelt es sich um Ersteller und Verantwortliche der Reklamation sowie der verknüpften Maßnahmen und Fehler.
 
-:::info Das Team im 8D-Report wird nicht frei konfiguriert. Es sind sind die Personen enthalten, die für die mit der Reklamation verknüpften Maßnahmen und Fehler verantwortlich sind. Weitere Personen können über das Beschreibunsgfeld hinzugefügt werden :::
+:::info Das Team im 8D-Report wird nicht frei konfiguriert. Es sind sind die Personen enthalten, die für die mit der Reklamation verknüpften Maßnahmen und Fehler verantwortlich sind. Weitere Personen können über das Beschreibungsfeld hinzugefügt werden :::
 
 #### D2 Problembeschreibung
 
@@ -195,7 +195,7 @@ Die gemeinsame Anstrengung wird gewürdigt und die Erfahrungen ausgetauscht.
 
 Hier finden Sie alle FAQs zum Reklamationsmanagement.
 
-#### Bei der Erfassung von Reklamationen kann ich die Menge und die Einheiten der reklamaierten Waren eintragen. Wie kann ich neue Einheiten zur Auswahl definieren?
+#### Bei der Erfassung von Reklamationen kann ich die Menge und die Einheiten der reklamierten Waren eintragen. Wie kann ich neue Einheiten zur Auswahl definieren?
 
 Die Einheiten für die Menge der reklamierten Waren lassen sich in den allgemeinen Einstellungen definieren:
 
