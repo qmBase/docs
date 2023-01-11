@@ -68,7 +68,7 @@ Legen Sie fest welche Qualifikationen in Ihrer Organisation benötigt werden, um
 
 ### Matrix
 
-In der App Aufgaben & Qualifikationen können Sie sich auf einen Blick anschauen, welchen Qualifikationsbedaf es in Ihrem Unternehmen gibt. Hierzu werden die Mitarbeiter den Qualifikationen gegenüber gestellt.
+In der App Aufgaben & Qualifikationen können Sie sich auf einen Blick anschauen, welchen Qualifikationsbedarf es in Ihrem Unternehmen gibt. Hierzu werden die Mitarbeiter den Qualifikationen gegenüber gestellt.
 
 Zur weiteren Veranschaulichung welche Informationen Sie erhalten können, nehmen wir folgende Beispiel Daten an (diese sind auch in unseren Testystemen enthalten).
 
