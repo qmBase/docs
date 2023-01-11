@@ -48,7 +48,7 @@ Die Anzahl der Schulungsteilnehmer zu begrenzen macht vorallem dann Sinn, wenn d
 
 Qualifikationen können auf Teilnehmer einer Schulung übertragen werden, wenn folgende Bedingungen erfüllt sind:
 
-- Schulungs Status ist "Abgeschlossen"
+- Schulungsstatus ist "Abgeschlossen"
 - Schulung ist mir Qualifikationen verknüpft
 - Schulung hat Teilnehmer, zu denen die Qualifikation noch nicht übertragen wurde
 - Nutzer ist Verantwortlicher der Schulung oder ist mindestens in der Rolle Schulungsmanagement Admin
