@@ -3,8 +3,6 @@
   "version": "0.2",
   "gitignoreRoot": ".",
   "useGitignore": true,
-  // White-List of Files/Paths to be checked
-  "files": ["blog/**", "docs/**", "roadmap/**"],
   // language - current active spelling language
   "language": "de-DE",
   "import": ["@cspell/dict-de-de/cspell-ext.json"],
