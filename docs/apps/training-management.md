@@ -53,7 +53,7 @@ Qualifikationen können auf Teilnehmer einer Schulung übertragen werden, wenn f
 - Schulung hat Teilnehmer, zu denen die Qualifikation noch nicht übertragen wurde
 - Nutzer ist Verantwortlicher der Schulung oder ist mindestens in der Rolle Schulungsmanagement Admin
 
-### Formulare - Evaluation und Bewertung von Schlungen
+### Formulare - Evaluation und Bewertung von Schulungen
 
 Mit dem Verknüpfen von Formularen und Schulungen, können Sie unterschiedliche Ziele erreichen:
 
