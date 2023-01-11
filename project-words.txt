@@ -647,7 +647,6 @@ Keytar
 QUESTION
 opportunity
 MERGEFIELD
-Risikopriorit├ñtzahl
 auskunftsf├ñhig
 innenwirksam
 nachzuhalten
@@ -915,7 +914,6 @@ Verbesserungsbemühungen
 Durchschlüpfpunkt
 Maßnahmentabelle
 Verknüpfungsdialog
-Risikoprioritätzahl
 auskunftsfähig
 Teilausgefüllter
 Wirksamkeitprüfungen
