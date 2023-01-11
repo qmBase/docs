@@ -27,7 +27,7 @@ qmBase Formulare sind bei allen Kunden verfügbar, die diese App in ihrem Abonne
    Die Formularfelder entsprechen in Ihren Eigenschaften und Datentypen denen von Custom Fields.
    [Hier erfahren Sie mehr über die unterschiedlichen Datentypen in Custom Fields.](/docs/faqs/80/)
 
-3. Bevor Sie ein Formualr nutzen können, müssen Sie es erst veröffentlichen.
+3. Bevor Sie ein Formular nutzen können, müssen Sie es erst veröffentlichen.
    Wenn Sie das Formular mit allen gewünschten Formularfelder erstellt haben, veröffentlichen Sie das Formular über den Button <code>Veröffentlichen</code>.
    Um ein Formular veröffentlichen zu können, müssen Sie in der Rolle <code>Freigeber</code> oder <code>Administrator</code> sein.
 
