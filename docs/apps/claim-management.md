@@ -98,7 +98,7 @@ In der rechten Spalte der Detailsdarstellung der Reklamation haben Sie die Mögl
 
 - Fehler - Erstellen Sie Fehler und verknüpfen Sie diese, um dadurch z.B. Reklamationursachen und Häufungen zu identifizieren
 
-- Produkte - Verknüpfen Sie Produkte, die Sie Ressorcen > Produkte angelegt haben, um nachvollhziehbar zu machen, welche Produkte besondert fehleranfällig sind.
+- Produkte - Verknüpfen Sie Produkte, die Sie Ressorcen > Produkte angelegt haben, um nachvollziehbar zu machen, welche Produkte besondert fehleranfällig sind.
 
 ## Erstellen von 8D-Reporten aus Reklamationen
 
