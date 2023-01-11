@@ -802,7 +802,6 @@ correct
 about
 distinction
 Reklamationursachen
-besondert
 Reklmation
 Verbesserungsbem├╝hungen
 DMAIC
