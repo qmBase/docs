@@ -81,7 +81,7 @@ Durch die Verwendung der Zwei-Faktor-Authentifizierung wird eine zusätzliche Si
 ### Wie funktioniert es?
 
 Neben der normalen Anmeldung mit Benutzernamen und Passwort wird eine neue Sicherheitsebene durch die Verwendung eines zeitbasierten Einmalpassworts (TOTP) hinzugefügt.
-Eine Authentikator-App wird auf Ihr Mobiltelefon heruntergeladen, generiert einen 6- bis 8-stelligen Code und der Benutzer muss diesen nach der Bestätigung seines Benutzernamens und Passworts zusätzlich eingeben.
+Eine Authentifikator-App wird auf Ihr Mobiltelefon heruntergeladen, generiert einen 6- bis 8-stelligen Code und der Benutzer muss diesen nach der Bestätigung seines Benutzernamens und Passworts zusätzlich eingeben.
 
 ### Wie kann es aktiviert werden?
 
@@ -91,6 +91,6 @@ Nach dem Download müssen Sie den angegebenen QR-Code scannen und die von Ihrer 
 
 ### Was mache ich bei Problemen
 
-Sollten Sie sich nicht mehr anmelden können, weil z.B. auf Ihre Authentikator-App auf dem Mobiltelefon keinen Zugriff mehr haben, haben Sie zwei Möglichkeiten.
+Sollten Sie sich nicht mehr anmelden können, weil z.B. auf Ihre Authentifikator-App auf dem Mobiltelefon keinen Zugriff mehr haben, haben Sie zwei Möglichkeiten.
 Sie können entweder die Recovery Codes zur Anmeldung nutzen. Auf diese können aus Ihrem Profil zugreifen.
 Alternativ können Sie Ihren Administrator bitten Ihre 2FA zu deaktivieren. Diese ist möglich unter **Admin > Nutzer > Nutzerprofil > Aktionen**.

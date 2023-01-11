@@ -791,7 +791,6 @@ intended
 true
 Granular
 Authentifikator
-Authentikator
 Einmalpassworts
 Formulares
 Minium
