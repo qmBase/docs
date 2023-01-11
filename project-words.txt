@@ -811,7 +811,6 @@ Reklamationstyp
 zusammenklicken
 King
 Ma├ƒnahmentabelle
-dargesellt
 Lieferantenreklamationen
 reklamaierten
 Durchschl├╝pfpunkt
