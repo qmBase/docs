@@ -77,7 +77,7 @@ Als Auditanforderung wird **ISO 9001** festgelegt. Untergeordnete Anforderungen 
 
 Audittypen sind in unserem Beispiel
 
-- Oberste Leitung (Geschäftsführung und Stragie)
+- Oberste Leitung (Geschäftsführung und Strategie)
   - Verknüpfte Anforderung **5.2 Politik**
 - Vertriebsprozess
   - Verknüpfte Anforderung **5.3 Rollen, Verantwortlichkeiten und Befugnisse in der Organisation**
