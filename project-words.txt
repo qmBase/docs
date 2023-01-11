@@ -711,7 +711,6 @@ turned
 automatically
 brackets
 Ordered
-ordered
 Scratch
 tildes
 Another
@@ -735,7 +734,6 @@ xml▄Æ
 font
 kwya
 Wikieintrag
-Dokumenetenmanagement
 Columns
 Detailsansichten
 Guide
