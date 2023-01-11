@@ -70,7 +70,7 @@ Legen Sie fest welche Qualifikationen in Ihrer Organisation benötigt werden, um
 
 In der App Aufgaben & Qualifikationen können Sie sich auf einen Blick anschauen, welchen Qualifikationsbedarf es in Ihrem Unternehmen gibt. Hierzu werden die Mitarbeiter den Qualifikationen gegenüber gestellt.
 
-Zur weiteren Veranschaulichung welche Informationen Sie erhalten können, nehmen wir folgende Beispiel Daten an (diese sind auch in unseren Testystemen enthalten).
+Zur weiteren Veranschaulichung welche Informationen Sie erhalten können, nehmen wir folgende Beispiel Daten an (diese sind auch in unseren Testsystemen enthalten).
 
 In unserem Unternehmen gibt es einen Mitarbeiter <code>Lukas Guss</code> dieser hat die Positionen <code>Vertriebsassistenz</code> und <code>Arbeitssicherheitsbeauftragter</code>.
 Für die Positionen ergeben sich folgende Anforderungen (A = Aufgaben, Q = Qualifikationen):
