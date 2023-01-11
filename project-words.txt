@@ -745,7 +745,6 @@ Chain
 Veyc
 Mermaid
 common
-Diagram
 mermaid
 Genehmiger
 Erwweiterungen
