@@ -661,7 +661,7 @@ rels▄Æ
 rels
 vorallem
 Eiwm
-Wirksamkeitpr├╝fungen
+Wirksamkeitsprüfungen
 Lernstandskontrollen
 Formualr
 page
@@ -913,7 +913,6 @@ Maßnahmentabelle
 Verknüpfungsdialog
 auskunftsfähig
 Teilausgefüllter
-Wirksamkeitprüfungen
 bؕgi
 relsܒ
 Qmnã

@@ -59,7 +59,7 @@ Mit dem Verknüpfen von Formularen und Schulungen, können Sie unterschiedliche 
 
 - Lernstandskontrollen
 - Schulungsevaluation
-- Wirksamkeitprüfungen
+- Wirksamkeitsprüfungen
 - Organisatorische Koordination
 
 :::note Beispiel für die Verwendung von Formularen
