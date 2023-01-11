@@ -813,7 +813,6 @@ King
 Ma├ƒnahmentabelle
 Lieferantenreklamationen
 Durchschl├╝pfpunkt
-Beschreibunsgfeld
 Ursachenermittlung
 prozessverbessernd
 prozessverbessernde
