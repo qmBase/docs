@@ -21,7 +21,7 @@ In der Navigationsleiste auf der linken Seite wird über den Menüpunkt <code><F
 
 ## Zusätzliche Informationen zu Organisationen
 
-Nachdem eine Organistion erstellt wurde können weitere Informationen dazu erfasst werden. Folgende Felder stehen insgesamt zur Verfugung:
+Nachdem eine Organisation erstellt wurde können weitere Informationen dazu erfasst werden. Folgende Felder stehen insgesamt zur Verfugung:
 
 | Parameter                                    | Typ      | Beschreibung                                                              |
 | -------------------------------------------- | -------- | ------------------------------------------------------------------------- |
