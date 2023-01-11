@@ -12,7 +12,7 @@ Derzeit bieten wir folgende externe Login Provider an:
 Die Vorteile der Anmeldung hierüber sind.
 
 - Merken Sie sich nur einen Login
-- Nutzen Sie die gleichen Features und Richtlininen, wie bei Ihrem Login Provider
+- Nutzen Sie die gleichen Features und Richtlinien, wie bei Ihrem Login Provider
 - Zentrale Steuerung aller Benutzerkonten
 
 ## Konfiguration der externen Logins als Admin
