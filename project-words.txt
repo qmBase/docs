@@ -806,7 +806,6 @@ Verbesserungsbem├╝hungen
 DMAIC
 Auditanforderung
 Auditerkenntnissen
-festgetellt
 Reklamationstypen
 Reklamationstyp
 zusammenklicken

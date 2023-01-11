@@ -48,7 +48,7 @@ Wir unterscheiden bei qmBase drei verschiedene Reklamationstypen.
 
 - **Intern** - Ein Problem fällt intern auf, dass bearbeitet werden sollte
 
-- **Lieferant** - Sie haben eine Reklamation bei einem Ihrer Lieferanten festgetellt und möchten diese erfassen
+- **Lieferant** - Sie haben eine Reklamation bei einem Ihrer Lieferanten festgestellt und möchten diese erfassen
 
 **Beschreibung**
 
