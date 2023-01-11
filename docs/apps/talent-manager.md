@@ -94,7 +94,7 @@ Für die Positionen ergeben sich folgende Anforderungen (A = Aufgaben, Q = Quali
 Unser Beispiel Mitarbeiter <code>Lukas Guss</code> erfüllt die an ihn gestellten Anforderungen wie folgt:
 
 - SAP Kenntnisse (Q1) 50%
-- Deutsch in Wort und Schrit(Q2) 100%
+- Deutsch in Wort und Schritt(Q2) 100%
 - Powerpoint Kenntnisse (Q3) 100%
 - Word Kenntnisse (Q4) 100%
 - Excel Kenntnisse (Q5) 100%
