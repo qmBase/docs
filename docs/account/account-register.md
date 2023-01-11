@@ -59,7 +59,7 @@ Diese Fehlermeldung erhalten Sie, wenn bereits ein Account mit Ihrer E-Mail Adre
 
 Für einen sicheren Zugang werden an das Passwort Mindestanforderungen gestellt. Diese sind derzeit wie folgt.
 
-- Minium: 8 Zeichen
+- Minimum: 8 Zeichen
 - Großbuchstaben (A)
 - Kleinbuchstaben (a)
 - Sonderzeichen (!)

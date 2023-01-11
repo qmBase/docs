@@ -792,7 +792,6 @@ true
 Granular
 Authentifikator
 Einmalpassworts
-Minium
 taken
 already
 zeitbasierten
