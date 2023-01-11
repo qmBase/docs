@@ -681,7 +681,6 @@ Gatekeeper
 Inventargegenstand
 usescases
 Instandhaltungsmanagements
-Feldfunktioinen
 Seriebrief
 Tablet
 Verkn├╝pfungsdialog
@@ -963,3 +962,5 @@ gallery
 usecases
 Entfall
 Einreichern
+benachrichtigungen
+Risikoprioritätszahl
