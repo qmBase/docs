@@ -195,7 +195,7 @@ Die gemeinsame Anstrengung wird gewürdigt und die Erfahrungen ausgetauscht.
 
 Hier finden Sie alle FAQs zum Reklamationsmanagement.
 
-#### Bei der Erfassung von Reklamationen kann ich die Menge und die Einheiten der reklamaierten Waren eintragen. Wie kann ich neue Einheiten zur Auswahl definieren?
+#### Bei der Erfassung von Reklamationen kann ich die Menge und die Einheiten der reklamierten Waren eintragen. Wie kann ich neue Einheiten zur Auswahl definieren?
 
 Die Einheiten für die Menge der reklamierten Waren lassen sich in den allgemeinen Einstellungen definieren:
 
