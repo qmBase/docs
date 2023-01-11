@@ -13,7 +13,7 @@ Um mit der Nutzung von qmBase zu starten, benötigen Sie einen Account. Den Acco
 
 #### Auf Registrierseite wechseln
 
-Wenn Sie nicht angemeldet sind landen Sie auf dem Formular zur Anmeldung. Am unteren Rand dieses Formulares gibt es einen Link mit dem Sie zur Registrierung kommen <code>Registrieren Sie sich als neuer Nutzer!</code>
+Wenn Sie nicht angemeldet sind landen Sie auf dem Formular zur Anmeldung. Am unteren Rand dieses Formulars gibt es einen Link mit dem Sie zur Registrierung kommen <code>Registrieren Sie sich als neuer Nutzer!</code>
 
 #### Zugangsdaten angeben
 
