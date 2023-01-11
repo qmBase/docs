@@ -9,7 +9,7 @@ module.exports = {
       "general",
       "common-features",
       "feedback",
-      "benachrichtigungen",
+      "Benachrichtigungen",
     ],
     Account: [
       "account/account-register",
