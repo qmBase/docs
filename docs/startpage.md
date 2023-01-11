@@ -33,7 +33,7 @@ Mit der Auswahl der Taste **Geführte Tour starten**, wird eine Tour durch die q
 Am Ende der Navigationsleiste finden Sie Ihren Namen, wenn Sie auf ihren Namen klicken, können Sie die [Profileinstellungen](account/profile) auswählen und Änderungen an Ihrem Profil vornehmen.
 Um sich abzumelden, klicken Sie auf das Icon <code>Abmelden</code>.
 
-## Blog - Letzen Blogeintrag anzeigen
+## Blog - Letzten Blogeintrag anzeigen
 
 In diesem Bereich sehen Sie die aktuellsten Beitrag aus der App Blog. Bei dem aktuellsten Beitrag handelt es sich um die zuletzt erstelle Revision alle Artikel aus der App Blog.
 

@@ -7,7 +7,7 @@ title: Risiken & Chancen
 
 ## Startseite der App Risiken und Chancen
 
-Dies ist die Startseite der App Risiken und Chancen mit den Buttons auf linken Seitenleiste navigieren Sie sich durch das Risiko & Chancen Management. Außerdem können Sie über die Startseite des Risiko & Chancen Managements direkt auf das globale Dashboard zurückgreifen um zu dem [Dashboard und Reportings](dashboard.md) der Risiken & Chancen zu gelangen. Unter <code>Mein Dashboard </code> sehen die Risiken & Chancen für die Sie als verantwortliche Person zuständig sind.
+Dies ist die Startseite der App Risiken und Chancen mit den Buttons auf linken Seitenleiste navigieren Sie sich durch das Risiko & Chancen Management. Außerdem können Sie über die Startseite des Risiko & Chancen Managements direkt auf das globale Dashboard zurückgreifen um zu dem [Dashboard und Reportings](dashboard.mdx) der Risiken & Chancen zu gelangen. Unter <code>Mein Dashboard </code> sehen die Risiken & Chancen für die Sie als verantwortliche Person zuständig sind.
 
 | Parameter                  | Typ    | Beschreibung                                                                     |
 | -------------------------- | ------ | -------------------------------------------------------------------------------- |
@@ -87,4 +87,4 @@ Eine Ursache dafür kann die Benennung der Variablen sein. Wenn Sie zum Beispiel
 
 ### Wo finde ich Auswertungen meiner Risiken & Chancen?
 
-Die Auswertungen der Risiken & Chancen, sowie anderer Apps, finden Sie in der App Dashboard & Reportings. Das FAQ zu der App Dashboard & Reportings finden Sie [hier](dashboard.md).
+Die Auswertungen der Risiken & Chancen, sowie anderer Apps, finden Sie in der App Dashboard & Reportings. Das FAQ zu der App Dashboard & Reportings finden Sie [hier](dashboard.mdx).

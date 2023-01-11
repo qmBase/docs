@@ -83,7 +83,7 @@ Im Audit Trail werden alle Änderungen gespeichert, die Sie an ein Eintrag vorne
 
 ### Dashboard & Reportings
 
-Weitere Informationen finden Sie im Bereich Dashboard & Reportings [Dashboard & Reportings](dashboard.md)
+Weitere Informationen finden Sie im Bereich Dashboard & Reportings [Dashboard & Reportings](dashboard.mdx)
 
 ---
 

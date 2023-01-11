@@ -1,7 +1,7 @@
 ---
 id: faq-33
 slug: /faqs/33
-title: Können für Dokumente und Artikel zusätzliche und indidivuelle Versionsnummern vergeben werden
+title: Können für Dokumente und Artikel zusätzliche und individuelle Versionsnummern vergeben werden
 keywords:
  - Dokumentenmanagement
  - Wiki

@@ -15,7 +15,7 @@ Folgende Schritte sind dafür erforderlich:
 
 ![](https://caqadmin.blob.core.windows.net/faqs/106-images/3ddf6265-e0bf-4472-8e74-7c657b8c2fc3-mceclip2.png)
 
-Wechseln Sie in die Einstellungen -> Reklamationsmanagment -> Custom Fields. Hier können Sie jetzt das Custom Field auswählen, dass mit der Einschränkung versehen werden soll. Sind keine Einschränkungen ausgewählt ist das Custom Field für jeden Nutzer änderbar.
+Wechseln Sie in die Einstellungen -> Reklamationsmanagement -> Custom Fields. Hier können Sie jetzt das Custom Field auswählen, dass mit der Einschränkung versehen werden soll. Sind keine Einschränkungen ausgewählt ist das Custom Field für jeden Nutzer änderbar.
 
 ![](https://caqadmin.blob.core.windows.net/faqs/106-images/8f9317d2-6c23-40ae-b59e-7b2e102bbecc-mceclip4.png)
 
