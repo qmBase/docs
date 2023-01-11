@@ -67,12 +67,12 @@ In unserem Beispiel werden die Risiken anhand folgender Parameter bewertet:
 - Eintrittswahrscheinlichkeit (Auf einer Skala von 1 bis 10)
 - Entdeckungswahrscheinlichkeit (Auf einer Skala von 1 bis 10)
 - Bedeutung des Risikos (Auf einer Skala von 1 bis 10)
-  Im nächsten Schritt definieren wir eine Formel mit der sich aus den Variablen eine [Risikoprioritätzahl (RPZ)](https://www.qmbase.com/fmea-fehlermoeglichkeits-und-einfluss-analyse/) ermittelt.
+  Im nächsten Schritt definieren wir eine Formel mit der sich aus den Variablen eine [Risikoprioritätszahl (RPZ)](https://www.qmbase.com/fmea-fehlermoeglichkeits-und-einfluss-analyse/) ermittelt.
 
 ![SCREENSHOT] (TODO: INSERT SCREENSHOT FROM THE QUESTION IN THE CURRENT FAQ)
 
 In unserem Beispiel multiplizieren wir die einzelnen Variablen miteinander.
-Wird ein Risiko mit der entsprechenden Kategorie bewertet, werden Sie aufgefordert für jede von ihnen definierte Variable auf der von Ihnen festgelegten Skala zu bewerten. Als Ergebnis wird automatisch die Risikoprioritätzahl ermittelt.
+Wird ein Risiko mit der entsprechenden Kategorie bewertet, werden Sie aufgefordert für jede von ihnen definierte Variable auf der von Ihnen festgelegten Skala zu bewerten. Als Ergebnis wird automatisch die Risikoprioritätszahl ermittelt.
 
 ![SCREENSHOT] (TODO: INSERT SCREENSHOT FROM THE QUESTION IN THE CURRENT FAQ)
 

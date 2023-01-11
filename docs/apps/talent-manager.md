@@ -68,9 +68,9 @@ Legen Sie fest welche Qualifikationen in Ihrer Organisation benötigt werden, um
 
 ### Matrix
 
-In der App Aufgaben & Qualifikationen können Sie sich auf einen Blick anschauen, welchen Qualifikationsbedaf es in Ihrem Unternehmen gibt. Hierzu werden die Mitarbeiter den Qualifikationen gegenüber gestellt.
+In der App Aufgaben & Qualifikationen können Sie sich auf einen Blick anschauen, welchen Qualifikationsbedarf es in Ihrem Unternehmen gibt. Hierzu werden die Mitarbeiter den Qualifikationen gegenüber gestellt.
 
-Zur weiteren Veranschaulichung welche Informationen Sie erhalten können, nehmen wir folgende Beispiel Daten an (diese sind auch in unseren Testystemen enthalten).
+Zur weiteren Veranschaulichung welche Informationen Sie erhalten können, nehmen wir folgende Beispiel Daten an (diese sind auch in unseren Testsystemen enthalten).
 
 In unserem Unternehmen gibt es einen Mitarbeiter <code>Lukas Guss</code> dieser hat die Positionen <code>Vertriebsassistenz</code> und <code>Arbeitssicherheitsbeauftragter</code>.
 Für die Positionen ergeben sich folgende Anforderungen (A = Aufgaben, Q = Qualifikationen):
@@ -87,14 +87,14 @@ Für die Positionen ergeben sich folgende Anforderungen (A = Aufgaben, Q = Quali
     - Powerpoint Kenntnisse (Q3)
     - Word Kenntnisse (Q4)
     - Excel Kenntnisse (Q5)
-- Arbeitssicherheitsbauftragter (P2)
+- Arbeitssicherheitsbeauftragter (P2)
   - Ersthelfer (A3)
     - Ersthelfer (Q6)
 
 Unser Beispiel Mitarbeiter <code>Lukas Guss</code> erfüllt die an ihn gestellten Anforderungen wie folgt:
 
 - SAP Kenntnisse (Q1) 50%
-- Deutsch in Wort und Schrit(Q2) 100%
+- Deutsch in Wort und Schritt(Q2) 100%
 - Powerpoint Kenntnisse (Q3) 100%
 - Word Kenntnisse (Q4) 100%
 - Excel Kenntnisse (Q5) 100%
@@ -181,7 +181,7 @@ Wie ergeben sich die Werte innerhalb der Tabelle?
 TODO: Bild Q-Matrix Dashboard
 Wenn wir uns beispielsweise die Daten gruppiert nach Abteilungen anschauen ist die Tabelle folgendermaßen zu verstehen. Basierend auf dem gewählten Filter werden die dargestellten Personen vorausgewählt. Dann wird geschaut, welche Abteilungen mit dieser Auswahl an Mitarbeitern verknüpft sind. In der zweiten Spalten unter Personen wird die Anzahl der Mitarbeiter dargestellt, die mit der Abteilung verknüpft sind.
 In der Spalte Status ergeben sich dann drei Zahlen in grün, gelb und rot. Die Berechnung der Zahlen ist in der folgenden Tabelle dargestellt. Zunächst wird die Anzahl der gesamt benötigten Qualifikationen berechnet. Dies könnte z.B. 10 sein.
-Zur Vereinfachung werden in dieser Tabelle anteillige Qualifikationserfüllungen auch mit 100% berücksichtigt.
+Zur Vereinfachung werden in dieser Tabelle anteilige Qualifikationserfüllungen auch mit 100% berücksichtigt.
 
 Zu den benötigten Qualifikationen zählen:
 

@@ -48,18 +48,18 @@ Die Anzahl der Schulungsteilnehmer zu begrenzen macht vorallem dann Sinn, wenn d
 
 Qualifikationen können auf Teilnehmer einer Schulung übertragen werden, wenn folgende Bedingungen erfüllt sind:
 
-- Schulungs Status ist "Abgeschlossen"
+- Schulungsstatus ist "Abgeschlossen"
 - Schulung ist mir Qualifikationen verknüpft
 - Schulung hat Teilnehmer, zu denen die Qualifikation noch nicht übertragen wurde
 - Nutzer ist Verantwortlicher der Schulung oder ist mindestens in der Rolle Schulungsmanagement Admin
 
-### Formulare - Evaluation und Bewertung von Schlungen
+### Formulare - Evaluation und Bewertung von Schulungen
 
 Mit dem Verknüpfen von Formularen und Schulungen, können Sie unterschiedliche Ziele erreichen:
 
 - Lernstandskontrollen
 - Schulungsevaluation
-- Wirksamkeitprüfungen
+- Wirksamkeitsprüfungen
 - Organisatorische Koordination
 
 :::note Beispiel für die Verwendung von Formularen
