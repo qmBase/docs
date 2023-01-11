@@ -677,7 +677,7 @@ Edit
 Goals
 Claims
 reingenommen
-Gatekepper
+Gatekeeper
 Inventargegenstand
 usescases
 benachrichtigungen
