@@ -67,4 +67,4 @@ Für einen sicheren Zugang werden an das Passwort Mindestanforderungen gestellt.
 
 #### Kann jemand anderes mein Passwort einsehen?
 
-Nein, Best Practice ist es Passwörter nicht im Klartext zu speichern. Daran halten wir uns. Das bedeutet, dass Ihr Passwort mit einem sicheren Verfahren verschlüsselt wird. Diese Funktion ist irevesersibel, so es nicht möglich ist, dass aus dem verschlüsselten Passwort wieder das lesbare Passwort erstellt werden kann.
+Nein, Best Practice ist es Passwörter nicht im Klartext zu speichern. Daran halten wir uns. Das bedeutet, dass Ihr Passwort mit einem sicheren Verfahren verschlüsselt wird. Diese Funktion ist irreversibel, so es nicht möglich ist, dass aus dem verschlüsselten Passwort wieder das lesbare Passwort erstellt werden kann.
