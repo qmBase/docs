@@ -13,7 +13,7 @@ FaShippingFast,
 
 ![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Crm.png)
 
-Das CRM ist die zentrale Kontaktverwaltung innerhalb von qmBase. Weitere Apps wie das [Reklmationsmanagement](claim-management) oder das [Projekt- & Maßnahmenmanagement](projects-and-tasks) greifen auf diese Kontakte zu. Kontakte werden als Organisationen mit einer beliebigen Anzahl an Personen erfasst. Die Kontakte können als Kunden oder Lieferanten klassifiziert werden. Zu den Kontakten können entsprechend Kundenbewertungen oder Lieferantenbewertungen hinterlegt werden.
+Das CRM ist die zentrale Kontaktverwaltung innerhalb von qmBase. Weitere Apps wie das [Reklamationsmanagement](claim-management) oder das [Projekt- & Maßnahmenmanagement](projects-and-tasks) greifen auf diese Kontakte zu. Kontakte werden als Organisationen mit einer beliebigen Anzahl an Personen erfasst. Die Kontakte können als Kunden oder Lieferanten klassifiziert werden. Zu den Kontakten können entsprechend Kundenbewertungen oder Lieferantenbewertungen hinterlegt werden.
 
 # Kontakte anlegen
 
