@@ -685,7 +685,6 @@ Tablet
 Verkn├╝pfungsdialog
 korrektur
 Abschickens
-Prozessverantworlicher
 Amortisationsdauer
 bereis
 Ideemanager
