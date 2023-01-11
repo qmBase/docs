@@ -149,7 +149,7 @@ In der Vorauswahl finden Sie hier alle Personen, die mit der zugrunde liegenden 
 
 Das Problem ist so genau wie möglich zu definieren, wobei der Kern des Problems herausgearbeitet und quantifiziert werden sollte.
 
-In der Vorauswahl finden Sie hier die Beschreibung der zu gründe liegenden Reklamation.
+In der Vorauswahl finden Sie hier die Beschreibung der zu grunde liegenden Reklamation.
 
 #### D3 Sofortmaßnahmen festlegen
 
