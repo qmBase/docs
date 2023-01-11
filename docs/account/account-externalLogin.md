@@ -27,7 +27,7 @@ Als normaler Nutzer gibt es zwei Möglichkeiten, wie Sie die Anmeldung nutzen k�
 
 ### Sie haben bereits einen Account
 
-Wenn Sie bereits einen Account haben, können Sie die zusätzliche Anmeldemöglichkeit in Ihrem Profil hinzufügen. Gehen Sie dafür in Ihr Profil und verknüpfen Sie hier den gewünschten Login. Wenn Sie sich jetzt das nächste Mal anmelden, wählen Sie auf der Anmeldeseite den entsprechnenden Login aus.
+Wenn Sie bereits einen Account haben, können Sie die zusätzliche Anmeldemöglichkeit in Ihrem Profil hinzufügen. Gehen Sie dafür in Ihr Profil und verknüpfen Sie hier den gewünschten Login. Wenn Sie sich jetzt das nächste Mal anmelden, wählen Sie auf der Anmeldeseite den entsprechenden Login aus.
 
 ### Sie haben noch keinen Account
 
