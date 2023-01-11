@@ -681,7 +681,6 @@ Gatekeeper
 Inventargegenstand
 usescases
 Instandhaltungsmanagements
-Seriebrief
 Tablet
 Verkn├╝pfungsdialog
 korrektur

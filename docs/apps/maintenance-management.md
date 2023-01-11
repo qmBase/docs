@@ -46,7 +46,7 @@ Wenn Sie Tabelle aus dem vorherigen Schritt erstellt haben, können Sie sich hie
 
 Download: [Etiketten_qmBase_qr.docx](./../assets/Etiketten_qmBase_qr.docx)
 
-Für Ihren eigenen Seriebrief können Sie folgende Feldfunktionen verwenden:
+Für Ihren eigenen Serienbrief können Sie folgende Feldfunktionen verwenden:
 
 - QR Code: <code>DISPLAYBARCODE MERGEFIELD Url QR \q 3 \s 5</code>
 - Anzeigename: <code>MERGEFIELD Anzeigename</code>
