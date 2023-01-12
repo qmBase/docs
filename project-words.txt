@@ -427,6 +427,7 @@ Duration
 planned
 Funtion
 Milestone
+Milestones
 Confirmed
 within
 Adminrechte
@@ -963,3 +964,4 @@ gallery
 usecases
 Entfall
 Einreichern
+Backlog
