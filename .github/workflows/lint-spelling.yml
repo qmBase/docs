@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  lint:spelling:
-    runs-on: windows-latest
+  lint-spelling:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
