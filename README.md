@@ -73,19 +73,26 @@ If the document you write is incomplete please write
 
 ## Common Feature Matrix
 
-| App                 | Comments | Files | Audit Trail | Custom Fields | Workflows | Costs |
-| ------------------- | -------- | ----- | ----------- | ------------- | --------- | ----- |
-| Absence planner     | x        | x     |
-| Blog                | x        | x     |
-| Claim management    | x        | x     |             |               |           | x     |
-| CRM                 | x        | x     |
-| Document management | x        | x     |
-| Error management    | x        | x     |             |               |           | x     |
-| Goal management     | x        | x     | x           | x             |           | x     |
-| Inventory items     | x        | x     |             |               |           | x     |
-| Todos               | x        | x     |             |               |           | x     |
-| Trainings           | x        | x     |             |               |           | x     |
-| Forms               |          |       |             |
+| App                         | Comments | Files | Audit Trail | Custom Fields | Workflows | Costs |
+| --------------------------- | -------- | ----- | ----------- | ------------- | --------- | ----- |
+| Absence planner             | x        | x     |
+| Audit management            | x        | x     | x           | x             |
+| Blog                        | x        | x     |
+| Claim management            | x        | x     |             |               |           | x     |
+| CRM                         | x        | x     |
+| Document management         | x        | x     |
+| Emploees                    | x        | x     | x           |
+| Error management            | x        | x     | x           |               |           | x     |
+| Forms                       |          |       | x           |
+| Functions & Qualifications  | Non Standard
+| Goal management             | x        | x     | x           | x             |           | x     |
+| Idea management             | x        | x     | x           |
+| Inventory items             | x        | x     |             |               |           | x     |
+| Maintenance                 | x        | x     | x           |               |           | x     |
+| Projects & Tasks            | x        | x     | x           | x             |           |       |
+| Products                    | x        | x     | x           |
+| Risks & Chances             | x        | x     | x           | x             |
+| Todos                       | x        | x     |             |               |           | x     |
+| Trainings                   | x        | x     |             |               |           | x     |
+| WIKI                        | x        | x     | x           |
 
-TODO:
-What is missing
