@@ -71,5 +71,21 @@ Path of screenshots equals path in app.
 The template for app documentation can be found in [/docs/tutorial-template](https://github.com/qmBase/docs/blob/master/docs/tutorial-template.mdx).
 If the document you write is incomplete please write
 
+## Common Feature Matrix
+
+| App                 | Comments | Files | Audit Trail | Custom Fields | Workflows | Costs |
+| ------------------- | -------- | ----- | ----------- | ------------- | --------- | ----- |
+| Absence planner     | x        | x     |
+| Blog                | x        | x     |
+| Claim management    | x        | x     |             |               |           | x     |
+| CRM                 | x        | x     |
+| Document management | x        | x     |
+| Error management    | x        | x     |             |               |           | x     |
+| Goal management     | x        | x     | x           | x             |           | x     |
+| Inventory items     | x        | x     |             |               |           | x     |
+| Todos               | x        | x     |             |               |           | x     |
+| Trainings           | x        | x     |             |               |           | x     |
+| Forms               |          |       |             |
+
 TODO:
 What is missing
