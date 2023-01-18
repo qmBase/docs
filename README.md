@@ -81,6 +81,7 @@ If the document you write is incomplete please write
 | Claim management            | x        | x     |             |               |           | x     |
 | CRM                         | x        | x     |
 | Document management         | x        | x     |
+| Emploees                    | x        | x     | x           |
 | Error management            | x        | x     | x           |               |           | x     |
 | Forms                       |          |       | x           |
 | Functions & Qualifications  | Non Standard
