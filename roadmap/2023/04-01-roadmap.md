@@ -33,7 +33,7 @@ In diesem Fall erhalten Sie Benachrichtigungen bei folgenden Ereignissen:
 - Sie wurden einem Kommentar mit einem @mentioned erwähnt
 - Der Eintrag wurde von jemand anderem bearbeitet z.B. dem Vorgesetzten
 
-Sollten Sie darüberhinaus noch über weitere Einträge und Events benachrichtigt werden möchten, wird das über unsere **Watch Funktion** und ein damit verbundenes Abonnieren eines Events möglich.
+Sollten Sie darüber hinaus noch über weitere Einträge und Events benachrichtigt werden möchten, wird das über unsere **Watch Funktion** und ein damit verbundenes Abonnieren eines Events möglich.
 Damit erhalten Sie dann zusätzlich für diese Inhalte, für die Sie nicht selbst verantwortlich sind, eine Benachrichtigung in folgenden Fällen:
 
 - Der Eintrag wurde kommentiert

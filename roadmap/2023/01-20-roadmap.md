@@ -4,24 +4,31 @@ authors:
   - name: Philipp Pähler
     title: qmBase Development Team
     image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
-image: /img/blog/roadmap.jpg
+image: /img/blog/roadmap23.jpg
 tags: [Roadmap, Dashboards & Reportings]
 ---
+
+Das Jahr 2022 war für uns bei qmBase wieder ein spannendes Jahr voller interessanter Erfahrungen und Herausforderungen.
+Mit voller Energie starten wir in das Jahr 2023 möchten Sie hier an dieser Stelle an den nächsten Schritten teilhaben lassen.
+Was auf dem noch leeren Blatt des Jahrs als erstes stehen soll erfahren Sie in diesem Beitrag.
+![Leere Roadmap](/img/blog/roadmap-empty.jpg)
+
+<!--truncate-->
 
 Im Laufe der Zeit haben wir die Erfahrung gemacht, dass die Veröffentlichung einer längerfristigen Roadmap für uns zu vielen Problemen führt.
 Mit der Roadmap wecken wir Erwartungen, die wir dann so unter Umständen nicht erfüllen können, weil sich der Entwicklungsfokus doch verschiebt.
 Die Ursachen hierfür sind vielfältig und beinhalten beispielsweise:
-
-<!--truncate-->
 
 - sich ändernde Kundenanforderungen
 - tatsächlicher Nutzen und Rückmeldungen durch unser Ticket System
 - Veränderte regulatorische Anforderungen
 - neue Ideen, die wir in unser Produkt einbringen möchten
 
-Aus diesem Grund werden wir hier an dieser Stelle zukünftig immer einen Ausblick auf das nächste signifikante Feature geben, dass wir aktuell entwickeln.
+Aus diesem Grund werden wir hier an dieser Stelle zukünftig immer einen Ausblick auf das nächste signifikante Feature geben, das wir aktuell entwickeln.
+
 Somit ist es das Ziel, Ihnen hier an dieser Stelle immer das nächste konkrete Update unserer internen Roadmap zu liefern. Dieses wird dann auch zeitnah im Rahmen der kommenden 1-2 Monate umgesetzt.
 Dadurch können wir unsere längerfristige Roadmap besser an aktuelle Trends anpassen ohne bei Ihnen falsche Erwartungen zu wecken.
+Falls Sie sich jetzt die Frage stellen, welchen Einfluss diese Herangehensweise auf die Bearbeitung Ihrer Ticket hat verweisen wir an dieser Stelle auf unser [Erklärung](/docs/feedback) der Bearbeitung von Feedback.
 
 ## Dashboards
 
