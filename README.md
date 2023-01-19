@@ -90,8 +90,8 @@ If the document you write is incomplete please write
 | Idea management             |                  | x         | x     | x           |
 | Maintenance                 | Inventory items  | x         | x     | x           |               |           | x     |
 | Maintenance                 | Inspections done |           | x     |
-| Projects & Tasks            | Tasks            | x         | x     | x           | x             |           | x     |
 | Projects & Tasks            | Projects         | x         | x     | x           |
+| Projects & Tasks            | Tasks            | x         | x     | x           | x             |           | x     |
 | Products                    |                  | x         | x     | x           |
 | Risks & Chances             |                  | x         | x     | x           | x             |
 | Trainings                   |                  | x         | x     | x           | x             |           | x     |
