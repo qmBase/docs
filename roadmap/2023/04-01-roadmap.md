@@ -30,14 +30,14 @@ Die Verbindung kann z.B. dadurch erfolgen, dass Sie für einen Eintrag verantwor
 In diesem Fall erhalten Sie Benachrichtigungen bei folgenden Ereignissen:
 
 - Der Eintrag wurde kommentiert
-- Sie wurden einem Kommentar mit einem @mentioned erwähnt.
-- Der Eintrag wurde von jemand anderem bearbeitet z.B. der Vorgesetzte.
+- Sie wurden einem Kommentar mit einem @mentioned erwähnt
+- Der Eintrag wurde von jemand anderem bearbeitet z.B. dem Vorgesetzten
 
-Sollten Sie darüberhinaus noch über weitere Einträge und Events benachrichtigt werden möchten, wird das über unsere **Watch Funktion** und ein damit verbundenes abonnieren eines Events möglich.
-Damit erhalten Sie dann zusätzlich eine Benachrichtigung in folgenden Fällen:
+Sollten Sie darüberhinaus noch über weitere Einträge und Events benachrichtigt werden möchten, wird das über unsere **Watch Funktion** und ein damit verbundenes Abonnieren eines Events möglich.
+Damit erhalten Sie dann zusätzlich für diese Inhalte, für die Sie nicht selbst verantwortlich sind, eine Benachrichtigung in folgenden Fällen:
 
 - Der Eintrag wurde kommentiert
-- Der Eintrag wurde von jemand anderem Bearbeitet z.B. der Vorgesetzte.
+- Der Eintrag wurde von jemand anderem Bearbeitet z.B. dem Vorgesetzten
 
 Zusätzlich werden diese Events dann auch in Ihren persönlichen Kalender übernommen.
 Aus diesem Kalender werden die regelmäßigen Reminder E-Mails generiert, die dann auch Erinnerungen zu ablaufenden Fristen der abonnierten Events beinhalten.
@@ -58,6 +58,7 @@ Abgestellt werden kann:
   - Verantwortlich
   - Teilnehmer sofern vorhanden
   - Teilnehmer Diskussion / Kommentare
+  - Watcher
 
 #### Worüber wird benachrichtigt?
 
