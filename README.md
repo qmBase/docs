@@ -49,6 +49,14 @@ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
+## Spell Check
+
+```console
+npm run lint:spelling
+```
+
+This command runs a spell check using CSpell. If you want any specific words to be ignored by the spell checker, add them to the words list in the `project-words.txt` file.
+
 ## Colors
 
 - Primary: #65ace0

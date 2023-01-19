@@ -13,7 +13,7 @@ Um mit der Nutzung von qmBase zu starten, benötigen Sie einen Account. Den Acco
 
 #### Auf Registrierseite wechseln
 
-Wenn Sie nicht angemeldet sind landen Sie auf dem Formular zur Anmeldung. Am unteren Rand dieses Formulares gibt es einen Link mit dem Sie zur Registrierung kommen <code>Registrieren Sie sich als neuer Nutzer!</code>
+Wenn Sie nicht angemeldet sind landen Sie auf dem Formular zur Anmeldung. Am unteren Rand dieses Formulars gibt es einen Link mit dem Sie zur Registrierung kommen <code>Registrieren Sie sich als neuer Nutzer!</code>
 
 #### Zugangsdaten angeben
 
@@ -59,7 +59,7 @@ Diese Fehlermeldung erhalten Sie, wenn bereits ein Account mit Ihrer E-Mail Adre
 
 Für einen sicheren Zugang werden an das Passwort Mindestanforderungen gestellt. Diese sind derzeit wie folgt.
 
-- Minium: 8 Zeichen
+- Minimum: 8 Zeichen
 - Großbuchstaben (A)
 - Kleinbuchstaben (a)
 - Sonderzeichen (!)
@@ -67,4 +67,4 @@ Für einen sicheren Zugang werden an das Passwort Mindestanforderungen gestellt.
 
 #### Kann jemand anderes mein Passwort einsehen?
 
-Nein, Best Practice ist es Passwörter nicht im Klartext zu speichern. Daran halten wir uns. Das bedeutet, dass Ihr Passwort mit einem sicheren Verfahren verschlüsselt wird. Diese Funktion ist irevesersibel, so es nicht möglich ist, dass aus dem verschlüsselten Passwort wieder das lesbare Passwort erstellt werden kann.
+Nein, Best Practice ist es Passwörter nicht im Klartext zu speichern. Daran halten wir uns. Das bedeutet, dass Ihr Passwort mit einem sicheren Verfahren verschlüsselt wird. Diese Funktion ist irreversibel, so es nicht möglich ist, dass aus dem verschlüsselten Passwort wieder das lesbare Passwort erstellt werden kann.
