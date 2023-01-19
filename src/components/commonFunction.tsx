@@ -1,6 +1,7 @@
 import React from "react";
 import { PbdModuleString } from "../models/pbdModuleString";
 import { Entity } from "../models/entity";
+import { Link } from "react-router-dom";
 
 enum SharedFunction {
   Comments = "Comments",
@@ -13,7 +14,7 @@ enum SharedFunction {
 
 interface App {
   appName: PbdModuleString;
-
+  entity?: Entity;
   sharedFunctions: SharedFunction[];
 }
 
@@ -33,6 +34,7 @@ const data: App[] = [
       SharedFunction.Comments,
       SharedFunction.Files,
       SharedFunction.AuditTrail,
+      SharedFunction.CustomFields,
     ],
   },
   {
@@ -55,7 +57,18 @@ const data: App[] = [
   },
   {
     appName: PbdModuleString.Crm,
-    sharedFunctions: [SharedFunction.Comments, SharedFunction.Files],
+    entity: Entity.Organisation,
+    sharedFunctions: [
+      SharedFunction.Comments,
+      SharedFunction.Files,
+      SharedFunction.AuditTrail,
+      SharedFunction.CustomFields,
+    ],
+  },
+  {
+    appName: PbdModuleString.Crm,
+    entity: Entity.OrganisationRating,
+    sharedFunctions: [SharedFunction.Files, SharedFunction.AuditTrail],
   },
   {
     appName: PbdModuleString.DocumentManagement,
@@ -102,25 +115,41 @@ const data: App[] = [
       SharedFunction.Comments,
       SharedFunction.Files,
       SharedFunction.AuditTrail,
+    ],
+  },
+  {
+    appName: PbdModuleString.MaintenanceManagement,
+    entity: Entity.InventoryItems,
+    sharedFunctions: [
+      SharedFunction.Comments,
+      SharedFunction.Files,
+      SharedFunction.AuditTrail,
       SharedFunction.Costs,
     ],
   },
   {
     appName: PbdModuleString.MaintenanceManagement,
+    entity: Entity.InspectionsDone,
+    sharedFunctions: [SharedFunction.Files],
+  },
+  {
+    appName: PbdModuleString.ProjectAndTaskManagement,
+    entity: Entity.Projects,
     sharedFunctions: [
       SharedFunction.Comments,
       SharedFunction.Files,
       SharedFunction.AuditTrail,
-      SharedFunction.Costs,
     ],
   },
   {
     appName: PbdModuleString.ProjectAndTaskManagement,
+    entity: Entity.Tasks,
     sharedFunctions: [
       SharedFunction.Comments,
       SharedFunction.Files,
       SharedFunction.AuditTrail,
       SharedFunction.CustomFields,
+      SharedFunction.Costs,
     ],
   },
   {
@@ -138,14 +167,6 @@ const data: App[] = [
       SharedFunction.Files,
       SharedFunction.AuditTrail,
       SharedFunction.CustomFields,
-    ],
-  },
-  {
-    appName: PbdModuleString.ToDoManagement,
-    sharedFunctions: [
-      SharedFunction.Comments,
-      SharedFunction.Files,
-      SharedFunction.Costs,
     ],
   },
   {
@@ -186,7 +207,9 @@ export default function CommonFunction({ app }: IProps) {
       <tbody>
         {filteredData.map((data, index) => (
           <tr key={index}>
-            <td>{data.sharedFunctions}</td>
+            <td>
+              <Link to="./docs/common-features/">{data.sharedFunctions}</Link>
+            </td>
             <td></td>
           </tr>
         ))}
