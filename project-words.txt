@@ -965,3 +965,4 @@ usecases
 Entfall
 Einreichern
 Backlog
+Reklamationsquote

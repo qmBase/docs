@@ -1,14 +1,4 @@
 {
-  "cSpell.words": [
-    "Auditmanagement",
-    "Benachrichtigungsfunktion",
-    "Framework",
-    "Reklamationsmanagement",
-    "Reportings",
-    "Tablet",
-    "versioniert",
-    "Versionierung"
-  ],
   "cSpell.language": ",de",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
