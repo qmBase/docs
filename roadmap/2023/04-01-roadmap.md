@@ -52,6 +52,8 @@ Abgestellt werden kann:
 
 ### Zusammenfassung
 
+Im Folgenden noch mal wichtige Fragen und Antworten in Kurzform als Zusammenfassung.
+
 #### Wer wird benachrichtigt?
 
 - Abonnenten
