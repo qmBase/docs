@@ -193,27 +193,31 @@ interface IProps {
   app: PbdModuleString;
 }
 
-export default function CommonFunction({ app }: IProps) {
-  const filteredData = data.filter((x) => x.appName === app);
-
-  return (
-    <table>
-      <thead>
-        <tr>
-          <th>Function</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        {filteredData.map((data, index) => (
-          <tr key={index}>
-            <td>
-              <Link to="./docs/common-features/">{data.sharedFunctions}</Link>
-            </td>
-            <td></td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  );
+export default function CommonFunction() {
+  return <h1>From Func</h1>;
 }
+
+// export default function CommonFunction({ app }: IProps) {
+//   const filteredData = data.filter((x) => x.appName === app);
+
+//   return (
+//     <table>
+//       <thead>
+//         <tr>
+//           <th>Function</th>
+//           <th>Description</th>
+//         </tr>
+//       </thead>
+//       <tbody>
+//         {filteredData.map((data, index) => (
+//           <tr key={index}>
+//             <td>
+//               <Link to="./docs/common-features/">{data.sharedFunctions}</Link>
+//             </td>
+//             <td></td>
+//           </tr>
+//         ))}
+//       </tbody>
+//     </table>
+//   );
+// }
