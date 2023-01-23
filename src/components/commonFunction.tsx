@@ -14,7 +14,7 @@ enum SharedFunction {
 
 interface App {
   appName: PbdModuleString;
-  entity?: Entity;
+  appEntity?: Entity;
   sharedFunctions: SharedFunction[];
 }
 
@@ -57,7 +57,7 @@ const data: App[] = [
   },
   {
     appName: PbdModuleString.Crm,
-    entity: Entity.Organisation,
+    appEntity: Entity.Organisation,
     sharedFunctions: [
       SharedFunction.Comments,
       SharedFunction.Files,
@@ -67,7 +67,7 @@ const data: App[] = [
   },
   {
     appName: PbdModuleString.Crm,
-    entity: Entity.OrganisationRating,
+    appEntity: Entity.OrganisationRating,
     sharedFunctions: [SharedFunction.Files, SharedFunction.AuditTrail],
   },
   {
@@ -119,7 +119,7 @@ const data: App[] = [
   },
   {
     appName: PbdModuleString.MaintenanceManagement,
-    entity: Entity.InventoryItems,
+    appEntity: Entity.InventoryItems,
     sharedFunctions: [
       SharedFunction.Comments,
       SharedFunction.Files,
@@ -129,12 +129,12 @@ const data: App[] = [
   },
   {
     appName: PbdModuleString.MaintenanceManagement,
-    entity: Entity.InspectionsDone,
+    appEntity: Entity.InspectionsDone,
     sharedFunctions: [SharedFunction.Files],
   },
   {
     appName: PbdModuleString.ProjectAndTaskManagement,
-    entity: Entity.Projects,
+    appEntity: Entity.Projects,
     sharedFunctions: [
       SharedFunction.Comments,
       SharedFunction.Files,
@@ -143,7 +143,7 @@ const data: App[] = [
   },
   {
     appName: PbdModuleString.ProjectAndTaskManagement,
-    entity: Entity.Tasks,
+    appEntity: Entity.Tasks,
     sharedFunctions: [
       SharedFunction.Comments,
       SharedFunction.Files,
@@ -191,33 +191,85 @@ const data: App[] = [
 
 interface IProps {
   app: PbdModuleString;
+  entity?: Entity;
 }
 
-export default function CommonFunction() {
-  return <h1>From Func</h1>;
-}
-
-// export default function CommonFunction({ app }: IProps) {
-//   const filteredData = data.filter((x) => x.appName === app);
-
+// export default function CommonFunction({ app }: IProps, { entity }: IProps) {
+//   const func = () => {
+//     if (typeof entity !== "undefined") {
+//       {
+//         const filteredEntity = data.filter((x) => x.appEntity === entity);
+//         filteredEntity.map((item, index) => (
+//           <React.Fragment key={index}>
+//             {item.sharedFunctions.map((sharedFunction, index) => (
+//               <tr key={index}>
+//                 <td>
+//                   <Link to={"/docs/common-features"}>{sharedFunction}</Link>
+//                 </td>
+//                 <td></td>
+//               </tr>
+//             ))}
+//           </React.Fragment>
+//         ));
+//       }
+//     } else {
+//       {
+//         const filteredName = data.filter((x) => x.appName === app);
+//         filteredName.map((item, index) => (
+//           <React.Fragment key={index}>
+//             {item.sharedFunctions.map((sharedFunction, index) => (
+//               <tr key={index}>
+//                 <td>
+//                   <Link to={"/docs/common-features"}>{sharedFunction}</Link>
+//                 </td>
+//                 <td></td>
+//               </tr>
+//             ))}
+//           </React.Fragment>
+//         ));
+//       }
+//     }
+//   };
 //   return (
 //     <table>
 //       <thead>
 //         <tr>
-//           <th>Function</th>
+//           <th>Shared Functions</th>
 //           <th>Description</th>
 //         </tr>
 //       </thead>
-//       <tbody>
-//         {filteredData.map((data, index) => (
-//           <tr key={index}>
-//             <td>
-//               <Link to="./docs/common-features/">{data.sharedFunctions}</Link>
-//             </td>
-//             <td></td>
-//           </tr>
-//         ))}
-//       </tbody>
+//       <tbody>{func}</tbody>
 //     </table>
 //   );
 // }
+
+export default function CommonFunction({ app, entity }: IProps) {
+  const filteredData = data.filter(
+    (x) => x.appName === app && x.appEntity === entity
+  );
+  return (
+    <table>
+      <thead>
+        <tr>
+          <th>Shared Functions</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {filteredData.map((item, index) => (
+          <React.Fragment key={index}>
+            {item.sharedFunctions.map((sharedFunction, index) => (
+              <tr key={index}>
+                <td>
+                  <Link to={"/docs/common-features"}>{sharedFunction}</Link>
+                </td>
+
+                <td></td>
+              </tr>
+            ))}
+          </React.Fragment>
+        ))}
+      </tbody>
+    </table>
+  );
+}
