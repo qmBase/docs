@@ -9,14 +9,13 @@ tags: [Roadmap, Dashboards & Reportings]
 ---
 
 Das Jahr 2022 war für uns bei qmBase wieder ein spannendes Jahr voller interessanter Erfahrungen und Herausforderungen.
-Mit voller Energie starten wir in das Jahr 2023 möchten Sie hier an dieser Stelle an den nächsten Schritten teilhaben lassen.
-Was auf dem noch leeren Blatt des Jahrs als erstes stehen soll erfahren Sie in diesem Beitrag.
+Mit voller Energie starten wir in das Jahr 2023. In diesem Beitrag möchten Sie bereits jetzt an  den nächsten Schritten teilhaben lassen.
 ![Leere Roadmap](/img/blog/roadmap-empty.jpg)
 
 <!--truncate-->
 
 Im Laufe der Zeit haben wir die Erfahrung gemacht, dass die Veröffentlichung einer längerfristigen Roadmap für uns zu vielen Problemen führt.
-Mit der Roadmap wecken wir Erwartungen, die wir dann so unter Umständen nicht erfüllen können, weil sich der Entwicklungsfokus doch verschiebt.
+Mit der Roadmap wecken wir Erwartungen, die wir dann so unter Umständen nicht erfüllen können, weil sich der Entwicklungsfokus unerwartet verschiebt.
 Die Ursachen hierfür sind vielfältig und beinhalten beispielsweise:
 
 - sich ändernde Kundenanforderungen
@@ -33,7 +32,7 @@ Falls Sie sich jetzt die Frage stellen, welchen Einfluss diese Herangehensweise 
 ## Custom Dashboards
 
 Als nächstes großes Feature planen wir eine Erweiterung unserer App Dashboards & Reportings. Die App wird um die Funktion **Custom Dashboards** ergänzt.
-Was damit gemeint ist, erklären wir im Folgenden.
+Was damit gemeint ist, erklären wir im Folgenden:
 
 Mit der Funktion Custom Dashboards wird es möglich sein, individuelle Dashboards zu erstellen.
 Diese Dashboards können dann aus einer Vielzahl von einzelnen Karten bestehen. Jeder dieser Karten wiederum beinhaltet dann individuell festzulegende Informationen und Auswertungen.
