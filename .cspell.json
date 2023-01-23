@@ -29,6 +29,7 @@
     "package.json",
     "package-lock.json",
     "project-words.txt",
-    "src/**"
+    "src/**",
+    "benachrichtigungen-new.mdx"
   ]
 }
