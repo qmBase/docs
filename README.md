@@ -81,27 +81,26 @@ If the document you write is incomplete please write
 
 ## Common Feature Matrix
 
-| App                         | Entity           | Comments  | Files | Audit Trail | Custom Fields | Workflows | Costs |
-| --------------------------- | -------          | --------  | ----- | ----------- | ------------- | --------- | ----- |
-| Absence planner             |                  | x         | x     | x           | x             |
-| Audit management            |                  | x         | x     | x           | x             |
-| Blog                        |                  | x         | x     | x           |
-| Claim management            |                  | x         | x     | x           | x             |           | x     |
-| CRM                         |  Contacts        | x         | x     | x           | x             |
-| CRM                         |  Ratings         |           | x     | x           |
-| Document management         |                  | x         | x     | x           |
-| Emploees                    |                  | x         | x     | x           |
-| Error management            |                  | x         | x     | x           |               |           | x     |
-| Forms                       |                  |           |       | x           |
-| Functions & Qualifications  | Non Standard
-| Goal management             |                  | x         | x     | x           | x             |           | x     |
-| Idea management             |                  | x         | x     | x           |
-| Maintenance                 | Inventory items  | x         | x     | x           |               |           | x     |
-| Maintenance                 | Inspections done |           | x     |
-| Projects & Tasks            | Projects         | x         | x     | x           |
-| Projects & Tasks            | Tasks            | x         | x     | x           | x             |           | x     |
-| Products                    |                  | x         | x     | x           |
-| Risks & Chances             |                  | x         | x     | x           | x             |
-| Trainings                   |                  | x         | x     | x           | x             |           | x     |
-| WIKI                        |                  | x         | x     | x           |
-
+| App                        | Entity           | Comments | Files | Audit Trail | Custom Fields | Workflows | Costs |
+| -------------------------- | ---------------- | -------- | ----- | ----------- | ------------- | --------- | ----- |
+| Absence planner            |                  | x        | x     | x           | x             |
+| Audit management           |                  | x        | x     | x           | x             |
+| Blog                       |                  | x        | x     | x           |
+| Claim management           |                  | x        | x     | x           | x             |           | x     |
+| CRM                        | Contacts         | x        | x     | x           | x             |
+| CRM                        | Ratings          |          | x     | x           |
+| Document management        |                  | x        | x     | x           |
+| Employees                  |                  | x        | x     | x           |
+| Error management           |                  | x        | x     | x           |               |           | x     |
+| Forms                      |                  |          |       | x           |
+| Functions & Qualifications | Non Standard     |
+| Goal management            |                  | x        | x     | x           | x             |           | x     |
+| Idea management            |                  | x        | x     | x           |
+| Maintenance                | Inventory items  | x        | x     | x           |               |           | x     |
+| Maintenance                | Inspections done |          | x     |
+| Projects & Tasks           | Projects         | x        | x     | x           |
+| Projects & Tasks           | Tasks            | x        | x     | x           | x             |           | x     |
+| Products                   |                  | x        | x     | x           |
+| Risks & Chances            |                  | x        | x     | x           | x             |
+| Trainings                  |                  | x        | x     | x           | x             |           | x     |
+| WIKI                       |                  | x        | x     | x           |
