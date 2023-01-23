@@ -23,6 +23,7 @@ module.exports = {
       "apps/audit-management",
       "apps/blog",
       "apps/crm",
+      "apps/dashboard",
       "apps/document-management",
       "apps/forms",
       "apps/idea-management",
@@ -36,7 +37,6 @@ module.exports = {
       "apps/training-management",
       "apps/wiki",
       "apps/goal-management",
-      "apps/dashboard",
     ],
     FAQs: [
       "faqs/audit-trail",
