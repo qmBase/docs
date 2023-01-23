@@ -928,3 +928,4 @@ benachrichtigungen
 Risikoprioritätszahl
 grunde
 spelling
+Reklamationsquote
