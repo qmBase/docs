@@ -4,12 +4,12 @@ import { Entity } from "../models/entity";
 import { Link } from "react-router-dom";
 
 enum SharedFunction {
-  Comments = "Comments",
-  Files = "Files",
-  AuditTrail = "AuditTrail",
-  CustomFields = "CustomFields",
+  Comments = "Kommentare",
+  Files = "Anhänge",
+  AuditTrail = "Audit Trail",
+  CustomFields = "Custom Fields",
   Workflows = "Workflows",
-  Costs = "Costs",
+  Costs = "Kosten / Zeit",
 }
 
 interface App {
@@ -192,67 +192,20 @@ const data: App[] = [
 interface IProps {
   app: PbdModuleString;
   entity?: Entity;
+  entityTitle?: string;
 }
 
-// export default function CommonFunction({ app }: IProps, { entity }: IProps) {
-//   const func = () => {
-//     if (typeof entity !== "undefined") {
-//       {
-//         const filteredEntity = data.filter((x) => x.appEntity === entity);
-//         filteredEntity.map((item, index) => (
-//           <React.Fragment key={index}>
-//             {item.sharedFunctions.map((sharedFunction, index) => (
-//               <tr key={index}>
-//                 <td>
-//                   <Link to={"/docs/common-features"}>{sharedFunction}</Link>
-//                 </td>
-//                 <td></td>
-//               </tr>
-//             ))}
-//           </React.Fragment>
-//         ));
-//       }
-//     } else {
-//       {
-//         const filteredName = data.filter((x) => x.appName === app);
-//         filteredName.map((item, index) => (
-//           <React.Fragment key={index}>
-//             {item.sharedFunctions.map((sharedFunction, index) => (
-//               <tr key={index}>
-//                 <td>
-//                   <Link to={"/docs/common-features"}>{sharedFunction}</Link>
-//                 </td>
-//                 <td></td>
-//               </tr>
-//             ))}
-//           </React.Fragment>
-//         ));
-//       }
-//     }
-//   };
-//   return (
-//     <table>
-//       <thead>
-//         <tr>
-//           <th>Shared Functions</th>
-//           <th>Description</th>
-//         </tr>
-//       </thead>
-//       <tbody>{func}</tbody>
-//     </table>
-//   );
-// }
-
-export default function CommonFunction({ app, entity }: IProps) {
+export default function CommonFunction({ app, entity, entityTitle }: IProps) {
   const filteredData = data.filter(
     (x) => x.appName === app && x.appEntity === entity
   );
   return (
     <table>
       <thead>
+        <tr>{entityTitle ? <th colSpan={2}>{entityTitle}</th> : null}</tr>
         <tr>
-          <th>Shared Functions</th>
-          <th>Description</th>
+          <th>Gemeinsame Funktionen</th>
+          <th>Beschreibung</th>
         </tr>
       </thead>
       <tbody>
@@ -263,7 +216,6 @@ export default function CommonFunction({ app, entity }: IProps) {
                 <td>
                   <Link to={"/docs/common-features"}>{sharedFunction}</Link>
                 </td>
-
                 <td></td>
               </tr>
             ))}
