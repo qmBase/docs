@@ -2,15 +2,8 @@ import React from "react";
 import { PbdModuleString } from "../models/pbdModuleString";
 import { Entity } from "../models/entity";
 import { Link } from "react-router-dom";
-
-enum SharedFunction {
-  Comments = "Kommentare",
-  Files = "Anhänge",
-  AuditTrail = "Audit Trail",
-  CustomFields = "Custom Fields",
-  Workflows = "Workflows",
-  Costs = "Kosten / Zeit",
-}
+import { SharedFunction } from "../models/scharedFunction";
+import { dataSharedFunction, functionDataArray } from "./functionDescription";
 
 interface App {
   appName: PbdModuleString;
@@ -196,7 +189,7 @@ interface IProps {
 }
 
 export default function CommonFunction({ app, entity, entityTitle }: IProps) {
-  const filteredData = data.filter(
+  const filteredData = data.find(
     (x) => x.appName === app && x.appEntity === entity
   );
   return (
@@ -209,17 +202,15 @@ export default function CommonFunction({ app, entity, entityTitle }: IProps) {
         </tr>
       </thead>
       <tbody>
-        {filteredData.map((item, index) => (
-          <React.Fragment key={index}>
-            {item.sharedFunctions.map((sharedFunction, index) => (
-              <tr key={index}>
-                <td>
-                  <Link to={"/docs/common-features"}>{sharedFunction}</Link>
-                </td>
-                <td></td>
-              </tr>
-            ))}
-          </React.Fragment>
+        {filteredData?.sharedFunctions.map((item, index) => (
+          <tr key={index}>
+            <td>
+              <Link to={"/docs/common-features"}>
+                {dataSharedFunction.find((x) => x.id == item)?.title}
+              </Link>
+            </td>
+            <td>{dataSharedFunction.find((x) => x.id == item)?.description}</td>
+          </tr>
         ))}
       </tbody>
     </table>
