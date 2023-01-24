@@ -929,3 +929,6 @@ benachrichtigungen
 Risikoprioritätszahl
 grunde
 spelling
+Scrum
+board
+Knowledge
