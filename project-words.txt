@@ -347,7 +347,6 @@ Nachhalten
 Emotionalisierung
 Follow
 Talentmanagers
-Zusammenfungsmails
 Teilnahmezertifikat
 Passwordeingabe
 Bezahlpflichtiges
@@ -427,6 +426,7 @@ Duration
 planned
 Funtion
 Milestone
+Milestones
 Confirmed
 within
 Adminrechte
@@ -850,9 +850,8 @@ Inventargegenständen
 Prüf
 Reklamationsübersicht
 Revisionsstände
-Darüberhinaus
+ermöglich
 Fehlermöglichkeits
-darüberhinaus
 Inventargegenstände
 Bestätigungsemail
 pflichtmäßig
@@ -932,3 +931,10 @@ spelling
 Scrum
 board
 Knowledge
+Reklamationsquote
+Individualisierungsprojekten
+Risks
+Chances
+Older
+Fristenkalender
+mentioned

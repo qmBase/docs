@@ -79,5 +79,28 @@ Path of screenshots equals path in app.
 The template for app documentation can be found in [/docs/tutorial-template](https://github.com/qmBase/docs/blob/master/docs/tutorial-template.mdx).
 If the document you write is incomplete please write
 
-TODO:
-What is missing
+## Common Feature Matrix
+
+| App                        | Entity           | Comments | Files | Audit Trail | Custom Fields | Workflows | Costs |
+| -------------------------- | ---------------- | -------- | ----- | ----------- | ------------- | --------- | ----- |
+| Absence planner            |                  | x        | x     | x           | x             |
+| Audit management           |                  | x        | x     | x           | x             |
+| Blog                       |                  | x        | x     | x           |
+| Claim management           |                  | x        | x     | x           | x             |           | x     |
+| CRM                        | Contacts         | x        | x     | x           | x             |
+| CRM                        | Ratings          |          | x     | x           |
+| Document management        |                  | x        | x     | x           |
+| Employees                  |                  | x        | x     | x           |
+| Error management           |                  | x        | x     | x           |               |           | x     |
+| Forms                      |                  |          |       | x           |
+| Functions & Qualifications | Non Standard     |
+| Goal management            |                  | x        | x     | x           | x             |           | x     |
+| Idea management            |                  | x        | x     | x           |
+| Maintenance                | Inventory items  | x        | x     | x           |               |           | x     |
+| Maintenance                | Inspections done |          | x     |
+| Projects & Tasks           | Projects         | x        | x     | x           |
+| Projects & Tasks           | Tasks            | x        | x     | x           | x             |           | x     |
+| Products                   |                  | x        | x     | x           |
+| Risks & Chances            |                  | x        | x     | x           | x             |
+| Trainings                  |                  | x        | x     | x           | x             |           | x     |
+| WIKI                       |                  | x        | x     | x           |

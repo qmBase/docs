@@ -1,38 +1,13 @@
 ---
-title: 🚀 Roadmap Update Februar 2022 Q1
-author: Philipp Pähler
-author_image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
+title: 🌱 Roadmap März 23
+authors:
+  - name: Philipp Pähler
+    title: qmBase Development Team
+    image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
 image: /img/blog/roadmap.jpg
-tags: [Roadmap]
+tags: [Roadmap, Talentmanager]
+draft: true
 ---
-
-import TalentManager from "../../docs/charts/_talent-manager-entities.mdx";
-
-Nachdem unsere Roadmap Updates in der vergangen Zeit immer einen bestimmten Zeitraum abgebildet haben, wechseln wir jetzt zu einer anderen Strategie.
-Neben der kontinuierlichen Entwicklung einzelner kleinerer Funktionen und Fehlerbehebungen sollen jetzt hier an dieser Stelle immer die nächsten 1-2 größeren Themen angekündigt werden, an denen gearbeitet wird.
-Ziel ist es hierbei, diese innerhalb von 2-3 Monaten abzuschließen.
-Damit wollen wir eine bessere Planbarkeit für alle Nutzer schaffen und uns gleichzeitig eine größere Flexibilität offen halten,um auf sich ändernde Marktbedingungen reagieren zu können, ohne dabei bestehende Ankündigungen zurücknehmen zu müssen.
-
-## Rückblick 2021
-
-Im letzten Jahr haben wir unsere Software wieder substantiell verbessern können. Zu den größeren Themen zählen hierbei neben zahlreichen Detailverbesserungen
-
-- Zugriffskontrolle für einzelne Maßnahmen, Dokumente etc.
-- Neue Hilfe-Seite als zentraler Anlaufpunkt für unsere Dokumentation.
-- Automatisierte Management-Reviews
-- Verbesserter Vergleich von unterschiedlichen Dokumenten
-
-Über das Jahr haben uns auch zahlreiche Verbesserungsvorschläge über unser Ticketsystem erreicht. Hier haben wir es geschafft in etwa gleich viele zu schließen wie neu angefallen sind.
-
-![Tickets 2021](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202022-02-22_Tickets2021.png)
-
-Neue Tickets (gelb): 548
-Geschlossene Tickets (grün): 545
-
-## Ausblick
-
-Im nächsten Abschnitt finden Sie die großen Themen, an denen wir in den nächsten Monaten arbeiten werden.
-Wir planen diese Themen bis zum Anfang des Sommers umzusetzen.
 
 ### Talentmanager
 
@@ -67,7 +42,8 @@ Dies soll auch eine schrittweise Implementierung innerhalb der eigenen Organisat
    Zur Beantwortung dieser Fragen werden wir eine neue Funktion einführen, die es ermöglicht gefordert Nachweise zu definieren.
    Folgende Nachweise sind von uns vorgesehen:
    - Formulare (Automatische Auswertung für Wirksamkeitsprüfung): Ein ausgefülltes und also “Bestanden” gewertetes Formular dient als Nachweis für eine Qualifikation.
-   - Manuell durch Nutzer selbst oder eingeschränkte Nutzer: Sie wollen nicht viel Zeit investieren oder haben Nachweise an einen anderen Ort bereits gespeichert. Ordnen Sie Qualifikationen einfach manuell zu oder ermächtigen Sie die Mitarbeiter zu einer einer Selbsteinschätzung der Qualifikation.
+   - Manuell durch Nutzer selbst oder eingeschränkte Nutzer: Sie wollen nicht viel Zeit investieren oder haben Nachweise an einen anderen Ort bereits gespeichert.
+     Ordnen Sie Qualifikationen einfach manuell zu oder ermächtigen Sie die Mitarbeiter zu einer einer Selbsteinschätzung der Qualifikation.
    - Schulungsteilnahme: Eine Qualifikation erfordert die Teilnahme an einer bestimmten Schulung(en).
    - Dateiupload (Zertifikate, Führerscheine, Zeugnisse etc): Der Nachweis für eine Qualifikation kann über ein bestimmtes externes Dokument erbracht werden.
    - Kenntnisnahme von Dokumenten (Selbstschulung)
@@ -79,20 +55,3 @@ Dies soll auch eine schrittweise Implementierung innerhalb der eigenen Organisat
    Um diesen Prozess zu automatisieren wird es möglich sein, über das Dokumentenmanagement Zertifikate zu erstellen.
    Diese können dann durch die Teilnehmer einer Schulung angefordert und direkt personalisiert erzeugt werden, so dass dieses dann z.B. gedruckt oder anderweitig verwendet werden können.
    Ebenso hat der Schulungsverantwortliche die Möglichkeit die Zertifikate für alle Teilnehmer zentral zu erzeugen.
-
-<TalentManager />
-
-### Bessere Benachrichtigungen und Follow Me ⭐​
-
-Mit einer der letzten Versionen haben wir bereits automatische Erinnerungen und Zusammenfassungsmails eingeführt.
-Diese werden wir weiter verfeinern und verbessern, so dass diese Benachrichtigen z.B. täglich statt wöchentlich erhalten können oder auch deaktivieren können.
-Unter diesem Begriff verbirgt sich eine Funktion, die es ermöglichen soll leichter den Überblick zu behalten und die Dinge zu verfolgen, die für Sie interessant sind.
-Das könnte z.B. der Bearbeitungsstatus einer bestimmten Reklamation sein, die Sie zwar nicht selbst bearbeiten aber für Sie trotzdem von Interesse ist.
-Dafür wird es möglich sein einzelne Informationen als Favoriten zu markieren, um diese Ereignisse dadurch im Blick zu behalten und über Änderungen informiert zu werden.
-Durch das Markieren von Favoriten über App Grenzen hinweg werden Sie eine bessere Möglichkeit haben, sich qmBase nach Ihren eigenen Vorstellungen zu konfigurieren.
-
-## Wir freuen uns auf Ihr Feedback
-
-Wir hoffen, dass Ihnen unser Ausblick gefällt! Wie immer sind wir an Ihrem Feedback interessiert.
-Was sind die Themen und Funktionen, die Ihnen am meisten am Herzen liegen? Nutzen Sie unsere Feedback Funktion innerhalb der Software, schreiben Sie uns eine E-Mail oder rufen Sie uns an.
-![Feedback Button](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202022-02-22_Feedbackbutton.png)
