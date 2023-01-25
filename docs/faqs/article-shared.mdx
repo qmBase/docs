@@ -9,30 +9,59 @@ In diesem Dokument werden die Funktionen beschrieben, die in den Apps Blog, Doku
 Alle aufgezählten Apps beruhen auf einzelnen Artikeln, die bearbeitet, versioniert und freigeben werden können und haben daher starke Überschneidungen.
 Dies hat für Sie den Vorteil, dass Sie einmal erlerntes Wissen direkt an drei Stellen wiederverwenden können.
 
-## Welche beteiligten Personen und Rollen gibt es im Dokumentenmanagement, Wiki und Blog?
+Wenn Sie wissen möchten, was die Vorteile der einzelnen Apps sind, schauen Sie bitte in die jeweiligen Dokumententationen:
 
-Die beteiligten Personen und Rollen sind im [Dokumentenmanagement](/docs/apps/document-management), [Wiki](/docs/apps/wiki) und [Blog](/docs/apps/blog) identisch:
+- [Blog](/docs/apps/blog)
+- [Dokumentenmanagement](/docs/apps/document-management)
+- [Wiki](/docs/apps/wiki)
 
-**Verantwortlicher (Ersteller)**: Die Person, die einen Artikel erstellt wird als die Person erfasst, die für das Dokument verantwortlich ist.
-Die verantwortliche Person kann durch Überarbeitung bestehender Artikel neue Artikelversionen erstellen. Die Verantwortlichkeit für einen Artikel kann auch an andere Nutzer übertragen werden.
+## Layout und Struktur
 
-**Freigeber**: Der oder die Freigeber werden von dem Verantwortlichen zur Genehmigung des Artikels ausgewählt.
-Erst wenn alle Freigeber den Artikel genehmigt haben, kann der neue Artikel bzw. die neue Artikelversion veröffentlicht werden.
-Nutzer die als Freigeber eingesetzt werden sollen auch müssen in der Rolle <code>Freigeber</code> sein. Die Rollenzuordnung erfolgt im Admin-Bereich.
+Wenn Sie die Arbeit mit der App beginnen, können Sie sich zunächst entscheiden, welche Layout Möglichkeiten Sie den Nutzern bieten möchten.
+In den qmBase Dokumenten Apps stehen drei Darstellungen Ihrer Inhalte zur Verfügung:
 
-**Kenntnisnehmer**: Der Kenntnisnehmer wird automatisch über neu veröffentlichte Versionen eines Artikels informierte und zur Kenntnisnahme der aktuellen Version aufgefordert.
-Dazu wird der Kenntnisnehmer zu dem entsprechenden Dokument auf die Liste zur Kenntnisnahme hinzugefügt.
+- Übersicht zeigt alle verfügbaren Dokumente.
+- News zeigt die neuesten Dokumente in einem übersichtlichen und schönen Blog Layout.
+- Ordneransicht diese Ansicht müssen Sie in den Apps Blog oder Wiki separat anschalten, um Sie verfügbar zu machen. Die Einstellungen hierzu finden Sie unter Admin > Konfiguration > Blog / Wiki
 
-**Leser**: Jeder Nutzer, der auf die Artikel zugreifen kann, ist ein potenzieller Leser.
+### Arbeiten mit der Ordneransicht
 
-## Wie werden Artikel im Dokumentenmanagement, Wiki und Blog erstellt?
+Sobald die Ordner in der App aktiviert sind, erscheint in der Seitenleiste der Eintrag Ordneransicht. Hier können Sie dann Ordner erstellen und einzelne Dokumente in den Ordnern ablegen.
+Sollten Sie die Ordner wieder deaktivieren verschwinden der Eintrag wieder aus der Seitenleiste. Die Dokumente bleiben natürlich weiterhin vorhanden sind dann einfach über **News** oder die **Übersicht** zu finden.
+
+Über den Button <code>Neu</code> kann entweder ein neuer Ordner oder ein neues Dokument erstellt werden. Vergeben Sie den gewünschten Namen für den Ordner und speichern Sie diesen.
+Der Ordner wird an der Stelle im Ordnerverzeichnis erstellt, an der Sie sich zum Zeitpunkt der Erstellung befinden.
+
+### Was ist eine README-Datei?
+
+**Einzelne Ordner können mit einem README Dokument versehen werden, um den anderen Nutzern einen Überblick darüber zu geben, was sich in diesem Ordner befindet. Hier kann z.B. erklärt werden, wie Vorlagen verwendet werden sollen.**
+
+Eine README hilft dabei, damit sich jeder sofort zu Recht findet und keine Fragen offen bleiben. Die README ist der Teil eines Ordners, der von Nutzern oft zuerst wahrgenommen wird.
+Typische Inhalte sind beispielsweise:
+
+- Wofür ist der Ordner gut
+- Was können Nutzer mit den Inhalten anfangen
+- Wer pflegt und ergänzt neue Informationen
+- Wie können Nutzer dazu beitragen den Inhalt zu verbessern
+
+Sobald Sie ein Dokument mit dem Namen README (Großschreibung beachten) innerhalb eines Ordners oder im Stammverzeichnis <FaHome/> platziert haben, wird das Dokument unterhalb der Ordneransicht dargestellt.
+qmBase erkennt diese Dateien automatisch und es ist keinerlei weitere Aktion erforderlich. Sollten sich mehrere README Dokument innerhalb eines Ordners befinden, so wird nur das erste dieser Dokumente verwendet.
+Sie können somit eine einfache Navigation innerhalb beliebiger Unterbereiche des Dokumentenmanagements ermöglichen.
+
+![Beispiel für Readme Datei](https://caqadmin.blob.core.windows.net/faqs/83-images/mceclip0.png)
+
+Sie können die README Funktion auch als Admin unter Admin > Konfiguration > Blog / Dokumentmanagement / Wiki deaktivieren.
+
+## Funktionen rund um die Dokumente
+
+Das Kernstück der Apps bilden die Dokumente. Dokumente sind jedwede Inhalte innerhalb des Blog / Dokumentmanagement / Wiki. Diese Inhalte können entweder mit den von uns zur Verfügung gestellten Editoren erstellt werden oder aber auch einfach hochgeladen werden.
+
+### Wie werden Artikel im Dokumentenmanagement, Wiki und Blog erstellt?
 
 Die Erstellung von Artikeln erfolgt im [Dokumentenmanagement](/docs/apps/document-management), [Wiki](/docs/apps/wiki) und [Blog](/docs/apps/blog) analog.
 
 Über den Button <code>Neu</code> kann ein neuer Artikel erstellt werden.
 Möchten Sie einen neuen Artikel erstellen haben Sie entweder die Möglichkeit den Artikel direkt über den Texteditor in Ihrem qmBase System zu erstellen oder Sie können bereits bestehende Dokumente (z.B. PDF) hochladen.
-
-Im Dokumentenmanagement wird der Artikel an der Stelle im Ordnerverzeichnis erstellt, an der Sie sich zum Zeitpunkt der Erstellung befinden. Sie können den Artikel aber jederzeit verschieben.
 
 :::info Hochladen von Microsoft Word oder Excel Dokumenten
 
@@ -40,7 +69,7 @@ Sie können auch Word oder Excel Dokumente hochladen. Diese Dokumente werden abe
 
 :::
 
-## Wie wird ein Artikel freigegeben, veröffentlicht und versioniert?
+### Wie wird ein Artikel freigegeben, veröffentlicht und versioniert?
 
 Der Verantwortliche wählt eine oder mehrere Personen zur Genehmigung des Dokuments aus. Im Anschluss wird der Veröffentlichungsprozess gestartet durch einen Klick auf den Button <code>Veröffentlichung starten</code>.
 Danach erhalten die Freigeber eine automatische E-Mail-Benachrichtigung, dass für Sie ein Artikel zur Freigabe vorliegt.
@@ -53,13 +82,13 @@ Wurde der Artikel von allen Freigebern genehmigt, kann der Artikel von dem Veran
 Dazu wählt der Verantwortliche aus dem Kontextmenü (<FaCaretDown/>) zu dem Button <code>Veröffentlichung starten</code> die Versionsnummer des neuen Artikels aus. Die Versionsnummern von qmBase sind immer dreistellig.
 Für die Versionierung gibt es kein festes Regelwerk, aber die [hier](/docs/faqs/68) beschriebene Syntax bietet sich an.
 
-## Wie werden Mitarbeiter automatisch über Änderungen in Artikeln informiert?
+### Wie werden Mitarbeiter automatisch über Änderungen in Artikeln informiert?
 
-Zu jedem Artikel gibt es in der Detailansicht die Tabelle _<FaInfo/>Zur Kenntnis genommen_.
+Zu jedem Artikel gibt es in der Detailansicht die Tabelle _<FaInfo/> Zur Kenntnis genommen_.
 Personen die über Änderungen des Artikels automatisch in Kenntnis gesetzt werden sollen werden von dem Verantwortlichen über <FaPlus/> hinzugefügt.
 Sobald die betroffene Personen die neue Artikelversion zur Kenntnis genommen hat wird das Datum der Kenntnisnahme in der Tabelle dokumentiert.
 
-### Wie bekommen alle Mitarbeiter Änderungen mit?
+#### Wie bekommen alle Mitarbeiter Änderungen mit?
 
 Damit alle Mitarbeiter über Änderungen informiert werden, gibt es die _Funktion für alle zur Kenntnisnahme festlegen_.
 Wenn ein Artikel so markiert ist, wird jedes Mal, wenn eine neue Revision eines Artikels veröffentlicht wird, die gesamte Liste der Artikel durchlaufen.
@@ -71,7 +100,7 @@ Nein, da sie aus dem Unternehmen ausgeschieden sind, werden sie nicht über Änd
 Wenn der Artikel als von allen geprüft markiert ist, wird jedes Mal, wenn eine neue Revision des Artikels veröffentlicht wird, die Liste der aktuellen Mitarbeiter des Unternehmens automatisch aktualisiert.
 Historische Daten, also "Zur Kenntnisnahmen", die bereits durchgeführt wurden bleiben erhalten, damit auch rückblickend noch festzustellen ist, wer wann einen Artikel zur Kenntnis genommen hat.
 
-## Wie können Artikel im Dokumentenmanagement, Wiki und Blog miteinander verlinkt werden?
+### Wie können Artikel im Dokumentenmanagement, Wiki und Blog miteinander verlinkt werden?
 
 Von einem Artikel auf einen anderen zu verlinken ist überhaupt kein Problem.
 
@@ -84,13 +113,13 @@ Sobald Sie beginnen den Titel des Artikels einzugeben werden alle Artikel durchs
 Alternativ können Sie auch für alle weiteren Verlinkungen innerhalb von qmBase wie folgt vorgehen: Öffnen Sie in einem anderen Fenster Ihres Browsers den Artikel oder die Seite, auf die Sie verlinken möchten und kopieren Sie oben aus der Adresszeile Ihres Browsers die URL.
 Markieren Sie in dem Texteditor den Text, der auf den Link enthalten soll und klicken Sie in der Menüleiste des Texteditors auf das Symbol zum Verlinken (<FaLink/>). Fügen Sie die kopierte URL in dem erscheinenden Menü ein und klicken sie auf <code>Speichern</code>
 
-## Wiedervorlage von Dokumenten - Wie stelle ich eine regelmäßige Überprüfung von Dokumenten sicher?
+### Wiedervorlage von Dokumenten - Wie stelle ich eine regelmäßige Überprüfung von Dokumenten sicher?
 
 Verträge, Arbeitsanweisungen, Datenblätter und ähnliche Dokumente müssen regelmäßig auf Aktualität geprüft werden. Um diese Anforderung einfach umzusetzen, können Sie bei Dokumenten Überwachungsintervalle definieren.
 Diese Überwachungsintervalle können entweder einmalig oder auch regelmäßig wiederkehrend sein.
 Zum Festlegen des Überwachungszeitraums wechseln Sie in die erweiterte Detailansicht eines Dokuments und legen Sie in der Karte **Wiedervorlage** das entsprechende Datum fest.
 
-### Was passiert mit überwachten Dokumenten?
+#### Was passiert mit überwachten Dokumenten?
 
 Dokumente, die mit einem Überwachungsdatum versehen sind, werden Ihnen auf der Startseite angezeigt, sobald das entsprechende Datum fällig ist.
 ![surveillanceRequired](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202022-01-05%20103706-surveillanceRequired.png)
@@ -100,34 +129,74 @@ Sollte keine regelmäßige Überwachung festgelegt sein, verschwindet das Dokume
 Sollten Sie bei der Überprüfung feststellen, dass das Dokument nicht mehr aktuell ist, erstellen Sie einfach eine neue Revision legen ein neuen Überwachungszeitraum fest.
 Die Wiedervorlage Daten werden durch das das Erstellen einer neuen Revision eines Dokuments nicht verändert.
 
-## Was zählt als Ansicht?
+### Was zählt als Ansicht?
 
 Im Blog, Dokumentenmanagement und WIKI zählt jeder Aufruf eines Dokuments als Ansicht. Einschränkend wird pro Person nur ein Aufruf pro 5 Minuten gespeichert.
 Wir innerhalb von 5 Minuten ein Dokument mehrfach aufgerufen verschiebt sich das Ansichtsdatum jeweils auf den Moment des spätesten Aufrufs, so dass man jederzeit in im Bereich der zuletzt aufgerufenen Dokumente die richtige Reihenfolge hat.
 
-## Wie lösche ich Dokumente oder ziehe sie zurück?
+### Wie lösche ich Dokumente oder ziehe sie zurück?
 
 Sollten Dokumente nicht mehr benötigt werden, können Sie diese aus dem Verkehr ziehen. Damit erreichen Sie, dass diese Dokumente für den normalen Nutzer nicht sichtbar sind.
 Dokumente können entweder zurückgezogen oder gelöscht werden.
 
-### Ich habe ein Dokument zurückgezogen und finde es nicht wieder. Wo ist es?
+#### Ich habe ein Dokument zurückgezogen und finde es nicht wieder. Wo ist es?
 
 Zurückgezogene Dokumente lassen sich über die erweiterte Suche finden. Nach einem Klick auf die Lupe neben dem Suchfeld erscheint eine Kästen "Zurückgezogene Artikel". Wenn diese Kästchen auswählen, werden Ihnen nur die zurückgezogenen Artikel angezeigt.
 
-### Wie kann ich einen zurückgezogenes Dokument oder Artikel wieder veröffentlichen?
+#### Wie kann ich einen zurückgezogenes Dokument oder Artikel wieder veröffentlichen?
 
 Um ein zurückgezogenes Dokument oder einen Artikel wiederherzustellen, muss eine neue Version erstellt werden.
 Dazu muss der Artikel im Texteditor einfach erneut abgespeichert werden. Die neue Version erhält im Rahmen des regulären Freigabeprozesse eine neue Versionsnummer und kann dann veröffentlicht werden.
 
-### Können einzelne Revisionen gelöscht werden?
+#### Können einzelne Revisionen gelöscht werden?
 
 Das Löschen einzelner Revisionen ist nicht möglich. Dies ist unabhängig davon, ob es sich um Arbeitsversionen oder veröffentlichte Revisionen handelt.
 Da wir eine umfassende und veränderungssichere Versionshistorie darstellen möchten, ist dies bewusst nicht möglich.
 
-## Wie werden Schlagworte für Artikel vergeben?
+### Wie werden Schlagworte für Artikel vergeben?
 
 Die Vergabe von Schlagworten wird [hier](/docs/common-features/#schlagworte) zentral beschrieben.
 
-## Wie lange werden alte Revision archiviert?
+### Wie lange werden alte Revision archiviert?
 
 Alte Revisionen Ihrer Dokumente bleiben auf unbestimmte Zeit vorhanden. D.h. Sie können hier ganz beruhigt auch nach langer Zeit noch auf Ihre alten Daten zugreifen, falls das einmal notwendig sein sollte.
+
+### Link Prüfung
+
+Im Bereich Link Prüfung können Sie automatisch überprüfen, ob die Links innerhalb eines Dokuments noch auf gültige Dokumente verweisen. Links, die überprüft werden, müssen auf ein anderes Dokument im Dokumentenmanagement verweisen.
+Als nicht gültige Dokumente gelten gelöschte oder zurückgezogene Dokumente.
+
+![Beispiel für Linkvalidierung](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-07-15%20105026_linkValidator.png)
+
+## Beteiligte Personen und Rollen im Dokumentenmanagement, Wiki und Blog
+
+Die beteiligten Personen und Rollen sind im [Dokumentenmanagement](/docs/apps/document-management), [Wiki](/docs/apps/wiki) und [Blog](/docs/apps/blog) identisch:
+
+### Verantwortlicher (Ersteller)
+
+Die Person, die einen Artikel erstellt wird als die Person erfasst, die für das Dokument verantwortlich ist.
+Die verantwortliche Person kann durch Überarbeitung bestehender Artikel neue Artikelversionen erstellen. Die Verantwortlichkeit für einen Artikel kann auch an andere Nutzer übertragen werden.
+
+### Freigeber
+
+Der oder die Freigeber werden von dem Verantwortlichen zur Genehmigung des Artikels ausgewählt.
+Erst wenn alle Freigeber den Artikel genehmigt haben, kann der neue Artikel bzw. die neue Artikelversion veröffentlicht werden.
+Nutzer die als Freigeber eingesetzt werden sollen auch müssen in der Rolle <code>Freigeber</code> sein. Die Rollenzuordnung erfolgt im Admin-Bereich.
+
+## Kenntnisnehmer
+
+Der Kenntnisnehmer wird automatisch über neu veröffentlichte Versionen eines Artikels informierte und zur Kenntnisnahme der aktuellen Version aufgefordert.
+Dazu wird der Kenntnisnehmer zu dem entsprechenden Dokument auf die Liste zur Kenntnisnahme hinzugefügt.
+
+### Leser
+
+Jeder Nutzer, der auf die Artikel zugreifen kann, ist ein potenzieller Leser.
+
+## Zusätzliche Funktionen
+
+### Vorlagen
+
+Im Dokumentenmanagement gibt es zwei Arten von Vorlagen. Hierbei handelt es sich um die qmBase Vorlagen, die durch uns zur Verfügung gestellt werden und um Vorlagen, die Sie selbst erstellen können.
+Weitere Informationen darüber, wie Sie selbst Vorlagen erstellen erhalten Sie [hier](/docs/faqs/article-placeholder)
+
+### Reportings
