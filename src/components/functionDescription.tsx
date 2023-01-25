@@ -1,5 +1,4 @@
 import { SharedFunction } from "../models/scharedFunction";
-import { FunctionDescriptionData } from "./functionDescriptionData";
 
 interface SharedFunctionItem {
   id: SharedFunction;
@@ -11,7 +10,7 @@ export const dataSharedFunction: SharedFunctionItem[] = [
   {
     id: SharedFunction.AuditTrail,
     title: SharedFunction.AuditTrail.toString(),
-    description: "Description Audit Trail",
+    description: "",
   },
   {
     id: SharedFunction.Comments,
@@ -23,36 +22,19 @@ export const dataSharedFunction: SharedFunctionItem[] = [
     title: SharedFunction.Costs.toString(),
     description: "",
   },
-];
-
-interface Functions {
-  functionName: SharedFunction;
-  functionDescription: FunctionDescriptionData;
-}
-
-export const functionDataArray: Functions[] = [
   {
-    functionName: SharedFunction.Comments,
-    functionDescription: FunctionDescriptionData.Comments,
+    id: SharedFunction.CustomFields,
+    title: SharedFunction.CustomFields.toString(),
+    description: "",
   },
   {
-    functionName: SharedFunction.Files,
-    functionDescription: FunctionDescriptionData.Files,
+    id: SharedFunction.Files,
+    title: SharedFunction.Files.toString(),
+    description: "",
   },
   {
-    functionName: SharedFunction.AuditTrail,
-    functionDescription: FunctionDescriptionData.AuditTrail,
-  },
-  {
-    functionName: SharedFunction.CustomFields,
-    functionDescription: FunctionDescriptionData.CustomFields,
-  },
-  {
-    functionName: SharedFunction.Workflows,
-    functionDescription: FunctionDescriptionData.Workflows,
-  },
-  {
-    functionName: SharedFunction.Costs,
-    functionDescription: FunctionDescriptionData.Costs,
+    id: SharedFunction.Workflows,
+    title: SharedFunction.Workflows.toString(),
+    description: "",
   },
 ];

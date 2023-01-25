@@ -3,7 +3,7 @@ import { PbdModuleString } from "../models/pbdModuleString";
 import { Entity } from "../models/entity";
 import { Link } from "react-router-dom";
 import { SharedFunction } from "../models/scharedFunction";
-import { dataSharedFunction, functionDataArray } from "./functionDescription";
+import { dataSharedFunction } from "./functionDescription";
 
 interface App {
   appName: PbdModuleString;
@@ -15,77 +15,77 @@ const data: App[] = [
   {
     appName: PbdModuleString.AbsencePlanner,
     sharedFunctions: [
-      SharedFunction.Comments,
-      SharedFunction.Files,
       SharedFunction.AuditTrail,
+      SharedFunction.Comments,
       SharedFunction.CustomFields,
+      SharedFunction.Files,
     ],
   },
   {
     appName: PbdModuleString.AuditManagement,
     sharedFunctions: [
-      SharedFunction.Comments,
-      SharedFunction.Files,
       SharedFunction.AuditTrail,
+      SharedFunction.Comments,
       SharedFunction.CustomFields,
+      SharedFunction.Files,
     ],
   },
   {
     appName: PbdModuleString.Blog,
     sharedFunctions: [
+      SharedFunction.AuditTrail,
       SharedFunction.Comments,
       SharedFunction.Files,
-      SharedFunction.AuditTrail,
     ],
   },
   {
     appName: PbdModuleString.ClaimManagement,
     sharedFunctions: [
-      SharedFunction.Comments,
-      SharedFunction.Files,
       SharedFunction.AuditTrail,
-      SharedFunction.CustomFields,
+      SharedFunction.Comments,
       SharedFunction.Costs,
+      SharedFunction.CustomFields,
+      SharedFunction.Files,
     ],
   },
   {
     appName: PbdModuleString.Crm,
     appEntity: Entity.Organisation,
     sharedFunctions: [
-      SharedFunction.Comments,
-      SharedFunction.Files,
       SharedFunction.AuditTrail,
+      SharedFunction.Comments,
       SharedFunction.CustomFields,
+      SharedFunction.Files,
     ],
   },
   {
     appName: PbdModuleString.Crm,
     appEntity: Entity.OrganisationRating,
-    sharedFunctions: [SharedFunction.Files, SharedFunction.AuditTrail],
+    sharedFunctions: [SharedFunction.AuditTrail, SharedFunction.Files],
   },
   {
     appName: PbdModuleString.DocumentManagement,
     sharedFunctions: [
+      SharedFunction.AuditTrail,
       SharedFunction.Comments,
       SharedFunction.Files,
-      SharedFunction.AuditTrail,
     ],
   },
   {
     appName: PbdModuleString.Employees,
     sharedFunctions: [
+      SharedFunction.AuditTrail,
       SharedFunction.Comments,
       SharedFunction.Files,
-      SharedFunction.AuditTrail,
     ],
   },
   {
     appName: PbdModuleString.DefectManagement,
     sharedFunctions: [
-      SharedFunction.Comments,
-      SharedFunction.Files,
       SharedFunction.AuditTrail,
+      SharedFunction.Comments,
       SharedFunction.Costs,
+      SharedFunction.Files,
     ],
   },
   {
@@ -95,29 +95,29 @@ const data: App[] = [
   {
     appName: PbdModuleString.GoalManagement,
     sharedFunctions: [
-      SharedFunction.Comments,
-      SharedFunction.Files,
       SharedFunction.AuditTrail,
-      SharedFunction.CustomFields,
+      SharedFunction.Comments,
       SharedFunction.Costs,
+      SharedFunction.CustomFields,
+      SharedFunction.Files,
     ],
   },
   {
     appName: PbdModuleString.IdeaManagement,
     sharedFunctions: [
+      SharedFunction.AuditTrail,
       SharedFunction.Comments,
       SharedFunction.Files,
-      SharedFunction.AuditTrail,
     ],
   },
   {
     appName: PbdModuleString.MaintenanceManagement,
     appEntity: Entity.InventoryItems,
     sharedFunctions: [
-      SharedFunction.Comments,
-      SharedFunction.Files,
       SharedFunction.AuditTrail,
+      SharedFunction.Comments,
       SharedFunction.Costs,
+      SharedFunction.Files,
     ],
   },
   {
@@ -129,55 +129,55 @@ const data: App[] = [
     appName: PbdModuleString.ProjectAndTaskManagement,
     appEntity: Entity.Projects,
     sharedFunctions: [
+      SharedFunction.AuditTrail,
       SharedFunction.Comments,
       SharedFunction.Files,
-      SharedFunction.AuditTrail,
     ],
   },
   {
     appName: PbdModuleString.ProjectAndTaskManagement,
     appEntity: Entity.Tasks,
     sharedFunctions: [
-      SharedFunction.Comments,
-      SharedFunction.Files,
       SharedFunction.AuditTrail,
-      SharedFunction.CustomFields,
+      SharedFunction.Comments,
       SharedFunction.Costs,
+      SharedFunction.CustomFields,
+      SharedFunction.Files,
     ],
   },
   {
     appName: PbdModuleString.Products,
     sharedFunctions: [
+      SharedFunction.AuditTrail,
       SharedFunction.Comments,
       SharedFunction.Files,
-      SharedFunction.AuditTrail,
     ],
   },
   {
     appName: PbdModuleString.OpportunityManagement,
     sharedFunctions: [
-      SharedFunction.Comments,
-      SharedFunction.Files,
       SharedFunction.AuditTrail,
+      SharedFunction.Comments,
       SharedFunction.CustomFields,
+      SharedFunction.Files,
     ],
   },
   {
     appName: PbdModuleString.TrainingManagement,
     sharedFunctions: [
-      SharedFunction.Comments,
-      SharedFunction.Files,
       SharedFunction.AuditTrail,
-      SharedFunction.CustomFields,
+      SharedFunction.Comments,
       SharedFunction.Costs,
+      SharedFunction.CustomFields,
+      SharedFunction.Files,
     ],
   },
   {
     appName: PbdModuleString.KnowledgeBase,
     sharedFunctions: [
+      SharedFunction.AuditTrail,
       SharedFunction.Comments,
       SharedFunction.Files,
-      SharedFunction.AuditTrail,
     ],
   },
 ];
@@ -202,8 +202,8 @@ export default function CommonFunction({ app, entity, entityTitle }: IProps) {
         </tr>
       </thead>
       <tbody>
-        {filteredData?.sharedFunctions.map((item, index) => (
-          <tr key={index}>
+        {filteredData?.sharedFunctions.map((item) => (
+          <tr key={item}>
             <td>
               <Link to={"/docs/common-features"}>
                 {dataSharedFunction.find((x) => x.id == item)?.title}
