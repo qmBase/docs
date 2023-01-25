@@ -53,7 +53,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Blog",
     description: "",
-    url: "docs/apps/blog",
+    url: "docs/apps/articles/blog",
     app: PbdModuleString.Blog,
   },
   {
@@ -77,7 +77,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Dokumentenmanagement",
     description: "",
-    url: "docs/apps/document-management",
+    url: "docs/apps/articles/document-management",
     app: PbdModuleString.DocumentManagement,
   },
   {
@@ -186,7 +186,7 @@ export const appData: AppInfo[] = [
     ),
     title: "WIKI",
     description: "",
-    url: "docs/apps/wiki",
+    url: "docs/apps/articles/wiki",
     app: PbdModuleString.KnowledgeBase,
   },
   {

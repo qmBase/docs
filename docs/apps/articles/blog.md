@@ -1,6 +1,7 @@
 ---
 id: blog
 title: Blog
+description: Das schwarze Brett in qmBase. Neuigkeiten verteilen leicht gemacht!
 ---
 
 ![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Blog.png)
@@ -11,4 +12,4 @@ In diesem Fall ist er dann nur noch als Link verfügbar.
 
 ## Grundlegende Funktionen zum Bearbeiten der Dokumente
 
-Die grundlegenden Funktionen zum Bearbeiten der Dokumente sind in den Apps Blog, Dokumentenmanagement und Wiki identisch. Die Funktionen sind [hier](/docs/faqs/article-shared) zentral beschrieben.
+Die grundlegenden Funktionen zum Bearbeiten der Dokumente sind in den Apps Blog, Dokumentenmanagement und Wiki identisch. Die Funktionen sind [hier](/docs/apps/article-shared) zentral beschrieben.
