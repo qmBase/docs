@@ -1,6 +1,7 @@
 ---
 id: getting-started
 title: Erste Schritte
+description: Neu hier? Alle Infos um mit qmBase zu starten!
 ---
 
 import ProductDisplayName from "./\_productDisplayName.mdx";

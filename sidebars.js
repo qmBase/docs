@@ -32,7 +32,6 @@ const sidebars = {
     {
       type: "category",
       label: "Apps",
-      link: { type: "generated-index" },
       collapsed: true,
       items: [
         "apps/admin",

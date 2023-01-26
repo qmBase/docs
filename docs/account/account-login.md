@@ -1,6 +1,7 @@
 ---
 id: account-login
 title: Login / Anmeldung
+description: Informationen rund um Login und Anmeldung
 ---
 
 import ProductExampleUrl from "./../\_productExampleUrl.mdx";
