@@ -93,6 +93,10 @@ const data: App[] = [
     sharedFunctions: [SharedFunction.AuditTrail],
   },
   {
+    appName: PbdModuleString.QualificationMatrix,
+    sharedFunctions: [SharedFunction.Files],
+  },
+  {
     appName: PbdModuleString.GoalManagement,
     sharedFunctions: [
       SharedFunction.AuditTrail,

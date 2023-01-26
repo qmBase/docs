@@ -2,177 +2,302 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { PbdModuleString } from "../models/pbdModuleString";
 
-interface AppConnections {
-  id: PbdModuleString;
-  appName: string;
-  appLink: string;
-  connectedApps?: PbdModuleString[];
+interface App {
+  appName: PbdModuleString;
+  linkingDescreption: string;
 }
 
-const data: AppConnections[] = [
+interface AppConnections {
+  id: PbdModuleString;
+  app: string;
+  appLink: string;
+  connectedApps?: App[];
+}
+
+const dataConnections: AppConnections[] = [
   {
     id: PbdModuleString.AbsencePlanner,
+    app: "Abwesenheitsplaner",
     appLink: "/docs/apps/absence-planner",
-    appName: "Abwesenheitsplaner",
   },
   {
     id: PbdModuleString.AuditManagement,
-    appName: "Auditmanagement",
+    app: "Auditmanagement",
     appLink: "/docs/apps/audit-management",
     connectedApps: [
-      PbdModuleString.Employees,
-      PbdModuleString.CustomForms,
-      PbdModuleString.GoalManagement,
-      PbdModuleString.ProjectAndTaskManagement,
+      {
+        appName: PbdModuleString.Employees,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.CustomForms,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.GoalManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.ProjectAndTaskManagement,
+        linkingDescreption: "",
+      },
     ],
   },
   {
     id: PbdModuleString.Blog,
-    appName: "Blog",
+    app: "Blog",
     appLink: "/docs/apps/blog",
   },
   {
     id: PbdModuleString.ClaimManagement,
-    appName: "Reklamationsmanagement",
+    app: "Reklamationsmanagement",
     appLink: "/docs/apps/claim-management",
     connectedApps: [
-      PbdModuleString.ClaimManagement,
-      PbdModuleString.DefectManagement,
-      PbdModuleString.ProjectAndTaskManagement,
-      PbdModuleString.Products,
+      {
+        appName: PbdModuleString.ClaimManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.DefectManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.ProjectAndTaskManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.Products,
+        linkingDescreption: "",
+      },
     ],
   },
   {
     id: PbdModuleString.Crm,
-    appName: "CRM",
+    app: "CRM",
     appLink: "/docs/apps/crm",
     connectedApps: [
-      PbdModuleString.ClaimManagement,
-      PbdModuleString.ProjectAndTaskManagement,
+      {
+        appName: PbdModuleString.ClaimManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.ProjectAndTaskManagement,
+        linkingDescreption: "",
+      },
     ],
   },
   {
     id: PbdModuleString.DocumentManagement,
-    appName: "Dokumentenmanagement",
+    app: "Dokumentenmanagement",
     appLink: "/docs/apps/document-management",
   },
   {
     id: PbdModuleString.Employees,
     appLink: "/docs/apps/employees",
-    appName: "Mitarbeiter",
+    app: "Mitarbeiter",
   },
   {
     id: PbdModuleString.DefectManagement,
-    appName: "Fehlermanagement",
+    app: "Fehlermanagement",
     appLink: "/docs/apps/Fehlermanagement",
     connectedApps: [
-      PbdModuleString.ClaimManagement,
-      PbdModuleString.ProjectAndTaskManagement,
-      PbdModuleString.Products,
+      {
+        appName: PbdModuleString.ClaimManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.ProjectAndTaskManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.Products,
+        linkingDescreption: "",
+      },
     ],
   },
   {
     id: PbdModuleString.CustomForms,
-    appName: "Formulare",
+    app: "Formulare",
     appLink: "/docs/apps/forms",
   },
   {
     id: PbdModuleString.QualificationMatrix,
-    appName: "Aufgaben & Qualifikationen",
+    app: "Aufgaben & Qualifikationen",
     appLink: "/docs/apps/talent-manager",
-    connectedApps: [PbdModuleString.Employees],
+    connectedApps: [
+      {
+        appName: PbdModuleString.Employees,
+        linkingDescreption: "",
+      },
+    ],
   },
   {
     id: PbdModuleString.GoalManagement,
-    appName: "Zielmanagement",
+    app: "Zielmanagement",
     appLink: "/docs/apps/goal-management",
     connectedApps: [
-      PbdModuleString.AuditManagement,
-      PbdModuleString.ProjectAndTaskManagement,
+      {
+        appName: PbdModuleString.AuditManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.ProjectAndTaskManagement,
+        linkingDescreption: "",
+      },
     ],
   },
   {
     id: PbdModuleString.IdeaManagement,
-    appName: "Ideenmanagement",
+    app: "Ideenmanagement",
     appLink: "/docs/apps/idea-management",
   },
   {
     id: PbdModuleString.MaintenanceManagement,
-    appName: "Instandhaltung",
+    app: "Instandhaltung",
     appLink: "/docs/apps/maintenance-management",
-    connectedApps: [PbdModuleString.ProjectAndTaskManagement],
+    connectedApps: [
+      {
+        appName: PbdModuleString.ProjectAndTaskManagement,
+        linkingDescreption: "",
+      },
+    ],
   },
   {
     id: PbdModuleString.ProjectAndTaskManagement,
-    appName: "Projekte & Maßnahmen",
+    app: "Projekte & Maßnahmen",
     appLink: "/docs/apps/projects-and-tasks",
     connectedApps: [
-      PbdModuleString.AuditManagement,
-      PbdModuleString.ClaimManagement,
-      PbdModuleString.Crm,
-      PbdModuleString.Employees,
-      PbdModuleString.DefectManagement,
-      PbdModuleString.GoalManagement,
-      PbdModuleString.IdeaManagement,
-      PbdModuleString.MaintenanceManagement,
-      PbdModuleString.ProjectAndTaskManagement,
-      PbdModuleString.Products,
-      PbdModuleString.OpportunityManagement,
-      PbdModuleString.TrainingManagement,
+      {
+        appName: PbdModuleString.AuditManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.ClaimManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.Crm,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.Employees,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.DefectManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.GoalManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.IdeaManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.MaintenanceManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.ProjectAndTaskManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.Products,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.OpportunityManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.TrainingManagement,
+        linkingDescreption: "",
+      },
     ],
   },
   {
     id: PbdModuleString.Products,
-    appName: "Produkte",
+    app: "Produkte",
     appLink: "/docs/apps/products",
     connectedApps: [
-      PbdModuleString.ClaimManagement,
-      PbdModuleString.DefectManagement,
-      PbdModuleString.ProjectAndTaskManagement,
+      {
+        appName: PbdModuleString.ClaimManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.DefectManagement,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.ProjectAndTaskManagement,
+        linkingDescreption: "",
+      },
     ],
   },
   {
     id: PbdModuleString.OpportunityManagement,
-    appName: "Risiken & Chancen",
+    app: "Risiken & Chancen",
     appLink: "/docs/apps/opportunity-management",
-    connectedApps: [PbdModuleString.ProjectAndTaskManagement],
+    connectedApps: [
+      {
+        appName: PbdModuleString.ProjectAndTaskManagement,
+        linkingDescreption: "",
+      },
+    ],
   },
   {
     id: PbdModuleString.TrainingManagement,
-    appName: "Schulungsmanagement",
+    app: "Schulungsmanagement",
     appLink: "/docs/apps/training-management",
     connectedApps: [
-      PbdModuleString.Employees,
-      PbdModuleString.CustomForms,
-      PbdModuleString.QualificationMatrix,
-      PbdModuleString.ProjectAndTaskManagement,
+      {
+        appName: PbdModuleString.Employees,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.CustomForms,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.QualificationMatrix,
+        linkingDescreption: "",
+      },
+      {
+        appName: PbdModuleString.ProjectAndTaskManagement,
+        linkingDescreption: "",
+      },
     ],
   },
 ];
 
 interface IProps {
-  app: PbdModuleString;
+  inputApp: PbdModuleString;
 }
 
-export default function ConnectionMatrix({ app }: IProps) {
-  const filteredData = data.find((x) => x.id === app);
+export default function ConnectionMatrix({ inputApp }: IProps) {
+  const filteredData = dataConnections.find((x) => x.id === inputApp);
+  if (!filteredData) {
+    return <p>No data found</p>;
+  }
   return (
     <table>
       <thead>
         <tr>
           <th>Mögliche Verknüpfungen</th>
+          <th>Verknüpfungsbeschreibung</th>
         </tr>
       </thead>
       <tbody>
-        {filteredData?.connectedApps?.map((itemId) => {
-          const connectedApp = data.find((x) => x.id === itemId);
+        {filteredData?.connectedApps?.map((item) => {
+          const appData = dataConnections.find((x) => x.id === item.appName);
           return (
-            <tr key={itemId}>
+            <tr key={item.appName}>
               <td>
-                {connectedApp?.appLink && connectedApp?.appName && (
-                  <Link to={connectedApp.appLink}>{connectedApp.appName}</Link>
-                )}
+                <Link to={appData?.appLink ?? "undefined"}>{appData?.app}</Link>
               </td>
+              <td>{item.linkingDescreption}</td>
             </tr>
           );
         })}
