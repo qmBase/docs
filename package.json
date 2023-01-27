@@ -14,8 +14,8 @@
     "lint:spelling": "cspell \"**\" --no-progress"
   },
   "dependencies": {
-    "@docusaurus/core": "2.2.0",
-    "@docusaurus/preset-classic": "2.2.0",
+    "@docusaurus/core": "2.3.0",
+    "@docusaurus/preset-classic": "2.3.0",
     "clsx": "^1.2.1",
     "mermaid": "^9.3.0",
     "react": "^17.0.2",
@@ -34,7 +34,7 @@
     ]
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.2.0",
+    "@docusaurus/module-type-aliases": "2.3.0",
     "@tsconfig/docusaurus": "^1.0.6",
     "@types/react": "^17.0.53",
     "@types/react-router-dom": "^5.3.3",
