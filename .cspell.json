@@ -30,6 +30,7 @@
     "package-lock.json",
     "project-words.txt",
     "src/**",
-    "benachrichtigungen-new.mdx"
+    "benachrichtigungen-new.mdx",
+    "docusaurus.config.js"
   ]
 }
