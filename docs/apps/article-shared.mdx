@@ -104,13 +104,23 @@ Historische Daten, also "Zur Kenntnisnahmen", die bereits durchgeführt wurden b
 
 ### Wie können Dokumente im Dokumentenmanagement, Wiki und Blog miteinander verlinkt werden?
 
-Von einem Dokumente auf ein anderes zu verlinken ist überhaupt kein Problem.
+Von einem Dokumente auf ein anderes zu verlinken ist überhaupt kein Problem. Das beinhaltet auch das App übergreifende verlinken z.B. vom Dokumentenmanagement in das Wiki.
+Um ein Dokument mit einem anderen zu verlinken, tippen Sie bitte folgenden Befehl ein:
 
-Wollen Sie in innerhalb er gleichen App (z.B. im Dokumentenmanagement) aus einem Dokument auf einen anderen verlinken, dann tippen Sie einfach folgendes in Ihrem Dokument ein:
+<code>$[AppName]:[TitelDesDokumentes]</code>
 
-<code>$doc:_Titel des Dokumentes_</code>
+Sobald Sie beginnen den Titel des Dokumentes einzugeben werden alle Dokumente durchsucht
+und es werden Ihnen passende Dokumente vorgeschlagen. Wählen Sie das richtigen Dokument
+aus und der Link dorthin wird automatisch eingefügt. Zulässige Werte für die Variable
+**AppName** sind:
 
-Sobald Sie beginnen den Titel des Dokumentes einzugeben werden alle Dokumente durchsucht und es werden Ihnen passende Dokumente vorgeschlagen. Wählen Sie das richtigen Dokument aus und der Link dorthin wird automatisch eingefügt.
+- **Blog** für eine Verlinkung auf den Blog
+- **Doc** für eine Verlinkung auf das Dokumentenmanagement
+- **Wiki** für eine Verlinkung auf das Wiki
+
+Für eine Verlinkung auf das Dokument **Qualitätspolitik** im Dokumentenmanagement müssten Sie also **$doc:Qualitätsmanagement** eintippen.
+Befindet sich das Dokument im Wiki müssten Sie **$wiki:Qualitätsmanagement** eingeben.
+![Einfügen eines Links](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/2023-01-30-article-link-dropdown.png)
 
 Alternativ können Sie auch für alle weiteren Verlinkungen innerhalb von qmBase wie folgt vorgehen: Öffnen Sie in einem anderen Fenster Ihres Browsers das Dokument oder die Seite, auf die Sie verlinken möchten und kopieren Sie oben aus der Adresszeile Ihres Browsers die URL.
 Markieren Sie in dem Texteditor den Text, der auf den Link enthalten soll und klicken Sie in der Menüleiste des Texteditors auf das Symbol zum Verlinken (<FaLink/>). Fügen Sie die kopierte URL in dem erscheinenden Menü ein und klicken sie auf <code>Speichern</code>
