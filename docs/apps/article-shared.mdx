@@ -20,11 +20,19 @@ Wenn Sie wissen möchten, was die Vorteile der einzelnen Apps sind, schauen Sie 
 Wenn Sie die Arbeit mit der App beginnen, können Sie sich zunächst entscheiden, welche Layout Möglichkeiten Sie den Nutzern bieten möchten.
 In den qmBase Dokumenten Apps stehen drei Darstellungen Ihrer Inhalte zur Verfügung:
 
-- Übersicht zeigt alle verfügbaren Dokumente.
-- News zeigt die neuesten Dokumente in einem übersichtlichen und schönen Blog Layout.
-- Ordneransicht diese Ansicht müssen Sie in den Apps Blog oder Wiki separat anschalten, um Sie verfügbar zu machen. Die Einstellungen hierzu finden Sie unter Admin > Konfiguration > Blog / Wiki
+- Die Ansicht **Übersicht** zeigt alle verfügbaren Dokumente.
+- Die Ansicht **News** zeigt die neuesten Dokumente in einem übersichtlichen und schönen Blog Layout.
+- Die **Ordneransicht** zeigt die Ordnerstruktur mit den enthaltenen Dokumenten. Diese Ansicht müssen Sie in den Apps Blog oder Wiki separat anschalten, um Sie verfügbar zu machen. Die Einstellungen hierzu finden Sie unter Admin > Konfiguration > Blog / Wiki
 
 Wenn Sie die Ordneransicht nachträglich aktivieren oder deaktivieren, ist das kein Problem. In diesem Fall stehen Ihnen die Dokumente über die **Übersicht** zur Verfügung.
+
+### Arbeiten mit der Übersicht
+Die Übersicht stellt alle Dokumente tabellarisch dar. Die Übersicht bietet die umfangreichsten Such- und Filterfunktionen.
+
+### Arbeiten mit der News Ansicht
+
+In der News Ansicht werden Ihnen die neuesten Beiträge chronologisch sortiert angezeigt. Ziel dieser Ansicht ist es, eine schöne und elegante Übersicht über neue Inhalte zu bieten.
+Wenn Sie möchten, dass nur ein Teil eines Artikels in der Vorschau angezeigt wird, können Sie einen Seitenumbruch einfügen. In der Übersicht wird dann nur der Teil bis zum ersten Seitenumbruch angezeigt.
 
 ### Arbeiten mit der Ordneransicht
 
@@ -104,13 +112,23 @@ Historische Daten, also "Zur Kenntnisnahmen", die bereits durchgeführt wurden b
 
 ### Wie können Dokumente im Dokumentenmanagement, Wiki und Blog miteinander verlinkt werden?
 
-Von einem Dokumente auf ein anderes zu verlinken ist überhaupt kein Problem.
+Von einem Dokumente auf ein anderes zu verlinken ist überhaupt kein Problem. Das beinhaltet auch das App übergreifende verlinken z.B. vom Dokumentenmanagement in das Wiki.
+Um ein Dokument mit einem anderen zu verlinken, tippen Sie bitte folgenden Befehl ein:
 
-Wollen Sie in innerhalb er gleichen App (z.B. im Dokumentenmanagement) aus einem Dokument auf einen anderen verlinken, dann tippen Sie einfach folgendes in Ihrem Dokument ein:
+<code>$[AppName]:[TitelDesDokumentes]</code>
 
-<code>$doc:_Titel des Dokumentes_</code>
+Sobald Sie beginnen den Titel des Dokumentes einzugeben werden alle Dokumente durchsucht
+und es werden Ihnen passende Dokumente vorgeschlagen. Wählen Sie das richtigen Dokument
+aus und der Link dorthin wird automatisch eingefügt. Zulässige Werte für die Variable
+**AppName** sind:
 
-Sobald Sie beginnen den Titel des Dokumentes einzugeben werden alle Dokumente durchsucht und es werden Ihnen passende Dokumente vorgeschlagen. Wählen Sie das richtigen Dokument aus und der Link dorthin wird automatisch eingefügt.
+- **Blog** für eine Verlinkung auf den Blog
+- **Doc** für eine Verlinkung auf das Dokumentenmanagement
+- **Wiki** für eine Verlinkung auf das Wiki
+
+Für eine Verlinkung auf das Dokument **Qualitätspolitik** im Dokumentenmanagement müssten Sie also **$doc:Qualitätsmanagement** eintippen.
+Befindet sich das Dokument im Wiki müssten Sie **$wiki:Qualitätsmanagement** eingeben.
+![Einfügen eines Links](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/2023-01-30-article-link-dropdown.png)
 
 Alternativ können Sie auch für alle weiteren Verlinkungen innerhalb von qmBase wie folgt vorgehen: Öffnen Sie in einem anderen Fenster Ihres Browsers das Dokument oder die Seite, auf die Sie verlinken möchten und kopieren Sie oben aus der Adresszeile Ihres Browsers die URL.
 Markieren Sie in dem Texteditor den Text, der auf den Link enthalten soll und klicken Sie in der Menüleiste des Texteditors auf das Symbol zum Verlinken (<FaLink/>). Fügen Sie die kopierte URL in dem erscheinenden Menü ein und klicken sie auf <code>Speichern</code>
