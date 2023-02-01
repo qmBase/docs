@@ -28,6 +28,22 @@ yarn start
 
 This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
+### Editing of the Documents
+
+follow these steps to edit the documsnts:
+
+1. Open Visual Studio Code (if it's not installed, download it from https://code.visualstudio.com/).
+2. From the left sidebar, click on 'Source Control' then click 'Clone Repository'.
+3. Paste the repository URL of `qmBase/docs` GitHub repository (https://github.com/qmBase/docs.git) and click "Clone from URL".
+4. Select a path (any folder) where the files will be cloned to.
+5. After the cloning process is finished, a pop-up massage will show up, click "Open" to open the cloned repository in Visual Studio Code.
+6. Now create a new branch by clicking `main` in the bottom left, and choose 'Create new branch' and name it then press enter. (use your initials at the beginning, for example: mm/BranchName)
+7. Do your editings and changes and save them.
+8. Click on 'Source Control' from the left sidebar
+9. Enter a message about the changes you made and press 'Commit', then 'Publish Branch'
+10. Now in GitHub, make a 'Pull Request', then merge your branch with the main branch.
+
+
 ## Development in the cloud
 
 If you do not have installed VS Code on you local machine you can also Open the repository in in the browser. This make writing new documents easier than working on the raw files on Github
