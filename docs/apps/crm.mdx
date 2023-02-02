@@ -88,4 +88,22 @@ Sobald die Bewertung erstellt wurde, wird sie auch auch in der Übersicht der Be
 Eine Übersicht über alle Bewertungen aller Kontakte erreichen Sie über den Menüpunkt **<FaStarHalfAlt/>**. Über den Button **<FaPlus/>** können Sie dort ebenfalls Bewertungen erfassen.
 In diesem Fall müssen aber zusätzlich den zu bewertenden Kontakt auswählen.
 
-Die Menüpunkte **<FaChessKing/> Kundenbewertung** und **<FaShippingFast/> Lieferantenbewertungen** zeigen jeweils nur die Bewertungen für Kunden bzw. Lieferanten.
+Die Menüpunkte <code><FaChessKing/> Kundenbewertung</code> und <code><FaShippingFast/> Lieferantenbewertungen</code> zeigen jeweils nur die Bewertungen für Kunden bzw. Lieferanten.
+
+<!-- Custom component -->
+
+import CommonFunction from "@site/src/components/commonFunction.tsx";
+
+import PbdModuleString from "@site/src/models/pbdModuleString.ts";
+
+import ConnectionMatrix from "@site/src/components/connectionMatrix.tsx";
+
+<CommonFunction app={`Crm`} entity={`Organisation`} entityTitle={`Kontakte`} />
+
+<CommonFunction
+  app={`Crm`}
+  entity={`OrganisationRating`}
+  entityTitle={`Bewertungen`}
+/>
+
+<ConnectionMatrix inputApp={`Crm`} />
