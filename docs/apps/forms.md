@@ -69,7 +69,6 @@ Formulare können als Quiz erstellt werden. Ein Quiz kann als Prüfung genutzt w
 1. Wählen Sie **+ Neues Feld hinzufügen** aus, um Ihrem Quiz eine neue Frage hinzuzufügen.
 2. Wählen Sie die Art der Frage aus **Auswahl-, Text- oder Zahlfragen usw.**
 3. Legen Sie im Feld **Punkte** die maximal erreichbare Anzahl an Punkten für diese Frage fest.
-4. Fügen Sie bis zu 100 weitere Fragen hinzu.
 
 ### Bewertung eines Ausgefüllten Quiz
 
@@ -96,3 +95,10 @@ Nachdem Sie erste Antworten erhalten haben, können Sie diese überprüfen und b
 5. Wählen Sie **Ergebnis veröffentlichen**, um den Einreicher über die sein Ergebnis zu informieren. Andernfalls ist das Ergebnis nicht sichtbar.
 
 Das Bewerten der Antworten ist dem Formularverantwortlichen sowie den Admins im Bereich Formulare vorenthalten.
+
+## Einschränkungen und Limits der Formulare
+
+| Typ            | Beschreibung                          |
+| -------------- | ------------------------------------- |
+| Anzahl Felder  | Maximal 64 Felder/Fragen pro Formular |
+| Formular Titel | Mindestens 3 Maximal 250 Zeichen      |
