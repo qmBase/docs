@@ -98,7 +98,7 @@ Das Bewerten der Antworten ist dem Formularverantwortlichen sowie den Admins im 
 
 ## Einschränkungen und Limits der Formulare
 
-| Typ            | Beschreibung                          |
-| -------------- | ------------------------------------- |
-| Anzahl Felder  | Maximal 64 Felder/Fragen pro Formular |
-| Formular Titel | Mindestens 3 Maximal 250 Zeichen      |
+| Typ            | Beschreibung                           |
+| -------------- | -------------------------------------- |
+| Anzahl Felder  | Maximal 128 Felder/Fragen pro Formular |
+| Formular Titel | Mindestens 3 Maximal 250 Zeichen       |
