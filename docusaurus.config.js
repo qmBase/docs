@@ -57,100 +57,103 @@ const config = {
     defaultLocale: "de",
     locales: ["de"],
   },
-  themeConfig: {
-    navbar: {
-      title: "",
-      logo: {
-        alt: "qmBase Logo",
-        src: whiteLabel.iconUrl,
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      navbar: {
+        title: "",
+        logo: {
+          alt: "qmBase Logo",
+          src: whiteLabel.iconUrl,
+        },
+        items: [
+          { to: "tutorials", label: "Tutorials", position: "left" },
+          {
+            to: "docs/general",
+            activeBasePath: "docs",
+            label: "Dokumentation",
+            position: "left",
+          },
+          { to: "blog", label: "Changelog", position: "left" },
+          {
+            to: "roadmap",
+            label: "Roadmap",
+            position: "left",
+          },
+          {
+            href: `${whiteLabel.accountBaseUrl}/account/findworkspace`,
+            label: "Login",
+            position: "right",
+            className: "button button--link navbarBtn",
+          },
+          {
+            href: "https://www.qmbase.com/webinar-vereinbaren/",
+            label: "Jetzt Demo vereinbaren",
+            position: "right",
+            className: "button button--success navbarBtn",
+          },
+        ],
       },
-      items: [
-        { to: "tutorials", label: "Tutorials", position: "left" },
-        {
-          to: "docs/general",
-          activeBasePath: "docs",
-          label: "Dokumentation",
-          position: "left",
-        },
-        { to: "blog", label: "Changelog", position: "left" },
-        {
-          to: "roadmap",
-          label: "Roadmap",
-          position: "left",
-        },
-        {
-          href: `${whiteLabel.accountBaseUrl}/account/findworkspace`,
-          label: "Login",
-          position: "right",
-          className: "button button--link navbarBtn",
-        },
-        {
-          href: "https://www.qmbase.com/webinar-vereinbaren/",
-          label: "Jetzt Demo vereinbaren",
-          position: "right",
-          className: "button button--success navbarBtn",
-        },
-      ],
-    },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Allgemein",
-              to: "docs/general",
-            },
-            {
-              label: "FAQ",
-              to: "docs/faqs/smart-views",
-            },
-          ],
-        },
+      footer: {
+        style: "dark",
+        links: [
+          {
+            title: "Docs",
+            items: [
+              {
+                label: "Allgemein",
+                to: "docs/general",
+              },
+              {
+                label: "FAQ",
+                to: "docs/faqs/smart-views",
+              },
+            ],
+          },
 
-        {
-          title: whiteLabel.productDisplayName,
-          items: [
-            {
-              label: whiteLabel.domain,
-              href: `https://${whiteLabel.domain}`,
-            },
-            {
-              label: "Login",
-              href: `${whiteLabel.accountBaseUrl}/account/findworkspace`,
-            },
-          ],
-        },
-        whiteLabel.footerCommunity,
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} ${
-        whiteLabel.vendorName
-      } Built with Docusaurus.<br/><a href="${
-        whiteLabel.imprintUrl
-      }">Impressum</a> | <a href="${
-        whiteLabel.dataPrivacyUrl
-      }">Datenschutz</a>`,
-    },
-    algolia: {
-      // This is a read-only, search-only key served directly by the front-end, managed by Algolia via their
-      // free DocSearch program. The key is not sensitive. See https://docsearch.algolia.com/ for more details.
-      appId: "LELAAR7MEU",
-      apiKey: "1912b503149b94f953f6d20d46614dbd",
-      indexName: "qmbase",
-      // searchParameters: {},
-      contextualSearch: false,
-    },
-    // announcementBar: {
-    //   id: "supportus",
-    //   content:
-    //     '⭐️ If you like qmBase, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/qmbase/docs">GitHub</a>! ⭐️',
-    // },
-  },
+          {
+            title: whiteLabel.productDisplayName,
+            items: [
+              {
+                label: whiteLabel.domain,
+                href: `https://${whiteLabel.domain}`,
+              },
+              {
+                label: "Login",
+                href: `${whiteLabel.accountBaseUrl}/account/findworkspace`,
+              },
+            ],
+          },
+          whiteLabel.footerCommunity,
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} ${
+          whiteLabel.vendorName
+        } Built with Docusaurus.<br/><a href="${
+          whiteLabel.imprintUrl
+        }">Impressum</a> | <a href="${
+          whiteLabel.dataPrivacyUrl
+        }">Datenschutz</a>`,
+      },
+      algolia: {
+        // This is a read-only, search-only key served directly by the front-end, managed by Algolia via their
+        // free DocSearch program. The key is not sensitive. See https://docsearch.algolia.com/ for more details.
+        appId: "LELAAR7MEU",
+        apiKey: "1912b503149b94f953f6d20d46614dbd",
+        indexName: "qmbase",
+        // searchParameters: {},
+        contextualSearch: false,
+      },
+      // announcementBar: {
+      //   id: "supportus",
+      //   content:
+      //     '⭐️ If you like qmBase, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/qmbase/docs">GitHub</a>! ⭐️',
+      // },
+    }),
   presets: [
     [
-      "@docusaurus/preset-classic",
-      {
+      "classic",
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           showLastUpdateTime: true,
@@ -185,7 +188,7 @@ const config = {
           // Optional fields.
           anonymizeIP: true, // Should IPs be anonymized?
         },
-      },
+      }),
     ],
   ],
   plugins: [
