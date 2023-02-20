@@ -35,6 +35,18 @@ qmBase Formulare sind bei allen Kunden verfügbar, die diese App in ihrem Abonne
 
 Ist ein Formular veröffentlicht, kann es auch ausgefüllt werden. Wählen Sie dazu das gewünschte Formular in dem Menüpunkt <code>Formular ausfüllen</code> und füllen Sie die Formularfelder nacheinander aus.
 
+### Einschränkungen beim Ausfüllen von Formularen
+
+Abhängig von Ihren Einstellungen kann das Ausfüllen von Formularen durch Nutzer eingeschränkt werden. Im Folgenden sind die Bedingungen beschrieben, unter denen ein Formular **nicht** ausgefüllt werden kann.
+
+- Das Formular ist nicht veröffentlicht
+- Das Formular wurde als **Zugang nur mit Einladung** festgelegt und Sie wurden nicht als Nutzer eingeladen.
+- **Maximal eine Antwort** das Formular kann durch jeden Nutzer nur einmal ausgefüllt werden.
+
+### Einschränkungen beim Bearbeiten von ausgefüllten Formularen
+
+Formulare können nach dem absenden nur bearbeitet werden, wenn die Option **Benutzer können die Antwort nach dem Absenden bearbeiten** ausgewählt ist.
+
 ## Wo sind die ausgefüllten Formulare?
 
 Die Antworten zu Formularen finden Sie unter dem Menüpunkt <code>Ausgefüllte Formulare</code>.
