@@ -586,7 +586,7 @@ herunterfiltern
 Erstelldatum
 Adminbereich
 Inventarpr├╝fungen
-Audittypen
+Auditkategorien
 Passwortanforderugen
 Reklamationsmanagement
 Kategorienverwaltung

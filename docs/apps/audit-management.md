@@ -64,7 +64,7 @@ Herr Müller möchte ein Audit erstellen. Nachdem er sich bei qmBase angemeldet 
 
 ### Wie funktioniert die Auditmatrix?
 
-Zur Nutzung der Auditmatrix müssen zunächst in den Einstellungen Auditanforderungen erstellt werden. Die Auditanforderungen können anschließend Audittypen zugeordnet werden.
+Zur Nutzung der Auditmatrix müssen zunächst in den Einstellungen Auditanforderungen erstellt werden. Die Auditanforderungen können anschließend Auditkategorien zugeordnet werden.
 In der Auditmatrix lässt sich dann darstellen, ob in einem bestimmten Zeitintervall bestimmte Auditanforderungen erfüllt wurden.
 
 #### Beispiel Auditmatrix
@@ -75,7 +75,7 @@ Als Auditanforderung wird **ISO 9001** festgelegt. Untergeordnete Anforderungen 
 - 5.2 Politik
 - 5.3 Rollen, Verantwortlichkeiten und Befugnisse in der Organisation
 
-Audittypen sind in unserem Beispiel
+Auditkategorien sind in unserem Beispiel
 
 - Oberste Leitung (Geschäftsführung und Strategie)
   - Verknüpfte Anforderung **5.2 Politik**
@@ -102,7 +102,7 @@ Für die Erstellung des Berichts müssen Auditanforderungen das betreffende Audi
 
 Der Bericht besteht aus einem einleitenden Text und eine Link zum Audit.
 Zusätzlich wird eine Tabelle mit den festgelegten Auditanforderungen erstellt.
-Die Daten hierzu stammen aus dem zugehörigen Audittypen und den verknüpften Auditanforderungen.
+Die Daten hierzu stammen aus dem zugehörigen Auditkategorien und den verknüpften Auditanforderungen.
 
 ### Wo finde ich Auswertungen meiner Audits?
 
