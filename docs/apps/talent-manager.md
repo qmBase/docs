@@ -46,7 +46,7 @@ Legen Sie fest welche Aufgaben in Ihrer Organisation zu erledigen sind. Beispiel
 
 > Tipp: Starten Sie mit den wichtigsten Aufgaben in Ihrem Unternehmen, die notwendig sind, um Ihre Kernprozesse zuverlässig auszuführen.
 
-### Matrix
+### Aufgaben-Matrix
 
 In der Aufgabenmatrix werden Personen den festgelegten Aufgaben gegenüber gestellt. Sie können hier auf einen Blick erkennen, wie qualifiziert die Personen für die jeweiligen Aufgaben sind.
 
@@ -66,7 +66,7 @@ Legen Sie fest welche Qualifikationen in Ihrer Organisation benötigt werden, um
 - Führerschein
 - Abgeschlossenes Studium
 
-### Matrix
+### Qualifikations-Matrix
 
 In der App Aufgaben & Qualifikationen können Sie sich auf einen Blick anschauen, welchen Qualifikationsbedarf es in Ihrem Unternehmen gibt. Hierzu werden die Mitarbeiter den Qualifikationen gegenüber gestellt.
 
@@ -204,3 +204,8 @@ Wenn alle Mitarbeiter einer Abteilung angehören, würden sich aus dem Beispiel 
 | Grün  | Anteil der benötigten Qualifikationen, die vorhanden sind                 | 70%                                |
 
 Die Gruppierung nach einzelnen Positionen funktioniert analog.
+
+### Wie werden einem Mitarbeiter Qualifikationen hinzugefügt?
+
+- Als Administrator oder App Administrator können Mitarbeitern Qualifikationen hinzugefügt werden.
+- Qualifikationen, die zum **Self Check In** festgelegt sind, können sich Mitarbeiter selbst zuordnen.
