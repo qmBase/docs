@@ -22,8 +22,11 @@ Innerhalb von qmBase werden die Nutzer und Mitarbeiter getrennt voneinander erfa
    Der Account ist dann vollständig gelöscht und der Nutzer kann sich nicht mehr anmelden.
    Da es diesen Nutzer dann nicht mehr gibt, werden auch keine E-Mail Benachrichtigungen mehr an diese Person verschickt.
 
-2. Als Nutzer mit Zugriff auf das Modul [Personal](https://app.qmbase.com/Account/findworkspace?returnUrl=/employees) löschen Sie den Mitarbeiter. Der Mitarbeitereintrag wird dann in den Papierkorb verschoben.
-3. Abschließend muss überprüft werden, ob der ehemalige Mitarbeiter noch als Verantwortlicher für aktive Aufgaben festgelegt ist.
+2. Als Nutzer mit Zugriff auf die App [Mitarbeiter](https://app.qmbase.com/Account/findworkspace?returnUrl=/employees) entfernen Sie den Mitarbeiter aus der Mitarbeiterliste. Dazu gibt es zwei Möglichkeiten:
+   - Mitarbeiter löschen: Der Mitarbeiter wird in den Papierkorb verschoben
+   - Mitarbeiter aus Mitarbeitern entfernen: Die Person wird nicht mehr als Mitarbeiter gelistet, ist aber noch als Kontakt über das CRM erreichbar
+
+4. Abschließend muss überprüft werden, ob der ehemalige Mitarbeiter noch als Verantwortlicher für aktive Aufgaben festgelegt ist.
 
 Alle mit dem Mitarbeiter verknüpften Informationen, wie z.B. Maßnahmen oder Ideen bleiben erhalten. Der Mitarbeiter kann dann aber zukünftig nicht mehr als Verantwortlicher ausgewählt werden.
 
@@ -37,6 +40,6 @@ Wenn beim Erstellen oder ändern eines Mitarbeiterprofils die Fehlermeldung **Em
 An folgenden Stellen kann bereits ein Mitarbeiter vorhanden sein:
 
 - App Mitarbeiter
-- App Crm -> Kontakte -> Nur Personen anzeigen.
+- App CRM -> Kontakte -> Nur Personen anzeigen.
 
 Bitte überprüfen Sie jeweils auch den Papierkorb, da für den Abgleich auch gelöschte Personen mit einbezogen werden.
