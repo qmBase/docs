@@ -22,7 +22,7 @@ Innerhalb von qmBase werden die Nutzer und Mitarbeiter getrennt voneinander erfa
    Der Account ist dann vollständig gelöscht und der Nutzer kann sich nicht mehr anmelden.
    Da es diesen Nutzer dann nicht mehr gibt, werden auch keine E-Mail Benachrichtigungen mehr an diese Person verschickt.
 
-2. Als Nutzer mit Zugriff auf das Modul [Mitarbeiter](https://app.qmbase.com/Account/findworkspace?returnUrl=/employees) entfernen Sie den Mitarbeiter aus der Mitarbeiterliste. Dazu gibt es zwei Möglichkeiten:
+2. Als Nutzer mit Zugriff auf die App [Mitarbeiter](https://app.qmbase.com/Account/findworkspace?returnUrl=/employees) entfernen Sie den Mitarbeiter aus der Mitarbeiterliste. Dazu gibt es zwei Möglichkeiten:
    - Mitarbeiter löschen: Der Mitarbeiter wird in den Papierkorb verschoben
    - Mitarbeiter aus Mitarbeitern entfernen: Die Person wird nicht mehr als Mitarbeiter gelistet, ist aber noch als Kontakt über das CRM erreichbar
 
