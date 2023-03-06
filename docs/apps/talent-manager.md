@@ -7,7 +7,8 @@ import JobDescriptionRelation from "../charts/\_job-description-relation.mdx";
 
 ![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Trainings.png)
 
-> Die App Talent Manager wird der zukünftige zentrale Anlaufpunkt für alle Themen, die Anforderungen, Qualifikationen und Mitarbeiter betreffen. Auch wenn sich der Talent Manager noch im Aufbau befindet, so sind die einzelnen Funktionen in den bisher einzelnen Apps **Schulungen** und **Aufgaben und Qualifikationen** schon verfügbar.
+> Die App Talent Manager wird der zukünftige zentrale Anlaufpunkt für alle Themen, die Anforderungen, Qualifikationen und Mitarbeiter betreffen.
+> Auch wenn sich der Talent Manager noch im Aufbau befindet, so sind die einzelnen Funktionen in den bisher einzelnen Apps **Schulungen** und **Aufgaben und Qualifikationen** schon verfügbar.
 
 Mit der App Talent Manager erreichen Sie folgende Ziele
 
@@ -16,8 +17,8 @@ Mit der App Talent Manager erreichen Sie folgende Ziele
 - Verpassen Sie keine Fristen bleiben Sie auf einem aktuellen Stand bei wiederkehrenden Qualifikationen Ihrer Mitarbeiter
 - Fassen Sie alle Informationen in einer Datenquelle zusammen
 
-‍Mit uns und unserem Talent Manager bieten Sie den Menschen in Ihrer Organisation den Rahmen und die Freiheit, die sie brauchen, um mutig voranzugehen und neue Ideen einzubringen. Und so Ihr Unternehmen erfolgreich in die Zukunft zu führen.
-Starten Sie mit unserem Talent Manager, um faktenbasierte Entscheidungen zu treffen.
+‍Mit uns und unserem Talent Manager bieten Sie den Menschen in Ihrer Organisation den Rahmen und die Freiheit, die sie brauchen, um mutig voranzugehen und neue Ideen einzubringen.
+Und so Ihr Unternehmen erfolgreich in die Zukunft zu führen. Starten Sie mit unserem Talent Manager, um faktenbasierte Entscheidungen zu treffen.
 
 > Lesen Sie unseren [Leitfaden](https://www.qmbase.com/leitfaden-mitarbeiterverwaltung/) für einen einfachen Start.
 
@@ -207,5 +208,6 @@ Die Gruppierung nach einzelnen Positionen funktioniert analog.
 
 ### Wie werden einem Mitarbeiter Qualifikationen hinzugefügt?
 
-- Als Administrator oder App Administrator können Mitarbeitern Qualifikationen hinzugefügt werden.
-- Qualifikationen, die zum **Self Check In** festgelegt sind, können sich Mitarbeiter selbst zuordnen.
+Das Hinzufügen von Qualifikationen ist an Berechtigungen geknüpft. Sofern nicht anders festgelegt können Qualifikationen durch den (App)Administrator Personen zugewiesen werden.
+Zusätzlich können Sie die **Selbstzuweisung** aktivieren. Damit ist es dann möglich, dass sich jeder Nutzer selbst Qualifikationen zuweisen kann.
+Als weitere Einschränkung können Sie auch weitere Bedingungen festlegen, die vor der Zuweisung erfüllt sein müssen. Hier kann z.B. das Ausfüllen eines Formulars erforderlich sein.
