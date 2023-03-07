@@ -17,9 +17,6 @@ Mit der App Talent Manager erreichen Sie folgende Ziele
 - Verpassen Sie keine Fristen bleiben Sie auf einem aktuellen Stand bei wiederkehrenden Qualifikationen Ihrer Mitarbeiter
 - Fassen Sie alle Informationen in einer Datenquelle zusammen
 
-‍Mit uns und unserem Talent Manager bieten Sie den Menschen in Ihrer Organisation den Rahmen und die Freiheit, die sie brauchen, um mutig voranzugehen und neue Ideen einzubringen.
-Und so Ihr Unternehmen erfolgreich in die Zukunft zu führen. Starten Sie mit unserem Talent Manager, um faktenbasierte Entscheidungen zu treffen.
-
 > Lesen Sie unseren [Leitfaden](https://www.qmbase.com/leitfaden-mitarbeiterverwaltung/) für einen einfachen Start.
 
 Unser Talent Manager besteht aus 3 Bausteinen
