@@ -23,6 +23,7 @@ Beim Erfassen von Maßnahmen müssen folgende Informationen erfasst werden:
 - First: Bis wann soll die Umsetzung erfolgen
 - Verantwortlich: Wer ist für die Umsetzung verantwortlich
 - Beschreibung (optional): Gibt es notwendige weiterführende Informationen
+- Zugriffsrecht: Privat für sie oder Public einsehbar für Alle
 
 ## Bearbeiten von Maßnahmen
 
