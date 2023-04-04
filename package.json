@@ -39,12 +39,12 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.4.0",
     "@tsconfig/docusaurus": "^1.0.7",
-    "@types/react": "^17.0.53",
+    "@types/react": "^17.0.54",
     "@types/react-router-dom": "^5.3.3",
     "cspell": "^6.31.1",
     "@cspell/dict-de-de": "3.1.0",
     "markdown-spellcheck": "^1.3.1",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.3"
   },
   "engines": {
     "node": ">=17"

@@ -184,7 +184,7 @@ const config = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         gtag: {
-          trackingID: "UA-75841800-1",
+          trackingID: "G-CJTF0L7XNF",
           // Optional fields.
           anonymizeIP: true, // Should IPs be anonymized?
         },
