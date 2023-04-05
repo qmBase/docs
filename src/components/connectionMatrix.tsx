@@ -27,7 +27,8 @@ const dataConnections: AppConnections[] = [
     connectedApps: [
       {
         appName: PbdModuleString.Employees,
-        linkingDescreption: "",
+        linkingDescreption:
+          "Verknüpfen Sie Audits mit Mitarbeitern, um direkt Teilnehmer für ein Audit festzulegen.",
       },
       {
         appName: PbdModuleString.CustomForms,

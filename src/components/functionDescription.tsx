@@ -10,7 +10,7 @@ export const dataSharedFunction: SharedFunctionItem[] = [
   {
     id: SharedFunction.AuditTrail,
     title: SharedFunction.AuditTrail.toString(),
-    description: "",
+    description: "Das ist die Beschreibung",
   },
   {
     id: SharedFunction.Comments,
