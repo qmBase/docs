@@ -1,0 +1,23 @@
+---
+id: qualification-and-forms
+title: Qualifikationen und Formulare
+
+slug: /usescases/qualification-and-forms
+---
+
+import Mermaid from "@theme/mermaid";
+
+Welche Schritte sind notwendig, um Nutzer in die Lage zu versetzen sich selbst Qualifikationen zuzuordnen.
+
+<Mermaid
+  chart={`graph TD
+    A[Qualifikation erstellen] --> B[Qualifikation zur Selbstzuordnung aktivieren];
+    B -->  C[Formular erstellen];
+    C --> D[Qualifikation mit Formular verknüpfen];
+    D --> E[Formular ausfüllen];
+    E --> F[Formular bewerten];
+    F --> G{Formular bestanden};
+    G -- Ja --> H[Qualifikation übertragbar mit Datum von ausgefülltem Test]
+    G -- Nein --> I[Ende]
+    `}
+/>
