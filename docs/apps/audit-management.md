@@ -111,3 +111,13 @@ Die Auswertungen der Audits, sowie anderer Apps, finden Sie in der App Dashboard
 ### Gemeinsame Funktionalitäten
 
 - [Rollen & Berechtigungen](/docs/faqs/56)
+
+<!-- Custom component -->
+
+import CommonFunction from "@site/src/components/commonFunction.tsx";
+
+import ConnectionMatrix from "@site/src/components/connectionMatrix.tsx";
+
+<CommonFunction app={`AuditManagement`} />
+
+<ConnectionMatrix inputApp={`AuditManagement`} />

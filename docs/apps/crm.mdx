@@ -77,15 +77,26 @@ Wollen Sie eine Bewertung hinzufügen klicken Sie einfach auf den <FaPlus/>-Butt
 
 Jeder Kontakt wird auf einer Skala von 0-100% bewertet. Ein Kommentarfeld erlaubt die Erfassung zusätzlicher Informationen.
 
-<<<<<<< HEAD:docs/apps/crm.mdx
 Sobald die Bewertung erstellt wurde, wird sie auch auch in der Übersicht der Bewertungen dargestellt. Die Tabellenspalte **_ID_** führt zu der Detailansicht der Bewertung.
 Dort kann die Bewertung bearbeitet werden und es können weitere Dokumente angefügt werden.
-=======
-Sobald die Bewertung erstellt wurde, wird sie auch auch in der Übersicht der Bewertungen dargestellt. Die Tabellenspalte **_ID_** führt zu der Detailansicht der Bewertung. Dort kann die Bewertung bearbeitet werden und es können weitere Dokumente angefügt werden.
-
-> > > > > > > origin/main:docs/apps/crm.md
 
 Eine Übersicht über alle Bewertungen aller Kontakte erreichen Sie über den Menüpunkt **<FaStarHalfAlt/>**. Über den Button **<FaPlus/>** können Sie dort ebenfalls Bewertungen erfassen.
 In diesem Fall müssen aber zusätzlich den zu bewertenden Kontakt auswählen.
 
 Die Menüpunkte **<FaChessKing/> Kundenbewertung** und **<FaShippingFast/> Lieferantenbewertungen** zeigen jeweils nur die Bewertungen für Kunden bzw. Lieferanten.
+
+<!-- Custom component -->
+
+import CommonFunction from "@site/src/components/commonFunction.tsx";
+
+import ConnectionMatrix from "@site/src/components/connectionMatrix.tsx";
+
+<CommonFunction app={`Crm`} entity={`Organisation`} entityTitle={`Kontakte`} />
+
+<CommonFunction
+  app={`Crm`}
+  entity={`OrganisationRating`}
+  entityTitle={`Bewertungen`}
+/>
+
+<ConnectionMatrix inputApp={`Crm`} />

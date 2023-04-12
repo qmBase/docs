@@ -97,3 +97,9 @@ Eigenschaften der Abwesenheitsregelung:
 - Restlaufzeit: Zeitraum für den die Resttage zur Verfügung stehen
 
 **Feiertage**: Unter Einstellungen -> Allgemein Feiertage können Sie Feiertage oder auch Betriebsferien festlegen.
+
+<!-- Custom component -->
+
+import CommonFunction from "@site/src/components/commonFunction.tsx";
+
+<CommonFunction app={`AbsencePlanner`} />
