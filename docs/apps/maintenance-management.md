@@ -37,7 +37,7 @@ Download: [Etiketten_qmBase_qr.xlsx](./../assets/Etiketten_qmBase_qr.xlsx)
 
 - Anzeigename: Lesbarer Text, der zusätzlich zum QR Code angezeigt wird
 - ID: qmBase Identifikationsnummer des Gegenstands
-- HostName: Name Ihrer qmBase Instanz z.B. https://meineFirma.qmbase.com
+- HostName: Name Ihrer qmBase Instanz z.B. <https://meineFirma.qmbase.com>
 - Path: Unverändert lassen
 
 ### Drucken Sie die Etiketten als Serienbrief
@@ -59,7 +59,7 @@ Die Etiketten können jetzt mit der Serienbrief Funktion von Word gedruckt werde
 
 ## FAQs Instandhaltung
 
-#### Welche Daten soll ich erfassen
+### Welche Daten soll ich erfassen
 
 Erfassen Sie die Daten, die Sie bei der Arbeit benötigen. Typischerweise hat sich folgendes als Hilfreich herausgestellt.
 
@@ -68,3 +68,23 @@ Erfassen Sie die Daten, die Sie bei der Arbeit benötigen. Typischerweise hat si
 - Adressen und Kontaktdaten von Servicepartnern
 - Abmessungen und Gewicht, wenn Dinge transportiert werden müssen
 - Anschaffungsdatum, um das Alter Ihres Maschinenparks im Blick zu behalten
+
+<!-- Custom component -->
+
+import CommonFunction from "@site/src/components/commonFunction.tsx";
+
+import ConnectionMatrix from "@site/src/components/connectionMatrix.tsx";
+
+<CommonFunction
+app={`MaintenanceManagement`}
+entity={`InventoryItems`}
+entityTitle={`Inventargegenstände`}
+/>
+
+<CommonFunction
+app={`MaintenanceManagement`}
+entity={`InspectionsDone`}
+entityTitle={`Anstehende Prüfungen`}
+/>
+
+<ConnectionMatrix inputApp={`MaintenanceManagement`} />
