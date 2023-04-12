@@ -27,20 +27,19 @@ const dataConnections: AppConnections[] = [
     connectedApps: [
       {
         appName: PbdModuleString.Employees,
-        linkingDescreption:
-          "Verknüpfen Sie Audits mit Mitarbeitern, um direkt Teilnehmer für ein Audit festzulegen.",
+        linkingDescreption: "Verknüpfen Sie Audits mit Mitarbeitern, um direkt Teilnehmer für ein Audit festzulegen.",
       },
       {
         appName: PbdModuleString.CustomForms,
-        linkingDescreption: "",
+        linkingDescreption: "Die Verknüpfung mit den Formularen ermöglicht das Hinterlegen von Dokumenten wie beispielsweise Audit-Fragebögen.",
       },
       {
         appName: PbdModuleString.GoalManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Ergänzen Sie Ziele, die mit diesem Audit erreicht werden sollen.",
       },
       {
         appName: PbdModuleString.ProjectAndTaskManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Definieren Sie auditbezogene Maßnahmen, um Verbesserungen zu erzielen.",
       },
     ],
   },
@@ -56,19 +55,19 @@ const dataConnections: AppConnections[] = [
     connectedApps: [
       {
         appName: PbdModuleString.ClaimManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Verbinden Sie Reklamationen, die inhaltlich zusammenhängen oder voneinander abhängig sind.",
       },
       {
         appName: PbdModuleString.DefectManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Identifizieren Sie durch Fehlergenerierung und -verknüpfung Ursachen für Reklamationen.",
       },
       {
         appName: PbdModuleString.ProjectAndTaskManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Verfassen Sie Maßnahmenpläne, um die Bearbeitung von Reklamationen zu dokumentieren und zukünftige Vorfälle zu vermeiden.",
       },
       {
         appName: PbdModuleString.Products,
-        linkingDescreption: "",
+        linkingDescreption: "Verknüpfen Sie Produkte, um die Fehleranfälligkeit einzelner Produkte besser nachvollziehen zu können.",
       },
     ],
   },
@@ -79,11 +78,11 @@ const dataConnections: AppConnections[] = [
     connectedApps: [
       {
         appName: PbdModuleString.ClaimManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Verknüpfen Sie direkt betroffene Kontakte mit den jeweiligen Kunden- und Lieferantenreklamationen.",
       },
       {
         appName: PbdModuleString.ProjectAndTaskManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Definieren Sie Maßnahmen, die auf spezifische Anforderungen der Kunden abzielen.",
       },
     ],
   },
@@ -104,15 +103,16 @@ const dataConnections: AppConnections[] = [
     connectedApps: [
       {
         appName: PbdModuleString.ClaimManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Beschreiben Sie Fehler und verknüpfen Sie diese mit Reklamationen, um mögliche Muster zu identifizieren.",
+  
       },
       {
         appName: PbdModuleString.ProjectAndTaskManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Nennen Sie Maßnahmen, um Fehler zu vermeiden.",
       },
       {
         appName: PbdModuleString.Products,
-        linkingDescreption: "",
+        linkingDescreption: "Eine Verknüpfung mit Produkten ermöglicht es, fehlerhafte Produkte zu identifizieren.",
       },
     ],
   },
@@ -128,7 +128,7 @@ const dataConnections: AppConnections[] = [
     connectedApps: [
       {
         appName: PbdModuleString.Employees,
-        linkingDescreption: "",
+        linkingDescreption: "Fügen Sie Mitarbeiter mit den entsprechenden Aufgaben und Qualifikationen hinzu.",
       },
     ],
   },
@@ -139,11 +139,11 @@ const dataConnections: AppConnections[] = [
     connectedApps: [
       {
         appName: PbdModuleString.AuditManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Verbinden Sie Ihr Ziel mit einem Audit für mehr Übersichtlichkeit und Transparenz.",
       },
       {
         appName: PbdModuleString.ProjectAndTaskManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Zur Zielerreichung können Maßnahmen verknüpft und deren Wirksamkeit dokumentiert werden.",
       },
     ],
   },
@@ -159,7 +159,7 @@ const dataConnections: AppConnections[] = [
     connectedApps: [
       {
         appName: PbdModuleString.ProjectAndTaskManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Verknüpfen Sie die erforderlichen Maßnahmen für die Instandhaltung.",
       },
     ],
   },
@@ -170,51 +170,51 @@ const dataConnections: AppConnections[] = [
     connectedApps: [
       {
         appName: PbdModuleString.AuditManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Diese Verknüpfung können Sie nutzen, um z.B. die Bearbeitung von Korrekturmaßnahmen aus Audits zu steuern.",
       },
       {
         appName: PbdModuleString.ClaimManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Die Verknüpfung von Reklamationen mit entsprechenden Maßnahmen ermöglicht eine umfassende Dokumentation der Bearbeitungsschritte.",
       },
       {
         appName: PbdModuleString.Crm,
-        linkingDescreption: "",
+        linkingDescreption: "Setzen Sie erforderliche Maßnahmen in Bezug auf Kunden- und Lieferanten.",
       },
       {
         appName: PbdModuleString.Employees,
-        linkingDescreption: "",
+        linkingDescreption: "Hier können Sie Personen festlegen, die für die Umsetzung der Maßnahme verantwortlich sind.",
       },
       {
         appName: PbdModuleString.DefectManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Geben Sie Fehler an, die durch entsprechende Maßnahmen vermieden werden können.",
       },
       {
         appName: PbdModuleString.GoalManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Um eine detailliertere Planung und Dokumentation der Umsetzung zu ermöglichen, können Ziele und Maßnahmen verknüpft werden.",
       },
       {
         appName: PbdModuleString.IdeaManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Formulieren Sie Maßnahmen, die notwendig sind um Ideen umzusetzen.",
       },
       {
         appName: PbdModuleString.MaintenanceManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Verknüpfen Sie die erforderlichen Maßnahmen für die Instandhaltung.",
       },
       {
         appName: PbdModuleString.ProjectAndTaskManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Fügen Sie Maßnahmen hinzu, die mit der Maßnahme in Verbindung stehen.",
       },
       {
         appName: PbdModuleString.Products,
-        linkingDescreption: "",
+        linkingDescreption: "Fügen Sie Produkte hinzu, um Maßnahmen zu ergreifen, die zur Verbesserung der Produkte führen.",
       },
       {
         appName: PbdModuleString.OpportunityManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Verknüpfen Sie geeignete Maßnahmen, um Risiken zu minimieren oder Chancen zu nutzen.",
       },
       {
         appName: PbdModuleString.TrainingManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Setzen Sie Maßnahmen mit Schulungen in Verbindung, um den Anlass der durchgeführten Schulung darzustellen.",
       },
     ],
   },
@@ -225,15 +225,15 @@ const dataConnections: AppConnections[] = [
     connectedApps: [
       {
         appName: PbdModuleString.ClaimManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Verknüpfen Sie Produkte mit Reklamationen, um die Fehleranfälligkeit einzelner Produkte besser nachvollziehen zu können.",
       },
       {
         appName: PbdModuleString.DefectManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Eine Verknüpfung mit den Fehlern ermöglicht es, fehlerhafte Produkte zu identifizieren.",
       },
       {
         appName: PbdModuleString.ProjectAndTaskManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Verknüpfen Sie Maßnahmen, die zur Verbesserung der Produkte führen sollen.",
       },
     ],
   },
@@ -244,7 +244,7 @@ const dataConnections: AppConnections[] = [
     connectedApps: [
       {
         appName: PbdModuleString.ProjectAndTaskManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Verknüpfen Sie das Risiko oder die Chance mit den zugehörigen Maßnahmen um den Schaden zu verringern oder die Chance zu erhöhen.",
       },
     ],
   },
@@ -255,19 +255,19 @@ const dataConnections: AppConnections[] = [
     connectedApps: [
       {
         appName: PbdModuleString.Employees,
-        linkingDescreption: "",
+        linkingDescreption: "Verwalten, planen und dokumentieren Sie Schulungen für die Mitarbeiter.",
       },
       {
         appName: PbdModuleString.CustomForms,
-        linkingDescreption: "",
+        linkingDescreption: "Die Nutzung von Custom Fields ermöglicht eine präzise Kategorisierung von Schulungen.",
       },
       {
         appName: PbdModuleString.QualificationMatrix,
-        linkingDescreption: "",
+        linkingDescreption: "Für die Ermittlung des Schulungsbedarfs werden in der Qualifikationsmatrix die Mitarbeiter und ihre vorhandenen Qualifikationen visualisiert.",
       },
       {
         appName: PbdModuleString.ProjectAndTaskManagement,
-        linkingDescreption: "",
+        linkingDescreption: "Hiermit können Sie Schulungen einer bestimmten Maßnahme zuordnen.",
       },
     ],
   },
