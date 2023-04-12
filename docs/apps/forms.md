@@ -42,6 +42,7 @@ Abhängig von Ihren Einstellungen kann das Ausfüllen von Formularen durch Nutze
 - Das Formular ist nicht veröffentlicht
 - Das Formular wurde als **Zugang nur mit Einladung** festgelegt und Sie wurden nicht als Nutzer eingeladen.
 - **Maximal eine Antwort** das Formular kann durch jeden Nutzer nur einmal ausgefüllt werden.
+- Das Formular wurde als privat markiert und Ihnen wurde kein Zugriff erteilt.
 
 ### Einschränkungen beim Bearbeiten von ausgefüllten Formularen
 
@@ -98,13 +99,26 @@ Alternativ können Sie das Quiz auch einfach so zur Verfügung stellen, so dass 
 
 ### Überprüfen und Bewerten der Formularergebnisse
 
-Nachdem Sie erste Antworten erhalten haben, können Sie diese überprüfen und bewerten.
+Nachdem Sie erste Antworten erhalten haben, können Sie diese überprüfen und bewerten. Formulare können entweder automatisch oder manuell bewertet werden.
+
+#### Automatisches Bewerten der Formulare
+
+Damit ein Nutzer direktes Feedback für ein ausgefülltes Formular erhält, muss dieses zur automatischen Bewertung freigeschaltet sein.
+
+1. Der Nutzer füllt das Formular aus.
+2. Nach dem Ausfüllen des Formulars erscheint ein Button mit der Möglichkeit der Bewertung.
+3. Die Bewertung des Formulars kann nur einmalig geschehen. Sollten Fehler oder Änderungen bei der Bewertung notwendig sein, muss dieses durch den Administrator oder Verantwortlichen des Formulars erfolgen.
+4. Nach durchgeführter Bewertung wird der Verantwortliche des Formulars informiert.
+5. Nach der Bewertung des Formulars ist ein weiteres Bearbeiten nicht mehr möglich.
+
+Die automatische Bewertung eines Formulars kann durch den Verantwortliche oder Administrator überschrieben werden.
+
+#### Manuelles Bewerten der Formulare
 
 1. Wählen Sie **Formulare verwalten** und gehen Sie zu Ihrem Quiz.
 2. Wechseln Sie zum Tab antworten und wählen Sie eine der vorhanden Antworten aus.
 3. Klicken Sie auf den Button **Jetzt bewerten**. Wenn Sie Ihre Ergebnisse später korrigieren möchten, können Sie dies über das Kontextmenü (3 Punkte) auf dieser Seite erledigen.
 4. Überprüfen Sie alle Fragen und vergeben Sie Punkte pro Antwort.
-5. Wählen Sie **Ergebnis veröffentlichen**, um den Einreicher über die sein Ergebnis zu informieren. Andernfalls ist das Ergebnis nicht sichtbar.
 
 Das Bewerten der Antworten ist dem Formularverantwortlichen sowie den Admins im Bereich Formulare vorenthalten.
 
