@@ -86,6 +86,19 @@ Im Audit Trail werden alle Änderungen gespeichert, die Sie an ein Eintrag vorne
 
 Weitere Informationen finden Sie im Bereich Dashboard & Reportings [Dashboard & Reportings](dashboard.mdx)
 
+### Benachrichtigungen
+
+Bei der Bearbeitung von Maßnahmen werden zu folgenden Anlässen Benachrichtigungen Versand:
+
+| Auslösendes Ereignis        | Empfänger              | Benachrichtigung an Abonnenten der Watch Funktion |
+| --------------------------- | ---------------------- | ------------------------------------------------- |
+| Erstellen einer Maßnahmen   | Verantwortlicher       |                                                   |
+| Editieren einer Maßnahme    | Verantwortlicher       | ✅                                                |
+| Ändern des Status           | Verantwortlicher       | ✅                                                |
+| Ändern des Verantwortlichen | Neuer Verantwortlicher |                                                   |
+| Hinzufügen von Anhängen     | Verantwortlicher       | ✅                                                |
+| Hinzufügen von Kommentaren  | Verantwortlicher       | ✅                                                |
+
 ---
 
 :::info

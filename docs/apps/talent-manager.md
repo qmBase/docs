@@ -208,3 +208,24 @@ Die Gruppierung nach einzelnen Positionen funktioniert analog.
 Das Hinzufügen von Qualifikationen ist an Berechtigungen geknüpft. Sofern nicht anders festgelegt können Qualifikationen durch den (App)Administrator Personen zugewiesen werden.
 Zusätzlich können Sie die **Selbstzuweisung** aktivieren. Damit ist es dann möglich, dass sich jeder Nutzer selbst Qualifikationen zuweisen kann.
 Als weitere Einschränkung können Sie auch weitere Bedingungen festlegen, die vor der Zuweisung erfüllt sein müssen. Hier kann z.B. das Ausfüllen eines Formulars erforderlich sein.
+
+## Einschränkungen und Limits des Talentmanagers
+
+### Schulungen
+
+| Typ                    | Beschreibung             |
+| ---------------------- | ------------------------ |
+| Anzahl Teilnehmer      | Maximal 100 pro Schulung |
+| Anzahl Qualifikationen | Maximal 100 pro Schulung |
+
+### Schulungstypen
+
+| Typ                    | Beschreibung                 |
+| ---------------------- | ---------------------------- |
+| Anzahl Qualifikationen | Maximal 100 pro Schulungstyp |
+
+### Aufgaben und Qualifikationen
+
+| Typ                                | Beschreibung |
+| ---------------------------------- | ------------ |
+| Anzahl Qualifikationen pro Aufgabe | Maximal 100  |

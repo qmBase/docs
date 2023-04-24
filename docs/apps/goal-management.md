@@ -78,3 +78,16 @@ Möchten Sie Parameter ändern, fahren Sie mit dem Cursor über das betreffende 
 ### Wo finde ich Auswertungen meiner Ziele?
 
 Die Auswertungen der Ziele, sowie anderer Apps, finden Sie in der App Dashboard & Reportings. Die FAQ zu der App Dashboard & Reportings finden Sie [hier](dashboard.mdx).
+
+### Benachrichtigungen
+
+Bei der Bearbeitung von Maßnahmen werden zu folgenden Anlässen Benachrichtigungen Versand:
+
+| Auslösendes Ereignis        | Empfänger              | Benachrichtigung an Abonnenten der Watch Funktion |
+| --------------------------- | ---------------------- | ------------------------------------------------- |
+| Erstellen eines Ziels       | Verantwortlicher       |                                                   |
+| Editieren eines Ziels       | Verantwortlicher       | ✅                                                |
+| Ändern des Status           | Verantwortlicher       | ✅                                                |
+| Ändern des Verantwortlichen | Neuer Verantwortlicher |                                                   |
+| Hinzufügen von Anhängen     | Verantwortlicher       | ✅                                                |
+| Hinzufügen von Kommentaren  | Verantwortlicher       | ✅                                                |
