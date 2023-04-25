@@ -7,7 +7,7 @@ title: Zielmanagement
 
 # Zielmanagement Startseite
 
-Dies ist die Startseite des Zielmanagements mit den Buttons auf linken Seitenleiste navigieren Sie sich durch das Zielmanagement. Außerdem können Sie über die Startseite des Zielmanagements direkt auf globale Ziele zurückgreifen um zu dem [Dashboard und Reportings] (dashboard.mdx) der Ziele zu gelangen. Unter <code>Mein Dashboard </code>sehen die Ziele für die Sie als verantwortliche Person zuständig sind.
+Dies ist die Startseite des Zielmanagements mit den Buttons auf linken Seitenleiste navigieren Sie sich durch das Zielmanagement. Unter <code>Mein Dashboard</code> sehen die Ziele für die Sie als verantwortliche Person zuständig sind. Über <code>Smart Views</code> können Sie auf gespeicherte Filter zugreifen. 
 
 | Parameter                | Typ    | Beschreibung                                               |
 | ------------------------ | ------ | ---------------------------------------------------------- |
@@ -18,26 +18,30 @@ Dies ist die Startseite des Zielmanagements mit den Buttons auf linken Seitenlei
 
 ## Wie erstelle ich ein Ziel?
 
-Mit dieser Funktion erstellen Sie Ziele für Ihr Unternehmen. Auf der linken Seitenleiste klicken Sie auf den Button <code>Neu</code> und werden auf die Maske zum Erstellen eines Audits weitergeleitet. Nachdem Sie dort die wichtigsten Informationen zu dem betreffenden Audit eingetragen haben speichern Sie das neue Audit ab. Beim Erstellen können Sie folgende Werte festlegen:
+Neue Ziele ersllten Sie über den  den Button <code>Neu</code> auf der linken Seite. In der folgenden Maske können Sie kurz die wichtigsten Informationen zum dem Ziel erfassen:
 
 | Parameter                   | Typ             | Beschreibung                                                                                                    |
 | --------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------- |
 | <code>Titel</code>          | Text            | Kurzer Titel mit dem sich das Ziel wiederfinden lässt                                                           |
 | <code>Beschreibung</code>   | Text (optional) | Beschreibung des Ziels                                                                                          |
 | <code>Frist</code>          | Datum           | Datum bis, zu dem das Ziel erreicht werden soll                                                                 |
-| <code>Startwert</code>      | Anzahl          | Grundwert des Ziels das erhöht bzw. verringert werden soll                                                      |
-| <code>Aktueller Wert</code> | Anzahl          | Aktueller Wert der Einheit auf die sich das Ziel bezieht                                                        |
-| <code>Zielwert</code>       | Anzahl          | Wert der bis zu der Frist erreicht werden soll                                                                  |
-| <code>Einheit</code>        | Menge           | Bezieht sich auf das jeweilige Ziel. Hierbei kann es sich um Stückzahlen, Zeiten, Umsatz oder ähnliches handeln |
-| <code>Richtung</code>       | Liste           | Bestimmt, ob der aktuelle Wert gleich bleiben, erhöht der verringert werden soll                                |
 
 Danach werden Sie auf die Detailansicht zu diesem Ziel weitergeleitet und können weitere Parameter ändern oder hinzufügen. Fügen Sie zum Beispiel [Maßnahmen] (projects-and-tasks.md), Ziele oder [Custom Fields](TODO: INSERT LINK) hinzu, um optimale Transparenz für Ihr Unternehmen und einen Überblick für Ihre Mitarbeiter zu schaffen.
+
+
+
+
 
 | Parameter                                        | Typ             | Beschreibung                                                                                   |
 | ------------------------------------------------ | --------------- | ---------------------------------------------------------------------------------------------- |
 | <code>Verantwortlicher</code>                    | Name            | Person, die für das Ziel verantwortlich ist                                                    |
 | <code>Fortschritt</code>                         | Menge           | Fortschritt des Ziels                                                                          |
 | <code>Custom Fields</code>                       | Button          | Unter Custom Fields können Sie zusätzliche Faktoren zu ihrem Ziel zuordnen                     |
+| <code>Startwert</code>                           | Anzahl          | Grundwert des Ziels das erhöht bzw. verringert werden soll                                     |
+| <code>Aktueller Wert</code>                      | Anzahl          | Aktueller Wert der Einheit auf die sich das Ziel bezieht                                       |
+| <code>Zielwert</code>                            | Anzahl          | Wert der bis zu der Frist erreicht werden soll                                                 |
+| <code>Einheit</code>                             | Menge           | Bezieht sich auf das jeweilige Ziel. Hierbei kann es sich um Stückzahlen, Zeiten, Umsatz oder                                                                          ähnliches handeln |
+| <code>Richtung</code>                            | Liste           | Bestimmt, ob der aktuelle Wert gleich bleiben, erhöht der verringert werden soll               |
 | <code>Maßnahme</code>                            | Button          | Verknüpfen Sie das Ziel mit den zugehörigen Maßnahmen, die nötig sind um das Ziel zu erreichen |
 | <code>Anhänge</code>                             | Name            | Fügen Sie Dateien hinzu, die für dieses Risiko notwendig sind                                  |
 | <code>Schlagworte</code>                         | Text (optional) | Schlagworte bieten Ihnen die Möglichkeit das Ziel einem oder mehreren Themenfeldern zuzuordnen |
@@ -51,17 +55,10 @@ Beim Erstellen eines Ziels können Sie Verantwortliche für dieses Ziel ernennen
 
 ## Wie erfasse ich den Fortschritt für ein Ziel
 
-In dem Bereich Fortschritt lassen sich jeweils die aktuellen Wert hinterlegen. Hier können %-Werte hinterlegt werden. Unsere Ziel hierbei ist es, Ziele vergleichbar zu machen, so dass man mehrere Ziele anhand des Fortschritts Werts miteinander vergleichen kann.
+In dem Bereich Fortschritt lassen sich jeweils die aktuellen Wert hinterlegen. Der Fortschritt lässt sich als Prozenztwert oder als absoluter Wert erfassen. Wird das Ziel als absoluter Wert erfasst, dann kann auch zusätlzich eine Einheit festgelegt werden.
 
-Beispiel: Umsatzsteigerung
+Der zeitliche Verlauf der Zielerreichung wird automatisch in einem Diagramm angezeigt. Über den Menüpunkt <code>Fortschritt</code> in der Seitenleiste können auch die bereits bestehenden Werte auch wieder editiert werden.
 
-- Startwert: 0€
-- Ziel: 100€
-- Aktueller Wert: 50€
-
-Daraus folgt aktueller Fortschritt entspricht 50%.
-
-Über den Button Details anzeigen lassen sich dann die verschiedenen Werte im zeitlichen Verlauf anzeigen.
 
 ### Beispiel
 
