@@ -138,3 +138,43 @@ If the document you write is incomplete please write
 | Risks & Chances            |                 |                  |      |                  |     |                     |           |                  |       |                            |                 |                 |             | x                |          |                 |           |      |
 | Trainings                  |                 |                  |      |                  |     |                     | x         |                  | x     | x                          |                 |                 |             | x                |          |                 |           |      |
 | WIKI                       |                 |                  |      |                  |     |                     |           |                  |       |                            |                 |                 |             |                  |          |                 |           |      |
+
+## App Homepages
+
+How to create a good home page?
+
+<https://www.smashingmagazine.com/2018/02/comprehensive-guide-to-mobile-app-design/>
+
+- Minimize Cognitive Load
+- DECLUTTERING
+- USE FAMILIAR SCREENS
+- MINIMIZE USER INPUT
+- ANTICIPATE USERS NEEDS
+- Focus On The First-Time Experience
+- DESIGN A GOOD ONBOARDING EXPERIENCE
+- Don’t Ask For Set-Up Information Up Front
+- PUSH THE VALUE
+
+| Item                    | Priority | Multiple entities | Apps                       |
+| ----------------------- | -------- | ----------------- | -------------------------- |
+| My dashboard            |          | Y                 |                            |
+| My status               |          | Y                 | Absence planner            |
+| Pinned entries          |
+| Comments                |          | Y                 |
+| Notification            |
+| Smart Views             |          | Y                 |
+| Common tasks            |          |                   | Functions & Qualifications |
+| Global filter           |          |                   | Functions & Qualifications |
+| Access your content     |          |                   | Blog, Doc, Wiki            |
+| Quick access            |          |                   | Blog, Doc, Wiki            |
+| Tags                    |          | ?                 |                            |
+| Actions in this app     |          | ?                 | Forms                      |
+| Action required v1      |          | ?                 | Ideas                      |
+| Action required v2      |          | ?                 | Trainings                  |
+| Bot                     |          | ?                 |                            |
+| Workflows               |          | ?                 |                            |
+| Pending connected tasks |          | ?                 | Claim Management           |
+| App overview            |          | ?                 | Dashboard & Reporting      |
+| Custom                  |          | ?                 | Admin                      |
+| Custom                  |          | ?                 | Profile                    |
+| Search results          |          | ?                 | Settings                   |
