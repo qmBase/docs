@@ -27,9 +27,7 @@ Während Sie Ihren Eintrag erstellen sehen Sie gleichzeitig eine Karte, in der �
 Beim Abschicken des Antrags, geschieht im Hintergrund folgendes.
 
 - Wenn in Ihrem Mitarbeiterprofil Vertreter eingetragen wurden, werden diese automatisch als Vertreter während Ihrer Abwesenheit übernommen.
-
 - Freigeber, die für die gewählte Abwesenheit festgelegt sind, werden automatisch als Freigeber übernommen.
-
 - Vertreter und Freigeber werden benachrichtigt und über ihre jeweiligen Aufgaben informiert.
 
 ### 3. Warten auf Genehmigung des Antrags
@@ -97,6 +95,18 @@ Eigenschaften der Abwesenheitsregelung:
 - Restlaufzeit: Zeitraum für den die Resttage zur Verfügung stehen
 
 **Feiertage**: Unter Einstellungen -> Allgemein Feiertage können Sie Feiertage oder auch Betriebsferien festlegen.
+
+### Benachrichtigungen
+
+Bei der Bearbeitung von Abwesenheitsanträgen werden zu folgenden Anlässen Benachrichtigungen Versand:
+
+| Auslösendes Ereignis        | Empfänger                                 | Benachrichtigung an Abonnenten der Watch Funktion |
+| --------------------------- | ----------------------------------------- | ------------------------------------------------- |
+| Erstellen eines Antrags     | Freigebende Personen                      |                                                   |
+| Editieren eines Ziels       | Verantwortlicher                          | ✅                                                |
+| Ändern des Status           | Person, für die der Antrag gestellt wurde | ✅                                                |
+| Hinzufügen eines Freigebers | Hinzugefügter Freigeber                   |                                                   |
+| Hinzufügen eines Vertreters | Hinzugefügter Vertreter                   | ✅                                                |
 
 <!-- Custom component -->
 
