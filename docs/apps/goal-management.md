@@ -44,21 +44,21 @@ Fügen Sie zum Beispiel [Maßnahmen] (projects-and-tasks.md), Ziele oder [Custom
 | <code>Verantwortlicher</code>                    | Name            | Person, die für das Ziel verantwortlich ist                                                                     |
 | <code>Fortschritt</code>                         | Menge           | Fortschritt des Ziels                                                                                           |
 | <code>Custom Fields</code>                       | Button          | Unter Custom Fields können Sie zusätzliche Faktoren zu ihrem Ziel zuordnen                                      |
-| <code>Startwert</code>                           | Anzahl          | Grundwert des Ziels das erhöht bzw. verringert werden soll                                                      |
+| <code>Startwert</code>                           | Anzahl          | Grundwert des Ziels, der erhöht bzw. reduziert werden soll                                                      |
 | <code>Aktueller Wert</code>                      | Anzahl          | Aktueller Wert der Einheit auf die sich das Ziel bezieht                                                        |
 | <code>Zielwert</code>                            | Anzahl          | Wert der bis zu der Frist erreicht werden soll                                                                  |
-| <code>Einheit</code>                             | Menge           | Bezieht sich auf das jeweilige Ziel. Hierbei kann es sich um Stückzahlen, Zeiten, Umsatz oder ähnliches handeln |
+| <code>Einheit</code>                             | Menge           | Einheit in der das Ziel gemessen wird, hierbei kann es sich um Prozentwerte oder absolute Werte (z.B. Geld, Stückzahlen, Zeiten) handeln |
 | <code>Richtung</code>                            | Liste           | Bestimmt, ob der aktuelle Wert gleich bleiben, erhöht der verringert werden soll                                |
 | <code>Maßnahme</code>                            | Button          | Verknüpfen Sie das Ziel mit den zugehörigen Maßnahmen, die nötig sind um das Ziel zu erreichen                  |
-| <code>Anhänge</code>                             | Name            | Fügen Sie Dateien hinzu, die für dieses Risiko notwendig sind                                                   |
+| <code>Anhänge</code>                             | Name            | Fügen Sie Dateien hinzu, die für dieses Ziel relevant sind                                                   |
 | <code>Schlagworte</code>                         | Text (optional) | Schlagworte bieten Ihnen die Möglichkeit das Ziel einem oder mehreren Themenfeldern zuzuordnen                  |
-| <code>Offen/In Bearbeitung</code>                | Button          | Setzen Sie den Bearbeitungsstand des Ziels nach Ihren Präferenzen                                               |
+| <code>Offen/In Bearbeitung/Abgeschlossen</code>  | Button          | Setzen Sie den Bearbeitungsstand des Ziels                                             |
 | <code>Übergeordnete/Untergeordnete Ziele </code> | Text (optional) | Setzen Sie Ihr Ziel in Relation zu anderen Zielen                                                               |
 | <code>Audit</code>                               | Button          | Verbinden Sie Ihr Ziel mit einem Audit für mehr Übersichtlichkeit und Transparenz                               |
 
 ### Auswirkungen und Aktionen im Hintergrund(TODO)
 
-Beim Erstellen eines Ziels können Sie Verantwortliche für dieses Ziel ernennen. Diese Mitarbeiter erhalten eine E-Mail, sobald Sie zu Verantwortlichen ernannt werden.
+Beim Erstellen eines Ziels können Sie die Verantwortliche Person für dieses Ziel bestimmen. Der Mitarbeiter wird darüber automatisch per E-Mail informiert.
 
 ## Wie erfasse ich den Fortschritt für ein Ziel
 
