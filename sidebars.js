@@ -100,7 +100,6 @@ const sidebars = {
         "faqs/faq-32",
         "faqs/faq-35",
         "faqs/faq-37",
-        "faqs/faq-38",
         "faqs/faq-39",
         "faqs/faq-42",
         "faqs/faq-45",

@@ -138,3 +138,46 @@ If the document you write is incomplete please write
 | Risks & Chances            |                 |                  |      |                  |     |                     |           |                  |       |                            |                 |                 |             | x                |          |                 |           |      |
 | Trainings                  |                 |                  |      |                  |     |                     | x         |                  | x     | x                          |                 |                 |             | x                |          |                 |           |      |
 | WIKI                       |                 |                  |      |                  |     |                     |           |                  |       |                            |                 |                 |             |                  |          |                 |           |      |
+
+## App Homepages
+
+How to create a good home page?
+
+<https://www.smashingmagazine.com/2018/02/comprehensive-guide-to-mobile-app-design/>
+
+- Minimize Cognitive Load
+- DECLUTTERING
+- USE FAMILIAR SCREENS
+- MINIMIZE USER INPUT
+- ANTICIPATE USERS NEEDS
+- Focus On The First-Time Experience
+- DESIGN A GOOD ONBOARDING EXPERIENCE
+- Don’t Ask For Set-Up Information Up Front
+- PUSH THE VALUE
+
+| Item                           | Priority | Multiple entities | Apps                       |                                                                                    |
+| ------------------------------ | -------- | ----------------- | -------------------------- | ---------------------------------------------------------------------------------- |
+| My dashboard / Action required | 1        |                   | Y                          | -> Notification + my items + Action required                                       |
+| My status                      |          | Y                 | Absence planner            | Remove                                                                             |
+| Pinned entries                 | -1       |                   |                            | Use everywhere                                                                     |
+| Comments                       |          | Y                 |                            | Remove                                                                             |
+| Notification                   |          |                   |                            | Unify with 1                                                                       |
+| Smart Views                    |          | Y                 |                            | Remove                                                                             |
+| Common tasks                   |          |                   | Functions & Qualifications | Move to sidebar                                                                    |
+| Global filter                  |          |                   | Functions & Qualifications | Move to settings in app                                                            |
+| Access your content            |          |                   | Blog, Doc, Wiki            | Remove / Move to sidebar                                                           |
+| Quick access                   | 0        |                   | Blog, Doc, Wiki            |
+| Tags                           |          | ?                 |                            | Sidebar + Modal                                                                    |
+| Actions in this app            |          | ?                 | Forms                      | Unify                                                                              |
+| Action required v1             |          | ?                 | Ideas                      | Unify                                                                              |
+| Action required v2             |          | ?                 | Trainings                  | Unify                                                                              |
+| Bot                            |          | ?                 |                            | Merge in action required as second part                                            |
+| Workflows                      |          | ?                 |                            | AppSettings                                                                        |
+| Pending connected tasks        |          | ?                 | Claim Management           |
+| Notification for all new       |          | ?                 | Claim Management           | Move to App settings                                                               |
+| App overview                   |          | ?                 | Dashboard & Reporting      | leave as it is                                                                     |
+| Custom                         |          | ?                 | Admin                      | Clean up only action required                                                      |
+| Custom                         |          | ?                 | Profile                    | leave as it is                                                                     |
+| Search results                 |          | ?                 | Settings                   | leave as it is                                                                     |
+| New here card                  |          | ?                 | IdeaManagement             | Unify under condition no action required + zero data created                       |
+| Prerequisites                  |          | ?                 |                            | App lock screen modal with overview of required / missing data and permission info |
