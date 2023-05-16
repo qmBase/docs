@@ -102,7 +102,7 @@ If the document you write is incomplete please write
 | CRM                        | Ratings          |          | x     | x           |
 | Document management        |                  | x        | x     | x           |
 | Employees                  |                  | x        | x     | x           |
-| Error management           |                  | x        | x     | x           |               |           | x     |
+| Error management           |                  | x        | x     | x           | x             |           | x     |
 | Forms                      |                  |          |       | x           |
 | Functions & Qualifications | Non Standard     |
 | Goal management            |                  | x        | x     | x           | x             |           | x     |
