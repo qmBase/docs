@@ -111,7 +111,7 @@ If the document you write is incomplete please write
 | Maintenance                | Inspections done |          | x     |
 | Projects & Tasks           | Projects         | x        | x     | x           |
 | Projects & Tasks           | Tasks            | x        | x     | x           | x             |           | x     |
-| Products                   |                  | x        | x     | x           |
+| Products                   |                  | x        | x     | x           | x             |
 | Risks & Chances            |                  | x        | x     | x           | x             |
 | Trainings                  |                  | x        | x     | x           | x             |           | x     |
 | WIKI                       |                  | x        | x     | x           |
