@@ -9,11 +9,11 @@ on:
       version:
         description: "Version name"
         required: true
-        default: "1.1.157"
+        default: "1.1.190"
       urlToBlogPost:
         description: "Url to blog post"
         required: true
-        default: "https://help.qmbase.com/blog/2021/10/01/version-1_1_159"
+        default: "https://help.qmbase.com/blog/2023/05/08/version-1_1_189"
 jobs:
   tweet:
     runs-on: ubuntu-latest
