@@ -8,4 +8,4 @@ In case you reach the rate limit the server will response with a status code 429
 
 ## Default rate limits
 
-Different types of API enforce different rate limits. Unless otherwise described the rate limit is 1000 requests per minute and user.
+Different types of API enforce different rate limits. Unless otherwise described the rate limit is 500 requests per minute and user.
