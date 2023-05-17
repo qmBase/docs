@@ -40,6 +40,7 @@ angehangen
 announcement
 another
 Another
+ANTICIPATE
 anyone
 anzeigbare
 appear
@@ -117,6 +118,7 @@ Caching
 Calendar
 calender
 capable
+card
 Card
 caution
 centered
@@ -128,12 +130,14 @@ Chancenkategorien
 Chances
 chart
 charts
+Checkboxen
 choosing
 Chrome
 claims
 Claims
 Clicken
 Cmdk
+Cognitive
 Colons
 Colorpicker
 columns
@@ -183,8 +187,10 @@ dar├╝berhinaus
 Dar├╝berhinaus
 dashes
 Datumspicker
+DECLUTTERING
 dedidacted
 Delayed
+described
 Detailsansicht
 Detailsansichten
 Detailsdarstellung
@@ -275,6 +281,7 @@ Etiam
 euismod
 Europe
 everyone
+everywhere
 evtl
 Evtl
 exachanged
@@ -282,11 +289,13 @@ example
 Example
 except
 existing
+Experience
 experiencing
 expert
 failures
 faith
 faktenbasierte
+FAMILIAR
 faqs
 faucibus
 favorite
@@ -558,10 +567,12 @@ Ordered
 Organigrammdarstellung
 organisation
 ornare
+otherwise
 outages
 outer
 outlines
 Outlook
+overview
 padding
 page
 pages
@@ -584,6 +595,7 @@ pflichtm├ñ├ƒig
 pflichtmäßig
 pharetra
 Phasellus
+Pinned
 pipes
 placerat
 places
@@ -645,6 +657,7 @@ questions
 quickly
 quis
 ratings
+reach
 really
 recent
 recipient
@@ -724,6 +737,7 @@ Scenario
 Schnellzugriffelement
 Schnellzugrifffunktion
 Scratch
+SCREENS
 screenshots
 second
 Second
@@ -833,6 +847,7 @@ ultricies
 underscores
 understand
 unexpected
+Unify
 unless
 unplanned
 unteranderem
