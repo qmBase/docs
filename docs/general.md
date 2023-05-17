@@ -28,7 +28,7 @@ Verwenden Sie das Suchfeld in der oberen rechten Ecke, um nach Daten zu suchen, 
 
 #### Mehr Informationen anzeigen
 
-Verwenden Sie das Kebab-Menü, um das Aussehen der Tabelle anzupassen. Zeigen Sie mehr Spalten an oder exportieren Sie Daten, wenn diese Funktion verfügbar ist.
+Verwenden Sie das Kontext-Menü (3-Punkte), um das Aussehen der Tabelle anzupassen. Zeigen Sie mehr Spalten an oder exportieren Sie Daten, wenn diese Funktion verfügbar ist.
 
 #### Filter
 
