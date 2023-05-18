@@ -131,11 +131,15 @@ Chances
 chart
 charts
 Checkboxen
+choose
 choosing
 Chrome
 claims
 Claims
 Clicken
+clicking
+cloned
+cloning
 Cmdk
 Cognitive
 Colons
@@ -409,6 +413,7 @@ informationen
 informing
 infrastructure
 Infrastructure
+initials
 Inkognitomodus
 Inlineframe
 innenwirksam
@@ -500,6 +505,7 @@ Ma├ƒnahmenmanagement
 Ma├ƒnahmenpl├ñne
 Ma├ƒnahmentabelle
 Ma├ƒnhamen
+made
 maintains
 making
 malesuada
