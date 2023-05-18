@@ -12,19 +12,42 @@ Das Auffinden Ihrer Daten war noch nie so einfach. Alles beginnt, wenn Sie einen
 
 ### Tabellen
 
-Tabellen und Filter sind alle nach einem einheitlichen Schema aufgebaut und beinhalten ähnliche Funktionen.
+Tabellen sind das Herzstück jeder datengesteuerten Anwendung. Tabellen und Filter sind alle nach einem einheitlichen Schema aufgebaut und beinhalten ähnliche Funktionen.
+Diese Funktionen sind im folgenden beschrieben.
 
 ![Example Table Gif with filters and columns toggle](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/basicTableFunctions.gif)
 
-- **Standardeinstellungen**: Wir verwenden sinnvolle Voreinstellungen, um nur relevante Daten anzuzeigen. Zum Beispiel filtern wir Daten heraus, die bereits als erledigt markiert wurden.
-- **Suchfeld**: Verwenden Sie das Suchfeld in der oberen rechten Ecke, um nach Daten zu suchen, die innerhalb der Tabelle sichtbar sind.
-- **Daten filtern**: Verwenden Sie die Filter-Schaltfläche, um die in der Tabelle angezeigten Ergebnisse einzugrenzen.
-- **Mehr Informationen anzeigen**: Verwenden Sie das Kebab-Menü, um das Aussehen der Tabelle anzupassen. Zeigen Sie mehr Spalten an oder exportieren Sie Daten, wenn diese Funktion verfügbar ist.
+#### Standardeinstellungen
+
+Wir verwenden sinnvolle Voreinstellungen, um nur relevante Daten anzuzeigen. Zum Beispiel filtern wir Daten heraus, die bereits als erledigt markiert wurden.
+Zusätzlich werden nur die Spalten dargestellt, die in der Regel benötigt werden.
+
+#### Suchfeld
+
+Verwenden Sie das Suchfeld in der oberen rechten Ecke, um nach Daten zu suchen, die innerhalb der Tabelle sichtbar sind.
+
+#### Mehr Informationen anzeigen
+
+Verwenden Sie das Kontext-Menü (3-Punkte), um das Aussehen der Tabelle anzupassen. Zeigen Sie mehr Spalten an oder exportieren Sie Daten, wenn diese Funktion verfügbar ist.
 
 #### Filter
 
-Mit Filtern lassen sich große Datenmengen einfach auf die Informationen herunterbrechen, die Sie suchen. Alle Filter, die Sie aktivieren werden bei uns über UND Verknüpfungen miteinander verbunden. Wenn Sie also z.B. Maßnahmen nach dem Status "Offen" und der Verantwortlichen Person "Max Mustermann" filtern, werden Ihnen allle Maßnahmen angezeigt die **beide** Bedingungen erfüllen.
+Verwenden Sie die Filter-Schaltfläche, um die in der Tabelle angezeigten Ergebnisse einzugrenzen.
+Mit Filtern lassen sich große Datenmengen einfach auf die Informationen herunterbrechen, die Sie suchen. Alle Filter, die Sie aktivieren werden bei uns über UND Verknüpfungen miteinander verbunden.
+Wenn Sie also z.B. Maßnahmen nach dem Status "Offen" und der Verantwortlichen Person "Max Mustermann" filtern, werden Ihnen allle Maßnahmen angezeigt die **beide** Bedingungen erfüllen.
 Sie können beliebig viele Filter kombinieren. Um die Filter nicht jedes Mal neu zu erstellen, können Sie die Filter in vielen Bereichen auch direkt als [Smart View](/docs/faqs/smart-views) abspeichern.
+
+#### Sortieren
+
+Daten in Tabellenspalten können vielfach sortiert werden. Eine Sortierung ist in der Regel dann möglich, wenn es sinnvolles Kriterium der Sortierung gibt.
+Sortierbar sind z.B. Datumsangaben oder Texte. Nicht sortierbar sind hingegen Spalten mit den Schlagworten. Da in der Spalte mehrere Schlagworte stehen könnten stellt sich hier nämlich die Frage, welches Schlagwort zur Sortierung herangezogen werden sollte.
+
+#### Exportieren von Daten
+
+Sie können die meisten Daten in Tabellen lassen sich exportieren. Hierzu gehen Sie bitte wie folgt vor:
+
+1. Markieren Sie die Datensätze in der Tabelle, die Sie gerne exportieren möchten. Klicken Sie dazu auf diesen Button oben rechts über der Tabelle: ![](https://caqadmin.blob.core.windows.net/faqs/0-images/mceclip2.png)
+2. Starten Sie den Download. Klicken Sie dazu auf diesen Button oben rechts über der Tabelle: ![](https://caqadmin.blob.core.windows.net/faqs/0-images/mceclip3.png)
 
 ### Suchen von Personen
 

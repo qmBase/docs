@@ -3,7 +3,7 @@ id: article-shared
 title: Gemeinsame Funktionen in Blog, Dokumentenmanagement und Wiki
 ---
 
-import { FaCaretDown, FaInfo, FaPlus, FaLink } from "react-icons/fa";
+import { FaCaretDown, FaInfo, FaPlus, FaLink, FaHome } from "react-icons/fa";
 
 In diesem Dokument werden die Funktionen beschrieben, die in den Apps Blog, Dokumentenmanagement und Wiki identisch sind.
 Alle aufgezählten Apps beruhen auf einzelnen Dokumenten, die bearbeitet, versioniert und freigeben werden können und haben daher starke Überschneidungen.
@@ -43,6 +43,14 @@ Sollten Sie die Ordner wieder deaktivieren verschwinden der Eintrag wieder aus d
 Über den Button <code>Neu</code> kann entweder ein neuer Ordner oder ein neues Dokument erstellt werden. Vergeben Sie den gewünschten Namen für den Ordner und speichern Sie diesen.
 Der Ordner wird an der Stelle im Ordnerverzeichnis erstellt, an der Sie sich zum Zeitpunkt der Erstellung befinden.
 Um Dokumente oder Ordner zu verschieben, müssen Sie zunächst das erweiterte Tabellenmenü (3 Punkte) öffnen. Anschließend die gewünschten Einträge auswählen und auf den Button <code>Verschieben</code> klicken.
+
+#### Löschen von Ordnern
+
+Leere Ordner lassen sich nach einer kurzen Bestätigung löschen. Sollte ein Ordner noch Inhalte (Andere Ordner, Dokumente oder auch gelöschte Dokumente) enthalten, ist das Löschen des Ordners nicht ohne weiteres möglich.
+Wir haben hier Schutzmaßnahmen eingeführt, um ein unbeabsichtigtes Löschen von Daten zu verhindern.
+Beim Löschen erscheint dann eine Fehlermeldung mit dem entsprechenden Hinweis auf vorhandene Inhalte.
+Ordner mit Inhalten können nur durch Administratoren gelöscht werden. Der Administrator muss in diesem Fall die Checkbox zur Umgehung der Schutzmaßnahmen bestätigen, um das Löschen auszuführen.
+Die Inhalte werden in diesem Fall in das Stammverzeichnis verschoben.
 
 ### Was ist eine README-Datei?
 
