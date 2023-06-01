@@ -70,4 +70,11 @@ Wenn Sie über einen Outlook Kalender verfügen, dann können Sie den Kalender w
 Die Kalender Einträge enthalten einige Informationen zu dem Ereignis sowie einen Link, so dass Sie schnell auf das entsprechende Ereignis zugreifen können.
 Es werden Ereignisse der letzten Zeit und alle zukünftigen Ereignisse zur Verfügung gestellt.
 
-Bitte beachten Sie: Die Daten für diesen Kalender können aus technischen Gründen nur so abgespeichert werden, dass sie allgemein öffentlich zugänglich sind. Die enthaltenen Informationen können somit auch durch Dritte eingesehen werden, sofern sie über den entsprechenden Link verfügen. Sollte das ein Problem für Sie darstellen, können Sie den Kalender einfach wieder deaktivieren.
+Bitte beachten Sie: Die Daten für diesen Kalender können aus technischen Gründen nur so abgespeichert werden, dass sie allgemein öffentlich zugänglich sind.
+Die enthaltenen Informationen können somit auch durch Dritte eingesehen werden, sofern sie über den entsprechenden Link verfügen. Sollte das ein Problem für Sie darstellen, können Sie den Kalender einfach wieder deaktivieren.
+
+Generell gilt für die Gestaltung der Kalendereinträge:
+
+- Termin entspricht der Frist um 12:00 Uhr mittags
+- Audits und Schulungen werden mit Uhrzeit angezeigt, sofern das Ereignis nicht als ganztägig markiert ist.
+- Termine können in Ausnahmefällen doppelt erscheinen z.B. wenn Sie Verantwortlicher und Teilnehmer einer Schulung zugleich sind.
