@@ -893,6 +893,7 @@ Verknüpfungsdialog
 Verknüpfungskarten
 Verknüpfungskategorien
 Verknüpfungsmöglichkeiten
+Verknüpfungstabelle
 Verknüpfungstabellen
 versioniere
 versionieren
