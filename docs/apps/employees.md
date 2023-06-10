@@ -23,10 +23,11 @@ Innerhalb von qmBase werden die Nutzer und Mitarbeiter getrennt voneinander erfa
    Da es diesen Nutzer dann nicht mehr gibt, werden auch keine E-Mail Benachrichtigungen mehr an diese Person verschickt.
 
 2. Als Nutzer mit Zugriff auf die App [Mitarbeiter](https://app.qmbase.com/Account/findworkspace?returnUrl=/employees) entfernen Sie den Mitarbeiter aus der Mitarbeiterliste. Dazu gibt es zwei Möglichkeiten:
-   - Mitarbeiter löschen: Der Mitarbeiter wird in den Papierkorb verschoben
-   - Mitarbeiter aus Mitarbeitern entfernen: Die Person wird nicht mehr als Mitarbeiter gelistet, ist aber noch als Kontakt über das CRM erreichbar
 
-4. Abschließend muss überprüft werden, ob der ehemalige Mitarbeiter noch als Verantwortlicher für aktive Aufgaben festgelegt ist.
+   - Mitarbeiter löschen: Der Mitarbeiter wird in den Papierkorb verschoben
+   - Mitarbeiter aus Mitarbeitern entfernen: Die Person wird nicht mehr als Mitarbeiter gelistet, ist aber noch als Kontakt über das CRM erreichbar. Verknüpfte Positionen bleiben erhalten.
+
+3. Abschließend muss überprüft werden, ob der ehemalige Mitarbeiter noch als Verantwortlicher für aktive Aufgaben festgelegt ist.
 
 Alle mit dem Mitarbeiter verknüpften Informationen, wie z.B. Maßnahmen oder Ideen bleiben erhalten. Der Mitarbeiter kann dann aber zukünftig nicht mehr als Verantwortlicher ausgewählt werden.
 
@@ -36,10 +37,19 @@ In Ihrem Profil unter **Profileinstellungen > Einstellungen** kann eingestellt i
 
 ### E-Mail Adresse bereits in Verwendung, was ist zu tun?
 
-Wenn beim Erstellen oder ändern eines Mitarbeiterprofils die Fehlermeldung **Email max@mustermann.de is already in use.** auftritt, liegt das daran, dass jede Email Adresse nur einem Profil zugeordnet werden kann.
+Wenn beim Erstellen oder ändern eines Mitarbeiterprofils die Fehlermeldung **Email <max@mustermann.de> is already in use.** auftritt, liegt das daran, dass jede Email Adresse nur einem Profil zugeordnet werden kann.
 An folgenden Stellen kann bereits ein Mitarbeiter vorhanden sein:
 
 - App Mitarbeiter
 - App CRM -> Kontakte -> Nur Personen anzeigen.
 
 Bitte überprüfen Sie jeweils auch den Papierkorb, da für den Abgleich auch gelöschte Personen mit einbezogen werden.
+
+### Was muss ich tun, damit automatisch ein Organigramm erstellt wird
+
+Um automatisch ein Organigramm erstellen zu lassen, müssen die hierarchischen Beziehungen zwischen den einzelnen Positionen definiert werden.
+In den [Einstellungen zu den Positionen](https://app.qmbase.com/Account/findworkspace?returnUrl=/settings/departmentpositions)können Sie jeder Position die hierarchisch untergeordneten Positionen zuordnen.
+
+Sie können auch externe Personen im Organigramm anzeigen. Hilfreich ist das z.B. bei einer externen Fachkraft für Arbeitssicherheit.
+Hierzu ist ein kleiner Workaround notwendig. Sie müssen dazu zunächst die externe Position als Mitarbeiter festlegen.
+Dann können Sie beliebige Positionen zuordnen. Anschließend können Sie die Person wieder aus den Mitarbeitern entfernen.
