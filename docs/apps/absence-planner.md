@@ -87,11 +87,8 @@ Beispiele für Abwesenheitsarten sind:
 Eigenschaften der Abwesenheitsregelung:
 
 - Gültig von bis: Zeitraum in dem die Regelung zur Anwendung kommt
-
 - Verfügbare Tage: Tage, die für diese Regelung zur Verfügung stehen
-
 - Resttage: Tage, die nach Ablauf des Zeitraums noch maximal zur Verfügung stehen
-
 - Restlaufzeit: Zeitraum für den die Resttage zur Verfügung stehen
 
 **Feiertage**: Unter Einstellungen -> Allgemein Feiertage können Sie Feiertage oder auch Betriebsferien festlegen.

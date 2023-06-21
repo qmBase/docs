@@ -20,5 +20,5 @@ Der Test Account läuft nach <TestAccountDuration/> ab. Danach werden alle Ihre 
 Damit Sie <ProductDisplayName/> sofort in Aktion erleben können, können Sie einfach unsere Beispieldaten nutzen. Auf der Startseite finden Sie hierfür einen Button, mit dem Sie die Daten laden können.
 
 :::info
-Alternativ können Sie auch direkt ein Webinar vereinbaren und sich <ProductDisplayName/> von uns erklären lassen.
+Alternativ können Sie auch direkt ein [Webinar vereinbaren](https://www.qmbase.com/webinar-vereinbaren/) und sich <ProductDisplayName/> von uns erklären lassen.
 :::

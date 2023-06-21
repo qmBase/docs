@@ -105,6 +105,7 @@ bold
 border
 bounties
 brackets
+Branding
 break
 Breaking
 brevity
@@ -474,6 +475,7 @@ Lageparameter
 landscape
 lanflz
 later
+Launcher
 Layoutoptimierung
 Learn
 lectus

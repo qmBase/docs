@@ -18,7 +18,8 @@ Wenn Sie nicht angemeldet sind landen Sie auf dem Formular zur Anmeldung. Am unt
 
 #### Zugangsdaten angeben
 
-Auf dieser Seite werden Sie aufgefordert Ihre E-Mail Adresse und ein Passwort anzugeben. Nach der Registrierung müssen Sie auf die Bestätigungsmail warten. Dies dauert typischerweise nicht länger als 1 Minute.
+Auf dieser Seite werden Sie aufgefordert Ihre E-Mail Adresse und ein Passwort anzugeben. Nach der Registrierung müssen Sie auf die Bestätigungsmail warten.
+Dies dauert typischerweise nicht länger als 1 Minute.
 
 #### Account bestätigen
 
@@ -52,7 +53,7 @@ Bitte gehen Sie wie folgt vor:
 2. Probieren Sie sich erneut zu registrieren. Wenn der vorherige Versuch bereits funktioniert hat, können Sie sich so eine erneute Bestätigungsmail zuschicken lassen.
 3. Wenden Sie sich an uns und wir lösen das Problem.
 
-#### Email 'max@mustermann.com' is already taken
+#### Email '<max@mustermann.com>' is already taken
 
 Diese Fehlermeldung erhalten Sie, wenn bereits ein Account mit Ihrer E-Mail Adresse angelegt wurde. Sie können daher keinen neuen Account anlegen.
 
@@ -68,4 +69,12 @@ Für einen sicheren Zugang werden an das Passwort Mindestanforderungen gestellt.
 
 #### Kann jemand anderes mein Passwort einsehen?
 
-Nein, Best Practice ist es Passwörter nicht im Klartext zu speichern. Daran halten wir uns. Das bedeutet, dass Ihr Passwort mit einem sicheren Verfahren verschlüsselt wird. Diese Funktion ist irreversibel, so es nicht möglich ist, dass aus dem verschlüsselten Passwort wieder das lesbare Passwort erstellt werden kann.
+Nein, Best Practice ist es Passwörter nicht im Klartext zu speichern. Daran halten wir uns. Das bedeutet, dass Ihr Passwort mit einem sicheren Verfahren verschlüsselt wird.
+Diese Funktion ist irreversibel, so es nicht möglich ist, dass aus dem verschlüsselten Passwort wieder das lesbare Passwort erstellt werden kann.
+
+#### **Keine Person verknüpft** in der Nutzerübersicht im Administrationsbereich
+
+Sollte im Administrationsbereich in der Nutzerübersicht der Hinweis **Keine Person verknüpft** auftauchen bedeutet dies, dass der Nutzer sich zwar registriert hat.
+Er hat aber noch **nicht** den Anmeldeprozess bis zum Ende durchlaufen. Dies geschieht automatisch, sobald der Nutzer sich das nächste Mal anmeldet.
+Als Administrator brauchen Sie hier nichts zu tun. Sollte der Nutzer die Registrierung nicht vervollständigen können Sie das Profil auch einfach löschen.
+Sobald der Nutzer die Software doch nutzen möchte, müsste er in diesem Fall den Registrierungsprozess noch einmal komplett durchlaufen.
