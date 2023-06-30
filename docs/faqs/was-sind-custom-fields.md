@@ -100,7 +100,7 @@ Wenn Sie jetzt das Custom Field innerhalb der Reklamation ausfüllen, erscheint 
 | Schulungen                |                  | x                                   |
 | WIKI                      |                  |                                     |
 
-## Einschränkugen & Limits der Custom Fields
+## Einschränkungen & Limits der Custom Fields
 
 | Typ                   | Beschreibung |
 | --------------------- | ------------ |
