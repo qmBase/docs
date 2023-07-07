@@ -8,7 +8,9 @@ title: Instandhaltung
 :::info Aktuelle Erweiterungen und Verbesserungen im Bereich Instandhaltung finden Sie [hier](/blog/tags/instandhaltung)
 :::
 
-Die App für das Instandhaltungsmanagement und zur Prüfmittelverwaltung unterstützt Sie in der Verwaltung Ihrer Inventargegenstände. Jedem Inventargegenstand können frei definierbare Inventarprüfungen mit den notwendigen Wiederholungsintervallen zugeordnet werden. Dadurch ergibt sich Ihr Wartungsplan ganz automatisch von selbst. Sämtliche Aktivitäten des Instandhaltungsmanagements und der Prüfmittelverwaltung automatisch ausgewertet und langfristig dokumentiert.
+Die App für das Instandhaltungsmanagement und zur Prüfmittelverwaltung unterstützt Sie in der Verwaltung Ihrer Inventargegenstände.
+Jedem Inventargegenstand können frei definierbare Inventarprüfungen mit den notwendigen Wiederholungsintervallen zugeordnet werden. Dadurch ergibt sich Ihr Wartungsplan ganz automatisch von selbst.
+Sämtliche Aktivitäten des Instandhaltungsmanagements und der Prüfmittelverwaltung automatisch ausgewertet und langfristig dokumentiert.
 
 ## QR Code Etiketten erstellen zur einfachen digitalen Erfassung von Prüfungen
 
@@ -42,7 +44,8 @@ Download: [Etiketten_qmBase_qr.xlsx](./../assets/Etiketten_qmBase_qr.xlsx)
 
 ### Drucken Sie die Etiketten als Serienbrief
 
-Wenn Sie Tabelle aus dem vorherigen Schritt erstellt haben, können Sie sich hier den Serienbrief als Vorlage herunterladen. Achtung: Word meldet beim Öffnen der Datei einen beschädigten Datensatz. Dies kann aber durch einen Klick auf Wiederherstellen behoben werden.
+Wenn Sie Tabelle aus dem vorherigen Schritt erstellt haben, können Sie sich hier den Serienbrief als Vorlage herunterladen. Achtung: Word meldet beim Öffnen der Datei einen beschädigten Datensatz.
+Dies kann aber durch einen Klick auf Wiederherstellen behoben werden.
 
 Download: [Etiketten_qmBase_qr.docx](./../assets/Etiketten_qmBase_qr.docx)
 
@@ -51,13 +54,20 @@ Für Ihren eigenen Serienbrief können Sie folgende Feldfunktionen verwenden:
 - QR Code: <code>DISPLAYBARCODE MERGEFIELD Url QR \q 3 \s 5</code>
 - Anzeigename: <code>MERGEFIELD Anzeigename</code>
 
-In unsere Vorlage verwenden wir Etiketten der Größe 45x45mm. Diese Größe reicht in der Regel aus, damit die Etiketten problemlos von Ihrer Kamera erkannt werden können. Für andere Größen und Etiketten Formen können Sie entweder unsere Vorlage anpassen oder mit dem Word Serienbrief Assistenten mit wenigen Klicks Ihre eigene Vorlage designen. Mehr Informationen zur Erstellungen von Serienbriefen finden Sie [hier](https://www.google.de/search?q=office+serienbrief+erstellen).
+In unsere Vorlage verwenden wir Etiketten der Größe 45x45mm. Diese Größe reicht in der Regel aus, damit die Etiketten problemlos von Ihrer Kamera erkannt werden können.
+Für andere Größen und Etiketten Formen können Sie entweder unsere Vorlage anpassen oder mit dem Word Serienbrief Assistenten mit wenigen Klicks Ihre eigene Vorlage designen.
+Mehr Informationen zur Erstellungen von Serienbriefen finden Sie [hier](https://www.google.de/search?q=office+serienbrief+erstellen).
 
 ### Etikettieren Sie Ihre Gegenstände
 
 Die Etiketten können jetzt mit der Serienbrief Funktion von Word gedruckt werden und auf Ihren Inventargegenständen verteilt werden. Danach können Sie die Etiketten einfach einscannen und sofort Prüfungen und Prüfdaten erfassen.
 
 ## FAQs Instandhaltung
+
+### Wer kann Prüfungen erfassen?
+
+Um Prüfungen zu erfassen, müssen Sie Zugriff auf den Inventargegenstand haben. Zusätzlich müssen Sie entweder (Module)-Administrator oder Verantwortlicher sein.
+Alternativ können Sie auch über den Tab Zugriff als Bearbeiter hinzugefügt werden.
 
 ### Welche Daten soll ich erfassen
 
