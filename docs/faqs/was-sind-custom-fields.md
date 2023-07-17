@@ -52,7 +52,8 @@ Das Hervorheben von Custom Fields, die als Pflichtfelder definiert sind, wird in
 
 Mit Custom Fields können Sie die qmBase Prozesse stärker individualisieren und an Ihr Unternehmen anpassen.
 Ein wichtiger Punkt bei dieser Anpassung kann z.B. der Zugriff auf Custom Fields nur für spezieller Nutzer sein.
-Z.B. kann es bei Reklamationen gewünscht sein, dass alle Reklamationen einmal durch den Betriebsleiter freigegeben werden sollen. Diese Anforderung können Sie umsetzen, indem Sie das Ändern des Custom Fields an eine spezielle Rolle knüpfen, die es nur dem Betriebsleiter erlaubt das Feld asuzufüllen.
+Z.B. kann es bei Reklamationen gewünscht sein, dass alle Reklamationen einmal durch den Betriebsleiter freigegeben werden sollen.
+Diese Anforderung können Sie umsetzen, indem Sie das Ändern des Custom Fields an eine spezielle Rolle knüpfen, die es nur dem Betriebsleiter erlaubt das Feld auszufüllen.
 
 Folgende Schritte sind dafür erforderlich:
 
