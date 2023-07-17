@@ -81,57 +81,22 @@ Benachrichtigungen für Ereignisse, die an verschiedenen Stellen der Software au
 
 ## Design der Benachrichtigungen
 
-Der Aufbau des Betreffs ist wie folgt: **Schweregrad** > **App** > **Zweck** > **#{ID} {Titel des zu Grunde liegenden Elements}**. Im Inhalt der Nachricht werden, falls notwendig, weitere Details beschrieben und ein Link zu dem zu Grunde liegenden Eintrag hinterlegt.
+Das Design unserer Benachrichtigungen folgt einem durchdachten Aufbau. Der Betreff der E-Mail ist nach folgendem Schema aufgebaut.
 
-| Variable    | Beispiel                                                                              |
-| ----------- | ------------------------------------------------------------------------------------- |
-| Schweregrad | Info, Handlung erforderlich                                                           |
-| App         | Name der App z.B. Ideenmanagement                                                     |
-| Zweck       | Was soll durch die Benachrichtigung erreicht werden z.B. Idee muss freigegeben werden |
+> _Schweregrad_ > _App_ > _Zweck_ > _#{ID} {Titel des zu Grunde liegenden Elements}_
 
-### Beispiel Aufbau der E-Mail Benachrichtigung
+Im Inhalt der Nachricht werden, falls notwendig, weitere Details beschrieben und ein Link zu dem zu Grunde liegenden Eintrag hinterlegt.
+In einer Tabelle werden die wichtigsten Daten strukturiert dargestellt.
 
-<hr />
+| Variable                 | Beispiel                                                                              |
+| ------------------------ | ------------------------------------------------------------------------------------- |
+| ID                       | ID des Objekts                                                                        |
+| Titel                    | Titel des Objekts                                                                     |
+| Zweck                    | Was soll durch die Benachrichtigung erreicht werden z.B. Idee muss freigegeben werden |
+| Schweregrad              | Info, Handlung erforderlich                                                           |
+| App                      | Name der App z.B. Ideenmanagement                                                     |
+| Ausgelöst durch Person   | Person, die Benachrichtigung ausgelöst hat.                                           |
+| Ausgelöst durch Ereignis | Ereignis, das die Benachrichtigung ausgelöst hat.                                     |
 
-**Betreff:** [Handlung erforderlich] > Ideenmanagement > Freigabe angefragt > #{ID} {Titel der Idee}
-
-Inhalt
-
-#### \#{ID} {Titel der Idee}
-
-<table>
-  <thead></thead>
-  <tbody>
-    <tr>
-      <td>Schweregrad</td>
-      <td>Info</td>
-    </tr>
-    <tr>
-      <td>App</td>
-      <td>Ideenmanagement</td>
-    </tr>
-    <tr>
-      <td>Zweck der Benachrichtigung</td>
-      <td>Idee eingegangen</td>
-    </tr>
-  </tbody>
-</table>
-
-if action required
-
-<button className="button button--primary" disabled>
-  Primary CTA
-</button>
-
-if info
-
-<button className="button button--link" disabled>
-  Primary CTA
-</button>
-<br />
-
-**Warum bekommen Sie diese Nachricht?:** {Begründung}
-
-Weiterführende Beschreibung...
-
-<hr />
+Für den Fall, dass die E-Mail eine Handlung auslösen soll, finden Sie unterhalb der Tabelle direkt einen prägnanten Link zu der Stelle, wo die Aktion ausgeführt werden kann.
+In der Fußzeile der Benachrichtigung finden Sie noch einige Detailinformationen, wie etwa die eingestellte Sprache oder Links, um Ihre Benachrichtigungen zu konfigurieren.
