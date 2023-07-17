@@ -10,7 +10,7 @@ title: Instandhaltung
 
 Die App für das Instandhaltungsmanagement und zur Prüfmittelverwaltung unterstützt Sie in der Verwaltung Ihrer Inventargegenstände.
 Jedem Inventargegenstand können frei definierbare Inventarprüfungen mit den notwendigen Wiederholungsintervallen zugeordnet werden. Dadurch ergibt sich Ihr Wartungsplan ganz automatisch von selbst.
-Sämtliche Aktivitäten des Instandhaltungsmanagements und der Prüfmittelverwaltung automatisch ausgewertet und langfristig dokumentiert.
+Sämtliche Aktivitäten des Instandhaltungsmanagements und der Prüfmittelverwaltung werden automatisch ausgewertet und langfristig dokumentiert.
 
 ## QR Code Etiketten erstellen zur einfachen digitalen Erfassung von Prüfungen
 
