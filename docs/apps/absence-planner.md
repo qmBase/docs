@@ -97,13 +97,11 @@ Eigenschaften der Abwesenheitsregelung:
 
 Bei der Bearbeitung von Abwesenheitsanträgen werden zu folgenden Anlässen Benachrichtigungen Versand:
 
-| Auslösendes Ereignis        | Empfänger                                 | Benachrichtigung an Abonnenten der Watch Funktion |
-| --------------------------- | ----------------------------------------- | ------------------------------------------------- |
-| Erstellen eines Antrags     | Freigebende Personen                      |                                                   |
-| Editieren eines Ziels       | Verantwortlicher                          | ✅                                                |
-| Ändern des Status           | Person, für die der Antrag gestellt wurde | ✅                                                |
-| Hinzufügen eines Freigebers | Hinzugefügter Freigeber                   |                                                   |
-| Hinzufügen eines Vertreters | Hinzugefügter Vertreter                   | ✅                                                |
+| Auslösendes Ereignis        | Empfänger                                                                             |
+| --------------------------- | ------------------------------------------------------------------------------------- |
+| Erstellen eines Antrags     | Freigebende Personen                                                                  |
+| Ändern des Antragsstatus    | Person, für die der Antrag gestellt wurde. Bei Freigabe Benachrichtigung an Vertreter |
+| Hinzufügen eines Freigebers | Hinzugefügter Freigeber                                                               |
 
 <!-- Custom component -->
 

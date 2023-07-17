@@ -132,6 +132,7 @@ Chances
 chart
 charts
 Checkboxen
+Checklisteneintrag
 choose
 choosing
 Chrome
@@ -448,6 +449,7 @@ italics
 itself
 justo
 Jzrt
+Kalicanin
 Kanban
 Kategorienverwaltung
 keep
@@ -550,6 +552,7 @@ neat
 necessary
 need
 needs
+Nenad
 neque
 neuzuladen
 newlines
