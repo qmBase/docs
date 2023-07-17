@@ -44,7 +44,7 @@ In der Detailsansicht werden Custom Fields, die als Pflichtfelder definiert sind
 
 ![](https://caqadmin.blob.core.windows.net/faqs/102-images/e5f13c40-025d-453a-9387-90a9a4fd3492-mceclip1.png)
 
-Das Hervorheben von Custom Fields, die als Pflichtfelder definiert sind, wird in der Tabellen Übersicht durch einen Warnhinweis an dem Eintrag dargestellt.
+Das Hervorheben von Custom Fields, die als Pflichtfelder definiert sind, wird in der Übersichtstabelle durch einen Warnhinweis an dem Eintrag dargestellt.
 
 ![](https://caqadmin.blob.core.windows.net/faqs/102-images/8df60f06-b7ae-44c8-a79b-d166407ed4ed-mceclip0.png)
 
@@ -52,7 +52,7 @@ Das Hervorheben von Custom Fields, die als Pflichtfelder definiert sind, wird in
 
 Mit Custom Fields können Sie die qmBase Prozesse stärker individualisieren und an Ihr Unternehmen anpassen.
 Ein wichtiger Punkt bei dieser Anpassung kann z.B. der Zugriff auf Custom Fields nur für spezieller Nutzer sein.
-Z.B. kann es bei Reklamationen gewünscht sein, dass alle Reklamationen einmal durch den Betriebsleiter zur freigegeben werden sollen. Diese Anforderung können Sie umsetzen, indem Sie das Ändern des Custom Fields an eine spezielle Rolle knüpfen.
+Z.B. kann es bei Reklamationen gewünscht sein, dass alle Reklamationen einmal durch den Betriebsleiter freigegeben werden sollen. Diese Anforderung können Sie umsetzen, indem Sie das Ändern des Custom Fields an eine spezielle Rolle knüpfen, die es nur dem Betriebsleiter erlaubt das Feld asuzufüllen.
 
 Folgende Schritte sind dafür erforderlich:
 
@@ -60,7 +60,7 @@ Folgende Schritte sind dafür erforderlich:
 
 ![](https://caqadmin.blob.core.windows.net/faqs/106-images/7a8cf13f-006b-4ebd-a30c-44a59bafe99f-mceclip1.png)
 
-- Fügen Sie den gewünschten Nutzer der gerade erstellten Rolle hinzu
+- Fügen Sie den gewünschten Nutzer dieser Rolle hinzu
 
 ![](https://caqadmin.blob.core.windows.net/faqs/106-images/3ddf6265-e0bf-4472-8e74-7c657b8c2fc3-mceclip2.png)
 
