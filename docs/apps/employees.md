@@ -53,3 +53,8 @@ In den [Einstellungen zu den Positionen](https://app.qmbase.com/Account/findwork
 Sie können auch externe Personen im Organigramm anzeigen. Hilfreich ist das z.B. bei einer externen Fachkraft für Arbeitssicherheit.
 Hierzu ist ein kleiner Workaround notwendig. Sie müssen dazu zunächst die externe Position als Mitarbeiter festlegen.
 Dann können Sie beliebige Positionen zuordnen. Anschließend können Sie die Person wieder aus den Mitarbeitern entfernen.
+
+### Was muss ich tun, damit Nutzer meinen Geburtstag einsehen können?
+
+Der Geburtstag kann nur eingesehen werden, wenn der Haken bei "Geburtstag veröffentlichen" gesetzt ist.
+Ansonsten kann der Geburtstag nur eingesehen werden durch Personen, die die betreffende Person bearbeiten können. Hier ist das Geburtsdatum nur dann sichtbar, wenn der Bearbeitungsmodus aktiv ist.
