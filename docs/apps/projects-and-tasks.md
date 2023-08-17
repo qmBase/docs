@@ -99,6 +99,12 @@ Bei der Bearbeitung von Maßnahmen werden zu folgenden Anlässen Benachrichtigun
 | Hinzufügen von Anhängen     | Verantwortlicher       | ✅                                                |
 | Hinzufügen von Kommentaren  | Verantwortlicher       | ✅                                                |
 
+## Einschränkungen und Limits
+
+| Typ                                               | Limit |
+| ------------------------------------------------- | ----- |
+| Maximale Anzahl Checklisten Elemente pro Maßnahme | 100   |
+
 ---
 
 :::info
