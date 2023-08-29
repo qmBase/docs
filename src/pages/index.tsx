@@ -7,6 +7,8 @@ import React from "react";
 import { FaRss } from "react-icons/fa";
 import styles from "./styles.module.css";
 import Heading from "@theme/Heading";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 const features = [
   {
@@ -95,25 +97,40 @@ function VideoContainer() {
             Vorstellungsvideo an!
           </Heading>
           <div className="video-container">
-            <iframe
-              width="50%"
-              height="355"
-              src="https://www.youtube.com/embed/Ghlm20iF31o"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            />
-
-            {/* <LiteYouTubeEmbed
-              id="_An9EsKPhp0"
+            <LiteYouTubeEmbed
+              id="Ghlm20iF31o"
               params="autoplay=1&autohide=1&showinfo=0&rel=0"
-              title="Explain Like I'm 5: Docusaurus"
+              title="So funktioniert qmBase"
               poster="maxresdefault"
               webp
-            /> */}
+            />
           </div>
         </div>
+      </div>
+    </div>
+  );
+}
+
+function FeaturesContainer() {
+  const firstRow = features.slice(0, 3);
+  const secondRow = features.slice(3);
+
+  return (
+    <div className="container text--center">
+      <Heading as="h2">Was Sie auf dieser Seite finden</Heading>
+      <div className="row margin-bottom--lg">
+        {firstRow.map((feature, idx) => (
+          <Feature {...feature} key={idx} />
+        ))}
+      </div>
+      <div className="row">
+        {secondRow.map((feature, idx) => (
+          <Feature
+            {...feature}
+            key={idx}
+            className={clsx("col--4", idx === 0 && "col--offset-2")}
+          />
+        ))}
       </div>
     </div>
   );
@@ -123,14 +140,16 @@ function Feature({
   imageUrl,
   title,
   description,
+  className,
 }: {
   title: React.ReactNode;
   imageUrl: string;
   description: React.ReactNode;
+  className?: string;
 }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx("col col--4", styles.feature)}>
+    <div className={clsx("col", className)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -179,11 +198,7 @@ function Home() {
           <section className={styles.features}>
             <div className="container">
               <VideoContainer />
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
+              <FeaturesContainer />
             </div>
           </section>
         )}
