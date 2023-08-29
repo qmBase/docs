@@ -6,6 +6,8 @@ import clsx from "clsx";
 import React from "react";
 import { FaRss } from "react-icons/fa";
 import styles from "./styles.module.css";
+import Heading from "@theme/Heading";
+
 const features = [
   {
     title: <Link to="/docs/getting-started">Tutorials - Einfach loslegen</Link>,
@@ -83,7 +85,49 @@ const features = [
   },
 ];
 
-function Feature({ imageUrl, title, description }) {
+function VideoContainer() {
+  return (
+    <div className="container text--center margin-bottom--xl">
+      <div className="row">
+        <div className="col">
+          <Heading as="h2">
+            Sie wissen noch nicht was qmBase ist? Sehen Sie sich unser
+            Vorstellungsvideo an!
+          </Heading>
+          <div className="video-container">
+            <iframe
+              width="50%"
+              height="355"
+              src="https://www.youtube.com/embed/Ghlm20iF31o"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+
+            {/* <LiteYouTubeEmbed
+              id="_An9EsKPhp0"
+              params="autoplay=1&autohide=1&showinfo=0&rel=0"
+              title="Explain Like I'm 5: Docusaurus"
+              poster="maxresdefault"
+              webp
+            /> */}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Feature({
+  imageUrl,
+  title,
+  description,
+}: {
+  title: React.ReactNode;
+  imageUrl: string;
+  description: React.ReactNode;
+}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx("col col--4", styles.feature)}>
@@ -98,34 +142,43 @@ function Feature({ imageUrl, title, description }) {
   );
 }
 
+function TopBanner({ title, tagline }: { title: string; tagline: string }) {
+  return (
+    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+      <div className="container">
+        <h1 className="hero__title">{title}</h1>
+        <p className="hero__subtitle">{tagline}</p>
+        <div className={styles.buttons}>
+          <Link
+            className={clsx(
+              "button button--outline button--secondary button--lg",
+              styles.getStarted
+            )}
+            to={useBaseUrl("docs/getting-started")}
+          >
+            Los geht's
+          </Link>
+        </div>
+      </div>
+    </header>
+  );
+}
+
 function Home() {
-  const { siteConfig } = useDocusaurusContext();
+  const {
+    siteConfig: { title, tagline },
+  } = useDocusaurusContext();
   return (
     <Layout
       title={`Startseite`}
       description="Willkommen beim qmBase Support. ✔ Hier finden Sie Hilfe, Neuigkeiten und Tutorials rund um die Apps und Funktionen von qmBase. Abonnieren Sie unseren RSS Feed um immer auf dem neusten Stand zu bleiben und nutzen Sie unsere Tutorials bei Fragen zu einzelnen Apps."
     >
-      <header className={clsx("hero hero--primary", styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                "button button--outline button--secondary button--lg",
-                styles.getStarted
-              )}
-              to={useBaseUrl("docs/getting-started")}
-            >
-              Los geht's
-            </Link>
-          </div>
-        </div>
-      </header>
+      <TopBanner tagline={tagline} title={title} />
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
+              <VideoContainer />
               <div className="row">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
