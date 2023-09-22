@@ -3,12 +3,14 @@ id: absence-planner
 title: Abwesenheitsplaner
 ---
 
-![](https://caqadmin.blob.core.windows.net/faqs/97-images/b3ee39c7-274f-4ee8-8fdb-a64aa2410e4e-mceclip0.png)
+![Ansichten Abwesenheitsplaner](https://caqadmin.blob.core.windows.net/faqs/97-images/b3ee39c7-274f-4ee8-8fdb-a64aa2410e4e-mceclip0.png)
 
 :::info Aktuelle Erweiterungen und Verbesserungen dieser App finden Sie [hier](/blog/tags/abwesenheitsplaner)
 :::
 
-Urlaubsverwaltung leicht gemacht: Diese App macht bei der Urlaubsplanung und Verwaltung Schluss mit aufwändiger Zettelwirtschaft und fehleranfälligen Excel-Listen. Ihre Mitarbeiter stellen Urlaubsanträge online und haben immer Zugriff auf ihr aktuelles Urlaubskonto. Automatisierte Freigabeprozesse und praktische Kalenderübersichten minimieren den Aufwand für Ihre Personalabteilung und schaffen mehr Transparenz für Ihre Mitarbeiter.
+Urlaubsverwaltung leicht gemacht: Diese App macht bei der Urlaubsplanung und Verwaltung Schluss mit aufwändiger Zettelwirtschaft und fehleranfälligen Excel-Listen.
+Ihre Mitarbeiter stellen Urlaubsanträge online und haben immer Zugriff auf ihr aktuelles Urlaubskonto.
+Automatisierte Freigabeprozesse und praktische Kalenderübersichten minimieren den Aufwand für Ihre Personalabteilung und schaffen mehr Transparenz für Ihre Mitarbeiter.
 
 > [Zur App gehen](https://app.qmbase.com/Account/findworkspace?returnUrl=/absenceplanner)
 
@@ -16,9 +18,12 @@ Urlaubsverwaltung leicht gemacht: Diese App macht bei der Urlaubsplanung und Ver
 
 ### 1. Antrag erstellen
 
-Nachdem Sie die grundsätzlichen Einstellungen für den Abwesenheitsplaner vorgenommen haben, können Sie anfangen Abwesenheiten zu erfassen. Hierzu klicken Sie im Abwesenheitsplaner auf den Button “Neu”, um einen neuen Antrag zu erstellen. Beim erstellen des Antrags, werden Sie aufgefordert sich für eine Abwesenheitsregelung zu entscheiden (z.B. Urlaub, Krankheit oder ähnliches).
+Nachdem Sie die grundsätzlichen Einstellungen für den Abwesenheitsplaner vorgenommen haben, können Sie anfangen Abwesenheiten zu erfassen.
+Hierzu klicken Sie im Abwesenheitsplaner auf den Button “Neu”, um einen neuen Antrag zu erstellen.
+Beim erstellen des Antrags, werden Sie aufgefordert sich für eine Abwesenheitsregelung zu entscheiden (z.B. Urlaub, Krankheit oder ähnliches).
 
-Während Sie Ihren Eintrag erstellen sehen Sie gleichzeitig eine Karte, in der überprüft wird, ob Ihr Antrag so in der Form Aussicht auf Erfolg hat. D.h. sind beispielsweise genug verfügbare Tage in Ihrem Konto für die gewählte Regelung vorhanden.
+Während Sie Ihren Eintrag erstellen sehen Sie gleichzeitig eine Karte, in der überprüft wird, ob Ihr Antrag so in der Form Aussicht auf Erfolg hat.
+D.h. sind beispielsweise genug verfügbare Tage in Ihrem Konto für die gewählte Regelung vorhanden.
 
 > **Wichtig:** Diese Überprüfung gibt lediglich Hinweise und Vorschläge und verhindert nicht das Erstellen von nicht sinnvollen Anträgen.
 
@@ -32,13 +37,17 @@ Beim Abschicken des Antrags, geschieht im Hintergrund folgendes.
 
 ### 3. Warten auf Genehmigung des Antrags
 
-Nach dem Abschicken des Antrags müssen Sie als Antragsteller nur noch auf die Genehmigung Ihres Antrags warten. Ab diesem Zeitpunkt hängt also alles an den Personen, die den Antrag freigeben sollen. Sobald ein ausgewählter Freigeber den Antrag ablehnt oder genehmigt, werden Sie als Antragsteller darüber informiert.
+Nach dem Abschicken des Antrags müssen Sie als Antragsteller nur noch auf die Genehmigung Ihres Antrags warten.
+Ab diesem Zeitpunkt hängt also alles an den Personen, die den Antrag freigeben sollen.
+Sobald ein ausgewählter Freigeber den Antrag ablehnt oder genehmigt, werden Sie als Antragsteller darüber informiert.
 
 Haben alle Freigeber den Antrag genehmigt kann der Antrag insgesamt freigeben werden. Dies kann durch einen der ausgewählten Freigeber erfolgen.
 Ist nur eine Person zur Freigabe notwendig, erfolgt dieser Schritt automatisch.
 
 :::info Was kann ich machen, wenn ich den Antrag zurückziehen oder ändern möchte?
-Hat noch niemand den Antrag genehmigt oder abgelehnt, können Sie den Antrag beliebig bearbeiten oder auch löschen. Wurde der Antrag bereits freigegeben, kann die Freigabe entweder durch den Admin rückgängig gemacht werden oder Antragsteller kann den Antrag wieder zurückziehen. In diesem Fall bleibt der Antrag mit dem Status zurückgezogen im System.
+Hat noch niemand den Antrag genehmigt oder abgelehnt, können Sie den Antrag beliebig bearbeiten oder auch löschen.
+Wurde der Antrag bereits freigegeben, kann die Freigabe entweder durch den Admin rückgängig gemacht werden oder der Antragsteller kann den Antrag wieder zurückziehen.
+In diesem Fall bleibt der Antrag mit dem Status zurückgezogen im System.
 :::
 
 ## Rollen im Abwesenheitsplaner
@@ -73,8 +82,11 @@ Der Antrag durchläuft von der Erstellung bis zur Genehmigung verschiedene Statu
 
 ## Einstellungen
 
-**Abwesenheitsarten**: Unter Einstellungen -> Mitarbeiter -> Abwesenheitsarten können die Verschiedenen Abwesenheitsarten festlegen.
+Um alle Funktionen des Abwesenheitsplaners nutzen zu können, müssen Sie wenige Einstellungen vornehmen, die im folgenden erklärt sind.
 
+### Abwesenheitsarten
+
+Unter Einstellungen -> Mitarbeiter -> Abwesenheitsarten können die Verschiedenen Abwesenheitsarten festlegen.
 Beispiele für Abwesenheitsarten sind:
 
 - Urlaub
@@ -82,7 +94,9 @@ Beispiele für Abwesenheitsarten sind:
 - Berufsschule
 - Sonderurlaub
 
-**Abwesenheitsregelungen**: Unter Einstellungen -> Mitarbeiter -> Abwesenheitsregelungen können Sie Regelungen festlegen, die Ihnen dabei helfen die Abwesenheit Ihrer Mitarbeiter besser zu organisieren. Dies könnte z.B. eine Urlaubsregelung für das Jahr 2021 sein.
+### Abwesenheitsregelungen
+
+Unter Einstellungen -> Mitarbeiter -> Abwesenheitsregelungen können Sie Regelungen festlegen, die Ihnen dabei helfen die Abwesenheit Ihrer Mitarbeiter besser zu organisieren. Dies könnte z.B. eine Urlaubsregelung für das Jahr 2021 sein.
 
 Eigenschaften der Abwesenheitsregelung:
 
@@ -91,9 +105,11 @@ Eigenschaften der Abwesenheitsregelung:
 - Resttage: Tage, die nach Ablauf des Zeitraums noch maximal zur Verfügung stehen
 - Restlaufzeit: Zeitraum für den die Resttage zur Verfügung stehen
 
-**Feiertage**: Unter Einstellungen -> Allgemein Feiertage können Sie Feiertage oder auch Betriebsferien festlegen.
+### Feiertage
 
-### Benachrichtigungen
+Unter Einstellungen -> Allgemein Feiertage können Sie Feiertage oder auch Betriebsferien festlegen.
+
+## Benachrichtigungen
 
 Bei der Bearbeitung von Abwesenheitsanträgen werden zu folgenden Anlässen Benachrichtigungen Versand:
 

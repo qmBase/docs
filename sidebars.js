@@ -34,7 +34,17 @@ const sidebars = {
       label: "Apps",
       collapsed: true,
       items: [
-        "apps/admin",
+        {
+          type: "category",
+          label: "Admin",
+          link: { type: "doc", id: "apps/admin" },
+          items: [
+            "apps/admin/import",
+            "apps/admin/import-user",
+            "apps/admin/import-qualifications",
+            "apps/admin/import-organisations",
+          ],
+        },
         "apps/absence-planner",
         "apps/audit-management",
 
@@ -125,8 +135,6 @@ const sidebars = {
         "faqs/faq-96",
         "faqs/faq-112",
         "faqs/faq-115",
-        "faqs/faq-116",
-        "faqs/import-qualifications",
         "faqs/faq-125",
         "faqs/create-page-templates",
       ],
