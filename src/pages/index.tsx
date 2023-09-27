@@ -93,8 +93,8 @@ function VideoContainer() {
       <div className="row">
         <div className="col">
           <Heading as="h2">
-            Sie wissen noch nicht was qmBase ist? Sehen Sie sich unser
-            Vorstellungsvideo an!
+            Sie wissen noch nicht was qmBase ist? Hier die Erklärung in weniger
+            als 1:30!
           </Heading>
           <div className="video-container">
             <LiteYouTubeEmbed

@@ -28,20 +28,20 @@ Unter den folgenden Verlinkungen finden Sie Beispiele für bestimmte Importe.
 :::info Die Beschreibung gilt nur für unsere aktuelle Version der Imports. Dies beinhaltet derzeit folgende Objekte: **Produkte**.
 :::
 
-Für den Import Ihrer Daten gehen Sie wie folgt vor:
+Für den Import müssen Sie zunächst den den Objekttypen z.B. Produkte auswählen.
+Der Import besteht aus vier einfachen Schritten. Für den Import Ihrer Daten gehen Sie wie folgt vor:
 
-1. Wählen Sie den zu importierenden Objektypen.
-2. Laden Sie die zu importierenden Dateien im CSV Format hoch.
-3. Beheben Sie evtl. vorhandene Fehler, die Ihnen in der Importvorschau angezeigt werden.
-4. Konfigurieren Sie den gewünschten Import. Sie können zwischen unterschiedlichen Importstrategien wählen.
+1. Laden Sie die zu importierenden Dateien im CSV Format hoch.
+2. Wir bereiten Ihre Daten für den Import vor und weisen auf eventuell vorhandene Fehler hin.
+3. Konfigurieren Sie den gewünschten Import. Sie können zwischen unterschiedlichen Importstrategien wählen.
    1. Create - Alle Daten werden als neue Einträge importiert.
    2. CreateIfNotExist - Es werden nur Daten importiert, die noch nicht im System gefunden wurden.
    3. Update - Es werden nur bestehende gefundene Daten aktualisiert.
    4. Upsert - Es werden bestehende Daten aktualisiert und neue Daten hinzugefügt.
-5. Tippen Sie **Confirm** in das Feld bestätigen, um den Import freizugeben.
-6. Klicken Sie auf den Button **Import**
-7. Nach erfolgtem Import wird aus der Importvorschau das Importergebnis. Hier werden die Zeilen, die hinzugefügt oder aktualisiert wurden hervorgehoben.
-8. Unterhalb des Importergebnisses wird Ihnen jetzt eine Übersicht Ihrer aktuellen Daten angezeigt mit einem Hinweis auf den letzten Bearbeitungsstand.
+4. Tippen Sie **Confirm** in das Feld bestätigen, um den Import freizugeben.
+5. Klicken Sie auf den Button **Import**
+6. Nach erfolgtem Import wird aus der Importvorschau das Importergebnis. Hier werden die Zeilen, die hinzugefügt oder aktualisiert wurden hervorgehoben.
+7. Unterhalb des Importergebnisses wird Ihnen jetzt eine Übersicht Ihrer aktuellen Daten angezeigt mit einem Hinweis auf den letzten Bearbeitungsstand.
    Hier haben Sie jetzt die Möglichkeit überzählige Daten zu löschen.
 
 #### Wie werden vorhandene Daten zur Aktualisierung identifiziert?
