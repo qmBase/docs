@@ -43,7 +43,7 @@
     "@tsconfig/docusaurus": "^2.0.1",
     "@types/react": "^17.0.66",
     "@types/react-router-dom": "^5.3.3",
-    "cspell": "^7.3.6",
+    "cspell": "^7.3.7",
     "markdown-spellcheck": "^1.3.1",
     "typescript": "^5.2.2"
   },
