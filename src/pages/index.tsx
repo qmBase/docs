@@ -6,6 +6,10 @@ import clsx from "clsx";
 import React from "react";
 import { FaRss } from "react-icons/fa";
 import styles from "./styles.module.css";
+import Heading from "@theme/Heading";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
+
 const features = [
   {
     title: <Link to="/docs/getting-started">Tutorials - Einfach loslegen</Link>,
@@ -83,10 +87,69 @@ const features = [
   },
 ];
 
-function Feature({ imageUrl, title, description }) {
+function VideoContainer() {
+  return (
+    <div className="container text--center margin-bottom--xl">
+      <div className="row">
+        <div className="col">
+          <Heading as="h2">
+            Sie wissen noch nicht was qmBase ist? Hier die Erklärung in weniger
+            als 1:30!
+          </Heading>
+          <div className="video-container">
+            <LiteYouTubeEmbed
+              id="Ghlm20iF31o"
+              params="autoplay=1&autohide=1&showinfo=0&rel=0"
+              title="So funktioniert qmBase"
+              poster="maxresdefault"
+              webp
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function FeaturesContainer() {
+  const firstRow = features.slice(0, 3);
+  const secondRow = features.slice(3);
+
+  return (
+    <div className="container text--center">
+      <Heading as="h2">Was Sie auf dieser Seite finden</Heading>
+      <div className="row margin-bottom--lg">
+        {firstRow.map((feature, idx) => (
+          <Feature {...feature} key={idx} />
+        ))}
+      </div>
+      <div className="row">
+        {secondRow.map((feature, idx) => (
+          <Feature
+            {...feature}
+            key={idx}
+            className={clsx("col--4", idx === 0 && "col--offset-2")}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function Feature({
+  imageUrl,
+  title,
+  description,
+  className,
+}: {
+  title: React.ReactNode;
+  imageUrl: string;
+  description: React.ReactNode;
+  className?: string;
+}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx("col col--4", styles.feature)}>
+    <div className={clsx("col", className)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -98,39 +161,44 @@ function Feature({ imageUrl, title, description }) {
   );
 }
 
+function TopBanner({ title, tagline }: { title: string; tagline: string }) {
+  return (
+    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+      <div className="container">
+        <h1 className="hero__title">{title}</h1>
+        <p className="hero__subtitle">{tagline}</p>
+        <div className={styles.buttons}>
+          <Link
+            className={clsx(
+              "button button--outline button--secondary button--lg",
+              styles.getStarted
+            )}
+            to={useBaseUrl("docs/getting-started")}
+          >
+            Los geht's
+          </Link>
+        </div>
+      </div>
+    </header>
+  );
+}
+
 function Home() {
-  const { siteConfig } = useDocusaurusContext();
+  const {
+    siteConfig: { title, tagline },
+  } = useDocusaurusContext();
   return (
     <Layout
       title={`Startseite`}
       description="Willkommen beim qmBase Support. ✔ Hier finden Sie Hilfe, Neuigkeiten und Tutorials rund um die Apps und Funktionen von qmBase. Abonnieren Sie unseren RSS Feed um immer auf dem neusten Stand zu bleiben und nutzen Sie unsere Tutorials bei Fragen zu einzelnen Apps."
     >
-      <header className={clsx("hero hero--primary", styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                "button button--outline button--secondary button--lg",
-                styles.getStarted
-              )}
-              to={useBaseUrl("docs/getting-started")}
-            >
-              Los geht's
-            </Link>
-          </div>
-        </div>
-      </header>
+      <TopBanner tagline={tagline} title={title} />
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
+              <VideoContainer />
+              <FeaturesContainer />
             </div>
           </section>
         )}

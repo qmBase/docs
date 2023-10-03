@@ -1,6 +1,4 @@
 ---
-id: faq-116
-slug: /faqs/116
 title: Import von Organisationen, Kunden, Lieferanten und Kontakte
 ---
 
@@ -25,12 +23,12 @@ Organisation lassen sich leicht importieren. Zusätzlich kann beim Import direkt
 | Gender      | 0=Mann;1=Frau                                                                   |
 | FirstName   | Max                                                                             |
 | LastName    | Mustermann                                                                      |
-| Email       | mm@qmbase.com                                                                   |
+| Email       | <mm@qmbase.com>                                                                 |
 | Birthday    | 1980-02-30                                                                      |
 | IsEmployee  | 0=Kein Mitarbeiter in Ihrem Unternehmen;1=Auch Mitarbeiter in Ihrem Unternehmen |
 
 - '\*'gekennzeichnete Felder sind Pflichtfelder
 
-#### Einschränkungen:
+#### Einschränkungen
 
 Damit Sie gleichzeitig einen Kontakt anlegen können muss mindestens der Vor- und Nachname ausgefüllt sein.

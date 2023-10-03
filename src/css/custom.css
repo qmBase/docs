@@ -34,3 +34,16 @@
 .navbarBtn {
   margin-right: 1rem;
 }
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.yt-lite > .lty-playbtn {
+  cursor: pointer;
+  border: 0;
+}
