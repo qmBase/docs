@@ -10,7 +10,7 @@ Bitte beachten Sie beim Import die Beispiele aus den Downloadvorlagen und die In
 ![Import Home page](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202022-02-03%20200124_importHome.png)
 
 Nachdem Sie eine Datei zum Import hochgeladen haben, sehen Sie in der Vorschau, ob es für Ihren Import noch Hinweise oder Fehlermeldungen gibt.
-Diese werden farblich hervorgehoben und verbergen einen Hinweistext, wenn man mit der Maus über die Markierung fährt.
+Diese werden farblich hervorgehoben und zeigen einen Hinweistext, wenn man mit der Maus über die Markierung fährt.
 ![Import Error](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202022-02-03%20200200_importDetails.png)
 
 Wenn Sie einen automatischen Import von Daten aus einem anderen IT-System wünschen bzw. die automatische Synchronisation mit anderen Systemen, dann sprechen Sie uns bitte direkt an.
