@@ -84,10 +84,10 @@ Der Antrag durchläuft von der Erstellung bis zur Genehmigung verschiedene Statu
 
 Um alle Funktionen des Abwesenheitsplaners nutzen zu können, müssen Sie wenige Einstellungen vornehmen, die im folgenden erklärt sind.
 
-### Abwesenheitsarten
+### Abwesenheitstypen
 
-Unter Einstellungen -> Mitarbeiter -> Abwesenheitsarten können die Verschiedenen Abwesenheitsarten festlegen.
-Beispiele für Abwesenheitsarten sind:
+Unter Einstellungen -> Mitarbeiter -> Abwesenheitstypen können die Verschiedenen Abwesenheitstypen festlegen.
+Beispiele für Abwesenheitstypen sind:
 
 - Urlaub
 - Krankheit
