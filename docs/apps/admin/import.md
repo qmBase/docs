@@ -23,37 +23,44 @@ Unter den folgenden Verlinkungen finden Sie Beispiele für bestimmte Importe.
 - [Qualifikationen](import-qualifications)
 - [Nutzer](import-user)
 
-### Ablauf des Import (neu)
+## Erweiterter Import (neu)
 
 :::info Die Beschreibung gilt nur für unsere aktuelle Version der Imports. Dies beinhaltet derzeit folgende Objekte: **Produkte**.
 :::
 
 Für den Import müssen Sie zunächst den den Objekttypen z.B. Produkte auswählen.
-Der Import besteht aus vier einfachen Schritten. Für den Import Ihrer Daten gehen Sie wie folgt vor:
+Der Import besteht aus vier einfachen Schritten, die Sie in diesem Video sehen.
+![Import gif](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/importProducts.gif)
+
+Für den Import Ihrer Daten gehen Sie wie folgt vor:
 
 1. Laden Sie die zu importierenden Dateien im CSV Format hoch.
 2. Wir bereiten Ihre Daten für den Import vor und weisen auf eventuell vorhandene Fehler hin.
 3. Konfigurieren Sie den gewünschten Import. Sie können zwischen unterschiedlichen Importstrategien wählen.
    1. Create - Alle Daten werden als neue Einträge importiert.
-   2. CreateIfNotExist - Es werden nur Daten importiert, die noch nicht im System gefunden wurden.
+   2. CreateIfNotExist - Es werden nur Daten importiert, die noch **nicht** im System gefunden wurden.
    3. Update - Es werden nur bestehende gefundene Daten aktualisiert.
    4. Upsert - Es werden bestehende Daten aktualisiert und neue Daten hinzugefügt.
-4. Tippen Sie **Confirm** in das Feld bestätigen, um den Import freizugeben.
+4. Tippen Sie **Confirm** in das Feld **Bestätigen**, um den Import freizugeben.
 5. Klicken Sie auf den Button **Import**
 6. Nach erfolgtem Import wird aus der Importvorschau das Importergebnis. Hier werden die Zeilen, die hinzugefügt oder aktualisiert wurden hervorgehoben.
 7. Unterhalb des Importergebnisses wird Ihnen jetzt eine Übersicht Ihrer aktuellen Daten angezeigt mit einem Hinweis auf den letzten Bearbeitungsstand.
    Hier haben Sie jetzt die Möglichkeit überzählige Daten zu löschen.
 
-#### Wie werden vorhandene Daten zur Aktualisierung identifiziert?
+### Wie werden vorhandene Daten zur Aktualisierung identifiziert?
 
 Wenn während des Importprozesses vorhandene Daten aktualisiert werden sollen, müssen diese identifiziert werden.
 Dies erfolgt entweder mit Hilfe der qmBase eigenen Id oder einer externen Id (ExternalId). Eine Mischung aus beiden Varianten ist nicht möglich.
 
-#### Einschränkungen beim Import
+### Einschränkungen beim Import
 
-Pro Import Vorgang können maximal 10.000 Zeilen importiert werden.
+Pro Import Vorgang können maximal 10.000 Einträge importiert werden.
 
-### Import von Produkten
+### Import von unterschiedlichen Objekttypen
+
+Beim Import der unterschiedlichen Objekttypen kann es eventuell Besonderheiten geben. Diese werden in den folgenden Abschnitten für die jeweiligen Objekte dargestellt.
+
+#### Import von Produkten
 
 Beim Import von Produkten können folgende Eigenschaften importiert werden.
 
