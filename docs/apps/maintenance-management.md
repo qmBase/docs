@@ -39,7 +39,7 @@ Download: [Etiketten_qmBase_qr.xlsx](./../assets/Etiketten_qmBase_qr.xlsx)
 
 - Anzeigename: Lesbarer Text, der zusätzlich zum QR Code angezeigt wird
 - ID: qmBase Identifikationsnummer des Gegenstands
-- HostName: Name Ihrer qmBase Instanz z.B. <https://meineFirma.qmbase.com>
+- HostName: Name Ihrer qmBase Instanz z.B. [https:\/\/meineFirma.qmbase.com]
 - Path: Unverändert lassen
 
 ### Drucken Sie die Etiketten als Serienbrief

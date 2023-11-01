@@ -16,6 +16,6 @@ export interface WhiteLabelConfig {
   productDisplayName: string;
   testAccountDurationAsDays: number;
   domain: "qmbase.com" | "guard.kroschke.com";
-  footerCommunity: unknown;
+  footerCommunity: any; // This would be the correct type _DeepPartialObject<FooterLinkItem>;
   accountBaseUrl: string;
 }

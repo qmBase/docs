@@ -23,7 +23,7 @@ Organisation lassen sich leicht importieren. Zusätzlich kann beim Import direkt
 | Gender      | 0=Mann;1=Frau                                                                   |
 | FirstName   | Max                                                                             |
 | LastName    | Mustermann                                                                      |
-| Email       | <mm@qmbase.com>                                                                 |
+| Email       | [mm@qmbase.com]                                                                 |
 | Birthday    | 1980-02-30                                                                      |
 | IsEmployee  | 0=Kein Mitarbeiter in Ihrem Unternehmen;1=Auch Mitarbeiter in Ihrem Unternehmen |
 
