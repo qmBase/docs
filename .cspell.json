@@ -4,7 +4,7 @@
   "gitignoreRoot": ".",
   "useGitignore": true,
   // language - current active spelling language
-  "language": "de-DE",
+  "language": "en",
   "import": ["@cspell/dict-de-de/cspell-ext.json"],
   "dictionaries": [
     "css",

@@ -65,18 +65,3 @@ Wie man in dem ersten Beispiel schon erkennen kann, gibt es grundsätzlich sehr 
 Nachdem wir die Software in mehreren kleinen Schritten an unsere Kunden verteilt haben, folgt der letzte Schritt der Qualitätssicherung. Hier geht es darum bei der echten Nutzung auftretende Fehler zu identifizieren.
 Neben Fehlern sind wir hier auch immer auf der Suche nach Performance Problemen. Einige Dinge lassen sich nur mit echten Daten erkennen, da jeder unserer Kunden seine Software auf eine andere Art und Weise nutzt.
 Jeder Kunde hat in anderen Bereichen der Software mal mehr oder weniger Daten und Verknüpfungen und dies erfordert somit von Zeit zu Zeit einige Optimierungen. Auch Optimierungen der Nutzeroberfläche ergeben sich regelmäßig auch aus den echten Nutzerdaten.
-
-## Technische Details
-
-Wir entwickeln unsere Software mit den modernsten Frameworks und Tools. Grundsätzlich unterscheiden wir zwei Bereiche der Software. Dies ist zum einen das **Backend** und zum anderen das **Frontend**.
-Als Backend bezeichnen wir den Teil der Software, die auf unserem Server läuft. Das Frontend ist der Teil der Software, der bei Ihnen läuft. Dies betrifft somit den gesamten Quellcode, den Ihr Browser herunterlädt und dann ausführt.
-
-### Backend
-
-Unser Backend wird mit dem **ASP.NET Core** Framework entwickelt. Die zum Einsatz kommende Programmiersprache ist **C#**. Hierbei handelt es sich um ein von Microsoft entwickeltes Open-Source Web Framework.
-Daten werden in einer SQL Datenbank und einem Speicher für Dateien gespeichert. Als Entwicklungsumgebung nutzen wir **Visual Studio**.
-
-### Frontend
-
-Das Frontend besteht zu einem überwiegenden Teil aus einer **React** Applikation. Diese Anwendung wird mit **TypeScript** programmiert und dann in **JavaScript** übersetzt, um dann bei Ihnen im Browser zu laufen.
-Als Entwicklungsumgebung nutzen wir hier **Visual Studio Code**.
