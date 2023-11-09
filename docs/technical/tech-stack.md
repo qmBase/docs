@@ -3,7 +3,7 @@ slug: /technical/tech-stack
 title: Our Tech Stack
 ---
 
-At qmBase we develop software with passion. We use modern tooling and frameworks to accomplish our goals.
+At qmBase we develop software with passion. We use modern tooling and frameworks to accomplish our goals. If you are interested in more details, don't hesitate to contact us.
 
 ## Backend
 
