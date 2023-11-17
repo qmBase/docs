@@ -4,7 +4,7 @@
   "gitignoreRoot": ".",
   "useGitignore": true,
   // language - current active spelling language
-  "language": "de-DE",
+  "language": "de",
   "import": ["@cspell/dict-de-de/cspell-ext.json"],
   "dictionaries": [
     "css",
@@ -31,6 +31,6 @@
     "project-words.txt",
     "src/**",
     "benachrichtigungen-new.mdx",
-    "docusaurus.config.js"
+    "docusaurus.config.ts"
   ]
 }

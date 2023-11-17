@@ -27,7 +27,7 @@ qmBase can be installed on Windows.
   - app\ -> Save the app data here
   - builds\ -> Save old builds here if you need to roll back an update
   - databases\ -> Store databases here
-  - uploads\\{CustomerId}\ -> Save user generated uploads here
+  - uploads\\[CustomerId]\ -> Save user generated uploads here
 
 :::note
 Use a dedidacted partition (D:\\) to store the data.
@@ -40,7 +40,7 @@ Use a dedidacted partition (D:\\) to store the data.
 3. Run the latest database migrations. The SQL scripts will be provided on the download page as well. You will need to create 2 databases. Use the following name schema
 
    - multi-tenant
-   - qmbase{CustomerId}
+   - qmbase[CustomerId]
 
 4. qmBase requires a SSL connection. So you have to configure the IIS to use either a self signed certificate or use a regular certificate. The assigned url must not contain **qmbase**. You can use **qm-base** as an alternative.
 5. Configure qmBase and start running.

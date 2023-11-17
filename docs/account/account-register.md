@@ -53,7 +53,7 @@ Bitte gehen Sie wie folgt vor:
 2. Probieren Sie sich erneut zu registrieren. Wenn der vorherige Versuch bereits funktioniert hat, können Sie sich so eine erneute Bestätigungsmail zuschicken lassen.
 3. Wenden Sie sich an uns und wir lösen das Problem.
 
-#### Email '<max@mustermann.com>' is already taken
+#### Email '[max@mustermann.com]' is already taken
 
 Diese Fehlermeldung erhalten Sie, wenn bereits ein Account mit Ihrer E-Mail Adresse angelegt wurde. Sie können daher keinen neuen Account anlegen.
 

@@ -37,7 +37,7 @@ In Ihrem Profil unter **Profileinstellungen > Einstellungen** kann eingestellt i
 
 ### E-Mail Adresse bereits in Verwendung, was ist zu tun?
 
-Wenn beim Erstellen oder ändern eines Mitarbeiterprofils die Fehlermeldung **Email <max@mustermann.de> is already in use.** auftritt, liegt das daran, dass jede Email Adresse nur einem Profil zugeordnet werden kann.
+Wenn beim Erstellen oder ändern eines Mitarbeiterprofils die Fehlermeldung **Email [max@mustermann.de] is already in use.** auftritt, liegt das daran, dass jede Email Adresse nur einem Profil zugeordnet werden kann.
 An folgenden Stellen kann bereits ein Mitarbeiter vorhanden sein:
 
 - App Mitarbeiter
