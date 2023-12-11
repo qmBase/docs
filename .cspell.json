@@ -31,6 +31,7 @@
     "project-words.txt",
     "src/**",
     "benachrichtigungen-new.mdx",
+    "tech-stack.md",
     "docusaurus.config.ts"
   ]
 }
