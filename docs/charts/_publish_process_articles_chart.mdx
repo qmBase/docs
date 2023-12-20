@@ -1,0 +1,45 @@
+import Mermaid from "@theme/mermaid";
+
+  <Mermaid
+    chart={`graph TB
+        arFrA[Artikel Freigeben]==>frVol
+        arFrM[Artikel Freigeben]==>frVol
+        arFrF[Artikel Freigeben]==>frVol
+        
+        frBeAu{Freigeber bereits ausgewählt?} ----> |Freigeber| arFrF
+        frBeAu{Freigeber bereits ausgewählt?} ----> |Admin| arFrA
+        frBeAu{Freigeber bereits ausgewählt?} ----> |ModulAdmin| arFrM
+        arVe[Artikel veröffentlichen]
+
+        subgraph Admin
+            arFrA[Artikel freigeben]
+            arFrA[Artikel Freigeben]==>arVeA
+
+        end
+
+        subgraph Module-Admin
+            arFrM[Artikel freigeben]
+            arFrM[Artikel Freigeben]==>arVeM 
+
+        end
+
+
+        subgraph Verantwortlicher
+            crAr[Artikel erstellen]----> frAu
+            frAu[Freigeber Auswahl beginnen]---> frDef
+            frDef{Freigeber definiert?}----> |Ja| deFrAus
+            frDef{Freigeber definiert?}----> |Nein| MAAus
+            MAAus[ModulAdmin oder Admin auswählen] ----> frPrSt
+            deFrAus[Definierten Freigeber auswählen] ----> frPrSt
+            frPrSt[Freigabeprozess starten] ----> frBeAu
+            frVol{Freigabe vollständig}---->|Ja| arVe
+        end
+
+        subgraph Freigeber
+            arFrF[Artikel freigeben]
+        end
+
+         class sq,e green
+         class di orange`}
+
+/>
