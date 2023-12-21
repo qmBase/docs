@@ -303,6 +303,7 @@ faith
 faktenbasierte
 FAMILIAR
 faqs
+Farhan
 faucibus
 favorite
 feel
@@ -351,6 +352,7 @@ general
 generates
 gescrollt
 getting
+Gilrandy
 gmail
 goal
 goals
@@ -571,6 +573,7 @@ Officer
 Older
 ongoing
 Ongoing
+OPENJSON
 opportunities
 opportunity
 Opportunity
@@ -796,6 +799,7 @@ Subprocessors
 Sums
 supplier
 Supplier
+supportete
 supportus
 sure
 surveillance
@@ -898,6 +902,7 @@ Verkn├╝pfungstabellen
 verknüpfung
 Verknüpfungs
 Verknüpfungsdialog
+Verknüpfungsfenster
 Verknüpfungskarten
 Verknüpfungskategorien
 Verknüpfungsmöglichkeiten

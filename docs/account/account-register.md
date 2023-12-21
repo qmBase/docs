@@ -12,20 +12,20 @@ Um mit der Nutzung von qmBase zu starten, benötigen Sie einen Account. Den Acco
 
 ![register](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-05-24_register.png)
 
-#### Auf Registrierseite wechseln
+### Auf Registrierseite wechseln
 
 Wenn Sie nicht angemeldet sind landen Sie auf dem Formular zur Anmeldung. Am unteren Rand dieses Formulars gibt es einen Link mit dem Sie zur Registrierung kommen <code>Registrieren Sie sich als neuer Nutzer!</code>
 
-#### Zugangsdaten angeben
+### Zugangsdaten angeben
 
 Auf dieser Seite werden Sie aufgefordert Ihre E-Mail Adresse und ein Passwort anzugeben. Nach der Registrierung müssen Sie auf die Bestätigungsmail warten.
 Dies dauert typischerweise nicht länger als 1 Minute.
 
-#### Account bestätigen
+### Account bestätigen
 
 In der E-Mail befindet sich ein Link, mit dem Sie Ihren Account bestätigen. Somit wissen wir, dass Sie Zugriff auf die E-Mail Adresse haben und damit zu der E-Mail Adresse gehören.
 
-#### Profil anlegen oder verknüpfen
+### Profil anlegen oder verknüpfen
 
 Nachdem Sie ihre E-Mail Adresse bestätigt haben, können Sie sich das erste Mal anmelden. Sollten von Ihrem Administrator bisher noch keine Daten über Sie hinterlegt worden sein, werden Sie aufgefordert Ihren Namen anzugeben.
 Sollte Sie bereits im System als Mitarbeiter hinterlegt sein (Abgleich findet über E-Mail Adresse statt) ist der genannte Schritt nicht notwendig und Sie können direkt fortfahren.
@@ -34,18 +34,19 @@ Sollte Sie bereits im System als Mitarbeiter hinterlegt sein (Abgleich findet ü
 
 Häufig gestellte Fragen im Zusammenhang mit der Registrierung beantworten wir hier.
 
-#### Fehlermeldung "Domain invalid"
+### Fehlermeldung "Domain invalid"
 
-Dies bedeutet, dass von Ihrem Administrator festgelegt wurde, dass Registrierungen nur mit bestimmten Domains möglich sind. Die Domain ist der Teil nach dem <code>@</code> Zeichen bei Ihrer E-Mail Adresse.
+Dies bedeutet, dass von Ihrem Administrator festgelegt wurde, dass Registrierungen nur mit E-Mail Adressen möglich sind, die bestimmten Mustern entsprechen.
+Weitere Informationen finden Sie [hier](/docs/apps/admin#erlaubte-domains).
 
-#### Konto lässt sich nicht bestätigen
+### Konto lässt sich nicht bestätigen
 
 Sie erhalten die Bestätigungsmail aber das Konto lässt sich nicht bestätigen. Dies kann an folgenden Gründen liegen:
 
 - Sie haben mehrere Bestätigungsmails angefordert und das Konto nicht mit der neuesten Mail bestätigen.
 - Die Bestätigungsmail ist älter als 24h
 
-#### E-Mail mit Account Bestätigung kommt nicht an
+### E-Mail mit Account Bestätigung kommt nicht an
 
 Bitte gehen Sie wie folgt vor:
 
@@ -53,11 +54,11 @@ Bitte gehen Sie wie folgt vor:
 2. Probieren Sie sich erneut zu registrieren. Wenn der vorherige Versuch bereits funktioniert hat, können Sie sich so eine erneute Bestätigungsmail zuschicken lassen.
 3. Wenden Sie sich an uns und wir lösen das Problem.
 
-#### Email '[max@mustermann.com]' is already taken
+### Email '[max@mustermann.com]' is already taken
 
 Diese Fehlermeldung erhalten Sie, wenn bereits ein Account mit Ihrer E-Mail Adresse angelegt wurde. Sie können daher keinen neuen Account anlegen.
 
-#### Welche Passwort Anforderungen gibt es?
+### Welche Passwort Anforderungen gibt es?
 
 Für einen sicheren Zugang werden an das Passwort Mindestanforderungen gestellt. Diese sind derzeit wie folgt.
 
@@ -67,12 +68,12 @@ Für einen sicheren Zugang werden an das Passwort Mindestanforderungen gestellt.
 - Sonderzeichen (!)
 - Zahl (1)
 
-#### Kann jemand anderes mein Passwort einsehen?
+### Kann jemand anderes mein Passwort einsehen?
 
 Nein, Best Practice ist es Passwörter nicht im Klartext zu speichern. Daran halten wir uns. Das bedeutet, dass Ihr Passwort mit einem sicheren Verfahren verschlüsselt wird.
 Diese Funktion ist irreversibel, so es nicht möglich ist, dass aus dem verschlüsselten Passwort wieder das lesbare Passwort erstellt werden kann.
 
-#### **Keine Person verknüpft** in der Nutzerübersicht im Administrationsbereich
+### Keine Person verknüpft in der Nutzerübersicht im Administrationsbereich
 
 Sollte im Administrationsbereich in der Nutzerübersicht der Hinweis **Keine Person verknüpft** auftauchen bedeutet dies, dass der Nutzer sich zwar registriert hat.
 Er hat aber noch **nicht** den Anmeldeprozess bis zum Ende durchlaufen. Dies geschieht automatisch, sobald der Nutzer sich das nächste Mal anmeldet.

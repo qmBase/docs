@@ -1,14 +1,14 @@
 import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Heading from "@theme/Heading";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
 import { FaRss } from "react-icons/fa";
-import styles from "./styles.module.css";
-import Heading from "@theme/Heading";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
+import styles from "./styles.module.css";
 
 const features = [
   {
@@ -93,8 +93,8 @@ function VideoContainer() {
       <div className="row">
         <div className="col">
           <Heading as="h2">
-            Sie wissen noch nicht was qmBase ist? Hier die Erklärung in weniger
-            als 1:30!
+            Sie kennen qmBase noch nicht? Hier unsere Erklärung in weniger als
+            1:30!
           </Heading>
           <div className="video-container">
             <LiteYouTubeEmbed
