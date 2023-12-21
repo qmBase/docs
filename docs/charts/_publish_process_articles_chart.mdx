@@ -1,45 +1,55 @@
 import Mermaid from "@theme/mermaid";
 
-  <Mermaid
-    chart={`graph TB
-        arFrA[Artikel Freigeben]==>frVol
-        arFrM[Artikel Freigeben]==>frVol
-        arFrF[Artikel Freigeben]==>frVol
-        
-        frBeAu{Freigeber bereits ausgewählt?} ----> |Freigeber| arFrF
-        frBeAu{Freigeber bereits ausgewählt?} ----> |Admin| arFrA
-        frBeAu{Freigeber bereits ausgewählt?} ----> |ModulAdmin| arFrM
-        arVe[Artikel veröffentlichen]
+<Mermaid
+  chart={`graph TB
+  
+    subgraph Verantwortlicher
+        crAr[Artikel erstellen]----> frAu
+        frAu[Freigeber Auswahl beginnen]---> frDef
+        frDef{Freigeber definiert?}----> |Ja| deFrAus
+        frDef----> |Nein| MAAus
+        MAAus[ModulAdmin oder Admin auswählen] ----> frPrSt
+        deFrAus[Definierten Freigeber auswählen] ----> frPrSt
+        frPrSt[Freigabeprozess starten] ----> frBeAu
+    end
 
-        subgraph Admin
-            arFrA[Artikel freigeben]
-            arFrA[Artikel Freigeben]==>arVeA
+    beFr[Benachrichtigung des Freigebers]----> frPrSt
+    frBeAu{Freigeber bereits ausgewählt?} ----> |Freigeber| arFrF
+    frBeAu{Freigeber bereits ausgewählt?} ----> |Admin| arFrA
+    frBeAu{Freigeber bereits ausgewählt?} ----> |ModulAdmin| arFrM
 
-        end
+    nein[ ]----> frAu
+    frBeAu{Freigeber bereits ausgewählt?} ----> |Nein| nein
+    hinW[Hinweis zur Auswahl eines Freigebers]---->nein
 
-        subgraph Module-Admin
-            arFrM[Artikel freigeben]
-            arFrM[Artikel Freigeben]==>arVeM 
+    arFrA[Artikel Freigeben]==>frVol
+    arFrM[Artikel Freigeben]==>frVol
+    arFrF[Artikel Freigeben]==>frVol
 
-        end
+    beKeAb[Benachrichtigung der Kenntnisnehmer, Abonnenten] ----> arVe
+    ja[Ja] ----> arVe
+    beVe[Benachrichtigung des Verantwortlichen] ---> ja
+    frVol{Freigabe vollständig}---->|Ja| ja
+    frVol{Freigabe vollständig}---->|Nein| empNod
+    empNod[ ]----> arFrA
+    empNod[ ]----> arFrM
+    empNod[ ]----> arFrF
+    arVe[Artikel veröffentlichen]
 
 
-        subgraph Verantwortlicher
-            crAr[Artikel erstellen]----> frAu
-            frAu[Freigeber Auswahl beginnen]---> frDef
-            frDef{Freigeber definiert?}----> |Ja| deFrAus
-            frDef{Freigeber definiert?}----> |Nein| MAAus
-            MAAus[ModulAdmin oder Admin auswählen] ----> frPrSt
-            deFrAus[Definierten Freigeber auswählen] ----> frPrSt
-            frPrSt[Freigabeprozess starten] ----> frBeAu
-            frVol{Freigabe vollständig}---->|Ja| arVe
-        end
+    subgraph Admin
+        arFrA[Artikel freigeben]
+    end
 
-        subgraph Freigeber
-            arFrF[Artikel freigeben]
-        end
+    subgraph Module-Admin
+        arFrM[Artikel freigeben]
+    end
 
-         class sq,e green
-         class di orange`}
+    subgraph Freigeber
+        arFrF[Artikel freigeben]
+    end
+    linkStyle default stroke-width:2px,fill:none,stroke:green;
+    class sq,e red
+    class di red`}
 
 />
