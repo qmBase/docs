@@ -2,32 +2,22 @@ import Mermaid from "@theme/mermaid";
 
 <Mermaid
   chart={`graph TB
-    arFrA[Artikel Freigeben]==>frVol
-    arFrM[Artikel Freigeben]==>frVol
-    arFrF[Artikel Freigeben]==>frVol
-  
-    crAr[Artikel erstellen]----> frAu
-    frAu[Genehmiger auswählen]---> frDef
-    frDef{Ist Genehmiger definiert? <br /> Min. Rolle: Genehmiger}----> |Ja| deFrAus
-    frDef----> |Nein| MAAus
-    MAAus[ModulAdmin oder Admin auswählen] ----> frPrSt
-    deFrAus[Definierten Genehmiger auswählen] ----> frPrSt
-    frPrSt[Veröffentlichungsprozess starten <br /> Min. Rolle: Verantwortlicher <br /> Benachrichtigung an den Genehmiger/Genehmigende] ----> frBeAu
+    articleCreate[Artikel erstellen]----> approverSelect
+    approverSelect[Genehmiger auswählen]---> approverDefined
+    approverDefined{Ist Genehmiger definiert? <br /> Min. Rolle: Genehmiger}----> |Ja| approverSelecting
+    approverSelecting[Definierten Genehmiger auswählen] ----> publishStart
+    approverDefined----> |Nein| noApprover
+    noApprover[ModulAdmin oder Admin auswählen] ----> publishStart
+    publishStart[Veröffentlichungsprozess starten <br /> Min. Rolle: Verantwortlicher <br /> Benachrichtigung an den Genehmiger/Genehmigende] ----> approverDefine
 
-    frBeAu{Genehmigender bereits ausgewählt?} ----> |Genehmiger| arFrF
-    frBeAu{Genehmigender bereits ausgewählt?} ----> |Admin| arFrA
-    frBeAu{Genehmigender bereits ausgewählt?} ----> |ModulAdmin| arFrM
+    approverDefine{Genehmigender bereits ausgewählt? <br /> Min. Rolle: Genehmiger <br /> Hinweis der Genehmigenden}----> articlePublish
+    approverDefine----> |Nein| approverSelect
 
-    frBeAu{Genehmigender bereits ausgewählt? <br /> Hinweis der Genehmigenden} ----> |Nein| frAu
-
-    frVol{Veröffentlichung vollständig <br /> Benachrichtigung des Verantwortlichen}---->|Ja| arVe
-    frVol---->|Nein| arFrA
-    frVol---->|Nein| arFrM
-    frVol---->|Nein| arFrF
+    articlePublish[Artikel Freigeben]==>publishCompleted
+    publishCompleted{Veröffentlichung vollständig <br /> Benachrichtigung des Verantwortlichen}---->|Ja| arVe
+    publishCompleted---->|Nein| articlePublish
     arVe[Artikel veröffentlichen <br /> Benachrichtigung der Kenntnisnehmer, Abonnenten]
-    arFrA[Artikel freigeben]
-    arFrM[Artikel freigeben]
-    arFrF[Artikel freigeben]
+    articlePublish[Artikel freigeben]
     linkStyle default stroke-width:2px,fill:none,stroke:green;
     class sq,e red
     class di red`}
