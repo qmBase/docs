@@ -10,32 +10,24 @@ import Mermaid from "@theme/mermaid";
         frDef----> |Nein| MAAus
         MAAus[ModulAdmin oder Admin auswählen] ----> frPrSt
         deFrAus[Definierten Freigeber auswählen] ----> frPrSt
-        frPrSt[Freigabeprozess starten] ----> frBeAu
+        frPrSt[Freigabeprozess starten <hr/> Benachrichtigung des Freigebers] ----> frBeAu
     end
 
-    beFr[Benachrichtigung des Freigebers]----> frPrSt
     frBeAu{Freigeber bereits ausgewählt?} ----> |Freigeber| arFrF
     frBeAu{Freigeber bereits ausgewählt?} ----> |Admin| arFrA
     frBeAu{Freigeber bereits ausgewählt?} ----> |ModulAdmin| arFrM
 
-    nein[ ]----> frAu
-    frBeAu{Freigeber bereits ausgewählt?} ----> |Nein| nein
-    hinW[Hinweis zur Auswahl eines Freigebers]---->nein
-
+    frBeAu{Freigeber bereits ausgewählt? <hr /> Hinweis zur Auswahl eines Freigebers} ----> |Nein| frAu
+    
     arFrA[Artikel Freigeben]==>frVol
     arFrM[Artikel Freigeben]==>frVol
     arFrF[Artikel Freigeben]==>frVol
 
-    beKeAb[Benachrichtigung der Kenntnisnehmer, Abonnenten] ----> arVe
-    ja[Ja] ----> arVe
-    beVe[Benachrichtigung des Verantwortlichen] ---> ja
-    frVol{Freigabe vollständig}---->|Ja| ja
-    frVol{Freigabe vollständig}---->|Nein| empNod
-    empNod[ ]----> arFrA
-    empNod[ ]----> arFrM
-    empNod[ ]----> arFrF
-    arVe[Artikel veröffentlichen]
-
+    frVol{Freigabe vollständig <hr /> Benachrichtigung des Verantwortlichen}---->|Ja| arVe
+    frVol---->|Nein| arFrA
+    frVol---->|Nein| arFrM
+    frVol---->|Nein| arFrF
+    arVe[Artikel veröffentlichen <hr /> Benachrichtigung der Kenntnisnehmer, Abonnenten]
 
     subgraph Admin
         arFrA[Artikel freigeben]
