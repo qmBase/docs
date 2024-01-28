@@ -17,8 +17,8 @@
     "lint:spelling": "cspell \"**\" --no-progress"
   },
   "dependencies": {
-    "@docusaurus/core": "3.1.1",
-    "@docusaurus/preset-classic": "3.1.1",
+    "@docusaurus/core": "3.1.0",
+    "@docusaurus/preset-classic": "3.1.0",
     "clsx": "^2.1.0",
     "mermaid": "^10.7.0",
     "react": "^18.2.0",
@@ -39,9 +39,9 @@
   },
   "devDependencies": {
     "@cspell/dict-de-de": "3.2.0",
-    "@docusaurus/module-type-aliases": "3.1.1",
-    "@docusaurus/types": "3.1.1",
-    "@docusaurus/tsconfig": "3.1.1",
+    "@docusaurus/module-type-aliases": "3.1.0",
+    "@docusaurus/types": "3.1.0",
+    "@docusaurus/tsconfig": "3.1.0",
     "@types/react": "^18.2.48",
     "@types/react-router-dom": "^5.3.3",
     "cspell": "^8.3.2",
