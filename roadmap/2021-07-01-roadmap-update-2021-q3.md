@@ -66,7 +66,7 @@ Derzeit läuft diese Anmeldung noch in einer letzten Testphase, so dass dieser P
 
 ### Feingliedriger Zugriff
 
-Legen Sie für einzelne Maßnahmen, Dokumente, Schulungen etc. fest wer auf diese zugreifen und wer diese bearbeiten kann. [Mehr Informationen finden Sie hier.](/docs/faqs/56/#feingliedriger-zugriff)
+Legen Sie für einzelne Maßnahmen, Dokumente, Schulungen etc. fest wer auf diese zugreifen und wer diese bearbeiten kann. [Mehr Informationen finden Sie hier.](/docs/faqs/rollen-berechtigungen-und-zugriff/)
 
 ## Verbesserung der Performance 🏎
 

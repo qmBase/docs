@@ -33,6 +33,7 @@
     "benachrichtigungen-new.mdx",
     "tech-stack.md",
     "docusaurus.config.ts",
-    "_publish_process_articles_chart.mdx"
+    "_publish_process_articles_chart.mdx",
+    "announcements.md"
   ]
 }

@@ -13,11 +13,11 @@ Custom Fields bieten die Möglichkeit vorhandene Formulare vollständig auf eige
 
 Zum Erstellen der Custom Fields wechseln Sie einfach in der jeweiligen App in die Einstellungen und klicken Sie Custom Fields. Über das "+" oben rechts haben Sie Möglichkeit ein neues Custom Field zu erstellen.
 
-![](https://caqadmin.blob.core.windows.net/faqs/80-images/7b5834bf-5fcf-48b1-9b44-445398c944d0-mceclip0.png)
+![Einstellungen Custom Fields Tabelle](https://caqadmin.blob.core.windows.net/faqs/80-images/7b5834bf-5fcf-48b1-9b44-445398c944d0-mceclip0.png)
 
 Die erstellten Custom Fields können dann optional bei den vorhandenen Formularen einfügen.
 
-![](https://caqadmin.blob.core.windows.net/faqs/80-images/mceclip1.png)
+![Einstellungen Bearbeitungsseite](https://caqadmin.blob.core.windows.net/faqs/80-images/mceclip1.png)
 
 Custom Fields sind standardmäßig optionale Felder. Als Datentyp können folgende Optionen ausgewählt werden.
 
@@ -31,7 +31,8 @@ Custom Fields sind standardmäßig optionale Felder. Als Datentyp können folgen
 
 - Textbereich -> Mehrzeiliges Textfeld
 
-Sollten die Informationen, die Sie über die Custom Fields erfassen zwingend erforderlich sein, können Sie das Custom Field auch als Pflichtfeld definieren. Custom Fields, die als Pflichtfelder definiert sind, werden immer dann farblich hervorgehoben, wenn Sie noch nicht ausgefüllt sind.
+Sollten die Informationen, die Sie über die Custom Fields erfassen zwingend erforderlich sein, können Sie das Custom Field auch als Pflichtfeld definieren.
+Custom Fields, die als Pflichtfelder definiert sind, werden immer dann farblich hervorgehoben, wenn Sie noch nicht ausgefüllt sind.
 
 Wenn Sie nicht genau wissen, welche Daten Sie erfassen möchten, nutzen Sie idealerweise den Typ Text.
 
@@ -42,11 +43,11 @@ Custom Fields, die als Pflichtfelder definiert sind, werden immer dann farblich 
 
 In der Detailsansicht werden Custom Fields, die als Pflichtfelder definiert sind, wie folgt hervorgehoben.
 
-![](https://caqadmin.blob.core.windows.net/faqs/102-images/e5f13c40-025d-453a-9387-90a9a4fd3492-mceclip1.png)
+![Custom Fields als Pflichtfelder](https://caqadmin.blob.core.windows.net/faqs/102-images/e5f13c40-025d-453a-9387-90a9a4fd3492-mceclip1.png)
 
 Das Hervorheben von Custom Fields, die als Pflichtfelder definiert sind, wird in der Übersichtstabelle durch einen Warnhinweis an dem Eintrag dargestellt.
 
-![](https://caqadmin.blob.core.windows.net/faqs/102-images/8df60f06-b7ae-44c8-a79b-d166407ed4ed-mceclip0.png)
+![Custom Fields als Pflichtfelder in Tabellen](https://caqadmin.blob.core.windows.net/faqs/102-images/8df60f06-b7ae-44c8-a79b-d166407ed4ed-mceclip0.png)
 
 ## Zugriff auf Custom Fields Einschränken
 
@@ -59,47 +60,50 @@ Folgende Schritte sind dafür erforderlich:
 
 - Erstellen Sie eine Rolle für den Betriebsleiter.
 
-![](https://caqadmin.blob.core.windows.net/faqs/106-images/7a8cf13f-006b-4ebd-a30c-44a59bafe99f-mceclip1.png)
+![Zugriff auf Custom Fields einschränken](https://caqadmin.blob.core.windows.net/faqs/106-images/7a8cf13f-006b-4ebd-a30c-44a59bafe99f-mceclip1.png)
 
 - Fügen Sie den gewünschten Nutzer dieser Rolle hinzu
 
-![](https://caqadmin.blob.core.windows.net/faqs/106-images/3ddf6265-e0bf-4472-8e74-7c657b8c2fc3-mceclip2.png)
+![Nutzer zu Rolle hinzufügen](https://caqadmin.blob.core.windows.net/faqs/106-images/3ddf6265-e0bf-4472-8e74-7c657b8c2fc3-mceclip2.png)
 
-Wechseln Sie in die Einstellungen -> Reklamationsmanagement -> Custom Fields. Hier können Sie jetzt das Custom Field auswählen, dass mit der Einschränkung versehen werden soll. Sind keine Einschränkungen ausgewählt ist das Custom Field für jeden Nutzer änderbar.
+Wechseln Sie in die Einstellungen -> Reklamationsmanagement -> Custom Fields. Hier können Sie jetzt das Custom Field auswählen, dass mit der Einschränkung versehen werden soll.
+Sind keine Einschränkungen ausgewählt ist das Custom Field für jeden Nutzer änderbar.
 
-![](https://caqadmin.blob.core.windows.net/faqs/106-images/8f9317d2-6c23-40ae-b59e-7b2e102bbecc-mceclip4.png)
+![Rollen für Custom Fields festlegen](https://caqadmin.blob.core.windows.net/faqs/106-images/8f9317d2-6c23-40ae-b59e-7b2e102bbecc-mceclip4.png)
 
-Wenn Sie jetzt das Custom Field innerhalb der Reklamation ausfüllen, erscheint der Hinweis, dass eine besondere Rolle notwendig ist um das Feld auszufüllen. Sollten Sie diese Rolle nicht haben, ist der Hinweis auf die benötigte Rolle rot hinterlegt.
+Wenn Sie jetzt das Custom Field innerhalb der Reklamation ausfüllen, erscheint der Hinweis, dass eine besondere Rolle notwendig ist um das Feld auszufüllen.
+Sollten Sie diese Rolle nicht haben, ist der Hinweis auf die benötigte Rolle rot hinterlegt.
 
-![](https://caqadmin.blob.core.windows.net/faqs/106-images/379467a1-4000-4def-953b-ec55e36808a4-mceclip6.png)
+![Darstellung von Einschränkung über Rollen](https://caqadmin.blob.core.windows.net/faqs/106-images/379467a1-4000-4def-953b-ec55e36808a4-mceclip6.png)
 
 > Hinweis: Die Möglichkeiten des Administrators bleiben von diesen Einstellungen unberührt. Er kann also immer alles ändern.
 
 ## Apps in denen Custom Fields verfügbar sind
 
-| App                       | Entität          | Custom Fields                       |
-| ------------------------- | ---------------- | ----------------------------------- |
-| Abwesenheitsplaner        |                  | x                                   |
-| Audit management          |                  | x                                   |
-| Blog                      |                  |                                     |
-| Reklamationsmanagement    |                  | x                                   |
-| CRM                       | Organisationen   | x                                   |
-| CRM                       | Bewertungen      |                                     |
-| Dokumentenmanagement      |                  |                                     |
-| Mitarbeiter               |                  |                                     |
-| Fehlermanagement          |                  | x                                   |
-| Formulare                 |                  |                                     |
-| Aufgabe & Qualifikationen | Non Standard     |                                     |
-| Zielmanagement            |                  | x                                   |
-| Ideenmanagement           |                  | x                                   |
-| Instandhaltung            | Inventory items  | x (eingeschränkter Funktionsumfang) |
-| Instandhaltung            | Inspections done | x (eingeschränkter Funktionsumfang) |
-| Projekte & Maßnahmen      | Projekte         |                                     |
-| Projekte & Maßnahmen      | Maßnahmen        | x                                   |
-| Produkte                  |                  | x                                   |
-| Risiken & Chancen         |                  | x                                   |
-| Schulungen                |                  | x                                   |
-| WIKI                      |                  |                                     |
+| App                       | Entität                 | Custom Fields                        |
+| ------------------------- | ----------------------- | ------------------------------------ |
+| Abwesenheitsplaner        |                         | ✅                                   |
+| Audit management          |                         | ✅                                   |
+| Blog                      |                         |                                      |
+| Reklamationsmanagement    |                         | ✅                                   |
+| CRM                       | Organisationen          | ✅                                   |
+| CRM                       | Bewertungen             |                                      |
+| CRM                       | Personen                | ✅                                   |
+| Dokumentenmanagement      |                         |                                      |
+| Mitarbeiter               |                         | ✅                                   |
+| Fehlermanagement          |                         | ✅                                   |
+| Formulare                 |                         |                                      |
+| Aufgabe & Qualifikationen | Non Standard            |                                      |
+| Zielmanagement            |                         | ✅                                   |
+| Ideenmanagement           |                         | ✅                                   |
+| Instandhaltung            | Inventargegenstände     | ✅                                   |
+| Instandhaltung            | Durchgeführte Prüfungen | ✅ (eingeschränkter Funktionsumfang) |
+| Projekte & Maßnahmen      | Projekte                |                                      |
+| Projekte & Maßnahmen      | Maßnahmen               | ✅                                   |
+| Produkte                  |                         | ✅                                   |
+| Risiken & Chancen         |                         | ✅                                   |
+| Schulungen                |                         | ✅                                   |
+| WIKI                      |                         |                                      |
 
 ## Einschränkungen & Limits der Custom Fields
 

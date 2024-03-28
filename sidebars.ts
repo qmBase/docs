@@ -117,7 +117,7 @@ const sidebars: SidebarsConfig = {
         "faqs/faq-51",
         "faqs/faq-52",
         "faqs/faq-55",
-        "faqs/faq-56",
+        "faqs/rollen-berechtigungen-und-zugriff",
         "faqs/faq-62",
         "faqs/faq-64",
         "faqs/faq-65",
