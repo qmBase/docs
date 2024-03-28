@@ -1,5 +1,5 @@
-import type { Config } from "@docusaurus/types";
 import * as Preset from "@docusaurus/preset-classic";
+import type { Config } from "@docusaurus/types";
 import { WhiteLabelConfig } from "./src/models/whiteLabelConfig";
 
 const whiteLabel: WhiteLabelConfig = {
@@ -200,7 +200,7 @@ const config: Config = {
          * URL route for the blog section of your site.
          * *DO NOT* include a trailing slash.
          */
-        routeBasePath: "Roadmap",
+        routeBasePath: "roadmap",
         /**
          * Path to data on filesystem relative to site dir.
          */
