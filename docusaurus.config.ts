@@ -207,6 +207,7 @@ const config: Config = {
         path: "./roadmap",
       },
     ],
+    "plugin-image-zoom",
   ],
 };
 

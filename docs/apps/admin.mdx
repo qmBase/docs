@@ -39,13 +39,18 @@ In diesem Bereich können Sie alle Funktionen konfigurieren, die etwas mit Zugri
 
 Sie können festlegen, dass Nutzer nur Leserechte haben sollen. Damit werden alle Aktionen, die ein Verändern von Datensätzen auslösen, verhindert.
 
-### Erlaubte Domains
+### Nutzerregistrierung
+
+Hier können Sie einstellen, wie sich neue Nutzer in dem System registrieren können. Standardmäßig ist hier eine Self-Service aktiv.
+Möchten Sie das nicht, können Sie auch festlegen, dass neue Accounts nur durch Administratoren angelegt werden können.
+
+#### Erlaubte Domains
 
 Um den Zugriff für die Registrierung neuer Nutzer einzuschränken, können Sie hier festlegen mit welchen E-Mail Schemata sich neue Nutzer anmelden können.
 Konkret wird überprüft, ob die **Endung** eines neuen Nutzernames (E-Mail Adresse) in der Liste der erlaubten Domains auftaucht.
 Wenn die Liste leer ist, ist das Registrieren von neuen Nutzern nicht möglich.
 
-#### Beispiele
+##### Beispiele
 
 - Tragen Sie z.B. <code>@firma.de</code> ein, damit sich max.mustermann@firma.de als neuer Nutzer registrieren kann.
 - Wenn Sie z.B. nur <code>.de</code> eingeben kann sich mustermann@gmx.de und mustermann@firma.de registrieren.

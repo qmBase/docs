@@ -6,14 +6,32 @@ description: Informationen rund um die erste Registrierung und Freischaltung Ihr
 
 import ProductExampleUrl from "./../\_productExampleUrl.mdx";
 
-Um mit der Nutzung von qmBase zu starten, benötigen Sie einen Account. Den Account legen Sie an, in dem Sie auf die Seite Ihrer qmBase Version gehen z.B.
+Accounts bei qmBase ermöglichen den Zugang zu einem gemeinsamen Arbeitsbereich bzw. Unternehmen, um die Zusammenarbeit mit anderen Nutzern von qmBase zu ermöglichen.
 
-<ProductExampleUrl />
+## Erstellen Sie ein Konto
 
-![register](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-05-24_register.png)
+Um mit der Nutzung von qmBase zu starten, benötigen Sie einen Account. Diesen Account können Sie entweder selbst erstellen oder eine Einladung annehmen.
+Zur Erstellung Ihres Accounts benötigen wir Ihre E-Mail Adresse und ein Passwort. Verwenden Sie Ihre geschäftliche E-Mail-Adresse, um sich bei qmBase zu Registrieren.
+
+### Von der Startseite
+
+Wenn Sie ein Konto für sich selbst erstellen möchten, besuchen Sie https://qmbase.com und wählen Sie Login.
+![qmBase Homepage](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/2024-05-02_publicHomePage.png)
+Falls Ihr Unternehmen bereits über einen qmBase Arbeitsbereich verfügt, können Sie von hier direkt zu diesem wechseln.
+Andernfalls klicken Sie bitte auf den Link **Noch kein Kunde? Jetzt testen**, um sich einen eigenen Arbeitsbereich zu erstellen.
+
+### Aus Ihrem Arbeitsbereich
+
+Alternativ können Sie auch direkt auf Ihren Arbeitsbereich zugreifen. Typischerweise besteht die Url aus Ihrer Unternehmensdomain und dem Anhang qmbase.com.
+Wenn also z.B. Ihre Domain https://meinefirma.de ist, erreichen Sie Ihren Arbeitsbereich über <ProductExampleUrl />
+
+### Aus einer Einladung
+
+Aus einer Einladung klicken Sie einfach auf den Link aus der Einladung.
 
 ### Auf Registrierseite wechseln
 
+![register](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-05-24_register.png)
 Wenn Sie nicht angemeldet sind landen Sie auf dem Formular zur Anmeldung. Am unteren Rand dieses Formulars gibt es einen Link mit dem Sie zur Registrierung kommen <code>Registrieren Sie sich als neuer Nutzer!</code>
 
 ### Zugangsdaten angeben
@@ -62,11 +80,11 @@ Diese Fehlermeldung erhalten Sie, wenn bereits ein Account mit Ihrer E-Mail Adre
 
 Für einen sicheren Zugang werden an das Passwort Mindestanforderungen gestellt. Diese sind derzeit wie folgt.
 
-- Minimum: 8 Zeichen
-- Großbuchstaben (A)
-- Kleinbuchstaben (a)
-- Sonderzeichen (!)
-- Zahl (1)
+- Minimale Zeichenanzahl: 8 Zeichen
+- Großbuchstaben (z.B. A)
+- Kleinbuchstaben (z.B. a)
+- Sonderzeichen (z.B. !)
+- Zahl (z.B. 1)
 
 ### Kann jemand anderes mein Passwort einsehen?
 
