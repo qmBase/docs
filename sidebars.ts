@@ -38,6 +38,7 @@ const sidebars: SidebarsConfig = {
           label: "Admin",
           link: { type: "doc", id: "apps/admin" },
           items: [
+            "apps/admin/berechtigungen",
             "apps/admin/import",
             "apps/admin/import-user",
             "apps/admin/import-qualifications",

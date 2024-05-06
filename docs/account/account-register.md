@@ -10,7 +10,7 @@ Accounts bei qmBase ermöglichen den Zugang zu einem gemeinsamen Arbeitsbereich 
 
 ## Erstellen Sie ein Konto
 
-Um mit der Nutzung von qmBase zu starten, benötigen Sie einen Account. Diesen Account können Sie entweder selbst erstellen oder eine Einladung annehmen.
+Um mit der Nutzung von qmBase zu starten, benötigen Sie einen Account. Diesen Account können Sie entweder selbst erstellen oder eine E-Mail Einladung eines Kollegen annehmen.
 Zur Erstellung Ihres Accounts benötigen wir Ihre E-Mail Adresse und ein Passwort. Verwenden Sie Ihre geschäftliche E-Mail-Adresse, um sich bei qmBase zu Registrieren.
 
 ### Von der Startseite
@@ -27,26 +27,19 @@ Wenn also z.B. Ihre Domain https://meinefirma.de ist, erreichen Sie Ihren Arbeit
 
 ### Aus einer Einladung
 
-Aus einer Einladung klicken Sie einfach auf den Link aus der Einladung.
+Aus einer E-Mail Einladung klicken Sie einfach auf den Link aus der Einladung.
 
 ### Auf Registrierseite wechseln
 
-![register](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-05-24_register.png)
-Wenn Sie nicht angemeldet sind landen Sie auf dem Formular zur Anmeldung. Am unteren Rand dieses Formulars gibt es einen Link mit dem Sie zur Registrierung kommen <code>Registrieren Sie sich als neuer Nutzer!</code>
-
-### Zugangsdaten angeben
-
+![register](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Account/Register.png)
+Wenn Sie nicht angemeldet sind landen Sie auf dem Seite zur Anmeldung. Am unteren Rand des Formulars zur Anmeldung gibt es einen Link mit dem Sie zur Registrierung kommen **Registrieren Sie sich als neuer Nutzer!**.
 Auf dieser Seite werden Sie aufgefordert Ihre E-Mail Adresse und ein Passwort anzugeben. Nach der Registrierung müssen Sie auf die Bestätigungsmail warten.
 Dies dauert typischerweise nicht länger als 1 Minute.
 
-### Account bestätigen
+#### Account bestätigen
 
 In der E-Mail befindet sich ein Link, mit dem Sie Ihren Account bestätigen. Somit wissen wir, dass Sie Zugriff auf die E-Mail Adresse haben und damit zu der E-Mail Adresse gehören.
-
-### Profil anlegen oder verknüpfen
-
-Nachdem Sie ihre E-Mail Adresse bestätigt haben, können Sie sich das erste Mal anmelden. Sollten von Ihrem Administrator bisher noch keine Daten über Sie hinterlegt worden sein, werden Sie aufgefordert Ihren Namen anzugeben.
-Sollte Sie bereits im System als Mitarbeiter hinterlegt sein (Abgleich findet über E-Mail Adresse statt) ist der genannte Schritt nicht notwendig und Sie können direkt fortfahren.
+Nachdem Sie ihre E-Mail Adresse bestätigt haben, können Sie sich das erste Mal [anmelden](/docs/account/account-login).
 
 ## FAQS für Probleme bei der Registrierung
 

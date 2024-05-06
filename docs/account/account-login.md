@@ -14,11 +14,10 @@ Nachdem Sie sich registriert haben und Ihr Konto bestätigt haben, können Sie s
 
 und geben Sie Ihre Anmeldedaten ein.
 
-![login](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-05-24_login.png)
+![login](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Account/Login.png)
 
-## Verknüpfung von Account und Personen
+## Erste Anmeldung - Verknüpfung von Account und Personen
 
-Nachdem Sie Ihren Account erstellt haben, können Sie sich bei qmBase anmelden.
 Bei Ihrer ersten Anmeldung werden Sie gefragt, wer Sie sind. Bisher kennen wir nur Ihren Nutzernamen (E-Mail Adresse) und Ihr Passwort.
 Damit Sie für die anderen Nutzer leichter zu erkennen sind, erstellen Sie jetzt Ihr persönlich Profil. Dies beinhaltet mindestens Ihren Namen.
 Daher werden Sie zunächst nach Ihrem Vor- und Nachnamen gefragt.
@@ -56,7 +55,7 @@ Häufig gestellte Fragen im Zusammenhang mit dem Login beantworten wir hier.
 Wenn Sie Ihr Passwort vergessen haben, können Sie einfach ihr Passwort zurücksetzen.
 Klicken Sie einfach auf den Link "Passwort zurücksetzen" und folgen Sie den Anweisungen in der E-Mail.
 
-![forgotPassword](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-05-24_forgotPassword.png)
+![forgotPassword](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Account/ForgotPassword.png)
 
 #### Kann die Verknüpfung von Account und Person nachträglich geändert werden?
 

@@ -9,9 +9,9 @@ import TestAccountDuration from "./\_testAccountDuration.mdx";
 
 Um mit <ProductDisplayName/> zu starten, brauchen Sie nicht länger als **5** Minuten.
 
-1. Test Account aktivieren
+1. Test Account aktivieren - [Signup Seite](https://app.qmbase.com/Signup)
 2. Bestätigungsmail abwarten und Anweisungen folgen
-3. Eigenen Nutzer Account anlegen
+3. Eigenen Nutzer Account anlegen - [Anleitung](/docs/account/account-register)
 
 Der Test Account läuft nach <TestAccountDuration/> ab. Danach werden alle Ihre Daten gelöscht. Wenn Sie sich während Ihres Tests dafür entscheiden <ProductDisplayName/> zu mieten, haben Sie Möglichkeit entweder mit einem neuen System in den Produktivbetrieb zu starten oder die Daten aus Ihrem Testsystem zu übernehmen.
 
