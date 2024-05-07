@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { PbdModuleString } from "../models/pbdModuleString";
 
@@ -114,16 +113,17 @@ const dataConnections: AppConnections[] = [
       {
         appName: PbdModuleString.ClaimManagement,
         linkingDescreption:
-          "Beschreiben Sie Fehler und verknüpfen Sie diese mit Reklamationen, um mögliche Muster zu identifizieren.",
+          "Hiermit können Sie Fehler mit entsprechenden Reklamationen verknüpfen, können Sie Muster erkennen und priorisieren, die für Kunden besonders problematisch sind.",
       },
       {
         appName: PbdModuleString.ProjectAndTaskManagement,
-        linkingDescreption: "Nennen Sie Maßnahmen, um Fehler zu vermeiden.",
+        linkingDescreption:
+          "Verknüpfen Sie Fehler mit Maßnahmen, um Handlungsschritte zu definieren und zu verfolgen, die zur Lösung des Problems ergriffen werden.",
       },
       {
         appName: PbdModuleString.Products,
         linkingDescreption:
-          "Eine Verknüpfung mit Produkten ermöglicht es, fehlerhafte Produkte zu identifizieren.",
+          "Indem Sie Fehler mit spezifischen Produkten verknüpfen, können Sie Muster oder Trends identifizieren, die auf bestimmte Produktserien oder Produktionsprozesse hinweisen.",
       },
     ],
   },
