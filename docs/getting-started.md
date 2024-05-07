@@ -9,7 +9,7 @@ import TestAccountDuration from "./\_testAccountDuration.mdx";
 
 Um mit <ProductDisplayName/> zu starten, brauchen Sie nicht länger als **5** Minuten.
 
-1. Test Account aktivieren - [Signup Seite](https://app.qmbase.com/Signup)
+1. Test Account aktivieren - [Account Registrieren Seite](https://app.qmbase.com/Signup)
 2. Bestätigungsmail abwarten und Anweisungen folgen
 3. Eigenen Nutzer Account anlegen - [Anleitung](/docs/account/account-register)
 
