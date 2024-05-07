@@ -62,6 +62,7 @@ const sidebars: SidebarsConfig = {
         },
         "apps/crm",
         "apps/dashboard",
+        "apps/defect-management",
         "apps/forms",
         "apps/idea-management",
         "apps/maintenance-management",
