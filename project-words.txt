@@ -972,3 +972,4 @@ zur├╝gesetzt
 zusammenklicken
 zwingenderma├ƒen
 zwingendermaßen
+defect
