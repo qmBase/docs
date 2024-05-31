@@ -35,6 +35,7 @@ alongside
 already
 Alternatively
 amet
+AMOLED
 Amortisationsdauer
 angehangen
 announcement
@@ -92,6 +93,7 @@ benachrichtigungen
 Benachrichtigungsemails
 Benachrichtigungsfunktion
 Benachrichtungsmails
+berechtigungen
 Best├ñtigungsemail
 Bestätigungsemail
 Bezahlpflichtiges
@@ -195,6 +197,7 @@ dashes
 Datumspicker
 DECLUTTERING
 dedidacted
+defect
 Delayed
 described
 Detailsansicht
@@ -461,6 +464,7 @@ Keytar
 keywords
 King
 Kingdom
+klickbar
 klickbare
 klickbarer
 know
@@ -572,6 +576,7 @@ obligations
 odio
 Officer
 Older
+OLED
 ongoing
 Ongoing
 OPENJSON
@@ -971,5 +976,3 @@ Zjsu
 zur├╝gesetzt
 zusammenklicken
 zwingendermaßen
-defect
-berechtigungen
