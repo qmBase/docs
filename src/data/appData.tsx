@@ -1,4 +1,3 @@
-import React from "react";
 import {
   FaChalkboardTeacher,
   FaChessRook,
@@ -174,7 +173,7 @@ export const appData: AppInfo[] = [
     ),
     title: "Talent Manager",
     description: "",
-    url: "docs/apps/talent-manager",
+    url: "docs/apps/training-management",
     app: PbdModuleString.TrainingManagement,
   },
   {

@@ -1,14 +1,10 @@
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
-import React from "react";
 import FeatureCard from "../components/featureCard";
 import { appData } from "../data/appData";
 import styles from "./styles.module.css";
 
 function Tutorials() {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
   return (
     <Layout
       title={`Tutorials`}
