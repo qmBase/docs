@@ -4,7 +4,7 @@ export class AppInfo {
   constructor() {
     this.iconColor = "grey";
   }
-  icon?: string | React.ReactFragment;
+  icon?: string | React.ReactNode;
   title: string;
   description: string;
   url: string;

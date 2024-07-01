@@ -71,7 +71,7 @@ const sidebars: SidebarsConfig = {
         "apps/claim-management",
         "apps/opportunity-management",
         "apps/products",
-        "apps/talent-manager",
+        "apps/aufgaben-und-qualifikationen",
         "apps/training-management",
         "apps/goal-management",
       ],
