@@ -6,8 +6,6 @@ keywords:
   - Anmeldung
 ---
 
-<!-- 1. Wann werden statische und wann dynamische Daten(DB) durchsucht? -->
-
 ### Daten
 
 Im Allgemein wird statische Daten (z.B App-Namen) und in Datenbanken gespeicherte Daten durchgesucht.
@@ -46,6 +44,3 @@ Durchsuche nach folgende Felder möglich :
 ### Zugriff
 
 Bei fehlende Zugriff auf die Daten wird als leere Menge zurückgegeben.
-
-<!-- 3. Welche Tabellen werden durchsucht mit welchen Feldern?
-1. Was ist mit Entity Permissions? -->
