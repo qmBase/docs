@@ -7,7 +7,9 @@ slug: /technical/announcements
 
 ### 2024-08-01
 
-Zum 01.11.2024 werden keine E-Mails mehr über Sendgrid verschickt. Ab diesem Datum werden E-Mails ausschließlich über [Azure Communication Services](https://azure.microsoft.com/de-de/products/communication-services/) verschickt.
+- Zum 01.11.2024 werden keine E-Mails mehr über Sendgrid verschickt. Ab diesem Datum werden E-Mails ausschließlich über [Azure Communication Services](https://azure.microsoft.com/de-de/products/communication-services/) verschickt.
+- Zum 01.11.2024 wird unsere alte Projektstruktur deaktiviert. Damit Sie Ihre Projekte ohne Probleme in unsere moderne Struktur übertragen können, gibt es zunächst die Möglichkeit einzelne Projekte manuell zu migrieren. Ein entsprechender Button befindet sich oberhalb der Projekte.
+  Sollten Sie die Projekte bis zum Stichtag nicht manuell migriert haben, werden die Projekte spätestens dann automatisch in die moderne Struktur übertragen.
 
 #### Änderungen für dne Nutzer
 
