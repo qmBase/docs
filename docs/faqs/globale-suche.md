@@ -6,41 +6,43 @@ keywords:
   - Anmeldung
 ---
 
-### Daten
+Auf dieser Seite werden die Details unserer globalen Suche beschrieben.
 
-Im Allgemein wird statische Daten (z.B App-Namen) und in Datenbanken gespeicherte Daten durchgesucht.
+## Daten
+
+<!-- Im Allgemein wird statische Daten (z.B App-Namen) und in Datenbanken gespeicherte Daten durchgesucht.
 
 Es gilt dann folgende :
 
 1. Beim direkte Click auf dem App-Name in der App-Liste werden Sie in die Index-Seite gebracht.
    ![Allgemein](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/GlobalSearchDirect.gif)
 
-2. Gespeicherte Daten können durchgesucht werden, indem "Suche eingrenzen" geclickt werden. Die Suche kann in diesem Fall bis zu App-Ebene eingrenzen.
-   ![Specific Search](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/GlobalSearch.gif)
+2. Gespeicherte Daten können durchgesucht werden, indem "Suche eingrenzen" geklickt werden. Die Suche kann in diesem Fall bis zu App-Ebene eingrenzen.
+   ![Specific Search](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/GlobalSearch.gif) -->
 
-Durchsuche nach folgende Felder möglich :
+Folgende Daten werden in unserer Suche durchsucht:
 
-| App                        | Felder                   |
-| -------------------------- | ------------------------ |
-| Abwesenheitsplaner         | -                        |
-| Auditmanagement            | Titel                    |
-| Aufgaben & Qualifikationen | -                        |
-| Blog                       | Title, Aktuelle Revision |
-| CRM                        | Titel                    |
-| Dokumentenmanagement       | Titel, Aktuelle Revision |
-| Fehlermanagement           | Titel                    |
-| Formulare                  | Titel                    |
-| Ideenmanagement            | -                        |
-| Instandhaltung             | Titel                    |
-| Mitarbeiter                | -                        |
-| Produkte                   | Titel                    |
-| Schulungsmanagement        | Titel                    |
-| Projekte & Maßnahmen       | Titel                    |
-| Reklamationsmanagement     | Titel                    |
-| Risiken & Chancen          | Titel                    |
-| Wiki                       | Titel                    |
-| Zielmanagement             | Titel                    |
+| App                        | Felder                                |
+| -------------------------- | ------------------------------------- |
+| Abwesenheitsplaner         | -                                     |
+| Auditmanagement            | Titel                                 |
+| Aufgaben & Qualifikationen | -                                     |
+| Blog                       | Title, Aktuelle Revision              |
+| CRM                        | Namen von Personen und Organisationen |
+| Dokumentenmanagement       | Titel, Aktuelle Revision              |
+| Fehlermanagement           | Titel                                 |
+| Formulare                  | Titel                                 |
+| Ideenmanagement            | -                                     |
+| Instandhaltung             | Titel                                 |
+| Mitarbeiter                | Namen der Personen                    |
+| Produkte                   | Titel                                 |
+| Schulungsmanagement        | Titel                                 |
+| Projekte & Maßnahmen       | Titel                                 |
+| Reklamationsmanagement     | Titel                                 |
+| Risiken & Chancen          | Titel                                 |
+| Wiki                       | Titel                                 |
+| Zielmanagement             | Titel, Aktuelle Revision              |
 
-### Zugriff
+<!-- ### Zugriff
 
-Bei fehlende Zugriff auf die Daten wird als leere Menge zurückgegeben.
+Bei fehlende Zugriff auf die Daten wird als leere Menge zurückgegeben. -->
