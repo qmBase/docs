@@ -138,6 +138,7 @@ const sidebars: SidebarsConfig = {
         "faqs/faq-115",
         "faqs/faq-125",
         "faqs/create-page-templates",
+        "faqs/globale-suche",
       ],
     },
     {

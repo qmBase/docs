@@ -1,0 +1,184 @@
+---
+id: on-prem
+title: On-Premises
+sidebar_label: On-Premises
+slug: /technical/on-prem
+---
+
+qmBase can also be installed on your own hardware. While this is possible, it is not the preferred way of our customers to use qmBase. At the time of writing more than **93%** of our customers are using our default cloud based version.
+
+## Feature Comparison
+
+While we try to achieve feature parity of our cloud version and the software you can install in your own data center there are some differences.
+The differences are shown in the table below.
+
+| Feature                        | Cloud         | On-Premises                            |
+| ------------------------------ | ------------- | -------------------------------------- |
+| Backup                         | Managed by us | Managed by you                         |
+| Automatic weekly notifications | Managed by us | Requires at least one login per 7 days |
+
+## Installation
+
+In the following section the installation for various options is described.
+
+### Install on Windows
+
+qmBase can be installed on Windows.
+
+#### Prerequisites
+
+:::info Updates of requirements
+We work with latest Tools and software as they are released. This leads to regular updates of the requirements that are described below.
+:::
+
+- MS SQL 20222 Database - Older Versions might work but are not tested by us.
+- Windows 10 Pro or higher
+- ASP.NET Core Hosting Bundle 8.x
+- IIS Webserver V 10
+- SSL Certificate Public or self signed
+- Hardware requirements
+  - min 4 GB Ram
+  - min 10 GB HDD
+- Internet access from the server validate subscriptions and user management
+
+##### Recommended Folder Structure
+
+- D:\qmbase\
+  - app\ -> Save the app data here
+  - builds\ -> Save old builds here if you need to roll back an update
+  - databases\ -> Store databases here
+  - uploads\\[CustomerId]\ -> Save user generated uploads here
+
+:::note
+Use a dedidacted partition (D:\\) to store the data.
+:::
+
+#### How to install?
+
+1. Download the latest qmBase version from [here](https://app.qmbase.com/downloads/). You will get the credentials via mail after you have signed the contract.
+2. Extract the ZIP file to the folder where the IIS is located.
+3. Run the latest database migrations. The SQL scripts will be provided on the download page as well. You will need to create 2 databases. Use the following name schema
+
+   - multi-tenant
+   - qmbase[CustomerId]
+
+4. qmBase requires a SSL connection. So you have to configure the IIS to use either a self signed certificate or use a regular certificate. The assigned url must not contain **qmbase**. You can use **qm-base** as an alternative.
+5. Configure qmBase and start running.
+
+##### Configure qmBase
+
+To configure qmBase you have take actions in 2 different places.
+
+Insert this row in your multi tenant database
+
+```sql
+INSERT INTO [yourDatabase].[dbo].[MultiTenants]
+(
+  ,[DatabaseType]
+  ,[Host]
+  ,[ConnectionString]
+  ,[StorageConnectionString]
+  ,[Name]
+  ,[CustomerId]
+)
+VALUES
+(
+  ,0
+  ,pathToYour.qmbase
+  ,SQL Connection string
+  ,NULL
+  ,yourCustomerName
+  ,yourCustomerId
+)
+```
+
+Change the appSettings.Production.json file
+
+```json
+// These settings will only be applied if HostingEnvironment is "Production"
+// Use this file to customize the behavior in Production
+// Be aware of invalid json due to unescaped characters, trailing comma etc.
+{
+  //ApplicationInsights settings omitted for brevity.
+  "ConnectionStrings": {
+    "MultiTenantConnection": "Connection string to multiTenantContext",
+    // These settings are not needed if multiTenant==true
+    "DefaultConnection": "Your Ms SQL ConnectionString -> not needed in MultiTenantScenario"
+  },
+  "AppSettings": {
+    "MultiTenantContext": true,
+    "StorageType": "FileSystem", //"FileSystem" | "AzureBlobStorage"
+    "PhysicalFileProviderRootPath": "D:\\qmbase\\uploads"
+  }
+}
+```
+
+#### How to update?
+
+We are improving qmBase continuously. That means that we are releasing multiple Updates per Day. So if you are experiencing any bugs you can always try to download the latest release.
+
+1. Delete all files in <code>app</code> folder except **web.config** and **appSettings.Production.json**.
+2. Extract the zip file from the update and copy all files except **web.config** and **appSettings.Production.json** to the <code>app</code> folder.
+
+##### qmBase.Installer
+
+Alternatively you can use the qmBase.Installer.exe. If you use the default configuration you can do 9 out of 10 updates automatically. Please note that the qmBase.Installer is part of the Enterprise subscription.
+
+### Install on Linux
+
+Possible but not documented.
+
+### Install on Azure
+
+Possible but not documented.
+
+## Access to the internet
+
+Even On-Premises installation need access to the internet. Some specific connections are required for full functionality.
+The urls that need to be accessible are displayed in the table below. If endpoints are not available qmBase might work with limited functionality.
+The IP addresses might change over time.
+
+### Central qmBase API
+
+- **Url:** https://api.qmbase.com
+- **IP-Address:** dynamic
+
+| Purpose                                                       | Impact if blocked                                                          |
+| ------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Subscription management, Ticket System                        | No access to our ticket system                                             |
+| Access to qmBase Templates                                    | No access to our templates in document management and various other places |
+| Central user management                                       | We need access to the server for billing and licensing                     |
+| Recurring weekly notifications and web calendar functionality | No internet calender, no recurring notifications                           |
+
+### E-Mail Sending and Status Updates
+
+| Url                          | IP-Address | Purpose                 | Workaround                                                          | Impact if blocked                                                                                                 |
+| ---------------------------- | ---------- | ----------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| https://api.sendgrid.com     | n/a        | E-Mail notifications    | Could be exachanged by own Email Server which is available via SMTP | Workaround can be applied else no email notifications                                                             |
+| https://status.sendgrid.com/ | n/a        | Status of send grid api |                                                                     | No info about current status of send grid api. You do not know whether sending Email notifications is operational |
+
+### Other
+
+| Url                                          | IP-Address | Purpose                                                              | Workaround | Impact if blocked                                                                           |
+| -------------------------------------------- | ---------- | -------------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------- |
+| https://qmbasesupport.blob.core.windows.net/ | n/a        | Access to qmBase Templates                                           |            | No access to our templates in document management and various other places                  |
+| https://caqadmin.blob.core.windows.net       | n/a        | Software Updates (Only On-Premises users)                            |            | You can not download software updates                                                       |
+| https://js.monitor.azure.com                 | n/a        | Azure Monitor tracks availability and performance of the application |            | We can not collect crash and telemetry data. Problems specific to you might not be detected |
+| https://help.qmbase.com                      | n/a        | Release notes alert                                                  |            | No notification about new releases                                                          |
+
+### Use your own Email Server
+
+Upon request we can also use an Email Server that is provided by you. The email server must be accessible via Simple Mail Transfer Protocol (SMTP) connection.
+
+## Support
+
+We only support the latest version of On-Premises installation.
+
+## Breaking Changes
+
+### Deployment Status
+
+|            | Status                                                                                                                                               |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Build      | [![Build status](https://dev.azure.com/caqio/PBD/_apis/build/status/qmBase%20Master)](https://dev.azure.com/caqio/PBD/_build/latest?definitionId=24) |
+| Deployment | ![Deployment status](https://vsrm.dev.azure.com/caqio/_apis/public/Release/badge/40d1313e-3385-464b-a9ed-3cce1c2d470e/3/16)                          |

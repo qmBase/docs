@@ -22,4 +22,4 @@ We care about performance (e.g. route-based code splitting), maintainability, an
 We design the UI/UX details and work collaboratively with the Product team throughout the design process. We care about your feedback and use our ticket system to get your voice directly.
 We use Storybook to design the little details of our UI components that count.
 
-For running qmBase in your own data center see [installation](installation).
+For running qmBase in your own data center see [installation](on-prem).
