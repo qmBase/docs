@@ -2,8 +2,7 @@
 id: globale-suche
 title: Wie funktioniert die globale Suche?
 keywords:
-  - Allgemein
-  - Anmeldung
+  - Globale Suche
 ---
 
 Auf dieser Seite werden die Details unserer globalen Suche beschrieben.
@@ -12,7 +11,7 @@ Auf dieser Seite werden die Details unserer globalen Suche beschrieben.
 
 Im Allgemeinen werden statische Daten (z.B App-Namen) und in Datenbanken gespeicherte Daten durchsucht.
 
-Es gilt dann Folgendes:
+Folgende Funktionen sind innerhalb des Suchfensters möglich.
 
 1. Indem Sie auf eine App in der aufgeführten Liste klicken, werden Sie direkt zur Index-Seite gebracht. 
    ![Allgemein](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/GlobalSearchDirect.gif)
@@ -43,6 +42,6 @@ Folgende Daten werden in unserer Suche durchsucht:
 | Wiki                       | Titel                                 |
 | Zielmanagement             | Titel, Aktuelle Revision              |
 
-<!-- ### Zugriff
+### Zugriff
 
-Bei fehlendem Zugriff auf die Daten wird als Ergebnis eine leere Menge zurückgegeben. -->
+Objekte, auf die Sie keinen Zugriff haben, werden in der Suche nicht berücksichtigt und dargestellt.
