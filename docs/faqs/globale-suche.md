@@ -10,7 +10,7 @@ Auf dieser Seite werden die Details unserer globalen Suche beschrieben.
 
 ## Daten
 
-<!-- Im Allgemeinen werden statische Daten (z.B App-Namen) und in Datenbanken gespeicherte Daten durchsucht.
+Im Allgemeinen werden statische Daten (z.B App-Namen) und in Datenbanken gespeicherte Daten durchsucht.
 
 Es gilt dann Folgendes:
 
@@ -18,7 +18,7 @@ Es gilt dann Folgendes:
    ![Allgemein](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/GlobalSearchDirect.gif)
 
 2. Gespeicherte Daten können durchsucht werden, indem Sie "Suche eingrenzen" auswählen. Die Suche kann in diesem Fall auf einzelne Apps eingegrenzt werden.
-   ![Specific Search](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/GlobalSearch.gif) -->
+   ![Specific Search](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/GlobalSearch.gif)
 
 Folgende Daten werden in unserer Suche durchsucht:
 
