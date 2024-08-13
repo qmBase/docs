@@ -48,7 +48,7 @@ Bitte überprüfen Sie jeweils auch den Papierkorb, da für den Abgleich auch ge
 ### Was muss ich tun, damit automatisch ein Organigramm erstellt wird
 
 Um automatisch ein Organigramm erstellen zu lassen, müssen die hierarchischen Beziehungen zwischen den einzelnen Positionen definiert werden.
-In den [Einstellungen zu den Positionen](https://app.qmbase.com/Account/findworkspace?returnUrl=/settings/departmentpositions)können Sie jeder Position die hierarchisch untergeordneten Positionen zuordnen.
+In den [Einstellungen zu den Positionen](https://app.qmbase.com/Account/findworkspace?returnUrl=/settings/departmentpositions) können Sie jeder Position die hierarchisch untergeordneten Positionen zuordnen.
 
 Sie können auch externe Personen im Organigramm anzeigen. Hilfreich ist das z.B. bei einer externen Fachkraft für Arbeitssicherheit.
 Hierzu ist ein kleiner Workaround notwendig. Sie müssen dazu zunächst die externe Position als Mitarbeiter festlegen.
