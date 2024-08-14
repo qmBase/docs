@@ -1,0 +1,15 @@
+ppaehler:
+  name: Philipp Pähler
+  page: true
+  title: qmBase Development Team
+  url: https://github.com/JoelMarcey
+  image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
+  email: pp@qmbase.com
+  socials:
+    linkedin: ppaehler
+    x: qmbase
+gadam:
+  name: Gilrandy Farhan Adam
+  page: true
+  title: qmBase Development Team
+  image_url: https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/gilrand-profile-picture.jpg

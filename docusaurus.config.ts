@@ -146,6 +146,11 @@ const config: Config = {
     //   content:
     //     '⭐️ If you like qmBase, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/qmbase/docs">GitHub</a>! ⭐️',
     // },
+    blog: {
+      sidebar: {
+        groupByYear: true,
+      },
+    },
   } satisfies Preset.ThemeConfig,
   presets: [
     [
@@ -155,9 +160,10 @@ const config: Config = {
           sidebarPath: require.resolve("./sidebars.js"),
           showLastUpdateTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/qmBase/docs/tree/master/",
+          editUrl: "https://github.com/qmBase/docs/tree/main/",
         },
         blog: {
+          blogSidebarCount: 20,
           showReadingTime: true,
           feedOptions: {
             type: "all",
@@ -175,7 +181,7 @@ const config: Config = {
             },
           },
           // Please change this to your repo.
-          editUrl: "https://github.com/qmBase/docs/tree/master/",
+          editUrl: "https://github.com/qmBase/docs/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
