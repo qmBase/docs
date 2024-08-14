@@ -349,6 +349,7 @@ further
 Furthermore
 Fusce
 future
+gadam
 gallery
 Gatekeeper
 gear
@@ -506,6 +507,7 @@ Lighthouse
 ligula
 Limitations
 limited
+linkedin
 Linkedin
 Linkerkennung
 lobortis
@@ -638,6 +640,7 @@ Posts
 posuere
 Powered
 Powerpoint
+ppaehler
 Pr├╝f
 Practice
 practices
@@ -782,6 +785,7 @@ sites
 situation
 Skalenabschnitten
 Slide
+socials
 sodales
 Softwarevalidierung
 sollicitudin
