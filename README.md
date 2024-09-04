@@ -139,6 +139,23 @@ If the document you write is incomplete please write
 | Trainings                  |                 |                  |      |                  |     |                     | x         |                  | x     | x                          |                 |                 |             | x                |          |                 |           |      |
 | WIKI                       |                 |                  |      |                  |     |                     |           |                  |       |                            |                 |                 |             |                  |          |                 |           |      |
 
+### Connection matrix via entities
+
+| Entity / Entity | ApplicationUser | AbsenceRequest | Document | Training |
+| --------------- | --------------- | -------------- | -------- | -------- |
+| ApplicationUser |                 |                |          |          |
+| AbsenceRequest  |                 |                |          |          |
+| Opportunity     |                 |                | ✅       |          |
+| Document        |                 |                |          |          |
+| Training        |                 |                | ✅       |          |
+
+#### Legend
+
+- ✅ Default connection
+- LINK to further explanation for fancy connection
+- 🔧 Work in progress / partially completed for example connection from A -> B visible but not the other way arround
+- Leave empty if no connection exists
+
 ## App Homepages
 
 How to create a good home page?
