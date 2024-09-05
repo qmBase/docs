@@ -983,3 +983,4 @@ Zjsu
 zur├╝gesetzt
 zusammenklicken
 zwingendermaßen
+Inventargegenstandes
