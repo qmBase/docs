@@ -141,20 +141,20 @@ If the document you write is incomplete please write
 
 ### Connection matrix via entities
 
-| Entity / Entity | ApplicationUser | AbsenceRequest | Document | Training |
-| --------------- | --------------- | -------------- | -------- | -------- |
-| ApplicationUser |                 |                |          |          |
-| AbsenceRequest  |                 |                |          |          |
-| Opportunity     |                 |                | ✅       |          |
-| Document        |                 |                |          |          |
-| Training        |                 |                | ✅       |          |
-
-#### Legend
-
 - ✅ Default connection
 - LINK to further explanation for fancy connection
 - 🔧 Work in progress / partially completed for example connection from A -> B visible but not the other way arround
 - Leave empty if no connection exists
+
+| Entity / Entity | Audits | ApplicationUser | AbsenceRequest | Document | Training | Goals | Tenants               |
+| --------------- | ------ | --------------- | -------------- | -------- | -------- | ----- | --------------------- | --- |
+| AbsenceRequest  |        |                 |                |          |
+| ApplicationUser |        |                 |                |          |
+| Audits          |        |                 |                |          |          |       | [Link](AttendeesInfo) |
+| Opportunity     |        |                 | ✅             |          |
+| Document        |        |                 |                |          |
+| Training        |        |                 | ✅             | ✅       |
+| Goals           | ✅     |                 |                |          |          |       |                       |     |
 
 ## App Homepages
 
