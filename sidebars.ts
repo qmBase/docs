@@ -36,8 +36,9 @@ const sidebars: SidebarsConfig = {
         {
           type: "category",
           label: "Admin",
-          link: { type: "doc", id: "apps/admin" },
+          link: { type: "generated-index" },
           items: [
+            "apps/admin",
             "apps/admin/berechtigungen",
             "apps/admin/import",
             "apps/admin/import-user",
@@ -51,13 +52,15 @@ const sidebars: SidebarsConfig = {
         {
           type: "category",
           label: "Blog, Dokumentenmanagement & Wiki",
-          link: { type: "doc", id: "apps/article-shared" },
+          link: { type: "generated-index" },
           items: [
+            "apps/article-shared",
             "apps/articles/blog",
             "apps/articles/document-management",
             "apps/articles/wiki",
             "apps/articles/article-placeholder",
             "apps/articles/article-faqs",
+            "apps/articles/process-landscape",
           ],
         },
         "apps/crm",

@@ -58,6 +58,12 @@ const config: Config = {
     locales: ["de"],
   },
   themeConfig: {
+    metadata: [
+      {
+        name: "keywords",
+        content: "qmBase, Hilfe, Anleitung, Tutorials, Help, Readme",
+      },
+    ],
     navbar: {
       title: "",
       logo: {
