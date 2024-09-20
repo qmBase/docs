@@ -142,20 +142,33 @@ If the document you write is incomplete please write
 ### Connection matrix via entities
 
 - ✅ Default connection
-- LINK to further explanation for fancy connection
-- 🔧 Work in progress / partially completed for example connection from A -> B visible but not the other way arround
+- **LINK** to further explanation for fancy connection
+- 🔧 Work in progress / partially completed for example connection from A -> B visible but not the other way arround.
 - Leave empty if no connection exists
 
-| Entity / Entity | Audits | ApplicationUser | AbsenceRequest | Document | Training | Goals | Tenants               |
-| --------------- | ------ | --------------- | -------------- | -------- | -------- | ----- | --------------------- | --- |
-| AbsenceRequest  |        |                 |                |          |
-| ApplicationUser |        |                 |                |          |
-| Audits          |        |                 |                |          |          |       | [Link](AttendeesInfo) |
-| Opportunity     |        |                 | ✅             |          |
-| Document        |        |                 |                |          |
-| Training        |        |                 | ✅             | ✅       |
-| Goals           | ✅     |                 |                |          |          |       |                       |     |
-
+| Entity \ Entity     | AbsenceRequest | ApplicationUser | Article | Audits | Blog | Claim | Company Function | Defect | Department Position                                                | Document | Forms | Goals | Idea | InventoryItem | Organization | Product | Qualification | Risk or Chance | Tasks | Tenants                                     | Training |
+| ------------------- | -------------- | --------------- | ------- | ------ | ---- | ----- | ---------------- | ------ | ------------------------------------------------------------------ | -------- | ----- | ----- | ---- | ------------- | ------------ | ------- | ------------- | -------------- | ----- | ------------------------------------------- | -------- |
+| AbsenceRequest      |                | ✅               |         |        |      |       |                  |        |                                                                    |          |       |       |      |               |              |         |               |                |       | ✅                                           |          |
+| ApplicationUser     |                |                 |         |        |      |       |                  |        |                                                                    |          |       |       |      |               |              |         |               |                |       |                                             |          |
+| Article             | ✅<br>          | ✅               | ✅       | ✅      |      | ✅     | ✅                | ✅      | ✅                                                                  |          | ✅     | ✅     | ✅    | ✅             | ✅            | ✅       | ✅             | ✅              | ✅     | ✅                                           | ✅        |
+| Audits              | ✅              | ✅               | ✅       | ✅      |      | ✅     | ✅                | ✅      | ✅                                                                  |          | ✅     | ✅     | ✅    | ✅             | ✅            | ✅       | ✅             | ✅              | ✅     | [Link](/docs/connections/tenants-audits.md) | ✅        |
+| Blog                | ✅<br>          | ✅               | ✅       | ✅      |      | ✅     | ✅                | ✅      | ✅                                                                  |          | ✅     | ✅     | ✅    | ✅             | ✅            | ✅       | ✅             | ✅              | ✅     | ✅                                           | ✅        |
+| Claim               |                |                 |         |        |      | ✅     |                  | ✅      |                                                                    |          |       |       |      |               |              | ✅       |               |                | ✅     |                                             |          |
+| Company Function    |                |                 |         |        |      |       |                  |        | ✅                                                                  | ✅        |       |       |      |               |              |         | ✅             |                |       |                                             |          |
+| Defect              |                |                 |         |        |      | ✅     |                  |        |                                                                    |          |       |       |      |               |              | ✅       |               |                | ✅     |                                             |          |
+| Department Position |                |                 |         |        |      |       |                  |        | [Link](/docs/connections/departmentPosition-departmentPosition.md) |          |       |       |      |               |              |         |               |                |       | ✅                                           |          |
+| Document            | ✅              | ✅               | ✅       | ✅      |      | ✅     | ✅                | ✅      | ✅                                                                  |          | ✅     | ✅     | ✅    | ✅             | ✅            | ✅       | ✅             | ✅              | ✅     | ✅                                           | ✅        |
+| Forms               |                |                 |         |        |      |       |                  |        |                                                                    |          |       |       |      |               |              |         | ✅             |                |       |                                             |          |
+| Goals               | ✅              | ✅               | ✅       | ✅      |      | ✅     | ✅                | ✅      | ✅                                                                  |          | ✅     | ✅     | ✅    | ✅             | ✅            | ✅       | ✅             | ✅              | ✅     | ✅                                           | ✅        |
+| Idea                |                |                 |         |        |      |       |                  |        |                                                                    |          |       |       |      |               |              |         |               |                |       | ✅                                           |          |
+| InventoryItem       |                |                 |         |        |      |       |                  |        |                                                                    |          |       |       |      |               |              |         |               |                | ✅     | ✅                                           |          |
+| Organization        |                |                 |         |        |      |       |                  |        |                                                                    |          |       |       |      |               |              |         |               |                | ✅     | ✅                                           |          |
+| Product             |                |                 |         |        |      | ✅     |                  | ✅      |                                                                    |          |       |       |      |               |              |         |               |                | ✅     |                                             |          |
+| Qualification       | ✅              | ✅               | ✅       | ✅      |      | ✅     | ✅                | ✅      | ✅                                                                  |          | ✅     | ✅     | ✅    | ✅             | ✅            | ✅       | ✅             | ✅              | ✅     | ✅                                           | ✅        |
+| Risk and Chances    |                |                 |         |        |      |       |                  |        |                                                                    |          |       | ✅     |      |               |              |         |               | ✅              | ✅     | ✅                                           |          |
+| Tasks               |                |                 |         | ✅      |      | ✅     |                  |        | ✅                                                                  |          |       | ✅     | ✅    | ✅             | ✅            | ✅       |               | ✅              |       | ✅                                           | ✅        |
+| Tenants             |                |                 |         | ✅      |      |       |                  |        | [Link](/docs/connections/departmentPosition-tenant.md)             |          |       |       |      |               |              |         |               |                |       | ✅                                           |          |
+| Training            | ✅              | ✅               | ✅       | ✅      |      | ✅     | ✅                | ✅      | ✅                                                                  |          | ✅     | ✅     | ✅    | ✅             | ✅            | ✅       | ✅             | ✅              | ✅     | ✅                                           |          |
 ## App Homepages
 
 How to create a good home page?
@@ -164,7 +177,7 @@ How to create a good home page?
 
 - Minimize Cognitive Load
 - DECLUTTERING
-- USE FAMILIAR SCREENS
+- USE FAMILIAR SCREEN
 - MINIMIZE USER INPUT
 - ANTICIPATE USERS NEEDS
 - Focus On The First-Time Experience
