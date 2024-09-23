@@ -58,7 +58,7 @@ This command generates static content into the `build` directory and can be serv
 
 ## Deployment
 
-This project will deployed to an azure static web app via the azure-pipelines.yml file
+This project will be deployed to an azure static web app via the azure-pipelines.yml file
 
 ## Spell Check
 
