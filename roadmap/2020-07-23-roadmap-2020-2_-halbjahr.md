@@ -12,6 +12,8 @@ Im Rahmen unserer anhaltenden Entwicklung von qmBase möchten wir Ihnen einige K
 
 ### ![](https://www.qmbase.com/wp-content/uploads/2020/01/Bild1-1200x589.jpg)
 
+<!--truncate-->
+
 Im ersten Halbjahr 2020 haben wir qmBase rasant weiterentwickelt. In über **20** neuen Versionen haben wir zahlreiche neue Funktionen, Verbesserungen und Fehlerbehebungen für unsere Kunden fertiggestellt. Ihr Feedback ist dabei unser wichtigster Antrieb. Wir konnten insgesamt **251** Tickets schließen, die von Nutzern erstellt wurden.
 
 Vielen Dank für Ihr Feedback und auch Ihre Geduld, wenn die Bearbeitung der Tickets einmal etwas länger dauern sollte!
