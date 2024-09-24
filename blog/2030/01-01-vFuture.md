@@ -1,13 +1,13 @@
 ---
 title: vFuture
-author: Philipp Pähler
-author_title: qmBase Development Team
-author_image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
+authors: ppaehler
 draft: true
 tags: ["test"]
 ---
 
 This document is intended to be a placeholder for ongoing developments.
+
+<!--truncate-->
 
 ## Premium Features
 

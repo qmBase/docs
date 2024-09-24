@@ -200,6 +200,7 @@ DECLUTTERING
 dedidacted
 defect
 Delayed
+Department
 described
 Detailsansicht
 Detailsansichten
@@ -447,6 +448,7 @@ Inventargegenst├ñnden
 Inventargegenstand
 Inventargegenstände
 Inventargegenständen
+Inventargegenstandes
 Inventarkategorien
 Inventarpr├╝fung
 Inventarpr├╝fungen
@@ -571,6 +573,7 @@ newlines
 nibh
 nicely
 nisl
+nkalicanin
 notes
 Nulla
 Nullam
@@ -983,4 +986,3 @@ Zjsu
 zur├╝gesetzt
 zusammenklicken
 zwingendermaßen
-Inventargegenstandes

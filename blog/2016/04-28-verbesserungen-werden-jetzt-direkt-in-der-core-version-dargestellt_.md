@@ -1,11 +1,10 @@
 ---
 slug: verbesserungen-werden-jetzt-direkt-in-der-core-version-dargestellt_
 title: Verbesserungen werden jetzt direkt in der Core Version dargestellt.
-author: Philipp Pähler
-author_title: qmBase Development Team
-author_image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
-tags: [Veröffentlichung Release Notes,Changelog]
+authors: ppaehler
+tags: [Veröffentlichung Release Notes, Changelog]
 ---
+
 ## Veröffentlichung Release Notes
 
 Veränderungen und Verbesserungen werden an dieser Stelle immer direkt in der  Core Version dargestellt.
