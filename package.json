@@ -17,8 +17,8 @@
     "lint:spelling": "cspell \"**\" --no-progress"
   },
   "dependencies": {
-    "@docusaurus/core": "3.5.2",
-    "@docusaurus/preset-classic": "3.5.2",
+    "@docusaurus/core": "3.6.0",
+    "@docusaurus/preset-classic": "3.6.0",
     "clsx": "^2.1.1",
     "mermaid": "^11.1.0",
     "plugin-image-zoom": "github:flexanalytics/plugin-image-zoom",
@@ -40,9 +40,9 @@
   },
   "devDependencies": {
     "@cspell/dict-de-de": "^4.0.0",
-    "@docusaurus/module-type-aliases": "3.5.2",
-    "@docusaurus/tsconfig": "3.5.2",
-    "@docusaurus/types": "3.5.2",
+    "@docusaurus/module-type-aliases": "3.6.0",
+    "@docusaurus/tsconfig": "3.6.0",
+    "@docusaurus/types": "3.6.0",
     "@types/react": "^18.3.3",
     "@types/react-router-dom": "^5.3.3",
     "cspell": "^8.14.1",
