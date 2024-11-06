@@ -53,6 +53,9 @@ const config: Config = {
   favicon: whiteLabel.faviconUrl,
   organizationName: "qmBase", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
+  future: {
+    experimental_faster: true,
+  },
   i18n: {
     defaultLocale: "de",
     locales: ["de"],
