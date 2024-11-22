@@ -288,6 +288,7 @@ erat
 erm├Âglich
 ermöglich
 eros
+Erstattungsanträgen
 Erstelldatum
 Etiam
 euismod
@@ -800,6 +801,7 @@ staffs
 started
 Startsetie
 Stay
+Sternebewertungen
 stored
 straightforward
 strategies
@@ -884,11 +886,13 @@ Unify
 unless
 unplanned
 unteranderem
+Uploadfeld
 upon
 Upon
 Upsert
 urna
 Ursachenermittlung
+Usability
 usecases
 uses
 usescases
