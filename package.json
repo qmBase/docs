@@ -17,7 +17,7 @@
     "lint:spelling": "cspell \"**\" --no-progress"
   },
   "dependencies": {
-    "@docusaurus/core": "3.6.1",
+    "@docusaurus/core": "3.6.2",
     "@docusaurus/faster": "^3.6.1",
     "@docusaurus/preset-classic": "3.6.1",
     "clsx": "^2.1.1",
