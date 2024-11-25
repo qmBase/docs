@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@cspell/dict-de-de": "^4.0.0",
-    "@docusaurus/module-type-aliases": "3.6.2",
+    "@docusaurus/module-type-aliases": "3.6.3",
     "@docusaurus/tsconfig": "3.6.2",
     "@docusaurus/types": "3.6.2",
     "@types/react": "^18.3.3",
