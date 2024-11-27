@@ -265,6 +265,7 @@ eleifend
 elementum
 elit
 Ellipsis
+Emojis
 Emotionalisierung
 emphasis
 Emphasis
