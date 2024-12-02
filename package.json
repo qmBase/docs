@@ -21,7 +21,7 @@
     "@docusaurus/faster": "^3.6.2",
     "@docusaurus/preset-classic": "3.6.2",
     "clsx": "^2.1.1",
-    "mermaid": "^11.1.0",
+    "mermaid": "^11.4.1",
     "plugin-image-zoom": "github:flexanalytics/plugin-image-zoom",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
