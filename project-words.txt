@@ -50,6 +50,7 @@ approach
 appsettings
 arcu
 arises
+Artem
 articles
 asterisks
 Audit├╝bersicht
@@ -84,6 +85,7 @@ Avatare
 award
 aware
 awareness
+azhukovskyi
 backed
 being
 believe
@@ -93,6 +95,7 @@ benachrichtigungen
 Benachrichtigungsemails
 Benachrichtigungsfunktion
 Benachrichtungsmails
+Benboujina
 berechtigungen
 Best├ñtigungsemail
 Bestätigungsemail
@@ -265,6 +268,7 @@ eleifend
 elementum
 elit
 Ellipsis
+Emojis
 Emotionalisierung
 emphasis
 Emphasis
@@ -757,10 +761,12 @@ Risikoprioritätszahl
 Risks
 risus
 roadmap
+Saad
 sagittis
 sake
 same
 sapien
+sbenboujina
 sbg┘«
 sbgٮ
 scelerisque
@@ -984,6 +990,7 @@ Year
 your
 zebra
 zeitbasierten
+Zhukovskyi
 Zielerreichungsberechnung
 Zirkelbeziehungen
 Zjsu
