@@ -18,4 +18,4 @@ Although hitting rate limits can be frustrating, rate limits exist to protect th
 
 ## Default rate limits
 
-Different types of API enforce different rate limits. Unless otherwise described the rate limit is 500 requests per minute and user.
+Different types of API enforce different rate limits. Unless otherwise described the rate limit is 750 requests per minute and user.
