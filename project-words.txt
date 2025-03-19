@@ -52,6 +52,7 @@ arcu
 arises
 Artem
 articles
+Artificial
 asterisks
 Audit├╝bersicht
 Auditanforderung
@@ -406,6 +407,7 @@ Hosting
 hour
 Hour
 However
+Hype
 i'QX
 iaculis
 Ical
@@ -446,6 +448,7 @@ instructions
 Integrationen
 integrations
 Integrations
+Intelligence
 intended
 interdum
 Interval
