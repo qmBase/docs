@@ -87,11 +87,11 @@ Eine Ursache dafür kann die Benennung der Variablen sein. Wenn Sie zum Beispiel
 
 ### Was sind Grenzwerte
 
-Es ist nicht aussreichend Risiken nur zu bewerten. Auf Basis der Bewertung muss auch entschieden werden, wie mit dem Risiko umgegangen werden soll. Hier können Grenzwerte helfen. Die Grenzwerte werden im Bewertungsdiagramm dargstellt und können ergänzend auch weitere Hinweisfelder auslösen. 
+Es ist nicht ausreichend Risiken nur zu bewerten. Auf Basis der Bewertung muss auch entschieden werden, wie mit dem Risiko umgegangen werden soll. Hier können Grenzwerte helfen. Die Grenzwerte werden im Bewertungsdiagramm dargestellt und können ergänzend auch weitere Hinweisfelder auslösen. 
 
 ![t](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-03-31%20171600.png)
 
-Für die Definition der Grenwzerte müssen folgende Parameter definiert werden: 
+Für die Definition der Grenzwerte müssen folgende Parameter definiert werden: 
 
 <code>Typ</code>
 
