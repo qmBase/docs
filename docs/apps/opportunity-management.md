@@ -85,6 +85,36 @@ Für die Bewertung von Chancen und Risiken müssen in den Einstellungen Variable
 Sie haben die notwendigen Variablen definiert und die Formel zu Berechnung der Risikowerte erstellt, aber die Ergebnisse die berechnet werden sind falsch?
 Eine Ursache dafür kann die Benennung der Variablen sein. Wenn Sie zum Beispiel ein Variable schlicht E nennen, dann kann es passieren, dass diese als Eulersche Zahl interpretiert wird. Bei der Berechnungen des Risikowertes wird dann automatisch E = 2,71828 angenommen. Dieser Fehler ist nicht so offensichtlich, da das Ergebnis ganzzahlig gerundet wird. Vermeiden Sie also am besten Variablennamen, die Ähnlichkeiten mit standardisierten mathematischen Parametern aufweisen.
 
+### Was sind Grenzwerte
+
+Es ist nicht aussreichend Risiken nur zu bewerten. Auf Basis der Bewertung muss auch entschieden werden, wie mit dem Risiko umgegangen werden soll. Hier können Grenzwerte helfen. Die Grenzwerte werden im Bewertungsdiagramm dargstellt und können ergänzend auch weitere Hinweisfelder auslösen. 
+
+![t](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-03-31%20171600.png)
+
+Für die Definition der Grenwzerte müssen folgende Parameter definiert werden: 
+
+<code>Typ</code>
+
+- Oberer Grenzwert: Es wird ein Hinweis ausgespielt, wenn der Grenzwert überschritten wird (z.B. Grenzwert: 70, Risikobewertung: 90)
+- Unterer Grenzwert: Es wird ein Hinweis ausgespielt, wenn der Grenzwert unterschritten wird (z.B. Grenzwert: 90, Risikobewertung: 70)
+- Nichts: Es wird kein Hinweis ausgespielt.
+
+<code>Level</code> 
+
+- Information:  Das Hinweisfeld ist blau.
+- Warnung: Das Hinweisfeld ist orange
+- Nichts: Das Hinweisfeld ist ohne Farbe
+
+<code>Wert</code>
+
+Der Grenzwert der im Diagramm dargestellt wird und bei Über- oder Unterschreitung einen Hinweis auslösen kann. 
+
+<code>Titel</code> 
+
+Bezeichnung des Grenzwertes, die auch im Diagramm dargestellt wird (z.B.: "Es müssen Maßnahmen ergriffen werden").
+
+![t](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-03-31%20172116.png)
+
 ### Wo finde ich Auswertungen meiner Risiken & Chancen?
 
 Die Auswertungen der Risiken & Chancen, sowie anderer Apps, finden Sie in der App Dashboard & Reportings. Das FAQ zu der App Dashboard & Reportings finden Sie [hier](dashboard.mdx).
