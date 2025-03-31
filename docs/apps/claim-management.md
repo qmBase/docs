@@ -121,15 +121,15 @@ Die Methode wird bisweilen verwendet, um die Ursache von Abweichungen / Anomalie
 
 Ausgangspunkt eines 8D-Reports ist also immer eine Reklamation. Das heißt, um einen 8D-Report zu erstellen, müssen Sie zunächst eine Reklamation erfasst haben. Für jede Reklamation kann dann ein oder mehrere 8D-Report erstellt werden. Klicken Sie hierfür auf den Button 8D-Report.
 
-![](https://caqadmin.blob.core.windows.net/faqs/121-images/6e2f34ce-e3d6-4cd4-a6c6-c1cc69927670-mceclip0.png)
+![Button zum Erstellen des 8D-Reports](https://caqadmin.blob.core.windows.net/faqs/121-images/6e2f34ce-e3d6-4cd4-a6c6-c1cc69927670-mceclip0.png)
 
 In der folgenden Übersicht sehe Sie alle 8D-Reporte, die zu der bestehende Reklamation bisher erstellt wurden und Sie können auch neue 8D-Reporte erstellen.
 
-![](https://caqadmin.blob.core.windows.net/faqs/121-images/d84db111-4fbd-466c-b182-4ef6df1ab97e-mceclip1.png)
+![Erstellen eines neuen 8D-Reports](https://caqadmin.blob.core.windows.net/faqs/121-images/d84db111-4fbd-466c-b182-4ef6df1ab97e-mceclip1.png)
 
 Klicken Sie dann auf Report starten.
 
-**![](https://caqadmin.blob.core.windows.net/faqs/121-images/1f0a2bb7-51c4-4494-937a-847756786fbc-mceclip3.png)**
+![Startvorgang des 8D-Reports](https://caqadmin.blob.core.windows.net/faqs/121-images/1f0a2bb7-51c4-4494-937a-847756786fbc-mceclip3.png)
 
 Im folgenden haben Sie die Möglichkeit sich durch alle Prozessschritte des Reports zu arbeiten. Beim Ausfüllen des Reports haben Sie grundsätzlich zwei Möglichkeiten, die auch kombiniert werden können. Sie können entweder den Report über die Beschreibungsfelder mittels des Texteditors beschreiben oder Sie können unser Vorlage nutzen und mittels der mit der Reklamation verknüpften Informationen den Report weitestgehend automatisch zusammenklicken. Sobald eine Disziplin des Reports bearbeitet ist, wird diese in der Übersicht in der linken Spalte als abgeschlossen dargestellt.
 
