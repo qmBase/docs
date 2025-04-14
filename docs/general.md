@@ -44,7 +44,7 @@ Sortierbar sind z.B. Datumsangaben oder Texte. Nicht sortierbar sind hingegen Sp
 
 #### Exportieren von Daten
 
-Sie können die meisten Daten in Tabellen lassen sich exportieren. Hierzu gehen Sie bitte wie folgt vor:
+Die meisten Daten in Tabellen lassen sich exportieren. Hierzu gehen Sie bitte wie folgt vor:
 
 1. Markieren Sie die Datensätze in der Tabelle, die Sie gerne exportieren möchten. Klicken Sie dazu auf diesen Button oben rechts über der Tabelle: ![](https://caqadmin.blob.core.windows.net/faqs/0-images/mceclip2.png)
 2. Starten Sie den Download. Klicken Sie dazu auf diesen Button oben rechts über der Tabelle: ![](https://caqadmin.blob.core.windows.net/faqs/0-images/mceclip3.png)
