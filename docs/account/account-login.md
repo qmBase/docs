@@ -57,6 +57,10 @@ Klicken Sie einfach auf den Link "Passwort zurücksetzen" und folgen Sie den Anw
 
 ![forgotPassword](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Account/ForgotPassword.png)
 
+:::info
+Passwörter können nur für lokale und bestätigte Nutzeraccounts zurückgesetzt werden. Wenn Sie z.B. eine Anmeldung mit Hilfe von EntraId konfiguriert haben, müssen Sie das Passwort dort zurücksetzen.
+:::
+
 #### Kann die Verknüpfung von Account und Person nachträglich geändert werden?
 
 Nein, das ist aus Sicherheitsgründen nicht möglich. Sollte es dennoch erforderlich sein, sprechen Sie uns in diesem Fall bitte an.
