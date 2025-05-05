@@ -315,6 +315,7 @@ Examples
 except
 excessive
 existing
+Expecting
 experience
 Experience
 experiencing
@@ -894,6 +895,7 @@ they
 throttling
 throw
 ticket
+tickets
 tildes
 today
 Todos
@@ -910,6 +912,7 @@ turpis
 tutorials
 ultrices
 ultricies
+Uncaught
 underscores
 understand
 unexpected
