@@ -181,3 +181,9 @@ How to create a good home page?
 | Search results                 |          | ?                 | Settings                   | leave as it is                                                                     |
 | New here card                  |          | ?                 | IdeaManagement             | Unify under condition no action required + zero data created                       |
 | Prerequisites                  |          | ?                 |                            | App lock screen modal with overview of required / missing data and permission info |
+
+## Known Issues
+
+Known Issues should be documented in the dedicated folder `./docs/knownIssues/` if the source is a ticket use the `{id}.md` as file name. If the source is a internal ticket use the `{id}_intern.md` as file name.
+
+Add the tag `docs:KnownIssue` to the ticket so that we have a reference there. If multiple tickets reference a knownIssue entry put the link to the knownIssue as a comment to the ticket.
