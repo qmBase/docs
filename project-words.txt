@@ -63,6 +63,7 @@ Auditanforderung
 Auditanforderungen
 auditbericht
 Auditberichte
+Auditberichts
 Auditbewertung
 Auditdetailseite
 Auditergebnis
@@ -203,6 +204,7 @@ dapibus
 dar├╝berhinaus
 Dar├╝berhinaus
 dashes
+Datenvalidierung
 Datumspicker
 DECLUTTERING
 dedidacted
@@ -243,6 +245,7 @@ draft
 Drag
 dramatically
 Draw
+Dublettenprüfung
 Duis
 Dungeon
 durability
