@@ -55,6 +55,7 @@ const config: Config = {
   projectName: "docs", // Usually your repo name.
   future: {
     experimental_faster: true,
+    v4: true,
   },
   i18n: {
     defaultLocale: "de",
