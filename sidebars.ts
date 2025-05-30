@@ -142,6 +142,7 @@ const sidebars: SidebarsConfig = {
         "faqs/faq-125",
         "faqs/create-page-templates",
         "faqs/globale-suche",
+        "faqs/preview-badge",
       ],
     },
     {
