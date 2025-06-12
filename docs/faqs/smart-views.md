@@ -5,8 +5,7 @@ sidebar_label: Smart Views
 slug: /faqs/smart-views
 ---
 
-Smart Views helfen Ihnen und Ihrem Team die Übersicht in wachsenden Listen von z.B. Projekten und Maßnahmen zu behalten.
-Mittels der Smart Views lassen sich individuelle Filter definieren, die die gesamte Liste auf Basis Ihrer Kriterien herunterfiltern.
+Sie haben die Möglichkeit die Filter in einer Tabelle (z.B  Liste der Maßnahmen) als Smart View abzuspeichern. So kommen Sie auch bei umfangreichen Tabellen schnell zu den Informationen, dei für Sie relevant sind. .
 
 Typische Aufgaben, für die Smart Views geeignet sind, sind z.B:
 
@@ -14,7 +13,7 @@ Typische Aufgaben, für die Smart Views geeignet sind, sind z.B:
 - Alle Maßnahmen mit Schlagwort ISO 9001 Rezertifizierung mit einem Erstellt ab dem 01.09.2017
 - Maßnahmen und Projekte, die im 2. Quartal 2017 abgeschlossen wurden.
 
-Smart Views lassen sich nur für den eigenen Gebrauch als private Smart Views erstellen. Alternativ können Smart Views auch mit allen Nutzern der Software geteilt werden.
+Smart Views lassen sich als Privat (nur für den eigenen Gebrauch) oder als Öffentlich (für den gemeinsamen Gebrauch mit den übrigen Nutzern) abspeichern.
 Das Bearbeiten und Löschen der Smart View bleibt dem Ersteller vorbehalten.
 
 ### Wie werden Smart Views erstellt
@@ -25,8 +24,7 @@ Zum Erstellen von Smart Views gehen Sie wie folgt vor:
 
 ![Filter einstellen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-12_set-filter.png)
 
-2. Ausgewählten Filter als Smart View abspeichern. Beim Speichern des Filters können Sie einen Titel (1) und die Freigabeoption (2) festlegen.
-   Hiermit legen Sie fest, ob der Filter für alle Nutzer des Systems oder nur Sie selbst sichtbar sein soll.
+2. Ausgewählten Filter als Smart View abspeichern. Beim Speichern des Filters können Sie einen Titel (1) und die Freigabeoption (2) (Privat / Öffentlich) festlegen
 
 ![Filter speichern](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-12_save-smart-view.png)
 
