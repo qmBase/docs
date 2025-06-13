@@ -45,11 +45,11 @@ Legen Sie fest welche Aufgaben in Ihrer Organisation zu erledigen sind. Beispiel
 
 In der Aufgabenmatrix werden Personen und Aufgaben einander gegenüber gestellt. Sie können hier auf einen Blick erkennen, wie qualifiziert die Personen für die jeweiligen Aufgaben sind.
 
-| Darstellung                    | Bedeutung                                                                                |
-| ------------------------------ | ---------------------------------------------------------------------------------------- |
-| Blauer Hintergrund             | Aufgabe ist Teil der Position des Mitarbeiters oder ist diesem direkt zugeordneter       |
-| Vollständig ausgefüllter Kreis | 100% qualifiziert für Aufgabe                                                            |
-| Teilausgefüllter Kreis         | Anteilig qualifiziert für Aufgabe                                                        |
+| Darstellung                    | Bedeutung                                                                          |
+| ------------------------------ | ---------------------------------------------------------------------------------- |
+| Blauer Hintergrund             | Aufgabe ist Teil der Position des Mitarbeiters oder ist diesem direkt zugeordneter |
+| Vollständig ausgefüllter Kreis | 100% qualifiziert für Aufgabe                                                      |
+| Teilausgefüllter Kreis         | Anteilig qualifiziert für Aufgabe                                                  |
 
 ## Qualifikationen
 
@@ -76,7 +76,7 @@ In der Qualifikationsmatrix werden Personen und Qualifikationen einander gegenü
 | Roter Kreis                    | Qualifikation vorhanden aber abgelaufen                                                        |
 | Gelber Kreis                   | Qualifikation vorhanden aber innerhalb der Vorwanzeit - läuft also bald ab                     |
 
-## Beipsiel für das Zusammenwirken von Positionen, Aufgaben und Qualifikationen 
+## Beipsiel für das Zusammenwirken von Positionen, Aufgaben und Qualifikationen
 
 Der Mitarbeiter <code>Lukas Guss</code> hat die Positionen <code>Vertriebsassistenz</code> und <code>Arbeitssicherheitsbeauftragter</code>.
 Zu den Positionen (P) gehören Aufgaben (A) für welche wiederumg Qualifikationen (Q) notwendig sind. Inwieweit der Mitarbeiter tatsächlich über die jeweilige Qualifiaktion verfügt wird mit einem Wert zwischen 0% und 100% angegeben:
@@ -94,10 +94,10 @@ Zu den Positionen (P) gehören Aufgaben (A) für welche wiederumg Qualifikatione
     - Word Kenntnisse (Q4) <code>Wert: 100%</code>
     - Excel Kenntnisse (Q5) <code>Wert: 100%</code>
 - Arbeitssicherheitsbeauftragter (P2)
-  - Ersthelfer (A3) 
+  - Ersthelfer (A3)
     - Ersthelfer (Q6) <code>Wert: 0%</code>
 
-Es ist möglich, dass dieselbe Qualifikationen für mehrere Aufgaben notwendig ist und daher mehrfach im Anforderungsprofil auftaucht. 
+Es ist möglich, dass dieselbe Qualifikationen für mehrere Aufgaben notwendig ist und daher mehrfach im Anforderungsprofil auftaucht.
 
 Daraus ergibt sich, dass sich die Eignung für die Aufgaben wie folgt berechnet:
 
@@ -105,7 +105,7 @@ Daraus ergibt sich, dass sich die Eignung für die Aufgaben wie folgt berechnet:
 
 Der Mitarbeiter ist zu 90% für die Aufgabe Erstellen von Reportings qualifiziert. Dieser Wert berechnet sich wie folgt:
 
-<code>Eignung Erstellen von Reportings (A1) = (Q1 + Q2 + Q3 + Q4 +  Q5) / (Anzahl Qualifikationen)</code>
+<code>Eignung Erstellen von Reportings (A1) = (Q1 + Q2 + Q3 + Q4 + Q5) / (Anzahl Qualifikationen)</code>
 
 <code>Eignung Erstellen von Reportings (A1) = (50% + 100% + 100% + 100% + 100%) / 5 = 90 %</code>
 
@@ -113,7 +113,7 @@ Der Mitarbeiter ist zu 90% für die Aufgabe Erstellen von Reportings qualifizier
 
 Der Mitarbeiter ist zu 100% für die Aufgabe Erstellen von Angeboten qualifiziert. Dieser Wert berechnet sich wie folgt:
 
-<code>Eignung Erstellen von Angeboten (A2) = ( Q2 + Q3 + Q4 +  Q5) / (Anzahl Qualifikationen)</code>
+<code>Eignung Erstellen von Angeboten (A2) = ( Q2 + Q3 + Q4 + Q5) / (Anzahl Qualifikationen)</code>
 
 <code>Eignung Erstellen von Angeboten (A2) = (100% + 100% + 100% + 100%) / 4 = 100 %</code>
 
@@ -179,15 +179,13 @@ Die Formel für diesen Fall lautet:
 
 Wenn Sie jetzt einen Mitarbeiter haben, der Excel Kenntnisse zu 25% besitzt und Verhandlungsgeschick zu 100% besitzt, berechnet sich die Eignung als:
 
-<code>(min(0,25/0,5,1)+1)/2) = 0,75 => 75% Eignung</code>
+<code>((min(0,25/0,5,1)+1)/2) = 0,75 => 75% Eignung</code>
 
 Damit unser Formeleditor die richtig arbeiten kann, müssen Sie für die einzelnen Qualifikationen Variablen verwenden.
 Die Variable setzt sich zusammen aus den Teilen <code>QualificationId\_</code> und dann der tatsächlichen ID der jeweiligen Qualifikation.
 Für die Qualifikation mit der ID 25 ergibt sich dann z.B. als Variable der Name <code>QualificationId_25</code>.
 
 ### Erklärung der Darstellung der Qualifikationsmatrix
-
-
 
 ### Dashboard
 
@@ -220,6 +218,69 @@ Wenn alle Mitarbeiter einer Abteilung angehören, würden sich aus dem Beispiel 
 | Grün  | Anteil der benötigten Qualifikationen, die vorhanden sind                 | 70%                                |
 
 Die Gruppierung nach einzelnen Positionen funktioniert analog.
+
+## Best Practices und typische Aufgaben
+
+Im folgenden Abschnitt sind Best Practices und typische Aufgaben beschrieben, die durchgeführt werden können.
+
+### Was kann ich als normaler Nutzer in dieser App machen?
+
+Als normaler Nutzer, mit der **Standard-Berechtigung**, kann ihnen diese App in vielen Aspekten helfen und Antworten auf verschiedene Fragen liefern.
+Der Einstiegspunkt für die Beantwortung dieser Fragen ist immer das eigene Profil in der App **Aufgaben & Qualifikationen**. Dieses erreichen Sie, indem Sie in der Seitenleiste auf den Eintrag **Mein Qualifikationsprofil** klicken.
+![Link zu meinem Qualifikationsprofil](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-06%20myQualificationProfile.png)
+
+Auf der nächsten Seite erscheint dann Ihr persönliches Qualifikationsprofil. Die Details zu diesem Profil werden in den folgenden Abschnitten beschrieben.
+![Mein Qualifikationsprofil](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-06%20myQualificationProfile_Details.png)
+
+#### Was ist meine Stellenbeschreibung?
+
+In der linken Spalte (1) haben Sie Einblick in Ihr Stellenprofil.
+Sie könnten sowohl ihr gesamtes Stellenprofil unter **Details anzeigen** einsehen, als auch nur die Beschreibung für jede einzelne Position, falls Sie über mehrere Positionen verfügen sollten.
+
+#### Welche Aufgaben habe ich auf Basis meiner Stellenbeschreibung zu erfüllen?
+
+Aus Ihren Positionen sowie der manuellen Zuordnung von Aufgaben ergeben sich die Tätigkeiten, die Sie innerhalb der Organisation ausführen sollen.
+Diese können Sie unter dem Tab **Aufgaben** einsehen. Manuell zugeordnete Aufgaben sind dabei an dem grünen Handsymbol zu erkennen.
+
+#### Über welche Qualifikationen soll ich verfügen, um meinen Aufgaben gerecht zu werden?
+
+In der rechten Spalte (2) sehen Sie alle Qualifikationen, die für Ihre Aufgaben gefordert werden. Zusätzlich sehen Sie hier auch die Qualifikationen, über die Sie verfügen.
+Die erforderlichen Qualifikationen sind mit dem Info Badge <span class="badge badge--info">Benötigt</span> versehen.
+
+#### Welche Qualifikationen habe ich aktuell und wie lange sind diese gültig?
+
+Qualifikationen, über die Sie verfügen, werden mit weiteren Details dargestellt. In der ersten markierten Zeile ist die Qualifikation **Akademischer Abschluss** dargestellt.
+Diese Qualifikation ist zu 100% vorhanden (Spalte Eignung) jedoch bereits abgelaufen.
+Qualifikationen können mit der Zeit ablaufen, wenn z.B. festgelegt ist, dass diese regelmäßig überwacht und oder erneut erworben werden sollen.
+Da diese Qualifikation auf Grund ihrer Aufgaben nicht benötigt wird, besteht hier kein Handlungsbedarf.
+
+In der zweiten markierten Zeile **Baggerführerschein** ist eine Qualifikation dargestellt, die ebenfalls zu 100% vorhanden und zusätzlich auch noch nicht abgelaufen ist.
+Hier besteht also kein Handlungsbedarf.
+
+Sollte Handlungsbedarf bei eine Qualifikation bestehen und Sie dokumentieren wollen, dass Sie über diese Qualifikation verfügen, dann klicken Sie bitte auf das Kebab-Menü (3) und wählen Sie dort den Eintrag **Neues Qualifikationsereignis hinzufügen** aus.
+
+### Was kann ich als Vorgesetzter oder Administrator in dieser App machen?
+
+Als Vorgesetzter oder Administrator besteht Ihr Ziel in der Regel nicht nur aus der Aktualisierung Ihres eigenen Qualifikationsprofils, sondern auch dem weiterer Kollegen und Mitarbeiter.
+Hierzu bietet es sich an, als Einstiegspunkt z.B. die Qualifikationsmatrix auszuwählen. Hierzu klicken Sie in der linken Spalte auf **Qualifikationsmatrix**.
+
+In der Qualifikationsmatrix sehen sie dann alle Personen, auf die Sie Zugriff haben.
+Das kann entweder die ganze Organisation oder auch nur eine Teilmenge der Mitarbeiter sein. Sollten Sie nur eine Teilmenge der sichtbaren Mitarbeiter beurteilen wollen, können Sie die sichtbaren Mitarbeiter über die Filter nochmals weiter reduzieren.
+
+:::info
+Die erstellten Filter können Sie auch jederzeit als [Smart Views](/docs/faqs/smart-views) abspeichern, um somit immer schnell zu der Auswahl zu gelangen, die für Sie interessant ist.
+:::
+
+Zur Erklärung der Symbolik innerhalb der Qualifikationsmatrix schauen Sie bitte in den Abschnitt [Qualifikations-Matrix](#erklärung-der-darstellung-der-qualifikationsmatrix).
+Um einen schnellen Überblick über die anstehenden Aufgaben zu erhalten, können Sie auch zum Reiter **Dashboard** wechseln.
+![Dashboard Qualifikationsmatrix](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-12_QualyMatrixDashboard.png)
+Hier sehen Sie dann den aktuellen Status der Qualifikationen für die ausgewählte Teilgruppe. Fokussieren Sie sich hier am besten auf die Kennzahl **Vorhandene erforderliche Qualifikationen**.
+Um dann den Qualifikationsstatus zu verbessern, gibt es verschiedene Vorgehensweisen.
+
+1. Sie gehen über das jeweilige Mitarbeiterprofil und fügen fehlende Qualifikationen [hinzu](#welche-qualifikationen-habe-ich-aktuell-und-wie-lange-sind-diese-gültig).
+2. Sie gehen über eine Qualifikationen mit Handlungsbedarf und fügen dort Personen hinzu. Klicken Sie hierfür auf eine der Qualifikationen (2). Auf der Detailseite der Qualifikationen wählen Sie dann den Reiter **Personen** aus.
+   Hier klicken Sie dann auf den Button **Person hinzufügen**, um mehrere Personen einer Qualifikation hinzuzufügen.
+   ![Qualifikationsmatrix mit Handlungsbedarf](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-12_qualiMatrix_Actions.png)
 
 ## Zugriff - Wer kann was machen?
 
