@@ -76,7 +76,7 @@ This command runs a spell check using CSpell. If you want any specific words to 
 
 ### Icons
 
-Icons we use can be found at [react-icons](https://react-icons.github.io/react-icons/icons?name=bs)
+Icons we use can be found at [react-icons](https://react-icons.github.io/react-icons/icons?name=bs).
 
 ### Screenshots
 
