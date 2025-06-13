@@ -105,41 +105,61 @@ Daraus ergibt sich, dass sich die Eignung für die Aufgaben wie folgt berechnet:
 
 Der Mitarbeiter ist zu 90% für die Aufgabe Erstellen von Reportings qualifiziert. Dieser Wert berechnet sich wie folgt:
 
-<code>Eignung Erstellen von Reportings (A1) = (Q1 + Q2 + Q3 + Q4 + Q5) / (Anzahl Qualifikationen)</code>
+```
+Eignung Erstellen von Reportings (A1) = (Q1 + Q2 + Q3 + Q4 + Q5) / (Anzahl Qualifikationen)
+```
 
-<code>Eignung Erstellen von Reportings (A1) = (50% + 100% + 100% + 100% + 100%) / 5 = 90 %</code>
+```
+Eignung Erstellen von Reportings (A1) = (50% + 100% + 100% + 100% + 100%) / 5 = 90 %
+```
 
 #### Eignung für die Aufgabe Erstellen von Angeboten (A2)
 
 Der Mitarbeiter ist zu 100% für die Aufgabe Erstellen von Angeboten qualifiziert. Dieser Wert berechnet sich wie folgt:
 
-<code>Eignung Erstellen von Angeboten (A2) = ( Q2 + Q3 + Q4 + Q5) / (Anzahl Qualifikationen)</code>
+```
+Eignung Erstellen von Angeboten (A2) = ( Q2 + Q3 + Q4 + Q5) / (Anzahl Qualifikationen)
+```
 
-<code>Eignung Erstellen von Angeboten (A2) = (100% + 100% + 100% + 100%) / 4 = 100 %</code>
+```
+Eignung Erstellen von Angeboten (A2) = (100% + 100% + 100% + 100%) / 4 = 100 %
+```
 
 #### Eignung für die Aufgabe Ersthelfer (A3)
 
 Der Mitarbeiter ist zu 0% für die Aufgabe Ersthelfer qualifiziert. Dieser Wert berechnet sich wie folgt:
 
-<code>Eignung Ersthelfer (A3) = Q1 / (Anzahl Qualifikationen)</code>
+```
+Eignung Ersthelfer (A3) = Q1 / (Anzahl Qualifikationen)
+```
 
-<code>Eignung Ersthelfer (A3) = 0% /1 = 0 %</code>
+```
+Eignung Ersthelfer (A3) = 0% /1 = 0 %
+```
 
 #### Eignung für die Position Vertriebsassistenz (P1)
 
 Der Mitarbeiter ist zu 95% für die Position Vertriebsassistent qualifiziert. Dieser Wert berechnet sich wie folgt:
 
-<code>Eignung Vertriebsassistenz (P1) = ( A1 + A2 ) / (Anzahl Aufgaben)</code>
+```
+Eignung Vertriebsassistenz (P1) = ( A1 + A2 ) / (Anzahl Aufgaben)
+```
 
-<code>Eignung Vertriebsassistenz (P1) = ( 90 % + 100 % ) / 2 = 95 %</code>
+```
+Eignung Vertriebsassistenz (P1) = ( 90 % + 100 % ) / 2 = 95 %
+```
 
 #### Eignung für die Position Arbeitssicherheitsbeauftragter (P2)
 
 Der Mitarbeiter ist zu 0% für die Position Arbeitssicherheitsbeauftragter qualifiziert. Dieser Wert berechnet sich wie folgt:
 
-<code>Eignung Arbeitssicherheitsbeauftragter (P2) = ( A3 ) / (Anzahl Aufgaben)</code>
+```
+Eignung Arbeitssicherheitsbeauftragter (P2) = ( A3 ) / (Anzahl Aufgaben)
+```
 
-<code>Eignung Arbeitssicherheitsbeauftragter (P2) = ( 0 % ) / 1 = 0 %</code>
+```
+Eignung Arbeitssicherheitsbeauftragter (P2) = ( 0 % ) / 1 = 0 %
+```
 
 #### Individuelle Berechnung der Eignung mit Hilfe von Formeln
 
@@ -160,12 +180,16 @@ Eine Teilmenge von Qualifikationen kann z.B. erforderlich sein, wenn Sie als Auf
 
 Als Formel für diese Aufgabe muss dann folgendes festgelegt werden.
 
-<code>max(Geimpft,Genesen,Antigen Schnelltest, PCR Test)</code>
+```
+max(Geimpft,Genesen,Antigen Schnelltest, PCR Test)
+```
 
 Mit dieser Formel wird die Eignung berechnet als das Maximum einer der genannten Qualifikationen in dem max() Ausdruck.
 Wenn also die Qualifikationen mit folgenden Werten vorhanden wären
 
-<code>max(0.1,0.2,0.3,0.4) = 0.4 => 40%</code>
+```
+max(0.1,0.2,0.3,0.4) = 0.4 => 40%
+```
 
 (Dezimal Komma durch Punkt ersetzt zur Lesbarkeit)
 
@@ -175,11 +199,16 @@ Dass eine Qualifikation nur teilweise benötigt wird, könnte z.B. der Fall sein
 - Verhandlungsgeschick - 100% der Qualifikation erforderlich, um das meiste herauszuholen.
 
 Die Formel für diesen Fall lautet:
-<code>(min("Excel Kenntnisse"/0,5,1)+Verhandlungsgeschick)/2</code>
+
+```
+(min("Excel Kenntnisse"/0,5,1)+Verhandlungsgeschick)/2
+```
 
 Wenn Sie jetzt einen Mitarbeiter haben, der Excel Kenntnisse zu 25% besitzt und Verhandlungsgeschick zu 100% besitzt, berechnet sich die Eignung als:
 
-<code>((min(0,25/0,5,1)+1)/2) = 0,75 => 75% Eignung</code>
+```
+((min(0,25/0,5,1)+1)/2) = 0,75 => 75% Eignung
+```
 
 Damit unser Formeleditor die richtig arbeiten kann, müssen Sie für die einzelnen Qualifikationen Variablen verwenden.
 Die Variable setzt sich zusammen aus den Teilen <code>QualificationId\_</code> und dann der tatsächlichen ID der jeweiligen Qualifikation.
