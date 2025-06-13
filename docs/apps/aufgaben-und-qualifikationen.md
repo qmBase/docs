@@ -43,13 +43,13 @@ Legen Sie fest welche Aufgaben in Ihrer Organisation zu erledigen sind. Beispiel
 
 ### Aufgaben-Matrix
 
-In der Aufgabenmatrix werden Personen den festgelegten Aufgaben gegenüber gestellt. Sie können hier auf einen Blick erkennen, wie qualifiziert die Personen für die jeweiligen Aufgaben sind.
+In der Aufgabenmatrix werden Personen und Aufgaben einander gegenüber gestellt. Sie können hier auf einen Blick erkennen, wie qualifiziert die Personen für die jeweiligen Aufgaben sind.
 
-| Darstellung                    | Bedeutung                                                                                |
-| ------------------------------ | ---------------------------------------------------------------------------------------- |
-| Blauer Hintergrund             | Aufgabe wird auf Grund verknüpfter Positionen oder direkt zugeordneter Aufgaben benötigt |
-| Vollständig ausgefüllter Kreis | 100% qualifiziert für Aufgabe                                                            |
-| Teilausgefüllter Kreis         | Anteilig qualifiziert für Aufgabe                                                        |
+| Darstellung                    | Bedeutung                                                                          |
+| ------------------------------ | ---------------------------------------------------------------------------------- |
+| Blauer Hintergrund             | Aufgabe ist Teil der Position des Mitarbeiters oder ist diesem direkt zugeordneter |
+| Vollständig ausgefüllter Kreis | 100% qualifiziert für Aufgabe                                                      |
+| Teilausgefüllter Kreis         | Anteilig qualifiziert für Aufgabe                                                  |
 
 ## Qualifikationen
 
@@ -63,51 +63,103 @@ Legen Sie fest welche Qualifikationen in Ihrer Organisation benötigt werden, um
 
 ### Qualifikations-Matrix
 
-In der App Aufgaben & Qualifikationen können Sie sich auf einen Blick anschauen, welchen Qualifikationsbedarf es in Ihrem Unternehmen gibt. Hierzu werden die Mitarbeiter den Qualifikationen gegenüber gestellt.
+In der Qualifikationsmatrix werden Personen und Qualifikationen einander gegenüber gestellt.
 
-Zur weiteren Veranschaulichung welche Informationen Sie erhalten können, nehmen wir folgende Beispiel Daten an (diese sind auch in unseren Testsystemen enthalten).
+![Qualifikationsmatrix](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-12-11%20143743_QualificationMatrix.png)
 
-In unserem Unternehmen gibt es einen Mitarbeiter <code>Lukas Guss</code> dieser hat die Positionen <code>Vertriebsassistenz</code> und <code>Arbeitssicherheitsbeauftragter</code>.
-Für die Positionen ergeben sich folgende Anforderungen (A = Aufgaben, Q = Qualifikationen):
+| Darstellung                    | Bedeutung                                                                                      |
+| ------------------------------ | ---------------------------------------------------------------------------------------------- |
+| Blauer Hintergrund             | Qualifikation wird auf Grund verknüpfter Positionen oder direkt zugeordneter Aufgaben benötigt |
+| Vollständig ausgefüllter Kreis | Qualifikation zu 100% vorhanden                                                                |
+| Teilausgefüllter Kreis         | Qualifikation anteilig vorhanden                                                               |
+| Rotes Warndreieck              | Qualifikation benötigt aber nicht vorhanden                                                    |
+| Roter Kreis                    | Qualifikation vorhanden aber abgelaufen                                                        |
+| Gelber Kreis                   | Qualifikation vorhanden aber innerhalb der Vorwanzeit - läuft also bald ab                     |
+
+## Beispiel für das Zusammenwirken von Positionen, Aufgaben und Qualifikationen
+
+Der Mitarbeiter <code>Lukas Guss</code> hat die Positionen <code>Vertriebsassistenz</code> und <code>Arbeitssicherheitsbeauftragter</code>.
+Zu den Positionen (P) gehören Aufgaben (A) für welche wiederum Qualifikationen (Q) notwendig sind. Inwieweit der Mitarbeiter tatsächlich über die jeweilige Qualifikation verfügt wird mit einem Wert zwischen 0% und 100% angegeben:
 
 - Vertriebsassistenz (P1)
   - Erstellen von Reportings (A1)
-    - SAP Kenntnisse (Q1)
-    - Deutsch in Wort und Schrift (Q2)
-    - Powerpoint Kenntnisse (Q3)
-    - Word Kenntnisse (Q4)
-    - Excel Kenntnisse (Q5)
+    - SAP Kenntnisse (Q1) <code>Wert: 50%</code>
+    - Deutsch in Wort und Schrift (Q2) <code>Wert: 100%</code>
+    - Powerpoint Kenntnisse (Q3) <code>Wert: 100%</code>
+    - Word Kenntnisse (Q4) <code>Wert: 100%</code>
+    - Excel Kenntnisse (Q5) <code>Wert: 100%</code>
   - Erstellen von Angeboten (A2)
-    - Deutsch in Wort und Schrift (Q2)
-    - Powerpoint Kenntnisse (Q3)
-    - Word Kenntnisse (Q4)
-    - Excel Kenntnisse (Q5)
+    - Deutsch in Wort und Schrift (Q2) <code>Wert: 100%</code>
+    - Powerpoint Kenntnisse (Q3) <code>Wert: 100%</code>
+    - Word Kenntnisse (Q4) <code>Wert: 100%</code>
+    - Excel Kenntnisse (Q5) <code>Wert: 100%</code>
 - Arbeitssicherheitsbeauftragter (P2)
   - Ersthelfer (A3)
-    - Ersthelfer (Q6)
+    - Ersthelfer (Q6) <code>Wert: 0%</code>
 
-Unser Beispiel Mitarbeiter <code>Lukas Guss</code> erfüllt die an ihn gestellten Anforderungen wie folgt:
-
-- SAP Kenntnisse (Q1) 50%
-- Deutsch in Wort und Schritt(Q2) 100%
-- Powerpoint Kenntnisse (Q3) 100%
-- Word Kenntnisse (Q4) 100%
-- Excel Kenntnisse (Q5) 100%
-- Ersthelfer (Q6) 100% aber ungültig
+Es ist möglich, dass dieselbe Qualifikationen für mehrere Aufgaben notwendig ist und daher mehrfach im Anforderungsprofil auftaucht.
 
 Daraus ergibt sich, dass sich die Eignung für die Aufgaben wie folgt berechnet:
 
-#### Eignung für die Aufgabe Ersthelfer
+#### Eignung für die Aufgabe Erstellen von Reportings (A1)
 
-<code>Eignung Ersthelfer (A3) = 100% Q6 \* 0 (weil abgelaufen) => 0% Eignung</code>
+Der Mitarbeiter ist zu 90% für die Aufgabe Erstellen von Reportings qualifiziert. Dieser Wert berechnet sich wie folgt:
 
-#### Eignung für die Aufgabe Erstellen von Reportings
+```
+Eignung Erstellen von Reportings (A1) = (Q1 + Q2 + Q3 + Q4 + Q5) / (Anzahl Qualifikationen)
+```
 
-<code>Eignung Erstellen von Reportings (A1) = (50% Q1 + 100% Q2 + 100% Q3 + 100% Q4 + 100% Q5) / 5 (Anzahl der Qualifikationen) = 90 %</code>
+```
+Eignung Erstellen von Reportings (A1) = (50% + 100% + 100% + 100% + 100%) / 5 = 90 %
+```
 
-#### Eignung für die Position Vertriebsassistenz
+#### Eignung für die Aufgabe Erstellen von Angeboten (A2)
 
-<code>Eignung Position Vertriebsassistenz (P1) = (100% Eignung Aufgabe Erstellen von Angeboten + 90% Aufgabe Erstellen von Reportings) / 2 (Anzahl Aufgaben) = 95%</code>
+Der Mitarbeiter ist zu 100% für die Aufgabe Erstellen von Angeboten qualifiziert. Dieser Wert berechnet sich wie folgt:
+
+```
+Eignung Erstellen von Angeboten (A2) = ( Q2 + Q3 + Q4 + Q5) / (Anzahl Qualifikationen)
+```
+
+```
+Eignung Erstellen von Angeboten (A2) = (100% + 100% + 100% + 100%) / 4 = 100 %
+```
+
+#### Eignung für die Aufgabe Ersthelfer (A3)
+
+Der Mitarbeiter ist zu 0% für die Aufgabe Ersthelfer qualifiziert. Dieser Wert berechnet sich wie folgt:
+
+```
+Eignung Ersthelfer (A3) = Q1 / (Anzahl Qualifikationen)
+```
+
+```
+Eignung Ersthelfer (A3) = 0% /1 = 0 %
+```
+
+#### Eignung für die Position Vertriebsassistenz (P1)
+
+Der Mitarbeiter ist zu 95% für die Position Vertriebsassistent qualifiziert. Dieser Wert berechnet sich wie folgt:
+
+```
+Eignung Vertriebsassistenz (P1) = ( A1 + A2 ) / (Anzahl Aufgaben)
+```
+
+```
+Eignung Vertriebsassistenz (P1) = ( 90 % + 100 % ) / 2 = 95 %
+```
+
+#### Eignung für die Position Arbeitssicherheitsbeauftragter (P2)
+
+Der Mitarbeiter ist zu 0% für die Position Arbeitssicherheitsbeauftragter qualifiziert. Dieser Wert berechnet sich wie folgt:
+
+```
+Eignung Arbeitssicherheitsbeauftragter (P2) = ( A3 ) / (Anzahl Aufgaben)
+```
+
+```
+Eignung Arbeitssicherheitsbeauftragter (P2) = ( 0 % ) / 1 = 0 %
+```
 
 #### Individuelle Berechnung der Eignung mit Hilfe von Formeln
 
@@ -128,12 +180,16 @@ Eine Teilmenge von Qualifikationen kann z.B. erforderlich sein, wenn Sie als Auf
 
 Als Formel für diese Aufgabe muss dann folgendes festgelegt werden.
 
-<code>max(Geimpft,Genesen,Antigen Schnelltest, PCR Test)</code>
+```
+max(Geimpft,Genesen,Antigen Schnelltest, PCR Test)
+```
 
 Mit dieser Formel wird die Eignung berechnet als das Maximum einer der genannten Qualifikationen in dem max() Ausdruck.
 Wenn also die Qualifikationen mit folgenden Werten vorhanden wären
 
-<code>max(0.1,0.2,0.3,0.4) = 0.4 => 40%</code>
+```
+max(0.1,0.2,0.3,0.4) = 0.4 => 40%
+```
 
 (Dezimal Komma durch Punkt ersetzt zur Lesbarkeit)
 
@@ -143,30 +199,22 @@ Dass eine Qualifikation nur teilweise benötigt wird, könnte z.B. der Fall sein
 - Verhandlungsgeschick - 100% der Qualifikation erforderlich, um das meiste herauszuholen.
 
 Die Formel für diesen Fall lautet:
-<code>(min("Excel Kenntnisse"/0,5,1)+Verhandlungsgeschick)/2</code>
+
+```
+(min("Excel Kenntnisse"/0,5,1)+Verhandlungsgeschick)/2
+```
 
 Wenn Sie jetzt einen Mitarbeiter haben, der Excel Kenntnisse zu 25% besitzt und Verhandlungsgeschick zu 100% besitzt, berechnet sich die Eignung als:
 
-<code>(min(0,25/0,5,1)+1)/2) = 0,75 => 75% Eignung</code>
+```
+((min(0,25/0,5,1)+1)/2) = 0,75 => 75% Eignung
+```
 
 Damit unser Formeleditor die richtig arbeiten kann, müssen Sie für die einzelnen Qualifikationen Variablen verwenden.
 Die Variable setzt sich zusammen aus den Teilen <code>QualificationId\_</code> und dann der tatsächlichen ID der jeweiligen Qualifikation.
 Für die Qualifikation mit der ID 25 ergibt sich dann z.B. als Variable der Name <code>QualificationId_25</code>.
 
 ### Erklärung der Darstellung der Qualifikationsmatrix
-
-![Qualifikationsmatrix](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-12-11%20143743_QualificationMatrix.png)
-
-Wie lässt sich mit diesem Wissen jetzt die Qualifikationsmatrix interpretieren? In der Qualifikationsmatrix gibt es verschiedene Darstellungen, die sich aus den vorhandenen Daten ergeben. Alle Möglichkeiten sind in der folgenden Tabelle aufgelistet.
-
-| Darstellung                    | Bedeutung                                                                                      |
-| ------------------------------ | ---------------------------------------------------------------------------------------------- |
-| Blauer Hintergrund             | Qualifikation wird auf Grund verknüpfter Positionen oder direkt zugeordneter Aufgaben benötigt |
-| Vollständig ausgefüllter Kreis | Qualifikation zu 100% vorhanden                                                                |
-| Teilausgefüllter Kreis         | Qualifikation anteilig vorhanden                                                               |
-| Rotes Warndreieck              | Qualifikation benötigt aber nicht vorhanden                                                    |
-| Roter Kreis                    | Qualifikation vorhanden aber abgelaufen                                                        |
-| Gelber Kreis                   | Qualifikation vorhanden aber innerhalb der Vorwanzeit - läuft also bald ab                     |
 
 ### Dashboard
 
