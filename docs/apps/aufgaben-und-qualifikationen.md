@@ -200,6 +200,69 @@ Wenn alle Mitarbeiter einer Abteilung angehören, würden sich aus dem Beispiel 
 
 Die Gruppierung nach einzelnen Positionen funktioniert analog.
 
+## Best Practices und typische Aufgaben
+
+Im folgenden Abschnitt sind Best Practices und typische Aufgaben beschrieben, die durchgeführt werden können.
+
+### Was kann ich als normaler Nutzer in dieser App machen?
+
+Als normaler Nutzer, mit der **Standard-Berechtigung**, kann ihnen diese App in vielen Aspekten helfen und Antworten auf verschiedene Fragen liefern.
+Der Einstiegspunkt für die Beantwortung dieser Fragen ist immer das eigene Profil in der App **Aufgaben & Qualifikationen**. Dieses erreichen Sie, indem Sie in der Seitenleiste auf den Eintrag **Mein Qualifikationsprofil** klicken.
+![Link zu meinem Qualifikationsprofil](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-06%20myQualificationProfile.png)
+
+Auf der nächsten Seite erscheint dann Ihr persönliches Qualifikationsprofil. Die Details zu diesem Profil werden in den folgenden Abschnitten beschrieben.
+![Mein Qualifikationsprofil](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-06%20myQualificationProfile_Details.png)
+
+#### Was ist meine Stellenbeschreibung?
+
+In der linken Spalte (1) haben Sie Einblick in Ihr Stellenprofil.
+Sie könnten sowohl ihr gesamtes Stellenprofil unter **Details anzeigen** einsehen, als auch nur die Beschreibung für jede einzelne Position, falls Sie über mehrere Positionen verfügen sollten.
+
+#### Welche Aufgaben habe ich auf Basis meiner Stellenbeschreibung zu erfüllen?
+
+Aus Ihren Positionen sowie der manuellen Zuordnung von Aufgaben ergeben sich die Tätigkeiten, die Sie innerhalb der Organisation ausführen sollen.
+Diese können Sie unter dem Tab **Aufgaben** einsehen. Manuell zugeordnete Aufgaben sind dabei an dem grünen Handsymbol zu erkennen.
+
+#### Über welche Qualifikationen soll ich verfügen, um meinen Aufgaben gerecht zu werden?
+
+In der rechten Spalte (2) sehen Sie alle Qualifikationen, die für Ihre Aufgaben gefordert werden. Zusätzlich sehen Sie hier auch die Qualifikationen, über die Sie verfügen.
+Die erforderlichen Qualifikationen sind mit dem Info Badge <span class="badge badge--info">Benötigt</span> versehen.
+
+#### Welche Qualifikationen habe ich aktuell und wie lange sind diese gültig?
+
+Qualifikationen, über die Sie verfügen, werden mit weiteren Details dargestellt. In der ersten markierten Zeile ist die Qualifikation **Akademischer Abschluss** dargestellt.
+Diese Qualifikation ist zu 100% vorhanden (Spalte Eignung) jedoch bereits abgelaufen.
+Qualifikationen können mit der Zeit ablaufen, wenn z.B. festgelegt ist, dass diese regelmäßig überwacht und oder erneut erworben werden sollen.
+Da diese Qualifikation auf Grund ihrer Aufgaben nicht benötigt wird, besteht hier kein Handlungsbedarf.
+
+In der zweiten markierten Zeile **Baggerführerschein** ist eine Qualifikation dargestellt, die ebenfalls zu 100% vorhanden und zusätzlich auch noch nicht abgelaufen ist.
+Hier besteht also kein Handlungsbedarf.
+
+Sollte Handlungsbedarf bei eine Qualifikation bestehen und Sie dokumentieren wollen, dass Sie über diese Qualifikation verfügen, dann klicken Sie bitte auf das Kebab-Menü (3) und wählen Sie dort den Eintrag **Neues Qualifikationsereignis hinzufügen** aus.
+
+### Was kann ich als Vorgesetzter oder Administrator in dieser App machen?
+
+Als Vorgesetzter oder Administrator besteht Ihr Ziel in der Regel nicht nur aus der Aktualisierung Ihres eigenen Qualifikationsprofils, sondern auch dem weiterer Kollegen und Mitarbeiter.
+Hierzu bietet es sich an, als Einstiegspunkt z.B. die Qualifikationsmatrix auszuwählen. Hierzu klicken Sie in der linken Spalte auf **Qualifikationsmatrix**.
+
+In der Qualifikationsmatrix sehen sie dann alle Personen, auf die Sie Zugriff haben.
+Das kann entweder die ganze Organisation oder auch nur eine Teilmenge der Mitarbeiter sein. Sollten Sie nur eine Teilmenge der sichtbaren Mitarbeiter beurteilen wollen, können Sie die sichtbaren Mitarbeiter über die Filter nochmals weiter reduzieren.
+
+:::info
+Die erstellten Filter können Sie auch jederzeit als [Smart Views](/docs/faqs/smart-views) abspeichern, um somit immer schnell zu der Auswahl zu gelangen, die für Sie interessant ist.
+:::
+
+Zur Erklärung der Symbolik innerhalb der Qualifikationsmatrix schauen Sie bitte in den Abschnitt [Qualifikations-Matrix](#erklärung-der-darstellung-der-qualifikationsmatrix).
+Um einen schnellen Überblick über die anstehenden Aufgaben zu erhalten, können Sie auch zum Reiter **Dashboard** wechseln.
+![Dashboard Qualifikationsmatrix](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-12_QualyMatrixDashboard.png)
+Hier sehen Sie dann den aktuellen Status der Qualifikationen für die ausgewählte Teilgruppe. Fokussieren Sie sich hier am besten auf die Kennzahl **Vorhandene erforderliche Qualifikationen**.
+Um dann den Qualifikationsstatus zu verbessern, gibt es verschiedene Vorgehensweisen.
+
+1. Sie gehen über das jeweilige Mitarbeiterprofil und fügen fehlende Qualifikationen [hinzu](#welche-qualifikationen-habe-ich-aktuell-und-wie-lange-sind-diese-gültig).
+2. Sie gehen über eine Qualifikationen mit Handlungsbedarf und fügen dort Personen hinzu. Klicken Sie hierfür auf eine der Qualifikationen (2). Auf der Detailseite der Qualifikationen wählen Sie dann den Reiter **Personen** aus.
+   Hier klicken Sie dann auf den Button **Person hinzufügen**, um mehrere Personen einer Qualifikation hinzuzufügen.
+   ![Qualifikationsmatrix mit Handlungsbedarf](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-12_qualiMatrix_Actions.png)
+
 ## Zugriff - Wer kann was machen?
 
 Da die App auf Daten aus anderen Apps zugreift und die Daten in diesem Bereich vergleichsweise sensibel sind, gestaltet sich die Zugriffsteuerung etwas anders als in anderen Bereichen unserer Software.
