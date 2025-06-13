@@ -76,10 +76,10 @@ In der Qualifikationsmatrix werden Personen und Qualifikationen einander gegenü
 | Roter Kreis                    | Qualifikation vorhanden aber abgelaufen                                                        |
 | Gelber Kreis                   | Qualifikation vorhanden aber innerhalb der Vorwanzeit - läuft also bald ab                     |
 
-## Beipsiel für das Zusammenwirken von Positionen, Aufgaben und Qualifikationen
+## Beispiel für das Zusammenwirken von Positionen, Aufgaben und Qualifikationen
 
 Der Mitarbeiter <code>Lukas Guss</code> hat die Positionen <code>Vertriebsassistenz</code> und <code>Arbeitssicherheitsbeauftragter</code>.
-Zu den Positionen (P) gehören Aufgaben (A) für welche wiederumg Qualifikationen (Q) notwendig sind. Inwieweit der Mitarbeiter tatsächlich über die jeweilige Qualifiaktion verfügt wird mit einem Wert zwischen 0% und 100% angegeben:
+Zu den Positionen (P) gehören Aufgaben (A) für welche wiederum Qualifikationen (Q) notwendig sind. Inwieweit der Mitarbeiter tatsächlich über die jeweilige Qualifikation verfügt wird mit einem Wert zwischen 0% und 100% angegeben:
 
 - Vertriebsassistenz (P1)
   - Erstellen von Reportings (A1)
