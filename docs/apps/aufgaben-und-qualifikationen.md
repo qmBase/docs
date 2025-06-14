@@ -39,7 +39,15 @@ Legen Sie fest welche Aufgaben in Ihrer Organisation zu erledigen sind. Beispiel
 2. Rechnungen schreiben
 3. Personalplanung
 
-> Tipp: Starten Sie mit den wichtigsten Aufgaben in Ihrem Unternehmen, die notwendig sind, um Ihre Kernprozesse zuverlässig auszuführen.
+Die Liste aller Aufgaben finden Sie unter **Aufgaben** in der Menüleiste auf der linken Seite. Über den Button **Neu** kann diese Liste belibig erweitert werden.
+
+> Tipp: Starten Sie mit den wichtigsten Aufgaben, die notwendig sind, um Ihre Kernprozesse zuverlässig auszuführen. Stellen Sie sich zu jeder Position die Frage 'Was macht der Mitarbeiter in seiner Position?'
+
+Jede Aufgabe kann mit **Positionen** und **Qualifikationen** verknüpft werden:
+
+- **Verküpfung mit Position**: Diese Aufgabe ist Bestandteil der verknüpften Position. Jeder Positionsinhaber führt diese Tätigkeit aus. 
+- **Verknüpfung mit Qualifikation**: Die verknüpfte Qualifikation ist eine Voraussetzung, um erolfgreich in dieser Aufgabe zu arbeiten. Diese Qualifikation ist für jeden Mitarbeiter der diese Aufgabe ausübt erorderlich.
+
 
 ### Aufgaben-Matrix
 
@@ -61,6 +69,12 @@ Legen Sie fest welche Qualifikationen in Ihrer Organisation benötigt werden, um
 - Führerschein
 - Abgeschlossenes Studium
 
+Die Liste aller Qualifikationen finden Sie unter **Qualifiaktionen** in der Menüleiste auf der linken Seite. Über den Button **Neu** kann diese Liste belibig erweitert werden.
+
+> Tipp: Starten Sie mit den wichtigsten Qualifikationen für Ihr Unternehmen, die notwendig sind, um Ihre Kernprozesse zuverlässig auszuführen. Stellen Sie sich zu jeder Aufgabe die Frage 'Welche Eigenschaften, Fähigkeiten, Kenntnisse muss ein Mitarbeiter haben, um erfolgreich in dieser Aufgabe zu arbeiten?'
+
+Jede Qualifikation kann mit Aufgaben verknüpft werden. Die verknüpfte Qualifikation wird zu einer Voraussetzung, um erolfgreich in dieser Aufgabe zu arbeiten. Diese Qualifikation ist für jeden Mitarbeiter der diese Aufgabe ausübt erorderlich.
+
 ### Qualifikations-Matrix
 
 In der Qualifikationsmatrix werden Personen und Qualifikationen einander gegenüber gestellt.
@@ -75,6 +89,39 @@ In der Qualifikationsmatrix werden Personen und Qualifikationen einander gegenü
 | Rotes Warndreieck              | Qualifikation benötigt aber nicht vorhanden                                                    |
 | Roter Kreis                    | Qualifikation vorhanden aber abgelaufen                                                        |
 | Gelber Kreis                   | Qualifikation vorhanden aber innerhalb der Vorwanzeit - läuft also bald ab                     |
+
+
+### Dashboard
+
+Innerhalb des Dashboards werden die Daten aus der Matrix aggregiert dargestellt. Ziel ist auf einen Blick erkennen zu können, ob innerhalb einzelner Abteilungen oder Positionen Ihrer Organisation Handlungsbedarf besteht.
+
+Wie ergeben sich die Werte innerhalb der Tabelle?
+![Dashboard Qualifikationsmatrix](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-12_QualyMatrixDashboard.png)
+Wenn wir uns beispielsweise die Daten gruppiert nach Abteilungen anschauen ist die Tabelle folgendermaßen zu verstehen. Basierend auf dem gewählten Filter werden die dargestellten Personen vorausgewählt. Dann wird geschaut, welche Abteilungen mit dieser Auswahl an Mitarbeitern verknüpft sind. In der zweiten Spalten unter Personen wird die Anzahl der Mitarbeiter dargestellt, die mit der Abteilung verknüpft sind.
+In der Spalte Status ergeben sich dann drei Zahlen in grün, gelb und rot. Die Berechnung der Zahlen ist in der folgenden Tabelle dargestellt. Zunächst wird die Anzahl der gesamt benötigten Qualifikationen berechnet. Dies könnte z.B. 10 sein.
+Zur Vereinfachung werden in dieser Tabelle anteilige Qualifikationserfüllungen auch mit 100% berücksichtigt.
+
+Zu den benötigten Qualifikationen zählen:
+
+- Qualifikationen, die durch direkt zugeordnete Aufgaben gefordert werden.
+- Qualifikationen, die durch verknüpfte Positionen und damit verbundene Aufgaben gefordert werden.
+
+| Mitarbeiter | Benötigte Qualifikationen | Vorhanden | Vorhanden mit Vorwarnzeit erreicht | Abgelaufen | Nicht vorhanden |
+| ----------- | ------------------------- | --------- | ---------------------------------- | ---------- | --------------- |
+| A           | 5                         | 5         |
+| B           | 3                         | 1         | 1                                  | 1          |                 |
+| C           | 2                         | 1         |                                    | 1          |                 |
+| **Summe**   | 10                        | 7         | 1                                  | 2          |
+
+Wenn alle Mitarbeiter einer Abteilung angehören, würden sich aus dem Beispiel folgende Zahlen ergeben.
+
+| Farbe | Bedeutung                                                                 | Prozentwert basierend auf Beispiel |
+| ----- | ------------------------------------------------------------------------- | ---------------------------------- |
+| Rot   | Anteil der nicht vorhanden benötigten Qualifikationen.                    | 20%                                |
+| Gelb  | Anteil der benötigten Qualifikationen, die innerhalb der Vorwarnzeit sind | 10%                                |
+| Grün  | Anteil der benötigten Qualifikationen, die vorhanden sind                 | 70%                                |
+
+Die Gruppierung nach einzelnen Positionen funktioniert analog.
 
 ## Beispiel für das Zusammenwirken von Positionen, Aufgaben und Qualifikationen
 
@@ -214,79 +261,34 @@ Damit unser Formeleditor die richtig arbeiten kann, müssen Sie für die einzeln
 Die Variable setzt sich zusammen aus den Teilen <code>QualificationId\_</code> und dann der tatsächlichen ID der jeweiligen Qualifikation.
 Für die Qualifikation mit der ID 25 ergibt sich dann z.B. als Variable der Name <code>QualificationId_25</code>.
 
-### Erklärung der Darstellung der Qualifikationsmatrix
+## Das Mitarbeiterprofil
+Das Mitarbeiterprofil gibt einen mitarbeitespezifischen Überblick über Positionen, Aufgaben und Qualifikationen. Mitarbeiterprofile lassen sich über den Menüpunkt <code>Personen</code> erreichen. Alternativ erreicht jeder Nutzer sein eigenes Profil über den Menüpunkt <code>Mein Qualifiaktionsprofil</code>.
 
-### Dashboard
+![Mein Qualifikationsprofil](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-06%20myQualificationProfile_Details.png)
 
-Innerhalb des Dashboards werden die Daten aus der Matrix aggregiert dargestellt. Ziel ist auf einen Blick erkennen zu können, ob innerhalb einzelner Abteilungen oder Positionen Ihrer Organisation Handlungsbedarf besteht.
+#### Die Stellenbeschreibung?
 
-Wie ergeben sich die Werte innerhalb der Tabelle?
-TODO: Bild Q-Matrix Dashboard
-Wenn wir uns beispielsweise die Daten gruppiert nach Abteilungen anschauen ist die Tabelle folgendermaßen zu verstehen. Basierend auf dem gewählten Filter werden die dargestellten Personen vorausgewählt. Dann wird geschaut, welche Abteilungen mit dieser Auswahl an Mitarbeitern verknüpft sind. In der zweiten Spalten unter Personen wird die Anzahl der Mitarbeiter dargestellt, die mit der Abteilung verknüpft sind.
-In der Spalte Status ergeben sich dann drei Zahlen in grün, gelb und rot. Die Berechnung der Zahlen ist in der folgenden Tabelle dargestellt. Zunächst wird die Anzahl der gesamt benötigten Qualifikationen berechnet. Dies könnte z.B. 10 sein.
-Zur Vereinfachung werden in dieser Tabelle anteilige Qualifikationserfüllungen auch mit 100% berücksichtigt.
+Die Stellebeschreibung auf der linken Seite (1) bietet bietet in dem Tab **Positionen** einen Überblick über die Positionen des Mitarbeiters und veranschaulicht die Abhängigkeiten zu den verbundenen Aufageben und Qualifikationen. 
 
-Zu den benötigten Qualifikationen zählen:
+Der Tab **Aufgaben** zeigt die Übersicht aller Aufagben des Mitarbeiters. Neben den in den positionsbedingte Aufgaben können hier zusätzlich weitere Aufageben manuell zur Stellenbeschreibung des Mitarbeiters hinzugefügt werden. 
 
-- Qualifikationen, die durch direkt zugeordnete Aufgaben gefordert werden.
-- Qualifikationen, die durch verknüpfte Positionen und damit verbundene Aufgaben gefordert werden.
+Positionsbedingte Aufgaben können für einzelnen Mitarbeiter nicht entfernt werden. Manuell zugeordnete Aufgaben sind dabei an dem grünen Handsymbol zu erkennen.
 
-| Mitarbeiter | Benötigte Qualifikationen | Vorhanden | Vorhanden mit Vorwarnzeit erreicht | Abgelaufen | Nicht vorhanden |
-| ----------- | ------------------------- | --------- | ---------------------------------- | ---------- | --------------- |
-| A           | 5                         | 5         |
-| B           | 3                         | 1         | 1                                  | 1          |                 |
-| C           | 2                         | 1         |                                    | 1          |                 |
-| **Summe**   | 10                        | 7         | 1                                  | 2          |
+#### Das Qualifikationsprofil
 
-Wenn alle Mitarbeiter einer Abteilung angehören, würden sich aus dem Beispiel folgende Zahlen ergeben.
+Das Qualifikationsprofil auf der rechten Seite (2) bietet einen Überblick über alle Qualifikationen und Qualifikationsdefizite des Mitarbeiters. Die Tabelle beinhaltet unter anderem folgende Spalten: 
 
-| Farbe | Bedeutung                                                                 | Prozentwert basierend auf Beispiel |
-| ----- | ------------------------------------------------------------------------- | ---------------------------------- |
-| Rot   | Anteil der nicht vorhanden benötigten Qualifikationen.                    | 20%                                |
-| Gelb  | Anteil der benötigten Qualifikationen, die innerhalb der Vorwarnzeit sind | 10%                                |
-| Grün  | Anteil der benötigten Qualifikationen, die vorhanden sind                 | 70%                                |
+- **Benötigt**: Die Qualifiaktionen die Bestandteil des Anforderungsprofils und somit erforderlich sind, sind mit dem Info-Badge <span class="badge badge--info">Benötigt</span> versehen. Die nicht erforderlichen Qualifikationen sind mit dem <span class="badge badge--info">Nicht geordert</code> versehen.  Die nicht erforderlichen Qualifikationen sind mit dem <span class="badge badge--info">Nicht geordert</span> versehen.
+- **Ungültig ab**: Für Qualifikationen mit eienr Laufzeit steht in dieser Spalte das Datum,  ab wann die Qualifikationen ungültig wird. Für Qualifikationen ohne Laufzeit steht hier <code>Unbegrenzt</code>
+- **Eignung**: Diese Spalte zeigt auf, zu welchem Grad (0 % - 100 %) die Qualifikation vorhanden ist. Sollte die Qualifikation erforderlich aber nicht vorhanden oder abgelaufen sein, dann erscheint der Badge <span class="badge badge--info">Handlung erfoderlich</span>
+- **Aktionen**: Über den Kontext-Menü-Button (3 Punkte) (3) kann die jeweilige Qualifikation u.a. bearbeitet oder neu hinzugefügt werden.
 
-Die Gruppierung nach einzelnen Positionen funktioniert analog.
+
+
 
 ## Best Practices und typische Aufgaben
 
 Im folgenden Abschnitt sind Best Practices und typische Aufgaben beschrieben, die durchgeführt werden können.
-
-### Was kann ich als normaler Nutzer in dieser App machen?
-
-Als normaler Nutzer, mit der **Standard-Berechtigung**, kann ihnen diese App in vielen Aspekten helfen und Antworten auf verschiedene Fragen liefern.
-Der Einstiegspunkt für die Beantwortung dieser Fragen ist immer das eigene Profil in der App **Aufgaben & Qualifikationen**. Dieses erreichen Sie, indem Sie in der Seitenleiste auf den Eintrag **Mein Qualifikationsprofil** klicken.
-![Link zu meinem Qualifikationsprofil](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-06%20myQualificationProfile.png)
-
-Auf der nächsten Seite erscheint dann Ihr persönliches Qualifikationsprofil. Die Details zu diesem Profil werden in den folgenden Abschnitten beschrieben.
-![Mein Qualifikationsprofil](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-06%20myQualificationProfile_Details.png)
-
-#### Was ist meine Stellenbeschreibung?
-
-In der linken Spalte (1) haben Sie Einblick in Ihr Stellenprofil.
-Sie könnten sowohl ihr gesamtes Stellenprofil unter **Details anzeigen** einsehen, als auch nur die Beschreibung für jede einzelne Position, falls Sie über mehrere Positionen verfügen sollten.
-
-#### Welche Aufgaben habe ich auf Basis meiner Stellenbeschreibung zu erfüllen?
-
-Aus Ihren Positionen sowie der manuellen Zuordnung von Aufgaben ergeben sich die Tätigkeiten, die Sie innerhalb der Organisation ausführen sollen.
-Diese können Sie unter dem Tab **Aufgaben** einsehen. Manuell zugeordnete Aufgaben sind dabei an dem grünen Handsymbol zu erkennen.
-
-#### Über welche Qualifikationen soll ich verfügen, um meinen Aufgaben gerecht zu werden?
-
-In der rechten Spalte (2) sehen Sie alle Qualifikationen, die für Ihre Aufgaben gefordert werden. Zusätzlich sehen Sie hier auch die Qualifikationen, über die Sie verfügen.
-Die erforderlichen Qualifikationen sind mit dem Info Badge <span class="badge badge--info">Benötigt</span> versehen.
-
-#### Welche Qualifikationen habe ich aktuell und wie lange sind diese gültig?
-
-Qualifikationen, über die Sie verfügen, werden mit weiteren Details dargestellt. In der ersten markierten Zeile ist die Qualifikation **Akademischer Abschluss** dargestellt.
-Diese Qualifikation ist zu 100% vorhanden (Spalte Eignung) jedoch bereits abgelaufen.
-Qualifikationen können mit der Zeit ablaufen, wenn z.B. festgelegt ist, dass diese regelmäßig überwacht und oder erneut erworben werden sollen.
-Da diese Qualifikation auf Grund ihrer Aufgaben nicht benötigt wird, besteht hier kein Handlungsbedarf.
-
-In der zweiten markierten Zeile **Baggerführerschein** ist eine Qualifikation dargestellt, die ebenfalls zu 100% vorhanden und zusätzlich auch noch nicht abgelaufen ist.
-Hier besteht also kein Handlungsbedarf.
-
-Sollte Handlungsbedarf bei eine Qualifikation bestehen und Sie dokumentieren wollen, dass Sie über diese Qualifikation verfügen, dann klicken Sie bitte auf das Kebab-Menü (3) und wählen Sie dort den Eintrag **Neues Qualifikationsereignis hinzufügen** aus.
 
 ### Was kann ich als Vorgesetzter oder Administrator in dieser App machen?
 
@@ -314,6 +316,9 @@ Um dann den Qualifikationsstatus zu verbessern, gibt es verschiedene Vorgehenswe
 ## Zugriff - Wer kann was machen?
 
 Da die App auf Daten aus anderen Apps zugreift und die Daten in diesem Bereich vergleichsweise sensibel sind, gestaltet sich die Zugriffsteuerung etwas anders als in anderen Bereichen unserer Software.
+
+### Wer kann was sehen
+Jeder Nutzer mit Zugriff auf den Bereich **Aufgaben & Qualifikationen** kann die Mitarbeiter sehen, die öffentlich oder für Ihn freigegeben sind ([Rollen, Berechtigung, Zugriff](https://help.qmbase.com/docs/faqs/rollen-berechtigungen-und-zugriff/)). Entsprechend werden alle anderen Mitarbeiter für den Nutzer ausgeblendet. Dies betrifft u.a. die Aufgabematrix, die Qualifikationsmatrix und die Qualifikationsprofile der Mitarbeiter. 
 
 ### Wie werden einem Mitarbeiter Aufgaben hinzugefügt?
 
