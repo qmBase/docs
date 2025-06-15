@@ -269,7 +269,7 @@ Das Mitarbeiterprofil gibt für den jeweiligen Mitarbeiter einen Überblick übe
 
 Die Stellenbeschreibung auf der linken Seite (1) bietet bietet in dem Tab **Positionen** einen Überblick über die Positionen des Mitarbeiters und veranschaulicht die Abhängigkeiten zu den verbundenen Aufgaben und Qualifikationen.
 
-Der Tab **Aufgaben** zeigt die Übersicht aller Aufagben des Mitarbeiters. Neben den positionsbedingten Aufgaben können hier zusätzlich weitere Aufgaben manuell zur Stellenbeschreibung des Mitarbeiters hinzugefügt werden.
+Der Tab **Aufgaben** zeigt die Übersicht aller Aufgaben des Mitarbeiters. Neben den positionsbedingten Aufgaben können hier zusätzlich weitere Aufgaben manuell zur Stellenbeschreibung des Mitarbeiters hinzugefügt werden.
 
 Positionsbedingte Aufgaben können für einzelnen Mitarbeiter nicht entfernt werden. Manuell zugeordnete Aufgaben sind dabei an dem grünen Handsymbol zu erkennen.
 
