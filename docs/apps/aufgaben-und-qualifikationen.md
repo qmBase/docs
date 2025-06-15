@@ -45,9 +45,8 @@ Die Liste aller Aufgaben finden Sie unter **Aufgaben** in der Menüleiste auf de
 
 Jede Aufgabe kann mit **Positionen** und **Qualifikationen** verknüpft werden:
 
-- **Verküpfung mit Position**: Diese Aufgabe ist Bestandteil der verknüpften Position. Jeder Positionsinhaber führt diese Tätigkeit aus. 
+- **Verküpfung mit Position**: Diese Aufgabe ist Bestandteil der verknüpften Position. Jeder Positionsinhaber führt diese Tätigkeit aus.
 - **Verknüpfung mit Qualifikation**: Die verknüpfte Qualifikation ist eine Voraussetzung, um erolfgreich in dieser Aufgabe zu arbeiten. Diese Qualifikation ist für jeden Mitarbeiter der diese Aufgabe ausübt erorderlich.
-
 
 ### Aufgaben-Matrix
 
@@ -89,7 +88,6 @@ In der Qualifikationsmatrix werden Personen und Qualifikationen einander gegenü
 | Rotes Warndreieck              | Qualifikation benötigt aber nicht vorhanden                                                    |
 | Roter Kreis                    | Qualifikation vorhanden aber abgelaufen                                                        |
 | Gelber Kreis                   | Qualifikation vorhanden aber innerhalb der Vorwanzeit - läuft also bald ab                     |
-
 
 ### Dashboard
 
@@ -262,29 +260,27 @@ Die Variable setzt sich zusammen aus den Teilen <code>QualificationId\_</code> u
 Für die Qualifikation mit der ID 25 ergibt sich dann z.B. als Variable der Name <code>QualificationId_25</code>.
 
 ## Das Mitarbeiterprofil
+
 Das Mitarbeiterprofil gibt einen mitarbeitespezifischen Überblick über Positionen, Aufgaben und Qualifikationen. Mitarbeiterprofile lassen sich über den Menüpunkt <code>Personen</code> erreichen. Alternativ erreicht jeder Nutzer sein eigenes Profil über den Menüpunkt <code>Mein Qualifiaktionsprofil</code>.
 
 ![Mein Qualifikationsprofil](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-06-06%20myQualificationProfile_Details.png)
 
 #### Die Stellenbeschreibung?
 
-Die Stellebeschreibung auf der linken Seite (1) bietet bietet in dem Tab **Positionen** einen Überblick über die Positionen des Mitarbeiters und veranschaulicht die Abhängigkeiten zu den verbundenen Aufageben und Qualifikationen. 
+Die Stellebeschreibung auf der linken Seite (1) bietet bietet in dem Tab **Positionen** einen Überblick über die Positionen des Mitarbeiters und veranschaulicht die Abhängigkeiten zu den verbundenen Aufageben und Qualifikationen.
 
-Der Tab **Aufgaben** zeigt die Übersicht aller Aufagben des Mitarbeiters. Neben den in den positionsbedingte Aufgaben können hier zusätzlich weitere Aufageben manuell zur Stellenbeschreibung des Mitarbeiters hinzugefügt werden. 
+Der Tab **Aufgaben** zeigt die Übersicht aller Aufagben des Mitarbeiters. Neben den in den positionsbedingte Aufgaben können hier zusätzlich weitere Aufageben manuell zur Stellenbeschreibung des Mitarbeiters hinzugefügt werden.
 
 Positionsbedingte Aufgaben können für einzelnen Mitarbeiter nicht entfernt werden. Manuell zugeordnete Aufgaben sind dabei an dem grünen Handsymbol zu erkennen.
 
 #### Das Qualifikationsprofil
 
-Das Qualifikationsprofil auf der rechten Seite (2) bietet einen Überblick über alle Qualifikationen und Qualifikationsdefizite des Mitarbeiters. Die Tabelle beinhaltet unter anderem folgende Spalten: 
+Das Qualifikationsprofil auf der rechten Seite (2) bietet einen Überblick über alle Qualifikationen und Qualifikationsdefizite des Mitarbeiters. Die Tabelle beinhaltet unter anderem folgende Spalten:
 
-- **Benötigt**: Die Qualifiaktionen die Bestandteil des Anforderungsprofils und somit erforderlich sind, sind mit dem Info-Badge <span class="badge badge--info">Benötigt</span> versehen. Die nicht erforderlichen Qualifikationen sind mit dem <span class="badge badge--info">Nicht geordert</code> versehen.  Die nicht erforderlichen Qualifikationen sind mit dem <span class="badge badge--info">Nicht geordert</span> versehen.
-- **Ungültig ab**: Für Qualifikationen mit eienr Laufzeit steht in dieser Spalte das Datum,  ab wann die Qualifikationen ungültig wird. Für Qualifikationen ohne Laufzeit steht hier <code>Unbegrenzt</code>
+- **Benötigt**: Die Qualifiaktionen die Bestandteil des Anforderungsprofils und somit erforderlich sind, sind mit dem Info-Badge <span class="badge badge--info">Benötigt</span> versehen. Die nicht erforderlichen Qualifikationen sind mit dem <span class="badge badge--info">Nicht geordert</code> versehen. Die nicht erforderlichen Qualifikationen sind mit dem <span class="badge badge--info">Nicht geordert</span> versehen.
+- **Ungültig ab**: Für Qualifikationen mit eienr Laufzeit steht in dieser Spalte das Datum, ab wann die Qualifikationen ungültig wird. Für Qualifikationen ohne Laufzeit steht hier <code>Unbegrenzt</code>
 - **Eignung**: Diese Spalte zeigt auf, zu welchem Grad (0 % - 100 %) die Qualifikation vorhanden ist. Sollte die Qualifikation erforderlich aber nicht vorhanden oder abgelaufen sein, dann erscheint der Badge <span class="badge badge--info">Handlung erfoderlich</span>
 - **Aktionen**: Über den Kontext-Menü-Button (3 Punkte) (3) kann die jeweilige Qualifikation u.a. bearbeitet oder neu hinzugefügt werden.
-
-
-
 
 ## Best Practices und typische Aufgaben
 
@@ -318,7 +314,8 @@ Um dann den Qualifikationsstatus zu verbessern, gibt es verschiedene Vorgehenswe
 Da die App auf Daten aus anderen Apps zugreift und die Daten in diesem Bereich vergleichsweise sensibel sind, gestaltet sich die Zugriffsteuerung etwas anders als in anderen Bereichen unserer Software.
 
 ### Wer kann was sehen
-Jeder Nutzer mit Zugriff auf den Bereich **Aufgaben & Qualifikationen** kann die Mitarbeiter sehen, die öffentlich oder für Ihn freigegeben sind ([Rollen, Berechtigung, Zugriff](https://help.qmbase.com/docs/faqs/rollen-berechtigungen-und-zugriff/)). Entsprechend werden alle anderen Mitarbeiter für den Nutzer ausgeblendet. Dies betrifft u.a. die Aufgabematrix, die Qualifikationsmatrix und die Qualifikationsprofile der Mitarbeiter. 
+
+Jeder Nutzer mit Zugriff auf den Bereich **Aufgaben & Qualifikationen** kann die Mitarbeiter sehen, die öffentlich oder für Ihn freigegeben sind ([Rollen, Berechtigung, Zugriff](https://help.qmbase.com/docs/faqs/rollen-berechtigungen-und-zugriff/)). Entsprechend werden alle anderen Mitarbeiter für den Nutzer ausgeblendet. Dies betrifft u.a. die Aufgabematrix, die Qualifikationsmatrix und die Qualifikationsprofile der Mitarbeiter.
 
 ### Wie werden einem Mitarbeiter Aufgaben hinzugefügt?
 
