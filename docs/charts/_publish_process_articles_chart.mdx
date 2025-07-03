@@ -10,7 +10,12 @@ import Mermaid from "@theme/mermaid";
     noApprover[ModulAdmin oder Admin auswählen] --> publishStart
     publishStart[Veröffentlichungsprozess starten <br /> Min. Rolle: Verantwortlicher <br /> Benachrichtigung an den Genehmiger/Genehmigende] --> approverDefine
     approverDefine{Genehmigender bereits ausgewählt? <br /> Min. Rolle: Genehmiger <br /> Hinweis der Genehmigenden}--> waitForApproval
-    waitForApproval[Auf Freigabe warten]--> articlePublish
+    waitForApproval[Auf Freigabe warten]--> approvalComplete
+    approvalComplete{Alle Freigaben erteilt}
+    approvalNotification[Benachrichtigung des Verantwortlichen]
+    approvalComplete--> |Ja| approvalNotification
+    approvalComplete--> |Nein| waitForApproval
+    approvalNotification--> articlePublish
     approverDefine--> |Nein| approverSelect
     articlePublish[Artikel Freigeben]-->publishArticle
     publishArticle[Artikel veröffentlichen <br /> Benachrichtigung der Kenntnisnehmer]
