@@ -173,6 +173,45 @@ We only support the latest version of On-Premises installation.
 
 ## Breaking Changes
 
+This sections contains infos about breaking changes for On-Premises installation. There might be some environment specific settings and actions that need to be performend.
+
+### 2025-06-25: Updated web.config file
+
+If you have a installed and configured qmBase before this date, you need to update your `web.config` file in in your main `\app` folder. The required changes are highlighted in the code example below.
+
+❌ Old
+
+```xml title="/web.config"
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <location path="." inheritInChildApplications="false">
+    <system.webServer>
+      <handlers>
+        <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" />
+      </handlers>
+      <aspNetCore processPath="dotnet" arguments=".\PBD.Core.Web.Qm.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" />
+    </system.webServer>
+  </location>
+</configuration>
+```
+
+✅ New
+
+```xml title="/web.config"
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <location path="." inheritInChildApplications="false">
+    <system.webServer>
+      <handlers>
+        <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" />
+      </handlers>
+    // highlight-next-line
+      <aspNetCore processPath="dotnet" arguments=".\PBD.Core.Web.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" />
+    </system.webServer>
+  </location>
+</configuration>
+```
+
 ### Deployment Status
 
 |            | Status                                                                                                                                               |
