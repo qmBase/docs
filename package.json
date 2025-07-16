@@ -22,7 +22,7 @@
     "@docusaurus/preset-classic": "^3.8.1",
     "clsx": "^2.1.1",
     "docusaurus-plugin-image-zoom": "^3.0.1",
-    "mermaid": "^11.8.1",
+    "mermaid": "^11.9.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
