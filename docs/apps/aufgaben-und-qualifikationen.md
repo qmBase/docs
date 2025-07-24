@@ -348,3 +348,14 @@ Zusätzlich können mit dem Tab **Zugriff** weitere Bearbeiter freigegeben werde
 | Typ                                | Beschreibung |
 | ---------------------------------- | ------------ |
 | Anzahl Qualifikationen pro Aufgabe | Maximal 100  |
+
+## FAQs
+
+Hier finden Sie Antworten auf regelmäßige Fragen der App **Aufgaben & Qualifikationen**.
+
+### Ablaufdaten für Qualifikationen stimmen nach einem Update der Qualifikationsintervalle nicht mehr
+
+Sollten Sie bei einer Qualifikation den Zeitraum der Gültigkeit ändern, werden Fristen für bereits vorhandene Qualifikationen nicht neu berechnet.
+In diesem Fall die Frist dann neue berechnet, wenn die Qualifikation neu erworben wird. Sollte ein direktes Neuberechnen der Frist notwendig sein, können Sie als Admin auf der Startseite der App in der rechten Spalte zum Link **Qualifikationen konsolidieren** wechseln.
+Auf der folgende Seite können Sie dann durch einen Klick auf den Button **Konsolidieren** alle Fristen mit den neuen Qualifikationsdaten neu berechnen.
+![Startseite der App Aufgaben & Qualifikationen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-07-24_consolidateQualifications.png)
