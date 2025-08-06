@@ -250,6 +250,7 @@ Draw
 Dublettenprüfung
 Duis
 Dungeon
+Duplikatsprüfung
 durability
 Duration
 Durchgef├╝hrtdatum
