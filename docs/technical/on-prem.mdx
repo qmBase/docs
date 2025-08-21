@@ -12,10 +12,10 @@ qmBase can also be installed on your own hardware. While this is possible, it is
 While we try to achieve feature parity of our cloud version and the software you can install in your own data center there are some differences.
 The differences are shown in the table below.
 
-| Feature                        | Cloud         | On-Premises                            |
-| ------------------------------ | ------------- | -------------------------------------- |
-| Backup                         | Managed by us | Managed by you                         |
-| Automatic weekly notifications | Managed by us | Requires at least one login per 7 days |
+| Feature                        | Cloud         | On-Premises                                        |
+| ------------------------------ | ------------- | -------------------------------------------------- |
+| Backup                         | Managed by us | Managed by you                                     |
+| Automatic weekly notifications | Managed by us | Requires at least one login per 7 days of any user |
 
 ## Installation
 
@@ -35,6 +35,7 @@ We work with latest Tools and software as they are released. This leads to regul
 - Windows 10 Pro or higher
 - ASP.NET Core Hosting Bundle 9.x
 - IIS Webserver V 10
+- SQL Server Management Studio, if managing the database is required
 - SSL Certificate Public or self signed
 - Hardware requirements
   - min 8 GB Ram
@@ -173,7 +174,46 @@ We only support the latest version of On-Premises installation.
 
 ## Breaking Changes
 
-### Deployment Status
+This sections contains infos about breaking changes for On-Premises installation. There might be some environment specific settings and actions that need to be performend.
+
+### 2025-06-25: Updated web.config file
+
+If you have a installed and configured qmBase before this date, you need to update your `web.config` file in in your main `\app` folder. The required changes are highlighted in the code example below.
+
+❌ Old
+
+```xml title="/web.config"
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <location path="." inheritInChildApplications="false">
+    <system.webServer>
+      <handlers>
+        <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" />
+      </handlers>
+      <aspNetCore processPath="dotnet" arguments=".\PBD.Core.Web.Qm.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" />
+    </system.webServer>
+  </location>
+</configuration>
+```
+
+✅ New
+
+```xml title="/web.config"
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <location path="." inheritInChildApplications="false">
+    <system.webServer>
+      <handlers>
+        <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" />
+      </handlers>
+    // highlight-next-line
+      <aspNetCore processPath="dotnet" arguments=".\PBD.Core.Web.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" />
+    </system.webServer>
+  </location>
+</configuration>
+```
+
+## Deployment Status
 
 |            | Status                                                                                                                                               |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |

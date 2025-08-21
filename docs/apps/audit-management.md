@@ -21,7 +21,7 @@ Zusätzlich kommen Sie von hier zu folgenden Bereichen:
 - **Auditmatrix**: Darstellung der Auditplanung als Matrix
 - **Einstellungen**: Hier können Sie die Einstellungen des Auditmanagements einsehen und ggf. ändern
 
-### Wie erstelle ich ein Audit?
+## Wie erstelle ich ein Audit?
 
 Mit dieser Funktion erstellen Sie Audits. Auf der linken Seitenleiste klicken Sie auf den Button <code>Neu</code> und werden auf die Maske zum Erstellen eines Audits weitergeleitet. Nachdem Sie dort die wichtigsten Informationen zu dem betreffenden Audit eingetragen haben speichern Sie das neue Audit ab.
 
@@ -44,7 +44,7 @@ Danach werden Sie auf die Detailansicht zu diesem Audit weitergeleitet und könn
 | <code>Schlagworte</code>          | Text             | Schlagworte bieten Ihnen die Möglichkeit Audits einem oder mehreren Themenfeldern zuzuordnen oder zu priorisieren       |
 | <code>Offen/In Bearbeitung</code> | Button           | Setzen Sie den Bearbeitungsstand des Audits nach Ihren Präferenzen                                                      |
 
-### Verknüpfungsmöglichkeiten für Audits
+## Verknüpfungsmöglichkeiten für Audits
 
 | Objekt                  | Beschreibung und Zweck                                                                              |
 | ----------------------- | --------------------------------------------------------------------------------------------------- |
@@ -62,12 +62,16 @@ Sobald Teilnehmer zu einem Audit hinzugefügt werden, werden diese per E-Mail be
 
 Herr Müller möchte ein Audit erstellen. Nachdem er sich bei qmBase angemeldet hat, ruft er die App Auditmanagement auf. Er wählt in der Seitenleiste den Button <code>Neu</code> aus. Anschließend wählt er die Kategorie seines Audits **Vertrieb** aus und trägt alle wichtigen Eckdaten ein. Nachdem er auf **Speichern** geklickt hat, wird er zur Detailansicht weitergeleitet. Auf dieser Seite hat er die Möglichkeit weitere Daten einzutragen. Außerdem kann Herr Müller einzelne Felder editieren, falls er Daten fehlerhaft eingetragen hat. Herr Müller hat nun die Möglichkeiten Maßnahmen und Ziele mit dem Audit zu Verknüpfen und Dokumente an das Audit anzuhängen. Mit jedem Audit sehen Sie direkt welche Maßnahmen aus diesem Audit resultieren und wie deren Bearbeitungsstand ist. Für alle Maßnahmen wird eine eindeutige Verantwortlichkeit sowie eine Frist für die Fertigstellung definiert. Herr Müller kann nun Teilnehmer zu dem Audit einladen und fügt alle Personen hinzu, die bei diesem Audit zugegen sein sollen. Die Teilnehmer werden anschließend per E-Mail benachrichtigt.
 
-### Wie funktioniert die Auditmatrix?
+## Wie funktioniert die Auditmatrix?
+
+:::info
+Die Auditmatrix ist für Kunden, die diese bis zum 01.07.2025 nicht genutzt haben, nicht mehr sichtbar. Bisherige Nutzer der Auditmatrix können diese wie gewohnt weiter verwenden.
+:::
 
 Zur Nutzung der Auditmatrix müssen zunächst in den Einstellungen Auditanforderungen erstellt werden. Die Auditanforderungen können anschließend Auditkategorien zugeordnet werden.
 In der Auditmatrix lässt sich dann darstellen, ob in einem bestimmten Zeitintervall bestimmte Auditanforderungen erfüllt wurden.
 
-#### Beispiel Auditmatrix
+### Beispiel Auditmatrix
 
 Als Auditanforderung wird **ISO 9001** festgelegt. Untergeordnete Anforderungen sind:
 
@@ -98,17 +102,17 @@ Damit Sie Informationen, die Sie bereits im Audit erfasst haben wiederverwenden 
 
 Für die Erstellung des Berichts müssen Auditanforderungen das betreffende Audit festgelegt werden. Zusätzlich müssen Sie über das Dokumentenmanagement verfügen.
 
-#### Aufbau des Berichts
+## Aufbau des Berichts
 
 Der Bericht besteht aus einem einleitenden Text und eine Link zum Audit.
 Zusätzlich wird eine Tabelle mit den festgelegten Auditanforderungen erstellt.
 Die Daten hierzu stammen aus dem zugehörigen Auditkategorien und den verknüpften Auditanforderungen.
 
-### Wo finde ich Auswertungen meiner Audits?
+## Wo finde ich Auswertungen meiner Audits?
 
 Die Auswertungen der Audits, sowie anderer Apps, finden Sie in der App Dashboard & Reportings. Das FAQ zu der App Dashboard & Reportings finden Sie [hier](dashboard.mdx).
 
-### Gemeinsame Funktionalitäten
+## Gemeinsame Funktionalitäten
 
 - [Rollen & Berechtigungen](/docs/faqs/rollen-berechtigungen-und-zugriff)
 

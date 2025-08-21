@@ -118,6 +118,7 @@ bounties
 brackets
 Branding
 break
+breaking
 Breaking
 brevity
 Broken
@@ -240,6 +241,7 @@ Dokumentenmanagemnets
 dolor
 don't
 Donec
+dotnet
 Downloadvorlagen
 draft
 Drag
@@ -248,6 +250,7 @@ Draw
 Dublettenprüfung
 Duis
 Dungeon
+Duplikatsprüfung
 durability
 Duration
 Durchgef├╝hrtdatum
@@ -451,6 +454,7 @@ initials
 Inkognitomodus
 Inlineframe
 innenwirksam
+inprocess
 Inspection
 Inspections
 instagram
@@ -644,6 +648,7 @@ pellentesque
 Pencil
 people
 perform
+performend
 performing
 Persons
 Pflichfeld
@@ -813,6 +818,7 @@ separating
 served
 several
 sheet
+Shortcuts
 shown
 Sichtbarkeitseinstellungen
 sidebar
@@ -943,6 +949,7 @@ varius
 veck
 velit
 veränderungssichere
+verb
 verbesserung
 verbesserungen
 Verbesserungs
