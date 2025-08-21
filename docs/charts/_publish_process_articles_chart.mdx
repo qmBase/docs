@@ -6,11 +6,16 @@ import Mermaid from "@theme/mermaid";
     approverSelect[Freigeber hinzufügen]--> approverDefined
     approverDefined{Ist Rolle Freigeber vergeben?}--> |Ja| approverSelecting
     approverDefined--> |Nein| noApprover
-    approverSelecting[Freigeber auswählen] --> publishStart
-    noApprover[(Modul-)Admin auswählen] --> publishStart
-    publishStart[Veröffentlichung starten <br /> Verantwortlicher / (Modul-)Admin <br /> Benachrichtigung an Freigeber] --> approverDefine
-    waitForApproval[Auf Freigabe warten]--> articlePublish
+    approverSelecting[Definierten Genehmiger auswählen] --> publishStart
+    noApprover[ModulAdmin oder Admin auswählen] --> publishStart
+    publishStart["Veröffentlichungsprozess starten <br /> Verantwortlicher / (Modul-) Admin <br /> Benachrichtigung an Freigeber"] --> waitForApproval
+    waitForApproval[Auf Freigabe warten]--> approvalComplete
+    approvalComplete{Alle Freigaben erteilt}
+    approvalNotification[Benachrichtigung des Verantwortlichen]
+    approvalComplete--> |Ja| approvalNotification
+    approvalNotification--> articlePublish
     articlePublish[Artikel Freigeben]-->publishArticle
-    publishArticle[Artikel veröffentlichen (Auswahl der Versionsnummer)<br /> Benachrichtigung für Lesebestätigungen]
+    publishArticle[Artikel veröffentlichen Auswahl der Versionsnummer]-->publishedArticle
+    publishedArticle[Benachrichtigung für Lesebestätigung]
     articlePublish[Artikel freigeben]`}
 />
