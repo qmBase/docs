@@ -3,21 +3,19 @@ import Mermaid from "@theme/mermaid";
 <Mermaid
   chart={`graph TB
     articleCreate[Artikel erstellen]--> approverSelect
-    approverSelect[Genehmiger auswählen]--> approverDefined
-    approverDefined{Ist Genehmiger definiert? <br /> Min. Rolle: Genehmiger}--> |Ja| approverSelecting
+    approverSelect[Freigeber hinzufügen]--> approverDefined
+    approverDefined{Ist Rolle Freigeber vergeben?}--> |Ja| approverSelecting
     approverDefined--> |Nein| noApprover
     approverSelecting[Definierten Genehmiger auswählen] --> publishStart
     noApprover[ModulAdmin oder Admin auswählen] --> publishStart
-    publishStart[Veröffentlichungsprozess starten <br /> Min. Rolle: Verantwortlicher <br /> Benachrichtigung an den Genehmiger/Genehmigende] --> approverDefine
-    approverDefine{Genehmigender bereits ausgewählt? <br /> Min. Rolle: Genehmiger <br /> Hinweis der Genehmigenden}--> waitForApproval
+    publishStart["Veröffentlichungsprozess starten <br /> Verantwortlicher / (Modul-) Admin <br /> Benachrichtigung an Freigeber"] --> waitForApproval
     waitForApproval[Auf Freigabe warten]--> approvalComplete
     approvalComplete{Alle Freigaben erteilt}
     approvalNotification[Benachrichtigung des Verantwortlichen]
     approvalComplete--> |Ja| approvalNotification
-    approvalComplete--> |Nein| waitForApproval
     approvalNotification--> articlePublish
-    approverDefine--> |Nein| approverSelect
     articlePublish[Artikel Freigeben]-->publishArticle
-    publishArticle[Artikel veröffentlichen <br /> Benachrichtigung der Kenntnisnehmer]
+    publishArticle[Artikel veröffentlichen Auswahl der Versionsnummer]-->publishedArticle
+    publishedArticle[Benachrichtigung für Lesebestätigung]
     articlePublish[Artikel freigeben]`}
 />
