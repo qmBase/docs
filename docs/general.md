@@ -37,6 +37,22 @@ Mit Filtern lassen sich große Datenmengen einfach auf die Informationen herunte
 Wenn Sie also z.B. Maßnahmen nach dem Status "Offen" und der Verantwortlichen Person "Max Mustermann" filtern, werden Ihnen allle Maßnahmen angezeigt die **beide** Bedingungen erfüllen.
 Sie können beliebig viele Filter kombinieren. Um die Filter nicht jedes Mal neu zu erstellen, können Sie die Filter in vielen Bereichen auch direkt als [Smart View](/docs/faqs/smart-views) abspeichern.
 
+##### Filter von Custom Fields
+
+Das Filtern von Custom Fields beinhaltet auf Grund der Flexibilität der Daten einige Besonderheiten, die im Folgenden beschrieben sind.
+
+###### Filtern von Texten
+
+Beim Filtern von Texten wird standardmäßig geprüft, ob der Suchbegriff im gesuchten Begriff enthalten ist. Damit wäre also für die Suche **ein** bei diesem Eintrag ein Treffer gegeben **Die ist ein Test**.
+
+###### Filtern von Zahlen
+
+###### Filtern von Datumsangaben
+
+###### Filtern von Auswahlfeldern (Select)
+
+TODO: Explain Custom Field filter for various data types.
+
 #### Sortieren
 
 Daten in Tabellenspalten können vielfach sortiert werden. Eine Sortierung ist in der Regel dann möglich, wenn es sinnvolles Kriterium der Sortierung gibt.
