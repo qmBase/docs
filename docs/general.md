@@ -41,17 +41,15 @@ Sie können beliebig viele Filter kombinieren. Um die Filter nicht jedes Mal neu
 
 Das Filtern von Custom Fields beinhaltet auf Grund der Flexibilität der Daten einige Besonderheiten, die im Folgenden beschrieben sind.
 
-###### Filtern von Texten
+| Feldtyp             | Filter-Logik                                                                  | Beispiel                                                                                                                                  |
+| ------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Text**            | Verwendet eine **enthält**-Suche. Der Suchbegriff muss nur im Wert vorkommen. | Suche `Test` → findet `"Dies ist ein Test"` und `"Testlauf"`                                                                              |
+| **Einfachauswahl**  | Verwendet **exakte Übereinstimmung**. Nur der gewählte Wert wird angezeigt.   | Filter `Status = Offen` → zeigt nur Datensätze mit Wert `"Offen"`                                                                         |
+| **Mehrfachauswahl** | Alle gewählten Optionen müssen enthalten sein. Weitere Werte sind erlaubt.    | Filter `op1` → zeigt `["op1"]`, `["op1","op2"]`, `["op1","op2","op3"]`<br>Filter `op1+op2` → zeigt `["op1","op2"]`, `["op1","op2","op3"]` |
+| **Bewertung**       | Gespeichert als Zahl (1–10), aber als Text filterbar.                         | Suche `5` → zeigt alle mit Bewertung `5`<br>Suche `10` → zeigt alle mit Bewertung `10`                                                    |
+| **Zahl**            | Wird wie Text behandelt, dadurch sind Teiltreffer möglich.                    | Felder `8` und `88` → Suche `8` zeigt **beide**                                                                                           |
+| **Datum** | Wird derzeit als normaler Text durchsucht. Nur exakte Treffer mit `-` als Trennzeichen funktionieren. Dieses Verhalten sollte in Zukunft verbessert werden. | Feld `"01/25/2011"` → Suche `01-25` **findet**, Suche `01/25` **findet nicht** |
 
-Beim Filtern von Texten wird standardmäßig geprüft, ob der Suchbegriff im gesuchten Begriff enthalten ist. Damit wäre also für die Suche **ein** bei diesem Eintrag ein Treffer gegeben **Die ist ein Test**.
-
-###### Filtern von Zahlen
-
-###### Filtern von Datumsangaben
-
-###### Filtern von Auswahlfeldern (Select)
-
-TODO: Explain Custom Field filter for various data types.
 
 #### Sortieren
 
