@@ -48,7 +48,7 @@ Das Filtern von Custom Fields beinhaltet auf Grund der Flexibilität der Daten e
 | **Mehrfachauswahl** | Alle gewählten Optionen müssen enthalten sein. Weitere Werte sind erlaubt.                                                                                  | Filter `op1` → zeigt `["op1"]`, `["op1","op2"]`, `["op1","op2","op3"]`<br/>Filter `op1+op2` → zeigt `["op1","op2"]`, `["op1","op2","op3"]` |
 | **Bewertung**       | Gespeichert als Zahl (1–10), aber als Text filterbar.                                                                                                       | Suche `5` → zeigt alle mit Bewertung `5`<br/>Suche `10` → zeigt alle mit Bewertung `10`                                                    |
 | **Zahl**            | Wird wie Text behandelt, dadurch sind Teiltreffer möglich.                                                                                                  | Felder `8` und `88` → Suche `8` zeigt **beide**                                                                                            |
-| **Datum**           | Wird derzeit als normaler Text durchsucht. Nur exakte Treffer mit `-` als Trennzeichen funktionieren. Dieses Verhalten sollte in Zukunft verbessert werden. | Feld `"01/25/2011"` → Suche `01-25` **findet**, Suche `01/25` **findet nichts**                                                            |
+| **Datum**           | Wird als Textfeld durchsucht. Nutzer müssen das Datum im ISO-Format YYYY-MM-DD eingeben. Teilstrings wie 2025-08 oder -27 funktionieren ebenfalls.          | Feld `2025-08-27` → Suche `2025-08-27` findet, Suche `2025-08` findet, Suche `-27` findet                                                  |
 
 #### Sortieren
 
@@ -86,3 +86,4 @@ Bei der folgende Konstellation aus Nutzern und Gruppen ergibt sich
 
 - Wenn Nutzer Schmidt einen Ideenkoordinator sucht, erhält er als Auswahlmöglichkeiten Nutzer Müller.
 - Wenn Nutzer Schulze einen Ideenkoordinator sucht, erhält er als Auswahlmöglichkeiten Nutzer Meier.
+
