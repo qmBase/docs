@@ -3,6 +3,8 @@ title: Workflow-Automatisierung
 description: Automatisieren Sie individuell Arbeitsabläufe innerhalb von qmBase
 ---
 
+import AutomationFlow from "../charts/_autmation-flow-chart.mdx";
+
 Mit Hilfe unseres Features Workflow-Automatisierungen können Sie Arbeitsabläufe automatisieren und reproduzierbar gestalten. Die möglichen Use-Cases sind dabei schier unbegrenzt, so dass dieses Feature eine große Bandbreite an Einsatzwecken ermöglicht.
 Folgende Use-Cases können z.B. umgesetzt werden:
 
@@ -20,6 +22,8 @@ Diese Funtion befindet sich noch in der Vorschau und ist nicht vollständig umge
 
 Die Funktionsweise der basiert auf den drei wesentlichen Säulen Auslöser, Bedingungen und Aktionen. Diese einzelnen Säulen können vielen denkbaren Kombinationen angeordnet werden, um unterschiedlichste Workflows zu erreichen.
 
+<AutomationFlow />
+
 ### Auslöser (Trigger)
 
 Der Auslöser ist eine Aktion, die durch einen Nutzer ausgelöst wird. Das kann z.B. das Ausfüllen eines Formulars sein.
@@ -32,10 +36,11 @@ Der Auslöser ist eine Aktion, die durch einen Nutzer ausgelöst wird. Das kann 
 
 Die Bedingungen geben Ihnen mehr Kontrolle über Ihre Automatisierungen. Mit Hilfe der Bedigungen können Sie z.B. für den Auslöser "Reklamation wird erstellt" zusätzlich die Bedingung festlegen, dass eine Reklamation vom Typ "Kunde" erstellt werden muss.
 Die Bedingungen sind optional.
+Prüfbare Bedingungen sind alle Eigenschaften, die sich aus dem auslösenden Trigger ergeben.
 
-| Bedingung    | Beschreibung                                |
-| ------------ | ------------------------------------------- |
-| Custom Field | Ein Custom Field hat einen bestimmten Wert. |
+| Bedingung    | Beschreibung                                | Accessor                                                | Expression |
+| ------------ | ------------------------------------------- | ------------------------------------------------------- | ---------- |
+| Custom Field | Ein Custom Field hat einen bestimmten Wert. | CustomFields.bcf8234a-6b4e-4dc7-a040-5f83b6f48930.Value | eq 'yes'   |
 
 ### Aktionen
 
