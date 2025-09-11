@@ -1,0 +1,19 @@
+import Mermaid from "@theme/mermaid";
+
+<Mermaid
+  chart={`flowchart TD
+        start(Aktion in Software wird ausgelöst)
+        start --> tr
+        tr{Automatisierung mit Trigger vorhanden}
+        tr -->|Nein| finish
+        tr -->|Ja| conditions
+        conditions{Bedingungen erfüllt}
+        conditions -->|Nein| finish
+        conditions -->|Ja| actions
+        actions[Aktionen werden ausgeführt]
+        actions --> done
+        done[Ausgeführte Automatisierung wird in Historie gespeichert]
+        done --> finish
+        finish[Aktion in Software beendet]
+            `}
+/>

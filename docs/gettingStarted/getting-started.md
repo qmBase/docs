@@ -4,8 +4,8 @@ title: Erste Schritte
 description: Neu hier? Alle Infos um mit qmBase zu starten!
 ---
 
-import ProductDisplayName from "./\_productDisplayName.mdx";
-import TestAccountDuration from "./\_testAccountDuration.mdx";
+import ProductDisplayName from "../\_productDisplayName.mdx";
+import TestAccountDuration from "../\_testAccountDuration.mdx";
 
 Um mit <ProductDisplayName/> zu starten, brauchen Sie nicht länger als **5** Minuten.
 
