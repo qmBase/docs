@@ -37,6 +37,19 @@ Mit Filtern lassen sich große Datenmengen einfach auf die Informationen herunte
 Wenn Sie also z.B. Maßnahmen nach dem Status "Offen" und der Verantwortlichen Person "Max Mustermann" filtern, werden Ihnen allle Maßnahmen angezeigt die **beide** Bedingungen erfüllen.
 Sie können beliebig viele Filter kombinieren. Um die Filter nicht jedes Mal neu zu erstellen, können Sie die Filter in vielen Bereichen auch direkt als [Smart View](/docs/faqs/smart-views) abspeichern.
 
+##### Filter von Custom Fields
+
+Das Filtern von Custom Fields beinhaltet auf Grund der Flexibilität der Daten einige Besonderheiten, die im Folgenden beschrieben sind.
+
+| Feldtyp             | Filter-Logik                                                                                                                                                | Beispiel                                                                                                                                   |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Text**            | Verwendet eine **enthält**-Suche. Der Suchbegriff muss nur im Wert vorkommen.                                                                               | Suche `Test` → findet `"Dies ist ein Test"` und `"Testlauf"`                                                                               |
+| **Einfachauswahl**  | Verwendet **exakte Übereinstimmung**. Nur der gewählte Wert wird angezeigt.                                                                                 | Filter `Status = Offen` → zeigt nur Datensätze mit exaktem Wert `"Offen"`. `FastOffen` würde nicht gefunden.                               |
+| **Mehrfachauswahl** | Alle gewählten Optionen müssen enthalten sein. Weitere Werte sind erlaubt.                                                                                  | Filter `op1` → zeigt `["op1"]`, `["op1","op2"]`, `["op1","op2","op3"]`<br/>Filter `op1+op2` → zeigt `["op1","op2"]`, `["op1","op2","op3"]` |
+| **Bewertung**       | Gespeichert als Zahl (1–10), aber als Text filterbar.                                                                                                       | Suche `5` → zeigt alle mit Bewertung `5`<br/>Suche `10` → zeigt alle mit Bewertung `10`                                                    |
+| **Zahl**            | Wird wie Text behandelt, dadurch sind Teiltreffer möglich.                                                                                                  | Felder `8` und `88` → Suche `8` zeigt **beide**                                                                                            |
+| **Datum**           | Wird als Textfeld durchsucht. Nutzer müssen das Datum im ISO-Format YYYY-MM-DD eingeben. Teilstrings wie 2025-08 oder -27 funktionieren ebenfalls.          | Feld `2025-08-27` → Suche `2025-08-27` findet, Suche `2025-08` findet, Suche `-27` findet                                                  |
+
 #### Sortieren
 
 Daten in Tabellenspalten können vielfach sortiert werden. Eine Sortierung ist in der Regel dann möglich, wenn es sinnvolles Kriterium der Sortierung gibt.
@@ -73,3 +86,4 @@ Bei der folgende Konstellation aus Nutzern und Gruppen ergibt sich
 
 - Wenn Nutzer Schmidt einen Ideenkoordinator sucht, erhält er als Auswahlmöglichkeiten Nutzer Müller.
 - Wenn Nutzer Schulze einen Ideenkoordinator sucht, erhält er als Auswahlmöglichkeiten Nutzer Meier.
+
