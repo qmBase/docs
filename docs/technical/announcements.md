@@ -5,6 +5,10 @@ sidebar_label: Announcements
 slug: /technical/announcements
 ---
 
+### 2025-09-23
+
+- Die bisherige Ticket API hat sich verändert und erfordert eine Update der qmBase Installation, um erstellte Tickets sehen zu können.
+
 ### 2024-08-01
 
 - Zum 01.11.2024 werden keine E-Mails mehr über Sendgrid verschickt. Ab diesem Datum werden E-Mails ausschließlich über [Azure Communication Services](https://azure.microsoft.com/de-de/products/communication-services/) verschickt.

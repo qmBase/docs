@@ -2,7 +2,6 @@ ppaehler:
   name: Philipp Pähler
   page: true
   title: qmBase Development Team
-  url: https://github.com/JoelMarcey
   image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
   email: pp@qmbase.com
   socials:
@@ -12,7 +11,6 @@ ppaehler:
     instagram: qmbase
 gadam:
   name: Gilrandy Farhan Adam
-  page: true
   title: qmBase Development Team
   image_url: https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/gilrand-profile-picture.jpg
 nkalicanin:
@@ -26,6 +24,9 @@ azhukovskyi:
   image_url: https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/artemProfile.jpg
 sbenboujina:
   name: Saad Benboujina
-  page: true
   title: qmBase Development Team
   image_url: https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/profile_saad.jpg
+mhassan:
+  name: Mohamed Hassan
+  title: qmBase Development Team
+  image_url: https://i.pravatar.cc/150?img=63
