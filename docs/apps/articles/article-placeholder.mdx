@@ -607,3 +607,42 @@ Hier finden Sie eine weitere (unvollständige) Liste der vorhanden Platzhalter.
   "compare.inventoryItems.inventoryInspectionsDone.length",
 ];
 ```
+
+
+## Erstellung automatischer Berichte für einzelne Objekte
+
+Es ist hilfreich für einzelne Objekte wie Reklamationen oder Audits automatisch Berichte über das Objekt selbst und die damit verknüpften Informationen erstellen zu können. Diese Vorlagen können im Dokuemntenmanagement vordefiniert und dann in den einzelnen Apps verwendet werden (bisher nur Auditmanagement und Reklamationsmanagement). 
+
+In der Ansicht zum Ausfüllen des Berichts gibt es unter dem Tab **Data** eine Übersicht aller zur Verfügung stehenden Daten, die abgefragt werden können. Im folgenden bieten wir einige Besipiele für gängige Informationen: 
+
+### Abfrage von Informationen aus dem Objekt selbst:
+
+| Platzhalter                                                      | Beschreibugn der Abfrage                                |
+| -----------------------------------------------------------------| ------------------------------------------------------- |
+|{{{id}}}                                                          | ID                                                      |
+|{{{Title}}}                                                       | Titel                                                   |
+|{{{description}}}                                                 | Beschreibung                                            |
+|{{{responsible.fullName}}}                                        | Verantwortlicher                                        |
+|{{formatDate deadline "date"}}                                    | Frist                                                   |
+|{{#findById customFields "myCfId"}} {{value}} {{/findById}}       | Abfrage eines Custom Fields anhand der ID               | 
+|{{#each customFields}} {{value}} {{/each}}                        | Abfrage aller ausgefüllten Custom Fields                |
+ 
+Für die Vorlagen für Berichte zum Beispiel im Auditmanagement oder Reklamationsmanagement ist notwendig
+
+### Abfrage von mit dem Objekte verknüpften Informationen
+
+Die Anzahl der verknüpften Informationen (z.B. Anzahl der Maßnahmen) kann variieren, daher ist es notwendig eine Schleife zu definieren, die alle Informationen eines Typs (z.B. Maßnahmen) abfragt. Es bietet sich an, diese Schleife in einer Tabelle aufzubauen:
+
+|ID                  |Titel            |Frist          |Verantwortlich                               |
+|--------------------|-----------------|---------------|---------------------------------------------|
+|{{#each todos}}     |                 |               |                                             |
+|{{id}}              |{{title}}        |{{formatDate deadline "date"}}|{{responsible.fullName}}      |
+|{{/each}}           |                 |               |                                             |
+
+<code>{{#each todos}}</code> bezeichnet demn Beginn der Schleife. Der Bestandteil *todos* gibt dabei an, dass die Schleife die verknüpften Maßnahmen abfragt.  <code>{{/each}}</code> bezeichnet das Ende der Schleife. 
+
+Die Paramter innerhalb der Schleife fragen zu jeder Maßnahme die Informationen gemäß der Tabellenüberschrift ab. 
+
+
+
+
