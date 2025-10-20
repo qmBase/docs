@@ -47,3 +47,7 @@
   cursor: pointer;
   border: 0;
 }
+
+.DocSearch-Button {
+  border-radius: var(--ifm-button-border-radius);
+}
