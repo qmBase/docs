@@ -3,13 +3,16 @@ id: article-placeholder
 title: Platzhalter in Dokumenten
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
 :::info Preview Feature
 Bitte beachten Sie, dass sich die Abläufe und Funktionen in während der weiteren Entwicklung ändern können.
 :::
 
 Einzelne Dokumente können als Vorlagen erstellt werden. Diese Vorlagen können genutzt werden, um automatische Reports zu erstellen.
 Um das Ausfüllen mit Daten aus Ihrer Software zu ermöglichen, muss das Schlagwort <code>\_dynamicContent</code> verknüpft werden.
-Platzhalter werden gefunden, in dem die Variable in <code>\{\{variable'}}</code> in doppelt geschweiften Klammern verwendet wird.
+Platzhalter werden gefunden, in dem die Variable in <code>\{\{variable}}</code> in doppelt geschweiften Klammern verwendet wird.
 Für Beispiele zur Anwendung werfen Sie einen Blick in unsere Vorlagen und hier insbesondere in das Dokument Managementbewertung.
 
 :::note Bitte exakte Schreibweise (Groß-/Kleinschreibung) beachten
@@ -30,46 +33,28 @@ Der Aufbau innerhalb dieser beiden Bereiche ist identisch. Der Zeitraum bezieht 
 
 Folgende Platzhalter können verwendet und ersetzt werden:
 
-| Platzhalter                              | Ursprung                                                |
-| ---------------------------------------- | ------------------------------------------------------- |
-| organisation                             | Firma aus Admin Startseite                              |
-| \{{'organisation.title'}}                | Name der Firma                                          |
-| \{\{organisation.addresses.\[0].line1'}} | Erste Zeile der Anschrift der Firma                     |
-| managingDirector                         | Geschäftsführer aus Admin Startseite Typ: Person        |
-| \{{'managingDirector.fullName'}}         | Vor- und Nachname GF                                    |
-| \{{'managingDirector.email'}}            | E-Mail GF                                               |
-| \{{'today'}}                             | Aktuelles Datum                                         |
-| dataProtectionOfficer                    | Datenschutzbeauftragter aus Admin Startseite Typ:Person |
-| \{{'dataProtectionOfficer.fullName'}}    | Vor- und Nachname DSB                                   |
-| \{{'dataProtectionOfficer.email'}}       | E-Mail DSB                                              |
+| Platzhalter                            | Ursprung                                                |
+| -------------------------------------- | ------------------------------------------------------- |
+| organisation                           | Firma aus Admin Startseite                              |
+| `{{organisation.title}}`               | Name der Firma                                          |
+| `{{organisation.addresses.[0].line1}}` | Erste Zeile der Anschrift der Firma                     |
+| managingDirector                       | Geschäftsführer aus Admin Startseite Typ: Person        |
+| `{{managingDirector.fullName}}`        | Vor- und Nachname GF                                    |
+| `{{managingDirector.email}}`           | E-Mail GF                                               |
+| `{{today}}`                            | Aktuelles Datum                                         |
+| dataProtectionOfficer                  | Datenschutzbeauftragter aus Admin Startseite Typ:Person |
+| `{{dataProtectionOfficer.fullName}}`   | Vor- und Nachname DSB                                   |
+| `{{dataProtectionOfficer.email}}`      | E-Mail DSB                                              |
 
 Organisationen und Personen verfügen zusätzlich noch über Listen von verknüpften Adressen. Im einfachsten Fall ist es einfach die primäre Adresse.
 Um die erste Adresse einer Liste (Array) von verknüpften Adressen zu erhalten wird diese Notation benötigt **organisation.addresses.[0].[addressproperty]**
 
-### Hilfen zur Formatierung
+### Eigenschaften
 
-Werte, die nicht nur einfache Textinformationen (z.B. Titel einer Maßnahme) sind, können formatiert werden. Die Datentypen und möglichen Formatierungen sehen finden Sie in der folgenden Tabelle.
+In der folgenden Übersicht finden Sie weitere Eigenschaften der zur Verfügung stehenden Objekte.
 
-TODO: Explain all available handlebarsjs helpers
-
-| Datentype                 | Befehl zur Formatierung                                                                                                                                                 | Weitere Optionen                                                                                            |
-| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| Datum/Zeit                | `{{formatDate order.createdAt "datetime"}}`                                                                                                                             | Option: `"datetime"` oder `"date"`.                                                                         |
-| Dezimal → Prozent         | `{{formatDecimalToPercentage product.discountRate}}`                                                                                                                    | Erwartet Float (z. B. `0.25`).                                                                              |
-| Dauer (Stunden → Einheit) | `{{formatHoursToDays task.durationHours}}`<br>`{{formatHoursToDays task.durationHours "hours"}}`                                                                        | Einheiten: `years, quarters, months, weeks, days, hours, minutes, seconds, milliseconds`. Default: `days`.  |
-| String (Trenner einfügen) | `{{ addSeparator user.name ", " }}`                                                                                                                                     | 2 Argument ist der Separator (String).                                                                     |
-| Array-Objekt (find by id) | `{{#findById products "1234"}} <div> Product found: {{name}} (ID: {{id}}) </div> {{/findById}` | Sucht Objekt mit `id` in `products` und rendert den Block im gefundenen Kontext. `id`-Vergleich als String. |
-| Bild/URL                  | `{{{image product.imageUrl }}}`                                                                                                                                         | Achtung: **drei** geschweifte Klammern, damit HTML nicht ge-escaped wird.                                   |
-
-
-
-| Datentype    | Befehl zur Formatierung | Weitere Optionen |
-| ------------ | ----------------------- | ---------------- |
-| Datum        |                         |                  |
-| Prozentwerte |                         |                  |
-
-#### Personen Eigenschaften
-
+<Tabs>
+  <TabItem value="Personen" label="Personen" default>
 ```jsx
 interface Person {
   firstName: string;
@@ -86,8 +71,8 @@ interface Telephone {
 }
 ```
 
-#### Adress Eigenschaften
-
+  </TabItem>
+  <TabItem value="Adressen" label="Adressen">
 | Eigenschaft | Beispiel         |
 | ----------- | ---------------- |
 | line1       | Feldstraße 61-63 |
@@ -97,8 +82,8 @@ interface Telephone {
 | city        | Dortmund         |
 | country     | Deutschland      |
 
-#### Weitere Platzhalter
-
+  </TabItem>
+  <TabItem value="WeiterePlatzhalter" label="Weitere Platzhalter">
 Hier finden Sie eine weitere (unvollständige) Liste der vorhanden Platzhalter.
 
 ```jsx
@@ -619,41 +604,50 @@ Hier finden Sie eine weitere (unvollständige) Liste der vorhanden Platzhalter.
 ];
 ```
 
+  </TabItem>
+</Tabs>
+
+## Hilfen zur Formatierung
+
+Werte, die nicht nur einfache Textinformationen (z.B. Titel einer Maßnahme) sind, können formatiert werden. Die Datentypen und möglichen Formatierungen sehen finden Sie in der folgenden Tabelle.
+
+| Datentype                 | Befehl zur Formatierung                                                                         | Weitere Optionen                                                                                            |
+| ------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Datum/Zeit                | `{{formatDate order.createdAt "datetime"}}`                                                     | Option: `"datetime"` oder `"date"`.                                                                         |
+| Dezimal → Prozent         | `{{formatDecimalToPercentage product.discountRate}}`                                            | Erwartet Float (z. B. `0.25`).                                                                              |
+| Dauer (Stunden → Einheit) | `{{formatHoursToDays task.durationHours}}` `{{formatHoursToDays task.durationHours "hours"}}`   | Einheiten: `years, quarters, months, weeks, days, hours, minutes, seconds, milliseconds`. Default: `days`.  |
+| String (Trenner einfügen) | `{{ addSeparator user.name ", " }}`                                                             | 2 Argument ist der Separator (String).                                                                      |
+| Array-Objekt (find by id) | `{{#findById products "1234"}} <div> Product found: {{name}} (ID: {{id}}) </div> {{/findById}}` | Sucht Objekt mit `id` in `products` und rendert den Block im gefundenen Kontext. `id`-Vergleich als String. |
+| Bild/URL                  | `{{{image product.imageUrl }}}`                                                                 | Achtung: **drei** geschweifte Klammern, damit HTML nicht _escaped_ wird.                                    |
 
 ## Erstellung automatischer Berichte für einzelne Objekte
 
-Es ist hilfreich für einzelne Objekte wie Reklamationen oder Audits automatisch Berichte über das Objekt selbst und die damit verknüpften Informationen erstellen zu können. Diese Vorlagen können im Dokuemntenmanagement vordefiniert und dann in den einzelnen Apps verwendet werden (bisher nur Auditmanagement und Reklamationsmanagement). 
-
-In der Ansicht zum Ausfüllen des Berichts gibt es unter dem Tab **Data** eine Übersicht aller zur Verfügung stehenden Daten, die abgefragt werden können. Im folgenden bieten wir einige Besipiele für gängige Informationen: 
+Es ist hilfreich für einzelne Objekte wie Reklamationen oder Audits automatisch Berichte über das Objekt selbst und die damit verknüpften Informationen erstellen zu können.
+Diese Vorlagen können im Dokumentenmanagement vordefiniert und dann in den einzelnen Apps verwendet werden (bisher nur Auditmanagement und Reklamationsmanagement).
+In der Ansicht zum Ausfüllen des Berichts gibt es unter dem Tab **Data** eine Übersicht aller zur Verfügung stehenden Daten, die abgefragt werden können. Im folgenden bieten wir einige Beispiele für gängige Informationen:
 
 ### Abfrage von Informationen aus dem Objekt selbst:
 
-| Platzhalter                                                      | Beschreibugn der Abfrage                                |
-| -----------------------------------------------------------------| ------------------------------------------------------- |
-|{{{id}}}                                                          | ID                                                      |
-|{{{Title}}}                                                       | Titel                                                   |
-|{{{description}}}                                                 | Beschreibung                                            |
-|{{{responsible.fullName}}}                                        | Verantwortlicher                                        |
-|{{formatDate deadline "date"}}                                    | Frist                                                   |
-|{{#findById customFields "myCfId"}} {{value}} {{/findById}}       | Abfrage eines Custom Fields anhand der ID               | 
-|{{#each customFields}} {{value}} {{/each}}                        | Abfrage aller ausgefüllten Custom Fields                |
- 
-Für die Vorlagen für Berichte zum Beispiel im Auditmanagement oder Reklamationsmanagement ist notwendig
+| Platzhalter                                                   | Beschreibung der Abfrage                  |
+| ------------------------------------------------------------- | ----------------------------------------- |
+| `{{id}}`                                                      | ID                                        |
+| `{{title}}`                                                   | Titel                                     |
+| `{{description}}`                                             | Beschreibung                              |
+| `{{responsible.fullName}}`                                    | Verantwortlicher                          |
+| `{{formatDate deadline "date"}}`                              | Frist                                     |
+| `{{#findById customFields "myCfId"}} {{value}} {{/findById}}` | Abfrage eines Custom Fields anhand der ID |
+| `{{#each customFields}} {{value}} {{/each}}`                  | Abfrage aller ausgefüllten Custom Fields  |
 
 ### Abfrage von mit dem Objekte verknüpften Informationen
 
 Die Anzahl der verknüpften Informationen (z.B. Anzahl der Maßnahmen) kann variieren, daher ist es notwendig eine Schleife zu definieren, die alle Informationen eines Typs (z.B. Maßnahmen) abfragt. Es bietet sich an, diese Schleife in einer Tabelle aufzubauen:
 
-|ID                  |Titel            |Frist          |Verantwortlich                               |
-|--------------------|-----------------|---------------|---------------------------------------------|
-|{{#each todos}}     |                 |               |                                             |
-|{{id}}              |{{title}}        |{{formatDate deadline "date"}}|{{responsible.fullName}}      |
-|{{/each}}           |                 |               |                                             |
+| ID                | Titel       | Frist                            | Verantwortlich             |
+| ----------------- | ----------- | -------------------------------- | -------------------------- |
+| `{{#each todos}}` |             |                                  |                            |
+| `{{id}}`          | `{{title}}` | `{{formatDate deadline "date"}}` | `{{responsible.fullName}}` |
+| `{{/each}}`       |             |                                  |                            |
 
-<code>{{#each todos}}</code> bezeichnet demn Beginn der Schleife. Der Bestandteil *todos* gibt dabei an, dass die Schleife die verknüpften Maßnahmen abfragt.  <code>{{/each}}</code> bezeichnet das Ende der Schleife. 
+<code>`{{ #each todos }}`</code> bezeichnet dem Beginn der Schleife. Der Bestandteil *todos* gibt dabei an, dass die Schleife die verknüpften Maßnahmen abfragt.  <code>`{{/each}}`</code> bezeichnet das Ende der Schleife.
 
-Die Paramter innerhalb der Schleife fragen zu jeder Maßnahme die Informationen gemäß der Tabellenüberschrift ab. 
-
-
-
-
+Die Parameter innerhalb der Schleife fragen zu jeder Maßnahme die Informationen gemäß der Tabellenüberschrift ab.
