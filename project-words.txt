@@ -208,6 +208,7 @@ Dar├╝berhinaus
 dashes
 Datenvalidierung
 Datumspicker
+deadline
 DECLUTTERING
 dedidacted
 defect
@@ -228,6 +229,7 @@ directly
 Director
 disaster
 disasters
+discount
 displayed
 disruptions
 distinction
