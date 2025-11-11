@@ -34,6 +34,7 @@
     "tech-stack.md",
     "docusaurus.config.ts",
     "_publish_process_articles_chart.mdx",
-    "announcements.md"
+    "announcements.md",
+    ".cspell.json"
   ]
 }

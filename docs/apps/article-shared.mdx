@@ -80,8 +80,45 @@ Das Kernstück der Apps bilden die Dokumente. Dokumente sind jedwede Inhalte inn
 
 Die Erstellung von Dokumenten erfolgt im [Dokumentenmanagement](/docs/apps/articles/document-management), [Wiki](/docs/apps/articles/wiki) und [Blog](/docs/apps/articles/blog) analog.
 
-Über den Button <code>Neu</code> kann ein neues Dokument erstellt werden.
-Möchten Sie ein neues Dokument erstellen haben Sie entweder die Möglichkeit dieses direkt über den Texteditor in Ihrem qmBase System zu erstellen oder Sie können bereits bestehende Dokumente (z.B. PDF) hochladen.
+Über den Button <code>Neu</code> kann ein neues Dokument erstellt werden. Beim Erstellen von neuen Dokumenten haben Sie die Auswahl zwischen den folgenden Typen:
+
+- Text-Editor
+- Datei
+- Markdown-Editor
+- Prozess-Designer
+
+Die Eigenarten der jeweiligen Dokumententypen werden im Folgenden dargestellt.
+
+#### Text-Editor
+
+Mit dem Text-Editor können Sie aufwendig formatierte Texte erstellen. Die Möglichkeiten der Formatierung kommen den Möglichkeiten von Word sehr Nahe. Nachteilig hierbei ist aber, dass gerade durch diese Vielfalt der Leser und insbesondere der Ersteller vom eigentlichen Inhalt abgelenkt werden kann.
+
+#### Datei
+
+Sie haben bereits fertige Dokumente in nahezu beliebigem Dateiformat? Perfekt, dann nutzen Sie den Datei Upload, um diese Dokumente direkt hochzuladen. **Tipp:** PDF Dateien oder Bilder können direkt in qmBase dargestellt werden.
+
+#### Markdown-Editor
+
+Markdown ist leicht zu lesen und zu schreiben, da es auf einfacher Textsyntax basiert. Es ermöglicht die schnelle Formatierung von Texten ohne komplexe Tools.
+Zudem lässt es sich leicht in HTML oder andere Formate umwandeln und ist daher ideal für Dokumentation, Readmes und Blogs.
+
+Zusätzlich unterstützt unser Markdown-Editor die Einbindung von [Mermaid](https://mermaid.js.org/) Diagrammen. Mit Hilfe einer einfachen Syntax können Sie graphisch ansprechende Diagramme erzeugen.
+Fügen Sie z.B. folgenden Text im _Source Mode_ ein, um ein einfaches Ablaufdiagramm zu erzeugen.
+
+![Markdown-Editor im Source Mode](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-11-10_sourceMode.png)
+
+````md
+```mermaid
+flowchart TD
+    Start --> Stop
+```
+````
+
+![Einfaches Flow Chart](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-11-10_simpleFlow.png)
+
+#### Prozess-Designer
+
+Unser Prozess-Designer bietet mit Hilfe der Sprache BPMN 2.0 eine einheitliche, leicht verständliche Sprache zur Modellierung von Geschäftsprozessen. Sie fördert die Kommunikation zwischen Fachbereichen und IT, da sie sowohl technisch präzise als auch visuell intuitiv ist. Außerdem unterstützt sie die Automatisierung und Ausführung von Prozessen in Workflow-Systemen.
 
 :::info Hochladen von Microsoft Word oder Excel Dokumenten
 Sie können auch Word oder Excel Dokumente hochladen. Diese Dokumente werden aber für den Leser nicht im Browser dargestellt, sondern werden dem Leser als Download zur Verfügung gestellt.
