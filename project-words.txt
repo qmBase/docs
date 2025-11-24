@@ -846,6 +846,7 @@ spelling
 staffs
 started
 Startsetie
+startup
 Stay
 Sternebewertungen
 stored
@@ -920,6 +921,7 @@ Transferred
 transmits
 transmitted
 tristique
+Troubleshoot
 true
 truncate
 turned

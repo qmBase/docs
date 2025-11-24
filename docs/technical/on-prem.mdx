@@ -219,3 +219,24 @@ If you have a installed and configured qmBase before this date, you need to upda
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Build      | [![Build status](https://dev.azure.com/caqio/PBD/_apis/build/status/qmBase%20Master)](https://dev.azure.com/caqio/PBD/_build/latest?definitionId=24) |
 | Deployment | ![Deployment status](https://vsrm.dev.azure.com/caqio/_apis/public/Release/badge/40d1313e-3385-464b-a9ed-3cce1c2d470e/3/16)                          |
+
+## Troubleshoot
+
+In case of problems during startup or runtime problems of the the software it might be required to collect additional information.
+To enable detailed logging please change the following in your `web.config` file which is located in the root folder of your installation.
+Here you have to set the `stdoutLogEnabled="false"` to `stdoutLogEnabled="true"`. After a restart of the application you will find detailed logs in the folder defined in `stdoutLogFile`.
+
+```xml title="/web.config"
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <location path="." inheritInChildApplications="false">
+    <system.webServer>
+      <handlers>
+        <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" />
+      </handlers>
+    // highlight-next-line
+      <aspNetCore processPath="dotnet" arguments=".\PBD.Core.Web.dll" stdoutLogEnabled="true" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" />
+    </system.webServer>
+  </location>
+</configuration>
+```
