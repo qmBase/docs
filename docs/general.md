@@ -41,14 +41,14 @@ Sie können beliebig viele Filter kombinieren. Um die Filter nicht jedes Mal neu
 
 Das Filtern von Custom Fields beinhaltet auf Grund der Flexibilität der Daten einige Besonderheiten, die im Folgenden beschrieben sind.
 
-| Feldtyp             | Filter-Logik                                                                                                                                                | Beispiel                                                                                                                                   |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Text**            | Verwendet eine **enthält**-Suche. Der Suchbegriff muss nur im Wert vorkommen.                                                                               | Suche `Test` → findet `"Dies ist ein Test"` und `"Testlauf"`                                                                               |
-| **Einfachauswahl**  | Verwendet **exakte Übereinstimmung**. Nur der gewählte Wert wird angezeigt.                                                                                 | Filter `Status = Offen` → zeigt nur Datensätze mit exaktem Wert `"Offen"`. `FastOffen` würde nicht gefunden.                               |
-| **Mehrfachauswahl** | Alle gewählten Optionen müssen enthalten sein. Weitere Werte sind erlaubt.                                                                                  | Filter `op1` → zeigt `["op1"]`, `["op1","op2"]`, `["op1","op2","op3"]`<br/>Filter `op1+op2` → zeigt `["op1","op2"]`, `["op1","op2","op3"]` |
-| **Bewertung**       | Gespeichert als Zahl (1–10), aber als Text filterbar.                                                                                                       | Suche `5` → zeigt alle mit Bewertung `5`<br/>Suche `10` → zeigt alle mit Bewertung `10`                                                    |
-| **Zahl**            | Wird wie Text behandelt, dadurch sind Teiltreffer möglich.                                                                                                  | Felder `8` und `88` → Suche `8` zeigt **beide**                                                                                            |
-| **Datum**           | Wird als Textfeld durchsucht. Nutzer müssen das Datum im ISO-Format YYYY-MM-DD eingeben. Teilstrings wie 2025-08 oder -27 funktionieren ebenfalls.          | Feld `2025-08-27` → Suche `2025-08-27` findet, Suche `2025-08` findet, Suche `-27` findet                                                  |
+| Feldtyp             | Filter-Logik                                                                                                                                       | Beispiel                                                                                                                                   |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Text**            | Verwendet eine **enthält**-Suche. Der Suchbegriff muss nur im Wert vorkommen.                                                                      | Suche `Test` → findet `"Dies ist ein Test"` und `"Testlauf"`                                                                               |
+| **Einfachauswahl**  | Verwendet **exakte Übereinstimmung**. Nur der gewählte Wert wird angezeigt.                                                                        | Filter `Status = Offen` → zeigt nur Datensätze mit exaktem Wert `"Offen"`. `FastOffen` würde nicht gefunden.                               |
+| **Mehrfachauswahl** | Alle gewählten Optionen müssen enthalten sein. Weitere Werte sind erlaubt.                                                                         | Filter `op1` → zeigt `["op1"]`, `["op1","op2"]`, `["op1","op2","op3"]`<br/>Filter `op1+op2` → zeigt `["op1","op2"]`, `["op1","op2","op3"]` |
+| **Bewertung**       | Gespeichert als Zahl (1–10), aber als Text filterbar.                                                                                              | Suche `5` → zeigt alle mit Bewertung `5`<br/>Suche `10` → zeigt alle mit Bewertung `10`                                                    |
+| **Zahl**            | Wird wie Text behandelt, dadurch sind Teiltreffer möglich.                                                                                         | Felder `8` und `88` → Suche `8` zeigt **beide**                                                                                            |
+| **Datum**           | Wird als Textfeld durchsucht. Nutzer müssen das Datum im ISO-Format YYYY-MM-DD eingeben. Teilstrings wie 2025-08 oder -27 funktionieren ebenfalls. | Feld `2025-08-27` → Suche `2025-08-27` findet, Suche `2025-08` findet, Suche `-27` findet                                                  |
 
 #### Sortieren
 
@@ -86,67 +86,3 @@ Bei der folgende Konstellation aus Nutzern und Gruppen ergibt sich
 
 - Wenn Nutzer Schmidt einen Ideenkoordinator sucht, erhält er als Auswahlmöglichkeiten Nutzer Müller.
 - Wenn Nutzer Schulze einen Ideenkoordinator sucht, erhält er als Auswahlmöglichkeiten Nutzer Meier.
-
-### Systemgrenzen
-#### Titel
-
-**Minimale Titellänge**: `2` Zeichen.   
-Ein Titel ist Pflicht und muss mindestens 2 Zeichen haben, sonst kann er nicht gespeichert werden.
-
-**Maximale Titellänge**: `250` Zeichen  
-Längere Titel werden abgelehnt, damit sie in allen Ansichten vollständig angezeigt werden können.
-
-#### Beschreibung
-
-**Maximale Länge der Beschreibung**: `100.000` Zeichen  
-Sehr lange Texte sind möglich. Überschreitet der Text diese Grenze, kann er nicht gespeichert werden.
-
-#### Berechtigungen
-
-**Maximale Anzahl Berechtigungsstufen**: `10`  
-Das System unterstützt bis zu 10 unterschiedliche Rollen/Rechte. Weitere Abstufungen sind nicht möglich.
-
-#### Benutzerdefinierte Formulare und Felder
-
-**Maximale Felder pro benutzerdefiniertem Formular**: `128`  
-Wenn mehr Felder benötigt werden, müssen Inhalte auf mehrere Formulare aufgeteilt werden.
-
-**Maximale benutzerdefinierte Felder pro Anwendung**: `32`  
-Stehen mehr Informationen an, sollten bestehende Felder optimiert oder konsolidiert werden.
-
-#### Verknüpfte Elemente
-
-**Max. verknüpfte Elemente pro Verbindungsanforderung**: `100`  
-Pro Aktion können bis zu 100 Elemente gleichzeitig verknüpft werden.
-
-**Max. verknüpfte Elemente in einem Genehmigungsvorgang**: `10`  
-Für Freigaben können maximal 10 Elemente auf einmal ausgewählt werden, um Entscheidungen übersichtlich zu halten.
-
-#### Datei-Uploads
-
-**Maximale Anzahl Dateien pro Upload**: `20`  
-Müssen mehr Dateien hochgeladen werden, können diese in mehreren Uploads nacheinander übertragen werden.
-
-#### Datenimporte
-
-**Maximale Anzahl Einträge pro Importvorgang**: `1.000`  
-Größere Datenmengen müssen auf mehrere Importläufe verteilt werden.
-
-#### Kalendersynchronisation
-
-**Synchronisationsintervall**: alle `2` Stunden  
-Änderungen im Kalender können mit bis zu 2 Stunden Verzögerung im System sichtbar werden.
-
-#### Migrationen
-
-**Standardseitengröße während Migrationen**: `10.000` Einträge  
-Daten werden in Blöcken verarbeitet, um eine stabile und performante Migration zu gewährleisten.
-
-#### Abwesenheitsanteile
-
-**Minimaler Abwesenheitsanteil**: `0` (0 %)  
-**Maximaler Abwesenheitsanteil**: `1` (100 %)  
-Abwesenheitswerte werden als Dezimalzahl zwischen `0` und `1` erfasst, z. B.: 
-`0,25` = 25 % Abwesenheit
-`0,5` = 50 % Abwesenheit
-
