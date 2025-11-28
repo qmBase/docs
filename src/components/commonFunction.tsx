@@ -1,7 +1,6 @@
-import React from "react";
-import { PbdModuleString } from "../models/pbdModuleString";
-import { Entity } from "../models/entity";
 import { Link } from "react-router-dom";
+import { Entity } from "../models/entity";
+import { PbdModuleString } from "../models/pbdModuleString";
 import { SharedFunction } from "../models/sharedFunction";
 import { dataSharedFunction } from "./functionDescription";
 
@@ -213,7 +212,7 @@ export default function CommonFunction({ app, entity, entityTitle }: IProps) {
         {filteredData?.sharedFunctions.map((item) => (
           <tr key={item}>
             <td>
-              <Link to={"/docs/common-features"}>
+              <Link to={"/docs/general/common-features"}>
                 {dataSharedFunction.find((x) => x.id == item)?.title}
               </Link>
             </td>
