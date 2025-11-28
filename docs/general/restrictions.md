@@ -1,5 +1,4 @@
 ---
-id: general
 title: Einschränkungen
 ---
 
