@@ -28,7 +28,7 @@ Aus diesem Grund werden wir hier an dieser Stelle zukünftig immer einen Ausblic
 
 Somit ist es das Ziel, Ihnen hier an dieser Stelle immer das nächste konkrete Update unserer internen Roadmap zu liefern. Dieses wird dann auch zeitnah im Rahmen der kommenden 1-2 Monate umgesetzt.
 Dadurch können wir unsere längerfristige Roadmap besser an aktuelle Trends anpassen ohne bei Ihnen falsche Erwartungen zu wecken.
-Falls Sie sich jetzt die Frage stellen, welchen Einfluss diese Herangehensweise auf die Bearbeitung Ihrer Ticket hat, verweisen wir an dieser Stelle auf unsere Erklärung der [Bearbeitung von Feedback](/docs/feedback).
+Falls Sie sich jetzt die Frage stellen, welchen Einfluss diese Herangehensweise auf die Bearbeitung Ihrer Ticket hat, verweisen wir an dieser Stelle auf unsere Erklärung der [Bearbeitung von Feedback](/docs/general/feedback).
 
 ## Custom Dashboards
 
