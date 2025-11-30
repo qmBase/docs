@@ -27,7 +27,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.5.0",
-    "react-lite-youtube-embed": "^3.3.2"
+    "react-lite-youtube-embed": "^3.3.3"
   },
   "browserslist": {
     "production": [
