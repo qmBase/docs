@@ -49,6 +49,7 @@ We use an Evergreen IT-Strategy. Therefore we work with latest Tools and softwar
   - builds\ -> Save old builds here if you need to roll back an update
   - databases\ -> Store databases here
   - uploads\\[CustomerId]\ -> Save user generated uploads here
+  - installer\ -> The qmBase Installer will be saved here
 
 :::note
 Use a dedidacted partition (D:\\) to store the data.
@@ -242,3 +243,7 @@ Here you have to set the `stdoutLogEnabled="false"` to `stdoutLogEnabled="true"`
 ```
 
 Please don't forget to deactivate the logging after the problem is resolved. Logging has a substantiell negative performance impact.
+
+### 500.19
+
+- Reinstall dot.net framework https://blog.elmah.io/http-error-500-19-internal-server-error/
