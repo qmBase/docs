@@ -1,0 +1,75 @@
+---
+title: Workflow-Automatisierung
+description: Automatisieren Sie individuell Arbeitsabläufe innerhalb von qmBase
+---
+
+import AutomationFlow from "../charts/_automation-flow-chart.mdx";
+
+Mit Hilfe unseres Features Workflow-Automatisierungen können Sie Arbeitsabläufe automatisieren und reproduzierbar gestalten. Die möglichen Use-Cases sind dabei schier unbegrenzt, so dass dieses Feature eine große Bandbreite an Einsatzzwecken ermöglicht.
+Folgende Use-Cases können z.B. umgesetzt werden:
+
+- Senden Sie eine E-Mail an eine definierte Adresse beim Ausfüllen eines Formulars mit einem bestimmten Wert.
+- Legen Sie den Verantwortlichen für eine Reklamation auf Basis des Typs der Reklamation fest.
+- Ändern Sie den den Status eines Ziels auf Erledigt und füllen Sie dadurch ein Custom Field mit einem vorgegeben Wert aus.
+
+Wenn diese Themen für Sie interessant klingen, dann lesen Sie jetzt weiter und erfahren Sie alle Details zur Funktionsweise der Workflow-Automatisierungen.
+
+:::info
+Diese Funtion befindet sich noch in der Vorschau und ist nicht vollständig umgesetzt.
+:::
+
+## Funktionsweise
+
+Die Funktionsweise im Wesentlichen auf den zwei Säulen Auslöser und Aktion. Zusätzlich kann der Auslöser noch über Bedingungen eingeschränkt werden. Diese einzelnen Säulen können in vielen denkbaren Kombinationen angeordnet werden, um unterschiedlichste Workflows zu erreichen.
+
+<AutomationFlow />
+
+### Auslöser (Trigger)
+
+Der Auslöser ist eine Aktion, die durch einen Nutzer ausgelöst wird. Das kann z.B. das Ausfüllen eines Formulars sein.
+
+| Auslöser                                            | Beschreibung                                                           |
+| --------------------------------------------------- | ---------------------------------------------------------------------- |
+| Formular ausgefüllt                                 | Ein Formular wurde durch einen Nutzer ausgefüllt                       |
+| Aktualisierte Tags für Ziele, Maßnahmen und Artikel | Wenn ein Tag für Ziele, To-dos oder Artikel geändert wird              |
+| Reklamation erstellt                                | Wenn eine Reklamation erstellt wird, kann die Aktion ausgeführt werden |
+
+### Bedingungen
+
+Die Bedingungen sind optional. Bedingungen geben Ihnen mehr Kontrolle über Ihre Automatisierungen. Mit Hilfe der Bedingungen können Sie z.B. für den Auslöser "Reklamation wird erstellt" zusätzlich die Bedingung festlegen, dass eine Reklamation vom Typ "Kunde" erstellt werden muss.
+Prüfbare Bedingungen sind alle Eigenschaften, die sich aus dem auslösenden Trigger ergeben.
+
+| Bedingung       | Beschreibung                                                                  | Operator    | Wert                                               |
+| --------------- | ----------------------------------------------------------------------------- | ----------- | -------------------------------------------------- |
+| Reklamationstyp | Eine Reklamation soll mit einem bestimmten Reklamationstypen erstellt werden. | ==, != etc. | Intern, Kunde, Lieferant [TODO: What about arrays] |
+
+### Aktionen
+
+Automatisierungen bestehen aus Auslösern und Aktionen. Auslöser starten die Automatisierung und enden in dann in Aktionen.
+Aktionen können z.B. das Versenden einer E-Mail sein.
+
+| Aktion                  | Beschreibung                                                                                  |
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| E-Mail                  | Eine E-Mail wird mit einem bestimmten Template an eine festgelegte E-Mail Adresse verschickt. |
+| Verantwortlichen ändern | Ändern Sie den Verantwortlichen des ausgewählten Objekts                                      |
+
+## Use cases
+
+Da sich die Funktion noch in einer Vorschau befindet, ist die derzeitige Auswahl noch eingeschränkt. Implementierte Workflows und Beispiele finden Sie im Folgenden.
+Neue Automatisierungen sowie die Verwaltung bestehender Automatisierungen legen Sie hier fest Einstellungen > Allgemein > Automatisierung.
+
+### E-Mail Benachrichtigung beim Erstellen einer Reklamation
+
+Folgende Schritte sind notwendig:
+
+1. Erstellen Sie eine neue Automatisierung mit dem Titel **Benachrichtigung GF bei Kundenreklamation**
+   [TODO: Screenshot]
+2. Als Auslöser wählen Sie **Reklamation > Erstellt** aus und klicken auf speichern.
+   [TODO: Screenshot]
+3. Bei den Bedingungen wählen Sie die Eigenschaft **Reklamationstyp** den Operator **==** und den Wert **Kundenreklamation** aus.
+   [TODO: Screenshot]
+4. Unter Aktionen wählen Sie im Dropdown E-Mail aus. In dem dann erscheinen Formular füllen Sie die Felder wie folgt aus:
+   1. Empfänger: z.B. gf@meineFirma.de
+   2. Betreff: Eine neue Kundenreklamation wurde erstellt
+   3. Inhalt: Wie vereinbart wird die Geschäftsführung über jede neue Kundenreklamation per E-Mail informiert.
+      [TODO: Screenshot] [TODO: What about content values]
