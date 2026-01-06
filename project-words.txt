@@ -365,6 +365,7 @@ formelbasierte
 forms
 Forms
 Fortschritsbalken
+framework
 Framework
 Frameworks
 fringilla
@@ -752,6 +753,7 @@ Registrierungsprozess
 regularly
 regulary
 reingenommen
+Reinstall
 Reklamations├╝bersicht
 Reklamationsbearbeitung
 Reklamationsdaten
