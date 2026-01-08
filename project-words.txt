@@ -359,10 +359,13 @@ FMEA
 follow
 Follow
 font
+Formatierungs
 Formatted
+formelbasierte
 forms
 Forms
 Fortschritsbalken
+framework
 Framework
 Frameworks
 fringilla
@@ -565,6 +568,7 @@ malesuada
 malicious
 managing
 manually
+Maschinenfreundlich
 massa
 Maßnahmenfilter
 Maßnahmenmanagement
@@ -639,12 +643,14 @@ outages
 outer
 outlines
 Outlook
+Overhead
 overview
 padding
 page
 pages
 Pähler
 parity
+parsebar
 particular
 parties
 Passwordeingabe
@@ -665,6 +671,7 @@ pharetra
 Phasellus
 Pinned
 pipes
+Pivot
 placerat
 places
 planned
@@ -746,6 +753,7 @@ Registrierungsprozess
 regularly
 regulary
 reingenommen
+Reinstall
 Reklamations├╝bersicht
 Reklamationsbearbeitung
 Reklamationsdaten
@@ -990,6 +998,7 @@ very
 Veyc
 virtue
 Visual
+Visualisierungsmöglichkeiten
 vitae
 Vivamus
 volutpat
@@ -1038,6 +1047,7 @@ your
 youtube
 zebra
 zeitbasierten
+Zertifizierungsvorgaben
 Zhukovskyi
 Zielerreichungsberechnung
 Zirkelbeziehungen

@@ -55,12 +55,38 @@ Das Filtern von Custom Fields beinhaltet auf Grund der Flexibilität der Daten e
 Daten in Tabellenspalten können vielfach sortiert werden. Eine Sortierung ist in der Regel dann möglich, wenn es sinnvolles Kriterium der Sortierung gibt.
 Sortierbar sind z.B. Datumsangaben oder Texte. Nicht sortierbar sind hingegen Spalten mit den Schlagworten. Da in der Spalte mehrere Schlagworte stehen könnten stellt sich hier nämlich die Frage, welches Schlagwort zur Sortierung herangezogen werden sollte.
 
-#### Exportieren von Daten
+#### Export
 
 Die meisten Daten in Tabellen lassen sich exportieren. Hierzu gehen Sie bitte wie folgt vor:
 
-1. Markieren Sie die Datensätze in der Tabelle, die Sie gerne exportieren möchten. Klicken Sie dazu auf diesen Button oben rechts über der Tabelle: ![](https://caqadmin.blob.core.windows.net/faqs/0-images/mceclip2.png)
-2. Starten Sie den Download. Klicken Sie dazu auf diesen Button oben rechts über der Tabelle: ![](https://caqadmin.blob.core.windows.net/faqs/0-images/mceclip3.png)
+1. Markieren Sie die Datensätze in der Tabelle, die Sie gerne exportieren möchten. Klicken Sie dazu auf den Kebab-Menu Button (⋮) oben rechts in der Tabelle. Die Spalte zur Selektion der Datensätze öffnet sich.
+2. Starten Sie den Export durch einen Klick auf den entsprechenden Button oberhalb der Tabelle
+3. Wählen Sie das gewünschte Datenformat (CSV, JSON, Excel) für Ihren Export.
+4. Warten Sie auf den generierten Export und laden Sie das Ergebnis herunter.
+
+##### Vorteile der unterschiedlichen Exportformate
+
+CSV, Excel und JSON haben jeweils unterschiedliche Stärken; welches Exportformat „besser“ ist, hängt daher vom Einsatzzweck ab.
+​
+
+###### Vorteile von CSV-Exporten
+
+- Hohe Kompatibilität: CSV wird von nahezu allen Datenbanken, BI‑Tools, Programmiersprachen und Tabellenkalkulationen verstanden und ist daher ideal für einfachen Datenaustausch.
+- Einfach und platzsparend: Reines Textformat ohne Formatierungs‑Overhead, dadurch kleine Dateien und gut geeignet für große, flache Datensätze.
+- Leicht zu öffnen und zu prüfen: Kann mit jedem Texteditor oder direkt in Tabellenkalkulationsprogrammen wie Excel geöffnet werden, was eine schnelle Sichtprüfung ermöglicht.
+
+###### Vorteile von Excel-Exporten
+
+- Starke Visualisierungsmöglichkeiten: Diagramme, Formatierungen, Filter, Pivot‑Tabellen – ideal, wenn Daten von Fachanwendern interaktiv analysiert und präsentiert werden sollen.
+- Benutzerfreundlich für Nicht‑Techniker: Viele Anwender kennen Excel bereits; Daten lassen sich ohne Programmierkenntnisse sortieren, filtern, berechnen und kommentieren.
+- Mehrere Tabellenblätter und Formatierung: Ein Export kann mehrere Sheets, formelbasierte Auswertungen und Layouts enthalten, was strukturierte Reports in einer einzigen Datei ermöglicht.​
+
+###### Vorteile von JSON-Exporten
+
+- Geeignet für komplexe/verschachtelte Strukturen: JSON kann hierarchische Daten (z.B. Objekte mit Listen, Unterobjekten) sauber abbilden, was mit CSV nur schwer möglich ist.
+- Maschinenfreundlich und gut parsebar: In modernen Programmiersprachen existieren robuste Bibliotheken; ideal für APIs, Web‑Anwendungen und System‑zu‑System‑Kommunikation.
+- Klar strukturiert und erweiterbar: Schlüssel‑Wert‑Struktur macht Felder explizit; neue Felder können hinzugefügt werden, ohne bestehende Verarbeitung stark zu brechen, was JSON sehr flexibel macht.
+  ​
 
 ### Suchen von Personen
 
