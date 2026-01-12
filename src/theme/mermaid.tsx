@@ -1,11 +1,11 @@
 import mermaid from "mermaid";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 mermaid.initialize({
   startOnLoad: true,
 });
 
-const Mermaid = ({ chart }) => {
+const Mermaid = ({ chart }: { chart: string }) => {
   useEffect(() => {
     mermaid.contentLoaded();
   }, []);

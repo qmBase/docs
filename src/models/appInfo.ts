@@ -1,9 +1,6 @@
 import { PbdModuleString } from "./pbdModuleString";
 
-export class AppInfo {
-  constructor() {
-    this.iconColor = "grey";
-  }
+export interface AppInfo {
   icon?: string | React.ReactNode;
   title: string;
   description: string;

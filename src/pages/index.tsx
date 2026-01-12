@@ -1,13 +1,10 @@
 import Link from "@docusaurus/Link";
-import useBaseUrl from "@docusaurus/useBaseUrl";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import Heading from "@theme/Heading";
 import Layout from "@theme/Layout";
-import clsx from "clsx";
-import React from "react";
 import { FaRss } from "react-icons/fa";
-import LiteYouTubeEmbed from "react-lite-youtube-embed";
-import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
+import FeaturesContainer from "../components/Homepage/featuresContainer";
+import TopBanner from "../components/Homepage/topBanner";
+import VideoContainer from "../components/Homepage/videoContainer";
 import styles from "./styles.module.css";
 
 const features = [
@@ -87,102 +84,6 @@ const features = [
   },
 ];
 
-function VideoContainer() {
-  return (
-    <div className="container text--center margin-bottom--xl">
-      <div className="row">
-        <div className="col">
-          <Heading as="h2">
-            Sie kennen qmBase noch nicht? Hier unsere Erklärung in weniger als
-            1:30!
-          </Heading>
-          <div className="video-container">
-            <LiteYouTubeEmbed
-              id="Ghlm20iF31o"
-              params="autoplay=1&autohide=1&showinfo=0&rel=0"
-              title="So funktioniert qmBase"
-              poster="maxresdefault"
-              webp
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function FeaturesContainer() {
-  const firstRow = features.slice(0, 3);
-  const secondRow = features.slice(3);
-
-  return (
-    <div className="container text--center">
-      <Heading as="h2">Was Sie auf dieser Seite finden</Heading>
-      <div className="row margin-bottom--lg">
-        {firstRow.map((feature, idx) => (
-          <Feature {...feature} key={idx} />
-        ))}
-      </div>
-      <div className="row">
-        {secondRow.map((feature, idx) => (
-          <Feature
-            {...feature}
-            key={idx}
-            className={clsx("col--4", idx === 0 && "col--offset-2")}
-          />
-        ))}
-      </div>
-    </div>
-  );
-}
-
-function Feature({
-  imageUrl,
-  title,
-  description,
-  className,
-}: {
-  title: React.ReactNode;
-  imageUrl: string;
-  description: React.ReactNode;
-  className?: string;
-}) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={clsx("col", className)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <div>{description}</div>
-    </div>
-  );
-}
-
-function TopBanner({ title, tagline }: { title: string; tagline: string }) {
-  return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{title}</h1>
-        <p className="hero__subtitle">{tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className={clsx(
-              "button button--outline button--secondary button--lg",
-              styles.getStarted
-            )}
-            to={useBaseUrl("docs/getting-started")}
-          >
-            Los geht's
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
 function Home() {
   const {
     siteConfig: { title, tagline },
@@ -198,7 +99,7 @@ function Home() {
           <section className={styles.features}>
             <div className="container">
               <VideoContainer />
-              <FeaturesContainer />
+              <FeaturesContainer features={features} />
             </div>
           </section>
         )}
