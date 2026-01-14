@@ -187,3 +187,188 @@ How to create a good home page?
 Known Issues should be documented in the dedicated folder `./docs/knownIssues/` if the source is a ticket use the `{id}.md` as file name. If the source is a internal ticket use the `{id}_intern.md` as file name.
 
 Add the tag `docs:KnownIssue` to the ticket so that we have a reference there. If multiple tickets reference a knownIssue entry put the link to the knownIssue as a comment to the ticket.
+
+
+## File and Folder structure
+
+```
+my-docusaurus-site/
+│
+├── package.json
+├── docusaurus.config.ts
+├── sidebars.ts
+├── tsconfig.json
+├── README.md
+│
+├── docs/                         # 📘 Main documentation (Markdown-first)
+│   ├── index.md                  # /docs landing page
+│   │
+│   ├── intro/                    # Logical grouping
+│   │   ├── index.md
+│   │   └── getting-started.md
+│   │
+│   ├── guides/
+│   │   ├── index.md
+│   │   ├── installation.md
+│   │   └── configuration.md
+│   │
+│   ├── reference/
+│   │   ├── index.md
+│   │   ├── cli.md
+│   │   └── api.md
+│   │
+│   └── _meta/                    # ❗ AI / structural metadata
+│       ├── vision.md
+│       ├── audience.md
+│       ├── non-goals.md
+│       └── glossary.md
+│
+├── blog/                         # 📰 Blog posts
+│   ├── 2026-01-01-welcome.md
+│   └── authors.yml
+│
+├── src/                          # ⚛️ React customization
+│   ├── components/
+│   ├── pages/
+│   ├── css/
+│   │   └── custom.css
+│   └── theme/
+│       └── DocItem/
+│           └── index.tsx
+│
+├── static/                       # 🖼️ Static assets
+│   ├── img/
+│   └── files/
+│
+├── scripts/                      # 🤖 AI / automation scripts
+│   ├── validate-docs.ts
+│   ├── generate-docs.ts
+│   └── lint-frontmatter.ts
+│
+├── .ai/                          # 🧠 AI control & memory
+│   ├── rules.md
+│   ├── memory.md
+│   ├── changelog.md
+│   └── prompts/
+│       ├── doc-writer.md
+│       ├── editor.md
+│       └── reviewer.md
+│
+└── .gitignore
+
+```
+
+### Key Docusaurus concepts (important for structure)
+
+`docs/` = source of truth
+
+- Every folder → sidebar category
+- `index.md` → category landing page
+- Frontmatter controls navigation, ordering, labels
+
+### AI-friendly conventions for docs/
+1️⃣ Keep _meta/ separate
+
+This prevents accidental publishing.
+
+```
+docs/_meta/
+  vision.md        # Why this site exists
+  audience.md      # Personas
+  non-goals.md
+```
+
+2️⃣ One page = one responsibility
+
+Avoid giant Markdown files.
+
+✅ installation.md
+❌ everything.md
+
+3️⃣ Stable paths
+
+Renaming files breaks links and agent memory.
+
+### 5. src/ – when (and when not) to touch it
+
+Agents should:
+
+- ❌ Avoid touching `src/theme/` unless necessary
+- ✅ Add components only when Markdown is insufficient
+
+Typical cases:
+
+- Interactive diagrams
+- Custom callouts
+- Auth-aware content
+
+### Static assets best practice
+
+```
+static/img/docs/
+static/img/blog/
+```
+
+### AI-specific .ai/ folder (optional but powerful)
+
+```
+.ai/
+├── rules.md         # Global constraints
+├── memory.md        # Decisions & context
+├── changelog.md     # What the AI changed
+└── prompts/
+```
+
+Example `rules.md`:
+
+```
+- Do not change published docs without explicit instruction
+- Prefer modifying existing files
+- Ask before creating new categories
+```
+
+
+## How to instruct the agent
+
+System prompt: 
+
+```
+You are an AI documentation agent for a Quality Management SaaS.
+
+Before acting, you must:
+1. Read and follow all files in `.ai/`
+2. Treat `.ai/constraints.md` as absolute
+3. Treat `.ai/rules.md` as behavioral law
+4. Treat `docs/_meta/*` as canonical domain truth
+5. Preserve terminology defined in `_meta/terminology.md`
+
+You may:
+- Edit documentation Markdown files
+- Improve clarity without changing meaning
+
+You must never:
+- Modify `.ai/` files
+- Modify `docs/_meta/`
+- Invent features or compliance claims
+- Change the meaning of existing content
+
+All changes must be logged in `.ai/changelog.md`.
+
+If a request violates any rule, stop and explain why.
+```
+
+Second prompt:
+How tasks should be given to the agent
+
+### ❌ Bad task:
+
+“Improve the docs for qualifications”
+
+### ✅ Good task:
+
+“Clarify how qualification validity resets work in docs/guides/qualifications/validity.md.
+Do not change compliance meaning.
+Preserve terminology.
+Log changes.”
+
+The more constrained, the better.
