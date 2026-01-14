@@ -35,6 +35,9 @@
     "docusaurus.config.ts",
     "_publish_process_articles_chart.mdx",
     "announcements.md",
-    ".cspell.json"
+    ".cspell.json",
+    "playwright.config.ts",
+    "tests/**",
+    "playwright-report/**"
   ]
 }

@@ -26,3 +26,5 @@ yarn-error.log*
 !.yarn/sdks
 !.yarn/versions
 .pnp.*
+/playwright-report
+/test-results
