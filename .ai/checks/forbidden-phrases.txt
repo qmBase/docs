@@ -1,0 +1,5 @@
+ensures compliance
+guarantees ISO
+fully compliant
+audit-proof
+legally required
