@@ -1,0 +1,118 @@
+---
+title: Workflow-Automatisierung
+description: Automatisieren Sie individuell Arbeitsabläufe innerhalb von qmBase
+---
+
+import AutomationFlow from "../charts/_automation-flow-chart.mdx";
+
+Mit Hilfe unseres Features Workflow-Automatisierungen können Sie Arbeitsabläufe automatisieren und reproduzierbar gestalten. Die möglichen Use-Cases sind dabei schier unbegrenzt, so dass dieses Feature eine große Bandbreite an Einsatzzwecken ermöglicht.
+Folgende Use-Cases können z.B. umgesetzt werden:
+
+- Senden Sie eine E-Mail an eine definierte Adresse beim Ausfüllen eines Formulars mit einem bestimmten Wert.
+- Legen Sie den Verantwortlichen für eine Reklamation auf Basis des Typs der Reklamation fest.
+- Ändern Sie den den Status eines Ziels auf Erledigt und füllen Sie dadurch ein Custom Field mit einem vorgegeben Wert aus.
+
+Wenn diese Themen für Sie interessant klingen, dann lesen Sie jetzt weiter und erfahren Sie alle Details zur Funktionsweise der Workflow-Automatisierungen.
+
+:::info
+Diese Funtion befindet sich noch in der Vorschau und ist nicht vollständig umgesetzt.
+:::
+
+## Funktionsweise
+
+Die Funktionsweise der basiert auf den drei wesentlichen Säulen Auslöser, Bedingungen und Aktionen. Diese einzelnen Säulen können vielen denkbaren Kombinationen angeordnet werden, um unterschiedlichste Workflows zu erreichen.
+
+<AutomationFlow />
+
+### Auslöser (Trigger)
+
+Der Auslöser ist eine Aktion, die durch einen Nutzer ausgelöst wird. Das kann z.B. das Ausfüllen eines Formulars sein.
+
+| Auslöser                                            | Beschreibung                                                       |
+| --------------------------------------------------- | ------------------------------------------------------------------ |
+| Formular ausgefüllt                                 | Ein Formular wurde durch einen Nutzer ausgefüllt                   |
+| Aktualisierte Tags für Ziele, Maßnahmen und Artikel | Wenn ein Tag für Ziele, To-dos oder Artikel geändert wird          |
+| Anspruch erstellt                                   | Wenn ein Anspruch erstellt wird, kann die Aktion ausgeführt werden |
+
+### Bedingungen
+
+Die Bedingungen geben Ihnen mehr Kontrolle über Ihre Automatisierungen. Mit Hilfe der Bedingungen können Sie z.B. für den Auslöser "Reklamation wird erstellt" zusätzlich die Bedingung festlegen, dass eine Reklamation vom Typ "Kunde" erstellt werden muss.
+Die Bedingungen sind optional.
+Prüfbare Bedingungen sind alle Eigenschaften, die sich aus dem auslösenden Trigger ergeben.
+
+| Bedingung    | Beschreibung                                | Accessor                                                | Expression |
+| ------------ | ------------------------------------------- | ------------------------------------------------------- | ---------- |
+| Custom Field | Ein Custom Field hat einen bestimmten Wert. | CustomFields.bcf8234a-6b4e-4dc7-a040-5f83b6f48930.Value | eq 'yes'   |
+
+### Aktionen
+
+Automatisierungen bestehen aus Auslösern und Aktionen. Auslöser starten die Automatisierung und enden in dann in Aktionen.
+Aktionen können z.B. das Versenden einer E-Mail sein.
+
+| Aktion                    | Beschreibung                                                                                  |
+| ------------------------- | --------------------------------------------------------------------------------------------- |
+| E-Mail                    | Eine E-Mail wird mit einem bestimmten Template an eine festgelegte E-Mail Adresse verschickt. |
+| Frist ändern              | Ändern Sie die Frist des ausgewählten Objekts                                                 |
+| Verantwortlichen ändern   | Ändern Sie den Verantwortlichen des ausgewählten Objekts                                      |
+| Ausfüllen eines Formulars | Create custom form answer to certain question.                                                |
+
+## Use cases
+
+Konkrete Beispiele zur Lösung einzelner Use Cases
+
+### Formular wird ausgefüllt
+
+Ein bestimmtes Formular wird mit einem bestimmten Wert ausgefüllt in der Folge soll eine E-Mail an eine definierte E-Mail Adresse verschickt werden.
+
+#### Trigger
+
+CustomFormAnswers > Create
+
+#### Bedingung
+
+CustomFields.[IdOfCustomField].Value eq "myValue"
+
+#### Aktion
+
+Email > Send > EmailCreateDTO
+
+## Legacy
+
+:::info
+Legacy description
+:::
+
+Workflows ermöglichen es verschiedene Prozesse innerhalb von qmBase zu automatisieren und genauer zu steuern. Für jede App können Sie individuelle Workflows festlegen.
+
+Beispiele für Workflows:
+
+- bsp1
+- bsp2
+
+## Wie wird ein Workflow ausgewertet?
+
+Wenn innerhalb von qmBase eine Aktion ausgelöst wird (z.B. das Ändern des Status), wird folgende Logik durchlaufen:
+
+1. Es werden alle Workflows geladen, die für die Kombination aus App und Aktion vorhanden sind.
+2. Für jeden Workflow werden **alle** Bedingungen ausgewertet.
+3. Wenn alle Bedingungen erfüllt werden, werden die Aktionen des Workflows ausgeführt.
+
+D.h. also im Umkehrschluss, dass sobald eine Bedingung nicht zutrifft wird der ganze Workflow nicht ausgeführt. Sind für eine Aktion mehrere Workflows vorhanden kann es also sein, dass einzelne Workflows ausgeführt werden. Es müssen jedoch nicht notwendigerweise alle Workflows ausgeführt werden.
+
+## Bestandteile eines Workflows
+
+Ein Workflow besteht aus folgenden Eigenschaften.
+
+| Eigenschaft  | Beschreibung                                                                      |
+| ------------ | --------------------------------------------------------------------------------- |
+| Titel        | Titel des Workflows                                                               |
+| Beschreibung | Beschreibung des Workflows, welchen Zweck soll der Workflow erfüllen.             |
+| Bedingungen  | Liste von Bedingungen, damit der Workflow ausgelöst wird.                         |
+| Aktionen     | List von Aktionen, die ausgelöst werden sollen, wenn der Workflow aktiviert wird. |
+
+## Geplante Änderungen
+
+- Refactoring der Workflows
+  - Trigger festlegen
+  - Variablen, die genutzt werden können
+  - Zusätzliche Aktionen E-Mail Notifications
