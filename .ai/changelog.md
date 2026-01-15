@@ -9,6 +9,12 @@
 - Entfernung unzulässiger Begriffe ("einfach", "naheliegend")
 - Korrektur von Grammatik- und Rechtschreibfehlern
 - Fachliche Bedeutung unverändert
+
+- Optimierung der Lesbarkeit der Landingpage (`/`) und zugehöriger Komponenten
+- Anpassung der Terminologie ("Software" -> "System", "neusten" -> "neuesten")
+- Neutralisierung der Sprache (Entfernung von "Motor", "Verpassen Sie keine Updates")
+- Entfernung von Emojis aus Meta-Informationen
+- Vereinheitlichung von Schaltflächen ("Erste Schritte")
 - Updated "Qualification Validity" documentation
 - Clarified manual reset behavior
 - No functional meaning changed

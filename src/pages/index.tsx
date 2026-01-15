@@ -9,11 +9,11 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: <Link to="/docs/getting-started">Tutorials - Einfach loslegen</Link>,
+    title: <Link to="/docs/getting-started">Tutorials - Erste Schritte</Link>,
     imageUrl: "img/undraw_teaching.svg",
     description: (
       <>
-        Finden Sie hier Tutorials, die Ihnen den Einstieg in die Software
+        Finden Sie hier Tutorials, die Ihnen den Einstieg in das System
         erleichtern. Starten Sie innerhalb von 5 Minuten.
       </>
     ),
@@ -36,8 +36,7 @@ const features = [
     imageUrl: "img/undraw_navigator.svg",
     description: (
       <>
-        Veröffentlichung der neuesten Verbesserungen und Änderungen. Verpassen
-        Sie keine Updates und abonnieren Sie unseren{" "}
+        Bleiben Sie über Aktualisierungen informiert und abonnieren Sie unseren{" "}
         <a href={"/blog/atom.xml"}>
           <FaRss /> Feed
         </a>
@@ -65,7 +64,7 @@ const features = [
     imageUrl: "img/undraw_font.svg",
     description: (
       <>
-        qmBase ist auch der Motor einiger White Label Lösungen. Die
+        qmBase ist auch die Grundlage einiger White Label Lösungen. Die
         Informationen auf dieser Seite sind auch für die White Label Lösungen
         gültig. Zu den Lösungen gehören unter anderem:
         <ul>
@@ -91,7 +90,7 @@ function Home() {
   return (
     <Layout
       title={`Startseite`}
-      description="Willkommen beim qmBase Support. ✔ Hier finden Sie Hilfe, Neuigkeiten und Tutorials rund um die Apps und Funktionen von qmBase. Abonnieren Sie unseren RSS Feed um immer auf dem neusten Stand zu bleiben und nutzen Sie unsere Tutorials bei Fragen zu einzelnen Apps."
+      description="Willkommen beim qmBase Support. Hier finden Sie Unterstützung, aktuelle Informationen und Tutorials rund um die Apps und Funktionen von qmBase. Abonnieren Sie unseren RSS Feed um immer auf dem neuesten Stand zu bleiben und nutzen Sie unsere Tutorials bei Fragen zu einzelnen Apps."
     >
       <TopBanner tagline={tagline} title={title} />
       <main>
