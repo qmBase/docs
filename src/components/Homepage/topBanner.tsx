@@ -20,7 +20,7 @@ export default function TopBanner({ title, tagline }: TopBannerProps) {
               "button button--outline button--secondary button--lg",
               styles.getStarted
             )}
-            to={useBaseUrl("docs/getting-started")}
+            to={useBaseUrl("docs/gettingStarted/getting-started")}
           >
             Los geht's
           </Link>

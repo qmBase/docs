@@ -31,7 +31,7 @@ export default function CommonFunction({ app, entity, entityTitle }: IProps) {
         {filteredData?.sharedFunctions.map((item) => (
           <tr key={item}>
             <td>
-              <Link to={"/docs/general/common-features"}>
+              <Link to={"/docs/gettingStarted/common-features"}>
                 {sharedFunctionsData.find((x) => x.id == item)?.title}
               </Link>
             </td>
