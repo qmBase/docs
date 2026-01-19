@@ -7,7 +7,15 @@ const sidebars: SidebarsConfig = {
       label: "Los geht's",
       link: { type: "generated-index" },
       collapsed: false,
-      items: ["getting-started", "startpage", "general"],
+      items: [
+        "gettingStarted/getting-started",
+        "gettingStarted/startpage",
+        "gettingStarted/general",
+        "gettingStarted/common-features",
+        "gettingStarted/feedback",
+        "gettingStarted/benachrichtigungen",
+        "gettingStarted/workflow-automatisierung",
+      ],
     },
     {
       type: "category",

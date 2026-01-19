@@ -1,0 +1,91 @@
+---
+title: Workflow-Automatisierung
+description: Automatisieren Sie individuell Arbeitsabläufe innerhalb von qmBase
+---
+
+import AutomationFlow from "../charts/_automation-flow-chart.mdx";
+
+Mit Hilfe unseres Features Workflow-Automatisierungen können Sie Arbeitsabläufe automatisieren und reproduzierbar gestalten. Die möglichen Use-Cases sind dabei schier unbegrenzt, so dass dieses Feature eine große Bandbreite an Einsatzzwecken ermöglicht.
+Folgende Use-Cases können z.B. umgesetzt werden:
+
+- Senden Sie eine E-Mail an eine definierte Adresse beim Ausfüllen eines Formulars mit einem bestimmten Wert.
+- Legen Sie den Verantwortlichen für eine Reklamation auf Basis des Typs der Reklamation fest.
+- Ändern Sie den den Status eines Ziels auf Erledigt und füllen Sie dadurch ein Custom Field mit einem vorgegeben Wert aus.
+
+Wenn diese Themen für Sie interessant klingen, dann lesen Sie jetzt weiter und erfahren Sie alle Details zur Funktionsweise der Workflow-Automatisierungen.
+
+:::info
+Diese Funktion befindet sich noch in der Vorschau und ist nicht vollständig umgesetzt.
+:::
+
+## Funktionsweise
+
+Die Funktionsweise basiert auf den drei wesentlichen Säulen Auslöser, Bedingungen und Aktionen. Diese einzelnen Säulen können in vielen denkbaren Kombinationen angeordnet werden, um unterschiedlichste Workflows zu erreichen.
+
+<AutomationFlow />
+
+Neue Automatisierungen können unter **Einstellungen > Allgemeine > Automatisierungen** erstellt werden.
+![Automatisierungen erstellen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/automation_1.png)
+
+### Auslöser (Trigger)
+
+Der Auslöser auch Trigger genannt ist eine Aktion, die durch einen Nutzer ausgelöst wird. Das kann z.B. das Erstellen einer Reklamation sein.
+Folgende Trigger sind derzeit verfügbar:
+
+| App                    | Auslöser                       | Beschreibung                                                      |
+| ---------------------- | ------------------------------ | ----------------------------------------------------------------- |
+| Reklamationsmanagement | Reklamation erstellt           | Eine neue Reklamation wurde erstellt                              |
+| Reklamationsmanagement | Aktualisieren von Schlagworten | Schlagworte wurden zu einer Reklamation hinzugefügt oder entfernt |
+| Zielmanagement         | Aktualisieren von Schlagworten | Schlagworte wurden zu einem Ziel hinzugefügt oder entfernt        |
+
+### Bedingungen
+
+Die Bedingungen geben Ihnen mehr Kontrolle über Ihre Automatisierungen. Mit Hilfe der Bedingungen können Sie z.B. für den Auslöser "Reklamation wird erstellt" zusätzlich die Bedingung festlegen, dass eine Reklamation vom Typ "Kunde" erstellt werden muss.
+Die Bedingungen sind optional.
+Prüfbare Bedingungen sind alle Eigenschaften, die sich aus dem auslösenden Trigger ergeben.
+
+| Bedingung    | Beschreibung                                | Accessor                                                | Expression |
+| ------------ | ------------------------------------------- | ------------------------------------------------------- | ---------- |
+| Custom Field | Ein Custom Field hat einen bestimmten Wert. | CustomFields.bcf8234a-6b4e-4dc7-a040-5f83b6f48930.Value | eq 'yes'   |
+
+### Aktionen
+
+Automatisierungen bestehen aus Auslösern und Aktionen. Auslöser starten die Automatisierung und enden dann in Aktionen.
+Aktionen können z.B. das Versenden einer E-Mail sein. Folgende Aktionen sind derzeit verfügbar:
+
+| Aktion                  | Beschreibung                                                                                  |
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| E-Mail                  | Eine E-Mail wird mit einem bestimmten Template an eine festgelegte E-Mail Adresse verschickt. |
+| Verantwortlichen ändern | Ändern Sie den Verantwortlichen des ausgewählten Objekts                                      |
+
+## Anwendungsfälle
+
+Konkrete Beispiele zur Lösung einzelner Anwendungsfälle finden Sie in den nachfolgenden Abschnitten.
+
+### Information des Vertriebs bei Erfassung einer Kundenreklamation
+
+Wenn eine Kundenreklamation erfasst wird, soll der Vertrieb per E-Mail informiert werden. Das ist z.B. sinnvoll, wenn der Vertrieb über das aktuelle Reklamationsgeschehen informiert werden soll.
+Für diesen Anwendungsfall ist folgende Konfiguration notwendig:
+
+![Automatisierung erstellen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/automation_2.png)
+
+#### Trigger
+
+In diesem Fall wird der Trigger "Reklamation erstellt" verwendet. Dieser wird ausgelöst, wenn eine neue Reklamation erstellt wird.
+![Trigger](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/automation_3.png)
+
+#### Bedingung
+
+Bei den Bedingungen wird geprüft, ob es sich um eine Kundenreklamation handelt. Dies kann dadurch erfüllt werden, dass das Feld claimType dem Wert "Customer" entspricht.
+![Bedingung](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/automation_4.png)
+
+#### Aktion
+
+Wenn es in Ihrem Unternehmen einen festen Verteiler für den Vertrieb z.B. `sales@company.de` gibt, können Sie als Aktion die Aktion `E-Mail versenden` auswählen.
+Als nächstes müssen Sie noch festlegen, welchen Inhalt die E-Mail haben soll. Hierfür legen Sie an dieser Stelle ein E-Mail Template fest.
+![Aktion](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/automation_5.png)
+
+Der Inhalt der E-Mail könnte z.B. so gestaltet werden, dass auch direkt ein Link zur entsprechenden Reklamation enthalten ist.
+Zur einfachen Verwendung können Sie auch auf Templates und Variablen zurückgreifen. Diese können über den Bereich der Bausteine unterhalb des Texteditor verwendet werden.
+![Aktion](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/automation_6.png)
+

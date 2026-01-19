@@ -19,6 +19,11 @@
 - Clarified manual reset behavior
 - No functional meaning changed
 
+- Optimierung der Lesbarkeit von `workflow-automatisierung.mdx`
+- Korrektur von Rechtschreibfehlern ("Funtion" -> "Funktion", "in dann in" -> "dann in")
+- Übersetzung englischer Begriffe ("Use cases" -> "Anwendungsfälle", "Legacy" -> "Veraltete Funktionen")
+- Vereinheitlichung der Terminologie und Tabellenbeschreibungen
+
 ## Rules
 
 - Every AI-driven change must be logged

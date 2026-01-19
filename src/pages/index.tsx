@@ -9,7 +9,7 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: <Link to="/docs/getting-started">Tutorials - Erste Schritte</Link>,
+    title: <Link to="/docs/gettingStarted/getting-started">Tutorials - Erste Schritte</Link>,
     imageUrl: "img/undraw_teaching.svg",
     description: (
       <>
