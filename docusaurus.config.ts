@@ -37,6 +37,10 @@ const whiteLabel: WhiteLabelConfig = {
         label: "Linkedin",
         href: "https://www.linkedin.com/company/qmbase",
       },
+      {
+        label: "Discord",
+        href: "https://discord.gg/ceDJEqVwvy",
+      },
     ],
   },
   thisUrl: "https://help.qmbase.com",
