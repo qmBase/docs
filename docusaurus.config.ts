@@ -30,7 +30,7 @@ const whiteLabel: WhiteLabelConfig = {
         href: "https://www.facebook.com/qmbase",
       },
       {
-        label: "Twitter",
+        label: "X",
         href: "https://twitter.com/qmbase",
       },
       {
@@ -110,15 +110,19 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Lernen",
           items: [
             {
-              label: "Allgemein",
-              to: "docs/general",
+              label: "Erste Schritte",
+              to: "docs/getting-started",
             },
             {
-              label: "FAQ",
-              to: "docs/faqs/smart-views",
+              label: "Registrieren",
+              to: "docs/category/account",
+            },
+            {
+              label: "Changelog",
+              to: "blog",
             },
           ],
         },
@@ -134,17 +138,28 @@ const config: Config = {
               label: "Login",
               href: `${whiteLabel.accountBaseUrl}/account/findworkspace`,
             },
+            {
+              label: "Blog",
+              href: `https://${whiteLabel.domain}/blog`,
+            },
           ],
         },
         whiteLabel.footerCommunity,
+        {
+          title: "Legal",
+          items: [
+            {
+              label: "Impressum",
+              href: whiteLabel.imprintUrl,
+            },
+            {
+              label: "Datenschutz",
+              href: whiteLabel.dataPrivacyUrl,
+            },
+          ],
+        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ${
-        whiteLabel.vendorName
-      } Built with Docusaurus.<br/><a href="${
-        whiteLabel.imprintUrl
-      }">Impressum</a> | <a href="${
-        whiteLabel.dataPrivacyUrl
-      }">Datenschutz</a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} ${whiteLabel.vendorName} Built with Docusaurus.`,
     },
     algolia: {
       // This is a read-only, search-only key served directly by the front-end, managed by Algolia via their
