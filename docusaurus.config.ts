@@ -58,7 +58,6 @@ const config: Config = {
   organizationName: "qmBase", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
   future: {
-    experimental_faster: true,
     v4: true,
   },
   i18n: {
@@ -114,7 +113,7 @@ const config: Config = {
           items: [
             {
               label: "Erste Schritte",
-              to: "docs/getting-started",
+              to: "docs/gettingStarted/getting-started",
             },
             {
               label: "Registrieren",
