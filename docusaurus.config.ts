@@ -110,7 +110,7 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Lernen",
+          title: "Learn",
           items: [
             {
               label: "Erste Schritte",
