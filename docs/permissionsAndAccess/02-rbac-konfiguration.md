@@ -1,6 +1,8 @@
 ---
-title: Konfiguration
+title: RBAC - Rollenbasierter Zugriff
 ---
+
+
 Kontrollieren Sie den Zugriff auf Apps, Objekte und Funktionen in qmBase.
 In der Regel reichen die vordefinierten Rollen aus. Sollten Sie aber spezielle Anforderungen haben, können Sie Rollen erstellen.
 
@@ -41,3 +43,21 @@ Festlegen Sie Standard Rollen, die für neue Benutzer automatisch zugewiesen wer
 1. Gehen Sie auf Admin > Berechtigungen > Nutzer Berechtigungen
 2. Sehen Sie die vorhandenen Rollen an und wählen die gewünschte Rolle aus
 3. Legen Sie die gewünschte Rolle als Standard Rolle fest. Ein Checkbox befindet sich oberhalb der Tabelle.
+
+## Verhalten von Rollen und Berechtigungen
+
+Einzelne Rollen sind immer mit einem Set an Berechtigungen verknüpft. Die Berechtigungen für die Systemrollen sind unveränderbar. Wenn Sie individuellen Zugriff für einzelne Nutzer festlegen möchten, können Sie die Berechtigungen für die Custom Rollen anpassen.
+
+### Aufbau der Berechtigungen
+
+Generell gilt, dass die Berechtigungen immer nach folgendem Muster aufgebaut sind:
+
+`{Entity}.{Operation}.{Constraint}`
+
+- Entity: Die Entität, auf die die Berechtigung zutrifft z.B. Goal, Claim
+- Operation: Die Operation, die auf der Entität ausgeführt wird z.B. Read, Write
+- Constraint: Die Einschränkung, die auf die Operation zutrifft z.B. OwnedBy
+
+## Lesende Nutzer
+
+Sie können einstellen, dass Nutzer nur Leserechte haben. Diese Einstellung ist global und bezieht sich somit auf die gesamte Software und alle Module. Nutzer, die nur Leserechte haben können keine Daten editieren. Dies beinhaltet z.B. auch, dass diese Nutzer keine Lesebestätigung für Dokumente ausführen können.

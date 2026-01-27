@@ -7,11 +7,9 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "cSpell.words": [
-    "CJTF"
-  ],
+  "cSpell.words": ["CJTF"],
   "[plaintext]": {
-    "editor.defaultFormatter": "prettier.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
