@@ -11,14 +11,14 @@ Wir verfolgen dabei zwei unterschiedliche Konzepte:
 1. RBAC (Role Based Access Control): Rollen & Berechtigungen
 2. ABAC (Attribute Based Access Control): Zugriff in Abhängigkeit von Attributen der Objekte.
 
-Die Unterschiede der beiden Konzepte werden im folgenden detailliert erläutert.
+Die Unterschiede der beiden Konzepte werden im Folgenden detailliert erläutert.
 
 ## RBAC (Role Based Access Control): Rollen & Berechtigungen
 
 Bei der rollenbasierten Zugriffskontrolle werden Berechtigungen an **Rollen** (z. B. Administrator,
 Modul-Administrator oder Standardnutzer) geknüpft. Diese Rollen werden wiederum den einzelnen
 Benutzern zugewiesen. Dies ermöglicht eine effiziente Verwaltung von Berechtigungen für große
-Nutzergruppen auf App-Ebene.
+Benutzergruppen auf App-Ebene.
 
 ## ABAC (Attribute Based Access Control): Zugriff in Abhängigkeit von Attributen der Objekte
 
@@ -41,12 +41,16 @@ Dies erlaubt es, Ausnahmen von den allgemeinen Rollen festzulegen und sensible D
 
 ## Übersicht
 
-Sie können jedem Nutzer individuelle Zugriffsrechte auf die Plattform geben. Somit können Sie sicherstellen, dass nicht jeder alles sehen kann. Die Vergabe der Rollen und Berechtigungen erfolgt über:
+Sie können jedem Benutzer individuelle Zugriffsrechte auf das System geben.
+Somit stellen Sie sicher, dass der Zugriff auf sensible Daten und Funktionen kontrolliert erfolgt.
+Die Vergabe der Rollen und Berechtigungen erfolgt über:
 
 [Angemeldet -> Admin -> Berechtigungen](https://app.qmbase.com/Account/findworkspace?returnUrl=/_admin/permissions)
 
-Zugriff und Berechtigungen können in unendlichen vielen Möglichkeiten kombiniert werden. Damit Sie das gewünschte Ergebnis erhalten, ist es notwendig, den generellen Ablauf, das _Big Picture_, zu verstehen.
+Zugriff und Berechtigungen können in vielfältiger Weise kombiniert werden. Damit Sie das gewünschte Ergebnis erhalten, ist es notwendig, den generellen Ablauf zu verstehen.
 
 <AccessFlow />
 
-Um die Anforderungen große Flexibilität auf der einen Seite und übersichtliche Konfiguration auf der anderen Seite zu erfüllen, funktionieren unsere Zugriffsrechte wie nacheinander geschaltete Filter. Diese Filter sind im obigen Bild dargestellt.
+Um die Anforderungen an Flexibilität und eine übersichtliche Konfiguration zu erfüllen,
+funktionieren die Zugriffsrechte wie nacheinander geschaltete Filter.
+Diese Filter sind in der obigen Abbildung dargestellt.

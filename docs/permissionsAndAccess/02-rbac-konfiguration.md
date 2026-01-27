@@ -24,8 +24,8 @@ Löschen Sie Rollen, die nicht mehr benötigt werden.
 3. Klicken Sie auf "Rollen löschen"
 
 :::info
-Es können nur Rollen gelöscht werden, die nicht Systemrollen sind.
-Wenn eine Rolle gelöscht wird, wird diese allen Nutzern entzogen. Falls ein Nutzer dann keine Rollen mehr hat, hat dieser keinen Zugriff mehr auf die Software.
+Es können nur Rollen gelöscht werden, die keine Systemrollen sind.
+Wenn eine Rolle gelöscht wird, wird diese allen Benutzern entzogen. Falls ein Benutzer dann keine Rollen mehr hat, hat dieser keinen Zugriff mehr auf das System.
 :::
 
 ## Rollen einzelnen Nutzern zuweisen
@@ -38,15 +38,17 @@ Weisen Sie Rollen den Benutzern zu.
 
 ## Standard Rollen festlegen
 
-Festlegen Sie Standard Rollen, die für neue Benutzer automatisch zugewiesen werden.
+Legen Sie Standardrollen fest, die neuen Benutzern automatisch zugewiesen werden.
 
 1. Gehen Sie auf Admin > Berechtigungen > Nutzer Berechtigungen
 2. Sehen Sie die vorhandenen Rollen an und wählen die gewünschte Rolle aus
-3. Legen Sie die gewünschte Rolle als Standard Rolle fest. Ein Checkbox befindet sich oberhalb der Tabelle.
+3. Legen Sie die gewünschte Rolle als Standardrolle fest. Eine Checkbox befindet sich oberhalb der Tabelle.
 
 ## Verhalten von Rollen und Berechtigungen
 
-Einzelne Rollen sind immer mit einem Set an Berechtigungen verknüpft. Die Berechtigungen für die Systemrollen sind unveränderbar. Wenn Sie individuellen Zugriff für einzelne Nutzer festlegen möchten, können Sie die Berechtigungen für die Custom Rollen anpassen.
+Einzelne Rollen sind immer mit einem Set an Berechtigungen verknüpft.
+Die Berechtigungen für die Systemrollen sind unveränderbar.
+Wenn Sie individuellen Zugriff für einzelne Benutzer festlegen möchten, können Sie die Berechtigungen für benutzerdefinierte Rollen (Custom Roles) anpassen.
 
 ### Aufbau der Berechtigungen
 
@@ -54,10 +56,13 @@ Generell gilt, dass die Berechtigungen immer nach folgendem Muster aufgebaut sin
 
 `{Entity}.{Operation}.{Constraint}`
 
-- Entity: Die Entität, auf die die Berechtigung zutrifft z.B. Goal, Claim
-- Operation: Die Operation, die auf der Entität ausgeführt wird z.B. Read, Write
-- Constraint: Die Einschränkung, die auf die Operation zutrifft z.B. OwnedBy
+- Entity: Die Entität, auf die die Berechtigung zutrifft (z. B. Goal, Claim)
+- Operation: Die Operation, die auf der Entität ausgeführt wird (z. B. Read, Write)
+- Constraint: Die Einschränkung, die auf die Operation zutrifft (z. B. OwnedBy)
 
-## Lesende Nutzer
+## Lesende Benutzer
 
-Sie können einstellen, dass Nutzer nur Leserechte haben. Diese Einstellung ist global und bezieht sich somit auf die gesamte Software und alle Module. Nutzer, die nur Leserechte haben können keine Daten editieren. Dies beinhaltet z.B. auch, dass diese Nutzer keine Lesebestätigung für Dokumente ausführen können.
+Sie können einstellen, dass Benutzer nur Leserechte haben.
+Diese Einstellung ist global und bezieht sich somit auf das gesamte System und alle Module.
+Benutzer, die nur Leserechte haben, können keine Daten editieren.
+Dies beinhaltet z. B. auch, dass diese Benutzer keine Lesebestätigungen für Dokumente ausführen können.

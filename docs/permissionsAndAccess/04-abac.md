@@ -6,11 +6,11 @@ import { VscKey } from "react-icons/vsc";
 
 ## Attributbasierter Zugriff
 
-Wenn diese Zugriffssteuerungen auf App Ebene nicht ausreichen, haben Sie zusätzlich die Möglichkeit eine Zugriffssteuerung auf der Ebene der einzelnen Einträge vorzunehmen.
+Wenn diese Zugriffssteuerungen auf App-Ebene nicht ausreichen, haben Sie zusätzlich die Möglichkeit, eine Zugriffssteuerung auf der Ebene der einzelnen Einträge vorzunehmen.
 
-:::info
-Hierbei handelt es sich um ein neues Feature. Wir haben haben noch viele Erweiterungen zu dieser Funktion geplant. Diese finden Sie am Ende dieser Seite. Derzeit betreffen die Einschränkungen lediglich die **Sichtbarkeit** von Einträgen.
-:::
+Hierbei handelt es sich um ein neues Feature. Wir haben noch viele Erweiterungen zu dieser Funktion geplant.
+Diese finden Sie am Ende dieser Seite.
+Derzeit betreffen die Einschränkungen lediglich die **Sichtbarkeit** von Einträgen.
 
 Diese Funktion ist in folgenden Apps von qmBase verfügbar:
 
@@ -44,15 +44,16 @@ Um den Zugriff festzulegen, gehen Sie wie folgt vor:
 2. Wählen Sie den Tab **<VscKey/> Zugriff** aus.
 3. Markieren Sie den Eintrag als Privat.
 
-Ab diesem Zeitpunkt ist der Eintrag nur noch für die Personen sichtbar, die unter **Zugriff verwalten** bzw. in der Karte **Standardzugriff** aufgeführt sind.
+Ab diesem Zeitpunkt ist der Eintrag nur noch für die Personen sichtbar,
+die unter **Zugriff verwalten** bzw. in der Karte **Standardzugriff** aufgeführt sind.
 
-### Zugriff verwalten
+In diesem Bereich haben Sie die Möglichkeit, einzelnen Benutzern oder Gruppen Zugriff
+zu einem privaten Eintrag zu erteilen.
+Mit dem Zugriff an dieser Stelle überschreiben Sie die Einstellungen, die über Rollen festgelegt wurden.
 
-In diesem Bereich haben Sie die Möglichkeit einzelnen Nutzern oder Gruppen Zugriff zu einem privaten Eintrag zu erteilen. Mit dem Zugriff an dieser Stelle überschreiben Sie die Einstellungen, die über Rollen festgelegt wurden.
-
-Bitte beachten Sie hierbei, dass es sich nur um den Zugriff auf einen einzelnen Eintrag (z.B. Audit) handelt.
-Geben Sie einen Eintrag (z.B. Audit) aus einer App (z.B. Auditmanagement) für einen Nutzer oder eine Gruppe frei, der sonst keinen Zugriff auf dieses App hat, bleibt der Zugriff auf den einzelnen Eintrag beschränkt.
-Die Anzahl der möglichen Freigaben ist auf jeweils 10 Nutzer, Gruppen und Rollen beschränkt.
+Bitte beachten Sie hierbei, dass es sich nur um den Zugriff auf einen einzelnen Eintrag (z. B. Audit) handelt.
+Geben Sie einen Eintrag (z. B. Audit) aus einer App (z. B. Auditmanagement) für einen Benutzer oder eine Gruppe frei, der oder die sonst keinen Zugriff auf diese App hat, bleibt der Zugriff auf den einzelnen Eintrag beschränkt.
+Die Anzahl der möglichen Freigaben ist auf jeweils 10 Benutzer, Gruppen und Rollen beschränkt.
 
 <!--
 

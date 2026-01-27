@@ -6,7 +6,7 @@ In den unterschiedlichen Apps gibt es teils unterschiedliche Konfigurationsmögl
 
 ### Standard
 
-Mit dem Standard Zugriff kann der Nutzer folgende Aktionen ausführen:
+Mit dem Standard-Zugriff kann der Benutzer folgende Aktionen ausführen:
 
 - Auf das Modul zugreifen
 - Neue Einträge erstellen
@@ -16,7 +16,7 @@ Mit dem Standard Zugriff kann der Nutzer folgende Aktionen ausführen:
 #### Beispiel: Rolle Zielmanagement Standard
 
 Die Rolle Zielmanagement Standard ermöglicht es die App Zielmanagement zu öffnen und Ziele zu erstellen.
-Zusätzliche können Ziele bearbeitet werden, für die der aktuelle Nutzer verantwortlich oder oder der Ersteller ist.
+Zusätzlich können Ziele bearbeitet werden, für die der aktuelle Benutzer verantwortlich ist oder der Ersteller ist.
 
 | Erteilte Berechtigung    | Erforderliche Berechtigung | Ergebnis          |
 | ------------------------ | -------------------------- | ----------------- |
@@ -28,7 +28,7 @@ Zusätzliche können Ziele bearbeitet werden, für die der aktuelle Nutzer veran
 
 ### Einstellungen
 
-Durch den Zugriff auf die Einstellungen können Nutzer alle zu dem Modul gehörigen Einstellungen verändern.
+Durch den Zugriff auf die Einstellungen können Benutzer alle zum Modul gehörigen Einstellungen verändern.
 
 ### Freigeber
 
@@ -36,7 +36,7 @@ Freigeber sind berechtigt Inhalte freizugeben, z.B. Dokumente oder Formulare. Di
 
 ### Modul Administrator
 
-Der Modul Admin ist das Äquivalent zum normalen Admin auf Modulebene. Er kann alles erstellen, ändern und löschen, was er möchte.
+Der Modul-Administrator ist das Äquivalent zum Administrator auf Modulebene. Er kann alle Einträge erstellen, ändern und löschen.
 
 ### Administrator
 
