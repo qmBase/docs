@@ -8,5 +8,6 @@ The following terms are locked and must not be redefined:
 - Training
 - Evidence
 - Validity Period
+- Admin
 
 Any change requires explicit approval.

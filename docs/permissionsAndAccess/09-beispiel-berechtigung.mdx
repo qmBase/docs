@@ -1,0 +1,47 @@
+---
+title: Beispiel Berechtigung
+---
+
+Zum besseren Verständnis wenden wir dieses Konzept der Filter beispielhaft auf die App **Ziele & Kennzahlen** an.
+Angenommen, wir haben vier Benutzer mit unterschiedlichen Zielen, die in qmBase erfasst werden sollen:
+
+| Name             | Position                                | Ziel                                    | Notwendige Berechtigungen im Adminbereich | Zugriffseinstellungen des Ziels              |
+| ---------------- | --------------------------------------- | --------------------------------------- | ----------------------------------------- | -------------------------------------------- |
+| Bodo Boss        | Chef des Unternehmens und Administrator | #1 Mitarbeiter durch Roboter ersetzen   | Admin                                     | Als privat markieren                         |
+| Max Mustermann   | Mitarbeiter Produktion                  | #2 Reduzierung der Fehlteilquote um 10% | Standardzugriff Ziele & Kennzahlen        | -                                            |
+| Erika Musterfrau | Vertriebsleiterin                       | #3 Akquisition von 10 Neukunden         | Standardzugriff Ziele & Kennzahlen        | Zugriff auf Fortschrittsbereich für John Doe |
+| John Doe         | Mitarbeiter im Vertrieb                 | Soll bei Ziel #3 zuarbeiten             | Standardzugriff Ziele & Kennzahlen        |                                              |
+
+In diesem Beispiel wird sofort offensichtlich, dass jedes der Ziele andere Zugriffsmöglichkeiten erfordert.
+
+#### 2. Zugriff Auf App
+
+Damit alle Personen Zugriff haben, muss zunächst im Admin Bereich festgelegt werden, dass:
+
+- Bodo Boss ist Administrator und hat Zugriff auf alle Funktionen.
+- Alle übrigen Personen erhalten für die App Ziele & Kennzahlen den Standardzugriff.
+  Dies bedeutet, dass sie auf die App zugreifen, Inhalte selbst erstellen und Einträge, für die sie verantwortlich sind, bearbeiten können.
+
+#### 3. Zugriff auf Elemente
+
+Danach müssen Einstellungen bei den einzelnen Zielen selbst vorgenommen werden.
+Bodo Boss markiert sein Ziel als privat.
+Für das Ziel von Max Mustermann müssen keine weiteren Einstellungen vorgenommen werden.
+Da er für das Ziel verantwortlich ist, kann er es bearbeiten.
+Zusätzlich ist es gewünscht, dass alle Benutzer dieses Ziel und den Fortschritt der Erfüllung sehen können.
+
+#### 4. Zugriff auf Bereiche
+
+Das dritte Ziel zur Akquisition ist ein Sonderthema. Erika Musterfrau hat als Vertriebsleiterin viele Aufgaben.
+Sie ist zwar verantwortlich für das Ziel, hat die Umsetzung jedoch an ihren Kollegen John Doe delegiert.
+Dafür hat sie dem Kollegen John Doe Zugriff auf den Bereich **Fortschritt bearbeiten** gegeben.
+Damit kann der Kollege die operative Umsetzung dokumentieren, aber nicht die grundlegenden Inhalte des Ziels bearbeiten.
+
+#### 5. Zugriff auf Custom Fields
+
+Zur Erklärung des Zugriffs auf einzelne **Custom Fields** gibt es eine weitere Besonderheit.
+In der App wurde das Custom Field _Vorhandenes Budget_ festgelegt.
+Das Budget soll ausschließlich durch den Administrator festgelegt werden.
+Dazu legt Bodo Boss für das Custom Field fest, dass es nur durch Personen in der Rolle Administrator bearbeitet werden kann.
+Da er sich selbst nicht für unersetzlich hält, wird hier der Zugriff nicht auf Ebene der einzelnen Personen, sondern über eine Rolle festgelegt.
+Durch diese Einstellung wird sichergestellt, dass dieses Feld nur durch autorisierte Personen bearbeitet werden kann.

@@ -30,12 +30,16 @@ const whiteLabel: WhiteLabelConfig = {
         href: "https://www.facebook.com/qmbase",
       },
       {
-        label: "Twitter",
+        label: "X",
         href: "https://twitter.com/qmbase",
       },
       {
         label: "Linkedin",
         href: "https://www.linkedin.com/company/qmbase",
+      },
+      {
+        label: "Discord",
+        href: "https://discord.gg/ceDJEqVwvy",
       },
     ],
   },
@@ -54,7 +58,6 @@ const config: Config = {
   organizationName: "qmBase", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
   future: {
-    experimental_faster: true,
     v4: true,
   },
   i18n: {
@@ -106,15 +109,19 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Learn",
           items: [
             {
-              label: "Allgemein",
-              to: "docs/general",
+              label: "Erste Schritte",
+              to: "docs/gettingStarted/getting-started",
             },
             {
-              label: "FAQ",
-              to: "docs/faqs/smart-views",
+              label: "Registrieren",
+              to: "docs/category/account",
+            },
+            {
+              label: "Changelog",
+              to: "blog",
             },
           ],
         },
@@ -130,17 +137,28 @@ const config: Config = {
               label: "Login",
               href: `${whiteLabel.accountBaseUrl}/account/findworkspace`,
             },
+            {
+              label: "Blog",
+              href: `https://${whiteLabel.domain}/blog`,
+            },
           ],
         },
         whiteLabel.footerCommunity,
+        {
+          title: "Legal",
+          items: [
+            {
+              label: "Impressum",
+              href: whiteLabel.imprintUrl,
+            },
+            {
+              label: "Datenschutz",
+              href: whiteLabel.dataPrivacyUrl,
+            },
+          ],
+        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ${
-        whiteLabel.vendorName
-      } Built with Docusaurus.<br/><a href="${
-        whiteLabel.imprintUrl
-      }">Impressum</a> | <a href="${
-        whiteLabel.dataPrivacyUrl
-      }">Datenschutz</a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} ${whiteLabel.vendorName} Built with Docusaurus.`,
     },
     algolia: {
       // This is a read-only, search-only key served directly by the front-end, managed by Algolia via their
