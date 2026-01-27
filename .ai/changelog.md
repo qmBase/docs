@@ -12,6 +12,7 @@
 - Standardisierung von Links auf die neue Einleitungsseite (`/docs/permissionsAndAccess/einleitung`)
 - Behebung eines fehlerhaften Anchors in der Registrierungsdokumentation
 - Verifizierung einer fehlerfreien Build-Ausführung (`npm run build`)
+- Erstellung eines Vorschaubildes für die Release Notes Version 1.1.217 (`v1_1_217.png`)
 - Keine Änderung der fachlichen Inhalte oder Compliance-Aussagen
 
 ## 2026-01-14
