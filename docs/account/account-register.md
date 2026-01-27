@@ -57,7 +57,7 @@ Häufig gestellte Fragen im Zusammenhang mit der Registrierung beantworten wir h
 ### Fehlermeldung "Domain invalid"
 
 Dies bedeutet, dass von Ihrem Administrator festgelegt wurde, dass Registrierungen nur mit E-Mail Adressen möglich sind, die bestimmten Mustern entsprechen.
-Weitere Informationen finden Sie [hier](/docs/apps/admin#erlaubte-domains).
+Weitere Informationen finden Sie [hier](/docs/apps/admin/berechtigungen#erlaubte-domains).
 
 ### Konto lässt sich nicht bestätigen
 

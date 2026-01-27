@@ -1,5 +1,19 @@
 # AI Changelog
 
+## 2026-01-27
+
+- Überprüfung und Optimierung der Dokumentation im Ordner `permissionsAndAccess`
+- Vereinheitlichung der Terminologie (Nutzer -> Benutzer, Software -> System)
+- Verbesserung der Lesbarkeit und Korrektur von Grammatik- und Schreibfehlern
+- Behebung von MD013 (Line Length) Warnungen in mehreren Dateien
+- Neutralisierung der Sprache (Entfernung subjektiver Begründungen)
+- Sicherstellung der Konsistenz zwischen RBAC und ABAC Erklärungen
+- Behebung von Build-Fehlern durch Korrektur veralteter Dokumentationslinks
+- Standardisierung von Links auf die neue Einleitungsseite (`/docs/permissionsAndAccess/einleitung`)
+- Behebung eines fehlerhaften Anchors in der Registrierungsdokumentation
+- Verifizierung einer fehlerfreien Build-Ausführung (`npm run build`)
+- Keine Änderung der fachlichen Inhalte oder Compliance-Aussagen
+
 ## 2026-01-14
 
 - Korrektur von Rechtschreibprüfung-Fehlern (Spelling Lint)

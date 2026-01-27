@@ -1,3 +1,4 @@
+ABAC
 about
 About
 above
@@ -58,6 +59,8 @@ articles
 Artificial
 asterisks
 attempt
+attributbasierte
+Attributbasierter
 Audit├╝bersicht
 Auditanforderung
 Auditanforderungen
@@ -174,8 +177,8 @@ compliant
 complicated
 computers
 Conferencing
-Confidentiality
 confidentiality
+Confidentiality
 Confirmed
 congue
 consectetur
@@ -187,8 +190,8 @@ Controlling
 convallis
 convenient
 copies
-Corporate
 corporate
+Corporate
 correct
 Correct
 costs
@@ -289,8 +292,8 @@ elit
 Ellipsis
 Emojis
 Emotionalisierung
-Emphasis
 emphasis
+Emphasis
 Employee
 employees
 emulate
@@ -358,8 +361,8 @@ firma
 flavored
 flowchart
 FMEA
-Follow
 follow
+Follow
 font
 Formatierungs
 Formatted
@@ -476,8 +479,8 @@ Instandhaltungsmanagement
 Instandhaltungsmanagements
 instructions
 Integrationen
-Integrations
 integrations
+Integrations
 Intelligence
 intended
 interdum
@@ -586,8 +589,8 @@ meets
 mentioned
 MERGEFIELD
 merklichste
-Mermaid
 mermaid
+Mermaid
 mhassan
 might
 migrations
@@ -632,12 +635,12 @@ odio
 Officer
 Older
 OLED
-Ongoing
 ongoing
+Ongoing
 OPENJSON
 opportunities
-Opportunity
 opportunity
+Opportunity
 Ordered
 Organigrammdarstellung
 organisation
@@ -661,6 +664,7 @@ Passwordeingabe
 passwords
 Passwords
 Passwortanforderugen
+PBAC
 pellentesque
 Pencil
 people
@@ -688,8 +692,8 @@ pluses
 popular
 porta
 porttitor
-Possible
 possible
+Possible
 Posts
 posuere
 Powered
@@ -698,8 +702,8 @@ ppaehler
 Pr├╝f
 practice
 Practice
-Practices
 practices
+Practices
 predictable
 prem
 Premise
@@ -708,8 +712,8 @@ Prerequisites
 prettily
 Pretty
 print
-PRIO
 Prio
+PRIO
 procedures
 production
 Production
@@ -745,8 +749,8 @@ really
 reasons
 recent
 recipient
-Recurring
 recurring
+Recurring
 Redesign
 Redundancy
 redundantly
@@ -762,6 +766,7 @@ Reklamations├╝bersicht
 Reklamationsbearbeitung
 Reklamationsdaten
 Reklamationsformular
+Reklamationsgeschehen
 Reklamationsmanagement
 Reklamationsmanagements
 Reklamationsmanagemnet
@@ -785,8 +790,8 @@ relsܒ
 rely
 Reminder
 renders
-Reporting
 reporting
+Reporting
 reportings
 Reportings
 requirements
@@ -812,6 +817,8 @@ Risikoprioritätszahl
 Risks
 risus
 roadmap
+rollenbasierten
+Rollenbasierter
 Saad
 sagittis
 sake
@@ -880,8 +887,8 @@ Supplier
 supportete
 supportus
 sure
-Surveillance
 surveillance
+Surveillance
 suscipit
 Synchronit├ñt
 Synchronität
@@ -1013,15 +1020,15 @@ vorausgefüllt
 Vorgabedokumente
 vorgefiltert
 Vorwanzeit
-Vulnerability
 vulnerability
+Vulnerability
 vulputate
 want
 We're
 Webinar
 webinars
-Weekly
 weekly
+Weekly
 well
 What’s
 WhatÔÇÖs
@@ -1061,4 +1068,3 @@ Zjsu
 zur├╝gesetzt
 zusammenklicken
 zwingendermaßen
-Reklamationsgeschehen
