@@ -114,7 +114,7 @@ Die Auswertungen der Audits, sowie anderer Apps, finden Sie in der App Dashboard
 
 ## Gemeinsame Funktionalitäten
 
-- [Rollen & Berechtigungen](/docs/faqs/rollen-berechtigungen-und-zugriff)
+- [Rollen & Berechtigungen](/docs/permissionsAndAccess/einleitung)
 
 <!-- Custom component -->
 
