@@ -39,7 +39,7 @@ const whiteLabel: WhiteLabelConfig = {
       },
       {
         label: "Discord",
-        href: "https://discord.gg/ceDJEqVwvy",
+        href: "https://discord.gg/DjKxbd6G",
       },
     ],
   },
