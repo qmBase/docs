@@ -1,5 +1,14 @@
 # AI Changelog
 
+## 2026-01-28
+
+- Optimierung der Lesbarkeit von `absence-planner.md`
+- Vereinheitlichung der Terminologie (Mitarbeiter/Nutzer -> Benutzer, Admin -> Administrator)
+- Korrektur von Grammatik- und Schreibfehlern ("Antrage" -> "Anträge", "für einen Dritte" -> "für einen Dritten", "Versand" -> "versandt")
+- Neutralisierung der Sprache und Entfernung von Marketing-Phrasen
+- Behebung von MD013 (Line Length) Warnungen
+- Fachliche Bedeutung und Compliance-Aussagen unverändert
+
 ## 2026-01-27
 
 - Überprüfung und Optimierung der Dokumentation im Ordner `permissionsAndAccess`
