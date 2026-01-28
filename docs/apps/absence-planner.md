@@ -8,86 +8,75 @@ title: Abwesenheitsplaner
 :::info Aktuelle Erweiterungen und Verbesserungen dieser App finden Sie [hier](/blog/tags/abwesenheitsplaner)
 :::
 
-Urlaubsverwaltung leicht gemacht: Diese App macht bei der Urlaubsplanung und Verwaltung Schluss mit aufwändiger Zettelwirtschaft und fehleranfälligen Excel-Listen.
-Ihre Mitarbeiter stellen Urlaubsanträge online und haben immer Zugriff auf ihr aktuelles Urlaubskonto.
-Automatisierte Freigabeprozesse und praktische Kalenderübersichten minimieren den Aufwand für Ihre Personalabteilung und schaffen mehr Transparenz für Ihre Mitarbeiter.
-
-> [Zur App gehen](https://app.qmbase.com/Account/findworkspace?returnUrl=/absenceplanner)
+Diese App ermöglicht die digitale Planung und Verwaltung von Abwesenheiten. Benutzer können Urlaubsanträge systemgestützt einreichen und den Status ihres Urlaubskontos einsehen.
+Automatisierte Freigabeprozesse und Kalenderübersichten unterstützen die Personalabteilung und erhöhen die Transparenz für alle Beteiligten.
 
 ## Workflow
 
 ### 1. Antrag erstellen
 
-Nachdem Sie die grundsätzlichen Einstellungen für den Abwesenheitsplaner vorgenommen haben, können Sie anfangen Abwesenheiten zu erfassen.
-Hierzu klicken Sie im Abwesenheitsplaner auf den Button “Neu”, um einen neuen Antrag zu erstellen.
-Beim erstellen des Antrags, werden Sie aufgefordert sich für eine Abwesenheitsregelung zu entscheiden (z.B. Urlaub, Krankheit oder ähnliches).
+Nach der Konfiguration der Grundeinstellungen können Abwesenheiten erfasst werden. Über die Schaltfläche „Neu“ wird ein neuer Antrag erstellt.
+Dabei wird die entsprechende Abwesenheitsregelung (z. B. Urlaub oder Krankheit) ausgewählt.
 
-Während Sie Ihren Eintrag erstellen sehen Sie gleichzeitig eine Karte, in der überprüft wird, ob Ihr Antrag so in der Form Aussicht auf Erfolg hat.
-D.h. sind beispielsweise genug verfügbare Tage in Ihrem Konto für die gewählte Regelung vorhanden.
+Während der Erstellung wird systemseitig geprüft, ob der Antrag Aussicht auf Erfolg hat.
+Das System prüft dabei beispielsweise, ob das betreffende Konto über ausreichend verfügbare Tage für die gewählte Regelung verfügt.
 
-> **Wichtig:** Diese Überprüfung gibt lediglich Hinweise und Vorschläge und verhindert nicht das Erstellen von nicht sinnvollen Anträgen.
+> **Wichtig:** Diese Prüfung dient als Hinweis und verhindert nicht das Erstellen von Anträgen, die fachlich nicht sinnvoll sind.
 
-### 2. Antrage abschicken
+### 2. Antrag abschicken
 
-Beim Abschicken des Antrags, geschieht im Hintergrund folgendes.
+Beim Abschicken des Antrags führt das System folgende Schritte aus:
 
-- Wenn in Ihrem Mitarbeiterprofil Vertreter eingetragen wurden, werden diese automatisch als Vertreter während Ihrer Abwesenheit übernommen.
-- Freigeber, die für die gewählte Abwesenheit festgelegt sind, werden automatisch als Freigeber übernommen.
-- Vertreter und Freigeber werden benachrichtigt und über ihre jeweiligen Aufgaben informiert.
+- Falls im Benutzerprofil Vertreter hinterlegt sind, werden diese automatisch für den Zeitraum der Abwesenheit übernommen.
+- Hinterlegte Freigeber für die gewählte Abwesenheitsart werden automatisch zugewiesen.
+- Vertreter und Freigeber erhalten eine Benachrichtigung über ihre jeweiligen Aufgaben.
 
-### 3. Warten auf Genehmigung des Antrags
+### 3. Genehmigungsprozess
 
-Nach dem Abschicken des Antrags müssen Sie als Antragsteller nur noch auf die Genehmigung Ihres Antrags warten.
-Ab diesem Zeitpunkt hängt also alles an den Personen, die den Antrag freigeben sollen.
-Sobald ein ausgewählter Freigeber den Antrag ablehnt oder genehmigt, werden Sie als Antragsteller darüber informiert.
+Nach dem Abschicken des Antrags verbleibt dieser im Status „Offen“, bis die zuständigen Personen über die Freigabe entscheiden.
+Sobald ein Freigeber den Antrag ablehnt oder genehmigt, wird der Antragsteller benachrichtigt.
 
-Haben alle Freigeber den Antrag genehmigt kann der Antrag insgesamt freigeben werden. Dies kann durch einen der ausgewählten Freigeber erfolgen.
-Ist nur eine Person zur Freigabe notwendig, erfolgt dieser Schritt automatisch.
+Haben alle zuständigen Personen den Antrag genehmigt, kann die finale Freigabe erfolgen. Dieser Schritt wird von einem der Freigeber durchgeführt.
+Ist systemseitig nur eine Person für die Freigabe erforderlich, erfolgt dieser Schritt automatisch.
 
-:::info Was kann ich machen, wenn ich den Antrag zurückziehen oder ändern möchte?
-Hat noch niemand den Antrag genehmigt oder abgelehnt, können Sie den Antrag beliebig bearbeiten oder auch löschen.
-Wurde der Antrag bereits freigegeben, kann die Freigabe entweder durch den Admin rückgängig gemacht werden oder der Antragsteller kann den Antrag wieder zurückziehen.
-In diesem Fall bleibt der Antrag mit dem Status zurückgezogen im System.
+:::info Bearbeitung und Stornierung
+Solange der Antrag noch nicht bearbeitet wurde, kann er beliebig angepasst oder gelöscht werden.
+Wurde der Antrag bereits freigegeben, kann die Freigabe durch einen Administrator rückgängig gemacht werden, oder der Antragsteller zieht den Antrag zurück.
+In diesem Fall verbleibt der Datensatz mit dem Status „Zurückgezogen“ im System.
 :::
 
 ## Rollen im Abwesenheitsplaner
 
-**Ersteller:** Person, die den Antrag einreicht. Ein Antrag kann entweder für sich selbst oder für einen Dritte erstellt werden.
+**Ersteller:** Person, die den Antrag einreicht. Ein Antrag kann für den Eigenbedarf oder für einen Dritten erstellt werden.
 
-**Antragsteller:** Person, für die der Antrag ist
+**Antragsteller:** Person, für die die Abwesenheit beantragt wird.
 
-**Freigeber:** Personen, die Abwesenheitsanträge freigeben können.
+**Freigeber:** Personen, die zur Genehmigung von Abwesenheitsanträgen berechtigt sind.
 
-**Vertreter:** Vertretung während Abwesenheit des Antragstellers
+**Vertreter:** Vertretung während der Abwesenheit des Antragstellers.
 
-**Admin:** Personen in der Rolle Modul-Admin oder Admin
+**Administrator:** Personen mit der Rolle Modul-Admin oder Admin.
 
-## Zugriff im Abwesenheitsplaner
+## Zugriffsberechtigungen
 
-Der Antrag durchläuft von der Erstellung bis zur Genehmigung verschiedene Status Möglichkeiten. Diese Bestimmen die Zugriffsmöglichkeiten auf den Abwesenheitsantrag.
+Der Antrag durchläuft verschiedene Statusprozesse, welche die Zugriffsberechtigungen steuern.
 
-- **Zugriff auf Antrag:**
+- **Zugriff auf den Antrag:**
+  - Detailansicht: Administrator, Antragsteller, zugewiesene Freigeber.
+  - Eckdaten (Zeitraum): Alle Benutzer mit Zugriff auf die App.
+- **Erstellung von Anträgen:** Administrator (für alle Benutzer), Benutzer mit Standardzugriff (für den Eigenbedarf).
+- **Bearbeitung von offenen Anträgen:** Administrator, Ersteller.
+- **Freigabe von Anträgen:** Administrator, zugewiesene Freigeber.
 
-  - Detailsansicht: Admin, Person für die der Antrag ist, evtl. vorhandene Freigeber des Antrags
-
-  - Grobe Eckdaten (Start und Ende der Abwesenheit): Alle Personen mit Zugriff auf die App
-
-- **Erstellen von neuen Anträgen:** Admin für alle, Personen mit Standardzugriff für sich selbst.
-
-- **Editieren von offenen Anträgen:** Admin, Ersteller
-
-- **Freigeben von Anträgen:** Admin, Genehmiger
-
-**Status Genehmigt:** Ab jetzt kann der Antrag nur noch durch den Admin oder den Ersteller zurückgezogen werden
+Nach der Genehmigung kann der Antrag durch einen Administrator oder den Ersteller zurückgezogen werden.
 
 ## Einstellungen
 
-Um alle Funktionen des Abwesenheitsplaners nutzen zu können, müssen Sie wenige Einstellungen vornehmen, die im folgenden erklärt sind.
+Zur Nutzung aller Funktionen sind folgende Konfigurationen erforderlich:
 
 ### Abwesenheitstypen
 
-Unter Einstellungen -> Mitarbeiter -> Abwesenheitstypen können die Verschiedenen Abwesenheitstypen festlegen.
-Beispiele für Abwesenheitstypen sind:
+Unter **Einstellungen -> Mitarbeiter -> Abwesenheitstypen** werden die verschiedenen Arten der Abwesenheit definiert. Beispiele:
 
 - Urlaub
 - Krankheit
@@ -96,28 +85,28 @@ Beispiele für Abwesenheitstypen sind:
 
 ### Abwesenheitsregelungen
 
-Unter Einstellungen -> Mitarbeiter -> Abwesenheitsregelungen können Sie Regelungen festlegen, die Ihnen dabei helfen die Abwesenheit Ihrer Mitarbeiter besser zu organisieren. Dies könnte z.B. eine Urlaubsregelung für das Jahr 2021 sein.
+Unter **Einstellungen -> Mitarbeiter -> Abwesenheitsregelungen** werden Regeln zur Organisation der Abwesenheiten erstellt (z. B. Urlaubsregelung für das Kalenderjahr).
 
-Eigenschaften der Abwesenheitsregelung:
+Eigenschaften einer Abwesenheitsregelung:
 
-- Gültig von bis: Zeitraum in dem die Regelung zur Anwendung kommt
-- Verfügbare Tage: Tage, die für diese Regelung zur Verfügung stehen
-- Resttage: Tage, die nach Ablauf des Zeitraums noch maximal zur Verfügung stehen
-- Restlaufzeit: Zeitraum für den die Resttage zur Verfügung stehen
+- **Gültigkeitszeitraum:** Zeitraum, in dem die Regelung Anwendung findet.
+- **Verfügbare Tage:** Gesamtzahl der Tage für diese Regelung.
+- **Resttage:** Maximale Anzahl an Tagen, die in den nächsten Zeitraum übernommen werden können.
+- **Restlaufzeit:** Zeitraum, in dem die restlichen Tage genutzt werden müssen.
 
 ### Feiertage
 
-Unter Einstellungen -> Allgemein Feiertage können Sie Feiertage oder auch Betriebsferien festlegen.
+Unter **Einstellungen -> Allgemein -> Feiertage** werden Feiertage und Betriebsferien hinterlegt.
 
 ## Benachrichtigungen
 
-Bei der Bearbeitung von Abwesenheitsanträgen werden zu folgenden Anlässen Benachrichtigungen Versand:
+Das System versendet zu folgenden Anlässen Benachrichtigungen:
 
 | Auslösendes Ereignis        | Empfänger                                                                             |
 | --------------------------- | ------------------------------------------------------------------------------------- |
-| Erstellen eines Antrags     | Freigebende Personen                                                                  |
-| Ändern des Antragsstatus    | Person, für die der Antrag gestellt wurde. Bei Freigabe Benachrichtigung an Vertreter |
-| Hinzufügen eines Freigebers | Hinzugefügter Freigeber                                                               |
+| Erstellen eines Antrags     | Freigeber                                                                             |
+| Änderung des Antragsstatus  | Antragsteller (bei Freigabe erfolgt zudem eine Benachrichtigung an die Vertreter)     |
+| Hinzufügen eines Freigebers | Neu zugewiesener Freigeber                                                            |
 
 <!-- Custom component -->
 
