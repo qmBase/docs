@@ -39,7 +39,7 @@ const whiteLabel: WhiteLabelConfig = {
       },
       {
         label: "Discord",
-        href: "https://discord.gg/DjKxbd6G",
+        href: "https://discord.gg/c7CjADNCau",
       },
     ],
   },
@@ -62,7 +62,7 @@ const config: Config = {
   },
   i18n: {
     defaultLocale: "de",
-    locales: ["de"],
+    locales: ["de", "en"],
   },
   themeConfig: {
     metadata: [
