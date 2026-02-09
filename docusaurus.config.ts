@@ -62,7 +62,7 @@ const config: Config = {
   },
   i18n: {
     defaultLocale: "de",
-    locales: ["de", "en"],
+    locales: ["de"],
   },
   themeConfig: {
     metadata: [
