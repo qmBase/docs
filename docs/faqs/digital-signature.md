@@ -1,6 +1,6 @@
 ---
 id: digital-signature
-title: Digitale Signature
+title: Digitale Signatur
 ---
 
 # Digitale Signaturen bzw. elektronische Signaturen in qmBase
