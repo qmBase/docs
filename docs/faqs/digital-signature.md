@@ -5,108 +5,94 @@ title: Digitale Signatur
 
 # Digitale Signaturen bzw. elektronische Signaturen in qmBase
 
-Diese FAQ erläutert, **welche Anforderungen an elektronische bzw. digitale Signaturen** in unterschiedlichen Managementsystemen gelten (ISO, FDA, GMP) und **wie qmBase diese Anforderungen erfüllt**.
+Diese FAQ zeigt, welche Anforderungen ISO, FDA und GMP an elektronische Signaturen stellen und wie qmBase diese Anforderungen in der Praxis umsetzt.
 
----
+## Auf einen Blick
 
-## Was versteht man im Kontext von Managementsystemen unter einer „digitalen“ bzw. „elektronischen“ Signatur?
+- In Managementsystemen bedeutet „elektronische Signatur“ in der Regel eine **nachvollziehbare Freigabe im System** (nicht zwingend eine QES mit Zertifikat).
+- Entscheidend sind **Verantwortlichkeit, Nachvollziehbarkeit und Datenintegrität**.
+- qmBase unterstützt diese Anforderungen mit **personenbezogenen Freigaben, Zeitstempeln, Versionsbezug und Audit Trail**.
 
-In Managementsystemen bezeichnet eine elektronische Signatur **keine kryptografische Zertifikatssignatur im rechtlichen Sinn**, sondern eine **nachvollziehbare, personenbezogene Freigabehandlung** innerhalb eines Systems.
+## Was ist im Managementsystem mit „elektronischer Signatur“ gemeint?
 
-Ziel ist nicht primär die rechtliche Gleichstellung mit einer handschriftlichen Unterschrift, sondern:
+Im QM-/Managementsystem-Kontext ist damit typischerweise keine kryptografische Zertifikatssignatur im rechtlichen Sinne gemeint, sondern eine dokumentierte, personenbezogene Freigabehandlung im System.
+
+Ziele:
 
 - eindeutige Verantwortungszuweisung
 - Nachvollziehbarkeit von Entscheidungen
 - Schutz vor unbemerkter Manipulation
 - Auditierbarkeit
 
----
+## ISO (z. B. ISO 9001, ISO 14001, ISO 13485): Welche Anforderungen gelten?
 
-## Welche Anforderungen stellen ISO-Managementsysteme (z. B. ISO 9001) an Signaturen?
-
-ISO-Normen (z. B. ISO 9001, ISO 14001, ISO 13485) definieren **keine konkreten technischen Vorgaben** für elektronische Signaturen.
-
-Gefordert wird:
+ISO-Normen machen keine konkreten technischen Vorgaben zur Signaturtechnologie. Gefordert werden vor allem:
 
 - klare Verantwortlichkeiten
 - dokumentierte Freigaben
-- Nachvollziehbarkeit von Änderungen
+- nachvollziehbare Änderungen
 - Lenkung dokumentierter Informationen
 
-**Wie qmBase das erfüllt**
+**Umsetzung in qmBase**
 
-- Jede Freigabe ist einer **konkreten Person** zugeordnet
-- Freigaben sind **versioniert** und **zeitgestempelt**
-- Änderungen und Freigaben werden **lückenlos protokolliert**
-- Nur berechtigte Benutzer können freigeben
+- Freigaben sind einer konkreten Person zugeordnet.
+- Freigaben sind versioniert und zeitgestempelt.
+- Änderungen und Freigaben werden lückenlos protokolliert.
+- Nur berechtigte Benutzer dürfen freigeben.
 
----
+## FDA (21 CFR Part 11): Welche Anforderungen gelten?
 
-## Welche Anforderungen stellt die FDA (21 CFR Part 11) an elektronische Signaturen?
-
-Die FDA verlangt für elektronische Aufzeichnungen und Signaturen insbesondere:
+Die FDA fordert insbesondere:
 
 - eindeutige Zuordnung der Signatur zu einer Person
 - Authentifizierung mit mindestens zwei Komponenten (z. B. Benutzerkennung + Passwort)
 - Verknüpfung der Signatur mit dem Datensatz
-- Datum, Uhrzeit und Bedeutung der Signatur
+- Erfassung von Datum, Uhrzeit und Bedeutung der Signatur
 - nachvollziehbare Audit Trails
 
-**Wichtig:**  
-Die FDA verlangt **keine qualifizierte elektronische Signatur (QES)** und **keine Zertifikate**, sondern ein kontrolliertes, validierbares System.
+**Wichtig:** Die FDA verlangt keine qualifizierte elektronische Signatur (QES) und keine Zertifikate, sondern ein kontrolliertes, validierbares System.
 
-**Wie qmBase das erfüllt**
+**Umsetzung in qmBase**
 
 - Anmeldung ausschließlich über personalisierte Benutzerkonten
 - Authentifizierung per E-Mail-Adresse und Passwort
-- Freigaben nur im angemeldeten Zustand möglich
-- Protokollierung von:
-  - Name des Freigebenden
-  - Datum und Uhrzeit
-  - Aktion (z. B. Genehmigung, Veröffentlichung)
-  - Dokumentversion
-- Unveränderliches Änderungs- und Freigabeprotokoll
+- Freigaben nur im angemeldeten Zustand
+- Protokollierung von Name, Datum/Uhrzeit, Aktion und Dokumentversion
+- unveränderliches Änderungs- und Freigabeprotokoll
 
----
-
-## Welche Anforderungen gelten im GMP-Umfeld (EU GMP Annex 11)?
+## GMP (EU GMP Annex 11): Welche Anforderungen gelten?
 
 EU GMP Annex 11 fordert:
 
-- elektronische Signaturen als Äquivalent zur handschriftlichen Unterschrift **innerhalb des Systems**
+- elektronische Signaturen als systeminternes Äquivalent zur handschriftlichen Unterschrift
 - dauerhafte Verknüpfung von Signatur und Datensatz
 - Erfassung von Name, Datum und Uhrzeit
 - Schutz vor unbefugter Nutzung
 
-Auch hier liegt der Fokus auf **Datenintegrität und Verantwortlichkeit**, nicht auf rechtlicher Außenwirkung.
+Auch hier liegt der Fokus auf Datenintegrität und Verantwortlichkeit, nicht auf rechtlicher Außenwirkung.
 
-**Wie qmBase das erfüllt**
+**Umsetzung in qmBase**
 
-- Systemgestützte Freigabeprozesse mit festen Rollen
+- systemgestützte Freigabeprozesse mit festen Rollen
 - Signaturen sind untrennbar mit der jeweiligen Revision verknüpft
-- Vollständige Historie aller Freigaben
+- vollständige Historie aller Freigaben
 - Zugriff nur für autorisierte Benutzer
 
----
+## eIDAS / QES: Erfüllt qmBase diese Anforderungen?
 
-## Erfüllt qmBase die Anforderungen der eIDAS-Verordnung (QES)?
+Nein – und für interne Managementsystem-Freigaben ist das in der Regel nicht erforderlich.
 
-Nein – und das ist in Managementsystemen in der Regel **nicht erforderlich**.
+Die eIDAS-Verordnung regelt die rechtliche Wirkung elektronischer Signaturen im externen Rechtsverkehr (z. B. Verträge mit externen Parteien). Für interne QM-Freigaben ist eine QES typischerweise nicht vorgeschrieben.
 
-Die eIDAS-Verordnung regelt die **rechtliche Wirkung elektronischer Signaturen im Rechtsverkehr** (z. B. Verträge mit externen Parteien).  
-Für interne Managementsysteme, QM-Dokumente, Arbeitsanweisungen oder Freigaben ist eine qualifizierte elektronische Signatur **nicht vorgeschrieben**.
-
-**qmBase ist ausgelegt für:**
+**qmBase ist ausgelegt für**
 
 - interne Freigaben
 - revisionssichere Dokumentenlenkung
 - Audit- und Inspektionssicherheit
 
-Nicht für:
+**qmBase ist nicht ausgelegt für**
 
 - formbedürftige Rechtsgeschäfte mit externen Parteien
-
----
 
 ## Warum verwendet qmBase keine qualifizierten elektronischen Signaturen (QES)?
 
@@ -114,48 +100,35 @@ QES-Lösungen:
 
 - erhöhen Kosten und Komplexität
 - verschlechtern die Benutzerfreundlichkeit
-- bringen **keinen regulatorischen Mehrwert** für ISO-, FDA- oder GMP-Audits
+- bringen für ISO-, FDA- oder GMP-Audits in der Regel keinen zusätzlichen regulatorischen Mehrwert
 
-qmBase folgt dem Prinzip:
-> so viel Kontrolle wie nötig – so wenig Hürden wie möglich
+Leitprinzip in qmBase:
 
----
+> So viel Kontrolle wie nötig – so wenig Hürden wie möglich.
 
 ## Sind Freigaben in qmBase revisions- und auditsicher?
 
-Ja.
-
-qmBase stellt sicher, dass:
+Ja. qmBase stellt sicher, dass:
 
 - jede Freigabe eindeutig einer Person zugeordnet ist
 - jede Änderung nachvollziehbar bleibt
 - frühere Versionen einsehbar bleiben
 - Manipulationen erkennbar sind
 
-Damit erfüllt qmBase die typischen Erwartungen von:
+Damit erfüllt qmBase die typischen Erwartungen von ISO-Auditoren, FDA-Inspektoren und GMP-Behörden.
 
-- ISO-Auditoren
-- FDA-Inspektoren
-- GMP-Behörden
-
----
-
-## Zusammenfassung: Anforderungen an elektronische Freigaben in ISO-, FDA- und GMP-Managementsystemen
+## Zusammenfassung
 
 | Anforderung an elektronische Freigaben | qmBase |
-|---------------------------------------|--------|
+| --- | --- |
 | Eindeutige Zuordnung zur freigebenden Person | ✔️ |
 | Authentifizierung vor der Freigabe | ✔️ |
 | Zeitstempel (Datum & Uhrzeit) | ✔️ |
-| Verknüpfung der Freigabe mit der Dokumentrevision | ✔️ |
+| Verknüpfung mit der Dokumentrevision | ✔️ |
 | Lückenlose Änderungs- und Freigabehistorie (Audit Trail) | ✔️ |
 | Rollen- und Berechtigungskonzept | ✔️ |
 | Schutz vor unbefugter Nutzung | ✔️ |
 
-**Hinweis:**
-Qualifizierte elektronische Signaturen (QES) nach eIDAS sind keine Anforderung von ISO-Normen, FDA 21 CFR Part 11 oder EU GMP Annex 11 und daher nicht Bestandteil der qmBase-Freigabemechanismen.
+**Hinweis:** Qualifizierte elektronische Signaturen (QES) nach eIDAS sind keine Anforderung aus ISO-Normen, FDA 21 CFR Part 11 oder EU GMP Annex 11 und daher nicht Bestandteil der qmBase-Freigabemechanismen.
 
----
-
-**Kurz gesagt:**  
-qmBase bietet elektronische Signaturen, die **praxisnah, auditfest und regulatorisch passend** für Managementsysteme sind – ohne unnötige Komplexität.
+**Kurz gesagt:** qmBase bietet elektronische Signaturen, die praxisnah, auditfest und regulatorisch passend für Managementsysteme sind – ohne unnötige Komplexität.
