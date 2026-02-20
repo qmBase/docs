@@ -113,3 +113,5 @@ Das System versendet zu folgenden Anlässen Benachrichtigungen:
 import CommonFunction from "@site/src/components/commonFunction.tsx";
 
 <CommonFunction app={`AbsencePlanner`} />
+
+
