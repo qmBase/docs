@@ -8,11 +8,13 @@
 - Mixed-language paragraphs are forbidden
 
 ## Allowed actions
+
 - Create or edit Markdown documentation
 - Improve clarity without changing meaning
 - Add examples consistent with existing behavior
 
 ## Forbidden actions
+
 - Inventing features or behavior
 - Changing compliance meaning
 - Adding legal or certification claims
@@ -20,6 +22,7 @@
 - Modifying `sidebars.ts` unless explicitly requested
 
 ## General principles
+
 - Prefer modification over creation
 - Ask before deleting content
 - Keep changes minimal and reversible
