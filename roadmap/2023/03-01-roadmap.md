@@ -1,9 +1,6 @@
 ---
 title: 🌱 Roadmap März 23
-authors:
-  - name: Philipp Pähler
-    title: qmBase Development Team
-    image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
+authors: [ppaehler]
 image: /img/blog/roadmap.jpg
 tags: [Roadmap, Talentmanager]
 draft: true

@@ -1,0 +1,215 @@
+
+> pbd-docs@1.0.0 build
+> docusaurus build
+
+[WARNING] The `siteConfig.onBrokenMarkdownLinks` config option is deprecated and will be removed in Docusaurus v4.
+Please migrate and move this option to `siteConfig.markdown.hooks.onBrokenMarkdownLinks` instead.
+[INFO] [de] Creating an optimized production build...
+[WARNING] The `siteConfig.onBrokenMarkdownLinks` config option is deprecated and will be removed in Docusaurus v4.
+Please migrate and move this option to `siteConfig.markdown.hooks.onBrokenMarkdownLinks` instead.
+[WARNING] Some blog authors used in "2020-01-23-roadmap-2020-1_-hj.md" are not defined in "authors.yml":
+- {"name":"Philipp P├ñhler","title":"qmBase Development Team","imageURL":"https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png","key":null,"page":null}
+
+Note that we recommend to declare authors once in a "authors.yml" file and reference them by key in blog posts front matter to avoid author info duplication.
+But if you want to allow inline blog authors, you can disable this message by setting onInlineAuthors: 'ignore' in your blog plugin options.
+More info at https://docusaurus.io/docs/blog
+
+[WARNING] Some blog authors used in "2020-07-23-roadmap-2020-2_-halbjahr.md" are not defined in "authors.yml":
+- {"name":"Philipp P├ñhler","title":"qmBase Development Team","imageURL":"https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png","key":null,"page":null}
+
+Note that we recommend to declare authors once in a "authors.yml" file and reference them by key in blog posts front matter to avoid author info duplication.
+But if you want to allow inline blog authors, you can disable this message by setting onInlineAuthors: 'ignore' in your blog plugin options.
+More info at https://docusaurus.io/docs/blog
+
+[WARNING] Some blog authors used in "2021-04-01-roadmap-update-2021-q2.md" are not defined in "authors.yml":
+- {"name":"Philipp P├ñhler","imageURL":"https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png","key":null,"page":null}
+
+Note that we recommend to declare authors once in a "authors.yml" file and reference them by key in blog posts front matter to avoid author info duplication.
+But if you want to allow inline blog authors, you can disable this message by setting onInlineAuthors: 'ignore' in your blog plugin options.
+More info at https://docusaurus.io/docs/blog
+
+[WARNING] Some blog authors used in "2021-07-01-roadmap-update-2021-q3.md" are not defined in "authors.yml":
+- {"name":"Philipp P├ñhler","imageURL":"https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png","key":null,"page":null}
+
+Note that we recommend to declare authors once in a "authors.yml" file and reference them by key in blog posts front matter to avoid author info duplication.
+But if you want to allow inline blog authors, you can disable this message by setting onInlineAuthors: 'ignore' in your blog plugin options.
+More info at https://docusaurus.io/docs/blog
+
+[WARNING] Some blog authors used in "2021-10-31-roadmap-update-2021-q4.md" are not defined in "authors.yml":
+- {"name":"Philipp P├ñhler","imageURL":"https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png","key":null,"page":null}
+
+Note that we recommend to declare authors once in a "authors.yml" file and reference them by key in blog posts front matter to avoid author info duplication.
+But if you want to allow inline blog authors, you can disable this message by setting onInlineAuthors: 'ignore' in your blog plugin options.
+More info at https://docusaurus.io/docs/blog
+
+[WARNING] Some blog authors used in "2023/01-20-roadmap.md" are not defined in "authors.yml":
+- {"name":"Philipp P├ñhler","title":"qmBase Development Team","image_url":"https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png","imageURL":"https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png","socials":{},"key":null,"page":null}
+
+Note that we recommend to declare authors once in a "authors.yml" file and reference them by key in blog posts front matter to avoid author info duplication.
+But if you want to allow inline blog authors, you can disable this message by setting onInlineAuthors: 'ignore' in your blog plugin options.
+More info at https://docusaurus.io/docs/blog
+
+[WARNING] Some blog authors used in "2021-01-06-roadmap-update-2021-q1.md" are not defined in "authors.yml":
+- {"name":"Philipp P├ñhler","imageURL":"https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png","key":null,"page":null}
+
+Note that we recommend to declare authors once in a "authors.yml" file and reference them by key in blog posts front matter to avoid author info duplication.
+But if you want to allow inline blog authors, you can disable this message by setting onInlineAuthors: 'ignore' in your blog plugin options.
+More info at https://docusaurus.io/docs/blog
+
+[WARNING] Some blog authors used in "2022/02-08-roadmap-2022-q1.mdx" are not defined in "authors.yml":
+- {"name":"Philipp P├ñhler","imageURL":"https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png","key":null,"page":null}
+
+Note that we recommend to declare authors once in a "authors.yml" file and reference them by key in blog posts front matter to avoid author info duplication.
+But if you want to allow inline blog authors, you can disable this message by setting onInlineAuthors: 'ignore' in your blog plugin options.
+More info at https://docusaurus.io/docs/blog
+
+[WARNING] Docusaurus found blog posts without truncation markers:
+- "roadmap/2022/02-08-roadmap-2022-q1.mdx"
+
+We recommend using truncation markers (`<!-- truncate -->` or `{/* truncate */}`) in blog posts to create shorter previews on blog paginated lists.
+Tip: turn this security off with the `onUntruncatedBlogPosts: 'ignore'` blog plugin option.
+[WARNING] Cannot infer the update date for some files, as they are not tracked by git.
+[WARNING] Docusaurus found blog posts without truncation markers:
+- "blog/2021/03-10-Version-1_1_146.md"
+- "blog/2021/02-12-Version-1_1_145.md"
+- "blog/2021/02-04-Version-1_1_144.md"
+- "blog/2021/01-08-Version-1_1_143.md"
+- "blog/2021/01-04-Version-1_1_142.md"
+- "blog/2021/01-03-version-1_1_142.md"
+- "blog/2020/12-22-version-1_1_141.md"
+- "blog/2020/12-13-version-1_1_140.md"
+- "blog/2020/11-23-version-1_1_139.md"
+- "blog/2020/11-17-version-1_1_138.md"
+- "blog/2020/11-02-version-1_1_137.md"
+- "blog/2020/10-19-version-1_1_136.md"
+- "blog/2020/10-08-version-1_1_135.md"
+- "blog/2020/09-25-version-1_1_134.md"
+- "blog/2020/09-17-version-1_1_133.md"
+- "blog/2020/09-02-version-1_1_132.md"
+- "blog/2020/08-17-version-1_1_131.md"
+- "blog/2020/08-05-version-1_1_130.md"
+- "blog/2020/07-22-version-1_1_129.md"
+- "blog/2020/07-17-version-1_1_128.md"
+- "blog/2020/06-22-version-1_1_127.md"
+- "blog/2020/06-15-version-1_1_126.md"
+- "blog/2020/06-04-version-1_1_125.md"
+- "blog/2020/05-20-version-1_1_124.md"
+- "blog/2020/05-09-version-1_1_123.md"
+- "blog/2020/05-04-version-1_1_122.md"
+- "blog/2020/04-28-version-1_1_121.md"
+- "blog/2020/04-23-version-1_1_120.md"
+- "blog/2020/04-19-version-1_1_119.md"
+- "blog/2020/04-03-version-1_1_118.md"
+- "blog/2020/03-30-version-1_1_117.md"
+- "blog/2020/03-24-version-1_1_116.md"
+- "blog/2020/03-12-version-1_1_115.md"
+- "blog/2020/02-18-version-1_1_114.md"
+- "blog/2020/02-11-version-1_1_113.md"
+- "blog/2020/02-09-version-1_1_112.md"
+- "blog/2020/02-06-version-1_1_111.md"
+- "blog/2020/01-23-version-1_1_110.md"
+- "blog/2020/01-07-version-1_1_109.md"
+- "blog/2020/01-02-version-1_1_108.md"
+- "blog/2019/12-19-version-1_1_107.md"
+- "blog/2019/12-05-version-1_1_106.md"
+- "blog/2019/11-21-version-1_1_105.md"
+- "blog/2019/11-05-version-1_1_104.md"
+- "blog/2019/10-25-version-1_1_103.md"
+- "blog/2019/10-19-version-1_1_102.md"
+- "blog/2019/10-16-version-1_1_101.md"
+- "blog/2019/10-07-version-1_1_100.md"
+- "blog/2019/09-23-version-1_1_99.md"
+- "blog/2019/09-11-version-1_1_98.md"
+- "blog/2019/09-06-version-1_1_97.md"
+- "blog/2019/08-29-version-1_1_96.md"
+- "blog/2019/08-18-version-1_1_95.md"
+- "blog/2019/08-13-version-1_1_94.md"
+- "blog/2019/08-01-version-1_1_93.md"
+- "blog/2019/07-17-version-1_1_92.md"
+- "blog/2019/07-15-version-1_1_91.md"
+- "blog/2019/07-01-version-1_1_90.md"
+- "blog/2019/06-27-version-1_1_89.md"
+- "blog/2019/06-16-version-1_1_88.md"
+- "blog/2019/06-03-version-1_1_87.md"
+- "blog/2019/05-23-version-1_1_86.md"
+- "blog/2019/05-17-version-1_1_85.md"
+- "blog/2019/05-09-version-1_1_84.md"
+- "blog/2019/05-06-version-1_1_83.md"
+- "blog/2019/04-09-version-1_1_82.md"
+- "blog/2019/03-25-version-1_1_81.md"
+- "blog/2019/03-09-version-1_1_80.md"
+- "blog/2019/02-19-version-1_1_79.md"
+- "blog/2019/01-30-version-1_1_78.md"
+- "blog/2019/01-15-version-1_1_77.md"
+- "blog/2018/12-18-version-1_1_76.md"
+- "blog/2018/12-03-version-1_1_75.md"
+- "blog/2018/11-19-version-1_1_74.md"
+- "blog/2018/10-25-version-1_1_73.md"
+- "blog/2018/10-09-version-1_1_72.md"
+- "blog/2018/09-27-version-1_1_71.md"
+- "blog/2018/09-14-version-1_1_70.md"
+- "blog/2018/08-17-version-1_1_69.md"
+- "blog/2018/08-02-version-1_1_68.md"
+- "blog/2018/07-16-version-1_1_67.md"
+- "blog/2018/07-08-version-1_1_66.md"
+- "blog/2018/06-14-version-1_1_65.md"
+- "blog/2018/06-06-version-1_1_64.md"
+- "blog/2018/05-11-version-1_1_63.md"
+- "blog/2018/04-30-version-1_0_1_62.md"
+- "blog/2018/03-21-version-1_0_1_61.md"
+- "blog/2018/03-12-version-1_0_1_60.md"
+- "blog/2018/02-07-version-1_0_1_59.md"
+- "blog/2018/01-15-version-1_0_1_58.md"
+- "blog/2017/12-21-version-1_0_1_57.md"
+- "blog/2017/12-12-version-1_0_1_56.md"
+- "blog/2017/11-25-version-1_0_1_55.md"
+- "blog/2017/11-15-version-1_0_1_54.md"
+- "blog/2017/10-30-version-1_0_1_53.md"
+- "blog/2017/10-18-version-1_0_1_52.md"
+- "blog/2017/10-03-version-1_0_1_51.md"
+- "blog/2017/09-25-version-1_0_1_50.md"
+- "blog/2017/09-06-version-1_0_1_49.md"
+- "blog/2017/08-24-version-1_0_1_48.md"
+- "blog/2017/08-11-version-1_0_1_47.md"
+- "blog/2017/07-18-version-1_0_1_46.md"
+- "blog/2017/07-11-version-1_0_1_45.md"
+- "blog/2017/06-27-version-1_0_1_44.md"
+- "blog/2017/06-21-version-1_0_1_43.md"
+- "blog/2017/06-12-version-1_0_1_42.md"
+- "blog/2017/05-24-version-1_0_1_41.md"
+- "blog/2017/05-14-version-1_0_1_40.md"
+- "blog/2017/05-04-version-1_0_1_39.md"
+- "blog/2017/04-25-version-1_0_1_37.md"
+- "blog/2017/04-18-version-1_0_1_35.md"
+- "blog/2017/04-07-version-1_0_1_30.md"
+- "blog/2017/03-29-version-1_0_1_29.md"
+- "blog/2017/03-06-version-1_0_1_25.md"
+- "blog/2017/02-14-version-1_0_1_22.md"
+- "blog/2017/02-13-version-1_01_21.md"
+- "blog/2017/01-19-version-1_0_1_20.md"
+- "blog/2017/01-16-version-1_0_1_19.md"
+- "blog/2017/01-07-version-1_0_1_17.md"
+- "blog/2017/01-04-version-1_0_1_16.md"
+- "blog/2016/12-14-version-1_0_1_10.md"
+- "blog/2016/12-11-version-1_0_1_9.md"
+- "blog/2016/12-08-version-1_0_1_8.md"
+- "blog/2016/12-07-verbesserungen-1_0_1_7.md"
+- "blog/2016/12-06-verbesserung-ideenmanagement.md"
+- "blog/2016/05-09-modul-kontakte-&-verschiedenes.md"
+- "blog/2016/05-06-instandhaltung-&-einstellungen.md"
+- "blog/2016/05-05-instandhaltung.md"
+- "blog/2016/05-03-anzeige-release-notes.md"
+- "blog/2016/05-02-dokumentenmanagement-├╝berarbeitet.md"
+- "blog/2016/04-28-verbesserungen-werden-jetzt-direkt-in-der-core-version-dargestellt_.md"
+
+We recommend using truncation markers (`<!-- truncate -->` or `{/* truncate */}`) in blog posts to create shorter previews on blog paginated lists.
+Tip: turn this security off with the `onUntruncatedBlogPosts: 'ignore'` blog plugin option.
+[90m[[90mwebpackbar[90m][39m [36mÔä╣[39m Compiling Client
+[90m[[90mwebpackbar[90m][39m [36mÔä╣[39m Compiling Server
+[90m[[90mwebpackbar[90m][39m [32mÔ£ö[39m Server: Compiled successfully in 19.17s
+(node:25776) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[90m[[90mwebpackbar[90m][39m [32mÔ£ö[39m Client: Compiled successfully in 33.74s
+[WARNING] {"moduleIdentifier":"C:\\Users\\phili\\source\\repos\\docs\\node_modules\\vscode-languageserver-types\\lib\\umd\\main.js","moduleName":"./node_modules/vscode-languageserver-types/lib/umd/main.js","loc":"3:24-31","message":"Critical dependency: require function is used in a way in which dependencies cannot be statically extracted","compilerPath":"server"}
+[SUCCESS] Generated static files in "build".
+[INFO] Use `npm run serve` command to test your build locally.
