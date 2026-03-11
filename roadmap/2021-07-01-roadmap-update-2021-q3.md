@@ -1,7 +1,6 @@
 ---
 title: 📣 Roadmap Update 2021 Q3
-author: Philipp Pähler
-author_image_url: https://qmbasesupport.blob.core.windows.net/static-assets/img/persons/paehler_round.png
+authors: [ppaehler]
 image: /img/blog/roadmap.jpg
 tags: [Roadmap]
 ---

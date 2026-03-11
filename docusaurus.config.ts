@@ -53,7 +53,6 @@ const config: Config = {
   url: whiteLabel.thisUrl,
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
   favicon: whiteLabel.faviconUrl,
   organizationName: "qmBase", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
@@ -220,6 +219,7 @@ const config: Config = {
           },
           // Please change this to your repo.
           editUrl: "https://github.com/qmBase/docs/tree/main/",
+          onUntruncatedBlogPosts: "ignore",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -249,6 +249,8 @@ const config: Config = {
          * Path to data on filesystem relative to site dir.
          */
         path: "./roadmap",
+        onUntruncatedBlogPosts: "ignore",
+        authorsMapPath: "../blog/authors.yml",
       },
     ],
     "image-zoom",
