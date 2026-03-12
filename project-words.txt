@@ -71,6 +71,8 @@ Auditbewertung
 Auditdetailseite
 Auditergebnis
 Auditerkenntnissen
+auditfest
+Auditierbarkeit
 Auditkategorie
 Auditkategorien
 Auditmanagement
@@ -472,6 +474,7 @@ innenwirksam
 inprocess
 Inspection
 Inspections
+Inspektionssicherheit
 instagram
 installation
 instandhaltung
@@ -807,6 +810,7 @@ responsive
 Responsive
 restrictions
 reviewed
+revisionssichere
 Revisionsst├ñnde
 Revisionsstand
 Revisionsstände
@@ -894,6 +898,7 @@ suscipit
 Synchronit├ñt
 Synchronität
 systemgestützt
+Systemgestützte
 systeminterne
 systeminternen
 systemseitig
@@ -1062,6 +1067,7 @@ youtube
 zebra
 zeitbasierten
 zeitbasiertes
+zeitgestempelt
 Zertifizierungsvorgaben
 Zhukovskyi
 Zielerreichungsberechnung

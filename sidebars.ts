@@ -176,6 +176,7 @@ const sidebars: SidebarsConfig = {
         "faqs/create-page-templates",
         "faqs/globale-suche",
         "faqs/preview-badge",
+        "faqs/digital-signature",
       ],
     },
     {
@@ -195,3 +196,4 @@ const sidebars: SidebarsConfig = {
 };
 
 module.exports = sidebars;
+
