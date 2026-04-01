@@ -1,0 +1,114 @@
+---
+id: general
+title: Allgemein
+slug: /general
+---
+
+Hier finden Sie allgemeine Informationen, die für alle Apps gültig sind.
+
+## Informationen finden
+
+Das Auffinden Ihrer Daten war noch nie so einfach. Alles beginnt, wenn Sie einen Filter hinzufügen. Sie können den Link in der Adressleiste verwenden, um die Ergebnisse mit jedem in Ihrem Team zu teilen. Tabellen unterstützen Sie mit den folgenden Funktionen.
+
+### Tabellen
+
+Tabellen sind das Herzstück jeder datengesteuerten Anwendung. Tabellen und Filter sind alle nach einem einheitlichen Schema aufgebaut und beinhalten ähnliche Funktionen.
+Diese Funktionen sind im folgenden beschrieben.
+
+![Example Table Gif with filters and columns toggle](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/basicTableFunctions.gif)
+
+#### Standardeinstellungen
+
+Wir verwenden sinnvolle Voreinstellungen, um nur relevante Daten anzuzeigen. Zum Beispiel filtern wir Daten heraus, die bereits als erledigt markiert wurden.
+Zusätzlich werden nur die Spalten dargestellt, die in der Regel benötigt werden.
+
+#### Suchfeld
+
+Verwenden Sie das Suchfeld in der oberen rechten Ecke, um nach Daten zu suchen, die innerhalb der Tabelle sichtbar sind.
+
+#### Mehr Informationen anzeigen
+
+Verwenden Sie das Kontext-Menü (3-Punkte), um das Aussehen der Tabelle anzupassen. Zeigen Sie mehr Spalten an oder exportieren Sie Daten, wenn diese Funktion verfügbar ist.
+
+#### Filter
+
+Verwenden Sie die Filter-Schaltfläche, um die in der Tabelle angezeigten Ergebnisse einzugrenzen.
+Mit Filtern lassen sich große Datenmengen einfach auf die Informationen herunterbrechen, die Sie suchen. Alle Filter, die Sie aktivieren werden bei uns über UND Verknüpfungen miteinander verbunden.
+Wenn Sie also z.B. Maßnahmen nach dem Status "Offen" und der Verantwortlichen Person "Max Mustermann" filtern, werden Ihnen allle Maßnahmen angezeigt die **beide** Bedingungen erfüllen.
+Sie können beliebig viele Filter kombinieren. Um die Filter nicht jedes Mal neu zu erstellen, können Sie die Filter in vielen Bereichen auch direkt als [Smart View](/docs/faqs/smart-views) abspeichern.
+
+##### Filter von Custom Fields
+
+Das Filtern von Custom Fields beinhaltet auf Grund der Flexibilität der Daten einige Besonderheiten, die im Folgenden beschrieben sind.
+
+| Feldtyp             | Filter-Logik                                                                                                                                       | Beispiel                                                                                                                                   |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Text**            | Verwendet eine **enthält**-Suche. Der Suchbegriff muss nur im Wert vorkommen.                                                                      | Suche `Test` → findet `"Dies ist ein Test"` und `"Testlauf"`                                                                               |
+| **Einfachauswahl**  | Verwendet **exakte Übereinstimmung**. Nur der gewählte Wert wird angezeigt.                                                                        | Filter `Status = Offen` → zeigt nur Datensätze mit exaktem Wert `"Offen"`. `FastOffen` würde nicht gefunden.                               |
+| **Mehrfachauswahl** | Alle gewählten Optionen müssen enthalten sein. Weitere Werte sind erlaubt.                                                                         | Filter `op1` → zeigt `["op1"]`, `["op1","op2"]`, `["op1","op2","op3"]`<br/>Filter `op1+op2` → zeigt `["op1","op2"]`, `["op1","op2","op3"]` |
+| **Bewertung**       | Gespeichert als Zahl (1–10), aber als Text filterbar.                                                                                              | Suche `5` → zeigt alle mit Bewertung `5`<br/>Suche `10` → zeigt alle mit Bewertung `10`                                                    |
+| **Zahl**            | Wird wie Text behandelt, dadurch sind Teiltreffer möglich.                                                                                         | Felder `8` und `88` → Suche `8` zeigt **beide**                                                                                            |
+| **Datum**           | Wird als Textfeld durchsucht. Nutzer müssen das Datum im ISO-Format YYYY-MM-DD eingeben. Teilstrings wie 2025-08 oder -27 funktionieren ebenfalls. | Feld `2025-08-27` → Suche `2025-08-27` findet, Suche `2025-08` findet, Suche `-27` findet                                                  |
+
+#### Sortieren
+
+Daten in Tabellenspalten können vielfach sortiert werden. Eine Sortierung ist in der Regel dann möglich, wenn es sinnvolles Kriterium der Sortierung gibt.
+Sortierbar sind z.B. Datumsangaben oder Texte. Nicht sortierbar sind hingegen Spalten mit den Schlagworten. Da in der Spalte mehrere Schlagworte stehen könnten stellt sich hier nämlich die Frage, welches Schlagwort zur Sortierung herangezogen werden sollte.
+
+#### Export
+
+Die meisten Daten in Tabellen lassen sich exportieren. Hierzu gehen Sie bitte wie folgt vor:
+
+1. Markieren Sie die Datensätze in der Tabelle, die Sie gerne exportieren möchten. Klicken Sie dazu auf den Kebab-Menu Button (⋮) oben rechts in der Tabelle. Die Spalte zur Selektion der Datensätze öffnet sich.
+2. Starten Sie den Export durch einen Klick auf den entsprechenden Button oberhalb der Tabelle
+3. Wählen Sie das gewünschte Datenformat (CSV, JSON, Excel) für Ihren Export.
+4. Warten Sie auf den generierten Export und laden Sie das Ergebnis herunter.
+
+##### Vorteile der unterschiedlichen Exportformate
+
+CSV, Excel und JSON haben jeweils unterschiedliche Stärken; welches Exportformat „besser“ ist, hängt daher vom Einsatzzweck ab.
+​
+
+###### Vorteile von CSV-Exporten
+
+- Hohe Kompatibilität: CSV wird von nahezu allen Datenbanken, BI‑Tools, Programmiersprachen und Tabellenkalkulationen verstanden und ist daher ideal für einfachen Datenaustausch.
+- Einfach und platzsparend: Reines Textformat ohne Formatierungs‑Overhead, dadurch kleine Dateien und gut geeignet für große, flache Datensätze.
+- Leicht zu öffnen und zu prüfen: Kann mit jedem Texteditor oder direkt in Tabellenkalkulationsprogrammen wie Excel geöffnet werden, was eine schnelle Sichtprüfung ermöglicht.
+
+###### Vorteile von Excel-Exporten
+
+- Starke Visualisierungsmöglichkeiten: Diagramme, Formatierungen, Filter, Pivot‑Tabellen – ideal, wenn Daten von Fachanwendern interaktiv analysiert und präsentiert werden sollen.
+- Benutzerfreundlich für Nicht‑Techniker: Viele Anwender kennen Excel bereits; Daten lassen sich ohne Programmierkenntnisse sortieren, filtern, berechnen und kommentieren.
+- Mehrere Tabellenblätter und Formatierung: Ein Export kann mehrere Sheets, formelbasierte Auswertungen und Layouts enthalten, was strukturierte Reports in einer einzigen Datei ermöglicht.​
+
+###### Vorteile von JSON-Exporten
+
+- Geeignet für komplexe/verschachtelte Strukturen: JSON kann hierarchische Daten (z.B. Objekte mit Listen, Unterobjekten) sauber abbilden, was mit CSV nur schwer möglich ist.
+- Maschinenfreundlich und gut parsebar: In modernen Programmiersprachen existieren robuste Bibliotheken; ideal für APIs, Web‑Anwendungen und System‑zu‑System‑Kommunikation.
+- Klar strukturiert und erweiterbar: Schlüssel‑Wert‑Struktur macht Felder explizit; neue Felder können hinzugefügt werden, ohne bestehende Verarbeitung stark zu brechen, was JSON sehr flexibel macht.
+  ​
+
+### Suchen von Personen
+
+#### Suchen von Personen in bestimmter Rolle z.B. in Dropdowns
+
+Sollen Personen in einer bestimmten Rolle gesucht werden wird im Hintergrund eine folgende Logik befolgt.
+Wenn z.B. eine Person in der Rolle des Ideenkoordinators gesucht wird, wird folgendes Schema durchlaufen:
+
+1. Suche alle Personen, die in der Rolle und in einer meiner Gruppen sind
+2. Wenn keine Personen gefunden wurden, zeige alle Admins in meiner Gruppe
+3. Wenn keine Admins in meiner Gruppe gefunden werden, zeige alle Admins
+
+##### Beispiel
+
+Bei der folgende Konstellation aus Nutzern und Gruppen ergibt sich
+
+| Nutzer  | Rolle(n)         | Gruppe Dortmund | Gruppe Hawaii | Gruppe New York |
+| ------- | ---------------- | --------------- | ------------- | --------------- |
+| Müller  | Admin            | x               |               |                 |
+| Meier   | Ideenkoordinator |                 | x             |                 |
+| Schmidt | Nutzer           | x               |               |                 |
+| Schulze | Nutzer           |                 | x             | x               |
+
+- Wenn Nutzer Schmidt einen Ideenkoordinator sucht, erhält er als Auswahlmöglichkeiten Nutzer Müller.
+- Wenn Nutzer Schulze einen Ideenkoordinator sucht, erhält er als Auswahlmöglichkeiten Nutzer Meier.

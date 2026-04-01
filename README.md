@@ -188,7 +188,6 @@ Known Issues should be documented in the dedicated folder `./docs/knownIssues/` 
 
 Add the tag `docs:KnownIssue` to the ticket so that we have a reference there. If multiple tickets reference a knownIssue entry put the link to the knownIssue as a comment to the ticket.
 
-
 ## File and Folder structure
 
 ```
@@ -267,6 +266,7 @@ my-docusaurus-site/
 - Frontmatter controls navigation, ordering, labels
 
 ### AI-friendly conventions for docs/
+
 1️⃣ Keep _meta/ separate
 
 This prevents accidental publishing.
@@ -327,10 +327,9 @@ Example `rules.md`:
 - Ask before creating new categories
 ```
 
-
 ## How to instruct the agent
 
-System prompt: 
+System prompt:
 
 ```
 You are an AI documentation agent for a Quality Management SaaS.
@@ -360,11 +359,11 @@ If a request violates any rule, stop and explain why.
 Second prompt:
 How tasks should be given to the agent
 
-### ❌ Bad task:
+### ❌ Bad task
 
 “Improve the docs for qualifications”
 
-### ✅ Good task:
+### ✅ Good task
 
 “Clarify how qualification validity resets work in docs/guides/qualifications/validity.md.
 Do not change compliance meaning.
