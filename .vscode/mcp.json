@@ -7,6 +7,22 @@
         "MCP_BASE_DIR": "./.mcp-documentation-server",
         "MCP_EMBEDDING_MODEL": "Xenova/paraphrase-multilingual-mpnet-base-v2"
       }
+    },
+    "grounded-docs": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@arabold/docs-mcp-server@latest",
+        "--config",
+        "./.grounded-docs-mcp/docs-mcp-server.yaml",
+        "--store-path",
+        "./.grounded-docs-mcp/store",
+        "--telemetry",
+        "false",
+        "--protocol",
+        "stdio",
+        "--read-only"
+      ]
     }
   }
 }

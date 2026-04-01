@@ -28,3 +28,4 @@ yarn-error.log*
 .pnp.*
 /playwright-report
 /test-results
+/.grounded-docs-mcp/store

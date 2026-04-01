@@ -1,0 +1,14 @@
+app:
+  telemetryEnabled: false
+
+server:
+  protocol: stdio
+
+scraper:
+  maxPages: 500
+  maxDepth: 5
+  maxConcurrency: 3
+
+splitter:
+  preferredChunkSize: 1500
+  maxChunkSize: 5000
