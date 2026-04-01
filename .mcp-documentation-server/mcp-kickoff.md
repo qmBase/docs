@@ -12,11 +12,18 @@
 
 ## TODOs
 
+1. Upload all documents to mcp server
+2. Commit updated databases to github
+3. What kind of LLM do we use? Add explanation how to use VsCode, Ollama or Azure Foundry Local? .
+4. Get some sample customer queries (Lutz)
+5. Define a prompt to answer the queries.
+6. Verify quality of answers
+
 ## Prompt
 
 You MUST use the available tools when relevant.
 If a tool named "search_all_document" exists, always call it before answering.
-Was ist das Herzstück einer Anwendung
+[Question of customer]
 
 ## Open Questions
 
