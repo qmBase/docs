@@ -9,19 +9,13 @@
       }
     },
     "grounded-docs": {
-      "command": "npx",
+      "command": "powershell",
       "args": [
-        "-y",
-        "@arabold/docs-mcp-server@latest",
-        "--config",
-        "./.grounded-docs-mcp/docs-mcp-server.yaml",
-        "--store-path",
-        "./.grounded-docs-mcp/store",
-        "--telemetry",
-        "false",
-        "--protocol",
-        "stdio",
-        "--read-only"
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "./.grounded-docs-mcp/run-server.ps1"
       ]
     }
   }
