@@ -12,8 +12,8 @@
 
 ## TODOs
 
-1. Upload all documents to mcp server
-2. Commit updated databases to github
+1. Upload all documents to mcp server ✅
+2. Commit updated databases to github ✅
 3. What kind of LLM do we use? Add explanation how to use VsCode, Ollama or Azure Foundry Local? .
 4. Get some sample customer queries (Lutz)
 5. Define a prompt to answer the queries.
