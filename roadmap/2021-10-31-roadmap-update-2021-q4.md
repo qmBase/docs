@@ -10,7 +10,7 @@ Das 3. Quartal ist inzwischen vorüber. Ein neues Update unserer Roadmap steht a
 Passend zu Halloween bieten wir Ihnen an dieser Stelle einen Ausblick auf die neuen Funktionen, die wir im letzten Quartal dieses Jahres umsetzten möchten.
 Freuen Sie sich auf substanzielle Verbesserungen und Vereinfachungen.
 
-<!--truncate-->
+{/*truncate*/}
 
 Mit jedem vierteljährlichen Blog-Update stellen wir Ihnen eine Liste der Verbesserungen vor, die wir in qmBase geplant haben.
 Unser Ziel ist es eine transparente Entwicklung darzustellen, so dass Sie wissen, auf welche Änderungen Sie sich freuen können.

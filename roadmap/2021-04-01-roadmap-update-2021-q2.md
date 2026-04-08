@@ -7,7 +7,7 @@ tags: [Roadmap]
 
 Mit jedem vierteljährlichen Blog-Update stellen wir Ihnen eine Liste der Verbesserungen vor, die wir in qmBase vornehmen. Unser Ziel ist es eine transparente Entwicklung darzustellen, so dass Sie wissen, auf welche Änderungen Sie sich einstellen können.
 
-<!--truncate-->
+{/*truncate*/}
 
 ## E-Mail Benachrichtigungen und Notifications ✔
 
