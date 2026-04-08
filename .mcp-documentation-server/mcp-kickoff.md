@@ -62,6 +62,16 @@ Answer writing rules:
 Customer email:
 [Question of customer]
 
+## Prompt 2
+
+As support engineer please draft a support email for the following inquiry.
+
+<customer_inquiry>
+From: sarah@example.com
+Subject: How do I reset my API key?
+Message: Hi team, I accidentally leaked my API key on GitHub. How do I roll it and generate a new one? Is there a downtime?
+</customer_inquiry>
+
 ## Open Questions
 
 - Can I use it with ChatGPT WebUI?

@@ -26,7 +26,7 @@ Run:
 .\.grounded-docs-mcp\verify-docs.ps1
 ```
 
-## How it is started
+## Getting started
 
 Your MCP-compatible VS Code client should read `.vscode/mcp.json` and auto-start both workspace servers:
 
