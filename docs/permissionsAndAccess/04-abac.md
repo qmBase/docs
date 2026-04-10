@@ -55,7 +55,7 @@ Bitte beachten Sie hierbei, dass es sich nur um den Zugriff auf einen einzelnen 
 Geben Sie einen Eintrag (z. B. Audit) aus einer App (z. B. Auditmanagement) für einen Benutzer oder eine Gruppe frei, der oder die sonst keinen Zugriff auf diese App hat, bleibt der Zugriff auf den einzelnen Eintrag beschränkt.
 Die Anzahl der möglichen Freigaben ist auf jeweils 10 Benutzer, Gruppen und Rollen beschränkt.
 
-<!--
+{/*
 
 #### Zugriff für einzelne Nutzer festlegen
 
@@ -77,4 +77,4 @@ Nutzer kann alles aus lesend und Eintrag editieren
 - Sichtbarkeit der Einträge aus Verknüpfungen. Wenn Sie z.B. ein privates Audit erstellt haben ist es trotzdem für alle Personen sichtbar, die Zugriff auf eine verknüpfte Maßnahme haben. Der Klick auf das Audit funktioniert allerdings nicht.
 - Kommentare auf den App Startseiten sind unbeeinflusst von eventuellen Sichtbarkeitseinstellungen (Teilweise umgesetzt)
 - Zugriffsarten festlegen lesend vs. schreibend
--->
+  */}

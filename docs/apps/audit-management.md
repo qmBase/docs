@@ -116,7 +116,7 @@ Die Auswertungen der Audits, sowie anderer Apps, finden Sie in der App Dashboard
 
 - [Rollen & Berechtigungen](/docs/permissionsAndAccess/einleitung)
 
-<!-- Custom component -->
+{/* Custom component */}
 
 import CommonFunction from "@site/src/components/commonFunction.tsx";
 

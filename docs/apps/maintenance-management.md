@@ -101,7 +101,7 @@ Erfassen Sie die Daten, die Sie bei der Arbeit benötigen. Typischerweise hat si
 - Abmessungen und Gewicht, wenn Dinge transportiert werden müssen
 - Anschaffungsdatum, um das Alter Ihres Maschinenparks im Blick zu behalten
 
-<!-- Custom component -->
+{/* Custom component */}
 
 import CommonFunction from "@site/src/components/commonFunction.tsx";
 
