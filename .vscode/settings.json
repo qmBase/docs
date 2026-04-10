@@ -7,11 +7,14 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "cSpell.words": ["CJTF"],
   "[plaintext]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  // Ensure MDX uses Prettier
+  "[mdx]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

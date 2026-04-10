@@ -45,7 +45,7 @@ Beispiel
 
 Sie haben die Möglichkeit Fehler mit Maßnahmen, Produkten und Reklamationen zu verknüpfen.
 
-<!-- Custom component -->
+{/* Custom component */}
 
 import CommonFunction from "@site/src/components/commonFunction.tsx";
 

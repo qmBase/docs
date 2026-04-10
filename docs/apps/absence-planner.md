@@ -108,7 +108,7 @@ Das System versendet zu folgenden Anlässen Benachrichtigungen:
 | Änderung des Antragsstatus  | Antragsteller (bei Freigabe erfolgt zudem eine Benachrichtigung an die Vertreter)     |
 | Hinzufügen eines Freigebers | Neu zugewiesener Freigeber                                                            |
 
-<!-- Custom component -->
+{/* Custom component */}
 
 import CommonFunction from "@site/src/components/commonFunction.tsx";
 
