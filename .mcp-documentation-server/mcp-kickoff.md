@@ -78,6 +78,14 @@ Message: Hi team, I accidentally leaked my API key on GitHub. How do I roll it a
 
 ## FAQs
 
+### How to get started
+
+Things to install
+
+- Nodejs
+- git
+- VS Code
+
 ### Can I use it with ChatGPT WebUI?
 
 No.
