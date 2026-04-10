@@ -20,7 +20,11 @@
 5. Define a prompt to answer the queries. ✅
 6. Verify quality of answers
 
-## Prompt
+## Prompts
+
+Here we can share and improve different approaches to generating answers
+
+### Prompt 1
 
 You are qmBase Support. Answer the customer's message as a support email.
 
@@ -62,7 +66,7 @@ Answer writing rules:
 Customer email:
 [Question of customer]
 
-## Prompt 2
+### Prompt 2 - Short and combined with agent support-engineer.agent.md
 
 As support engineer please draft a support email for the following inquiry.
 
@@ -72,14 +76,7 @@ Subject: How do I reset my API key?
 Message: Hi team, I accidentally leaked my API key on GitHub. How do I roll it and generate a new one? Is there a downtime?
 </customer_inquiry>
 
-## Open Questions
-
-- Can I use it with ChatGPT WebUI?
-- How can I use it with Foundry local or Ollama?
-- Where to store chunks?
-- How do we update chunks? Manually vs Automatic?
-
-## Answers
+## FAQs
 
 ### Can I use it with ChatGPT WebUI?
 
