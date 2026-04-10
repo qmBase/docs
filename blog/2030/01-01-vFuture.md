@@ -7,7 +7,7 @@ tags: ["test"]
 
 This document is intended to be a placeholder for ongoing developments.
 
-<!--truncate-->
+{/*truncate*/}
 
 ## Premium Features
 

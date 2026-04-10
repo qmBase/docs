@@ -9,7 +9,7 @@ Auch im Herbst diesen Jahres erwarten Sie wieder spannende Erweiterungen und Ver
 Mit jedem vierteljährlichen Blog-Update stellen wir Ihnen eine Liste der Verbesserungen vor, die wir in qmBase vornehmen wollen. Unser Ziel ist es eine transparente Entwicklung darzustellen, so dass Sie wissen, auf welche Änderungen Sie sich einstellen können.
 Der wichtigste Input für unsere Planung ist dabei **Ihr** Feedback.
 
-<!--truncate-->
+{/*truncate*/}
 
 > Wir möchten ihnen an dieser Stelle für alle Tickets danken, die Sie erstellen. 👍
 

@@ -78,3 +78,9 @@ Generell gilt für die Gestaltung der Kalendereinträge:
 - Termin entspricht der Frist um 12:00 Uhr mittags
 - Audits und Schulungen werden mit Uhrzeit angezeigt, sofern das Ereignis nicht als ganztägig markiert ist.
 - Termine können in Ausnahmefällen doppelt erscheinen z.B. wenn Sie Verantwortlicher und Teilnehmer einer Schulung zugleich sind.
+
+## Wie ändere ich meine E-Mail-Adresse oder füge eine hinzu?
+
+Die E-Mail Adresse zum Login können Sie in Ihrem Profil selbst ändern. Wechseln Sie dazu in Ihrem zu Profil > Account Sicherheit.
+Hier können Sie über einen Klick auf den Button **E-Mail ändern** Ihre E-Mail Adresse ändern.
+Wenn Sie sich bisher nur mit einem Nutzernamen ohne E-Mail Adresse angemeldet haben, dann können Sie hier auch Ihre erste E-Mail Adresse hinzufügen.

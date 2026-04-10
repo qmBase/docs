@@ -8,7 +8,7 @@ tags: [Roadmap]
 Auch in diesem Jahr, 2021, werden wir qmBase dynamisch weiterentwickeln und die Features verbessern, die Ihnen ihre tägliche Arbeit erleichtern.
 Bisher haben wir unsere Roadmap halbjährlich aktualisiert. Hier werden wir jetzt zu einer quartalsweisen Planung wechseln, um hier einen konkreteren Ausblick geben zu können, wie wir qmBase weiterentwickeln.
 
-<!--truncate-->
+{/*truncate*/}
 
 _Update 21.04.2021_
 

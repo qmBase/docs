@@ -10,7 +10,7 @@ Mit voller Energie starten wir in das Jahr 2023 möchten Sie hier an dieser Stel
 Was auf dem noch leeren Blatt des Jahrs als erstes stehen soll erfahren Sie in diesem Beitrag.
 ![Leere Roadmap](/img/blog/roadmap-empty.jpg)
 
-<!--truncate-->
+{/*truncate*/}
 
 Im Laufe der Zeit haben wir die Erfahrung gemacht, dass die Veröffentlichung einer längerfristigen Roadmap für uns zu vielen Problemen führt.
 Mit der Roadmap wecken wir Erwartungen, die wir dann so unter Umständen nicht erfüllen können, weil sich der Entwicklungsfokus doch verschiebt.
