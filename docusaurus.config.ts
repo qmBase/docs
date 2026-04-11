@@ -57,9 +57,7 @@ const config: Config = {
   organizationName: "qmBase", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
   future: {
-    v4: {
-      mdx1CompatDisabledByDefault: false,
-    },
+    v4: true,
   },
   i18n: {
     defaultLocale: "de",
