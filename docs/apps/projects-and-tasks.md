@@ -76,7 +76,7 @@ Ihrem Eintrag können Anhänge hinzugefügt werden. Das ist z.B. nützlich, um B
 
 ### Audit Trail
 
-:::info WORK IN PROGRESS 🚧
+:::info[WORK IN PROGRESS 🚧]
 Bitte beachten Sie, dass sich die Funktion noch im Aufbau befindet.
 :::
 

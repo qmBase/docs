@@ -65,7 +65,8 @@ Der Zugriff auf ausgefüllte Formulare hängt von verschiedenen Kriterien ab, di
 | Formulareinstellung: Antworten öffentlich sichtbar      | Antworten können durch alle Personen mit Zugriff auf die App eingesehen werden                        |
 | Formulareinstellung: Individuelle Zugriffseinstellungen | Dieser Bereich befindet sich noch in Entwicklung                                                      |
 
-:::info Die Quiz Funktion ist derzeit nur als Private Vorschaufunktion verfügbar und für Sie möglicherweise noch nicht erreichbar.
+:::info
+Die Quiz Funktion ist derzeit nur als Private Vorschaufunktion verfügbar und für Sie möglicherweise noch nicht erreichbar.
 :::
 
 ## Quiz

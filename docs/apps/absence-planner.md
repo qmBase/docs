@@ -5,7 +5,8 @@ title: Abwesenheitsplaner
 
 ![Ansichten Abwesenheitsplaner](https://caqadmin.blob.core.windows.net/faqs/97-images/b3ee39c7-274f-4ee8-8fdb-a64aa2410e4e-mceclip0.png)
 
-:::info Aktuelle Erweiterungen und Verbesserungen dieser App finden Sie [hier](/blog/tags/abwesenheitsplaner)
+:::info
+Aktuelle Erweiterungen und Verbesserungen dieser App finden Sie [hier](/blog/tags/abwesenheitsplaner)
 :::
 
 Diese App ermöglicht die digitale Planung und Verwaltung von Abwesenheiten. Benutzer können Urlaubsanträge systemgestützt einreichen und den Status ihres Urlaubskontos einsehen.
@@ -39,7 +40,7 @@ Sobald ein Freigeber den Antrag ablehnt oder genehmigt, wird der Antragsteller b
 Haben alle zuständigen Personen den Antrag genehmigt, kann die finale Freigabe erfolgen. Dieser Schritt wird von einem der Freigeber durchgeführt.
 Ist systemseitig nur eine Person für die Freigabe erforderlich, erfolgt dieser Schritt automatisch.
 
-:::info Bearbeitung und Stornierung
+:::info[Bearbeitung und Stornierung]
 Solange der Antrag noch nicht bearbeitet wurde, kann er beliebig angepasst oder gelöscht werden.
 Wurde der Antrag bereits freigegeben, kann die Freigabe durch einen Administrator rückgängig gemacht werden, oder der Antragsteller zieht den Antrag zurück.
 In diesem Fall verbleibt der Datensatz mit dem Status „Zurückgezogen“ im System.

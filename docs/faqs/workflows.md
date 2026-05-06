@@ -3,7 +3,7 @@ id: workflows
 slug: /faqs/workflows
 title: Workflows
 keywords:
-  - Workflows
+- Workflows
 ---
 
 :::info
@@ -11,7 +11,6 @@ Diese Funtion befindet sich noch in der Vorschau und ist nicht vollständig umge
 :::
 
 Workflows ermöglichen es verschiedene Prozesse innerhalb von qmBase zu automatisieren und genauer zu steuern. Für jede App können Sie individuelle Workflows festlegen.
-
 Beispiele für Workflows:
 
 - bsp1

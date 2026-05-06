@@ -62,7 +62,6 @@ Nutzen Sie den Link „Passwort zurücksetzen“ und folgen Sie den Anweisungen 
 Das Zurücksetzen von Passwörtern ist nur für lokale und bestätigte Nutzerkonten möglich.
 Bei einer Anmeldung über externe Provider (z. B. Microsoft Entra ID) muss das Passwort dort geändert werden.
 :::
-
 #### Kann die Verknüpfung von Account und Person nachträglich geändert werden?
 
 Nein, dies ist aus Sicherheitsgründen nicht möglich. Bei Bedarf wenden Sie sich bitte an den Support.
@@ -74,7 +73,7 @@ Dort kann der Nutzername angepasst werden, um die Anmeldung mit einer neuen E-Ma
 
 ## Zwei-Faktor-Authentifizierung
 
-:::info Geschlossene Beta Version
+:::info[Geschlossene Beta Version]
 
 Dieses Feature wurde neu entwickelt und befindet sich noch in einer Beta Testphase. Falls Sie Interesse daran haben, diese Funktion zu testen wenden Sie sich bitte an <SupportEmailLink/>.
 Die 2FA ist derzeit nicht kompatibel mit dem Login über einen externen Login Provider, wie z.B. das Active Directory.

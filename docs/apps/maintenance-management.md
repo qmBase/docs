@@ -9,7 +9,8 @@ FaEllipsisV
 
 ![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/MaintenanceManagement.png)
 
-:::info Aktuelle Erweiterungen und Verbesserungen im Bereich Instandhaltung finden Sie [hier](/blog/tags/instandhaltung)
+:::info
+Aktuelle Erweiterungen und Verbesserungen im Bereich Instandhaltung finden Sie [hier](/blog/tags/instandhaltung)
 :::
 
 Die App für das Instandhaltungsmanagement und zur Prüfmittelverwaltung unterstützt Sie in der Verwaltung Ihrer Inventargegenstände.
@@ -39,7 +40,7 @@ Nachdem eine Prüfung erfasst wurde, wird die Frist für die nächste Prüfung a
 Nachdem Sie Ihr Inventar in qmBase erfasst haben, stellt sich die Frage, wie Sie es schaffen möglichst einfach und nahtlos Prüfungen zu erfassen.
 Ein Ansatz hierfür ist das erstellen von Etiketten mit einem QR Code, so dass Sie Prüfungen einfach mit Ihrem Smartphone oder Tablet erfassen können.
 
-:::note Was benötigen Sie?
+:::note[Was benötigen Sie?]
 qmBase, Excel, Word vorgefertigte Etiketten und einen Drucker
 :::
 

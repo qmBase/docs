@@ -75,7 +75,7 @@ Mit dem Verknüpfen von Formularen und Schulungen, können Sie unterschiedliche 
 - Wirksamkeitsprüfungen
 - Organisatorische Koordination
 
-:::note Beispiel für die Verwendung von Formularen
+:::note[Beispiel für die Verwendung von Formularen]
 Die geplante Schulung dauert den ganzen Tag und Sie möchten die Teilnehmer mittags verköstigen. Dabei möchten Sie Rücksicht auf Vegetarier nehmen.
 Folgende Schritte sind notwendig, um Formulare und Schulungen miteinander zu verknüpfen.
 :::
