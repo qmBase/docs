@@ -11,7 +11,7 @@ Alle Artikel durchlaufen einen Prozess zur Freigabe und Versionierung. Die Mitar
 
 Mithilfe von Schlagworten können alle Artikel im Unternehmenswiki kategorisiert werden und es ist eine hohe Wiederauffindbarkeit aller Informationen sichergestellt.
 
-:::info Abgrenzung zum Dokumentenmanagement
+:::info[Abgrenzung zum Dokumentenmanagement]
 
 Im Gegensatz zum Dokumentenmanagement könnten Sie im Wiki beispielsweise bewusst auf eine Ordnerstruktur verzichtet, sodass alle Artikel gleichberechtigt nebeneinander stehen (bei Wikipedia gibt es auch keine Ordner!).
 Die Berechtigungskonzepte für Wiki und Dokumentenmanagement sind voneinander unabhängig. Das gibt Ihnen die Chance den Mitarbeitern im Wiki mehr Freiraum zur Dokumentation des Wissens einzuräumen.

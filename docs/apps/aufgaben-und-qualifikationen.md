@@ -163,7 +163,8 @@ Eignung Arbeitssicherheitsbeauftragter (P2) = ( 0 % ) / 1 = 0 %
 
 #### Individuelle Berechnung der Eignung mit Hilfe von Formeln
 
-:::info Das Berechnen von Eignung mittels Formeln ist derzeit noch nicht überall verfügbar.
+:::info
+Das Berechnen von Eignung mittels Formeln ist derzeit noch nicht überall verfügbar.
 :::
 
 In einigen Fällen reicht unsere standardmäßige Berechnung der Eignung nicht aus. Für diesen Fall können individuelle Formeln festgelegt werden. Dies kann z.B. in folgenden Szenarien vorliegen:

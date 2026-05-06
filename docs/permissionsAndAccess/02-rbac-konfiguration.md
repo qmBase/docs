@@ -28,7 +28,7 @@ Es können nur Rollen gelöscht werden, die keine Systemrollen sind.
 Wenn eine Rolle gelöscht wird, wird diese allen Benutzern entzogen. Falls ein Benutzer dann keine Rollen mehr hat, hat dieser keinen Zugriff mehr auf das System.
 :::
 
-## Rollen einzelnen Nutzern zuweisen
+## Zuweisung von Rollen zu Benutzern
 
 Weisen Sie Rollen den Benutzern zu.
 

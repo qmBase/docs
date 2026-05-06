@@ -25,7 +25,8 @@ Unter den folgenden Verlinkungen finden Sie Beispiele für bestimmte Importe.
 
 ## Erweiterter Import (neu)
 
-:::info Die Beschreibung gilt nur für unsere aktuelle Version der Imports. Dies beinhaltet derzeit folgende Objekte: **Produkte**.
+:::info
+Die Beschreibung gilt nur für unsere aktuelle Version der Imports. Dies beinhaltet derzeit folgende Objekte: **Produkte**.
 :::
 
 Für den Import müssen Sie zunächst den den Objekttypen z.B. Produkte auswählen.
