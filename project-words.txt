@@ -213,6 +213,8 @@ dapibus
 dar├╝berhinaus
 Dar├╝berhinaus
 dashes
+datacenter
+datacenters
 Datenvalidierung
 Datumspicker
 deadline
@@ -612,6 +614,7 @@ mollis
 Morbi
 more
 most
+multifactor
 Multifaktor
 must
 Nachhalten
