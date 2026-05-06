@@ -29,7 +29,7 @@ All traffic to and from the qmBase production system is encrypted.
 
 ### Third-Party Vendors
 
-qmBase currently processes and stores customer information with providers that can be found in {/* this [list](/docs/technical/subprocessors) */} the Data processing agreement (DPA).
+qmBase currently processes and stores customer information with providers that can be found in the Data processing agreement (DPA).
 Please refer to their respective security policy for further details.
 
 ## Data Security
@@ -110,3 +110,48 @@ In addition to our existing procedures, we are committed to implementing additio
 
 If you are a security expert or researcher and you believe that you have found a vulnerability in qmBase, we encourage you to notify us at [support@qmBase.com](mailto:support@qmbase.com).
 Please make an effort in good faith to protect our users' privacy and data. We look forward to working with you to resolve the issue as soon as possible and will award bug bounties if applicable.
+
+### Shared responsibility in the cloud
+
+As you consider and evaluate public cloud services, it's critical to understand the shared responsibility model and which security tasks the cloud provider handles and which tasks you handle.
+The workload responsibilities vary depending on whether the workload is hosted on Software as a Service (SaaS) or in an on-premises datacenter:
+
+#### Responsibility Matrix
+
+| Responsibility area         | On-premises | SaaS     |
+| --------------------------- | ----------- | -------- |
+| Customer data               | Customer    | Customer |
+| Configurations and settings | Customer    | Customer |
+| Identities and users        | Customer    | Customer |
+| Client devices              | Customer    | Customer |
+| Applications                | Customer    | Shared   |
+| Network controls            | Customer    | qmBase   |
+| Operating system            | Customer    | qmBase   |
+| Physical hosts              | Customer    | qmBase   |
+| Physical network            | Customer    | qmBase   |
+| Physical datacenter         | Customer    | qmBase   |
+
+#### Responsibilities you always retain
+
+Regardless of the type of deployment, you always retain the following responsibilities:
+
+- Data - You're responsible for your data, including data classification, data protection, and compliance with data governance requirements.
+- Endpoints - You're responsible for protecting client devices and endpoints that access your cloud services, including mobile devices, laptops, and desktops.
+- Accounts - You're responsible for managing user accounts, including creating, managing, and removing user access.
+- Access management - You're responsible for implementing and managing access controls, including role-based access control (RBAC), multifactor authentication, and conditional access policies.
+
+#### Shared responsibilities explained
+
+Some responsibilities are shared between you and qmBase, with the division varying by service model:
+
+- Applications - In On-premises, you're fully responsible for deployed applications. In SaaS, qmBase manages parts of the application stack, but you're responsible for application configuration, code security, and access controls.
+- Network controls - In On-premises, you configure all network security including firewalls and network segmentation. In SaaS, qmBase manages network security.
+
+#### qmBase responsibilities
+
+qmBase is responsible for the underlying cloud infrastructure, which includes:
+
+- Physical security - Securing datacenters, including facilities, physical access controls, and environmental controls.
+- Physical network - Managing network infrastructure, including routers, switches, and cables within datacenters.
+- Physical hosts - Managing and maintaining the physical servers that host cloud services.
+- Platform services - In SaaS, qmBase manages operating systems, runtime environments, and middleware.
