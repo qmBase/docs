@@ -1,7 +1,14 @@
 {
   "default": true,
-  "MD013": { "line_length": 180 },
-  "MD033": { "allowed_elements": ["code"] },
+  "MD013": {
+    "line_length": 180
+  },
+  "MD033": {
+    "allowed_elements": [
+      "code"
+    ]
+  },
   "MD034": false,
-  "MD047": false
+  "MD047": false,
+  "MD049": false
 }
