@@ -22,10 +22,19 @@ export async function generateReleaseNotes({ version }: IProps) {
   const result = await runPrompt(prompt);
 
   // ./blog/{year}/{month}/{month}-{day}-version-{version}.md
-  const outputPath = `./blog/${new Date().getFullYear()}/${String(new Date().getMonth() + 1).padStart(2, "0")}/${String(new Date().getDate()).padStart(2, "0")}-version-${version}.md`;
+  const outputPath = `./blog/${new Date().getFullYear()}/${String(new Date().getMonth() + 1).padStart(2, "0")}-${String(new Date().getDate()).padStart(2, "0")}-version-${version}.md`;
 
   // 5. Save content (IMPORTANT: never skip this step)
   await fs.writeFile(outputPath, result);
 
   return result;
 }
+
+generateReleaseNotes({ version: "1_1_223" })
+  .then((notes) => {
+    console.log("Release notes generated successfully:");
+    console.log(notes);
+  })
+  .catch((error) => {
+    console.error("Error generating release notes:", error);
+  });

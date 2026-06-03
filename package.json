@@ -16,7 +16,8 @@
     "typecheck": "tsc",
     "test": "mdspell -r ./blog/**/*.md ./docs**/*.md",
     "lint:spelling": "cspell \"**\" --no-progress",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "generate:release-notes": "tsx ./.ai/workflow/generate-release-notes.ts"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.1",
