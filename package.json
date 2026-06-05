@@ -16,7 +16,8 @@
     "typecheck": "tsc",
     "test": "mdspell -r ./blog/**/*.md ./docs**/*.md",
     "lint:spelling": "cspell \"**\" --no-progress",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "generate:release-notes": "tsx ./.ai/workflow/generate-release-notes.ts"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.1",
@@ -24,6 +25,7 @@
     "@docusaurus/preset-classic": "^3.10.1",
     "clsx": "^2.1.1",
     "docusaurus-plugin-image-zoom": "^3.0.1",
+    "dotenv": "^17.4.2",
     "mermaid": "^11.15.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
@@ -48,9 +50,12 @@
     "@docusaurus/types": "^3.10.1",
     "@playwright/test": "^1.60.0",
     "@types/react": "^19.2.16",
+    "@types/node": "^24.12.4",
     "cspell": "^10.0.1",
     "markdown-spellcheck": "^1.3.1",
     "prettier": "^3.8.3",
+    "openai": "^6.41.0",
+    "tsx": "^4.22.3",
     "typescript": "^6.0.3"
   },
   "engines": {
