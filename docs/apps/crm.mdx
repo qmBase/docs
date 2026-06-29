@@ -4,11 +4,11 @@ title: CRM
 ---
 
 import {
-  FaPlus,
-  FaListUl,
-  FaStarHalfAlt,
   FaChessKing,
+  FaListUl,
+  FaPlus,
   FaShippingFast,
+  FaStarHalfAlt,
 } from "react-icons/fa";
 
 ![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Crm.png)
@@ -57,8 +57,6 @@ Nachdem eine Kontaktperson erstellt wurde können weitere Informationen dazu erf
 | <code>Adressen</code>       | Text  | Adressen des Kontaktperson                                                |
 | <code>Organisationen</code> | Liste | Organisationen für die die Kontaktperson tätig ist                        |
 
-TODO: Verweis auf Pflichtfelder
-
 ## Verknüpfungen mit weiteren Objekten und Informationen
 
 ### Maßnahmen
@@ -70,7 +68,7 @@ Zu jeder Organisation können in der Maßnahmentabelle über den Button **<FaPlu
 Im [Reklamationsmanagement](claim-management) können Sie Ihre Kunden- & Lieferantenreklamationen erfassen und direkt mit den betroffenen Kontakten verknüpfen.
 Dazu greift das Reklamationsmanagement auf die Kontaktdaten aus dem CRM zu. Im CRM wiederum werden zu jedem Kontakt direkt die dazugehörigen Reklamationen dargestellt.
 
-### Bewertungen
+## Bewertungen
 
 Jeder Kontakt in qmBase kann bewertet werden. Dabei kann es sich um Kunden- oder Lieferantenbewertungen handeln. Die Bewertungshistorie zu jedem Kontakt wird immer auf der rechte Seite auf der Karte **_Bewertungen_** angezeigt.
 Wollen Sie eine Bewertung hinzufügen klicken Sie einfach auf den <FaPlus/>-Button.
@@ -85,6 +83,65 @@ In diesem Fall müssen aber zusätzlich den zu bewertenden Kontakt auswählen.
 
 Die Menüpunkte **<FaChessKing/> Kundenbewertung** und **<FaShippingFast/> Lieferantenbewertungen** zeigen jeweils nur die Bewertungen für Kunden bzw. Lieferanten.
 
+### Bewertung über ein Formular erfassen
+
+Statt manuell einen Bewertungswert einzugeben, können Sie eine Bewertung auch durch das Ausfüllen eines individuellen Formulars erfassen lassen. Das System extrahiert die Ergebnisse automatisch und erstellt daraus die Bewertung. Die Formularantwort wird dabei dauerhaft mit der Bewertung verknüpft und dient als dokumentierte Grundlage.
+
+#### Schritt 1: Formular mit Bewertungsfeld erstellen
+
+Zunächst erstellen Sie ein Formular, das die gewünschten Fragen oder Eingabefelder für die Bewertung enthält:
+
+1. Navigieren Sie zu **Apps > Formulare** und erstellen Sie ein neues Formular
+2. Fügen Sie die benötigten Formularfelder hinzu (z. B. Fragen zur Qualität, Service, Zuverlässigkeit)
+3. Markieren Sie eines dieser Felder als Bewertungsfeld - dieses Feld wird automatisch als Quelle für den Bewertungswert verwendet:
+   - Numerische Werte (0-100) werden automatisch auf die Bewertungsskala (0-1) umgerechnet
+   - Nicht-numerische Inhalte (z. B. Texte) werden als Bewertungskommentar hinterlegt
+4. Alternativ können Sie auch ein separates Bewertungsfeld hinzufügen, das nicht direkt im Formular ausgefüllt wird. In diesem Fall können Sie den Bewertungswert über eine Formel berechnen lassen, basierend auf den anderen Formularfeldern.
+
+![Konfiguration des Bewertungsformulars](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202026-06-23_form-config.png)
+
+#### Schritt 2: Bewertungskonfiguration einrichten
+
+Anschließend verknüpfen Sie das Formular mit der Bewertungsfunktion:
+
+1. Gehen Sie zu **Admin > Konfiguration > CRM > Bewertungen**
+2. Erstellen oder bearbeiten Sie eine **Bewertungskonfiguration** für den Bewertungstyp (Kundenbewertung oder Lieferantenbewertung)
+3. Wählen Sie als Bewertungsmethode **Formular** aus
+4. Wählen Sie das zuvor erstellte Formular und das Bewertungsfeld aus
+
+![Konfiguration der Bewertungsmethode](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202026-06-23_crm-rating-config.png)
+
+#### Schritt 3: Bewertung über das Formular erfassen
+
+Wenn eine Bewertungskonfiguration aktiv ist, ändert sich der Bewertungsprozess:
+
+1. Navigieren Sie zu einem Kontakt und klicken Sie auf **Bewertung hinzufügen**
+
+2. Statt der üblichen manuellen Bewertungsfelder sehen Sie nun das konfigurierte Formular
+3. Füllen Sie das Formular mit den gewünschten Informationen aus
+4. Klicken Sie auf **Speichern**
+
+Das System speichert dann automatisch:
+- Die **Formularantwort** mit allen Eingaben
+- Die **Bewertung** mit dem extrahierten Wert aus dem Bewertungsfeld
+- Die **Verknüpfung** zwischen Formularantwort und Bewertung
+
+![Ausfüllen des Bewertungsformulars](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202026-06-23_crm-rating-fill-out.png)
+
+#### Schritt 4: Bewertung und verknüpfte Formularantwort einsehen
+
+In der Detailansicht der Bewertung können Sie jederzeit:
+- Den extrahierten **Bewertungswert** und den **Kommentar** sehen
+- Die **verknüpfte Formularantwort** aufrufen und alle eingegeben Informationen einsehen
+- Die Bewertung oder die Formularantwort bearbeiten
+
+![Darstellung der Bewertung mit verknüpfter Formularantwort](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202026-06-23_crm-rating-details.png)
+
+#### Fallback auf manuelle Bewertung
+
+Wenn für einen Kontakt keine passende Bewertungskonfiguration aktiv ist, bleibt die klassische manuelle Erfassung verfügbar - Sie können weiterhin einen Bewertungswert und einen Kommentar direkt eingeben.
+
+---
 {/* Custom component */}
 
 import CommonFunction from "@site/src/components/commonFunction.tsx";
