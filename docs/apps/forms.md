@@ -11,7 +11,7 @@ Integrierte Analysen bieten die Möglichkeit Antworten und Ergebnisse direkt in 
 Für weiterführende Analysen oder Benotungen können alle Daten auch exportiert werden.
 
 Die qmBase Formulare dienen einer regelmäßigen und standardisierten Informationserfassung.
-Ein einmal erstelltes Formular kann beliebig oft ausgefüllt werden. Jedes Formular kann dabei als individuelle Gruppierung von [Custom Fields](/docs/features/custom-fields/) verstanden werden.
+Ein einmal erstelltes Formular kann beliebig oft ausgefüllt werden. Jedes Formular kann dabei als individuelle Gruppierung von [Custom Fields](../features/custom-fields.md) verstanden werden.
 
 ## Wer kann die Formulare verwenden
 
