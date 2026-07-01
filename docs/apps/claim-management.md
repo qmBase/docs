@@ -82,7 +82,7 @@ Mittels eines einfach Dropdowns kann hier festgelegt werden, wie die Reklamation
 
 **Custom Fields**
 
-[Link](/docs/faqs/80)
+[Link](/docs/features/custom-fields)
 
 **Kosten / Zeit**
 

@@ -11,7 +11,7 @@ Integrierte Analysen bieten die Möglichkeit Antworten und Ergebnisse direkt in 
 Für weiterführende Analysen oder Benotungen können alle Daten auch exportiert werden.
 
 Die qmBase Formulare dienen einer regelmäßigen und standardisierten Informationserfassung.
-Ein einmal erstelltes Formular kann beliebig oft ausgefüllt werden. Jedes Formular kann dabei als individuelle Gruppierung von [Custom Fields](/docs/faqs/80/) verstanden werden.
+Ein einmal erstelltes Formular kann beliebig oft ausgefüllt werden. Jedes Formular kann dabei als individuelle Gruppierung von [Custom Fields](/docs/features/custom-fields/) verstanden werden.
 
 ## Wer kann die Formulare verwenden
 
@@ -25,7 +25,7 @@ qmBase Formulare sind bei allen Kunden verfügbar, die diese App in ihrem Abonne
 
 2. Über den Button <code>Neues Feld hinzufügen</code> können Sie beliebig viele Formularfelder erstellen.
    Die Formularfelder entsprechen in Ihren Eigenschaften und Datentypen denen von Custom Fields.
-   [Hier erfahren Sie mehr über die unterschiedlichen Datentypen in Custom Fields.](/docs/faqs/80/)
+   [Hier erfahren Sie mehr über die unterschiedlichen Datentypen in Custom Fields.](/docs/features/custom-fields/)
 
 3. Bevor Sie ein Formular nutzen können, müssen Sie es erst veröffentlichen.
    Wenn Sie das Formular mit allen gewünschten Formularfelder erstellt haben, veröffentlichen Sie das Formular über den Button <code>Veröffentlichen</code>.
