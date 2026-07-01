@@ -25,7 +25,7 @@ qmBase Formulare sind bei allen Kunden verfügbar, die diese App in ihrem Abonne
 
 2. Über den Button <code>Neues Feld hinzufügen</code> können Sie beliebig viele Formularfelder erstellen.
    Die Formularfelder entsprechen in Ihren Eigenschaften und Datentypen denen von Custom Fields.
-   [Hier erfahren Sie mehr über die unterschiedlichen Datentypen in Custom Fields.](/docs/features/custom-fields/)
+   [Hier erfahren Sie mehr über die unterschiedlichen Datentypen in Custom Fields.](../features/custom-fields.md)
 
 3. Bevor Sie ein Formular nutzen können, müssen Sie es erst veröffentlichen.
    Wenn Sie das Formular mit allen gewünschten Formularfelder erstellt haben, veröffentlichen Sie das Formular über den Button <code>Veröffentlichen</code>.
