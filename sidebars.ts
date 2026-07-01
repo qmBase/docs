@@ -164,7 +164,6 @@ const sidebars: SidebarsConfig = {
         "faqs/faq-71",
         "faqs/faq-74",
         "faqs/faq-75",
-        "faqs/faq-80",
         "faqs/faq-81",
         "faqs/faq-84",
         "faqs/faq-94",
