@@ -17,19 +17,20 @@ In dem folgenden Schaubild sind die zentralen Phasen während des Prozesses der 
 
 ```mermaid
 flowchart LR
-    G["💡 Generierung"]
-    A["📥 Annahme"]
-    U["⚙️ Umsetzung"]
+    G["`💡 Generierung
+    - Einfache Erfassung
+    - Direktes Feedback
+    `"]
+    A["`📥 Annahme
+    - Automatische Benachrichtigung
+    - Optionale Bewertung in Gutachtenphase
+    `"]
+    U["`⚙️ Umsetzung
+    - Automatisches Reporting
+    - Kontinuierliche Erfassung des Umsetzungsstatus
+    `"]
 
     G --> A --> U
-
-    G_NOTE["• Einfache Erfassung<br/>• Direktes Feedback"]
-    A_NOTE["• Automatische Benachrichtigung<br/>• Optionale Bewertung in Gutachtenphase"]
-    U_NOTE["• Automatisches Reporting<br/>• Kontinuierliche Erfassung des Umsetzungsstatus"]
-
-    G --- G_NOTE
-    A --- A_NOTE
-    U --- U_NOTE
 ```
 
 ## Prozessschritte
@@ -37,8 +38,6 @@ flowchart LR
 - Generieren und Erfassen von neuen Ideen
 - Annahme der Idee und erste fachliche Prüfung
 - Umsetzung der Idee und Erfassung des Fortschritts der Umsetzung
-
-
 
 <IdeaProcess />
 
@@ -179,19 +178,19 @@ Diese Daten erfassen Sie im Umsetzungsbereich mit einem Klick auf den Button “
 
 **Wie beende ich den Prozess?**
 
-Wenn Sie alle Daten erfasst haben, klicken Sie auf den “Abgeschlossen” Button. Danach ist die Idee in den Standardfiltern nicht mehr sichtbar, sodass Sie sich nicht mehr mit alten und abgeschlossenen Ideen beschäftigen müssen. 
+Wenn Sie alle Daten erfasst haben, klicken Sie auf den “Abgeschlossen” Button. Danach ist die Idee in den Standardfiltern nicht mehr sichtbar, sodass Sie sich nicht mehr mit alten und abgeschlossenen Ideen beschäftigen müssen.
 Sollten Sie die Idee fälschlicherweise abgeschlossen haben, können Sie diese Aktion auch wieder rückgängig machen.
 
 ## Wer kann wann auf eine Idee zugreifen und Inhalte ändern?
 
 :::info[Abweichungen beim Arbeiten mit Gruppen]
-Sobald Sie die Nutzer in verschiedene Gruppen einteilen, können Sie neben dem Koordinator auch den **Owner / Ideenmanager** festlegen. 
+Sobald Sie die Nutzer in verschiedene Gruppen einteilen, können Sie neben dem Koordinator auch den **Owner / Ideenmanager** festlegen.
 Als Owner sehen Sie die Ideen, bei denen Sie als Owner festgelegt wurden und die Ideen, die keinem Owner zugeordnet sind.
 :::
 
 ### Zugriffsmatrix
 
-Von der Erstellung der Idee bis zur finalen Umsetzung durchläuft die Idee verschiedene Schritte und ändert ihren Status. 
+Von der Erstellung der Idee bis zur finalen Umsetzung durchläuft die Idee verschiedene Schritte und ändert ihren Status.
 Verbunden mit den Statusänderungen haben verschiedene Personen Zugriff auf die Idee. Die einzelnen Möglichkeiten werden im Folgenden dargestellt:
 Während der ganzen Zeit hat der Ersteller Zugriff auf die Idee.
 
@@ -209,7 +208,7 @@ Während der ganzen Zeit hat der Ersteller Zugriff auf die Idee.
 
 ### Funktionsmatrix
 
-In Abhängigkeit von der Rolle des Nutzers und dem Status der Idee können unterschiedliche Funktionen ausgeführt werden. 
+In Abhängigkeit von der Rolle des Nutzers und dem Status der Idee können unterschiedliche Funktionen ausgeführt werden.
 Die folgende Tabelle zeigt die Berechtigungen für die einzelnen Rollen.
 
 | Berechtigung                         | Ersteller | Mitwirkender | Gutachter | Ideenkoordinator | Ideenmanager | Administrator |
