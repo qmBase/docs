@@ -1,7 +1,5 @@
-import Mermaid from "@theme/mermaid";
-
-<Mermaid
-  chart={`graph TD
+```mermaid
+graph TD
     A[Idee erstellen oder überarbeiten] --> B[Ideenkoordinator auswählen];
     B --> C[Idee abschicken];
     C --> D{Annahme durch Koordinator?};
@@ -12,5 +10,5 @@ import Mermaid from "@theme/mermaid";
     F2 --> G;
     F -- Keine Gutachten --> G[Abschluss der Gutachtenphase];
     G --> H[Umsetzungsphase];
-    H --> I[Abschluss der Idee];`}
-/>
+    H --> I[Abschluss der Idee]
+```

@@ -7,10 +7,8 @@ const whiteLabel: WhiteLabelConfig = {
   productId: "qmBase",
   vendorName: "qmBase",
   vendorUrl: "https://qmBase.com/",
-  iconUrl:
-    "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/navbarLogo.png",
-  faviconUrl:
-    "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png",
+  iconUrl: "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/navbarLogo.png",
+  faviconUrl: "https://qmbasesupport.blob.core.windows.net/public-icons/qmBase/favicon.png",
   primaryColor: "#65ACE0",
   secondaryColor: "#29375F",
   imprintUrl: "https://qmbase.com/impressum/",
@@ -62,6 +60,10 @@ const config: Config = {
   i18n: {
     defaultLocale: "de",
     locales: ["de"],
+  },
+  themes: ["@docusaurus/theme-mermaid"],
+  markdown: {
+    mermaid: true,
   },
   themeConfig: {
     metadata: [
@@ -205,9 +207,7 @@ const config: Config = {
           feedOptions: {
             type: "all",
             description: `Stay up to date with the latest ${whiteLabel.productDisplayName} changes`,
-            copyright: `Copyright © ${new Date().getFullYear()} ${
-              whiteLabel.vendorName
-            }`,
+            copyright: `Copyright © ${new Date().getFullYear()} ${whiteLabel.vendorName}`,
             createFeedItems: async (params) => {
               const { blogPosts, defaultCreateFeedItems, ...rest } = params;
               return defaultCreateFeedItems({
