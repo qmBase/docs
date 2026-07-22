@@ -76,6 +76,29 @@ In der Qualifikationsmatrix werden Personen und Qualifikationen einander gegenü
 | Roter Kreis                    | Qualifikation vorhanden aber abgelaufen                                                        |
 | Gelber Kreis                   | Qualifikation vorhanden aber innerhalb der Vorwanzeit - läuft also bald ab                     |
 
+### Qualifikationsverlauf
+
+Die Qualifikationsverlauf bietet eine chronologische Übersicht aller dokumentierten Qualifikationsereignisse der Mitarbeiter, auf die Sie Zugriff haben. Anders als das Qualifikationsprofil eines Mitarbeiters zeigt diese Ansicht sämtliche erfassten Ereignisse organizationsweit.
+
+Typische Anwendungsfälle sind:
+
++ Nachvollziehen, wann Qualifikationen erworben oder erneuert wurden.  
++ Überprüfen vergangener Schulungs- und Zertifizierungsnachweise.   
++ Nachweis von Qualifikationen im Rahmen von Audits.  
++ Kontrolle dem Verlauf einzelner Mitarbeiter oder Qualifikationen.
+
+![Qualifikationverlauf](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/only-latest-docs-no-filter.png)
+#### Nur aktuellste Qualifikation anzeigen.  
+Standardmäßig werden alle Qualifikationsereignisse angezeigt. Mit der Option **Nur die aktuellste** wird je Mitarbeiter und Qualifikation ausschließlich das neueste Qualifikationsereignis angezeigt. Frühere Ereignisse bleiben in dem Verlauf erhalten, werden jedoch ausgeblendet.
+
+So aktivieren Sie den Filter:  
+  
+1. Klicken Sie auf **Filter**.  
+2. Wählen Sie im Dropdown **Nur die aktuellste** aus.  
+3. Klicken Sie auf **Filter**, um den Filter anzuwenden.  
+
+![Qualifikationverlauf - Nur die aktuellste](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/only-latest-docs-filter.png)
+
 ## Beispiel für das Zusammenwirken von Positionen, Aufgaben und Qualifikationen
 
 Der Mitarbeiter <code>Lukas Guss</code> hat die Positionen <code>Vertriebsassistenz</code> und <code>Arbeitssicherheitsbeauftragter</code>.

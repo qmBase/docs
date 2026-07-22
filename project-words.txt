@@ -652,6 +652,7 @@ Opportunity
 Ordered
 Organigrammdarstellung
 organisation
+organizationsweit
 ornare
 otherwise
 outages
@@ -745,6 +746,7 @@ Qmn├ú
 Qmnã
 Qualifikationmatrix
 Qualifikations
+Qualifikationverlauf
 quam
 QUESTION
 questions
@@ -1077,6 +1079,7 @@ zeitbasierten
 zeitbasiertes
 zeitgestempelt
 Zertifizierungsvorgaben
+Zertifizierungsnachweise
 Zhukovskyi
 Zielerreichungsberechnung
 Zirkelbeziehungen
