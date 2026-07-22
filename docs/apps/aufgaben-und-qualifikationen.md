@@ -78,12 +78,12 @@ In der Qualifikationsmatrix werden Personen und Qualifikationen einander gegenü
 
 ### Qualifikationsverlauf
 
-Die Qualifikationsverlauf bietet eine chronologische Übersicht aller dokumentierten Qualifikationsereignisse der Mitarbeiter, auf die Sie Zugriff haben. Anders als das Qualifikationsprofil eines Mitarbeiters zeigt diese Ansicht sämtliche erfassten Ereignisse organisationsweit.
+Die Qualifikationsverlauf bietet eine chronologische Übersicht aller dokumentierten Qualifikationsereignisse der Mitarbeiter, auf die Sie Zugriff haben. Anders als das Qualifikationsprofil eines Mitarbeiters zeigt diese Ansicht sämtliche erfassten Ereignisse organizationsweit.
 
 Typische Anwendungsfälle sind:
 
 + Nachvollziehen, wann Qualifikationen erworben oder erneuert wurden.  
-+ Überprüfen vergangener Schulungs- und Zertifizierungsnachweise.  
++ Überprüfen vergangener Schulungs- und Zertifizierungsnachweise.   
 + Nachweis von Qualifikationen im Rahmen von Audits.  
 + Kontrolle dem Verlauf einzelner Mitarbeiter oder Qualifikationen.
 
