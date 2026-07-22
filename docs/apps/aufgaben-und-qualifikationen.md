@@ -85,11 +85,11 @@ Typische Anwendungsfälle sind:
 + Nachvollziehen, wann Qualifikationen erworben oder erneuert wurden.  
 + Überprüfen vergangener Schulungs- und Zertifizierungsnachweise.  
 + Nachweis von Qualifikationen im Rahmen von Audits.  
-+ Kontrolle der Historie einzelner Mitarbeiter oder Qualifikationen.
++ Kontrolle dem Verlauf einzelner Mitarbeiter oder Qualifikationen.
 
 ![Qualifikationverlauf](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/only-latest-docs-no-filter.png)
 #### Nur aktuellste Qualifikation anzeigen.  
-Standardmäßig werden alle Qualifikationsereignisse angezeigt. Mit der Option **Nur die aktuellste** wird je Mitarbeiter und Qualifikation ausschließlich das neueste Qualifikationsereignis angezeigt. Frühere Ereignisse bleiben in der Historie erhalten, werden jedoch ausgeblendet.
+Standardmäßig werden alle Qualifikationsereignisse angezeigt. Mit der Option **Nur die aktuellste** wird je Mitarbeiter und Qualifikation ausschließlich das neueste Qualifikationsereignis angezeigt. Frühere Ereignisse bleiben in dem Verlauf erhalten, werden jedoch ausgeblendet.
 
 So aktivieren Sie den Filter:  
   
@@ -311,14 +311,6 @@ In der zweiten markierten Zeile **Baggerführerschein** ist eine Qualifikation d
 Hier besteht also kein Handlungsbedarf.
 
 Sollte Handlungsbedarf bei eine Qualifikation bestehen und Sie dokumentieren wollen, dass Sie über diese Qualifikation verfügen, dann klicken Sie bitte auf das Kebab-Menü (3) und wählen Sie dort den Eintrag **Neues Qualifikationsereignis hinzufügen** aus.
-
-#### Qualifikationshistorie
-
-Für eine Qualifikation können mehrere Qualifikationsereignisse vorhanden sein, z.B. wenn dieselbe Schulung regelmäßig wiederholt wird oder Zertifikate erneuert werden.
-
-Die Historie enthält sämtliche früheren und aktuellen Qualifikationsereignisse inklusive Erwerbsdatum, Ablaufdatum und weiterer Dokumentation.
-
-Standardmäßig werden alle Ereignisse angezeigt. Je nach Ansicht können Sie die Anzeige auf das aktuellste Ereignis beschränken.
 
 ### Was kann ich als Vorgesetzter oder Administrator in dieser App machen?
 
