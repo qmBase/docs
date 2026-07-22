@@ -76,6 +76,29 @@ In der Qualifikationsmatrix werden Personen und Qualifikationen einander gegenü
 | Roter Kreis                    | Qualifikation vorhanden aber abgelaufen                                                        |
 | Gelber Kreis                   | Qualifikation vorhanden aber innerhalb der Vorwanzeit - läuft also bald ab                     |
 
+### Qualifikationsverlauf
+
+Die Qualifikationsverlauf bietet eine chronologische Übersicht aller dokumentierten Qualifikationsereignisse der Mitarbeiter, auf die Sie Zugriff haben. Anders als das Qualifikationsprofil eines Mitarbeiters zeigt diese Ansicht sämtliche erfassten Ereignisse organisationsweit.
+
+Typische Anwendungsfälle sind:
+
++ Nachvollziehen, wann Qualifikationen erworben oder erneuert wurden.  
++ Überprüfen vergangener Schulungs- und Zertifizierungsnachweise.  
++ Nachweis von Qualifikationen im Rahmen von Audits.  
++ Kontrolle der Historie einzelner Mitarbeiter oder Qualifikationen.
+
+![Qualifikationverlauf](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/only-latest-docs-no-filter.png)
+#### Nur aktuellste Qualifikation anzeigen.  
+Standardmäßig werden alle Qualifikationsereignisse angezeigt. Mit der Option **Nur die aktuellste** wird je Mitarbeiter und Qualifikation ausschließlich das neueste Qualifikationsereignis angezeigt. Frühere Ereignisse bleiben in der Historie erhalten, werden jedoch ausgeblendet.
+
+So aktivieren Sie den Filter:  
+  
+1. Klicken Sie auf **Filter**.  
+2. Wählen Sie im Dropdown **Nur die aktuellste** aus.  
+3. Klicken Sie auf **Filter**, um den Filter anzuwenden.  
+
+![Qualifikationverlauf - Nur die aktuellste](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/only-latest-docs-filter.png)
+
 ## Beispiel für das Zusammenwirken von Positionen, Aufgaben und Qualifikationen
 
 Der Mitarbeiter <code>Lukas Guss</code> hat die Positionen <code>Vertriebsassistenz</code> und <code>Arbeitssicherheitsbeauftragter</code>.
@@ -288,6 +311,14 @@ In der zweiten markierten Zeile **Baggerführerschein** ist eine Qualifikation d
 Hier besteht also kein Handlungsbedarf.
 
 Sollte Handlungsbedarf bei eine Qualifikation bestehen und Sie dokumentieren wollen, dass Sie über diese Qualifikation verfügen, dann klicken Sie bitte auf das Kebab-Menü (3) und wählen Sie dort den Eintrag **Neues Qualifikationsereignis hinzufügen** aus.
+
+#### Qualifikationshistorie
+
+Für eine Qualifikation können mehrere Qualifikationsereignisse vorhanden sein, z.B. wenn dieselbe Schulung regelmäßig wiederholt wird oder Zertifikate erneuert werden.
+
+Die Historie enthält sämtliche früheren und aktuellen Qualifikationsereignisse inklusive Erwerbsdatum, Ablaufdatum und weiterer Dokumentation.
+
+Standardmäßig werden alle Ereignisse angezeigt. Je nach Ansicht können Sie die Anzeige auf das aktuellste Ereignis beschränken.
 
 ### Was kann ich als Vorgesetzter oder Administrator in dieser App machen?
 
