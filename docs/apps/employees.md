@@ -11,6 +11,12 @@ Aktuelle Erweiterungen und Verbesserungen dieser App finden Sie [hier](/blog/tag
 
 Unter dieser App finden Sie die Auflistung aller Mitarbeiter in Ihrem Unternehmen. Sie haben von hier die Möglichkeit den einzelnen Mitarbeitern Positionen zuzuordnen und können dadurch z.B. ein digitales Organigramm erstellen, dass immer aktuell ist.
 
+## Offboarding von Mitarbeitern
+
+- Was ist Offboarding?
+- Wie wird Offboarding in der App Mitarbeiter umgesetzt?
+- Welche konkreten Dinge werden beim Offboarding berücksichtigt?
+
 ## FAQs Mitarbeiter
 
 Hier finden Sie Fragen und Antworten, die häufig im Zusammenhang mit der App Mitarbeiter auftauchen.
