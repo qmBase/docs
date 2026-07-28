@@ -1,0 +1,16 @@
+---
+title: Setup
+---
+
+This document describes how to set up qmBase in a self-hosted environment. It covers Docker Compose installation.
+Here we describe the Environment Variables that need to be defined in the `.env.example` file.
+
+Most variables are explained in the `.env.example` file. The following table lists the most important variables and their default values.
+
+
+| Variable          | Description                                | Default Value          |
+| ----------------- | ------------------------------------------ | ---------------------- |
+| MSSQL_SA_PASSWORD | Password to MS SQL Server                  | YourStrongPassword123! |
+| ENCRYPTION_KEY    | Encryption key for securing sensitive data | random_string          |
+
+Variables that are marked as `# Do not change` should not be modified unless you know what you are doing. Changing these variables may break your installation.

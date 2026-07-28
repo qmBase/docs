@@ -1,6 +1,5 @@
 ---
 title: Docker Compose
-icon: "docker"
 ---
 
 ## Overview
@@ -10,7 +9,7 @@ The aim is to make the process straightforward and prevent common pitfalls that 
 
 **Important:** Only modify settings explicitly mentioned in this guide. Altering other configurations may lead to issues.
 
-See [Setup Environment Variables](/developers/self-host/capabilities/setup) for advanced configuration. 
+See [Setup Environment Variables](./setup.mdx) for advanced configuration. 
 All environment variables must be declared in the `docker-compose.yml` file at the server and/or worker level, depending on the variable.
 
 ## System Requirements
@@ -29,13 +28,7 @@ Follow these steps for a manual setup.
    Copy the example environment file to a new .env file in your working directory:
 
    ```bash
-   curl -o .env.web https://raw.githubusercontent.com/qmBase/deployment/refs/heads/main/src/pbd-core/.env.web.example
-   ```
-
-  When using your own SMTP Server use these variables additionally
-
-   ```bash
-   curl -o .env.mail https://raw.githubusercontent.com/qmBase/deployment/refs/heads/main/src/pbd-core/.env.mail.example
+   curl -o .env.web https://raw.githubusercontent.com/qmBase/deployment/refs/heads/main/src/pbd-core/.env.example
    ```
 
 2. **Generate an Encryption Key**
@@ -56,7 +49,7 @@ Follow these steps for a manual setup.
    ENCRYPTION_KEY=random_string
    ```
 
-   See the [Key rotation guide](/developers/self-host/capabilities/key-rotation) for instructions on rotating it without downtime.
+{/* TODO: Describe Key Rotation and how to rotate the key without losing access to secrets. */}
 
 
 ### Step 2: Obtain the Docker Compose File
@@ -199,7 +192,7 @@ Regular backups protect your data from loss.
 
 ## Troubleshooting
 
-If you encounter any problem, check [Troubleshooting](/developers/self-host/capabilities/troubleshooting) for solutions.
+If you encounter any problem, check [Troubleshooting](./on-prem.mdx) for solutions.
 
 ## Managed Hosting
 

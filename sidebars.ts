@@ -44,12 +44,7 @@ const sidebars: SidebarsConfig = {
       label: "Account",
       link: { type: "generated-index" },
       collapsed: true,
-      items: [
-        "account/account-register",
-        "account/account-login",
-        "account/profile",
-        "account/account-externalLogin",
-      ],
+      items: ["account/account-register", "account/account-login", "account/profile", "account/account-externalLogin"],
     },
     {
       type: "category",
@@ -195,4 +190,3 @@ const sidebars: SidebarsConfig = {
 };
 
 module.exports = sidebars;
-
