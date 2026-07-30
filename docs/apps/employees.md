@@ -13,9 +13,78 @@ Unter dieser App finden Sie die Auflistung aller Mitarbeiter in Ihrem Unternehme
 
 ## Offboarding von Mitarbeitern
 
-- Was ist Offboarding?
-- Wie wird Offboarding in der App Mitarbeiter umgesetzt?
-- Welche konkreten Dinge werden beim Offboarding berücksichtigt?
+### Was ist Offboarding?
+
+Als Offboarding bezeichnet man den strukturierten Prozess, der abläuft, wenn ein Mitarbeiter Ihr Unternehmen verlässt. Es ist damit das Gegenstück zum Onboarding.
+
+In qmBase steht dabei vor allem eine Frage im Mittelpunkt: **Was passiert mit den Verantwortlichkeiten, die diese Person aktuell noch hält?**
+
+Wenn ein Mitarbeiter gelöscht oder aus der Mitarbeiterliste entfernt wird, verschwinden die mit ihm verknüpften Einträge nämlich nicht. Reklamationen, Ziele, Audits oder Schulungen bleiben bestehen, nur eben mit einem Verantwortlichen, der nicht mehr im Unternehmen ist. Solche Einträge fallen im Tagesgeschäft schnell durchs Raster: Es fühlt sich niemand mehr zuständig, Benachrichtigungen laufen ins Leere und Fristen verstreichen unbemerkt.
+
+Das Offboarding in der App Mitarbeiter sorgt dafür, dass Ihnen genau diese offenen Punkte gebündelt angezeigt werden und Sie sie gezielt abarbeiten können.
+
+### Wie wird Offboarding in der App Mitarbeiter umgesetzt?
+
+Sie erreichen das Offboarding in der App [Mitarbeiter](https://app.qmbase.com/Account/findworkspace?returnUrl=/employees/offboarding) über die Seitenleiste unter **Workflows > Offboarding**.
+
+Zusätzlich werden Sie aktiv darauf hingewiesen: Wenn Sie in der Mitarbeiterliste einen oder mehrere Mitarbeiter löschen, erscheint zunächst der Hinweis **Offboarding empfohlen**. Sie können dort entweder direkt in die Offboarding-Übersicht wechseln oder den Mitarbeiter bewusst trotzdem löschen.
+
+Der Ablauf im Einzelnen:
+
+1. **Übersicht öffnen**: Die Offboarding-Übersicht listet Ihre Mitarbeiter auf. Standardmäßig werden dabei die bereits gelöschten Mitarbeiter (Papierkorb) angezeigt, also genau die Personen, bei denen typischerweise noch aufgeräumt werden muss. Über den Filter können Sie stattdessen auch die aktiven Mitarbeiter einblenden, um ein Offboarding schon vor dem Löschen vorzubereiten.
+2. **Mitarbeiter auswählen**: Ein Klick auf den Namen öffnet die Offboarding-Detailseite dieser Person.
+3. **Offene Verantwortlichkeiten prüfen**: Auf der Detailseite sehen Sie links das Profil des Mitarbeiters und rechts die Karte **Aktive Verantwortlichkeiten**. Dort sind alle Einträge aufgelistet, für die diese Person noch als Verantwortlicher eingetragen ist, modulübergreifend in einer einzigen Liste.
+4. **Einträge abarbeiten**: Für jeden Eintrag wählen Sie eine passende Aktion (siehe Tabelle unten). Die Liste aktualisiert sich nach jeder Aktion automatisch.
+5. **Abschließen**: Sind keine Einträge mehr vorhanden, ist der Mitarbeiter aus Sicht der Verantwortlichkeiten sauber übergeben.
+
+Die Liste enthält die Spalten **Typ**, **Titel**, **Status** und **Aktionen**. Über die Filter oberhalb der Tabelle können Sie nach Typ und Status einschränken, was besonders bei vielen offenen Punkten hilfreich ist. Ein Klick auf den Titel öffnet den jeweiligen Eintrag direkt im zugehörigen Modul, falls Sie sich den Vorgang vor einer Entscheidung genauer ansehen möchten.
+
+Für jeden Eintrag stehen bis zu drei Aktionen zur Verfügung:
+
+| Aktion | Bedeutung | Verfügbar für |
+| --- | --- | --- |
+| **Verantwortung übertragen** | Sie wählen einen anderen Mitarbeiter aus, der die Verantwortung übernimmt. Der Eintrag bleibt inhaltlich unverändert bestehen. | Alle Typen |
+| **Als abgeschlossen markieren** | Der Eintrag wird auf den Status *Abgeschlossen* gesetzt. Sinnvoll, wenn der Vorgang ohnehin erledigt ist und nur nie geschlossen wurde. | Schulungen, Reklamationen, Ziele, Audits, Risiken & Chancen, Maßnahmen, Ideen |
+| **Löschen** | Der Eintrag wird in den Papierkorb verschoben. Sinnvoll bei Einträgen, die gegenstandslos geworden sind. | Alle Typen |
+
+:::info
+**Verantwortung übertragen** ist in den meisten Fällen die richtige Wahl. Ein Eintrag, der noch aktiv ist, sollte weiterhin bearbeitet werden, nur eben von einer anderen Person. Die Auswahlliste enthält die aktiven Mitarbeiter; die ausscheidende Person selbst kann nicht ausgewählt werden.
+:::
+
+### Welche konkreten Dinge werden beim Offboarding berücksichtigt?
+
+Geprüft wird modulübergreifend, wo der Mitarbeiter noch als **Verantwortlicher** eingetragen ist. Berücksichtigt werden dabei folgende Bereiche:
+
+| App | Was geprüft wird |
+| --- | --- |
+| Dokumentenmanagement | Dokumente |
+| Wiki | Artikel des Unternehmenswikis |
+| Blog | Blogbeiträge |
+| Schulungen & Qualifikationen | Schulungen |
+| Reklamationsmanagement | Reklamationen |
+| Zielmanagement | Ziele |
+| Auditmanagement | Audits |
+| Chancen- und Risikomanagement | Risiken und Chancen |
+| Maßnahmenmanagement | Maßnahmen |
+| Instandhaltungsmanagement | Inventargegenstände |
+| CRM | Organisationen (Kunden und Lieferanten) |
+| Ideenmanagement | Ideen |
+| Formulargenerator | Formulare |
+
+**Wann gilt ein Eintrag als offen?**
+
+In die Liste kommen nur Einträge, bei denen tatsächlich noch Handlungsbedarf besteht. Nicht angezeigt werden daher:
+
+- Einträge im Papierkorb
+- Archivierte Einträge
+- Einträge mit dem Status *Abgeschlossen*, *Inaktiv* oder *Zurückgezogen*
+- Einträge, die bereits als erledigt markiert sind (z.B. abgeschlossene Schulungen oder Maßnahmen)
+
+Eine leere Liste bedeutet also: Für diesen Mitarbeiter sind keine offenen Verantwortlichkeiten mehr vorhanden.
+
+:::info
+Das Offboarding prüft ausschließlich die Rolle **Verantwortlicher**. Einträge, die der Mitarbeiter lediglich erstellt hat oder an denen er z.B. als Teilnehmer einer Schulung beteiligt war, bleiben unverändert erhalten und werden hier nicht aufgelistet. Ebenso wird der **Benutzeraccount** nicht berührt: Dieser wird separat im Admin-Bereich gelöscht (siehe FAQ unten).
+:::
 
 ## FAQs Mitarbeiter
 
@@ -34,7 +103,7 @@ Innerhalb von qmBase werden die Nutzer und Mitarbeiter getrennt voneinander erfa
    - Mitarbeiter löschen: Der Mitarbeiter wird in den Papierkorb verschoben
    - Mitarbeiter aus Mitarbeitern entfernen: Die Person wird nicht mehr als Mitarbeiter gelistet, ist aber noch als Kontakt über das CRM erreichbar. Verknüpfte Positionen bleiben erhalten.
 
-3. Abschließend muss überprüft werden, ob der ehemalige Mitarbeiter noch als Verantwortlicher für aktive Aufgaben festgelegt ist.
+3. Abschließend muss überprüft werden, ob der ehemalige Mitarbeiter noch als Verantwortlicher für aktive Aufgaben festgelegt ist. Nutzen Sie dafür das [Offboarding](#offboarding-von-mitarbeitern), das Ihnen alle offenen Verantwortlichkeiten modulübergreifend anzeigt.
 
 Alle mit dem Mitarbeiter verknüpften Informationen, wie z.B. Maßnahmen oder Ideen bleiben erhalten. Der Mitarbeiter kann dann aber zukünftig nicht mehr als Verantwortlicher ausgewählt werden.
 
