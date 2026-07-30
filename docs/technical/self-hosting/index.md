@@ -9,14 +9,9 @@ There are several ways to self-host the application, this documentation focuses 
 Self-hosting allows you to run the application on your own infrastructure, giving you full control over your data and environment. However, it also requires more responsibility for maintenance, updates, and security.
 It can be done on hardware you own or on a virtual machine in a cloud provider of your choice (Azure, AWS, GCP). The application is designed to be flexible and can be deployed in various environments, including Windows, Linux, and macOS.
 
-## Install on Azure, AWS, GCP
-
-See [Docker Compose](./docker.mdx).
-
-The general trade off between self-hosting and using the cloud service is described in the following table:
-
 ## Feature Comparison
 
+The general trade off between self-hosting and using the cloud service is described in the following table.
 While we try to achieve feature parity of our cloud version and the software you can install in your own data center there are some differences.
 The differences are shown in the table below.
 
@@ -63,3 +58,7 @@ Upon request we can also use an Email Server that is provided by you. The email 
 ## Support
 
 We only support the latest version of On-Premises installation.
+
+## Install on Azure, AWS, GCP
+
+See [Docker Compose](./docker.mdx).
