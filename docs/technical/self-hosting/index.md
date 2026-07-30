@@ -4,7 +4,7 @@ title: Self-Hosting
 ---
 
 This section provides guidance for self-hosting the application, including Docker deployment, backup strategies, and troubleshooting.
-There are several ways to self-host the application, this documentation focuses on the [Docker](docker.mdx) deployment method which is the most common and recommended approach. For other deployment methods, please refer to the [On-Premises](./on-prem.mdx) documentation.
+There are several ways to self-host the application, this documentation focuses on the [Docker](docker.mdx) deployment method which is the most common and recommended approach. For other deployment methods, please refer to the [Installation Windows](./install-windows.mdx) documentation.
 
 Self-hosting allows you to run the application on your own infrastructure, giving you full control over your data and environment. However, it also requires more responsibility for maintenance, updates, and security.
 It can be done on hardware you own or on a virtual machine in a cloud provider of your choice (Azure, AWS, GCP). The application is designed to be flexible and can be deployed in various environments, including Windows, Linux, and macOS.
