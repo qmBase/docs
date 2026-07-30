@@ -1,0 +1,29 @@
+---
+title: Troubleshooting
+---
+
+
+In case of problems during startup or runtime problems of the the software it might be required to collect additional information.
+To enable detailed logging please change the following in your `web.config` file which is located in the root folder of your installation.
+Here you have to set the `stdoutLogEnabled="false"` to `stdoutLogEnabled="true"`. After a restart of the application you will find detailed logs in the folder defined in `stdoutLogFile`.
+
+```xml title="/web.config"
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <location path="." inheritInChildApplications="false">
+    <system.webServer>
+      <handlers>
+        <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" />
+      </handlers>
+    // highlight-next-line
+      <aspNetCore processPath="dotnet" arguments=".\PBD.Core.Web.dll" stdoutLogEnabled="true" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" />
+    </system.webServer>
+  </location>
+</configuration>
+```
+
+Please don't forget to deactivate the logging after the problem is resolved. Logging has a substantiell negative performance impact.
+
+### 500.19
+
+- Reinstall dot.net framework https://blog.elmah.io/http-error-500-19-internal-server-error/

@@ -1,18 +1,8 @@
 ---
-id: on-prem
-title: On-Premises
-sidebar_label: On-Premises
-slug: /technical/on-prem
+title: Installation Windows
 ---
 
 qmBase can also be installed on your own hardware. While this is possible, it is not the preferred way of our customers to use qmBase. At the time of writing more than **93%** of our customers are using our default cloud based version.
-
-## Installation
-
-In the following section the installation for various options is described.
-
-### Install on Windows
-
 qmBase can be installed on Windows.
 
 #### Prerequisites
@@ -116,81 +106,5 @@ We are improving qmBase continuously. That means that we are releasing multiple 
 
 Alternatively you can use the qmBase.Installer.exe. If you use the default configuration you can do 9 out of 10 updates automatically. Please note that the qmBase.Installer is part of the Enterprise subscription.
 
-### Install on Azure
 
-Possible but not documented.
 
-## Breaking Changes
-
-This sections contains infos about breaking changes for On-Premises installation. There might be some environment specific settings and actions that need to be performend.
-
-### 2025-06-25: Updated web.config file
-
-If you have a installed and configured qmBase before this date, you need to update your `web.config` file in in your main `\app` folder. The required changes are highlighted in the code example below.
-
-❌ Old
-
-```xml title="/web.config"
-<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-  <location path="." inheritInChildApplications="false">
-    <system.webServer>
-      <handlers>
-        <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" />
-      </handlers>
-      <aspNetCore processPath="dotnet" arguments=".\PBD.Core.Web.Qm.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" />
-    </system.webServer>
-  </location>
-</configuration>
-```
-
-✅ New
-
-```xml title="/web.config"
-<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-  <location path="." inheritInChildApplications="false">
-    <system.webServer>
-      <handlers>
-        <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" />
-      </handlers>
-    // highlight-next-line
-      <aspNetCore processPath="dotnet" arguments=".\PBD.Core.Web.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" />
-    </system.webServer>
-  </location>
-</configuration>
-```
-
-## Deployment Status
-
-|            | Status                                                                                                                                               |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Build      | [![Build status](https://dev.azure.com/caqio/PBD/_apis/build/status/qmBase%20Master)](https://dev.azure.com/caqio/PBD/_build/latest?definitionId=24) |
-| Deployment | ![Deployment status](https://vsrm.dev.azure.com/caqio/_apis/public/Release/badge/40d1313e-3385-464b-a9ed-3cce1c2d470e/3/16)                          |
-
-## Troubleshoot
-
-In case of problems during startup or runtime problems of the the software it might be required to collect additional information.
-To enable detailed logging please change the following in your `web.config` file which is located in the root folder of your installation.
-Here you have to set the `stdoutLogEnabled="false"` to `stdoutLogEnabled="true"`. After a restart of the application you will find detailed logs in the folder defined in `stdoutLogFile`.
-
-```xml title="/web.config"
-<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-  <location path="." inheritInChildApplications="false">
-    <system.webServer>
-      <handlers>
-        <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" />
-      </handlers>
-    // highlight-next-line
-      <aspNetCore processPath="dotnet" arguments=".\PBD.Core.Web.dll" stdoutLogEnabled="true" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" />
-    </system.webServer>
-  </location>
-</configuration>
-```
-
-Please don't forget to deactivate the logging after the problem is resolved. Logging has a substantiell negative performance impact.
-
-### 500.19
-
-- Reinstall dot.net framework https://blog.elmah.io/http-error-500-19-internal-server-error/
