@@ -1053,6 +1053,7 @@ whether
 whitelabel
 Whitelabel
 Wiedervorlagefunktion
+Wikiartikel
 Wikieintrag
 Wirksamkeitspr├╝fung
 Wirksamkeitsprüfung
@@ -1078,8 +1079,8 @@ zebra
 zeitbasierten
 zeitbasiertes
 zeitgestempelt
-Zertifizierungsvorgaben
 Zertifizierungsnachweise
+Zertifizierungsvorgaben
 Zhukovskyi
 Zielerreichungsberechnung
 Zirkelbeziehungen
