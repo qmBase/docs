@@ -39,7 +39,7 @@ Zum 31.03.2024 werden folgende Domains abgeschaltet:
 - https://qmbase-armfunctions.azurewebsites.net
 
 On-Premises Nutzer müssen bis zum diesem Datum Ihr qmBase aktualisiert haben, damit alle Funktionen unterbrechungsfrei zur Verfügung stehen.
-Eine aktuelle Übersicht finden Sie jederzeit [hier](/docs/technical/on-prem).
+Eine aktuelle Übersicht finden Sie jederzeit [hier](/docs/technical/self-hosting).
 
 ### 2020-06-22 Speicherdauer E-Mails und Synchronisationsevents
 
