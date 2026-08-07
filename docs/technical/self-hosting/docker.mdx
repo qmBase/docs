@@ -1,0 +1,215 @@
+---
+title: Docker Compose
+---
+
+## Overview
+
+:::info
+Downloading files and software requires a valid license. If you don't have one, please contact [info@qmbase.com](mailto:info@qmbase.com).
+If you just want to try out qmBase, you can use our [hosted demo](https://app.qmbase.com/signup) for free.
+:::
+
+This guide provides step-by-step instructions to install and configure the qmBase application using Docker Compose. 
+The aim is to make the process straightforward and prevent common pitfalls that could break your setup.
+
+**Important:** Only modify settings explicitly mentioned in this guide. Altering other configurations may lead to issues.
+
+See [Setup Environment Variables](./setup.mdx) for advanced configuration. 
+All environment variables must be declared in the `docker-compose.yml` file at the server and/or worker level, depending on the variable.
+
+## System Requirements
+
+- RAM: Ensure your environment has at least 8GB of RAM. Insufficient memory can cause processes to crash.
+- Docker & Docker Compose: Make sure both are installed and up-to-date.
+
+## Steps to install
+
+Follow these steps for a manual setup.
+
+### Step 1: Set Up the Environment File
+
+1. **Create the .env Files**
+
+   Copy the example environment file to a new .env file in your working directory:
+
+   ```bash
+   curl -o .env https://raw.githubusercontent.com/qmBase/deployment/refs/heads/main/src/pbd-core/.env.example
+   ```
+
+2. **Generate an Encryption Key**
+
+   Run the following command to generate a unique random string:
+
+   ```bash
+   openssl rand -base64 32
+   ```
+
+   **Important:** Keep this value secret / do not share it. Losing `ENCRYPTION_KEY` means losing access to every secret stored in the database (OAuth tokens, application variables, TOTP secrets, etc.).
+
+3. **Update the `.env`**
+
+   Replace the placeholder value in your .env file with the generated token:
+
+   ```ini
+   ENCRYPTION_KEY=random_string
+   ```
+
+{/* TODO: Describe Key Rotation and how to rotate the key without losing access to secrets. */}
+
+
+### Step 2: Obtain the Docker Compose File
+
+Download the `docker-compose.yml` file to your working directory:
+
+```bash
+curl -o docker-compose.yml https://raw.githubusercontent.com/qmBase/deployment/refs/heads/main/src/pbd-core/docker-compose.yml
+```
+
+### Step 3: Launch the Application
+
+Start the Docker containers:
+
+```bash
+docker compose up -d
+```
+
+### Step 4: Access the Application
+
+If you host qmBase on your own computer, open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+
+If you host it on a server, check that the server is running and that everything is ok with
+
+```bash
+curl http://localhost:3000
+```
+
+## Configuration
+
+### Expose qmBase to External Access
+
+By default, qmBase runs on `localhost` at port `3000`. To access it via an external domain or IP address, you need to configure the `SERVER_URL` in your `.env` file.
+
+#### Understanding `SERVER_URL`
+
+- **Protocol:** Use `http` or `https` depending on your setup.
+  - Use `http` if you haven't set up SSL.
+  - Use `https` if you have SSL configured.
+- **Domain/IP:** This is the domain name or IP address where your application is accessible.
+- **Port:** Include the port number if you're not using the default ports (`80` for `http`, `443` for `https`).
+
+### SSL Requirements
+
+SSL (HTTPS) is required for certain browser features to work properly. 
+While these features might work during local development (as browsers treat localhost differently), a proper SSL setup is needed when hosting qmBase on a regular domain.
+
+For example, the clipboard API might require a secure context - some features like copy buttons throughout the application might not work without HTTPS enabled.
+
+We strongly recommend setting up qmBase behind a reverse proxy with SSL termination for optimal security and functionality.
+
+#### Configuring `SERVER_URL`
+
+1. **Determine Your Access URL**
+   - **Without Reverse Proxy (Direct Access):**
+
+     If you're accessing the application directly without a reverse proxy:
+
+     ```ini
+     SERVER_URL=http://your-domain-or-ip:3000
+     ```
+
+   - **With Reverse Proxy (Standard Ports):**
+
+     If you're using a reverse proxy like Nginx or Traefik and have SSL configured:
+
+     ```ini
+     SERVER_URL=https://your-domain-or-ip
+     ```
+
+   - **With Reverse Proxy (Custom Ports):**
+
+     If you're using non-standard ports:
+
+     ```ini
+     SERVER_URL=https://your-domain-or-ip:custom-port
+     ```
+
+2. **Update the `.env` File**
+
+   Open your `.env` file and update the `SERVER_URL`:
+
+   ```ini
+   SERVER_URL=http(s)://your-domain-or-ip:your-port
+   ```
+
+   **Examples:**
+   - Direct access without SSL:
+     ```ini
+     SERVER_URL=http://123.45.67.89:3000
+     ```
+   - Access via domain with SSL:
+     ```ini
+     SERVER_URL=https://myqmbaseapp.com
+     ```
+
+3. **Restart the Application**
+
+   For changes to take effect, restart the Docker containers:
+
+   ```bash
+   docker compose down
+   docker compose up -d
+   ```
+
+#### Considerations
+
+- **Reverse Proxy Configuration:**
+
+  Ensure your reverse proxy forwards requests to the correct internal port (`8080` by default). Configure SSL termination and any necessary headers.
+  An example Nginx configuration for SSL termination can be downloaded:
+  
+  ```bash
+  mkdir -p nginx
+  curl -o nginx/nginx.conf https://raw.githubusercontent.com/qmBase/deployment/refs/heads/main/src/pbd-core/nginx/ssl-config/nginx.conf
+  ```
+
+  
+
+- **Firewall Settings:**
+
+  Open necessary ports in your firewall to allow external access.
+
+- **Consistency:**
+
+  The `SERVER_URL` must match how users access your application in their browsers.
+
+#### Persistence
+
+- **Data Volumes:**
+
+  The Docker Compose configuration uses volumes to persist data for the database and server storage.
+
+- **Stateless Environments:**
+
+  If deploying to a stateless environment (e.g., certain cloud services), configure external storage to persist data.
+
+## Backup and Restore
+
+Regular backups protect your data from loss. The `docker-compose.yml` file includes a `backup` service that can be used to create and restore backups.
+
+### Backup Best Practices
+
+- **Test restores regularly** — verify backups actually work
+- **Store backups off-site** — use cloud storage (Azure Blob Storage, S3, GCS, etc.)
+- **Encrypt sensitive data** — protect backups with encryption
+- **Retain multiple copies** — keep daily, weekly, and monthly backups
+
+## Troubleshooting
+
+If you encounter any problem, check [Troubleshooting](./troubleshooting.mdx) for solutions.
+
+## Managed Hosting
+
+:::info
+  Prefer not to run and maintain qmBase yourself? Use our managed hosting service, which handles everything
+  to deploy, host, and manage your instance end-to-end. *(Or reach our team: [info@qmbase.com](mailto:info@qmbase.com).)*
+:::

@@ -628,6 +628,7 @@ Nenad
 neque
 neuzuladen
 newlines
+nginx
 nibh
 nicely
 nisl
@@ -1053,6 +1054,7 @@ whether
 whitelabel
 Whitelabel
 Wiedervorlagefunktion
+Wikiartikel
 Wikieintrag
 Wirksamkeitspr├╝fung
 Wirksamkeitsprüfung
@@ -1078,8 +1080,8 @@ zebra
 zeitbasierten
 zeitbasiertes
 zeitgestempelt
-Zertifizierungsvorgaben
 Zertifizierungsnachweise
+Zertifizierungsvorgaben
 Zhukovskyi
 Zielerreichungsberechnung
 Zirkelbeziehungen

@@ -44,12 +44,7 @@ const sidebars: SidebarsConfig = {
       label: "Account",
       link: { type: "generated-index" },
       collapsed: true,
-      items: [
-        "account/account-register",
-        "account/account-login",
-        "account/profile",
-        "account/account-externalLogin",
-      ],
+      items: ["account/account-register", "account/account-login", "account/profile", "account/account-externalLogin"],
     },
     {
       type: "category",
@@ -132,7 +127,6 @@ const sidebars: SidebarsConfig = {
         "faqs/faq-4",
         "faqs/faq-5",
         "faqs/faq-9",
-        "faqs/faq-10",
         "faqs/faq-11",
         "faqs/faq-14",
         "faqs/faq-16",
@@ -154,7 +148,6 @@ const sidebars: SidebarsConfig = {
         "faqs/faq-46",
         "faqs/faq-50",
         "faqs/faq-51",
-        "faqs/faq-52",
         "faqs/faq-55",
         "faqs/faq-62",
         "faqs/faq-64",
@@ -171,7 +164,6 @@ const sidebars: SidebarsConfig = {
         "faqs/faq-96",
         "faqs/faq-112",
         "faqs/faq-115",
-        "faqs/faq-125",
         "faqs/create-page-templates",
         "faqs/globale-suche",
         "faqs/preview-badge",
@@ -195,4 +187,3 @@ const sidebars: SidebarsConfig = {
 };
 
 module.exports = sidebars;
-

@@ -1,0 +1,110 @@
+---
+title: Installation Windows
+---
+
+qmBase can also be installed on your own hardware. While this is possible, it is not the preferred way of our customers to use qmBase. At the time of writing more than **93%** of our customers are using our default cloud based version.
+qmBase can be installed on Windows.
+
+#### Prerequisites
+
+:::info[Updates of requirements]
+We use an Evergreen IT-Strategy. Therefore we work with latest Tools and software as they are released. This leads to regular updates of the requirements that are described below.
+:::
+
+- MS SQL 2025 Database (Compatibility Level 170) - Older Versions might work but are not tested by us.
+- Windows 10 Pro or higher
+- ASP.NET Core Hosting Bundle 10.x
+- IIS Webserver V 10
+- SQL Server Management Studio, if managing the database is required
+- SSL Certificate Public or self signed
+- Hardware requirements
+  - min 8 GB Ram
+  - min 10 GB HDD
+- Internet access from the server validate subscriptions and user management
+
+##### Recommended Folder Structure
+
+- D:\qmbase\
+  - app\ -> Save the app data here
+  - builds\ -> Save old builds here if you need to roll back an update
+  - databases\ -> Store databases here
+  - uploads\\[CustomerId]\ -> Save user generated uploads here
+  - installer\ -> The qmBase Installer will be saved here
+
+:::note
+Use a dedicated partition (D:\\) to store the data.
+:::
+
+#### How to install?
+
+1. Download the latest qmBase version from [here](https://app.qmbase.com/downloads/). You will get the credentials via mail after you have signed the contract.
+2. Extract the ZIP file to the folder where the IIS is located.
+3. Run the latest database migrations. The SQL scripts will be provided on the download page as well. You will need to create 2 databases. Use the following name schema
+
+   - multi-tenant
+   - qmbase[CustomerId]
+
+4. qmBase requires a SSL connection. So you have to configure the IIS to use either a self signed certificate or use a regular certificate. The assigned url must not contain **qmbase**. You can use **qm-base** as an alternative.
+5. Configure qmBase and start running.
+
+##### Configure qmBase
+
+To configure qmBase you have take actions in 2 different places.
+
+Insert this row in your multi tenant database
+
+```sql
+INSERT INTO [yourDatabase].[dbo].[MultiTenants]
+(
+  ,[DatabaseType]
+  ,[Host]
+  ,[ConnectionString]
+  ,[StorageConnectionString]
+  ,[Name]
+  ,[CustomerId]
+)
+VALUES
+(
+  ,0
+  ,pathToYour.qmbase
+  ,SQL Connection string
+  ,NULL
+  ,yourCustomerName
+  ,yourCustomerId
+)
+```
+
+Change the appSettings.Production.json file
+
+```json
+// These settings will only be applied if HostingEnvironment is "Production"
+// Use this file to customize the behavior in Production
+// Be aware of invalid json due to unescaped characters, trailing comma etc.
+{
+  //ApplicationInsights settings omitted for brevity.
+  "ConnectionStrings": {
+    "MultiTenantConnection": "Connection string to multiTenantContext",
+    // These settings are not needed if multiTenant==true
+    "DefaultConnection": "Your Ms SQL ConnectionString -> not needed in MultiTenantScenario"
+  },
+  "AppSettings": {
+    "MultiTenantContext": true,
+    "StorageType": "FileSystem", //"FileSystem" | "AzureBlobStorage"
+    "PhysicalFileProviderRootPath": "D:\\qmbase\\uploads"
+  }
+}
+```
+
+#### How to update?
+
+We are improving qmBase continuously. That means that we are releasing multiple Updates per Day. So if you are experiencing any bugs you can always try to download the latest release.
+
+1. Delete all files in <code>app</code> folder except **web.config** and **appSettings.Production.json**.
+2. Extract the zip file from the update and copy all files except **web.config** and **appSettings.Production.json** to the <code>app</code> folder.
+
+##### qmBase.Installer
+
+Alternatively you can use the qmBase.Installer.exe. If you use the default configuration you can do 9 out of 10 updates automatically. Please note that the qmBase.Installer is part of the Enterprise subscription.
+
+
+
