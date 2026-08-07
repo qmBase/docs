@@ -4,6 +4,11 @@ title: Docker Compose
 
 ## Overview
 
+:::info
+Downloading files and software requires a valid license. If you don't have one, please contact [info@qmbase.com](mailto:info@qmbase.com).
+If you just want to try out qmBase, you can use our [hosted demo](https://app.qmbase.com/signup) for free.
+:::
+
 This guide provides step-by-step instructions to install and configure the qmBase application using Docker Compose. 
 The aim is to make the process straightforward and prevent common pitfalls that could break your setup.
 
@@ -159,7 +164,14 @@ We strongly recommend setting up qmBase behind a reverse proxy with SSL terminat
 
 - **Reverse Proxy Configuration:**
 
-  Ensure your reverse proxy forwards requests to the correct internal port (`3000` by default). Configure SSL termination and any necessary headers.
+  Ensure your reverse proxy forwards requests to the correct internal port (`8080` by default). Configure SSL termination and any necessary headers.
+  An example Nginx configuration for SSL termination can be downloaded:
+  
+  ```bash
+  curl -o nginx/nginx.conf https://raw.githubusercontent.com/qmBase/deployment/refs/heads/main/src/pbd-core/nginx/ssl-config/nginx.conf
+  ```
+
+  
 
 - **Firewall Settings:**
 
@@ -181,7 +193,7 @@ We strongly recommend setting up qmBase behind a reverse proxy with SSL terminat
 
 ## Backup and Restore
 
-Regular backups protect your data from loss.
+Regular backups protect your data from loss. The `docker-compose.yml` file includes a `backup` service that can be used to create and restore backups.
 
 ### Backup Best Practices
 
