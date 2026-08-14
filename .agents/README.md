@@ -11,7 +11,7 @@ Content in this folder:
 
 If there is a conflict between:
 
-- AI output and `.ai/` rules
-- `.ai/` rules and documentation
+- AI output and `.agents/` rules
+- `.agents/` rules and documentation
 
-The `.ai/` rules take precedence.
+The `.agents/` rules take precedence.

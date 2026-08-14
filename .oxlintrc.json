@@ -1,0 +1,30 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc"],
+  "categories": {
+    "correctness": "error",
+    "nursery": "error",
+    "style": "error",
+    "pedantic": "error",
+    "perf": "error",
+    "restriction": "error",
+    "suspicious": "error"
+  },
+  "env": {
+    "builtin": true,
+    "browser": true
+  },
+  "options": {
+    "typeAware": true,
+    "typeCheck": true
+  },
+  "rules": {
+    "typescript/explicit-function-return-type": "off",
+    "func-style": "off",
+    "oxc/no-async-await": "off",
+    "typescript/explicit-module-boundary-types": "off",
+    "capitalized-comments": "off",
+    "one-var": "off",
+    "no-console": "warn"
+  }
+}

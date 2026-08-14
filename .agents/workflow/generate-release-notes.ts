@@ -1,5 +1,5 @@
-import fs from "fs/promises";
-import { runPrompt } from "../lib/runPrompt"; // your LLM wrapper
+import fs from "node:fs/promises";
+import { runPrompt } from "../lib/runPrompt";
 
 interface IProps {
   version: string;
@@ -8,10 +8,10 @@ interface IProps {
 export async function generateReleaseNotes({ version }: IProps) {
   // 1. Normalize persona
   // const personaContext = buildPersonaContext(persona);
-  const changeContext = await fs.readFile("./blog/current/pending-changes.md", "utf-8");
+  const changeContext = await fs.readFile("./blog/current/pending-changes.md", "utf8");
 
   // 2. Load prompt template
-  const template = await fs.readFile("./.ai/prompts/release-notes-writer.prompt.md", "utf-8");
+  const template = await fs.readFile("./.agents/prompts/release-notes-writer.prompt.md", "utf8");
 
   // TODO: Switch to handlebars eventually, but for now simple replace is fine since we control the template
   // 3. Inject variables
@@ -30,7 +30,7 @@ export async function generateReleaseNotes({ version }: IProps) {
   return result;
 }
 
-generateReleaseNotes({ version: "1_1_223" })
+await generateReleaseNotes({ version: "1_1_223" })
   .then((notes) => {
     console.log("Release notes generated successfully:");
     console.log(notes);
