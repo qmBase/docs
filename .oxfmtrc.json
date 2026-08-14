@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "semi": true,
+  "trailingComma": "all",
+  "singleQuote": false,
+  "printWidth": 120,
+  "sortPackageJson": true,
+  "ignorePatterns": ["build/**", "node_modules/**", "playwright-report/**", "coverage/**", ".docusaurus/**"],
+  "endOfLine": "crlf",
+  "sortImports": {
+    "newlinesBetween": true,
+    "groups": [
+      "type-import",
+      ["value-builtin", "value-external"],
+      "type-internal",
+      "value-internal",
+      ["type-parent", "type-sibling", "type-index"],
+      ["value-parent", "value-sibling", "value-index"],
+      "unknown"
+    ]
+  }
+}

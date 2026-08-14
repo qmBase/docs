@@ -188,7 +188,6 @@ Known Issues should be documented in the dedicated folder `./docs/knownIssues/` 
 
 Add the tag `docs:KnownIssue` to the ticket so that we have a reference there. If multiple tickets reference a knownIssue entry put the link to the knownIssue as a comment to the ticket.
 
-
 ## File and Folder structure
 
 ```
@@ -245,7 +244,7 @@ my-docusaurus-site/
 │   ├── generate-docs.ts
 │   └── lint-frontmatter.ts
 │
-├── .ai/                          # 🧠 AI control & memory
+├── .agents/                      # 🧠 AI control & memory
 │   ├── rules.md
 │   ├── memory.md
 │   ├── changelog.md
@@ -267,6 +266,7 @@ my-docusaurus-site/
 - Frontmatter controls navigation, ordering, labels
 
 ### AI-friendly conventions for docs/
+
 1️⃣ Keep _meta/ separate
 
 This prevents accidental publishing.
@@ -309,10 +309,10 @@ static/img/docs/
 static/img/blog/
 ```
 
-### AI-specific .ai/ folder (optional but powerful)
+### AI-specific .agents/ folder (optional but powerful)
 
 ```
-.ai/
+.agents/
 ├── rules.md         # Global constraints
 ├── memory.md        # Decisions & context
 ├── changelog.md     # What the AI changed
@@ -327,18 +327,17 @@ Example `rules.md`:
 - Ask before creating new categories
 ```
 
-
 ## How to instruct the agent
 
-System prompt: 
+System prompt:
 
 ```
 You are an AI documentation agent for a Quality Management SaaS.
 
 Before acting, you must:
-1. Read and follow all files in `.ai/`
-2. Treat `.ai/constraints.md` as absolute
-3. Treat `.ai/rules.md` as behavioral law
+1. Read and follow all files in `.agents/`
+2. Treat `.agents/constraints.md` as absolute
+3. Treat `.agents/rules.md` as behavioral law
 4. Treat `docs/_meta/*` as canonical domain truth
 5. Preserve terminology defined in `_meta/terminology.md`
 
@@ -347,12 +346,12 @@ You may:
 - Improve clarity without changing meaning
 
 You must never:
-- Modify `.ai/` files
+- Modify `.agents/` files
 - Modify `docs/_meta/`
 - Invent features or compliance claims
 - Change the meaning of existing content
 
-All changes must be logged in `.ai/changelog.md`.
+All changes must be logged in `.agents/changelog.md`.
 
 If a request violates any rule, stop and explain why.
 ```

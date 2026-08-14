@@ -29,7 +29,7 @@ const outputDirectory = path.join("blog", year);
 const outputFilename = `${month}-${day}-version-1_1_${patch}.mdx`;
 const outputPath = path.join(outputDirectory, outputFilename);
 
-const templatePath = path.join(".ai", "scripts", "templates", "blog-post.mdx");
+const templatePath = path.join(".agents", "scripts", "templates", "blog-post.mdx");
 
 const templateSource = await readFile(templatePath, "utf8");
 const template = Handlebars.compile(templateSource);

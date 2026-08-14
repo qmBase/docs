@@ -215,6 +215,7 @@ Dar├╝berhinaus
 dashes
 datacenter
 datacenters
+datensouveräne
 Datenvalidierung
 Datumspicker
 deadline
@@ -259,6 +260,7 @@ draft
 Drag
 dramatically
 Draw
+DSGVO
 Dublettenprüfung
 Duis
 Dungeon
@@ -727,6 +729,7 @@ PRIO
 procedures
 production
 Production
+produktionsbereite
 progresses
 prohibited
 Proin
@@ -875,6 +878,7 @@ Some
 something
 sometimes
 spelling
+STACKIT
 staffs
 started
 Startsetie

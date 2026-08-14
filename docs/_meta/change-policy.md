@@ -8,4 +8,4 @@
   - Be logged
 
 All automated changes must be recorded in:
-.ai/changelog.md
+.agents/changelog.md
