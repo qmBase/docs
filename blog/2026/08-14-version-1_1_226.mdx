@@ -1,0 +1,130 @@
+---
+title: Version 1.1.226
+authors:
+  - ppaehler
+  - azhukovskyi
+image: /img/v1_1_226.png
+tags: [Allgemein, Blog, Self-Hosting, Docker, Dokumentenmanagement, WIKI]
+---
+
+Mit diesem Release ist **qmBase ab sofort als offizielles Docker Image** verfügbar - zusätzlich zur bestehenden Windows-On-Premise-Installation (IIS).
+
+Damit legen wir das Fundament für eine hochmoderne, flexible und datensouveräne Anwendungsarchitektur.
+Unternehmen erhalten die volle Freiheit, qmBase in ihrer bevorzugten Infrastruktur zu betreiben, Betriebskosten zu senken und administrative Prozesse zu automatisieren.
+
+{/* truncate */}
+
+{/* TODO: Deviation from normal schema acceptable? */}
+## Allgemein
+
+- **Dark Mode:** UI der Login Seiten wurde in der Dark Mode-Variante überarbeitet. Die Darstellung ist jetzt konsistenter und die Lesbarkeit verbessert.
+- **Tabellen:** Wir haben zahlreiche Tabellen überarbeitet und neue Funktionen z.B. zur Reihenfolge von Spalten hinzugefügt.
+
+### Docker-Deployment für qmBase
+
+**Maximale Datensouveränität & volle Flexibilität:** Neben unserer etablierten Windows-On-Premise-Installation über den Microsoft IIS Server steht **qmBase ab sofort als offizielles Docker-Image** bereit.
+
+Damit schaffen wir eine zukunftssichere Grundlage für den flexiblen Betrieb von qmBase und stärken gezielt die Themen **Self-Hosting, Datensouveränität, einfache Administration und Kostenoptimierung**.
+
+#### ☁️ Unsere Empfehlung: Managed Hosting in der qmBase Cloud
+
+Obwohl Docker neue technische Möglichkeiten eröffnet, bleibt unser **Managed Hosting in der qmBase Cloud** für die meisten Unternehmen die **komfortabelste, sicherste und effizienteste Betriebsart**.
+
+Beim Managed Hosting übernehmen wir die vollständige Verantwortung für den technischen Betrieb. Wir kümmern uns um die Infrastruktur, automatisierte Updates, tägliche Backups, unterbrechungsfreies Monitoring und die technische Absicherung.
+
+##### Ihre Vorteile beim Managed Hosting:
+
+- 🚀 **Geringer Administrationsaufwand:** Entlastung Ihrer internen IT-Ressourcen.
+- 🔄 **Automatisierte Updates:** Sie nutzen immer sofort die neueste qmBase-Version.
+- 💾 **Professionelles Backup & Recovery:** Höchste Datensicherheit mit definierten RTO/RPO-Zielen.
+- 🛡️ **24/7 Monitoring & Security:** Proaktive Überwachung und gehärtete Infrastruktur.
+- 📈 **Nahtlose Skalierbarkeit:** Flexibles Wachstum ohne Hardware-Engpässe.
+- 💡 **Fokus aufs Kerngeschäft:** Kein tiefes Server- oder Container-Know-how erforderlich.
+
+> **Fazit:** Docker ist die ideale Lösung für Unternehmen, die qmBase bewusst in der eigenen Infrastruktur betreiben möchten. 
+  Für alle anderen bietet die qmBase Cloud das rundum sorglose Komplettpaket.
+
+#### 🐳 Flexibles Self-Hosting mit Docker
+
+Mit dem neuen Docker-Image betreiben Sie qmBase exakt dort, wo Ihre IT-Strategie es vorsieht - On-Premise im eigenen Rechenzentrum oder in Ihrer bevorzugten Cloud.
+
+##### Wichtigste Vorteile des Container-Betriebs:
+
+- 🐧 **Linux-Support & Lizenzkostenersparnis:** Betreiben Sie qmBase jetzt kosteneffizient auf Linux-Distributionen (z. B. Ubuntu, Debian, RHEL) und reduzieren Sie die Abhängigkeit von kostenintensiven Windows-Server-Lizenzen.
+- 🌐 **Freie Cloud-Wahl:** Nahtloser Betrieb bei europäischen und internationalen Cloud-Anbietern wie **STACKIT, AWS, Google Cloud Platform (GCP) oder Microsoft Azure**.
+- 🔐 **Maximale Datensouveränität:** Volle Kontrolle über Speicherorte, Compliance-Vorgaben und Datenschutzrichtlinien (DSGVO).
+
+#### ⚡ Einfache Einrichtung mit Docker Compose
+
+Das qmBase Docker Image wird zusammen mit einem vorkonfigurierten `docker-compose.yml`-Stack ausgeliefert. 
+Dieser definiert alle erforderlichen Komponenten und Abhängigkeiten:
+
+```text
+[ Docker Compose Stack ]
+ ├── 🚀 qmBase App Container
+ ├── 🗄️ Datenbank (MS SQL (Express))
+ ├── 💾 Persistenter Datenspeicher (Volumes) & Automated Backups
+ ├── 📧 SMTP-Anbindung für E-Mail-Benachrichtigungen
+ └── 🔐 HTTPS / TLS-Reverse-Proxy-Beispielkonfiguration
+```
+
+Eine **produktionsbereite Beispielkonfiguration für den Betrieb über HTTPS** ist direkt enthalten und ermöglicht eine schnelle, sichere Inbetriebnahme.
+
+#### 🛠️ Warum IT-Teams & DevOps von Docker profitieren
+
+##### 1. Standardisierte & reproduzierbare Umgebungen
+
+Die Anwendung läuft in einer isolierten Container-Umgebung. Unterschiedliche Server-Konfigurationen gehören damit der Vergangenheit an. 
+Eine einmal definierte Konfiguration funktioniert identisch in allen Phasen:
+
+- **Entwicklung (Dev)**
+- **Testing & Staging**
+- **Produktion (Prod)**
+
+##### 2. Schnelle & risikoarme Updates
+
+Neue qmBase-Releases werden als aktualisierte Container-Images bereitgestellt. 
+Die Anwendungslogik ist strikt von den persistenten Daten und kundenspezifischen Konfigurationen getrennt. 
+Updates erfolgen per einfachem Image-Pull - schnell, übersichtlich und fehlerfrei.
+
+##### 3. Kinderleichter Umzug & Portabilität
+
+Egal ob Serverwechsel, RZ-Migration oder Cloud-Provider-Wechsel: Ein Container-Stack lässt sich mit minimalem Aufwand auf eine neue Infrastruktur übertragen. 
+Auch der Aufbau einer Disaster-Recovery-Umgebung wird drastisch vereinfacht.
+
+##### 4. Integration in bestehende Enterprise-IT
+
+qmBase fügt sich nahtlos in Ihre vorhandenen IT-Prozesse ein:
+
+- Einbindung in zentrale **Monitoring-Systeme** via OpenTelemetry (z.B. Prometheus, Grafana).
+- Nutzung bestehender **Firewall- und Sicherheitskonzepte**.
+- In Planung: Kompatibilität mit **Kubernetes (K8s)**, Docker Swarm und modernen **CI/CD / GitOps-Pipelines**.
+
+#### 📊 Betriebsarten im Vergleich
+
+| Kriterium             | qmBase Managed Cloud _(Empfohlen)_ | Self-Hosting via Docker      | Windows On-Premise (IIS) |
+| :-------------------- | :--------------------------------- | :--------------------------- | :----------------------- |
+| **Betriebsaufwand**   | ⭐️ Minimal (0% IT-Aufwand)         | ⚙️ Mittel (Kunden-IT)        | ⚙️ Mittel bis hoch       |
+| **Betriebssystem**    | Managed Cloud                      | 🐧 Linux / 🪟 Windows        | 🪟 Windows Server        |
+| **Updates**           | Automatisch durch qmBase           | Einfach via Image Pull       | Manuell / Scripted       |
+| **Lizenzkosten OS**   | Inklusive                          | 🟢 Keine OS-Lizenzen (Linux) | 🔴 Windows Server + CALs |
+| **Datensouveränität** | DSGVO-konform (DE/EU)              | 🔒 100% Eigenkontrolle       | 🔒 100% Eigenkontrolle   |
+| **Infrastruktur**     | qmBase Cloud                       | STACKIT, AWS, GCP, RZ        | Eigener Server / RZ      |
+
+#### 🏁 Zusammenfassung: Mehr Freiheit. Weniger Einschränkungen.
+
+Mit der Einführung der Docker-Unterstützung erweitern wir die Betriebsmöglichkeiten von qmBase entscheidend, ohne bestehende Lösungen zu ersetzen:
+
+- **qmBase Managed Cloud:** Für Unternehmen, die eine sorgenfreie, wartungsfreie Komplettlösung suchen.
+- **Self-Hosting via Docker:** Für Unternehmen mit spezifischen Compliance-Anforderungen, eigener Cloud-Strategie oder dem Wunsch nach voller Datenkontrolle.
+
+#### 🚀 Nächste Schritte & Migration
+
+- 📚 **Dokumentation:** Rufen Sie das `docker-compose`-Beispielset und die Deployment-Anleitung in unserer [Self-Service-Sektion](/docs/technical/self-hosting) ab.
+- 🔄 **Migration von IIS auf Docker:** Sie nutzen aktuell qmBase unter IIS und möchten auf Docker / Linux umsteigen? 
+  Unser Support-Team unterstützt Sie gern bei der Migration Ihrer Datenbank und Nutzerdaten.
+
+
+## Blog, Dokumentenmanagement und WIKI
+- **Verknüpfte Element:** Verknüpfte Elemente filter jetzt korrekterweise bereits gelöschte Einträge (z.B. Maßnahmen) aus.
+

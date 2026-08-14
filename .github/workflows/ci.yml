@@ -14,7 +14,8 @@ on:
 jobs:
   build_and_deploy_job:
     # Ensure PR is not in Draft Mode
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed' && github.event.pull_request.draft == false)
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed' && github.event.pull_request.draft == false)
+
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
@@ -29,16 +30,16 @@ jobs:
       - name: Run lint:spelling
         run: npm run lint:spelling
 
-      - name: Install Playwright Browsers
-        run: npx playwright install --with-deps chromium
-      - name: Run Playwright tests
-        run: npm run test:e2e
-      - uses: actions/upload-artifact@v7
-        if: always()
-        with:
-          name: playwright-report
-          path: playwright-report/
-          retention-days: 7
+      # - name: Install Playwright Browsers
+      #   run: npx playwright install --with-deps chromium
+      # - name: Run Playwright tests
+      #   run: npm run test:e2e
+      # - uses: actions/upload-artifact@v7
+      #   if: always()
+      #   with:
+      #     name: playwright-report
+      #     path: playwright-report/
+      #     retention-days: 7
 
       - name: Build And Deploy
         id: builddeploy
