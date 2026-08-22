@@ -18,6 +18,9 @@
     "typeAware": true,
     "typeCheck": true
   },
+  "globals": {
+    "process": "readonly"
+  },
   "rules": {
     "typescript/explicit-function-return-type": "off",
     "func-style": "off",
@@ -25,6 +28,7 @@
     "typescript/explicit-module-boundary-types": "off",
     "capitalized-comments": "off",
     "one-var": "off",
-    "no-console": "warn"
+    "no-console": "warn",
+    "oxc/no-optional-chaining": "off"
   }
 }
