@@ -3,8 +3,9 @@ title: Version 1.1.229
 authors:
   - ppaehler
   - azhukovskyi
+  - mhassan
 image: /img/v1_1_229.png
-tags: []
+tags: [Blog, Dokumentenmanagement, Wiki]
 draft: true
 ---
 
@@ -12,3 +13,33 @@ draft: true
 {/*truncate*/}
 
 ## Allgemein
+
+## Blog, Dokumentenmanagement und WIKI
+
+### qmBase-Daten in Word-Dokumenten verwenden
+
+**Platzhalter für Dokumentendaten:** In Word-Dokumenten können Sie jetzt qmBase-Daten als Platzhalter hinterlegen, zum Beispiel `{{article.version}}`. qmBase setzt den aktuellen Wert automatisch ein. Angaben wie Version, Ersteller oder Veröffentlichungsdatum müssen damit nicht mehr manuell gepflegt werden und können nicht mehr veralten.
+
+Folgende Platzhalter stehen zur Verfügung:
+
+- `{{article.createdAt}}` für das Erstelldatum des Dokuments
+- `{{article.createdBy}}` für den Ersteller des Dokuments
+- `{{article.publishedAt}}` für das Veröffentlichungsdatum der Version
+- `{{article.responsible}}` für die zuständige Person
+- `{{article.version}}` für die aktuelle Version
+
+Die Schreibweise entspricht den bereits bekannten dynamischen Vorlagen.
+
+**Werte bleiben dauerhaft aktuell:** Im gespeicherten Dokument bleibt der Platzhalter erhalten. Eine neue Version oder eine neue zuständige Person wird deshalb automatisch übernommen, ohne dass jemand den Text anpassen muss. Beim Export und beim Druck werden die Platzhalter dauerhaft durch den jeweiligen Wert ersetzt, damit das Dokument auch außerhalb von qmBase verständlich bleibt.
+
+![Artikelansicht eines Word-Dokuments mit aufgelösten Werten anstelle der Platzhalter](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/docx-metadata-resolved-article-view.png)
+
+**Übersicht „Daten" im Word-Editor:** Der Word-Editor zeigt oberhalb des Dokuments den Bereich **Daten**. Dort sehen Sie alle verfügbaren Platzhalter, das zugehörige Feld, den aktuellen Wert sowie die Anzahl der Verwendungen im Dokument. Nicht verwendete Platzhalter sind entsprechend gekennzeichnet.
+
+![Bereich „Daten" im Word-Editor mit Platzhaltern, Werten und Anzahl der Verwendungen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/docx-metadata-data-panel.png)
+
+**Platzhalter im Dokument finden:** Ein Klick auf einen Platzhalter in der Übersicht springt zur Fundstelle im Dokument und hebt sie hervor. So prüfen Sie vor der Veröffentlichung schnell, ob ein Platzhalter korrekt geschrieben ist.
+
+![Im Dokument hervorgehobener Platzhalter nach Auswahl in der Datenübersicht](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/docx-metadata-placeholder-highlighted.png)
+
+Bitte beachten Sie: Platzhalter werden im Textkörper des Dokuments ersetzt. In Kopf- und Fußzeilen ist dies derzeit noch nicht möglich.
