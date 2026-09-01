@@ -3,12 +3,8 @@ id: article-placeholder
 title: Platzhalter in Dokumenten
 ---
 
-import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
-
-:::info[Preview Feature]
-Bitte beachten Sie, dass sich die Abläufe und Funktionen in während der weiteren Entwicklung ändern können.
-:::
+import Tabs from "@theme/Tabs";
 
 Einzelne Dokumente können als Vorlagen erstellt werden. Diese Vorlagen können genutzt werden, um automatische Reports zu erstellen.
 Um das Ausfüllen mit Daten aus Ihrer Software zu ermöglichen, muss das Schlagwort <code>\_dynamicContent</code> verknüpft werden.
@@ -612,15 +608,15 @@ Hier finden Sie eine weitere (unvollständige) Liste der vorhanden Platzhalter.
 
 Werte, die nicht nur einfache Textinformationen (z.B. Titel einer Maßnahme) sind, können formatiert werden. Die Datentypen und möglichen Formatierungen sehen finden Sie in der folgenden Tabelle.
 
-| Datentype                 | Befehl zur Formatierung                                                                                                                       | Weitere Optionen                                                                                            |
-| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| Datum/Zeit                | `{{formatDate order.createdAt "datetime"}}`                                                                                                   | Option: `"datetime"` oder `"date"`.                                                                         |
-| Dezimal → Prozent         | `{{formatDecimalToPercentage product.discountRate}}`                                                                                          | Erwartet Float (z. B. `0.25`).                                                                              |
-| Dauer (Stunden → Einheit) | `{{formatHoursToDays task.durationHours}}` `{{formatHoursToDays task.durationHours "hours"}}`                                                 | Einheiten: `years, quarters, months, weeks, days, hours, minutes, seconds, milliseconds`. Default: `days`.  |
-| String (Trenner einfügen) | `{{ addSeparator user.name ", " }}`                                                                                                           | 2 Argument ist der Separator (String).                                                                      |
-| Array-Objekt (find by id) | `{{#findById products "1234"}} <div> Product found: {{name}} (ID: {{id}}) </div> {{/findById}}`                                               | Sucht Objekt mit `id` in `products` und rendert den Block im gefundenen Kontext. `id`-Vergleich als String. |
-| Bild/URL                  | `{{{image product.imageUrl }}}`                                                                                                               | Achtung: **drei** geschweifte Klammern, damit HTML nicht _escaped_ wird.                                    |
-| Datenvergleich            | `{{#if (eq status "Open")}} Offen {{else}} Abgeschlossen {{/if}}` | Vergleich von Daten zur bedingten Anzeige.                                                                  |
+| Datentype                 | Befehl zur Formatierung                                                                         | Weitere Optionen                                                                                            |
+| ------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Datum/Zeit                | `{{formatDate order.createdAt "datetime"}}`                                                     | Option: `"datetime"` oder `"date"`.                                                                         |
+| Dezimal → Prozent         | `{{formatDecimalToPercentage product.discountRate}}`                                            | Erwartet Float (z. B. `0.25`).                                                                              |
+| Dauer (Stunden → Einheit) | `{{formatHoursToDays task.durationHours}}` `{{formatHoursToDays task.durationHours "hours"}}`   | Einheiten: `years, quarters, months, weeks, days, hours, minutes, seconds, milliseconds`. Default: `days`.  |
+| String (Trenner einfügen) | `{{ addSeparator user.name ", " }}`                                                             | 2 Argument ist der Separator (String).                                                                      |
+| Array-Objekt (find by id) | `{{#findById products "1234"}} <div> Product found: {{name}} (ID: {{id}}) </div> {{/findById}}` | Sucht Objekt mit `id` in `products` und rendert den Block im gefundenen Kontext. `id`-Vergleich als String. |
+| Bild/URL                  | `{{{image product.imageUrl }}}`                                                                 | Achtung: **drei** geschweifte Klammern, damit HTML nicht _escaped_ wird.                                    |
+| Datenvergleich            | `{{#if (eq status "Open")}} Offen {{else}} Abgeschlossen {{/if}}`                               | Vergleich von Daten zur bedingten Anzeige.                                                                  |
 
 ## Erstellung automatischer Berichte für einzelne Objekte
 
@@ -653,3 +649,21 @@ Die Anzahl der verknüpften Informationen (z.B. Anzahl der Maßnahmen) kann vari
 <code>`{{ #each todos }}`</code> bezeichnet dem Beginn der Schleife. Der Bestandteil *todos* gibt dabei an, dass die Schleife die verknüpften Maßnahmen abfragt.  <code>`{{/each}}`</code> bezeichnet das Ende der Schleife.
 
 Die Parameter innerhalb der Schleife fragen zu jeder Maßnahme die Informationen gemäß der Tabellenüberschrift ab.
+
+## Platzhalter für Word-Dokumente (Docx)
+
+Platzhalter für Word-Dokumente können in der Form `{{variable}}` verwendet werden. Die Variablen orientieren sich dabei an den oben beschriebenen Platzhaltern.
+
+:::info[Keine vollständige Handlebar Template Unterstützung]
+Momentan gibt es keine vollständige Handlebar Template Unterstützung für Word-Dokumente. Daher können nur einfache Platzhalter ersetzt werden. Schleifen und Bedingungen werden nicht unterstützt.
+:::
+
+Folgende Platzhalter stehen derzeit zur Verfügung:
+
+| Platzhalter               | Beschreibung                       |
+| ------------------------- | ---------------------------------- |
+| `{{article.createdAt}}`   | Erstelldatum des Dokuments         |
+| `{{article.createdBy}}`   | Ersteller des Dokuments            |
+| `{{article.publishedAt}}` | Veröffentlichungsdatum der Version |
+| `{{article.responsible}}` | Zuständige Person                  |
+| `{{article.version}}`     | Aktuelle Version                   |
