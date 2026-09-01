@@ -2,23 +2,52 @@
 title: Version 1.1.229
 authors:
   - ppaehler
-  - azhukovskyi
+  - mhassan
 image: /img/v1_1_229.png
-tags: ["Aufgaben & Qualifikationen", "Dokumentenmanagement", "Reklamationsmanagement"]
+tags: [Blog, Dokumentenmanagement, Wiki]
 draft: true
 ---
 
 🚀 Neues Update verfügbar! Wir haben unser System für Sie weiter optimiert: Freuen Sie sich auf ... noch komfortableres Arbeiten.
-{/*truncate*/}
+{/* truncate */}
 
-## Aufgaben & Qualifikationen
+## Allgemein
 
-**Selbstzuweisung von Qualifikationen:** Freigeschaltete Qualifikationen können Ihre Mitarbeiter sich jetzt vollständig selbst zuweisen. Die Zuweisung wird direkt im Qualifikationsprofil gespeichert; bei wiederkehrenden Qualifikationen ermittelt qmBase die Gültigkeit automatisch aus dem hinterlegten Überwachungsintervall.
+### Tabellen & Datenexport
 
-Ausgenommen sind vorerst Qualifikationen, für die zusätzliche Nachweise wie ein Formular oder ein Dokument hinterlegt sind. Diese Erweiterung folgt in einem der nächsten Updates.
+- **Alle Datensätze über alle Seiten hinweg auswählen („Select All“):** In paginierten Tabellen können Sie nun mit einem einzigen Klick alle gefilterten Datensätze über sämtliche Seiten hinweg auswählen. Sobald alle Zeilen der aktuellen Seite markiert sind, bietet eine neue Schaltfläche in der Tabellenleiste die Option, alle Einträge (z. B. _„alle 250 Einträge auswählen“_) gesammelt zu selektieren. Das manuelle, seitenweise Auswählen entfällt dadurch vollständig.
+  ![Schaltfläche 'alle Einträge auswählen' in der Tabellen-Toolbar bei paginierten Tabellen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/employee-table.png)
+
+- **Vollständiger Datenexport bei Mehrfachauswahl:** Beim Exportieren ausgewählter Datensätze werden nun auch bei großen Datenmengen alle ausgewählten Einträge zuverlässig und vollständig exportiert – unabhängig von der standardmäßigen Seitengröße.
+  ![Modal für Sammelaktion: Alle Einträge auswählen und exportieren](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/employee-table-export.png)
 
 ## Blog, Dokumentenmanagement und WIKI
 
-Beim Bearbeiten von Artikeln unterstützt der Editor jetzt ebenfalls den Dark Mode und übernimmt automatisch das in den Einstellungen gewählte Farbschema.
+**Dark Mode:** Beim Bearbeiten von Artikeln unterstützt der Editor jetzt ebenfalls den Dark Mode und übernimmt automatisch das in den Einstellungen gewählte Farbschema.
 
-## Allgemein
+### Metadaten in Word-Dokumenten verwenden
+
+**Platzhalter für Dokumentendaten:** In Word-Dokumenten können Sie jetzt Metadaten als Platzhalter hinterlegen, zum Beispiel `{{article.version}}`.
+qmBase setzt den aktuellen Wert automatisch ein. Angaben wie Version, Ersteller oder Veröffentlichungsdatum müssen damit nicht mehr manuell gepflegt werden und können nicht mehr veralten.
+Weite Information zu den Platzhaltern finden Sie in der [Dokumentation](/docs/apps/articles/article-placeholder).
+
+Die Schreibweise entspricht den bereits bekannten dynamischen Vorlagen.
+
+**Werte bleiben dauerhaft aktuell:** Im gespeicherten Dokument bleibt der Platzhalter erhalten.
+Eine neue Version oder eine neue zuständige Person wird deshalb automatisch übernommen, ohne dass jemand den Text anpassen muss.
+Beim Export und beim Druck werden die Platzhalter dauerhaft durch den jeweiligen Wert ersetzt, damit das Dokument auch außerhalb von qmBase verständlich bleibt.
+
+![Artikelansicht eines Word-Dokuments mit aufgelösten Werten anstelle der Platzhalter](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/docx-metadata-resolved-article-view.png)
+
+**Übersicht „Daten" im Word-Editor:** Der Word-Editor zeigt oberhalb des Dokuments den Bereich **Daten**.
+Dort sehen Sie alle verfügbaren Platzhalter, das zugehörige Feld, den aktuellen Wert sowie die Anzahl der Verwendungen im Dokument.
+Nicht verwendete Platzhalter sind entsprechend gekennzeichnet.
+
+![Bereich „Daten" im Word-Editor mit Platzhaltern, Werten und Anzahl der Verwendungen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/docx-metadata-data-panel.png)
+
+**Platzhalter im Dokument finden:** Ein Klick auf einen Platzhalter in der Übersicht springt zur Fundstelle im Dokument und hebt sie hervor.
+So prüfen Sie vor der Veröffentlichung schnell, ob ein Platzhalter korrekt geschrieben ist.
+
+![Im Dokument hervorgehobener Platzhalter nach Auswahl in der Datenübersicht](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/docx-metadata-placeholder-highlighted.png)
+
+Bitte beachten Sie: Platzhalter werden im Textkörper des Dokuments ersetzt. In Kopf- und Fußzeilen ist dies derzeit noch nicht möglich.
