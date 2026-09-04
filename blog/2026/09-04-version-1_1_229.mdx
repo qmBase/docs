@@ -21,9 +21,33 @@ draft: true
 - **Vollständiger Datenexport bei Mehrfachauswahl:** Beim Exportieren ausgewählter Datensätze werden nun auch bei großen Datenmengen alle ausgewählten Einträge zuverlässig und vollständig exportiert – unabhängig von der standardmäßigen Seitengröße.
   ![Modal für Sammelaktion: Alle Einträge auswählen und exportieren](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/employee-table-export.png)
 
+### Seitenleiste
+
+**Fehlender Einstellungen-Link ergänzt:** In der Seitenleiste von CRM, Mitarbeiter, Ideenmanagement, Produkte, Aufgabenmanagement und Schulungen wird jetzt auch der Link zu den Einstellungen angezeigt.
+
+![Einstellungen-Link in der Seitenleiste](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/add-settings-buttons.png)
+
+### Vorlagen
+
+**Leere Zeilen in Tabellenschleifen behoben:** Tabellen in Dokumentvorlagen, die mit einer `{{#each}}`-Schleife befüllt werden, enthalten nun keine leeren Zeilen mehr.
+
+**Vorher**
+
+![Tabellenvorlage mit leeren Zeilen durch die {{#each}}-Schleife](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/table-template_1_2026-09-02_150536.png)
+
+**Nachher**
+
+![Tabellenvorlage ohne leere Zeilen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/table-template_2_Screenshot_2026-09-02_150758.png)
+
 ## Blog, Dokumentenmanagement und WIKI
 
 **Dark Mode:** Beim Bearbeiten von Artikeln unterstützt der Editor jetzt ebenfalls den Dark Mode und übernimmt automatisch das in den Einstellungen gewählte Farbschema.
+
+**Aktionsleiste mit Dokumenttyp-Auswahl:** Die Aktionsschaltflächen zum Speichern, Abbrechen und Wechseln des Dokumenttyps sind jetzt bei allen Dokumenttypen (Text, Markdown, Datei, BPMN, Flow) einheitlich am unteren Rand des Editors positioniert, was den Wechsel zwischen den Editoren vertrauter macht.
+
+**Dokumenttyp wechseln:** Wenn Sie beim Bearbeiten eines Artikels den Dokumenttyp wechseln (z. B. von Text zu Markdown, Datei, BPMN oder Flow), werden Sie jetzt gewarnt, falls dadurch bereits vorhandene Inhalte verworfen würden. Der Wechsel wird erst nach Ihrer Bestätigung durchgeführt, sodass Sie nicht versehentlich Arbeit verlieren.
+
+![Bestätigungsdialog beim Wechsel des Dokumenttyps](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/article-type-change-confirmation-modal.gif)
 
 ### Metadaten in Word-Dokumenten verwenden
 
