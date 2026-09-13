@@ -73,6 +73,7 @@ Auditergebnis
 Auditerkenntnissen
 auditfest
 Auditierbarkeit
+Auditierung
 Auditkategorie
 Auditkategorien
 Auditmanagement
@@ -620,6 +621,7 @@ multifactor
 Multifaktor
 must
 Nachhalten
+Nachverfolgbarkeit
 nachzuhalten
 NDAs
 neat
@@ -750,6 +752,7 @@ Qmn├ú
 Qmnã
 Qualifikationmatrix
 Qualifikations
+qualifikationsrelevanten
 Qualifikationverlauf
 quam
 QUESTION
@@ -974,6 +977,7 @@ underscores
 understand
 unexpected
 Unify
+unkonfigurierten
 unless
 unplanned
 unteranderem
