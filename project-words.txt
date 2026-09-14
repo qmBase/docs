@@ -3,6 +3,7 @@ about
 About
 above
 Abschickens
+Abschlussdatumregel
 absence
 Abstract
 Abteilungsdashboard
@@ -837,6 +838,7 @@ risus
 roadmap
 rollenbasierten
 Rollenbasierter
+Rückdatierungsfrist
 Saad
 sagittis
 sake
@@ -911,6 +913,7 @@ Surveillance
 suscipit
 Synchronit├ñt
 Synchronität
+Systemgestempelt
 systemgestützt
 Systemgestützte
 systeminterne
