@@ -99,6 +99,52 @@ So aktivieren Sie den Filter:
 
 ![Qualifikationverlauf - Nur die aktuellste](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/only-latest-docs-filter.png)
 
+### Selbstzuweisung
+
+Mit der Selbstzuweisung können Benutzer eine Qualifikation in ihrem eigenen Qualifikationsprofil selbst erfassen,
+ohne dass ein Vorgesetzter oder Administrator tätig werden muss.
+Ob und unter welchen Bedingungen eine Qualifikation selbst zugewiesen werden kann, legt der Administrator für jede
+Qualifikation einzeln fest.
+
+
+#### Selbstzuweisung konfigurieren
+
+1. Öffnen Sie die Detailseite der gewünschten Qualifikation.
+2. Aktivieren Sie im Bereich Allgemein die Option **Selbstzuweisung ist aktiviert.**
+3. Klicken Sie auf Speichern.
+
+![Selbstzuweisung aktivieren](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/selfAssignment-activate.png)
+
+Nach dem Aktivieren erscheint auf derselben Seite die Karte **Qualifikationszuweisungsrichtlinie**. Hier legen Sie
+fest, welche Regeln bei der Selbstzuweisung gelten:
+
+| Einstellung                                      | Bedeutung                                                                                                                                                                                                                  |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Abschlussdatumregel                          | **Systemgestempelt:** Als Abschlussdatum wird automatisch der Tag der Einreichung übernommen. Mitarbeiter wählen kein Datum aus. <br/> **Manuell:** Mitarbeiter geben selbst an, an welchem Tag sie die Qualifikation erworben haben. |
+| Maximale Rückdatierungsfrist                 | Legt fest, wie weit das Abschlussdatum höchstens in der Vergangenheit liegen darf.                                                                                                                    |
+| Maximale Zukunftsfrist                       | Legt fest, wie weit das Abschlussdatum höchstens in der Zukunft liegen darf.                                                                                                                          |
+| Minimale Zeitspanne zwischen den Zuweisungen | Legt fest, wie viel Zeit seit dem letzten Qualifikationsereignis der Person für diese Qualifikation vergangen sein muss, bevor sie sich die Qualifikation erneut selbst zuweisen kann.                                     |
+| Nachweiserneuerungsfrist                     | Legt fest, wie lange Nachweise wie abgeschlossene Schulungen oder bestandene Formulare höchstens zurückliegen dürfen, um für die Selbstzuweisung berücksichtigt zu werden.                                                 |
+
+
+Solange Sie keine eigene Richtlinie speichern, gilt die Abschlussdatumregel Systemgestempelt.
+
+> Tipp: Sie möchten zulassen, dass Benutzer eine Schulung nachtragen, die bis zu drei Monate zurückliegt. Wählen
+Sie dazu die Abschlussdatumregel Manuell, setzen Sie die Maximale Rückdatierungsfrist auf 3 Monate und
+die Maximale Zukunftsfrist auf 0.
+
+#### Qualifikation selbst zuweisen
+
+Als Mitarbeiter weisen Sie sich eine freigegebene Qualifikation wie folgt zu:
+
+1. Klicken Sie in der Seitenleiste auf **Mein Qualifikationsprofil**.
+2. Suchen Sie die Qualifikation in der Tabelle der Qualifikationen. Ist die Qualifikation für die Selbstzuweisung freigegeben und fehlt sie, ist sie abgelaufen oder befindet sie sich in der Vorwarnzeit, wird in der Zeile die Schaltfläche Selbstzuweisung angezeigt.
+3. Klicken Sie auf Selbstzuweisung. Es öffnet sich der Assistent **Selbstzuweisung für Qualifikationen**. Im oberen Bereich sehen Sie, ob Sie derzeit über die Qualifikation verfügen und, falls vorhanden, wann Sie zuletzt qualifiziert wurden und bis wann die Qualifikation gültig ist.
+4. Durchlaufen Sie die Schritte des Assistenten und klicken Sie jeweils auf **Weiter**. Welche Schritte angezeigt werden, hängt von der Konfiguration der Qualifikation ab, z. B. die Angabe des Abschlussdatums bei der Abschlussdatumregel **Manuell**.
+5. Prüfen Sie im Schritt **Überprüfen und bestätigen** die Zusammenfassung und klicken Sie auf **Selbstzuweisung bestätigen**.
+
+Liegt das gewählte Abschlussdatum außerhalb der erlaubten Fristen oder ist die minimale Zeitspanne zwischen den Zuweisungen noch nicht verstrichen, wird die Selbstzuweisung abgelehnt.
+
 ## Beispiel für das Zusammenwirken von Positionen, Aufgaben und Qualifikationen
 
 Der Mitarbeiter <code>Lukas Guss</code> hat die Positionen <code>Vertriebsassistenz</code> und <code>Arbeitssicherheitsbeauftragter</code>.
@@ -348,7 +394,7 @@ Zusätzlich können mit dem Tab **Zugriff** weitere Bearbeiter freigegeben werde
 ### Wie werden einem Mitarbeiter Qualifikationen hinzugefügt?
 
 Das Hinzufügen von Qualifikationen ist an Berechtigungen geknüpft. Sofern nicht anders festgelegt, können Qualifikationen durch den (App)Administrator Personen zugewiesen werden.
-Zusätzlich können Sie die **Selbstzuweisung** aktivieren. Damit ist es dann möglich, dass sich jeder Nutzer selbst Qualifikationen zuweisen kann.
+Zusätzlich können Sie die **Selbstzuweisung** aktivieren. Damit ist es dann möglich, dass sich jeder Nutzer selbst Qualifikationen zuweisen kann. Details dazu finden Sie im Abschnitt [Selbstzuweisung](#selbstzuweisung).
 Als weitere Einschränkung können Sie auch weitere Bedingungen festlegen, die vor der Zuweisung erfüllt sein müssen. Hier kann z.B. das Ausfüllen eines Formulars erforderlich sein.
 Zusätzlich können mit dem Tab **Zugriff** weitere Bearbeiter freigegeben werden. Hier ist es wichtig Rolle **Editieren** auszuwählen.
 
