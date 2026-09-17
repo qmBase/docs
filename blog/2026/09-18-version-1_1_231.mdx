@@ -15,20 +15,31 @@ draft: true
 
 ### Tabellen & Datenexport
 
-- **Alle Datensätze über alle Seiten hinweg auswählen („Select All“):** In paginierten Tabellen können Sie nun mit einem einzigen Klick alle gefilterten Datensätze über sämtliche Seiten hinweg auswählen. Sobald alle Zeilen der aktuellen Seite markiert sind, bietet eine neue Schaltfläche in der Tabellenleiste die Option, alle Einträge (z. B. _„alle 250 Einträge auswählen“_) gesammelt zu selektieren. Das manuelle, seitenweise Auswählen entfällt dadurch vollständig.
+- **Alle Datensätze über alle Seiten hinweg auswählen („Select All“):** In paginierten Tabellen können Sie nun mit einem einzigen Klick alle gefilterten Datensätze über sämtliche Seiten hinweg auswählen.
+  Sobald alle Zeilen der aktuellen Seite markiert sind, bietet eine neue Schaltfläche in der Tabellenleiste die Option, alle Einträge (z. B. _„alle 250 Einträge auswählen“_) gesammelt zu selektieren. Das manuelle, seitenweise Auswählen entfällt dadurch vollständig.
   ![Schaltfläche 'alle Einträge auswählen' in der Tabellen-Toolbar bei paginierten Tabellen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/employee-table.png)
 
 - **Vollständiger Datenexport bei Mehrfachauswahl:** Beim Exportieren ausgewählter Datensätze werden nun auch bei großen Datenmengen alle ausgewählten Einträge zuverlässig und vollständig exportiert – unabhängig von der standardmäßigen Seitengröße.
   ![Modal für Sammelaktion: Alle Einträge auswählen und exportieren](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/employee-table-export.png)
 
+### Suche
+
+- **Relevantere Sortierung der Suchergebnisse:** Die Suche (Spotlight, App-Launcher und Listen-/Tabellensuchen) bewertet Treffer jetzt nach Relevanz, statt sie nur als Treffer/kein Treffer zu behandeln.
+  Übereinstimmungen im Titel oder in der ID zählen dabei stärker als Übereinstimmungen in Stichwörtern oder Tags. Das macht besonders bei kurzen oder mehrdeutigen Suchbegriffen den gesuchten Eintrag schneller auffindbar.
+
+**Vorher**
+
+![Unsortierte Suchergebnisse in Spotlight](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/weighted-search-before01.png)
+
+**Nachher**
+
+![Nach Relevanz sortierte Suchergebnisse in Spotlight](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/weighted-search-after01.png)
+
 ## Aufgaben & Qualifikationen
 
-### Selbstzuweisung von Qualifikationen
+## Blog, Dokumentenmanagement und WIKI
 
-**Dokumente als Nachweis hochladen:** Wenn für eine Qualifikation ein Nachweis gefordert ist, können Mitarbeitende im Assistenten zur Selbstzuweisung jetzt Dokumente hochladen, z. B. ein Zertifikat oder eine Teilnahmebescheinigung.
-Der Nachweis wird zusammen mit der Selbstzuweisung gespeichert. So bleibt nachvollziehbar, auf welcher Grundlage eine Qualifikation erfasst wurde.
+### Artikel-Editor
 
-**Fristen direkt bei der Datumsauswahl:** Bei der Auswahl des Abschlussdatums berücksichtigt der Assistent jetzt die Fristen, die in der Qualifikationszuweisungsrichtlinie für Datumsangaben in der Vergangenheit und in der Zukunft festgelegt sind.
-Liegt ein Datum außerhalb dieser Fristen, sehen Sie sofort, welches Datum frühestens bzw. spätestens möglich ist. Ist eine Zukunftsfrist eingestellt, können Sie jetzt auch ein Datum in der Zukunft wählen.
-
-**Fehlerbehebungen und Verbesserungen:** Rund um die Selbstzuweisung haben wir mehrere Fehler behoben und die Bedienung verbessert. Unter anderem sind Hinweise und Meldungen im Assistenten jetzt klarer formuliert, sodass Sie schneller erkennen, warum eine Eingabe nicht möglich ist.
+**Dateiauswahl beim Speichern nicht erkannt (behoben):** Wurde bei einem Datei-Dokument nur die Datei ausgewählt oder ersetzt, blieb die Schaltfläche „Speichern" bisher mitunter deaktiviert, und der Bestätigungsdialog beim Wechsel des Dokumenttyps konnte in diesem Fall ausbleiben.
+Dies wurde behoben: Eine geänderte Datei wird nun zuverlässig als nicht gespeicherte Änderung erkannt – einheitlich für alle Dokumenttypen, einschließlich BPMN.
