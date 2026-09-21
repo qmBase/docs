@@ -82,20 +82,22 @@ Die Qualifikationsverlauf bietet eine chronologische Übersicht aller dokumentie
 
 Typische Anwendungsfälle sind:
 
-+ Nachvollziehen, wann Qualifikationen erworben oder erneuert wurden.  
-+ Überprüfen vergangener Schulungs- und Zertifizierungsnachweise.   
-+ Nachweis von Qualifikationen im Rahmen von Audits.  
-+ Kontrolle dem Verlauf einzelner Mitarbeiter oder Qualifikationen.
+- Nachvollziehen, wann Qualifikationen erworben oder erneuert wurden.
+- Überprüfen vergangener Schulungs- und Zertifizierungsnachweise.
+- Nachweis von Qualifikationen im Rahmen von Audits.
+- Kontrolle dem Verlauf einzelner Mitarbeiter oder Qualifikationen.
 
 ![Qualifikationverlauf](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/only-latest-docs-no-filter.png)
-#### Nur aktuellste Qualifikation anzeigen.  
+
+#### Nur aktuellste Qualifikation anzeigen.
+
 Standardmäßig werden alle Qualifikationsereignisse angezeigt. Mit der Option **Nur die aktuellste** wird je Mitarbeiter und Qualifikation ausschließlich das neueste Qualifikationsereignis angezeigt. Frühere Ereignisse bleiben in dem Verlauf erhalten, werden jedoch ausgeblendet.
 
-So aktivieren Sie den Filter:  
-  
-1. Klicken Sie auf **Filter**.  
-2. Wählen Sie im Dropdown **Nur die aktuellste** aus.  
-3. Klicken Sie auf **Filter**, um den Filter anzuwenden.  
+So aktivieren Sie den Filter:
+
+1. Klicken Sie auf **Filter**.
+2. Wählen Sie im Dropdown **Nur die aktuellste** aus.
+3. Klicken Sie auf **Filter**, um den Filter anzuwenden.
 
 ![Qualifikationverlauf - Nur die aktuellste](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/only-latest-docs-filter.png)
 
@@ -105,7 +107,6 @@ Mit der Selbstzuweisung können Benutzer eine Qualifikation in ihrem eigenen Qua
 ohne dass ein Vorgesetzter oder Administrator tätig werden muss.
 Ob und unter welchen Bedingungen eine Qualifikation selbst zugewiesen werden kann, legt der Administrator für jede
 Qualifikation einzeln fest.
-
 
 #### Selbstzuweisung konfigurieren
 
@@ -118,20 +119,19 @@ Qualifikation einzeln fest.
 Nach dem Aktivieren erscheint auf derselben Seite die Karte **Qualifikationszuweisungsrichtlinie**. Hier legen Sie
 fest, welche Regeln bei der Selbstzuweisung gelten:
 
-| Einstellung                                      | Bedeutung                                                                                                                                                                                                                  |
-| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Einstellung                                  | Bedeutung                                                                                                                                                                                                                             |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Abschlussdatumregel                          | **Systemgestempelt:** Als Abschlussdatum wird automatisch der Tag der Einreichung übernommen. Mitarbeiter wählen kein Datum aus. <br/> **Manuell:** Mitarbeiter geben selbst an, an welchem Tag sie die Qualifikation erworben haben. |
-| Maximale Rückdatierungsfrist                 | Legt fest, wie weit das Abschlussdatum höchstens in der Vergangenheit liegen darf.                                                                                                                    |
-| Maximale Zukunftsfrist                       | Legt fest, wie weit das Abschlussdatum höchstens in der Zukunft liegen darf.                                                                                                                          |
-| Minimale Zeitspanne zwischen den Zuweisungen | Legt fest, wie viel Zeit seit dem letzten Qualifikationsereignis der Person für diese Qualifikation vergangen sein muss, bevor sie sich die Qualifikation erneut selbst zuweisen kann.                                     |
-| Nachweiserneuerungsfrist                     | Legt fest, wie lange Nachweise wie abgeschlossene Schulungen oder bestandene Formulare höchstens zurückliegen dürfen, um für die Selbstzuweisung berücksichtigt zu werden.                                                 |
-
+| Maximale Rückdatierungsfrist                 | Legt fest, wie weit das Abschlussdatum höchstens in der Vergangenheit liegen darf.                                                                                                                                                    |
+| Maximale Zukunftsfrist                       | Legt fest, wie weit das Abschlussdatum höchstens in der Zukunft liegen darf.                                                                                                                                                          |
+| Minimale Zeitspanne zwischen den Zuweisungen | Legt fest, wie viel Zeit seit dem letzten Qualifikationsereignis der Person für diese Qualifikation vergangen sein muss, bevor sie sich die Qualifikation erneut selbst zuweisen kann.                                                |
+| Nachweiserneuerungsfrist                     | Legt fest, wie lange Nachweise wie abgeschlossene Schulungen oder bestandene Formulare höchstens zurückliegen dürfen, um für die Selbstzuweisung berücksichtigt zu werden.                                                            |
 
 Solange Sie keine eigene Richtlinie speichern, gilt die Abschlussdatumregel Systemgestempelt.
 
 > Tipp: Sie möchten zulassen, dass Benutzer eine Schulung nachtragen, die bis zu drei Monate zurückliegt. Wählen
-Sie dazu die Abschlussdatumregel Manuell, setzen Sie die Maximale Rückdatierungsfrist auf 3 Monate und
-die Maximale Zukunftsfrist auf 0.
+> Sie dazu die Abschlussdatumregel Manuell, setzen Sie die Maximale Rückdatierungsfrist auf 3 Monate und
+> die Maximale Zukunftsfrist auf 0.
 
 #### Qualifikation selbst zuweisen
 
@@ -144,6 +144,17 @@ Als Mitarbeiter weisen Sie sich eine freigegebene Qualifikation wie folgt zu:
 5. Prüfen Sie im Schritt **Überprüfen und bestätigen** die Zusammenfassung und klicken Sie auf **Selbstzuweisung bestätigen**.
 
 Liegt das gewählte Abschlussdatum außerhalb der erlaubten Fristen oder ist die minimale Zeitspanne zwischen den Zuweisungen noch nicht verstrichen, wird die Selbstzuweisung abgelehnt.
+
+#### Verknüpfungsbedingungen
+
+Über die Karte **Verknüpfungsbedingungen** auf der Detailseite einer Qualifikation legen Sie fest, wie diese Qualifikation erlangt werden kann. Sie können hier Dokumente und Formulare direkt als Nachweis für das Erreichen der Qualifikation hinzufügen. Die hinterlegten Nachweise werden dabei automatisch mit der Qualifikation verknüpft.
+
+| Nachweis | Bedingung                                                                                          |
+| -------- | -------------------------------------------------------------------------------------------------- |
+| Formular | Das Formular muss ausgefüllt sein. Handelt es sich um ein Quiz, muss es zusätzlich bestanden sein. |
+| Dokument | Das Dokument muss aufgerufen und gelesen worden sein.                                              |
+
+Sind Nachweise hinterlegt, wird im Assistenten **Selbstzuweisung für Qualifikationen** für jede Nachweisart ein zusätzlicher Schritt angezeigt. Dieser gibt Auskunft über den aktuellen Stand und ermöglicht den direkten Zugriff auf das verknüpfte Element per Klick.
 
 ## Beispiel für das Zusammenwirken von Positionen, Aufgaben und Qualifikationen
 
