@@ -621,6 +621,7 @@ most
 multifactor
 Multifaktor
 must
+nachgeschärft
 Nachhalten
 Nachverfolgbarkeit
 nachzuhalten
@@ -778,6 +779,7 @@ regarding
 Registrierungsprozess
 regularly
 regulary
+reibungsloseren
 reingenommen
 Reinstall
 Reklamations├╝bersicht
