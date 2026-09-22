@@ -152,7 +152,7 @@ Liegt das gewählte Abschlussdatum außerhalb der erlaubten Fristen oder ist die
 | Nachweis | Bedingung                                                                                          |
 | -------- | -------------------------------------------------------------------------------------------------- |
 | Formular | Das Formular muss ausgefüllt sein. Handelt es sich um ein Quiz, muss es zusätzlich bestanden sein. |
-| Dokument | Das Dokument muss in der aktuellsten Version aufgerufen und gelesen worden sein.                   |
+| Dokument | Das Dokument muss in der aktuellsten Version aufgerufen und zur Kenntnis genommen worden sein.     |
 
 Sind Nachweise hinterlegt, wird im Assistenten **Selbstzuweisung für Qualifikationen** für jede Nachweisart ein zusätzlicher Schritt angezeigt. Dieser gibt Auskunft über den aktuellen Stand und ermöglicht den direkten Zugriff auf das verknüpfte Element per Klick.
 
