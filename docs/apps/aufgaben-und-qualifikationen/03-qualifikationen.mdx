@@ -1,0 +1,142 @@
+---
+title: Qualifikationen
+---
+
+Qualifikationen sind Fach- oder Sozialkompetenzen, die die Eignung einer Person für eine bestimmte Aufgabe beschreiben.
+Legen Sie fest welche Qualifikationen in Ihrer Organisation benötigt werden, um die anfallenden Aufgaben zu erledigen. Beispiele für Qualifikationen sind:
+
+- ERP Kenntnisse
+- MS-Office Kenntnisse
+- Führerschein
+- Abgeschlossenes Studium
+
+### Qualifikations-Matrix
+
+In der Qualifikationsmatrix werden Personen und Qualifikationen einander gegenüber gestellt.
+
+![Qualifikationsmatrix](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202021-12-11%20143743_QualificationMatrix.png)
+
+| Darstellung                    | Bedeutung                                                                                      |
+| ------------------------------ | ---------------------------------------------------------------------------------------------- |
+| Blauer Hintergrund             | Qualifikation wird auf Grund verknüpfter Positionen oder direkt zugeordneter Aufgaben benötigt |
+| Vollständig ausgefüllter Kreis | Qualifikation zu 100% vorhanden                                                                |
+| Teilausgefüllter Kreis         | Qualifikation anteilig vorhanden                                                               |
+| Rotes Warndreieck              | Qualifikation benötigt aber nicht vorhanden                                                    |
+| Roter Kreis                    | Qualifikation vorhanden aber abgelaufen                                                        |
+| Gelber Kreis                   | Qualifikation vorhanden aber innerhalb der Vorwanzeit - läuft also bald ab                     |
+
+### Qualifikationsverlauf
+
+Die Qualifikationsverlauf bietet eine chronologische Übersicht aller dokumentierten Qualifikationsereignisse der Mitarbeiter, auf die Sie Zugriff haben. Anders als das Qualifikationsprofil eines Mitarbeiters zeigt diese Ansicht sämtliche erfassten Ereignisse organizationsweit.
+
+Typische Anwendungsfälle sind:
+
+- Nachvollziehen, wann Qualifikationen erworben oder erneuert wurden.
+- Überprüfen vergangener Schulungs- und Zertifizierungsnachweise.
+- Nachweis von Qualifikationen im Rahmen von Audits.
+- Kontrolle dem Verlauf einzelner Mitarbeiter oder Qualifikationen.
+
+![Qualifikationverlauf](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/only-latest-docs-no-filter.png)
+
+#### Nur aktuellste Qualifikation anzeigen.
+
+Standardmäßig werden alle Qualifikationsereignisse angezeigt. Mit der Option **Nur die aktuellste** wird je Mitarbeiter und Qualifikation ausschließlich das neueste Qualifikationsereignis angezeigt. Frühere Ereignisse bleiben in dem Verlauf erhalten, werden jedoch ausgeblendet.
+
+So aktivieren Sie den Filter:
+
+1. Klicken Sie auf **Filter**.
+2. Wählen Sie im Dropdown **Nur die aktuellste** aus.
+3. Klicken Sie auf **Filter**, um den Filter anzuwenden.
+
+![Qualifikationverlauf - Nur die aktuellste](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/only-latest-docs-filter.png)
+
+### Selbstzuweisung
+
+Mit der Selbstzuweisung können Benutzer eine Qualifikation in ihrem eigenen Qualifikationsprofil selbst erfassen,
+ohne dass ein Vorgesetzter oder Administrator tätig werden muss.
+Ob und unter welchen Bedingungen eine Qualifikation selbst zugewiesen werden kann, legt der Administrator für jede
+Qualifikation einzeln fest.
+
+#### Selbstzuweisung konfigurieren
+
+1. Öffnen Sie die Detailseite der gewünschten Qualifikation.
+2. Aktivieren Sie im Bereich Allgemein die Option **Selbstzuweisung ist aktiviert.**
+3. Klicken Sie auf Speichern.
+
+![Selbstzuweisung aktivieren](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/selfAssignment-activate.png)
+
+Nach dem Aktivieren erscheint auf derselben Seite die Karte **Qualifikationszuweisungsrichtlinie**. Hier legen Sie
+fest, welche Regeln bei der Selbstzuweisung gelten:
+
+| Einstellung                                  | Bedeutung                                                                                                                                                                                                                             |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Abschlussdatumregel                          | **Systemgestempelt:** Als Abschlussdatum wird automatisch der Tag der Einreichung übernommen. Mitarbeiter wählen kein Datum aus. <br/> **Manuell:** Mitarbeiter geben selbst an, an welchem Tag sie die Qualifikation erworben haben. |
+| Maximale Rückdatierungsfrist                 | Legt fest, wie weit das Abschlussdatum höchstens in der Vergangenheit liegen darf.                                                                                                                                                    |
+| Maximale Zukunftsfrist                       | Legt fest, wie weit das Abschlussdatum höchstens in der Zukunft liegen darf.                                                                                                                                                          |
+| Minimale Zeitspanne zwischen den Zuweisungen | Legt fest, wie viel Zeit seit dem letzten Qualifikationsereignis der Person für diese Qualifikation vergangen sein muss, bevor sie sich die Qualifikation erneut selbst zuweisen kann.                                                |
+| Nachweiserneuerungsfrist                     | Legt fest, wie lange Nachweise wie abgeschlossene Schulungen oder bestandene Formulare höchstens zurückliegen dürfen, um für die Selbstzuweisung berücksichtigt zu werden.                                                            |
+
+Solange Sie keine eigene Richtlinie speichern, gilt die Abschlussdatumregel Systemgestempelt.
+
+> Tipp: Sie möchten zulassen, dass Benutzer eine Schulung nachtragen, die bis zu drei Monate zurückliegt. Wählen
+> Sie dazu die Abschlussdatumregel Manuell, setzen Sie die Maximale Rückdatierungsfrist auf 3 Monate und
+> die Maximale Zukunftsfrist auf 0.
+
+#### Qualifikation selbst zuweisen
+
+Als Mitarbeiter weisen Sie sich eine freigegebene Qualifikation wie folgt zu:
+
+1. Klicken Sie in der Seitenleiste auf **Mein Qualifikationsprofil**.
+2. Suchen Sie die Qualifikation in der Tabelle der Qualifikationen. Ist die Qualifikation für die Selbstzuweisung freigegeben und fehlt sie, ist sie abgelaufen oder befindet sie sich in der Vorwarnzeit, wird in der Zeile die Schaltfläche Selbstzuweisung angezeigt.
+3. Klicken Sie auf Selbstzuweisung. Es öffnet sich der Assistent **Selbstzuweisung für Qualifikationen**. Im oberen Bereich sehen Sie, ob Sie derzeit über die Qualifikation verfügen und, falls vorhanden, wann Sie zuletzt qualifiziert wurden und bis wann die Qualifikation gültig ist.
+4. Durchlaufen Sie die Schritte des Assistenten und klicken Sie jeweils auf **Weiter**. Welche Schritte angezeigt werden, hängt von der Konfiguration der Qualifikation ab, z. B. die Angabe des Abschlussdatums bei der Abschlussdatumregel **Manuell**.
+5. Prüfen Sie im Schritt **Überprüfen und bestätigen** die Zusammenfassung und klicken Sie auf **Selbstzuweisung bestätigen**.
+
+Liegt das gewählte Abschlussdatum außerhalb der erlaubten Fristen oder ist die minimale Zeitspanne zwischen den Zuweisungen noch nicht verstrichen, wird die Selbstzuweisung abgelehnt.
+
+#### Verknüpfungsbedingungen
+
+Über die Karte **Verknüpfungsbedingungen** auf der Detailseite einer Qualifikation legen Sie fest, wie diese Qualifikation erlangt werden kann. Sie können hier Dokumente und Formulare direkt als Nachweis für das Erreichen der Qualifikation hinzufügen. Die hinterlegten Nachweise werden dabei automatisch mit der Qualifikation verknüpft.
+
+| Nachweis | Bedingung                                                                                          |
+| -------- | -------------------------------------------------------------------------------------------------- |
+| Formular | Das Formular muss ausgefüllt sein. Handelt es sich um ein Quiz, muss es zusätzlich bestanden sein. |
+| Dokument | Das Dokument muss in der aktuellsten Version aufgerufen und zur Kenntnis genommen worden sein.     |
+
+Sind Nachweise hinterlegt, wird im Assistenten **Selbstzuweisung für Qualifikationen** für jede Nachweisart ein zusätzlicher Schritt angezeigt. Dieser gibt Auskunft über den aktuellen Stand und ermöglicht den direkten Zugriff auf das verknüpfte Element per Klick.
+
+### Erklärung der Darstellung der Qualifikationsmatrix
+
+### Dashboard
+
+Innerhalb des Dashboards werden die Daten aus der Matrix aggregiert dargestellt. Ziel ist auf einen Blick erkennen zu können, ob innerhalb einzelner Abteilungen oder Positionen Ihrer Organisation Handlungsbedarf besteht.
+
+Wie ergeben sich die Werte innerhalb der Tabelle?
+
+![Q-Matrix Dashboard](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/2026-09-22_quali-matrix-dashboard.png)
+
+Wenn wir uns beispielsweise die Daten gruppiert nach Abteilungen anschauen ist die Tabelle folgendermaßen zu verstehen. Basierend auf dem gewählten Filter werden die dargestellten Personen vorausgewählt. Dann wird geschaut, welche Abteilungen mit dieser Auswahl an Mitarbeitern verknüpft sind. In der zweiten Spalten unter Personen wird die Anzahl der Mitarbeiter dargestellt, die mit der Abteilung verknüpft sind.
+In der Spalte Status ergeben sich dann drei Zahlen in grün, gelb und rot. Die Berechnung der Zahlen ist in der folgenden Tabelle dargestellt. Zunächst wird die Anzahl der gesamt benötigten Qualifikationen berechnet. Dies könnte z.B. 10 sein.
+Zur Vereinfachung werden in dieser Tabelle anteilige Qualifikationserfüllungen auch mit 100% berücksichtigt.
+
+Zu den benötigten Qualifikationen zählen:
+
+- Qualifikationen, die durch direkt zugeordnete Aufgaben gefordert werden.
+- Qualifikationen, die durch verknüpfte Positionen und damit verbundene Aufgaben gefordert werden.
+
+| Mitarbeiter | Benötigte Qualifikationen | Vorhanden | Vorhanden mit Vorwarnzeit erreicht | Abgelaufen | Nicht vorhanden |
+| ----------- | ------------------------- | --------- | ---------------------------------- | ---------- | --------------- |
+| A           | 5                         | 5         |
+| B           | 3                         | 1         | 1                                  | 1          |                 |
+| C           | 2                         | 1         |                                    | 1          |                 |
+| **Summe**   | 10                        | 7         | 1                                  | 2          |
+
+Wenn alle Mitarbeiter einer Abteilung angehören, würden sich aus dem Beispiel folgende Zahlen ergeben.
+
+| Farbe | Bedeutung                                                                 | Prozentwert basierend auf Beispiel |
+| ----- | ------------------------------------------------------------------------- | ---------------------------------- |
+| Rot   | Anteil der nicht vorhanden benötigten Qualifikationen.                    | 20%                                |
+| Gelb  | Anteil der benötigten Qualifikationen, die innerhalb der Vorwarnzeit sind | 10%                                |
+| Grün  | Anteil der benötigten Qualifikationen, die vorhanden sind                 | 70%                                |
+
+Die Gruppierung nach einzelnen Positionen funktioniert analog.
