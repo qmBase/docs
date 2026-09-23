@@ -49,7 +49,6 @@ jobs:
       #     retention-days: 7
 
       - name: Build And Deploy
-        if: github.event_name == 'push'
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
