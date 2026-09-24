@@ -29,7 +29,7 @@
     "@docusaurus/module-type-aliases": "^3.10.2",
     "@docusaurus/tsconfig": "^3.10.2",
     "@docusaurus/types": "^3.10.2",
-    "@playwright/test": "1.61.1",
+    "@playwright/test": "1.63.0",
     "@types/node": "^24.13.6",
     "@types/react": "^19.3.0",
     "cspell": "^10.3.3",
