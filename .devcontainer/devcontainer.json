@@ -2,10 +2,8 @@
   "name": "qmBase Docs",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
   "remoteUser": "node",
-   "mounts": [
-    "source=qmbase-docs-node-modules,target=/workspaces/docs/node_modules,type=volume"
-  ],
-  "postCreateCommand": "sudo chown -R node:node /workspaces/docs/node_modules && npm ci",
+  "mounts": ["source=qmbase-docs-node-modules,target=/workspaces/docs/node_modules,type=volume"],
+  "postCreateCommand": "sudo chown -R node:node /workspaces/docs/node_modules && npm install --global npm@latest && npm ci",
   "forwardPorts": [3000, 4173],
   "portsAttributes": {
     "3000": {
