@@ -1,0 +1,54 @@
+{
+  "name": "qmBase Docs",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "remoteUser": "node",
+   "mounts": [
+    "source=qmbase-docs-node-modules,target=/workspaces/docs/node_modules,type=volume"
+  ],
+  "postCreateCommand": "sudo chown -R node:node /workspaces/docs/node_modules && npm ci",
+  "forwardPorts": [3000, 4173],
+  "portsAttributes": {
+    "3000": {
+      "label": "Docusaurus dev server",
+      "onAutoForward": "openBrowser"
+    },
+    "4173": {
+      "label": "Docusaurus production preview",
+      "onAutoForward": "notify"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "files.eol": "\n",
+        "cSpell.language": ",de",
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit",
+          "source.organizeImports": "explicit",
+          "source.sortMembers": "explicit"
+        },
+        "editor.defaultFormatter": "oxc.oxc-vscode",
+        "editor.formatOnSave": true,
+        "[plaintext]": { "editor.defaultFormatter": "oxc.oxc-vscode", "editor.formatOnSave": true },
+        "[markdown]": {
+          "editor.defaultFormatter": "oxc.oxc-vscode",
+          "editor.formatOnSave": true
+        },
+        "[mdx]": {
+          "editor.defaultFormatter": "oxc.oxc-vscode",
+          "editor.formatOnSave": true
+        }
+      },
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "GitHub.vscode-pull-request-github",
+        "oxc.oxc-vscode",
+        "ms-azuretools.vscode-azurestaticwebapps",
+        "streetsidesoftware.code-spell-checker-german",
+        "github.vscode-github-actions",
+        "unifiedjs.vscode-mdx"
+      ]
+    }
+  }
+}
