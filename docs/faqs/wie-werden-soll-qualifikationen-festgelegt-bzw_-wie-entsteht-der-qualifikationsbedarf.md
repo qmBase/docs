@@ -3,8 +3,9 @@ id: faq-75
 slug: /faqs/75
 title: Wie werden Soll-Qualifikationen festgelegt bzw. wie entsteht der Qualifikationsbedarf
 keywords:
- - Aufgaben & Qualifikationen
+  - Aufgaben & Qualifikationen
 ---
+
 Zur Erfassung von Soll-Qualifikationen gibt es zwei Möglichkeiten:
 
 1.  Der Weg über Positionen und Stellenbeschreibungen.

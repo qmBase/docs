@@ -1,5 +1,6 @@
 import Layout from "@theme/Layout";
 import clsx from "clsx";
+
 import FeatureCard from "../components/featureCard";
 import { appData } from "../data/appData";
 import styles from "./styles.module.css";
@@ -13,9 +14,7 @@ function Tutorials() {
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">Tutorials</h1>
-          <p className="hero__subtitle">
-            Ihr Einstiegspunkt zu Anleitungen für die einzelnen Apps
-          </p>
+          <p className="hero__subtitle">Ihr Einstiegspunkt zu Anleitungen für die einzelnen Apps</p>
         </div>
       </header>
       <main>

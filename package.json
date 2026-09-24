@@ -1,14 +1,30 @@
 {
-  "browserslist": {
-    "development": [
-      "last 1 chrome version"
-    ],
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not IE 11",
-      "not op_mini all"
-    ]
+  "name": "pbd-docs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "docusaurus build",
+    "clear": "docusaurus clear",
+    "deploy": "docusaurus deploy",
+    "dev": "docusaurus start",
+    "start:devcontainer": "docusaurus start --host 0.0.0.0",
+    "docusaurus": "docusaurus",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "generate:release-notes": "tsx ./.agents/workflow/generate-release-notes.ts",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "lint:spelling": "cspell \"**\" --no-progress",
+    "prepare:blog": "node ./.agents/scripts/prepare-blog.ts",
+    "serve": "docusaurus serve",
+    "start": "docusaurus start",
+    "swizzle": "docusaurus swizzle",
+    "test": "mdspell -r ./blog/**/*.md ./docs**/*.md",
+    "test:e2e": "playwright test",
+    "typecheck": "tsc",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "write-translations": "docusaurus write-translations",
+    "prepare": "husky"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.1",
@@ -42,36 +58,20 @@
     "tsx": "^4.23.15",
     "typescript": "^6.0.3"
   },
+  "browserslist": {
+    "development": [
+      "last 1 chrome version"
+    ],
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not IE 11",
+      "not op_mini all"
+    ]
+  },
   "engines": {
     "node": ">=24"
   },
-  "name": "pbd-docs",
-  "private": true,
-  "scripts": {
-    "build": "docusaurus build",
-    "clear": "docusaurus clear",
-    "deploy": "docusaurus deploy",
-    "dev": "docusaurus start",
-    "start:devcontainer": "docusaurus start --host 0.0.0.0",
-    "docusaurus": "docusaurus",
-    "fmt": "oxfmt",
-    "fmt:check": "oxfmt --check",
-    "generate:release-notes": "tsx ./.agents/workflow/generate-release-notes.ts",
-    "lint": "oxlint",
-    "lint:fix": "oxlint --fix",
-    "lint:spelling": "cspell \"**\" --no-progress",
-    "prepare:blog": "node ./.agents/scripts/prepare-blog.ts",
-    "serve": "docusaurus serve",
-    "start": "docusaurus start",
-    "swizzle": "docusaurus swizzle",
-    "test": "mdspell -r ./blog/**/*.md ./docs**/*.md",
-    "test:e2e": "playwright test",
-    "typecheck": "tsc",
-    "write-heading-ids": "docusaurus write-heading-ids",
-    "write-translations": "docusaurus write-translations",
-    "prepare": "husky"
-  },
-  "version": "1.0.0",
   "allowScripts": {
     "esbuild@0.28.2": true,
     "@swc/core": true,

@@ -117,6 +117,7 @@ QES-Lösungen:
 - bringen **keinen regulatorischen Mehrwert** für ISO-, FDA- oder GMP-Audits
 
 qmBase folgt dem Prinzip:
+
 > so viel Kontrolle wie nötig – so wenig Hürden wie möglich
 
 ---
@@ -142,15 +143,15 @@ Damit erfüllt qmBase die typischen Erwartungen von:
 
 ## Zusammenfassung: Anforderungen an elektronische Freigaben in ISO-, FDA- und GMP-Managementsystemen
 
-| Anforderung an elektronische Freigaben | qmBase |
-|---------------------------------------|--------|
-| Eindeutige Zuordnung zur freigebenden Person | ✔️ |
-| Authentifizierung vor der Freigabe | ✔️ |
-| Zeitstempel (Datum & Uhrzeit) | ✔️ |
-| Verknüpfung der Freigabe mit der Dokumentrevision | ✔️ |
-| Lückenlose Änderungs- und Freigabehistorie (Audit Trail) | ✔️ |
-| Rollen- und Berechtigungskonzept | ✔️ |
-| Schutz vor unbefugter Nutzung | ✔️ |
+| Anforderung an elektronische Freigaben                   | qmBase |
+| -------------------------------------------------------- | ------ |
+| Eindeutige Zuordnung zur freigebenden Person             | ✔️     |
+| Authentifizierung vor der Freigabe                       | ✔️     |
+| Zeitstempel (Datum & Uhrzeit)                            | ✔️     |
+| Verknüpfung der Freigabe mit der Dokumentrevision        | ✔️     |
+| Lückenlose Änderungs- und Freigabehistorie (Audit Trail) | ✔️     |
+| Rollen- und Berechtigungskonzept                         | ✔️     |
+| Schutz vor unbefugter Nutzung                            | ✔️     |
 
 **Hinweis:**
 Qualifizierte elektronische Signaturen (QES) nach eIDAS sind keine Anforderung von ISO-Normen, FDA 21 CFR Part 11 oder EU GMP Annex 11 und daher nicht Bestandteil der qmBase-Freigabemechanismen.

@@ -58,13 +58,14 @@ Sind alle Bedingungen erfüllt erscheint oberhalb der Schulung ein Banner mit ei
 {/*
 TODO: Fix edge cases
 Sonderfälle:
+
 - Was passiert mit dem Status IsQualificationTransferred
 - Qualifikationsübertrag nicht möglich wegen anderer Restriktionen
 - Qualifikationen nur teilweise übertragen
 - Nachträgliches Ändern von verknüpften Qualifikationen
 - Verknüpfte Qualifikation ist gelöscht
   - Generelle Frage ist mit verknüpften gelöschten Elementen
-*/}
+    */}
 
 ### Formulare - Evaluation und Bewertung von Schulungen
 

@@ -7,10 +7,7 @@ export default function VideoContainer() {
     <div className="container text--center margin-bottom--xl">
       <div className="row">
         <div className="col">
-          <Heading as="h2">
-            Sie kennen qmBase noch nicht? Hier unsere Erklärung in weniger als
-            1:30!
-          </Heading>
+          <Heading as="h2">Sie kennen qmBase noch nicht? Hier unsere Erklärung in weniger als 1:30!</Heading>
           <div className="video-container">
             <LiteYouTubeEmbed
               id="Ghlm20iF31o"

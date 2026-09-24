@@ -1,6 +1,8 @@
+// oxlint-disable sort-keys
 import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
-import { WhiteLabelConfig } from "./src/models/whiteLabelConfig";
+
+import type { WhiteLabelConfig } from "./src/models/whiteLabelConfig";
 
 const whiteLabel: WhiteLabelConfig = {
   title: "qmBase - Hilfe",

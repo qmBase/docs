@@ -28,8 +28,8 @@ Die attributbasierte Zugriffskontrolle ermöglicht eine feinere Steuerung auf de
 Dies erlaubt es, Ausnahmen von den allgemeinen Rollen festzulegen und sensible Daten gezielt zu schützen.
 
 <Mermaid
-  chart={`flowchart TD
-    Start[Benutzer fordert Zugriff an] --> CheckRBAC{RBAC Check: Hat der Benutzer die erforderliche Rolle?}
+chart={`flowchart TD
+Start[Benutzer fordert Zugriff an] --> CheckRBAC{RBAC Check: Hat der Benutzer die erforderliche Rolle?}
 
     CheckRBAC -- Nein --> Deny[Zugriff verweigert]
     CheckRBAC -- Ja --> CheckABAC{ABAC Check: Erlauben Benutzer-/Ressourcenattribute den Zugriff?}
@@ -37,6 +37,7 @@ Dies erlaubt es, Ausnahmen von den allgemeinen Rollen festzulegen und sensible D
     CheckABAC -- Nein --> Deny[Zugriff verweigert]
     CheckABAC -- Ja --> Grant[Zugriff gewährt]
     `}
+
 />
 
 ## Übersicht

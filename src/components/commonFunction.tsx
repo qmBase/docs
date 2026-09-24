@@ -1,4 +1,5 @@
 import Link from "@docusaurus/Link";
+
 import { commonFunctionsData } from "../data/commonFunctions";
 import { sharedFunctionsData } from "../data/sharedFunctionsData";
 import { Entity } from "../models/entity";
@@ -11,9 +12,7 @@ interface IProps {
 }
 
 export default function CommonFunction({ app, entity, entityTitle }: IProps) {
-  const filteredData = commonFunctionsData.find(
-    (x) => x.appName === app && x.appEntity === entity
-  );
+  const filteredData = commonFunctionsData.find((x) => x.appName === app && x.appEntity === entity);
   return (
     <table>
       <thead>

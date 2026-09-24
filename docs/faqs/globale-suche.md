@@ -13,7 +13,7 @@ Im Allgemeinen werden statische Daten (z.B App-Namen) und in Datenbanken gespeic
 
 Folgende Funktionen sind innerhalb des Suchfensters möglich.
 
-1. Indem Sie auf eine App in der aufgeführten Liste klicken, werden Sie direkt zur Index-Seite gebracht. 
+1. Indem Sie auf eine App in der aufgeführten Liste klicken, werden Sie direkt zur Index-Seite gebracht.
    ![Allgemein](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/GlobalSearchDirect.gif)
 
 2. Gespeicherte Daten können durchsucht werden, indem Sie "Suche eingrenzen" auswählen. Die Suche kann in diesem Fall auf einzelne Apps eingegrenzt werden.

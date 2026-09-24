@@ -3,14 +3,10 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import clsx from "clsx";
 import React from "react";
 import { FaWrench } from "react-icons/fa";
+
 import { AppInfo } from "../models/appInfo";
 
-export default function FeatureCard({
-  icon,
-  title,
-  description,
-  url,
-}: AppInfo) {
+export default function FeatureCard({ icon, title, description, url }: AppInfo) {
   // const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx("col col--4 padding-vert--md")}>

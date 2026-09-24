@@ -5,7 +5,7 @@ sidebar_label: Smart Views
 slug: /faqs/smart-views
 ---
 
-Sie haben die Möglichkeit die Filter in einer Tabelle (z.B  Liste der Maßnahmen) als Smart View abzuspeichern. So kommen Sie auch bei umfangreichen Tabellen schnell zu den Informationen, dei für Sie relevant sind. .
+Sie haben die Möglichkeit die Filter in einer Tabelle (z.B Liste der Maßnahmen) als Smart View abzuspeichern. So kommen Sie auch bei umfangreichen Tabellen schnell zu den Informationen, dei für Sie relevant sind. .
 
 Typische Aufgaben, für die Smart Views geeignet sind, sind z.B:
 

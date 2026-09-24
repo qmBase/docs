@@ -2,6 +2,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import { FaRss } from "react-icons/fa";
+
 import FeaturesContainer from "../components/Homepage/featuresContainer";
 import TopBanner from "../components/Homepage/topBanner";
 import VideoContainer from "../components/Homepage/videoContainer";
@@ -13,17 +14,13 @@ const features = [
     imageUrl: "img/undraw_teaching.svg",
     description: (
       <>
-        Finden Sie hier Tutorials, die Ihnen den Einstieg in das System
-        erleichtern. Starten Sie innerhalb von 5 Minuten.
+        Finden Sie hier Tutorials, die Ihnen den Einstieg in das System erleichtern. Starten Sie innerhalb von 5
+        Minuten.
       </>
     ),
   },
   {
-    title: (
-      <Link to="/docs/faqs/smart-views">
-        FAQ - Antworten auf häufige Fragen
-      </Link>
-    ),
+    title: <Link to="/docs/faqs/smart-views">FAQ - Antworten auf häufige Fragen</Link>,
     imageUrl: "img/undraw_Questions.svg",
     description: <>Finden Sie hier Antworten auf häufig gestellte Fragen. </>,
   },
@@ -53,9 +50,8 @@ const features = [
     imageUrl: "img/undraw_right_direction.svg",
     description: (
       <>
-        Ausblick auf unsere zukünftigen Entwicklungen und Planungen. Unsere
-        Roadmap wird laufend aktualisiert und an aktuelle Anforderungen
-        angepasst.
+        Ausblick auf unsere zukünftigen Entwicklungen und Planungen. Unsere Roadmap wird laufend aktualisiert und an
+        aktuelle Anforderungen angepasst.
       </>
     ),
   },
@@ -64,9 +60,8 @@ const features = [
     imageUrl: "img/undraw_font.svg",
     description: (
       <>
-        qmBase ist auch die Grundlage einiger White Label Lösungen. Die
-        Informationen auf dieser Seite sind auch für die White Label Lösungen
-        gültig. Zu den Lösungen gehören unter anderem:
+        qmBase ist auch die Grundlage einiger White Label Lösungen. Die Informationen auf dieser Seite sind auch für die
+        White Label Lösungen gültig. Zu den Lösungen gehören unter anderem:
         <ul>
           <li>
             <Link to="https://jowecon.de/docupro/">DocuPro</Link>
