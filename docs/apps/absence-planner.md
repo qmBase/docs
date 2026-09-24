@@ -77,7 +77,7 @@ Zur Nutzung aller Funktionen sind folgende Konfigurationen erforderlich:
 
 ### Abwesenheitstypen
 
-Unter **Einstellungen -> Mitarbeiter -> Abwesenheitstypen** werden die verschiedenen Arten der Abwesenheit definiert. Beispiele:
+Unter **Einstellungen -> Abwesenheitsplaner -> Abwesenheitstypen** werden die verschiedenen Arten der Abwesenheit definiert. Beispiele:
 
 - Urlaub
 - Krankheit
@@ -86,7 +86,7 @@ Unter **Einstellungen -> Mitarbeiter -> Abwesenheitstypen** werden die verschied
 
 ### Abwesenheitsregelungen
 
-Unter **Einstellungen -> Mitarbeiter -> Abwesenheitsregelungen** werden Regeln zur Organisation der Abwesenheiten erstellt (z. B. Urlaubsregelung für das Kalenderjahr).
+Unter **Einstellungen -> Abwesenheitsplaner -> Abwesenheitsregelungen** werden Regeln zur Organisation der Abwesenheiten erstellt (z. B. Urlaubsregelung für das Kalenderjahr).
 
 Eigenschaften einer Abwesenheitsregelung:
 
@@ -97,7 +97,7 @@ Eigenschaften einer Abwesenheitsregelung:
 
 ### Feiertage
 
-Unter **Einstellungen -> Allgemein -> Feiertage** werden Feiertage und Betriebsferien hinterlegt.
+Unter **Einstellungen -> Abwesenheitsplaner -> Feiertage** werden Feiertage und Betriebsferien hinterlegt.
 
 ## Benachrichtigungen
 
