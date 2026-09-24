@@ -3,8 +3,10 @@
     "streetsidesoftware.code-spell-checker-german",
     "davidanson.vscode-markdownlint",
     "streetsidesoftware.code-spell-checker",
-    "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint",
-    "fvclaus.sort-json-array"
+    "fvclaus.sort-json-array",
+    "oxc.oxc-vscode",
+    "ms-azuretools.vscode-azurestaticwebapps",
+    "github.vscode-github-actions",
+    "unifiedjs.vscode-mdx"
   ]
 }

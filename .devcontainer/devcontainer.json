@@ -5,7 +5,7 @@
    "mounts": [
     "source=qmbase-docs-node-modules,target=/workspaces/docs/node_modules,type=volume"
   ],
-  "postCreateCommand": "npm ci",
+  "postCreateCommand": "sudo chown -R node:node /workspaces/docs/node_modules && npm ci",
   "forwardPorts": [3000, 4173],
   "portsAttributes": {
     "3000": {
