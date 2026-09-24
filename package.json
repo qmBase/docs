@@ -30,7 +30,7 @@
     "@docusaurus/tsconfig": "^3.10.2",
     "@docusaurus/types": "^3.10.2",
     "@playwright/test": "1.61.1",
-    "@types/node": "^24.13.6",
+    "@types/node": "^26.6.2",
     "@types/react": "^19.3.0",
     "cspell": "^10.3.3",
     "handlebars": "^4.7.9",
