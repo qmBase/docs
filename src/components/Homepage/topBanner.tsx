@@ -1,6 +1,7 @@
 import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import clsx from "clsx";
+
 import styles from "../../pages/styles.module.css";
 
 interface TopBannerProps {
@@ -16,10 +17,7 @@ export default function TopBanner({ title, tagline }: TopBannerProps) {
         <p className="hero__subtitle">{tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className={clsx(
-              "button button--outline button--secondary button--lg",
-              styles.getStarted
-            )}
+            className={clsx("button button--outline button--secondary button--lg", styles.getStarted)}
             to={useBaseUrl("docs/gettingStarted/getting-started")}
           >
             Los geht's

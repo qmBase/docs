@@ -72,9 +72,7 @@ Example of generated config (for reference only):
     "rewrite": "/index.html",
     "exclude": ["/images/*", "/css/*"]
   },
-  "routes": [
-    { "route": "/api/*", "allowedRoles": ["authenticated"] }
-  ],
+  "routes": [{ "route": "/api/*", "allowedRoles": ["authenticated"] }],
   "platform": {
     "apiRuntime": "node:20"
   }
@@ -130,11 +128,11 @@ swa start http://localhost:3000 --run "npm start"  # Auto-start dev server
 
 **Common framework ports:**
 
-| Framework | Port |
-|-----------|------|
+| Framework         | Port |
+| ----------------- | ---- |
 | React/Vue/Next.js | 3000 |
-| Angular | 4200 |
-| Vite | 5173 |
+| Angular           | 4200 |
+| Vite              | 5173 |
 
 **Key flags:**
 
@@ -218,15 +216,15 @@ func new --name message --template "HTTP trigger"
 1. **Example function** (`api/src/functions/message.js`):
 
 ```javascript
-const { app } = require('@azure/functions');
+const { app } = require("@azure/functions");
 
-app.http('message', {
-    methods: ['GET', 'POST'],
-    authLevel: 'anonymous',
-    handler: async (request) => {
-        const name = request.query.get('name') || 'World';
-        return { jsonBody: { message: `Hello, ${name}!` } };
-    }
+app.http("message", {
+  methods: ["GET", "POST"],
+  authLevel: "anonymous",
+  handler: async (request) => {
+    const name = request.query.get("name") || "World";
+    return { jsonBody: { message: `Hello, ${name}!` } };
+  },
 });
 ```
 
@@ -312,16 +310,16 @@ jobs:
 
 ## Troubleshooting
 
-| Issue | Solution |
-|-------|----------|
-| 404 on client routes | Add `navigationFallback` with `rewrite: "/index.html"` to `staticwebapp.config.json` |
-| API returns 404 | Verify `api` folder structure, ensure `platform.apiRuntime` is set, check function exports |
-| Build output not found | Verify `output_location` matches actual build output directory |
-| Auth not working locally | Use `/.auth/login/<provider>` to access auth emulator UI |
-| CORS errors | APIs under `/api/*` are same-origin; external APIs need CORS headers |
-| Deployment token expired | Regenerate in Azure Portal → Static Web App → Manage deployment token |
-| Config not applied | Ensure `staticwebapp.config.json` is in `app_location` or `output_location` |
-| Local API timeout | Default is 45 seconds; optimize function or check for blocking calls |
+| Issue                    | Solution                                                                                   |
+| ------------------------ | ------------------------------------------------------------------------------------------ |
+| 404 on client routes     | Add `navigationFallback` with `rewrite: "/index.html"` to `staticwebapp.config.json`       |
+| API returns 404          | Verify `api` folder structure, ensure `platform.apiRuntime` is set, check function exports |
+| Build output not found   | Verify `output_location` matches actual build output directory                             |
+| Auth not working locally | Use `/.auth/login/<provider>` to access auth emulator UI                                   |
+| CORS errors              | APIs under `/api/*` are same-origin; external APIs need CORS headers                       |
+| Deployment token expired | Regenerate in Azure Portal → Static Web App → Manage deployment token                      |
+| Config not applied       | Ensure `staticwebapp.config.json` is in `app_location` or `output_location`                |
+| Local API timeout        | Default is 45 seconds; optimize function or check for blocking calls                       |
 
 **Debug commands:**
 

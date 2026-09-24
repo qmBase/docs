@@ -5,10 +5,7 @@ function Feedback() {
   return (
     <Layout title="Hello">
       <main>
-        <div
-          className="container"
-          style={{ height: "90vh", minHeight: "80vh" }}
-        >
+        <div className="container" style={{ height: "90vh", minHeight: "80vh" }}>
           <iframe
             style={{
               width: "100%",

@@ -36,17 +36,13 @@ const scoreEntry = (rawScore) => {
 const createMarkdownTableRow = ({ url, summary, reportUrl }) =>
   [
     `| [${new URL(url).pathname}](${url})`,
-    .../** @type {(keyof LighthouseSummary)[]} */ (
-      Object.keys(summaryKeys)
-    ).map((k) => scoreEntry(summary[k])),
+    .../** @type {(keyof LighthouseSummary)[]} */ (Object.keys(summaryKeys)).map((k) => scoreEntry(summary[k])),
     `[Report](${reportUrl}) |`,
   ].join(" | ");
 
 const createMarkdownTableHeader = () => [
   ["| URL", ...Object.values(summaryKeys), "Report |"].join(" | "),
-  ["|---", ...Array(Object.keys(summaryKeys).length).fill("---"), "---|"].join(
-    "|"
-  ),
+  ["|---", ...Array(Object.keys(summaryKeys).length).fill("---"), "---|"].join("|"),
 ];
 
 /**
@@ -57,9 +53,7 @@ const createMarkdownTableHeader = () => [
 const createLighthouseReport = ({ results, links }) => {
   const tableHeader = createMarkdownTableHeader();
   const tableBody = results.map((result) => {
-    const testUrl = /** @type {string} */ (
-      Object.keys(links).find((key) => key === result.url)
-    );
+    const testUrl = /** @type {string} */ (Object.keys(links).find((key) => key === result.url));
     const reportPublicUrl = /** @type {string} */ (links[testUrl]);
 
     return createMarkdownTableRow({
@@ -68,13 +62,7 @@ const createLighthouseReport = ({ results, links }) => {
       reportUrl: reportPublicUrl,
     });
   });
-  const comment = [
-    "### ⚡️ Lighthouse report for the deploy preview of this PR",
-    "",
-    ...tableHeader,
-    ...tableBody,
-    "",
-  ];
+  const comment = ["### ⚡️ Lighthouse report for the deploy preview of this PR", "", ...tableHeader, ...tableBody, ""];
   return comment.join("\n");
 };
 

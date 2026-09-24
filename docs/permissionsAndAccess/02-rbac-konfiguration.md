@@ -2,7 +2,6 @@
 title: RBAC - Rollenbasierter Zugriff
 ---
 
-
 Kontrollieren Sie den Zugriff auf Apps, Objekte und Funktionen in qmBase.
 In der Regel reichen die vordefinierten Rollen aus. Sollten Sie aber spezielle Anforderungen haben, können Sie Rollen erstellen.
 

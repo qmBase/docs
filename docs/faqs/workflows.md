@@ -3,7 +3,7 @@ id: workflows
 slug: /faqs/workflows
 title: Workflows
 keywords:
-- Workflows
+  - Workflows
 ---
 
 :::info
