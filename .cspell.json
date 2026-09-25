@@ -6,16 +6,7 @@
   // language - current active spelling language
   "language": "de,en",
   "import": ["@cspell/dict-de-de/cspell-ext.json"],
-  "dictionaries": [
-    "css",
-    "html",
-    "fonts",
-    "typescript",
-    "softwareTerms",
-    "companies",
-    "lorem-ipsum",
-    "project-words"
-  ],
+  "dictionaries": ["css", "html", "fonts", "typescript", "softwareTerms", "companies", "lorem-ipsum", "project-words"],
   "dictionaryDefinitions": [
     {
       "name": "project-words",

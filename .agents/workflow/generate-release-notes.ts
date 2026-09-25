@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+
 import { runPrompt } from "../lib/runPrompt";
 
 interface IProps {

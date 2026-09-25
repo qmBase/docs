@@ -3,10 +3,11 @@ id: faq-81
 slug: /faqs/81
 title: Wie definiere ich für den Qualifikations-Import die Wiederholungsintervalle
 keywords:
- - Datenimport
- - Aufgaben & Qualifikationen
+  - Datenimport
+  - Aufgaben & Qualifikationen
 ---
-***TimeInterval*** gibt die Einheit an, in der die Zeit gemessen wird:
+
+_**TimeInterval**_ gibt die Einheit an, in der die Zeit gemessen wird:
 
 0 = Year ,
 
@@ -22,51 +23,35 @@ keywords:
 
 6 = Second
 
-***TimeIntervalValue* **gibt dann den dazugehörigen nummerischen Wert an.
+**_TimeIntervalValue_ **gibt dann den dazugehörigen nummerischen Wert an.
 
 TimeInterval = 0, TimerIntervallValue = 2 würde bedeuten, dass die Qualifikation eine Gültigkeit von 2 Jahren hat.
 
-Das Feld ***SurveillanceIntervalTimeSpan* **erfasst die Informationen gemäß [https://de.wikipedia.org/wiki/ISO_8601](https://de.wikipedia.org/wiki/ISO_8601)
+Das Feld **_SurveillanceIntervalTimeSpan_ **erfasst die Informationen gemäß [https://de.wikipedia.org/wiki/ISO_8601](https://de.wikipedia.org/wiki/ISO_8601)
 
 Eine Gültigkeit von zwei Jahren wird wie folgt vorgegeben: **P2Y**
 
 Das **P** gibt an, dass es sich um eine Zeitspanne (Period) handelt.
 
-
-
-
-
-
 Zeichen für weitere Zeitspannen
 
-
-
-
 **Y**
-Jahr (***year***)
-
+Jahr (_**year**_)
 
 **M**
-Monat (***month***)
-
+Monat (_**month**_)
 
 **W**
-Woche (***week***)
-
+Woche (_**week**_)
 
 **D**
-Tag (***day***)
-
+Tag (_**day**_)
 
 **h**
-Stunde (***hour***)
-
+Stunde (_**hour**_)
 
 **m**
-Minute (***minute***)
-
+Minute (_**minute**_)
 
 **s**
-Sekunde (***second***)
-
-
+Sekunde (_**second**_)

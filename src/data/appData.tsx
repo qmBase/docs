@@ -14,29 +14,20 @@ import {
   FaWikipediaW,
   FaWrench,
 } from "react-icons/fa";
+
 import { AppInfo } from "../models/appInfo";
 import { PbdModuleString } from "../models/pbdModuleString";
 
 export const appData: AppInfo[] = [
   {
-    icon: (
-      <FaUmbrellaBeach
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaUmbrellaBeach size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "Abwesenheitsplaner",
     description: "",
     url: "docs/apps/absence-planner",
     app: PbdModuleString.AbsencePlanner,
   },
   {
-    icon: (
-      <FaFingerprint
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaFingerprint size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "Auditmanagement",
     description: "",
     url: "docs/apps/audit-management",
@@ -44,120 +35,70 @@ export const appData: AppInfo[] = [
   },
 
   {
-    icon: (
-      <FaRssSquare
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaRssSquare size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "Blog",
     description: "",
     url: "docs/apps/articles/blog",
     app: PbdModuleString.Blog,
   },
   {
-    icon: (
-      <FaRegAddressBook
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaRegAddressBook size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "CRM",
     description: "",
     url: "docs/apps/crm",
     app: PbdModuleString.Crm,
   },
   {
-    icon: (
-      <FaRegFolder
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaRegFolder size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "Dokumentenmanagement",
     description: "",
     url: "docs/apps/articles/document-management",
     app: PbdModuleString.DocumentManagement,
   },
   {
-    icon: (
-      <FaTasks
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaTasks size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "Formulare",
     description: "",
     url: "docs/apps/forms",
     app: PbdModuleString.CustomForms,
   },
   {
-    icon: (
-      <FaRegLightbulb
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaRegLightbulb size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "Ideenmanagement",
     description: "",
     url: "docs/apps/idea-management",
     app: PbdModuleString.IdeaManagement,
   },
   {
-    icon: (
-      <FaWrench
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaWrench size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "Instandhaltung",
     description: "",
     url: "docs/apps/maintenance-management",
     app: PbdModuleString.MaintenanceManagement,
   },
   {
-    icon: (
-      <FaRegAddressCard
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaRegAddressCard size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "Mitarbeiter",
     description: "",
     url: "docs/apps/employees",
     app: PbdModuleString.Employees,
   },
   {
-    icon: (
-      <FaTasks
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaTasks size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "Projekte & Maßanhmen",
     description: "",
     url: "docs/apps/projects-and-tasks",
     app: PbdModuleString.ProjectAndTaskManagement,
   },
   {
-    icon: (
-      <FaFireExtinguisher
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaFireExtinguisher size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "Reklamationsmanagement",
     description: "",
     url: "docs/apps/claim-management",
     app: PbdModuleString.ClaimManagement,
   },
   {
-    icon: (
-      <FaChessRook
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaChessRook size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "Risiken & Chance",
     description: "",
     url: "docs/apps/opportunity-management",
@@ -165,36 +106,21 @@ export const appData: AppInfo[] = [
   },
 
   {
-    icon: (
-      <FaChalkboardTeacher
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaChalkboardTeacher size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "Talent Manager",
     description: "",
     url: "docs/apps/training-management",
     app: PbdModuleString.TrainingManagement,
   },
   {
-    icon: (
-      <FaWikipediaW
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaWikipediaW size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "WIKI",
     description: "",
     url: "docs/apps/articles/wiki",
     app: PbdModuleString.KnowledgeBase,
   },
   {
-    icon: (
-      <FaFlagCheckered
-        size="5rem"
-        style={{ color: "var(--ifm-color-primary-darkest)" }}
-      />
-    ),
+    icon: <FaFlagCheckered size="5rem" style={{ color: "var(--ifm-color-primary-darkest)" }} />,
     title: "Zielmanagement",
     description: "",
     url: "docs/apps/goal-management",

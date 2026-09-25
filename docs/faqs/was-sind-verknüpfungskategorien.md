@@ -3,11 +3,12 @@ id: faq-95
 slug: /faqs/95
 title: Was sind Verknüpfungskategorien
 ---
+
 In qmBase lassen sich verschiedenen Informationen miteinander verknüpfen. Diese Verknüpfung sagt aber zunächst nichts über einen kausalen Zusammenhang (Ursache und Wirkung) aus. Um diese Information mit zu erfassen können unter den Einstellungen -> Allgemein -> Verknüpfungskategorien erstellt werden. Beispiele für Kategorien sind:
 
-*   Korrektur
+- Korrektur
 
-*   Verbesserung
+- Verbesserung
 
 ![](https://caqadmin.blob.core.windows.net/faqs/0-images/cd3d35a3-4d8a-4ced-8158-644e172962ec-mceclip0.png)
 

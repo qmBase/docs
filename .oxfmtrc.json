@@ -6,7 +6,7 @@
   "printWidth": 120,
   "sortPackageJson": true,
   "ignorePatterns": ["build/**", "node_modules/**", "playwright-report/**", "coverage/**", ".docusaurus/**"],
-  "endOfLine": "crlf",
+  "endOfLine": "lf",
   "sortImports": {
     "newlinesBetween": true,
     "groups": [

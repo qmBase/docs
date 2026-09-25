@@ -1,0 +1,14 @@
+echo '🧹 run lint:spelling'
+npm run lint:spelling || 
+(
+  echo 'Linting failed, please fix the spelling errors before committing.'
+  false;
+)
+
+npm run typecheck ||
+(
+  echo 'Type checking failed, please fix the errors before committing.'
+  false;
+)
+
+echo '✅ pre-commit checks passed'

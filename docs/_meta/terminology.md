@@ -23,6 +23,7 @@ The time range during which a qualification is considered valid.
 Any document or record used to demonstrate completion or compliance.
 
 ## Language rules
+
 - “User” refers to a person using the software
 - “Organization” refers to the customer company
 - “System” refers to the SaaS application
@@ -33,6 +34,7 @@ Any document or record used to demonstrate completion or compliance.
 - Do not translate locked terms inconsistently
 
 Example:
+
 - Always use **„Qualifikation“**
 - Do NOT alternate with:
   - „Kompetenz“

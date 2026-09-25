@@ -1,5 +1,6 @@
 import Heading from "@theme/Heading";
 import clsx from "clsx";
+
 import FeatureItem, { FeatureItemProps } from "./featureItem";
 
 interface FeaturesContainerProps {
@@ -20,11 +21,7 @@ export default function FeaturesContainer({ features }: FeaturesContainerProps) 
       </div>
       <div className="row">
         {secondRow.map((feature, idx) => (
-          <FeatureItem
-            {...feature}
-            key={idx}
-            className={clsx("col--4", idx === 0 && "col--offset-2")}
-          />
+          <FeatureItem {...feature} key={idx} className={clsx("col--4", idx === 0 && "col--offset-2")} />
         ))}
       </div>
     </div>

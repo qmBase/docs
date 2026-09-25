@@ -29,11 +29,7 @@ export const commonFunctionsData: AppConfig[] = [
   },
   {
     appName: PbdModuleString.Blog,
-    sharedFunctions: [
-      SharedFunction.AuditTrail,
-      SharedFunction.Comments,
-      SharedFunction.Files,
-    ],
+    sharedFunctions: [SharedFunction.AuditTrail, SharedFunction.Comments, SharedFunction.Files],
   },
   {
     appName: PbdModuleString.ClaimManagement,
@@ -62,28 +58,15 @@ export const commonFunctionsData: AppConfig[] = [
   },
   {
     appName: PbdModuleString.DocumentManagement,
-    sharedFunctions: [
-      SharedFunction.AuditTrail,
-      SharedFunction.Comments,
-      SharedFunction.Files,
-    ],
+    sharedFunctions: [SharedFunction.AuditTrail, SharedFunction.Comments, SharedFunction.Files],
   },
   {
     appName: PbdModuleString.Employees,
-    sharedFunctions: [
-      SharedFunction.AuditTrail,
-      SharedFunction.Comments,
-      SharedFunction.Files,
-    ],
+    sharedFunctions: [SharedFunction.AuditTrail, SharedFunction.Comments, SharedFunction.Files],
   },
   {
     appName: PbdModuleString.DefectManagement,
-    sharedFunctions: [
-      SharedFunction.AuditTrail,
-      SharedFunction.Comments,
-      SharedFunction.Costs,
-      SharedFunction.Files,
-    ],
+    sharedFunctions: [SharedFunction.AuditTrail, SharedFunction.Comments, SharedFunction.Costs, SharedFunction.Files],
   },
   {
     appName: PbdModuleString.CustomForms,
@@ -105,21 +88,12 @@ export const commonFunctionsData: AppConfig[] = [
   },
   {
     appName: PbdModuleString.IdeaManagement,
-    sharedFunctions: [
-      SharedFunction.AuditTrail,
-      SharedFunction.Comments,
-      SharedFunction.Files,
-    ],
+    sharedFunctions: [SharedFunction.AuditTrail, SharedFunction.Comments, SharedFunction.Files],
   },
   {
     appName: PbdModuleString.MaintenanceManagement,
     appEntity: Entity.InventoryItems,
-    sharedFunctions: [
-      SharedFunction.AuditTrail,
-      SharedFunction.Comments,
-      SharedFunction.Costs,
-      SharedFunction.Files,
-    ],
+    sharedFunctions: [SharedFunction.AuditTrail, SharedFunction.Comments, SharedFunction.Costs, SharedFunction.Files],
   },
   {
     appName: PbdModuleString.MaintenanceManagement,
@@ -129,11 +103,7 @@ export const commonFunctionsData: AppConfig[] = [
   {
     appName: PbdModuleString.ProjectAndTaskManagement,
     appEntity: Entity.Projects,
-    sharedFunctions: [
-      SharedFunction.AuditTrail,
-      SharedFunction.Comments,
-      SharedFunction.Files,
-    ],
+    sharedFunctions: [SharedFunction.AuditTrail, SharedFunction.Comments, SharedFunction.Files],
   },
   {
     appName: PbdModuleString.ProjectAndTaskManagement,
@@ -148,11 +118,7 @@ export const commonFunctionsData: AppConfig[] = [
   },
   {
     appName: PbdModuleString.Products,
-    sharedFunctions: [
-      SharedFunction.AuditTrail,
-      SharedFunction.Comments,
-      SharedFunction.Files,
-    ],
+    sharedFunctions: [SharedFunction.AuditTrail, SharedFunction.Comments, SharedFunction.Files],
   },
   {
     appName: PbdModuleString.OpportunityManagement,
@@ -175,10 +141,6 @@ export const commonFunctionsData: AppConfig[] = [
   },
   {
     appName: PbdModuleString.KnowledgeBase,
-    sharedFunctions: [
-      SharedFunction.AuditTrail,
-      SharedFunction.Comments,
-      SharedFunction.Files,
-    ],
+    sharedFunctions: [SharedFunction.AuditTrail, SharedFunction.Comments, SharedFunction.Files],
   },
 ];

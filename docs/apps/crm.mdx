@@ -3,13 +3,7 @@ id: crm
 title: CRM
 ---
 
-import {
-  FaChessKing,
-  FaListUl,
-  FaPlus,
-  FaShippingFast,
-  FaStarHalfAlt,
-} from "react-icons/fa";
+import { FaChessKing, FaListUl, FaPlus, FaShippingFast, FaStarHalfAlt } from "react-icons/fa";
 
 ![t](https://caqadmin.blob.core.windows.net/public-screenshots/All%20Integration%20Specs/Crm.png)
 
@@ -122,6 +116,7 @@ Wenn eine Bewertungskonfiguration aktiv ist, ändert sich der Bewertungsprozess:
 4. Klicken Sie auf **Speichern**
 
 Das System speichert dann automatisch:
+
 - Die **Formularantwort** mit allen Eingaben
 - Die **Bewertung** mit dem extrahierten Wert aus dem Bewertungsfeld
 - Die **Verknüpfung** zwischen Formularantwort und Bewertung
@@ -131,6 +126,7 @@ Das System speichert dann automatisch:
 #### Schritt 4: Bewertung und verknüpfte Formularantwort einsehen
 
 In der Detailansicht der Bewertung können Sie jederzeit:
+
 - Den extrahierten **Bewertungswert** und den **Kommentar** sehen
 - Die **verknüpfte Formularantwort** aufrufen und alle eingegeben Informationen einsehen
 - Die Bewertung oder die Formularantwort bearbeiten
@@ -142,6 +138,7 @@ In der Detailansicht der Bewertung können Sie jederzeit:
 Wenn für einen Kontakt keine passende Bewertungskonfiguration aktiv ist, bleibt die klassische manuelle Erfassung verfügbar - Sie können weiterhin einen Bewertungswert und einen Kommentar direkt eingeben.
 
 ---
+
 {/* Custom component */}
 
 import CommonFunction from "@site/src/components/commonFunction.tsx";
@@ -150,10 +147,6 @@ import ConnectionMatrix from "@site/src/components/connectionMatrix.tsx";
 
 <CommonFunction app={`Crm`} entity={`Organisation`} entityTitle={`Kontakte`} />
 
-<CommonFunction
-  app={`Crm`}
-  entity={`OrganisationRating`}
-  entityTitle={`Bewertungen`}
-/>
+<CommonFunction app={`Crm`} entity={`OrganisationRating`} entityTitle={`Bewertungen`} />
 
 <ConnectionMatrix inputApp={`Crm`} />

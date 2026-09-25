@@ -1,6 +1,7 @@
 # Documentation Scope
 
 Included:
+
 - How to use product features
 - Configuration guidance
 - Conceptual explanations tied to product behavior
@@ -9,6 +10,7 @@ Included:
 - Role-specific instructions
 
 Excluded:
+
 - Legal advice
 - Certification guarantees
 - Organization-specific process design
