@@ -4,7 +4,7 @@
   "remoteUser": "node",
   "mounts": ["source=qmbase-docs-node-modules,target=/workspaces/docs/node_modules,type=volume"],
   "postCreateCommand": "sudo chown -R node:node /workspaces/docs/node_modules && npm install --global npm@latest && npm ci",
-  "forwardPorts": [3000, 4173],
+  "forwardPorts": [3000, 4173, 9232],
   "portsAttributes": {
     "3000": {
       "label": "Docusaurus dev server",
@@ -12,6 +12,10 @@
     },
     "4173": {
       "label": "Docusaurus production preview",
+      "onAutoForward": "notify"
+    },
+    "9232": {
+      "label": "Playwright test server",
       "onAutoForward": "notify"
     }
   },
@@ -45,7 +49,9 @@
         "ms-azuretools.vscode-azurestaticwebapps",
         "streetsidesoftware.code-spell-checker-german",
         "github.vscode-github-actions",
-        "unifiedjs.vscode-mdx"
+        "unifiedjs.vscode-mdx",
+        "DavidAnson.vscode-markdownlint",
+        "fvclaus.sort-json-array"
       ]
     }
   }
