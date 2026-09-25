@@ -1,3 +1,4 @@
+// oxlint-disable sort-keys
 import { defineConfig, devices } from "@playwright/test";
 
 /**
