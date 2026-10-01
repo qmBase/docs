@@ -16,7 +16,7 @@ jobs:
     # Ensure PR is not in Draft Mode
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed' && github.event.pull_request.draft == false)
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     name: Build and Deploy Job
     steps:
       - name: Checkout code
@@ -64,7 +64,7 @@ jobs:
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     name: Close Pull Request Job
     steps:
       - name: Close Pull Request
@@ -75,7 +75,7 @@ jobs:
           action: "close"
 
   notify:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     needs: [build_and_deploy_job]
     if: always()
     steps:
