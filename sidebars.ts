@@ -175,7 +175,6 @@ const sidebars: SidebarsConfig = {
         "faqs/faq-112",
         "faqs/faq-115",
         "faqs/create-page-templates",
-        "faqs/globale-suche",
         "faqs/preview-badge",
         "faqs/digital-signature",
       ],
