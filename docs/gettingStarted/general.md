@@ -24,7 +24,7 @@ Zusätzlich werden nur die Spalten dargestellt, die in der Regel benötigt werde
 
 #### Suchfeld
 
-Verwenden Sie das Suchfeld in der oberen rechten Ecke, um nach Daten zu suchen, die innerhalb der Tabelle sichtbar sind.
+Verwenden Sie das Suchfeld in der oberen rechten Ecke, um nach Daten zu suchen, die innerhalb der Tabelle sichtbar sind. Weitere Informationen finden Sie unter [Suche in Tabellen](/docs/features/search#suche-in-tabellen).
 
 #### Mehr Informationen anzeigen
 
