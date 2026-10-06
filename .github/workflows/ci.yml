@@ -37,6 +37,9 @@ jobs:
       - name: Run lint:spelling
         run: npm run lint:spelling
 
+      - name: Build site
+        run: npm run build
+
       # - name: Install Playwright Browsers
       #   run: npx playwright install --with-deps chromium
       # - name: Run Playwright tests
@@ -48,7 +51,7 @@ jobs:
       #     path: playwright-report/
       #     retention-days: 7
 
-      - name: Build And Deploy
+      - name: Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
@@ -57,10 +60,11 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "/" # App source code path
+          app_location: "/build" # App source code path
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
           skip_api_build: true
+          skip_app_build: true
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
