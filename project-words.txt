@@ -318,6 +318,8 @@ Entfall
 entire
 Entra
 entries
+Entwertungs
+Entwertungsdatum
 erat
 erm├Âglich
 ermöglich
@@ -441,6 +443,7 @@ highlighted
 Highlighten
 highlighting
 highly
+Historieneintrag
 hitting
 hola
 holders
@@ -623,6 +626,7 @@ Multifaktor
 must
 nachgeschärft
 Nachhalten
+Nachschulung
 Nachverfolgbarkeit
 nachzuhalten
 NDAs
@@ -1068,6 +1072,8 @@ WhatÔÇÖs
 whether
 whitelabel
 Whitelabel
+wiederqualifiziert
+Wiederqualifizierungsdaten
 Wiedervorlagefunktion
 Wikiartikel
 Wikieintrag
