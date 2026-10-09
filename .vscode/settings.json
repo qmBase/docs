@@ -17,9 +17,10 @@
     "editor.formatOnSave": true
   },
   "chat.tools.terminal.autoApprove": {
-    "/^node -e \"JSON\\.parse\\(require\\('fs'\\)\\.readFileSync\\('\\.devcontainer/devcontainer\\.json','utf8'\\)\\); console\\.log\\('devcontainer\\.json valid'\\)\"$/": {
-      "approve": true,
-      "matchCommandLine": true
-    }
+    "command": true,
+    "true": true,
+    "magick": true,
+    "identify": true,
+    "fc-match": true
   }
 }

@@ -11,6 +11,7 @@ ppaehler:
     instagram: qmbase
 azhukovskyi:
   name: Artem Zhukovskyi
+  page: true
   title: qmBase Development Team
   image_url: https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/artemProfile.jpg
 mhassan:
@@ -18,6 +19,11 @@ mhassan:
   page: true
   title: qmBase Development Team
   image_url: https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/profile_mohamed.jpg
+vnefodov:
+  name: Vladimir Nefodov
+  title: qmBase Development Team
+  page: true
+  image_url: https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/vn_avatar.jpg
 sbenboujina:
   name: Saad Benboujina
   title: qmBase Development Team
