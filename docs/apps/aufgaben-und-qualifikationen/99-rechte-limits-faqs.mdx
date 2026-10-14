@@ -19,6 +19,64 @@ Zusätzlich können Sie die **Selbstzuweisung** aktivieren. Damit ist es dann m�
 Als weitere Einschränkung können Sie auch weitere Bedingungen festlegen, die vor der Zuweisung erfüllt sein müssen. Hier kann z.B. das Ausfüllen eines Formulars erforderlich sein.
 Zusätzlich können mit dem Tab **Zugriff** weitere Bearbeiter freigegeben werden. Hier ist es wichtig Rolle **Editieren** auszuwählen.
 
+### Wer kann Qualifikationen sehen und ändern?
+
+Der Zugriff auf Qualifikationen wird auf zwei Ebenen gesteuert:
+
+1. Die **Rollen** der App **Aufgaben & Qualifikationen** legen fest, welche Funktionen ein Benutzer grundsätzlich nutzen kann.
+2. Die **Zugriffseinstellungen je Person** legen fest, wer eine Person sehen und deren Qualifikationen ändern kann.
+
+Eine allgemeine Beschreibung der Rollen finden Sie unter [Standard-Rollen](/docs/permissionsAndAccess/standard-rollen).
+
+#### Funktionen nach Rolle
+
+Um die App zu öffnen, benötigen Sie die Rolle **Standard** oder **Modul Admin**. Die Rolle **Einstellungen** allein öffnet die App nicht. Sie erweitert die Rolle **Standard** um die Verwaltung der Qualifikationen.
+
+| Berechtigung                                                                                                      | Standard            | Standard + Einstellungen | Modul Admin | Administrator |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------------ | ----------- | ------------- |
+| App öffnen und öffentliche Personen sehen                                                                         | ✅                  | ✅                       | ✅          | ✅            |
+| Private Personen sehen                                                                                            | Nur mit Zugriff     | Nur mit Zugriff          | ✅          | ✅            |
+| Sich selbst eine Qualifikation zuweisen (wenn die Selbstzuweisung erlaubt ist)                                    | ✅                  | ✅                       | ✅          | ✅            |
+| Qualifikationen anlegen, bearbeiten, löschen und wiederherstellen                                                 | ❌                  | ✅                       | ✅          | ✅            |
+| Qualifikationen konfigurieren (Tags, Anhänge, verknüpfte Aufgaben und Schulungstypen, Nachweise, Selbstzuweisung) | ❌                  | ✅                       | ✅          | ✅            |
+| Qualifikation für eine andere Person erfassen, Qualifikationsanforderung entfernen, Aufgabe zuweisen              | Nur mit Editieren   | Nur mit Editieren        | ✅          | ✅            |
+| Schutzmaßnahmen beim Erfassen einer Qualifikation umgehen                                                         | ❌                  | ❌                       | ✅          | ✅            |
+| Erfasstes Qualifikationsereignis bearbeiten oder löschen                                                          | Nur eigene Einträge | Nur eigene Einträge      | ✅          | ✅            |
+| Qualifikation einer Person ungültig machen und neu bewerten                                                       | ❌                  | ❌                       | ✅          | ✅            |
+
+> Hinweis: Benutzer mit der globalen Rolle **Einstellungen** können Qualifikationen ebenso verwalten wie mit der Rolle **Einstellungen** der App.
+
+Qualifikationsereignisse, die durch **Qualifikation ungültig machen** oder **Neubewertung** entstanden sind, können nicht bearbeitet oder gelöscht werden.
+
+#### Zugriffseinstellungen je Person
+
+Für jede Person können Sie festlegen, welche Benutzer oder Gruppen Zugriff auf deren Qualifikationen haben. Öffnen Sie dazu das Qualifikationsprofil der Person und wechseln Sie in den Reiter **Zugriff**.
+Alternativ wählen Sie in der Übersicht **Personen** mehrere Personen aus und nutzen die Aktion **Zugriff festlegen**.
+
+Dabei legen Sie zwei Dinge fest:
+
+- **Öffentlich oder privat:** Eine öffentliche Person sehen alle Benutzer mit Zugriff auf die App. Eine private Person sehen nur die Person selbst, die eingetragenen Benutzer und Gruppen sowie Modul Admins und Administratoren.
+- **Berechtigungsstufe je Benutzer oder Gruppe:** **Zugriff** erlaubt es, eine private Person zu sehen. **Editieren** erlaubt zusätzlich, die Qualifikationen dieser Person zu ändern.
+
+| Berechtigung                                   | Nicht eingetragen | Zugriff | Editieren |
+| ---------------------------------------------- | ----------------- | ------- | --------- |
+| Öffentliche Person in Matrix und Verlauf sehen | ✅                | ✅      | ✅        |
+| Private Person in Matrix und Verlauf sehen     | ❌                | ✅      | ✅        |
+| Qualifikation für die Person erfassen          | ❌                | ❌      | ✅        |
+| Qualifikationsanforderung der Person entfernen | ❌                | ❌      | ✅        |
+| Der Person eine Aufgabe zuweisen               | ❌                | ❌      | ✅        |
+
+Die Tabelle gilt für Benutzer mit der Rolle **Standard**. Modul Admins und Administratoren haben immer vollen Zugriff. Bei einer öffentlichen Person macht die Stufe **Zugriff** keinen Unterschied, da öffentliche Personen ohnehin für alle sichtbar sind.
+Ohne einen Eintrag mit **Editieren** können nur Modul Admins und Administratoren Qualifikationen für die Person erfassen.
+
+Für private Personen gilt außerdem:
+
+- Die Person selbst sieht ihr eigenes Qualifikationsprofil immer, auch wenn sie nicht in den Zugriffseinstellungen eingetragen ist.
+- Der **Verantwortliche** einer Qualifikation erhält dadurch keinen zusätzlichen Zugriff.
+- In den Listen im Reiter **Personen** einer Qualifikation wird angezeigt, wie viele private Personen ausgeblendet sind.
+
+Die Zugriffseinstellungen einer Person können Administratoren, Modul Admins der App **Mitarbeiter**, der Benutzer, der die Person angelegt hat, und die Person selbst ändern.
+
 ## Einschränkungen und Limits der App Aufgaben und Qualifikationen
 
 ### Schulungen
