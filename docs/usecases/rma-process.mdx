@@ -1,0 +1,81 @@
+---
+title: RMA Prozess
+description: Dieses Dokument beschreibt den Return Merchandise Authorization (RMA)-Prozess für die Bearbeitung von Produktretouren und -austauschen.
+---
+
+- Kundendaten können synchronisiert werden, um eine nahtlose Bearbeitung von Reklamationen und RMA-Prozessen zu gewährleisten.
+- Auftragsdaten: Reicht eine Auftragsnummer? Muss alles per Hand ausgefüllt werden?
+- Wareneingang: Verknüpfung mit Artikeln und Menge?
+- Was muss die Reklamationsbearbeitung über RMAs wissen?
+- Bulk editing for RMA Article Entries
+- Action Buttons for connections
+- Gerechtfertigt mit aufnehmen
+- Freitextfelder für zusätzliche Kunden und Artikel
+
+## 1. Abgrenzung: RMA vs. Reklamationsmanagement
+
+```mermaid
+
+flowchart TB
+    A["Kundenanliegen"] --> B{"Art des Anliegens"}
+
+    B --> C["Kundenreklamation"]
+    B --> D["Rücksendung ohne Qualitätsmangel"]
+
+    C --> E["Reklamationsmanagement"]
+    E --> F["Erfassung und Bewertung"]
+    F --> G["Ursachenanalyse"]
+    G --> H["Korrekturmaßnahmen"]
+    H --> I["Wirksamkeitsprüfung"]
+    I --> J["Reklamation abschließen"]
+
+    D --> K["RMA-Abwicklung"]
+    K --> L["Rücksendung genehmigen"]
+    L --> M["Ware annehmen und prüfen"]
+    M --> N["Austausch, Reparatur oder Gutschrift"]
+
+    E -. "bei Warenrücksendung" .-> K
+
+    classDef quality fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    classDef logistics fill:#dcfce7,stroke:#16a34a,color:#14532d
+    class E,F,G,H,I,J quality
+    class K,L,M,N logistics
+
+```
+
+## 2. Prozessablauf einer Kundenreklamation mit optionaler RMA
+
+```mermaid
+
+flowchart TD
+    A(["Reklamation eingegangen"]) --> B["Reklamation registrieren"]
+    B --> C["Reklamation bewerten"]
+    C --> D["Sofortmaßnahmen festlegen"]
+    D --> E{"Ware zurückzusenden?"}
+
+    E -- "Nein" --> H["Ursachenanalyse"]
+    E -- "Ja" --> F["RMA eröffnen und Rücksendung freigeben"]
+    F --> G["Ware empfangen und prüfen"]
+    G --> H
+
+    H --> I{"Korrekturmaßnahme erforderlich?"}
+    I -- "Ja" --> J["Maßnahme planen und umsetzen"]
+    I -- "Nein" --> K["Begründung dokumentieren"]
+    J --> L["Wirksamkeit überprüfen"]
+    L --> M{"Wirksam?"}
+    M -- "Nein" --> H
+    M -- "Ja" --> N["Kunden informieren"]
+    K --> N
+    N --> O(["Reklamation abschließen"])
+
+    classDef startEnd fill:#e5e7eb,stroke:#4b5563,color:#111827
+    classDef complaint fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    classDef rma fill:#dcfce7,stroke:#16a34a,color:#14532d
+    classDef decision fill:#fef3c7,stroke:#d97706,color:#78350f
+
+    class A,O startEnd
+    class B,C,D,H,I,J,K,L,M,N complaint
+    class F,G rma
+    class E decision
+
+```
