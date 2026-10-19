@@ -25,7 +25,7 @@ if (!date || !/^\d{4}-\d{2}-\d{2}$/.test(date)) {
 
 const [year, month, day] = date.split("-");
 
-const outputDirectory = path.join("blog", year);
+const outputDirectory = path.join("blog-en", year);
 const outputFilename = `${month}-${day}-version-1_1_${patch}.mdx`;
 const outputPath = path.join(outputDirectory, outputFilename);
 
