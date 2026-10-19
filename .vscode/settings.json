@@ -22,5 +22,8 @@
     "magick": true,
     "identify": true,
     "fc-match": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
   }
 }

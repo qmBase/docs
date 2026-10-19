@@ -255,6 +255,18 @@ const config: Config = {
         authorsMapPath: "../blog/authors.yml",
       },
     ],
+
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        id: "english-release-notes",
+        path: "./blog-en",
+        routeBasePath: "blog/en",
+        blogTitle: "qmBase Release Notes – English",
+        onUntruncatedBlogPosts: "ignore",
+        authorsMapPath: "../blog/authors.yml",
+      },
+    ],
     "image-zoom",
   ],
 };
