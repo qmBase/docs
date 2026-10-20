@@ -58,6 +58,7 @@ const sidebars: SidebarsConfig = {
           link: { type: "generated-index" },
           items: [
             "apps/admin",
+            "apps/admin/audit-trail",
             "apps/admin/berechtigungen",
             "apps/admin/import",
             "apps/admin/import-user",
@@ -129,7 +130,6 @@ const sidebars: SidebarsConfig = {
       label: "FAQs",
       collapsed: true,
       items: [
-        "faqs/audit-trail",
         "faqs/smartViews",
         "faqs/supported-browsers",
         "faqs/faq-2",
