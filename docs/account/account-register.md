@@ -40,15 +40,25 @@ Wenn Sie nicht angemeldet sind landen Sie auf dem Seite zur Anmeldung. Am untere
 ![Register Seite](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-04-28%20Register.png)
 Auf dieser Seite werden Sie aufgefordert Ihre E-Mail Adresse und ein Passwort anzugeben. Nach der Registrierung müssen Sie auf die Bestätigungsmail warten.
 Dies dauert typischerweise nicht länger als 1 Minute.
-Sollten Sie über keine E-Mail Adresse verfügen können Sie auch über den markierten Link einen Account Anfragen. Ihr Administrator stellt Ihnen dann Zugangsdaten zur Verfügung, so dass Sie mit einem Nutzernamen und einer E-Mail Adresse qmBase nutzen können.
-Geben Sie hierzu bitte auf der dargestellten Seite Ihre Kontaktdaten an, so dass Sie identifiziert werden können.
-![Account anfragen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-04-28%20accountRequest.png)
-Bitte beachten Sie, dass diese Funktion ein optionales Feature ist und nicht immer zur Verfügung steht.
 
 #### Account bestätigen
 
 In der E-Mail befindet sich ein Link, mit dem Sie Ihren Account bestätigen. Somit wissen wir, dass Sie Zugriff auf die E-Mail Adresse haben und damit zu der E-Mail Adresse gehören.
 Nachdem Sie ihre E-Mail Adresse bestätigt haben, können Sie sich das erste Mal [anmelden](/docs/account/account-login).
+
+### Account anfragen
+
+:::info
+Bitte beachten Sie, dass diese Funktion ein optionales Feature ist und nicht immer zur Verfügung steht und durch den Administrator aktiviert werden muss.
+:::
+
+Sollten Sie über keine E-Mail Adresse verfügen können Sie auch über den markierten Link einen Account Anfragen. Ihr Administrator stellt Ihnen dann Zugangsdaten zur Verfügung, so dass Sie mit einem Nutzernamen und einer E-Mail Adresse qmBase nutzen können.
+Geben Sie hierzu bitte auf der dargestellten Seite Ihre Kontaktdaten an, so dass Sie identifiziert werden können.
+![Account anfragen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/Screenshot%202025-04-28%20accountRequest.png)
+
+Als nächster Schritt wird Ihr Administrator Ihre Anfrage prüfen und Ihnen die Zugangsdaten zukommen lassen. Danach können Sie sich mit Ihrem Nutzernamen und dem zugehörigen Passwort anmelden.
+Um Ihren Account langfristig besser verwalten zu können, sollten Sie nach der ersten Anmeldung Ihre E-Mail Adresse hinzufügen und verifizieren. Dies ermöglicht Ihnen, Ihr Passwort zurückzusetzen und wichtige Benachrichtigungen zu erhalten.
+Wie das funktioniert, erfahren Sie in unserem Abschnitt [E-Mail Adresse hinzufügen und verifizieren](/docs/account/profile).
 
 ## FAQS für Probleme bei der Registrierung
 
