@@ -79,12 +79,17 @@ Generell gilt für die Gestaltung der Kalendereinträge:
 - Audits und Schulungen werden mit Uhrzeit angezeigt, sofern das Ereignis nicht als ganztägig markiert ist.
 - Termine können in Ausnahmefällen doppelt erscheinen z.B. wenn Sie Verantwortlicher und Teilnehmer einer Schulung zugleich sind.
 
-## Wie ändere ich meine E-Mail-Adresse?
+## Ändern oder hinzufügen einer E-Mail Adresse zu Ihrem Profil
+
+Das Ändern oder Hinzufügen einer E-Mail Adresse zu Ihrem Profil erfolgt über den Bereich **Account Sicherheit** in Ihrem Profil.
+Sie können hier sowohl Ihre bestehende E-Mail Adresse ändern als auch eine neue hinzufügen. Die Bestätigung der neuen E-Mail Adresse ist nur möglich, wenn Sie bereits angemeldet sind.
+
+### Wie ändere ich meine E-Mail-Adresse?
 
 Die E-Mail Adresse zum Login können Sie in Ihrem Profil selbst ändern. Wechseln Sie dazu in Ihrem zu Profil > Account Sicherheit.
-Hier können Sie über einen Klick auf den Button **E-Mail ändern** Ihre E-Mail Adresse ändern.
+Hier können Sie über einen Klick auf den Button **E-Mail ändern** Ihre E-Mail Adresse ändern. Folgen Sie den Anweisungen, um die Änderung zu bestätigen.
 
-## Wie füge ich nachträglich eine E-Mail Adresse hinzu?
+### Wie füge ich nachträglich eine E-Mail Adresse hinzu?
 
 Wenn Sie sich bisher nur mit einem Nutzernamen ohne E-Mail Adresse angemeldet haben, dann können Sie hier auch Ihre erste E-Mail Adresse hinzufügen.
 Wechseln Sie dazu in Ihrem Profil zu **Account Sicherheit** und klicken Sie auf den Button **E-Mail hinzufügen**. Folgen Sie den Anweisungen, um Ihre E-Mail Adresse zu verifizieren.
