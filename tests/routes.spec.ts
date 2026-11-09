@@ -27,11 +27,4 @@ test.describe("Main Routes", () => {
     // Blog list page might not have an h1, but should have h2 for post titles
     await expect(page.locator("h1, h2").first()).toBeVisible();
   });
-
-  test("should navigate to the roadmap page", async ({ page }) => {
-    await page.goto("/roadmap");
-    await expect(page).toHaveURL(/\/roadmap/);
-    // Roadmap list page might not have an h1, but should have h2 for entries
-    await expect(page.locator("h1, h2").first()).toBeVisible();
-  });
 });

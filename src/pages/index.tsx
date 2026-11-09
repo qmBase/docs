@@ -1,3 +1,4 @@
+// oxlint-disable sort-keys
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
@@ -38,20 +39,6 @@ const features = [
           <FaRss /> Feed
         </a>
         .
-      </>
-    ),
-  },
-  {
-    title: (
-      <>
-        <Link to="/roadmap">Roadmap</Link>
-      </>
-    ),
-    imageUrl: "img/undraw_right_direction.svg",
-    description: (
-      <>
-        Ausblick auf unsere zukünftigen Entwicklungen und Planungen. Unsere Roadmap wird laufend aktualisiert und an
-        aktuelle Anforderungen angepasst.
       </>
     ),
   },

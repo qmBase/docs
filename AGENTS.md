@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This repository is the qmbase documentation site. It runs on Docusaurus and stores product documentation in `docs/`, blog posts in `blog/`, and roadmap material in `roadmap/`.
+This repository is the qmbase documentation site. It runs on Docusaurus and stores product documentation in `docs/`, blog posts in `blog/`.
 
 For repository-level AI constraints, see [.agents/README.md](.agents/README.md). For project setup and contributor expectations, see [README.md](README.md).
 
@@ -8,7 +8,7 @@ For repository-level AI constraints, see [.agents/README.md](.agents/README.md).
 
 - Prefer the existing documentation structure over creating new top-level sections.
 - Keep content in the same language/style as nearby pages; many docs are German-language product documentation.
-- Use the existing folder layout: `docs/` for product docs, `blog/` for release notes and articles, `roadmap/` for historical roadmap notes, and `docs/knownIssues/` for issue write-ups.
+- Use the existing folder layout: `docs/` for product docs, `blog/` for release notes and articles and `docs/knownIssues/` for issue write-ups.
 - For known issues, follow the naming pattern described in [README.md](README.md): ticket-based issues use `{id}.md`, internal tickets use `{id}_intern.md`.
 - If a term is product-specific or intentionally non-standard, add it to [project-words.txt](project-words.txt) rather than silently introducing an avoidable spelling error.
 
