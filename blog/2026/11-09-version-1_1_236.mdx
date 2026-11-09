@@ -1,0 +1,61 @@
+---
+title: Version 1.1.236
+authors:
+  - ppaehler
+  - vnefodov
+image: /img/v1_1_236.png
+tags:
+  [Allgemein, Aufgaben & Qualifikationen, Blog, Dokumentenmanagement, Ideenmanagement, Dashboards & Reportings, Wiki]
+draft: true
+---
+
+Mit Version _1.1.236_ haben wir die Benutzerfreundlichkeit weiter verbessert und neue Funktionen im Ideenmanagement hinzugefügt.
+{/* truncate */}
+
+## Allgemein
+
+- **Dateivorschau für Bilder:** Die Vorschau von Bildern in Anhängen wurde verbessert und im Design und Layout modernisiert.
+- **Auswahlfelder:** Auswahlfelder haben jetzt ein moderneres Design. Sie sind anwendungsweit einheitlich gestaltet und besser lesbar – auch im Dark Mode.
+
+## Aufgaben & Qualifikationen
+
+### Selbstzuweisung von Qualifikationen
+
+**Fehler bei Formularen als Nachweis behoben:** War für eine Qualifikation ein Formular als Nachweis hinterlegt, das kein Quiz ist, wurde es fälschlicherweise nicht als erfüllt erkannt, und die Qualifikation ließ sich nicht erfassen. Ein solches Formular gilt jetzt wie vorgesehen mit dem Absenden als erfüllt; ein Quiz muss weiterhin bestanden sein.
+Im Assistenten zur Selbstzuweisung erscheint ein solches Formular im Schritt „Erforderliche Formulare“ als **Ausgefüllt**.
+
+## Blog, Dokumentenmanagement und WIKI
+
+### Ordnerbaum
+
+**Ordnerbaum bleibt aktuell:** Der Ordnerbaum wird jetzt nach allen relevanten Aktionen, etwa dem Aktualisieren, Verschieben oder Löschen von Ordnern und Dokumenten, direkt aktualisiert und bleibt dadurch vollständig mit dem Hauptordnerbrowser synchronisiert.
+
+## Dashboards & Reportings
+
+### Ideenmanagement
+
+Zwei neue Diagramme wurden zur Auswertung des Ideenmanagements hinzugefügt.
+
+Das Diagramm „Anzahl aktiver Ideen pro Person“ zeigt, für wie viele aktive Ideen eine Person aktuell verantwortlich ist, aufgeschlüsselt nach dem jeweiligen Bearbeitungsstatus. Wählen Sie die gewünschte Rolle (Ersteller, Ideenkoordinator, Ideenmanager oder Prüfer) aus und verwenden Sie den Filter „Älter als“, um nur Ideen anzuzeigen, die sich seit mindestens einer bestimmten Anzahl von Tagen im aktuellen Status befinden.
+
+So erkennen Sie auf einen Blick, bei wem sich Ideen ansammeln und welche Ideen bereits zu lange unbearbeitet sind. Dadurch können Sie gezielt nachfassen oder Aufgaben neu verteilen, bevor Ideen im Prozess ins Stocken geraten.
+
+![Anzahl aktiver Ideen pro Person](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/number-of-active-ideas-per-person-chart.png)
+
+Das Diagramm „Älteste aktive Idee pro Person“ zeigt für jede Person, seit wie vielen Tagen sich ihre am längsten aktive Idee bereits im aktuellen Bearbeitungsstatus befindet. Dadurch werden Ideen, die besonders lange nicht weiterbearbeitet wurden, schnell sichtbar. Die Rollenauswahl und der Filter „Älter als“ funktionieren genauso wie im Diagramm „Anzahl aktiver Ideen pro Person“.
+
+![Älteste aktive Idee pro Person](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/longest-active-idea-per-person-chart.png)
+
+Verbesserte Benutzerfreundlichkeit: Die Diagramme in der Auswertung des Ideenmanagements sind jetzt übersichtlicher gestaltet. Ein Info-Symbol an jedem Diagramm erläutert, welche Bedeutung die einzelnen Statuswerte für die ausgewählte Rolle haben.
+
+[Info-Tooltip mit Erläuterungen zu den Statuswerten eines Diagramms](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/info-tooltip-explaining-the-statuses-of-a-chart.png)
+
+Personen ohne zugeordnete Ideen werden nicht mehr angezeigt. Außerdem können Sie einzelne Statuswerte durch Anklicken des entsprechenden Legendeneintrags ein- und ausblenden. Die Statusfarben wurden ebenfalls überarbeitet: Jeder Status hat jetzt eine eigene, dezente und gut unterscheidbare Farbe. So lassen sich beispielsweise die Statuswerte „Freigegeben“ und „Abgeschlossen“ auf einen Blick voneinander unterscheiden. Die Diagramme zur Arbeitslast orientieren sich jetzt außerdem an der Reihenfolge des Ideenworkflows.
+
+![Diagramme zur Arbeitslast in der Reihenfolge des Ideenworkflows](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/workload-charts-in-the-order-of-the-idea-workflow.png)
+
+## Ideenmanagement
+
+**Sichtbarkeit von Ideen:** Ideen bleiben jetzt auch dann noch sichtbar, wenn sie an den Absender zurückgeschickt wurden.
+Die Änderung im Programmablauf hilft dabei, dass sichtbare Ideen und deren Links nicht auf einmal ins Leere führen, wenn sie an den Absender zurückgeschickt wurden.
+Aufgrund vorhandener Filterfunktionen sollte die Sichtbarkeit von Ideen in der Praxis kaum zu Problemen führen, da Nutzer gezielt nach relevanten Ideen suchen können.
