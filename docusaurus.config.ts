@@ -90,11 +90,6 @@ const config: Config = {
         },
         { to: "blog", label: "Changelog", position: "left" },
         {
-          to: "roadmap",
-          label: "Roadmap",
-          position: "left",
-        },
-        {
           href: `${whiteLabel.accountBaseUrl}/account/findworkspace`,
           label: "Login",
           position: "right",
@@ -235,27 +230,6 @@ const config: Config = {
     ],
   ],
   plugins: [
-    [
-      "@docusaurus/plugin-content-blog",
-      {
-        /**
-         * Required for any multi-instance plugin
-         */
-        id: "roadmap",
-        /**
-         * URL route for the blog section of your site.
-         * *DO NOT* include a trailing slash.
-         */
-        routeBasePath: "roadmap",
-        /**
-         * Path to data on filesystem relative to site dir.
-         */
-        path: "./roadmap",
-        onUntruncatedBlogPosts: "ignore",
-        authorsMapPath: "../blog/authors.yml",
-      },
-    ],
-
     [
       "@docusaurus/plugin-content-blog",
       {
