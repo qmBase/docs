@@ -55,7 +55,7 @@ Qualifikationen können auf Teilnehmer einer Schulung übertragen werden, wenn f
 
 Sind alle Bedingungen erfüllt erscheint oberhalb der Schulung ein Banner mit einem Button zum Übertragen der Qualifikationen.
 
-Außerdem kann die Teilnahme an einer Schulung als Nachweis für die [Selbstzuweisung](/docs/apps/aufgaben-und-qualifikationen/qualifikationen#verknüpfungsbedingungen) einer Qualifikation dienen.
+Außerdem kann die Teilnahme an einer Schulung als Nachweis für die [Selbstzuweisung](/docs/apps/aufgaben-und-qualifikationen/qualifikationen#nachweise) einer Qualifikation dienen.
 
 {/*
 TODO: Fix edge cases
