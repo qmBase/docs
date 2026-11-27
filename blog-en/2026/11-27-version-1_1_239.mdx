@@ -13,12 +13,77 @@ draft: true
 
 ## General
 
-### Public REST Api - Private Preview
+### 🚀 Release Notes: Public REST API & OAuth 2.0 Authorization Server (Private Preview)
 
-This release adds a high demanded feature to release a Public REST Api. For now this feature is only available as a private preview. Please contact us if you are interested in gaining access [support@qmbase.com](mailto:support@qmbase.com).
-For now the REST Api supports the Authorization Code flow for authentication, which is the recommended method for securely obtaining access tokens.
-The resources that that are expose via public REST Api is limited to a subset of the available endpoints for now. We plan to expand the coverage in future releases.
-The existing coverage contains:
+We are thrilled to announce one of our most anticipated additions to the platform: the **qmBase Public REST API**, powered by a brand-new, enterprise-grade **OAuth 2.0 & OpenID Connect (OIDC) Authorization Server**.
 
-- User management endpoints
-- Task management endpoints
+Starting today, this capability is rolling out in **Private Preview**. It allows developers and partners to securely integrate third-party applications, automate workflows, and interact with qmBase programmatically—without ever sharing user passwords or compromising tenant boundaries.
+
+---
+
+#### ✨ Key Highlights
+
+- **Modern, Standards-Compliant Authentication**: Built on industry-standard OAuth 2.0 and OpenID Connect protocols.
+- **PKCE-Enforced Authorization Code Flow**: Implements the recommended Authorization Code flow with mandatory SHA-256 code challenge (PKCE) for robust, modern application security.
+- **Isolated Security Boundary**: Client registrations, grants, and token lifecycles are persisted in a dedicated authorization database, completely isolated from tenant business data.
+- **Transparent User Consent**: Users authenticate via their familiar qmBase login experience and explicitly review what requesting client applications can access before granting permissions.
+- **Initial API Coverage**: First-class REST endpoints for **User Management** and **Task Management**, with more endpoints arriving in upcoming releases.
+
+---
+
+#### 🔒 Enterprise-Grade Security Architecture
+
+Our new authorization server delivers the highest security standard for API integrations:
+
+- **Authorization Code Flow with PKCE (`S256`)**: Follows OAuth 2.0 best practices to prevent code interception and replay attacks across web, mobile, and desktop applications.
+- **Single-Use, Short-Lived Codes**: Authorization codes expire after 5 minutes and can be redeemed exactly once.
+- **Automated OIDC Discovery**: Standard discovery document (`/.well-known/openid-configuration`) and published JSON Web Key Sets (JWKS) enable clients to automatically discover endpoints and verify cryptographic token signatures.
+- **Seamless Key Rotation**: Automated key publication ensures uninterrupted token verification during cryptographic key lifecycle updates.
+- **Strict Client Validation**: Enforces exact redirect URI matching and validates client credentials before issuing tokens.
+
+---
+
+#### 📦 What’s in the Private Preview?
+
+The Public REST API launches with support for foundational workflows, with expanded endpoint coverage planned in future releases:
+
+| Resource Domain        | Supported Capabilities                                                              |
+| :--------------------- | :---------------------------------------------------------------------------------- |
+| **👥 User Management** | Query and manage user directory records, profile details, and account associations. |
+| **✅ Task Management** | Retrieve, assign, and update task workflows and status tracking across projects.    |
+
+---
+
+#### 🔄 How the Flow Works
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor User as End User
+    participant Client as Client Application
+    participant Auth as qmBase Auth Server
+    participant API as qmBase REST API
+
+    Client->>Auth: 1. Authorization Request (PKCE Challenge + Scopes)
+    Auth->>User: 2. Authenticate & Present Consent Screen
+    User->>Auth: 3. Approve requested scopes
+    Auth-->>Client: 4. Redirect with temporary Authorization Code
+    Client->>Auth: 5. Redeem Code + PKCE Verifier
+    Auth-->>Client: 6. Issue signed Identity & Access Tokens
+    Client->>API: 7. Authorized API Request (Bearer Token)
+    API-->>Client: 8. User / Task Data Response
+```
+
+---
+
+#### 🎟️ How to Get Early Access
+
+During the Private Preview period, access is available by request to ensure hands-on developer support and collect early feedback.
+
+- **Interested in building an integration?**  
+  Contact our developer support team at [**support@qmbase.com**](mailto:support@qmbase.com) with:
+  1. Your organization and use case.
+  2. The client application type (Web app, native app, CLI/service).
+  3. Desired redirect URIs and scopes.
+
+We will register your client credentials, provide you with API documentation, and help you get up and running!
