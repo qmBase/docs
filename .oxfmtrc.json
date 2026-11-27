@@ -4,6 +4,7 @@
   "trailingComma": "all",
   "singleQuote": false,
   "printWidth": 120,
+  "proseWrap": "always",
   "sortPackageJson": true,
   "ignorePatterns": ["build/**", "node_modules/**", "playwright-report/**", "coverage/**", ".docusaurus/**"],
   "endOfLine": "lf",

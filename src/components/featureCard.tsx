@@ -1,7 +1,6 @@
 import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import clsx from "clsx";
-import React from "react";
 import { FaWrench } from "react-icons/fa";
 
 import { AppInfo } from "../models/appInfo";
