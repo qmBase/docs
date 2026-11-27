@@ -9,7 +9,9 @@ keywords:
   - Auswahlfelder
 ---
 
-Die Suche begegnet Ihnen in qmBase an vielen Stellen: in der Navigationsleiste, über jeder Tabelle und in Auswahlfeldern. Auf dieser Seite erfahren Sie, wie die einzelnen Suchen funktionieren und wie Sie am schnellsten zum gewünschten Ergebnis kommen.
+Die Suche begegnet Ihnen in qmBase an vielen Stellen: in der Navigationsleiste, über jeder Tabelle und in
+Auswahlfeldern. Auf dieser Seite erfahren Sie, wie die einzelnen Suchen funktionieren und wie Sie am schnellsten zum
+gewünschten Ergebnis kommen.
 
 ## Überblick
 
@@ -23,20 +25,27 @@ Die Suche begegnet Ihnen in qmBase an vielen Stellen: in der Navigationsleiste, 
 
 ## Globale Suche
 
-Die globale Suche öffnen Sie jederzeit über das Suchsymbol in der Navigationsleiste oder mit der Tastenkombination <kbd>Strg</kbd>+<kbd>k</kbd>.
+Die globale Suche öffnen Sie jederzeit über das Suchsymbol in der Navigationsleiste oder mit der Tastenkombination
+<kbd>Strg</kbd>+<kbd>k</kbd>.
 
 Während Sie tippen, erhalten Sie zwei Arten von Ergebnissen:
 
-- **Apps und allgemeine Bereiche** wie Startseite, Einstellungen oder Profil. Ein Klick darauf bringt Sie direkt zur jeweiligen Seite. Apps werden dabei genauso gefunden wie in der [App-Suche](#app-suche), also auch über verwandte Begriffe und trotz kleiner Tippfehler.
-- **Einträge aus Ihren Apps**, z. B. Maßnahmen, Reklamationen, Dokumente oder Personen. Jeder Treffer zeigt seine ID und seine Schlagworte an.
+- **Apps und allgemeine Bereiche** wie Startseite, Einstellungen oder Profil. Ein Klick darauf bringt Sie direkt zur
+  jeweiligen Seite. Apps werden dabei genauso gefunden wie in der [App-Suche](#app-suche), also auch über verwandte
+  Begriffe und trotz kleiner Tippfehler.
+- **Einträge aus Ihren Apps**, z. B. Maßnahmen, Reklamationen, Dokumente oder Personen. Jeder Treffer zeigt seine ID und
+  seine Schlagworte an.
 
-Die Ergebnisse werden nach Relevanz sortiert. Dabei werden neben dem Titel auch passende Stichworte berücksichtigt, sodass die relevantesten Treffer oben stehen.
+Die Ergebnisse werden nach Relevanz sortiert. Dabei werden neben dem Titel auch passende Stichworte berücksichtigt,
+sodass die relevantesten Treffer oben stehen.
 
 ![Globale Suche](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/global-search-docs-demo.gif)
 
 ### Suche eingrenzen
 
-Möchten Sie nur in einer bestimmten App suchen, wählen Sie in der globalen Suche den Eintrag **Suche eingrenzen**. Wählen Sie anschließend die gewünschte App aus. Im Suchfeld erscheint dann z. B. `Ihre Daten / Dokumentenmanagement /`. Alle weiteren Eingaben werden nur noch in dieser App gesucht.
+Möchten Sie nur in einer bestimmten App suchen, wählen Sie in der globalen Suche den Eintrag **Suche eingrenzen**.
+Wählen Sie anschließend die gewünschte App aus. Im Suchfeld erscheint dann z. B. `Ihre Daten / Dokumentenmanagement /`.
+Alle weiteren Eingaben werden nur noch in dieser App gesucht.
 
 ![Suche auf eine App eingrenzen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/narrow-search-docs-demo.gif)
 
@@ -61,7 +70,10 @@ Die globale Suche durchsucht die folgenden Apps und Felder:
 | Wiki                   | ID, Titel, Titel der aktuellen Revision             |
 | Zielmanagement         | Titel                                               |
 
-In Apps mit Status, z. B. Maßnahmen, Reklamationen oder Audits, zeigt die globale Suche die Einträge an, die **offen** oder **in Bearbeitung** sind. So erhalten Sie vor allem die Treffer, an denen aktuell gearbeitet wird. Abgeschlossene Einträge sowie Einträge aus weiteren Apps finden Sie über das [Suchfeld der Tabelle](#suche-in-tabellen) in der jeweiligen App.
+In Apps mit Status, z. B. Maßnahmen, Reklamationen oder Audits, zeigt die globale Suche die Einträge an, die **offen**
+oder **in Bearbeitung** sind. So erhalten Sie vor allem die Treffer, an denen aktuell gearbeitet wird. Abgeschlossene
+Einträge sowie Einträge aus weiteren Apps finden Sie über das [Suchfeld der Tabelle](#suche-in-tabellen) in der
+jeweiligen App.
 
 ## Erweiterte Suche
 
@@ -69,13 +81,17 @@ Am unteren Rand der [globalen Suche](#globale-suche) finden Sie den Link **Erwei
 
 ![Link „Erweiterte Suche“ am unteren Rand der globalen Suche](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/advanced-search-docs-location.png)
 
-Er öffnet eine eigene Seite, auf der die Treffer der globalen Suche als Tabelle angezeigt werden. Dort sehen Sie zu jedem Treffer die Art des Eintrags, den Titel und die Schlagworte und können die Ergebnisse zusätzlich nach Schlagworten filtern.
+Er öffnet eine eigene Seite, auf der die Treffer der globalen Suche als Tabelle angezeigt werden. Dort sehen Sie zu
+jedem Treffer die Art des Eintrags, den Titel und die Schlagworte und können die Ergebnisse zusätzlich nach Schlagworten
+filtern.
 
 ![Seite „Erweiterte Suche“ mit Suchergebnissen als Tabelle](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/advanced-search-docs-page.png)
 
 ## App-Suche
 
-In der App-Übersicht der Seitenleiste können Sie gezielt nach einer App suchen. Neben dem App-Namen werden dabei auch passende Stichworte berücksichtigt. So finden Sie z. B. die App **Reklamationsmanagement** auch über verwandte Begriffe wie „Beschwerde“, „8D-Report“ oder „Mängelrüge“. Kleine Tippfehler werden toleriert.
+In der App-Übersicht der Seitenleiste können Sie gezielt nach einer App suchen. Neben dem App-Namen werden dabei auch
+passende Stichworte berücksichtigt. So finden Sie z. B. die App **Reklamationsmanagement** auch über verwandte Begriffe
+wie „Beschwerde“, „8D-Report“ oder „Mängelrüge“. Kleine Tippfehler werden toleriert.
 
 Die App-Suche funktioniert ähnlich wie die Suche nach Apps in der [globalen Suche](#globale-suche).
 
@@ -83,38 +99,53 @@ Die App-Suche funktioniert ähnlich wie die Suche nach Apps in der [globalen Suc
 
 ## Suche in Tabellen
 
-Über das Suchfeld oberhalb einer Tabelle durchsuchen Sie die Einträge der jeweiligen Liste. Die Suche berücksichtigt die Inhalte, die in der Tabelle angezeigt werden, und lässt sich mit den [Filtern](/docs/gettingStarted/common-features/#tabellen) der Tabelle kombinieren.
+Über das Suchfeld oberhalb einer Tabelle durchsuchen Sie die Einträge der jeweiligen Liste. Die Suche berücksichtigt die
+Inhalte, die in der Tabelle angezeigt werden, und lässt sich mit den
+[Filtern](/docs/gettingStarted/common-features/#tabellen) der Tabelle kombinieren.
 
 ![Suche in einer Tabelle](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/table-search-all-fields-docs-demo.gif)
 
 ### Durchsuchte Spalten festlegen
 
-In ausgewählten Tabellen, z. B. in der App **Mitarbeiter**, bestimmen die eingeblendeten Spalten, welche Felder durchsucht werden. Blenden Sie über die Sichtbarkeit der Spalten eine Spalte ein, wird sie in der Suche berücksichtigt. Ausgeblendete Spalten werden nicht durchsucht. So können Sie die Suche gezielt auf die für Sie relevanten Informationen eingrenzen.
+In ausgewählten Tabellen, z. B. in der App **Mitarbeiter**, bestimmen die eingeblendeten Spalten, welche Felder
+durchsucht werden. Blenden Sie über die Sichtbarkeit der Spalten eine Spalte ein, wird sie in der Suche berücksichtigt.
+Ausgeblendete Spalten werden nicht durchsucht. So können Sie die Suche gezielt auf die für Sie relevanten Informationen
+eingrenzen.
 
 ![Suche in der Tabelle berücksichtigt die eingeblendeten Spalten](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/table-search-with-search-field-docs-demo.gif)
 
 ## Suche in Auswahlfeldern
 
-Geben Sie in einem Auswahlfeld einen Suchbegriff ein, werden die passenden Einträge vorgeschlagen. Bei langen Listen werden weitere Einträge geladen, sobald Sie an das Ende der Liste scrollen.
+Geben Sie in einem Auswahlfeld einen Suchbegriff ein, werden die passenden Einträge vorgeschlagen. Bei langen Listen
+werden weitere Einträge geladen, sobald Sie an das Ende der Liste scrollen.
 
-Bei der Auswahl von Mitarbeitenden durchsucht die Suche neben dem Namen auch die Position und die Abteilung, die unter dem Namen angezeigt werden. Geben Sie z. B. eine Position ein, werden alle Mitarbeitenden mit dieser Position vorgeschlagen. So finden Sie die zuständige Person auch dann, wenn Sie nur ihre Rolle im Unternehmen kennen.
+Bei der Auswahl von Mitarbeitenden durchsucht die Suche neben dem Namen auch die Position und die Abteilung, die unter
+dem Namen angezeigt werden. Geben Sie z. B. eine Position ein, werden alle Mitarbeitenden mit dieser Position
+vorgeschlagen. So finden Sie die zuständige Person auch dann, wenn Sie nur ihre Rolle im Unternehmen kennen.
 
-Wie Vorschläge ermittelt werden, wenn nur Personen mit einer bestimmten Rolle zur Auswahl stehen, lesen Sie unter [Suchen von Personen](/docs/general/#suchen-von-personen).
+Wie Vorschläge ermittelt werden, wenn nur Personen mit einer bestimmten Rolle zur Auswahl stehen, lesen Sie unter
+[Suchen von Personen](/docs/general/#suchen-von-personen).
 
 ![Suche nach verantwortlichen Mitarbeitenden über die Position](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/search-responsible-employee-by-role.gif)
 
 ### Zuletzt ausgewählt
 
-Beim Öffnen eines Auswahlfelds werden bis zu drei Einträge, die Sie zuletzt in einem Auswahlfeld derselben Art ausgewählt haben, z. B. Personen oder Schlagworte, ganz oben unter **Zuletzt ausgewählt** angezeigt. Häufig verwendete Werte wählen Sie so mit einem Klick aus, ohne danach suchen zu müssen. Alle übrigen Einträge folgen darunter unter **Sonstige**. Geben Sie einen Suchbegriff ein, werden auch die zuletzt ausgewählten Einträge entsprechend gefiltert.
+Beim Öffnen eines Auswahlfelds werden bis zu drei Einträge, die Sie zuletzt in einem Auswahlfeld derselben Art
+ausgewählt haben, z. B. Personen oder Schlagworte, ganz oben unter **Zuletzt ausgewählt** angezeigt. Häufig verwendete
+Werte wählen Sie so mit einem Klick aus, ohne danach suchen zu müssen. Alle übrigen Einträge folgen darunter unter
+**Sonstige**. Geben Sie einen Suchbegriff ein, werden auch die zuletzt ausgewählten Einträge entsprechend gefiltert.
 
 ![Auswahlfeld mit zuletzt ausgewählten Einträgen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/selection-field-recently-selected.png)
 
 ### Neue Einträge erstellen
 
-In einigen Auswahlfeldern, z. B. für Schlagworte, Kostenstellen, Kostenkategorien und Verknüpfungskategorien, können Sie einen fehlenden Eintrag direkt erstellen. Geben Sie dazu den gewünschten Namen ein. Gibt es noch keinen Eintrag mit diesem Namen, erscheint ganz oben die Option **'Name' erstellen**, z. B. **'Marketing' erstellen**.
+In einigen Auswahlfeldern, z. B. für Schlagworte, Kostenstellen, Kostenkategorien und Verknüpfungskategorien, können Sie
+einen fehlenden Eintrag direkt erstellen. Geben Sie dazu den gewünschten Namen ein. Gibt es noch keinen Eintrag mit
+diesem Namen, erscheint ganz oben die Option **'Name' erstellen**, z. B. **'Marketing' erstellen**.
 
 ![Neuen Eintrag direkt im Auswahlfeld erstellen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/selection-field-create-entry.png)
 
 ## Zugriff
 
-Alle Suchen berücksichtigen Ihre Berechtigungen. Einträge, auf die Sie keinen Zugriff haben, werden in den Suchergebnissen nicht angezeigt.
+Alle Suchen berücksichtigen Ihre Berechtigungen. Einträge, auf die Sie keinen Zugriff haben, werden in den
+Suchergebnissen nicht angezeigt.

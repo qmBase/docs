@@ -29,6 +29,7 @@
     "capitalized-comments": "off",
     "one-var": "off",
     "no-console": "warn",
-    "oxc/no-optional-chaining": "off"
+    "oxc/no-optional-chaining": "off",
+    "id-length": "off"
   }
 }
