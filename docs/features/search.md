@@ -95,13 +95,25 @@ In ausgewählten Tabellen, z. B. in der App **Mitarbeiter**, bestimmen die einge
 
 ## Suche in Auswahlfeldern
 
-In Auswahlfeldern durchsucht die Suche neben dem Namen auch die zugehörigen Angaben, die in der Vorschlagsliste angezeigt werden.
+Geben Sie in einem Auswahlfeld einen Suchbegriff ein, werden die passenden Einträge vorgeschlagen. Bei langen Listen werden weitere Einträge geladen, sobald Sie an das Ende der Liste scrollen.
 
-**Beispiel:** Bei der Auswahl von Mitarbeitenden werden unter dem Namen die Position und die Abteilung angezeigt. Geben Sie z. B. eine Position ein, werden alle Mitarbeitenden mit dieser Position vorgeschlagen. So finden Sie die zuständige Person auch dann, wenn Sie nur ihre Rolle im Unternehmen kennen.
+Bei der Auswahl von Mitarbeitenden durchsucht die Suche neben dem Namen auch die Position und die Abteilung, die unter dem Namen angezeigt werden. Geben Sie z. B. eine Position ein, werden alle Mitarbeitenden mit dieser Position vorgeschlagen. So finden Sie die zuständige Person auch dann, wenn Sie nur ihre Rolle im Unternehmen kennen.
 
 Wie Vorschläge ermittelt werden, wenn nur Personen mit einer bestimmten Rolle zur Auswahl stehen, lesen Sie unter [Suchen von Personen](/docs/general/#suchen-von-personen).
 
 ![Suche nach verantwortlichen Mitarbeitenden über die Position](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/search-responsible-employee-by-role.gif)
+
+### Zuletzt ausgewählt
+
+Beim Öffnen eines Auswahlfelds werden bis zu drei Einträge, die Sie zuletzt in einem Auswahlfeld derselben Art ausgewählt haben, z. B. Personen oder Schlagworte, ganz oben unter **Zuletzt ausgewählt** angezeigt. Häufig verwendete Werte wählen Sie so mit einem Klick aus, ohne danach suchen zu müssen. Alle übrigen Einträge folgen darunter unter **Sonstige**. Geben Sie einen Suchbegriff ein, werden auch die zuletzt ausgewählten Einträge entsprechend gefiltert.
+
+![Auswahlfeld mit zuletzt ausgewählten Einträgen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/selection-field-recently-selected.png)
+
+### Neue Einträge erstellen
+
+In einigen Auswahlfeldern, z. B. für Schlagworte, Kostenstellen, Kostenkategorien und Verknüpfungskategorien, können Sie einen fehlenden Eintrag direkt erstellen. Geben Sie dazu den gewünschten Namen ein. Gibt es noch keinen Eintrag mit diesem Namen, erscheint ganz oben die Option **'Name' erstellen**, z. B. **'Marketing' erstellen**.
+
+![Neuen Eintrag direkt im Auswahlfeld erstellen](https://caqadmin.blob.core.windows.net/public-screenshots/manual-screenshots/selection-field-create-entry.png)
 
 ## Zugriff
 
